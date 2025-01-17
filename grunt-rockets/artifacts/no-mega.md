@@ -187,7 +187,7 @@
 * **Venusaur (Shadow)** using _Razor Leaf_ (76%)
 ----
 # Highest DPS by damage type
-All Pokemon are normalized to performance of Palkia (Shadow) using Dragon Tail
+All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tail
 
 
 ### Highest **bug** (🪲) fast move damage: 

@@ -46,7 +46,13 @@ const variants = [
     fileName: "regular-only",
     linkDescription: "Regular only (no shadow, mega, legendary, mythical)",
     options: {
-      excludedTags: new Set(["shadow", "mega", "legendary", "mythical"]),
+      excludedTags: new Set([
+        "shadow",
+        "mega",
+        "legendary",
+        "mythical",
+        "ultrabeast",
+      ]),
       ...baseOptions,
     },
   },

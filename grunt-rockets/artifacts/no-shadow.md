@@ -187,7 +187,7 @@
 * **Tsareena** using _Razor Leaf_ (70%)
 ----
 # Highest DPS by damage type
-All Pokemon are normalized to performance of Gardevoir (Mega) using Charm
+All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 
 
 ### Highest **bug** (🪲) fast move damage: 

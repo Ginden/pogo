@@ -187,7 +187,7 @@
 * **Decidueye** using _Razor Leaf_ (67%)
 ----
 # Highest DPS by damage type
-All Pokemon are normalized to performance of Kartana using Razor Leaf
+All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 
 ### Highest **bug** (🪲) fast move damage: 
