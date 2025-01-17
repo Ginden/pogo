@@ -155,15 +155,18 @@ export async function rocketFinder({
 
   write(`----`);
 
+  write(`# Highest DPS by damage type`);
+  const highestDpsPokemon = pokemonMoveVariant.sort((a, b) => a.dps - b.dps).reverse().shift()!;
+  write(`All Pokemon are normalized to neutral damage of ${highestDpsPokemon.speciesName} using ${highestDpsPokemon.fastAttack}`);
+
   for (const type of [...types].sort()) {
     const emoji = typeEmoji[type];
     write("\n");
-    write(`Highest **${type}** (${emoji}) fast move damage: `);
+    write(`### Highest **${type}** (${emoji}) fast move damage: `);
     write("\n");
-    const [highestDamageVariant] = bestOfType[type];
     for (const variant of bestOfType[type]) {
       write(
-        `* **${variant.speciesName}** using _${variant.fastAttack}_ (${percentOf(variant.dps, highestDamageVariant.dps)})`,
+        `* **${variant.speciesName}** using _${variant.fastAttack}_ (${percentOf(variant.dps, highestDpsPokemon.dps)})`,
       );
     }
   }

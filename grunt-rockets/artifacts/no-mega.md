@@ -186,33 +186,35 @@
 * **Shiftry (Shadow)** using _Razor Leaf_ (76%)
 * **Venusaur (Shadow)** using _Razor Leaf_ (76%)
 ----
+# Highest DPS by damage type
+All Pokemon are normalized to performance of Palkia (Shadow) using Dragon Tail
 
 
-Highest **bug** (🪲) fast move damage: 
+### Highest **bug** (🪲) fast move damage: 
 
 
-* **Pheromosa** using _Bug Bite_ (100%)
-* **Pinsir (Shadow)** using _Bug Bite_ (92%)
-* **Regigigas (Shadow)** using _Hidden Power (Bug)_ (91%)
-* **Escavalier (Shadow)** using _Bug Bite_ (86%)
-* **Armaldo (Shadow)** using _Struggle Bug_ (86%)
-* **Volcarona** using _Bug Bite_ (84%)
-* **Porygon-Z (Shadow)** using _Hidden Power (Bug)_ (84%)
+* **Pheromosa** using _Bug Bite_ (65%)
+* **Pinsir (Shadow)** using _Bug Bite_ (59%)
+* **Regigigas (Shadow)** using _Hidden Power (Bug)_ (59%)
+* **Escavalier (Shadow)** using _Bug Bite_ (56%)
+* **Armaldo (Shadow)** using _Struggle Bug_ (56%)
+* **Volcarona** using _Bug Bite_ (55%)
+* **Porygon-Z (Shadow)** using _Hidden Power (Bug)_ (55%)
 
 
-Highest **dark** (🌌) fast move damage: 
+### Highest **dark** (🌌) fast move damage: 
 
 
-* **Tyranitar (Shadow)** using _Bite_ (100%)
-* **Sharpedo (Shadow)** using _Bite_ (97%)
-* **Salamence (Shadow)** using _Bite_ (92%)
-* **Cacturne (Shadow)** using _Sucker Punch_ (89%)
-* **Gengar (Shadow)** using _Sucker Punch_ (86%)
-* **Hydreigon** using _Bite_ (85%)
-* **Tyranitar** using _Bite_ (83%)
+* **Tyranitar (Shadow)** using _Bite_ (83%)
+* **Sharpedo (Shadow)** using _Bite_ (81%)
+* **Salamence (Shadow)** using _Bite_ (76%)
+* **Cacturne (Shadow)** using _Sucker Punch_ (74%)
+* **Gengar (Shadow)** using _Sucker Punch_ (72%)
+* **Hydreigon** using _Bite_ (71%)
+* **Tyranitar** using _Bite_ (69%)
 
 
-Highest **dragon** (🐉) fast move damage: 
+### Highest **dragon** (🐉) fast move damage: 
 
 
 * **Palkia (Shadow)** using _Dragon Tail_ (100%)
@@ -224,181 +226,181 @@ Highest **dragon** (🐉) fast move damage:
 * **Dragonite (Shadow)** using _Dragon Breath_ (87%)
 
 
-Highest **electric** (⚡) fast move damage: 
+### Highest **electric** (⚡) fast move damage: 
 
 
-* **Manectric (Shadow)** using _Thunder Fang_ (100%)
-* **Arcanine (Shadow)** using _Thunder Fang_ (88%)
-* **Thundurus (Therian)** using _Volt Switch_ (84%)
-* **Raikou (Shadow)** using _Volt Switch_ (83%)
-* **Manectric** using _Thunder Fang_ (83%)
-* **Magnezone (Shadow)** using _Volt Switch_ (82%)
-* **Regigigas (Shadow)** using _Hidden Power (Electric)_ (82%)
+* **Manectric (Shadow)** using _Thunder Fang_ (72%)
+* **Arcanine (Shadow)** using _Thunder Fang_ (63%)
+* **Thundurus (Therian)** using _Volt Switch_ (61%)
+* **Raikou (Shadow)** using _Volt Switch_ (60%)
+* **Manectric** using _Thunder Fang_ (60%)
+* **Magnezone (Shadow)** using _Volt Switch_ (59%)
+* **Regigigas (Shadow)** using _Hidden Power (Electric)_ (59%)
 
 
-Highest **fairy** (🧚) fast move damage: 
+### Highest **fairy** (🧚) fast move damage: 
 
 
-* **Gardevoir (Shadow)** using _Charm_ (100%)
-* **Granbull (Shadow)** using _Charm_ (90%)
-* **Hatterene** using _Charm_ (83%)
-* **Gallade (Shadow)** using _Charm_ (83%)
-* **Gardevoir** using _Charm_ (83%)
-* **Primarina** using _Charm_ (82%)
-* **Latias (Shadow)** using _Charm_ (80%)
+* **Gardevoir (Shadow)** using _Charm_ (99%)
+* **Granbull (Shadow)** using _Charm_ (89%)
+* **Hatterene** using _Charm_ (82%)
+* **Gallade (Shadow)** using _Charm_ (82%)
+* **Gardevoir** using _Charm_ (82%)
+* **Primarina** using _Charm_ (80%)
+* **Latias (Shadow)** using _Charm_ (79%)
 
 
-Highest **fighting** (💪) fast move damage: 
+### Highest **fighting** (💪) fast move damage: 
 
 
-* **Conkeldurr (Shadow)** using _Counter_ (100%)
-* **Blaziken (Shadow)** using _Counter_ (99%)
-* **Machamp (Shadow)** using _Counter_ (97%)
-* **Mienshao** using _Force Palm_ (96%)
-* **Hariyama (Shadow)** using _Force Palm_ (94%)
-* **Alakazam (Shadow)** using _Counter_ (92%)
-* **Annihilape (Shadow)** using _Counter_ (91%)
+* **Conkeldurr (Shadow)** using _Counter_ (81%)
+* **Blaziken (Shadow)** using _Counter_ (80%)
+* **Machamp (Shadow)** using _Counter_ (78%)
+* **Mienshao** using _Force Palm_ (77%)
+* **Hariyama (Shadow)** using _Force Palm_ (76%)
+* **Alakazam (Shadow)** using _Counter_ (75%)
+* **Annihilape (Shadow)** using _Counter_ (74%)
 
 
-Highest **fire** (🔥) fast move damage: 
+### Highest **fire** (🔥) fast move damage: 
 
 
-* **Chandelure (Shadow)** using _Incinerate_ (100%)
-* **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
-* **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
-* **Blacephalon** using _Incinerate_ (96%)
-* **Chandelure (Shadow)** using _Fire Spin_ (92%)
-* **Ho-Oh (Shadow)** using _Incinerate_ (89%)
-* **Entei (Shadow)** using _Fire Fang_ (87%)
+* **Chandelure (Shadow)** using _Incinerate_ (89%)
+* **Darmanitan (Standard) (Shadow)** using _Incinerate_ (87%)
+* **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (87%)
+* **Blacephalon** using _Incinerate_ (86%)
+* **Chandelure (Shadow)** using _Fire Spin_ (82%)
+* **Ho-Oh (Shadow)** using _Incinerate_ (79%)
+* **Entei (Shadow)** using _Fire Fang_ (78%)
 
 
-Highest **flying** (🕊️) fast move damage: 
+### Highest **flying** (🕊️) fast move damage: 
 
 
-* **Staraptor (Shadow)** using _Gust_ (100%)
-* **Yveltal** using _Gust_ (89%)
-* **Tornadus (Therian)** using _Gust_ (85%)
-* **Staraptor** using _Gust_ (83%)
-* **Honchkrow (Shadow)** using _Peck_ (78%)
-* **Archeops (Shadow)** using _Wing Attack_ (77%)
-* **Ho-Oh (Shadow)** using _Hidden Power (Flying)_ (76%)
+* **Staraptor (Shadow)** using _Gust_ (78%)
+* **Yveltal** using _Gust_ (69%)
+* **Tornadus (Therian)** using _Gust_ (66%)
+* **Staraptor** using _Gust_ (65%)
+* **Honchkrow (Shadow)** using _Peck_ (61%)
+* **Archeops (Shadow)** using _Wing Attack_ (60%)
+* **Ho-Oh (Shadow)** using _Hidden Power (Flying)_ (60%)
 
 
-Highest **ghost** (👻) fast move damage: 
+### Highest **ghost** (👻) fast move damage: 
 
 
-* **Blacephalon** using _Astonish_ (100%)
-* **Haunter (Shadow)** using _Astonish_ (87%)
-* **Golurk (Shadow)** using _Astonish_ (86%)
-* **Dragapult** using _Astonish_ (85%)
-* **Hoopa** using _Astonish_ (84%)
-* **Hoopa (Unbound)** using _Astonish_ (82%)
-* **Cursola** using _Astonish_ (81%)
+* **Blacephalon** using _Astonish_ (86%)
+* **Haunter (Shadow)** using _Astonish_ (74%)
+* **Golurk (Shadow)** using _Astonish_ (74%)
+* **Dragapult** using _Astonish_ (73%)
+* **Hoopa** using _Astonish_ (72%)
+* **Hoopa (Unbound)** using _Astonish_ (71%)
+* **Cursola** using _Astonish_ (70%)
 
 
-Highest **grass** (🌱) fast move damage: 
+### Highest **grass** (🌱) fast move damage: 
 
 
-* **Kartana** using _Razor Leaf_ (100%)
-* **Victreebel (Shadow)** using _Razor Leaf_ (79%)
-* **Torterra (Shadow)** using _Razor Leaf_ (77%)
-* **Vileplume (Shadow)** using _Razor Leaf_ (77%)
+* **Kartana** using _Razor Leaf_ (99%)
+* **Victreebel (Shadow)** using _Razor Leaf_ (78%)
+* **Torterra (Shadow)** using _Razor Leaf_ (76%)
+* **Vileplume (Shadow)** using _Razor Leaf_ (76%)
 * **Roserade** using _Razor Leaf_ (76%)
 * **Shiftry (Shadow)** using _Razor Leaf_ (76%)
-* **Venusaur (Shadow)** using _Razor Leaf_ (76%)
+* **Venusaur (Shadow)** using _Razor Leaf_ (75%)
 
 
-Highest **ground** (🏜️) fast move damage: 
+### Highest **ground** (🏜️) fast move damage: 
 
 
-* **Excadrill (Shadow)** using _Mud Slap_ (100%)
-* **Mamoswine (Shadow)** using _Mud Slap_ (97%)
-* **Rhyperior (Shadow)** using _Mud Slap_ (95%)
-* **Golurk (Shadow)** using _Mud Slap_ (88%)
-* **Rhydon (Shadow)** using _Mud Slap_ (88%)
-* **Donphan (Shadow)** using _Mud Slap_ (85%)
-* **Golem (Shadow)** using _Mud Slap_ (84%)
+* **Excadrill (Shadow)** using _Mud Slap_ (84%)
+* **Mamoswine (Shadow)** using _Mud Slap_ (82%)
+* **Rhyperior (Shadow)** using _Mud Slap_ (80%)
+* **Golurk (Shadow)** using _Mud Slap_ (74%)
+* **Rhydon (Shadow)** using _Mud Slap_ (74%)
+* **Donphan (Shadow)** using _Mud Slap_ (72%)
+* **Golem (Shadow)** using _Mud Slap_ (71%)
 
 
-Highest **ice** (❄️) fast move damage: 
+### Highest **ice** (❄️) fast move damage: 
 
 
-* **Darmanitan (Galarian)** using _Ice Fang_ (100%)
-* **Baxcalibur** using _Ice Fang_ (97%)
-* **Weavile (Shadow)** using _Ice Shard_ (84%)
-* **Regigigas (Shadow)** using _Hidden Power (Ice)_ (81%)
-* **Zamazenta (Hero)** using _Ice Fang_ (81%)
-* **Glaceon** using _Frost Breath_ (80%)
-* **Feraligatr (Shadow)** using _Ice Fang_ (79%)
+* **Darmanitan (Galarian)** using _Ice Fang_ (72%)
+* **Baxcalibur** using _Ice Fang_ (70%)
+* **Weavile (Shadow)** using _Ice Shard_ (61%)
+* **Regigigas (Shadow)** using _Hidden Power (Ice)_ (59%)
+* **Zamazenta (Hero)** using _Ice Fang_ (58%)
+* **Glaceon** using _Frost Breath_ (58%)
+* **Feraligatr (Shadow)** using _Ice Fang_ (57%)
 
 
-Highest **normal** (⚪) fast move damage: 
+### Highest **normal** (⚪) fast move damage: 
 
 
-* **Ambipom (Shadow)** using _Scratch_ (100%)
-* **Ursaluna (Shadow)** using _Tackle_ (88%)
-* **Purugly (Shadow)** using _Scratch_ (85%)
-* **Ambipom** using _Scratch_ (83%)
-* **Rillaboom** using _Scratch_ (80%)
-* **Darmanitan (Standard) (Shadow)** using _Tackle_ (79%)
-* **Delphox** using _Scratch_ (77%)
+* **Ambipom (Shadow)** using _Scratch_ (69%)
+* **Ursaluna (Shadow)** using _Tackle_ (61%)
+* **Purugly (Shadow)** using _Scratch_ (59%)
+* **Ambipom** using _Scratch_ (57%)
+* **Rillaboom** using _Scratch_ (55%)
+* **Darmanitan (Standard) (Shadow)** using _Tackle_ (54%)
+* **Delphox** using _Scratch_ (53%)
 
 
-Highest **poison** (🐍) fast move damage: 
+### Highest **poison** (🐍) fast move damage: 
 
 
-* **Sneasler (Shadow)** using _Poison Jab_ (100%)
-* **Naganadel** using _Poison Jab_ (85%)
-* **Sneasler** using _Poison Jab_ (83%)
-* **Toxicroak (Shadow)** using _Poison Jab_ (82%)
-* **Nihilego** using _Poison Jab_ (80%)
-* **Nidoking (Shadow)** using _Poison Jab_ (80%)
-* **Scolipede (Shadow)** using _Poison Jab_ (80%)
+* **Sneasler (Shadow)** using _Poison Jab_ (75%)
+* **Naganadel** using _Poison Jab_ (63%)
+* **Sneasler** using _Poison Jab_ (63%)
+* **Toxicroak (Shadow)** using _Poison Jab_ (62%)
+* **Nihilego** using _Poison Jab_ (60%)
+* **Nidoking (Shadow)** using _Poison Jab_ (60%)
+* **Scolipede (Shadow)** using _Poison Jab_ (60%)
 
 
-Highest **psychic** (🔮) fast move damage: 
+### Highest **psychic** (🔮) fast move damage: 
 
 
-* **Mewtwo (Shadow)** using _Confusion_ (100%)
-* **Alakazam (Shadow)** using _Confusion_ (91%)
-* **Hoopa (Unbound)** using _Confusion_ (86%)
-* **Mewtwo** using _Confusion_ (83%)
-* **Gallade (Shadow)** using _Confusion_ (80%)
-* **Gardevoir (Shadow)** using _Confusion_ (80%)
-* **Exeggutor (Shadow)** using _Confusion_ (79%)
+* **Mewtwo (Shadow)** using _Confusion_ (99%)
+* **Alakazam (Shadow)** using _Confusion_ (89%)
+* **Hoopa (Unbound)** using _Confusion_ (85%)
+* **Mewtwo** using _Confusion_ (82%)
+* **Gallade (Shadow)** using _Confusion_ (79%)
+* **Gardevoir (Shadow)** using _Confusion_ (79%)
+* **Exeggutor (Shadow)** using _Confusion_ (78%)
 
 
-Highest **rock** (🪨) fast move damage: 
+### Highest **rock** (🪨) fast move damage: 
 
 
-* **Rampardos (Shadow)** using _Smack Down_ (100%)
-* **Tyranitar (Shadow)** using _Smack Down_ (86%)
-* **Rampardos** using _Smack Down_ (83%)
-* **Aerodactyl (Shadow)** using _Rock Throw_ (83%)
-* **Rhyperior (Shadow)** using _Smack Down_ (83%)
-* **Golem (Shadow)** using _Rock Throw_ (80%)
-* **Golem (Alolan) (Shadow)** using _Rock Throw_ (80%)
+* **Rampardos (Shadow)** using _Smack Down_ (89%)
+* **Tyranitar (Shadow)** using _Smack Down_ (76%)
+* **Rampardos** using _Smack Down_ (74%)
+* **Aerodactyl (Shadow)** using _Rock Throw_ (74%)
+* **Rhyperior (Shadow)** using _Smack Down_ (73%)
+* **Golem (Shadow)** using _Rock Throw_ (71%)
+* **Golem (Alolan) (Shadow)** using _Rock Throw_ (71%)
 
 
-Highest **steel** (🛡️) fast move damage: 
+### Highest **steel** (🛡️) fast move damage: 
 
 
-* **Archeops (Shadow)** using _Steel Wing_ (100%)
-* **Metagross (Shadow)** using _Bullet Punch_ (91%)
-* **Dragonite (Shadow)** using _Steel Wing_ (91%)
-* **Empoleon (Shadow)** using _Steel Wing_ (88%)
-* **Regigigas (Shadow)** using _Hidden Power (Steel)_ (84%)
-* **Scizor (Shadow)** using _Bullet Punch_ (84%)
-* **Archeops** using _Steel Wing_ (83%)
+* **Archeops (Shadow)** using _Steel Wing_ (70%)
+* **Metagross (Shadow)** using _Bullet Punch_ (64%)
+* **Dragonite (Shadow)** using _Steel Wing_ (63%)
+* **Empoleon (Shadow)** using _Steel Wing_ (62%)
+* **Regigigas (Shadow)** using _Hidden Power (Steel)_ (59%)
+* **Scizor (Shadow)** using _Bullet Punch_ (59%)
+* **Archeops** using _Steel Wing_ (58%)
 
 
-Highest **water** (💧) fast move damage: 
+### Highest **water** (💧) fast move damage: 
 
 
-* **Kyogre (Shadow)** using _Waterfall_ (100%)
-* **Sharpedo (Shadow)** using _Waterfall_ (90%)
-* **Gyarados (Shadow)** using _Waterfall_ (88%)
-* **Crawdaunt (Shadow)** using _Waterfall_ (84%)
-* **Kyogre** using _Waterfall_ (83%)
-* **Samurott (Shadow)** using _Waterfall_ (80%)
-* **Empoleon (Shadow)** using _Waterfall_ (79%)
+* **Kyogre (Shadow)** using _Waterfall_ (89%)
+* **Sharpedo (Shadow)** using _Waterfall_ (81%)
+* **Gyarados (Shadow)** using _Waterfall_ (79%)
+* **Crawdaunt (Shadow)** using _Waterfall_ (75%)
+* **Kyogre** using _Waterfall_ (74%)
+* **Samurott (Shadow)** using _Waterfall_ (71%)
+* **Empoleon (Shadow)** using _Waterfall_ (70%)
