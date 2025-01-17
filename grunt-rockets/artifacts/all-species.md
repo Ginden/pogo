@@ -156,7 +156,7 @@
 * **Gengar (Mega)** using _Sucker Punch_ (92%)
 * **Salamence (Shadow)** using _Bite_ (89%)
 
-# Anti-Rock 
+# Anti-Rock 🪨
 
 * **Kartana** using _Razor Leaf_ (100%)
 * **Kyogre (Primal)** using _Waterfall_ (97%)
@@ -368,7 +368,7 @@ Highest **psychic** (🔮) fast move damage:
 * **Mewtwo** using _Confusion_ (82%)
 
 
-Highest **rock** () fast move damage: 
+Highest **rock** (🪨) fast move damage: 
 
 
 * **Diancie (Mega)** using _Rock Throw_ (100%)

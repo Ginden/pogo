@@ -156,7 +156,7 @@
 * **Tyranitar** using _Bite_ (81%)
 * **Polteageist** using _Astonish_ (80%)
 
-# Anti-Rock 
+# Anti-Rock 🪨
 
 * **Kartana** using _Razor Leaf_ (100%)
 * **Mienshao** using _Force Palm_ (78%)
@@ -368,7 +368,7 @@ Highest **psychic** (🔮) fast move damage:
 * **Kadabra** using _Confusion_ (86%)
 
 
-Highest **rock** () fast move damage: 
+Highest **rock** (🪨) fast move damage: 
 
 
 * **Rampardos** using _Smack Down_ (100%)

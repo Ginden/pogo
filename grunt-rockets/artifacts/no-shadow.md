@@ -156,7 +156,7 @@
 * **Hoopa** using _Astonish_ (84%)
 * **Gengar (Mega)** using _Shadow Claw_ (83%)
 
-# Anti-Rock 
+# Anti-Rock 🪨
 
 * **Kartana** using _Razor Leaf_ (100%)
 * **Kyogre (Primal)** using _Waterfall_ (97%)
@@ -368,7 +368,7 @@ Highest **psychic** (🔮) fast move damage:
 * **Azelf** using _Confusion_ (75%)
 
 
-Highest **rock** () fast move damage: 
+Highest **rock** (🪨) fast move damage: 
 
 
 * **Diancie (Mega)** using _Rock Throw_ (100%)

@@ -156,7 +156,7 @@
 * **Cursola** using _Astonish_ (81%)
 * **Gholdengo** using _Astonish_ (81%)
 
-# Anti-Rock 
+# Anti-Rock 🪨
 
 * **Kartana** using _Razor Leaf_ (100%)
 * **Mienshao** using _Force Palm_ (78%)
@@ -368,7 +368,7 @@ Highest **psychic** (🔮) fast move damage:
 * **Tapu Lele** using _Confusion_ (84%)
 
 
-Highest **rock** () fast move damage: 
+Highest **rock** (🪨) fast move damage: 
 
 
 * **Rampardos** using _Smack Down_ (100%)

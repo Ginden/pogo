@@ -6,7 +6,7 @@ export const typeEmoji: Record<PokemonType, string> = {
   flying: "🕊️",
   poison: "🐍",
   ground: "🏜️",
-  rock: "",
+  rock: "🪨",
   bug: "🪲",
   ghost: "👻",
   steel: "🛡️",

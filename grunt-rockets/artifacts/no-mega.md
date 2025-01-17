@@ -156,7 +156,7 @@
 * **Golurk (Shadow)** using _Astonish_ (86%)
 * **Cacturne (Shadow)** using _Sucker Punch_ (86%)
 
-# Anti-Rock 
+# Anti-Rock 🪨
 
 * **Kartana** using _Razor Leaf_ (100%)
 * **Kyogre (Shadow)** using _Waterfall_ (90%)
@@ -368,7 +368,7 @@ Highest **psychic** (🔮) fast move damage:
 * **Exeggutor (Shadow)** using _Confusion_ (79%)
 
 
-Highest **rock** () fast move damage: 
+Highest **rock** (🪨) fast move damage: 
 
 
 * **Rampardos (Shadow)** using _Smack Down_ (100%)
