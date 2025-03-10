@@ -21,10 +21,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
-          curl -sL "https://example.com/public.json" -o data.json
-          jq -S . data.json > sorted.json && mv sorted.json data.json
+          curl -sL "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gamemaster.json" -o gamemaster.json
+          jq -S . gamemaster.json > sorted.json && mv sorted.json gamemaster.json
           
-          git add data.json
+          git add gamemaster.json
           if ! git diff --cached --quiet; then
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
