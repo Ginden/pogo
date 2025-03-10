@@ -1,0 +1,33 @@
+name: Update gamemaster.json
+
+on:
+#  schedule:
+#    - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ github.token }}
+
+      - name: Download, process, and commit if changed
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          curl -sL "https://example.com/public.json" -o data.json
+          jq -S . data.json > sorted.json && mv sorted.json data.json
+          
+          git add data.json
+          if ! git diff --cached --quiet; then
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "Auto-update sorted JSON"
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:$(git rev-parse --abbrev-ref HEAD)
+          fi
