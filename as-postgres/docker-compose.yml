@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: pogo
+      POSTGRES_PASSWORD: pogo
+      POSTGRES_DB: pogo
+    ports:
+      - "127.0.0.1:25432:5432"
