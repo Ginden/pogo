@@ -7,10 +7,27 @@ import fs from "node:fs/promises";
 import { GameMaster, GameMasterPokemon } from "./types";
 import { pick } from "lodash-es";
 
-const gamemasterPath = path.join(tmpdir(), "gamemaster.json");
+const repoGameMasterPath = path.join(
+    path.dirname(fileURLToPath(import.meta.url)),
+    '..',
+    '..',
+    'gamemaster.json',
+);
+
+const tmpGamemasterPath = path.join(tmpdir(), "gamemaster.json");
+
+const pathsToTest = [tmpGamemasterPath, repoGameMasterPath];
+
 
 export async function getGameMaster(): Promise<GameMaster> {
-  return JSON.parse(await fs.readFile(gamemasterPath, "utf-8"));
+    for (const path of pathsToTest) {
+        try {
+            return JSON.parse(await fs.readFile(path, "utf-8"));
+        } catch (e) {
+            console.warn(`Failed to read GameMaster from ${path}: ${e}`);
+        }
+    }
+    throw new Error(`Failed to read GameMaster from any of ${pathsToTest}`);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
@@ -45,6 +62,6 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     ),
   };
 
-  await fs.writeFile(gamemasterPath, JSON.stringify(ret, null, 1));
-  console.log(`GameMaster written to ${gamemasterPath}`);
+  await fs.writeFile(tmpGamemasterPath, JSON.stringify(ret, null, 1));
+  console.log(`GameMaster written to ${tmpGamemasterPath}`);
 }

@@ -1,8 +1,8 @@
-name: Update gamemaster.json
+name: Regenerate grunt-rockets.json
 
 on:
   schedule:
-    - cron: '0 2 * * 3' # Run every Wednesday at 2:00 AM
+    - cron: '0 4 * * 3' # Run every Wednesday at 4:00 AM
   workflow_dispatch:
 
 permissions:
@@ -16,18 +16,22 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ github.token }}
-
-      - name: Download, process, and commit if changed
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild MD files
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
-          curl -sL "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gamemaster.json" -o gamemaster.json
-          jq -S . gamemaster.json > sorted.json && mv sorted.json gamemaster.json
+          cd grunt-rockets;
+          npm ci;
+          npm run build;
+          npm run generate-artifacts;
+          git add artifacts;
           
-          git add gamemaster.json
           if ! git diff --cached --quiet; then
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
-            git commit -m "Auto-update sorted JSON"
+            git commit -m "Auto-update Rocket Grunts"
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:$(git rev-parse --abbrev-ref HEAD)
           fi
