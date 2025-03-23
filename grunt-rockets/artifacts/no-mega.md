@@ -2,7 +2,7 @@
 
 * **Excluded tags**: mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-01-17
+* **Date generated**: 2025-03-23
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -34,7 +34,7 @@
 * **Dragonite (Shadow)** using _Dragon Tail_ (94%)
 * **Garchomp (Shadow)** using _Dragon Tail_ (94%)
 * **Palkia (Shadow)** using _Dragon Breath_ (92%)
-* **Granbull (Shadow)** using _Charm_ (89%)
+* **Kyurem (Black)** using _Dragon Tail_ (92%)
 
 # Anti-Electric ⚡
 
@@ -79,12 +79,12 @@
 # Anti-Flying 🕊️
 
 * **Rampardos (Shadow)** using _Smack Down_ (100%)
+* **Kyurem (White)** using _Ice Fang_ (95%)
 * **Tyranitar (Shadow)** using _Smack Down_ (86%)
 * **Rampardos** using _Smack Down_ (83%)
 * **Aerodactyl (Shadow)** using _Rock Throw_ (83%)
 * **Rhyperior (Shadow)** using _Smack Down_ (83%)
 * **Darmanitan (Galarian)** using _Ice Fang_ (81%)
-* **Manectric (Shadow)** using _Thunder Fang_ (81%)
 
 # Anti-Ghost 👻
 
@@ -102,19 +102,19 @@
 * **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
 * **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
 * **Blacephalon** using _Incinerate_ (96%)
+* **Kyurem (White)** using _Ice Fang_ (95%)
 * **Chandelure (Shadow)** using _Fire Spin_ (92%)
 * **Ho-Oh (Shadow)** using _Incinerate_ (89%)
-* **Entei (Shadow)** using _Fire Fang_ (87%)
 
 # Anti-Ground 🏜️
 
 * **Kartana** using _Razor Leaf_ (100%)
 * **Kyogre (Shadow)** using _Waterfall_ (90%)
+* **Kyurem (White)** using _Ice Fang_ (85%)
 * **Sharpedo (Shadow)** using _Waterfall_ (81%)
 * **Gyarados (Shadow)** using _Waterfall_ (80%)
 * **Victreebel (Shadow)** using _Razor Leaf_ (79%)
 * **Torterra (Shadow)** using _Razor Leaf_ (77%)
-* **Vileplume (Shadow)** using _Razor Leaf_ (77%)
 
 # Anti-Ice ❄️
 
@@ -222,8 +222,8 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 * **Dragonite (Shadow)** using _Dragon Tail_ (94%)
 * **Garchomp (Shadow)** using _Dragon Tail_ (94%)
 * **Palkia (Shadow)** using _Dragon Breath_ (92%)
+* **Kyurem (Black)** using _Dragon Tail_ (92%)
 * **Latios (Shadow)** using _Dragon Breath_ (89%)
-* **Dragonite (Shadow)** using _Dragon Breath_ (87%)
 
 
 ### Highest **electric** (⚡) fast move damage: 
@@ -325,13 +325,13 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 ### Highest **ice** (❄️) fast move damage: 
 
 
+* **Kyurem (White)** using _Ice Fang_ (85%)
 * **Darmanitan (Galarian)** using _Ice Fang_ (72%)
 * **Baxcalibur** using _Ice Fang_ (70%)
 * **Weavile (Shadow)** using _Ice Shard_ (61%)
 * **Regigigas (Shadow)** using _Hidden Power (Ice)_ (59%)
 * **Zamazenta (Hero)** using _Ice Fang_ (58%)
 * **Glaceon** using _Frost Breath_ (58%)
-* **Feraligatr (Shadow)** using _Ice Fang_ (57%)
 
 
 ### Highest **normal** (⚪) fast move damage: 
@@ -388,10 +388,10 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 * **Archeops (Shadow)** using _Steel Wing_ (70%)
 * **Metagross (Shadow)** using _Bullet Punch_ (64%)
 * **Dragonite (Shadow)** using _Steel Wing_ (63%)
+* **Kyurem (White)** using _Steel Wing_ (62%)
 * **Empoleon (Shadow)** using _Steel Wing_ (62%)
 * **Regigigas (Shadow)** using _Hidden Power (Steel)_ (59%)
 * **Scizor (Shadow)** using _Bullet Punch_ (59%)
-* **Archeops** using _Steel Wing_ (58%)
 
 
 ### Highest **water** (💧) fast move damage: 

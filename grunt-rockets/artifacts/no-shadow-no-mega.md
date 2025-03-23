@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-01-17
+* **Date generated**: 2025-03-23
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -28,13 +28,13 @@
 
 # Anti-Dragon 🐉
 
-* **Palkia (Origin)** using _Dragon Tail_ (100%)
-* **Haxorus** using _Dragon Tail_ (99%)
-* **Rayquaza** using _Dragon Tail_ (99%)
-* **Palkia** using _Dragon Tail_ (98%)
-* **Salamence** using _Dragon Tail_ (97%)
-* **Hatterene** using _Charm_ (97%)
-* **Gardevoir** using _Charm_ (97%)
+* **Kyurem (Black)** using _Dragon Tail_ (100%)
+* **Palkia (Origin)** using _Dragon Tail_ (93%)
+* **Kyurem (White)** using _Ice Fang_ (92%)
+* **Kyurem (White)** using _Dragon Breath_ (92%)
+* **Haxorus** using _Dragon Tail_ (92%)
+* **Rayquaza** using _Dragon Tail_ (92%)
+* **Palkia** using _Dragon Tail_ (91%)
 
 # Anti-Electric ⚡
 
@@ -51,10 +51,10 @@
 * **Naganadel** using _Poison Jab_ (100%)
 * **Sneasler** using _Poison Jab_ (99%)
 * **Kartana** using _Razor Leaf_ (98%)
+* **Kyurem (White)** using _Steel Wing_ (97%)
 * **Nihilego** using _Poison Jab_ (95%)
 * **Roserade** using _Poison Jab_ (93%)
 * **Archeops** using _Steel Wing_ (92%)
-* **Revavroom** using _Poison Jab_ (88%)
 
 # Anti-Fighting 💪
 
@@ -78,13 +78,13 @@
 
 # Anti-Flying 🕊️
 
-* **Rampardos** using _Smack Down_ (100%)
-* **Darmanitan (Galarian)** using _Ice Fang_ (98%)
-* **Baxcalibur** using _Ice Fang_ (95%)
-* **Terrakion** using _Smack Down_ (89%)
-* **Lycanroc (Dusk)** using _Rock Throw_ (88%)
-* **Lycanroc (Midday)** using _Rock Throw_ (87%)
-* **Tyranitar** using _Smack Down_ (86%)
+* **Kyurem (White)** using _Ice Fang_ (100%)
+* **Rampardos** using _Smack Down_ (87%)
+* **Darmanitan (Galarian)** using _Ice Fang_ (86%)
+* **Baxcalibur** using _Ice Fang_ (83%)
+* **Terrakion** using _Smack Down_ (78%)
+* **Lycanroc (Dusk)** using _Rock Throw_ (77%)
+* **Lycanroc (Midday)** using _Rock Throw_ (76%)
 
 # Anti-Ghost 👻
 
@@ -99,22 +99,22 @@
 # Anti-Grass 🌱
 
 * **Blacephalon** using _Incinerate_ (100%)
+* **Kyurem (White)** using _Ice Fang_ (98%)
 * **Reshiram** using _Fire Fang_ (88%)
 * **Chandelure** using _Incinerate_ (87%)
 * **Darmanitan (Standard)** using _Incinerate_ (84%)
 * **Darmanitan (Standard)** using _Fire Fang_ (84%)
 * **Darmanitan (Galarian)** using _Ice Fang_ (84%)
-* **Baxcalibur** using _Ice Fang_ (82%)
 
 # Anti-Ground 🏜️
 
 * **Kartana** using _Razor Leaf_ (100%)
+* **Kyurem (White)** using _Ice Fang_ (85%)
 * **Roserade** using _Razor Leaf_ (76%)
 * **Rillaboom** using _Razor Leaf_ (75%)
 * **Kyogre** using _Waterfall_ (75%)
 * **Darmanitan (Galarian)** using _Ice Fang_ (73%)
 * **Baxcalibur** using _Ice Fang_ (71%)
-* **Tsareena** using _Razor Leaf_ (70%)
 
 # Anti-Ice ❄️
 
@@ -217,13 +217,13 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 ### Highest **dragon** (🐉) fast move damage: 
 
 
+* **Kyurem (Black)** using _Dragon Tail_ (93%)
 * **Palkia (Origin)** using _Dragon Tail_ (86%)
+* **Kyurem (White)** using _Dragon Breath_ (85%)
 * **Haxorus** using _Dragon Tail_ (85%)
 * **Rayquaza** using _Dragon Tail_ (85%)
 * **Palkia** using _Dragon Tail_ (84%)
 * **Salamence** using _Dragon Tail_ (83%)
-* **Dragapult** using _Dragon Tail_ (80%)
-* **Dragonite** using _Dragon Tail_ (79%)
 
 
 ### Highest **electric** (⚡) fast move damage: 
@@ -247,7 +247,7 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 * **Togekiss** using _Charm_ (79%)
 * **Granbull** using _Charm_ (75%)
 * **Sylveon** using _Charm_ (72%)
-* **Gallade** using _Charm_ (69%)
+* **Ribombee** using _Charm_ (70%)
 
 
 ### Highest **fighting** (💪) fast move damage: 
@@ -325,13 +325,13 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 ### Highest **ice** (❄️) fast move damage: 
 
 
+* **Kyurem (White)** using _Ice Fang_ (85%)
 * **Darmanitan (Galarian)** using _Ice Fang_ (73%)
 * **Baxcalibur** using _Ice Fang_ (71%)
 * **Zamazenta (Hero)** using _Ice Fang_ (59%)
 * **Glaceon** using _Frost Breath_ (58%)
 * **Avalugg** using _Ice Fang_ (56%)
 * **Jynx** using _Frost Breath_ (55%)
-* **Vanilluxe** using _Frost Breath_ (54%)
 
 
 ### Highest **normal** (⚪) fast move damage: 
@@ -385,13 +385,13 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 ### Highest **steel** (🛡️) fast move damage: 
 
 
+* **Kyurem (White)** using _Steel Wing_ (62%)
 * **Archeops** using _Steel Wing_ (59%)
 * **Metagross** using _Bullet Punch_ (54%)
 * **Dragonite** using _Steel Wing_ (53%)
 * **Empoleon** using _Steel Wing_ (52%)
 * **Kyurem** using _Steel Wing_ (50%)
 * **Regigigas** using _Hidden Power (Steel)_ (50%)
-* **Lucario** using _Bullet Punch_ (50%)
 
 
 ### Highest **water** (💧) fast move damage: 

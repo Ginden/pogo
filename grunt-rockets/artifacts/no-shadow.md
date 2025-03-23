@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow
 * **Exclude unreleased**: true
-* **Date generated**: 2025-01-17
+* **Date generated**: 2025-03-23
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -32,9 +32,9 @@
 * **Rayquaza (Mega)** using _Dragon Tail_ (100%)
 * **Garchomp (Mega)** using _Dragon Tail_ (90%)
 * **Gallade (Mega)** using _Charm_ (83%)
+* **Kyurem (Black)** using _Dragon Tail_ (83%)
 * **Salamence (Mega)** using _Dragon Tail_ (83%)
 * **Latios (Mega)** using _Dragon Breath_ (82%)
-* **Groudon (Primal)** using _Dragon Tail_ (78%)
 
 # Anti-Electric ⚡
 
@@ -79,12 +79,12 @@
 # Anti-Flying 🕊️
 
 * **Diancie (Mega)** using _Rock Throw_ (100%)
+* **Kyurem (White)** using _Ice Fang_ (91%)
 * **Aerodactyl (Mega)** using _Rock Throw_ (86%)
 * **Manectric (Mega)** using _Thunder Fang_ (84%)
 * **Tyranitar (Mega)** using _Smack Down_ (83%)
 * **Rampardos** using _Smack Down_ (80%)
 * **Darmanitan (Galarian)** using _Ice Fang_ (78%)
-* **Baxcalibur** using _Ice Fang_ (75%)
 
 # Anti-Ghost 👻
 
@@ -99,22 +99,22 @@
 # Anti-Grass 🌱
 
 * **Blacephalon** using _Incinerate_ (100%)
+* **Kyurem (White)** using _Ice Fang_ (98%)
 * **Blaziken (Mega)** using _Fire Spin_ (96%)
 * **Charizard (Mega Y)** using _Fire Spin_ (93%)
 * **Houndoom (Mega)** using _Fire Fang_ (92%)
 * **Pidgeot (Mega)** using _Gust_ (89%)
 * **Rayquaza (Mega)** using _Air Slash_ (89%)
-* **Charizard (Mega Y)** using _Ember_ (89%)
 
 # Anti-Ground 🏜️
 
 * **Kartana** using _Razor Leaf_ (100%)
 * **Kyogre (Primal)** using _Waterfall_ (97%)
+* **Kyurem (White)** using _Ice Fang_ (85%)
 * **Gyarados (Mega)** using _Waterfall_ (81%)
 * **Roserade** using _Razor Leaf_ (76%)
 * **Venusaur (Mega)** using _Razor Leaf_ (76%)
 * **Abomasnow (Mega)** using _Razor Leaf_ (75%)
-* **Rillaboom** using _Razor Leaf_ (75%)
 
 # Anti-Ice ❄️
 
@@ -219,11 +219,11 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 
 * **Rayquaza (Mega)** using _Dragon Tail_ (100%)
 * **Garchomp (Mega)** using _Dragon Tail_ (90%)
+* **Kyurem (Black)** using _Dragon Tail_ (83%)
 * **Salamence (Mega)** using _Dragon Tail_ (83%)
 * **Latios (Mega)** using _Dragon Breath_ (82%)
 * **Groudon (Primal)** using _Dragon Tail_ (78%)
 * **Palkia (Origin)** using _Dragon Tail_ (76%)
-* **Haxorus** using _Dragon Tail_ (76%)
 
 
 ### Highest **electric** (⚡) fast move damage: 
@@ -325,13 +325,13 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 ### Highest **ice** (❄️) fast move damage: 
 
 
+* **Kyurem (White)** using _Ice Fang_ (76%)
 * **Darmanitan (Galarian)** using _Ice Fang_ (65%)
 * **Baxcalibur** using _Ice Fang_ (63%)
 * **Glalie (Mega)** using _Frost Breath_ (55%)
 * **Zamazenta (Hero)** using _Ice Fang_ (53%)
 * **Glaceon** using _Frost Breath_ (52%)
 * **Avalugg** using _Ice Fang_ (50%)
-* **Jynx** using _Frost Breath_ (49%)
 
 
 ### Highest **normal** (⚪) fast move damage: 
@@ -386,12 +386,12 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 
 
 * **Lucario (Mega)** using _Bullet Punch_ (57%)
+* **Kyurem (White)** using _Steel Wing_ (56%)
 * **Tyranitar (Mega)** using _Iron Tail_ (53%)
 * **Archeops** using _Steel Wing_ (53%)
 * **Aerodactyl (Mega)** using _Steel Wing_ (53%)
 * **Scizor (Mega)** using _Bullet Punch_ (52%)
 * **Aggron (Mega)** using _Iron Tail_ (51%)
-* **Pidgeot (Mega)** using _Steel Wing_ (50%)
 
 
 ### Highest **water** (💧) fast move damage: 

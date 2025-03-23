@@ -2,7 +2,7 @@
 
 * **Excluded tags**: none
 * **Exclude unreleased**: true
-* **Date generated**: 2025-01-17
+* **Date generated**: 2025-03-23
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -80,11 +80,11 @@
 
 * **Diancie (Mega)** using _Rock Throw_ (100%)
 * **Rampardos (Shadow)** using _Smack Down_ (96%)
+* **Kyurem (White)** using _Ice Fang_ (91%)
 * **Aerodactyl (Mega)** using _Rock Throw_ (86%)
 * **Manectric (Mega)** using _Thunder Fang_ (84%)
 * **Tyranitar (Mega)** using _Smack Down_ (83%)
 * **Tyranitar (Shadow)** using _Smack Down_ (82%)
-* **Rampardos** using _Smack Down_ (80%)
 
 # Anti-Ghost 👻
 
@@ -102,19 +102,19 @@
 * **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
 * **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
 * **Blacephalon** using _Incinerate_ (96%)
+* **Kyurem (White)** using _Ice Fang_ (95%)
 * **Blaziken (Mega)** using _Fire Spin_ (92%)
 * **Chandelure (Shadow)** using _Fire Spin_ (92%)
-* **Charizard (Mega Y)** using _Fire Spin_ (89%)
 
 # Anti-Ground 🏜️
 
 * **Kartana** using _Razor Leaf_ (100%)
 * **Kyogre (Primal)** using _Waterfall_ (97%)
 * **Kyogre (Shadow)** using _Waterfall_ (90%)
+* **Kyurem (White)** using _Ice Fang_ (85%)
 * **Sharpedo (Shadow)** using _Waterfall_ (81%)
 * **Gyarados (Mega)** using _Waterfall_ (81%)
 * **Gyarados (Shadow)** using _Waterfall_ (80%)
-* **Victreebel (Shadow)** using _Razor Leaf_ (79%)
 
 # Anti-Ice ❄️
 
@@ -325,13 +325,13 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 ### Highest **ice** (❄️) fast move damage: 
 
 
+* **Kyurem (White)** using _Ice Fang_ (76%)
 * **Darmanitan (Galarian)** using _Ice Fang_ (65%)
 * **Baxcalibur** using _Ice Fang_ (63%)
 * **Glalie (Mega)** using _Frost Breath_ (55%)
 * **Weavile (Shadow)** using _Ice Shard_ (54%)
 * **Regigigas (Shadow)** using _Hidden Power (Ice)_ (53%)
 * **Zamazenta (Hero)** using _Ice Fang_ (53%)
-* **Glaceon** using _Frost Breath_ (52%)
 
 
 ### Highest **normal** (⚪) fast move damage: 
@@ -389,9 +389,9 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 * **Metagross (Shadow)** using _Bullet Punch_ (57%)
 * **Lucario (Mega)** using _Bullet Punch_ (57%)
 * **Dragonite (Shadow)** using _Steel Wing_ (57%)
+* **Kyurem (White)** using _Steel Wing_ (56%)
 * **Empoleon (Shadow)** using _Steel Wing_ (55%)
 * **Regigigas (Shadow)** using _Hidden Power (Steel)_ (53%)
-* **Scizor (Shadow)** using _Bullet Punch_ (53%)
 
 
 ### Highest **water** (💧) fast move damage: 

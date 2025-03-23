@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 * **Exclude unreleased**: true
-* **Date generated**: 2025-01-17
+* **Date generated**: 2025-03-23
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -247,7 +247,7 @@ All Pokemon are normalized to neutral damage of Haxorus using Dragon Tail
 * **Togekiss** using _Charm_ (93%)
 * **Granbull** using _Charm_ (88%)
 * **Sylveon** using _Charm_ (84%)
-* **Gallade** using _Charm_ (81%)
+* **Ribombee** using _Charm_ (82%)
 
 
 ### Highest **fighting** (💪) fast move damage: 
@@ -293,9 +293,9 @@ All Pokemon are normalized to neutral damage of Haxorus using Dragon Tail
 * **Cursola** using _Astonish_ (83%)
 * **Gholdengo** using _Astonish_ (82%)
 * **Polteageist** using _Astonish_ (81%)
+* **Dhelmise** using _Astonish_ (77%)
 * **Haunter** using _Astonish_ (73%)
 * **Golurk** using _Astonish_ (73%)
-* **Decidueye** using _Astonish_ (69%)
 
 
 ### Highest **grass** (🌱) fast move damage: 
