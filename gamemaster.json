@@ -126,6 +126,8 @@
             "points": 7,
             "pokemon": [
               "gallade_mega",
+              "kyurem_black",
+              "kyurem_white",
               "scizor_mega",
               "zygarde_complete"
             ]
@@ -154,6 +156,7 @@
             "points": 4,
             "pokemon": [
               "aggron_mega",
+              "blastoise_mega",
               "dialga",
               "heracross_mega",
               "ho_oh",
@@ -179,7 +182,6 @@
           {
             "points": 2,
             "pokemon": [
-              "blastoise_mega",
               "charizard_mega_x",
               "groudon",
               "heatran",
@@ -323,6 +325,12 @@
             "zygarde_10",
             "amaura",
             "aurorus",
+            "lapras",
+            "grumpig",
+            "blastoise",
+            "wailmer",
+            "armarouge",
+            "jellicent",
             "ariados"
           ]
         }
@@ -416,14 +424,6 @@
     {
       "exclude": [
         {
-          "filterType": "tag",
-          "name": "Tag",
-          "values": [
-            "shadow",
-            "mega"
-          ]
-        },
-        {
           "filterType": "type",
           "name": "Type",
           "values": [
@@ -438,7 +438,16 @@
             "morpeko_full_belly",
             "skarmory",
             "registeel",
-            "gastrodon"
+            "gastrodon",
+            "medicham",
+            "corviknight"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega"
           ]
         }
       ],
@@ -461,9 +470,10 @@
             "goodra",
             "lurantis",
             "ursaring",
+            "ursaring_shadow",
             "gliscor",
+            "gliscor_shadow",
             "dunsparce",
-            "medicham",
             "charjabug"
           ]
         }
@@ -472,7 +482,7 @@
       "levelCap": 50,
       "name": "gbinvitational",
       "overrides": [],
-      "title": "GymBreakers Invitational",
+      "title": "Gymbreakers Invitational Remix",
       "useDefaultMovesets": 1
     },
     {
@@ -764,6 +774,23 @@
     {
       "exclude": [
         {
+          "filterType": "tag",
+          "values": [
+            "legendary",
+            "mythical",
+            "ultrabeast",
+            "mega"
+          ]
+        }
+      ],
+      "include": [],
+      "name": "premier",
+      "partySize": 3,
+      "title": "Premier Cup"
+    },
+    {
+      "exclude": [
+        {
           "filterType": "id",
           "leagues": [
             1500
@@ -900,7 +927,9 @@
             "miltank",
             "ninetales_alolan",
             "oranguru",
-            "walrein"
+            "walrein",
+            "grumpig",
+            "lapras"
           ]
         }
       ],
@@ -929,7 +958,9 @@
             "samurott_shadow",
             "swampert",
             "swampert_mega",
-            "swampert_shadow"
+            "swampert_shadow",
+            "weezing",
+            "weezing_shadow"
           ]
         }
       ],
@@ -1076,26 +1107,15 @@
     {
       "cp": 10000,
       "cup": "premier",
-      "hideRankings": true,
       "meta": "premiermaster",
-      "showCup": true,
-      "showFormat": false,
-      "showMeta": true,
-      "title": "Master Premier"
-    },
-    {
-      "cp": 1500,
-      "cup": "willpower",
-      "meta": "willpower",
       "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Fighting-, Psychic-, and Dark-type Pokémon will be eligible.",
-        "The following Pokemon will not be allowed: Gardevoir"
+        "No CP limit.",
+        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Willpower Cup"
+      "title": "Master Premier"
     },
     {
       "cp": 1500,
@@ -1190,7 +1210,7 @@
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Gymbreakers Invitational"
+      "title": "Gymbreakers Invitational Remix"
     },
     {
       "cp": 500,
@@ -46004,7 +46024,8 @@
         "DARK_PULSE",
         "MEGAHORN",
         "THUNDER",
-        "PAYBACK"
+        "PAYBACK",
+        "BRUTAL_SWING"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -46033,6 +46054,9 @@
         ]
       },
       "dex": 359,
+      "eliteMoves": [
+        "BRUTAL_SWING"
+      ],
       "fastMoves": [
         "PSYCHO_CUT",
         "SNARL"
@@ -46061,7 +46085,8 @@
         "DARK_PULSE",
         "MEGAHORN",
         "THUNDER",
-        "PAYBACK"
+        "PAYBACK",
+        "BRUTAL_SWING"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -46084,6 +46109,9 @@
         ]
       },
       "dex": 359,
+      "eliteMoves": [
+        "BRUTAL_SWING"
+      ],
       "fastMoves": [
         "PSYCHO_CUT",
         "SNARL"
@@ -46113,7 +46141,8 @@
         "DARK_PULSE",
         "MEGAHORN",
         "THUNDER",
-        "PAYBACK"
+        "PAYBACK",
+        "BRUTAL_SWING"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -71984,7 +72013,7 @@
       ],
       "level25CP": 1759,
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 3,
       "speciesId": "golurk",
       "speciesName": "Golurk",
       "tags": [
@@ -81867,6 +81896,7 @@
         "SHADOW_CLAW"
       ],
       "released": true,
+      "searchPriority": 4,
       "speciesId": "golisopod",
       "speciesName": "Golisopod",
       "thirdMoveCost": 10000,
@@ -87330,7 +87360,7 @@
         "BUG_BITE",
         "EMBER"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "sizzlipede",
       "speciesName": "Sizzlipede",
       "thirdMoveCost": 75000,
@@ -87381,7 +87411,7 @@
         "BUG_BITE",
         "EMBER"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "centiskorch",
       "speciesName": "Centiskorch",
       "thirdMoveCost": 75000,
@@ -89600,56 +89630,7 @@
     },
     {
       "baseStats": {
-        "atk": 254,
-        "def": 236,
-        "hp": 192
-      },
-      "buddyDistance": 20,
-      "chargedMoves": [
-        "PLAY_ROUGH",
-        "IRON_HEAD",
-        "WILD_CHARGE",
-        "CLOSE_COMBAT"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          14,
-          9,
-          15,
-          15
-        ],
-        "cp2500": [
-          23.5,
-          6,
-          15,
-          15
-        ],
-        "cp500": [
-          5,
-          8,
-          15,
-          12
-        ]
-      },
-      "dex": 888,
-      "fastMoves": [
-        "METAL_CLAW",
-        "SNARL",
-        "QUICK_ATTACK",
-        "FIRE_FANG"
-      ],
-      "released": false,
-      "speciesId": "zacian",
-      "speciesName": "Zacian",
-      "thirdMoveCost": 100000,
-      "types": [
-        "fairy",
-        "steel"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 332,
+        "atk": 295,
         "def": 240,
         "hp": 192
       },
@@ -89662,22 +89643,22 @@
       ],
       "defaultIVs": {
         "cp1500": [
-          11,
-          5,
-          14,
-          10
+          12.5,
+          4,
+          12,
+          8
         ],
         "cp2500": [
-          18,
-          4,
-          15,
-          15
+          20.5,
+          5,
+          11,
+          14
         ],
         "cp500": [
+          4.5,
           4,
           6,
-          15,
-          8
+          11
         ]
       },
       "dex": 888,
@@ -89690,6 +89671,9 @@
       "released": false,
       "speciesId": "zacian_crowned_sword",
       "speciesName": "Zacian (Crowned Sword)",
+      "tags": [
+        "legendary"
+      ],
       "thirdMoveCost": 100000,
       "types": [
         "fairy",
@@ -89751,8 +89735,8 @@
     },
     {
       "baseStats": {
-        "atk": 254,
-        "def": 236,
+        "atk": 231,
+        "def": 282,
         "hp": 192
       },
       "buddyDistance": 20,
@@ -89764,70 +89748,21 @@
       ],
       "defaultIVs": {
         "cp1500": [
-          14,
-          9,
-          15,
-          15
+          14.5,
+          5,
+          11,
+          14
         ],
         "cp2500": [
-          23.5,
-          6,
-          15,
-          15
-        ],
-        "cp500": [
-          5,
-          8,
-          15,
-          12
-        ]
-      },
-      "dex": 889,
-      "fastMoves": [
-        "METAL_CLAW",
-        "SNARL",
-        "QUICK_ATTACK",
-        "ICE_FANG"
-      ],
-      "released": false,
-      "speciesId": "zamazenta",
-      "speciesName": "Zamazenta",
-      "thirdMoveCost": 100000,
-      "types": [
-        "fighting",
-        "steel"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 250,
-        "def": 292,
-        "hp": 192
-      },
-      "buddyDistance": 20,
-      "chargedMoves": [
-        "MOONBLAST",
-        "IRON_HEAD",
-        "CRUNCH",
-        "CLOSE_COMBAT"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          13,
-          5,
-          15,
-          15
-        ],
-        "cp2500": [
-          22,
+          24,
           4,
-          15,
-          11
+          13,
+          15
         ],
         "cp500": [
-          4.5,
-          13,
-          15,
+          5,
+          10,
+          10,
           15
         ]
       },
@@ -89841,6 +89776,9 @@
       "released": false,
       "speciesId": "zamazenta_crowned_shield",
       "speciesName": "Zamazenta (Crowned Shield)",
+      "tags": [
+        "legendary"
+      ],
       "thirdMoveCost": 100000,
       "types": [
         "fighting",
@@ -96861,7 +96799,11 @@
         "ASTONISH",
         "HEX"
       ],
+      "nicknames": [
+        "golden"
+      ],
       "released": true,
+      "searchPriority": 2,
       "speciesId": "gholdengo",
       "speciesName": "Gholdengo",
       "thirdMoveCost": 10000,
@@ -97933,5 +97875,5 @@
     "bunnelby",
     "diggersby"
   ],
-  "timestamp": "2025-03-09 18:30:16"
+  "timestamp": "2025-03-23 18:20:50"
 }
