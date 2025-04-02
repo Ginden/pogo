@@ -970,6 +970,65 @@
     {
       "exclude": [
         {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "electric",
+            "fairy",
+            "rock"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "mandibuzz",
+            "toxapex",
+            "malamar",
+            "azumarill",
+            "feraligatr",
+            "umbreon",
+            "moltres_galarian",
+            "gastrodon",
+            "quagsire",
+            "pangoro",
+            "obstagoon",
+            "scrafty",
+            "poliwrath",
+            "lapras"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "dark",
+            "water",
+            "dragon",
+            "ice"
+          ]
+        }
+      ],
+      "includeLowStatProduct": true,
+      "league": 1500,
+      "levelCap": 50,
+      "name": "stygian",
+      "overrides": [],
+      "title": "Devon Stygian Cup",
+      "useDefaultMovesets": 1
+    },
+    {
+      "exclude": [
+        {
           "filterType": "type",
           "name": "Type",
           "values": [
@@ -1119,20 +1178,6 @@
     },
     {
       "cp": 1500,
-      "cup": "scroll",
-      "meta": "scroll",
-      "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Water-, Fighting-, and Dark-type Pokémon will be eligible.",
-        "The following Pokemon will not be allowed: Primarina"
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Scroll Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "great",
       "meta": "championshipseries",
       "showCup": false,
@@ -1178,21 +1223,12 @@
     },
     {
       "cp": 1500,
-      "cup": "ingot",
-      "meta": "ingot",
+      "cup": "stygian",
+      "meta": "stygian",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Devon Ingot Cup"
-    },
-    {
-      "cp": 1500,
-      "cup": "illusion",
-      "meta": "illusion",
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Devon Illusion Cup"
+      "title": "Devon Stygian Cup"
     },
     {
       "cp": 1500,
@@ -22549,6 +22585,166 @@
       "types": [
         "normal",
         "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 210,
+        "def": 193,
+        "hp": 181
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "EARTHQUAKE",
+        "CLOSE_COMBAT",
+        "IRON_HEAD",
+        "TRAILBLAZE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          20,
+          4,
+          13,
+          5
+        ],
+        "cp2500": [
+          35.5,
+          5,
+          10,
+          14
+        ],
+        "cp500": [
+          6.5,
+          9,
+          15,
+          14
+        ]
+      },
+      "dex": 128,
+      "fastMoves": [
+        "TACKLE",
+        "ZEN_HEADBUTT",
+        "DOUBLE_KICK"
+      ],
+      "levelFloor": 20,
+      "released": true,
+      "speciesId": "tauros_combat",
+      "speciesName": "Tauros (Combat)",
+      "tags": [
+        "regional",
+        "paldean"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "fighting",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 210,
+        "def": 193,
+        "hp": 181
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "EARTHQUAKE",
+        "AQUA_JET",
+        "IRON_HEAD",
+        "TRAILBLAZE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          20,
+          4,
+          13,
+          5
+        ],
+        "cp2500": [
+          35.5,
+          5,
+          10,
+          14
+        ],
+        "cp500": [
+          6.5,
+          9,
+          15,
+          14
+        ]
+      },
+      "dex": 128,
+      "fastMoves": [
+        "TACKLE",
+        "ZEN_HEADBUTT",
+        "DOUBLE_KICK"
+      ],
+      "levelFloor": 20,
+      "released": true,
+      "searchPriority": 2,
+      "speciesId": "tauros_aqua",
+      "speciesName": "Tauros (Aqua)",
+      "tags": [
+        "regional",
+        "paldean"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "fighting",
+        "water"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 210,
+        "def": 193,
+        "hp": 181
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "EARTHQUAKE",
+        "FLAME_CHARGE",
+        "IRON_HEAD",
+        "TRAILBLAZE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          20,
+          4,
+          13,
+          5
+        ],
+        "cp2500": [
+          35.5,
+          5,
+          10,
+          14
+        ],
+        "cp500": [
+          6.5,
+          9,
+          15,
+          14
+        ]
+      },
+      "dex": 128,
+      "fastMoves": [
+        "TACKLE",
+        "ZEN_HEADBUTT",
+        "DOUBLE_KICK"
+      ],
+      "levelFloor": 20,
+      "released": true,
+      "speciesId": "tauros_blaze",
+      "speciesName": "Tauros (Blaze)",
+      "tags": [
+        "regional",
+        "paldean"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "fighting",
+        "fire"
       ]
     },
     {
@@ -86065,7 +86261,8 @@
       },
       "fastMoves": [
         "QUICK_ATTACK",
-        "SNARL"
+        "SNARL",
+        "SUCKER_PUNCH"
       ],
       "released": true,
       "speciesId": "nickit",
@@ -86114,7 +86311,8 @@
       },
       "fastMoves": [
         "QUICK_ATTACK",
-        "SNARL"
+        "SNARL",
+        "SUCKER_PUNCH"
       ],
       "released": true,
       "speciesId": "thievul",
@@ -86389,7 +86587,8 @@
       "chargedMoves": [
         "BODY_SLAM",
         "SURF",
-        "ROCK_BLAST"
+        "ROCK_BLAST",
+        "CRUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -86869,7 +87068,8 @@
       "chargedMoves": [
         "DIG",
         "BULLDOZE",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "WRAP"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -86921,7 +87121,8 @@
       "chargedMoves": [
         "DIG",
         "BULLDOZE",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "WRAP"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -92925,7 +93126,7 @@
       },
       "buddyDistance": 5,
       "chargedMoves": [
-        "ROCK_SLIDE",
+        "ROCK_BLAST",
         "ROCK_TOMB",
         "ANCIENT_POWER"
       ],
@@ -93719,7 +93920,8 @@
       "chargedMoves": [
         "EARTH_POWER",
         "SEED_BOMB",
-        "ACID_SPRAY"
+        "ACID_SPRAY",
+        "WRAP"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -94097,7 +94299,8 @@
       "chargedMoves": [
         "PSYBEAM",
         "PSYSHOCK",
-        "PSYCHIC"
+        "PSYCHIC",
+        "DAZZLING_GLEAM"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -94887,7 +95090,7 @@
       "buddyDistance": 3,
       "chargedMoves": [
         "DAZZLING_GLEAM",
-        "ROCK_SLIDE",
+        "POWER_GEM",
         "SLUDGE_WAVE"
       ],
       "defaultIVs": {
@@ -94939,7 +95142,7 @@
       "buddyDistance": 3,
       "chargedMoves": [
         "DAZZLING_GLEAM",
-        "ROCK_SLIDE",
+        "POWER_GEM",
         "SLUDGE_WAVE"
       ],
       "defaultIVs": {
@@ -97875,5 +98078,5 @@
     "bunnelby",
     "diggersby"
   ],
-  "timestamp": "2025-03-23 18:20:50"
+  "timestamp": "2025-04-02 02:01:36"
 }
