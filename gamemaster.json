@@ -971,6 +971,38 @@
       "exclude": [
         {
           "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "jumpluff",
+            "roserade",
+            "toxapex"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "water",
+            "grass",
+            "fairy"
+          ]
+        }
+      ],
+      "name": "spring",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Spring Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
           "name": "Tag",
           "values": [
             "mega"
@@ -1175,6 +1207,20 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Master Premier"
+    },
+    {
+      "cp": 1500,
+      "cup": "spring",
+      "meta": "spring",
+      "rules": [
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Water-, Grass-, and Fairy-type Pokémon are eligible.",
+        "The following Pokémon will not be allowed: Jumpluff, Roserade, Toxapex"
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Spring Cup"
     },
     {
       "cp": 1500,
@@ -1469,6 +1515,26 @@
       "name": "Avalanche",
       "power": 90,
       "type": "ice"
+    },
+    {
+      "archetype": "General",
+      "cooldown": 500,
+      "energy": 45,
+      "energyGain": 0,
+      "moveId": "BEHEMOTH_BASH",
+      "name": "Behemoth Bash",
+      "power": 80,
+      "type": "steel"
+    },
+    {
+      "archetype": "High Energy",
+      "cooldown": 500,
+      "energy": 55,
+      "energyGain": 0,
+      "moveId": "BEHEMOTH_BLADE",
+      "name": "Behemoth Blade",
+      "power": 100,
+      "type": "steel"
     },
     {
       "abbreviation": "Bi",
@@ -64316,7 +64382,8 @@
       "chargedMoves": [
         "DISARMING_VOICE",
         "DAZZLING_GLEAM",
-        "HYPER_BEAM"
+        "HYPER_BEAM",
+        "BODY_SLAM"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -64339,6 +64406,9 @@
         ]
       },
       "dex": 531,
+      "eliteMoves": [
+        "BODY_SLAM"
+      ],
       "fastMoves": [
         "POUND",
         "ZEN_HEADBUTT"
@@ -64350,6 +64420,59 @@
       "types": [
         "normal",
         "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 147,
+        "def": 239,
+        "hp": 230
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "DISARMING_VOICE",
+        "DAZZLING_GLEAM",
+        "HYPER_BEAM",
+        "BODY_SLAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          22,
+          8,
+          12,
+          11
+        ],
+        "cp2500": [
+          39.5,
+          14,
+          15,
+          14
+        ],
+        "cp500": [
+          7.5,
+          8,
+          12,
+          11
+        ]
+      },
+      "dex": 531,
+      "eliteMoves": [
+        "BODY_SLAM"
+      ],
+      "fastMoves": [
+        "POUND",
+        "ZEN_HEADBUTT"
+      ],
+      "released": true,
+      "speciesId": "audino_mega",
+      "speciesName": "Audino (Mega)",
+      "tags": [
+        "mega"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "normal",
+        "fairy"
       ]
     },
     {
@@ -89831,16 +89954,16 @@
     },
     {
       "baseStats": {
-        "atk": 295,
+        "atk": 332,
         "def": 240,
         "hp": 192
       },
       "buddyDistance": 20,
       "chargedMoves": [
         "PLAY_ROUGH",
-        "IRON_HEAD",
-        "WILD_CHARGE",
-        "CLOSE_COMBAT"
+        "CLOSE_COMBAT",
+        "GIGA_IMPACT",
+        "BEHEMOTH_BLADE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -89865,9 +89988,10 @@
       "dex": 888,
       "fastMoves": [
         "METAL_CLAW",
-        "SNARL",
-        "QUICK_ATTACK",
-        "FIRE_FANG"
+        "AIR_SLASH"
+      ],
+      "legacyMoves": [
+        "BEHEMOTH_BLADE"
       ],
       "released": false,
       "speciesId": "zacian_crowned_sword",
@@ -89936,16 +90060,16 @@
     },
     {
       "baseStats": {
-        "atk": 231,
-        "def": 282,
+        "atk": 250,
+        "def": 292,
         "hp": 192
       },
       "buddyDistance": 20,
       "chargedMoves": [
         "MOONBLAST",
-        "IRON_HEAD",
-        "CRUNCH",
-        "CLOSE_COMBAT"
+        "CLOSE_COMBAT",
+        "GIGA_IMPACT",
+        "BEHEMOTH_BASH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -89970,9 +90094,10 @@
       "dex": 889,
       "fastMoves": [
         "METAL_CLAW",
-        "SNARL",
-        "QUICK_ATTACK",
         "ICE_FANG"
+      ],
+      "legacyMoves": [
+        "BEHEMOTH_BASH"
       ],
       "released": false,
       "speciesId": "zamazenta_crowned_shield",
@@ -94355,7 +94480,6 @@
       "buddyDistance": 3,
       "chargedMoves": [
         "PLAY_ROUGH",
-        "BRUTAL_SWING",
         "FLASH_CANNON"
       ],
       "defaultIVs": {
@@ -94407,7 +94531,6 @@
       "buddyDistance": 3,
       "chargedMoves": [
         "PLAY_ROUGH",
-        "BRUTAL_SWING",
         "FLASH_CANNON"
       ],
       "defaultIVs": {
@@ -94460,9 +94583,9 @@
       "buddyDistance": 3,
       "chargedMoves": [
         "PLAY_ROUGH",
-        "BRUTAL_SWING",
         "FLASH_CANNON",
-        "HEAVY_SLAM"
+        "HEAVY_SLAM",
+        "BULLDOZE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -94500,6 +94623,7 @@
         "ROCK_SMASH"
       ],
       "released": false,
+      "searchPriority": 3,
       "speciesId": "tinkaton",
       "speciesName": "Tinkaton",
       "thirdMoveCost": 75000,
@@ -98078,5 +98202,5 @@
     "bunnelby",
     "diggersby"
   ],
-  "timestamp": "2025-04-02 02:01:36"
+  "timestamp": "2025-04-08 02:52:36"
 }
