@@ -4801,6 +4801,22 @@
       "type": "dragon"
     },
     {
+      "archetype": "Debuff Spam/Bait",
+      "buffApplyChance": ".3",
+      "buffTarget": "opponent",
+      "buffs": [
+        0,
+        -1
+      ],
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "moveId": "UPPER_HAND",
+      "name": "Upper Hand",
+      "power": 70,
+      "type": "fighting"
+    },
+    {
       "archetype": "Self-Debuff Spam",
       "buffApplyChance": "1",
       "buffTarget": "self",
@@ -31889,7 +31905,8 @@
         "CLOSE_COMBAT",
         "EARTHQUAKE",
         "MEGAHORN",
-        "ROCK_BLAST"
+        "ROCK_BLAST",
+        "UPPER_HAND"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -31939,7 +31956,8 @@
         "CLOSE_COMBAT",
         "EARTHQUAKE",
         "MEGAHORN",
-        "ROCK_BLAST"
+        "ROCK_BLAST",
+        "UPPER_HAND"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -40221,7 +40239,8 @@
       "chargedMoves": [
         "CROSS_CHOP",
         "HEAVY_SLAM",
-        "LOW_SWEEP"
+        "LOW_SWEEP",
+        "UPPER_HAND"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -40277,7 +40296,8 @@
       "chargedMoves": [
         "CROSS_CHOP",
         "HEAVY_SLAM",
-        "LOW_SWEEP"
+        "LOW_SWEEP",
+        "UPPER_HAND"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -40333,7 +40353,8 @@
         "CLOSE_COMBAT",
         "DYNAMIC_PUNCH",
         "HEAVY_SLAM",
-        "SUPER_POWER"
+        "SUPER_POWER",
+        "UPPER_HAND"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -40389,7 +40410,8 @@
         "CLOSE_COMBAT",
         "DYNAMIC_PUNCH",
         "HEAVY_SLAM",
-        "SUPER_POWER"
+        "SUPER_POWER",
+        "UPPER_HAND"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -49016,7 +49038,7 @@
       ],
       "level25CP": 2604,
       "released": true,
-      "searchPriority": 20,
+      "searchPriority": 4,
       "speciesId": "groudon",
       "speciesName": "Groudon",
       "tags": [
@@ -49073,7 +49095,7 @@
         "MUD_SHOT"
       ],
       "released": true,
-      "searchPriority": 20,
+      "searchPriority": 1,
       "speciesId": "groudon_primal",
       "speciesName": "Groudon (Primal)",
       "tags": [
@@ -49130,7 +49152,7 @@
         "MUD_SHOT"
       ],
       "released": true,
-      "searchPriority": 20,
+      "searchPriority": 1,
       "speciesId": "groudon_shadow",
       "speciesName": "Groudon (Shadow)",
       "tags": [
@@ -59595,7 +59617,7 @@
         "tina a"
       ],
       "released": true,
-      "searchPriority": 32,
+      "searchPriority": 7,
       "speciesId": "giratina_altered",
       "speciesName": "Giratina (Altered)",
       "tags": [
@@ -66922,7 +66944,8 @@
         "ACID_SPRAY",
         "BRICK_BREAK",
         "FOUL_PLAY",
-        "THUNDER_PUNCH"
+        "THUNDER_PUNCH",
+        "UPPER_HAND"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -66981,7 +67004,8 @@
         "ACID_SPRAY",
         "POWER_UP_PUNCH",
         "FOUL_PLAY",
-        "THUNDER_PUNCH"
+        "THUNDER_PUNCH",
+        "UPPER_HAND"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -77785,7 +77809,7 @@
         "DRAGON_BREATH"
       ],
       "released": true,
-      "searchPriority": 10,
+      "searchPriority": 6,
       "speciesId": "goodra",
       "speciesName": "Goodra",
       "thirdMoveCost": 75000,
@@ -86488,7 +86512,7 @@
         "RAZOR_LEAF",
         "BULLET_SEED"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "gossifleur",
       "speciesName": "Gossifleur",
       "thirdMoveCost": 50000,
@@ -86537,7 +86561,7 @@
         "RAZOR_LEAF",
         "BULLET_SEED"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "eldegoss",
       "speciesName": "Eldegoss",
       "thirdMoveCost": 50000,
@@ -88327,7 +88351,7 @@
         "goon"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 2,
       "speciesId": "obstagoon",
       "speciesName": "Obstagoon",
       "tags": [
@@ -88395,7 +88419,7 @@
         "goon"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 1,
       "speciesId": "obstagoon_shadow",
       "speciesName": "Obstagoon (Shadow)",
       "tags": [
@@ -94513,7 +94537,7 @@
         "FAIRY_WIND",
         "ROCK_SMASH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "tinkatink",
       "speciesName": "Tinkatink",
       "thirdMoveCost": 75000,
@@ -94565,7 +94589,7 @@
         "FAIRY_WIND",
         "ROCK_SMASH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "tinkatuff",
       "speciesName": "Tinkatuff",
       "thirdMoveCost": 75000,
@@ -94622,8 +94646,8 @@
         "FAIRY_WIND",
         "ROCK_SMASH"
       ],
-      "released": false,
-      "searchPriority": 3,
+      "released": true,
+      "searchPriority": 8,
       "speciesId": "tinkaton",
       "speciesName": "Tinkaton",
       "thirdMoveCost": 75000,
@@ -98202,5 +98226,5 @@
     "bunnelby",
     "diggersby"
   ],
-  "timestamp": "2025-04-08 02:52:36"
+  "timestamp": "2025-04-16 02:14:34"
 }
