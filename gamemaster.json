@@ -796,26 +796,26 @@
             1500
           ],
           "values": [
-            "azumarill",
-            "talonflame",
+            "blastoise",
             "wigglytuff",
-            "clodsire",
-            "quagsire",
-            "feraligatr",
-            "dunsparce",
-            "dewgong",
-            "sandslash_alolan",
-            "toxapex",
-            "malamar",
-            "mandibuzz",
-            "diggersby",
-            "jumpluff",
-            "ferrothorn",
-            "drapion",
             "marowak",
+            "weezing_galarian",
+            "lapras",
+            "feraligatr",
+            "azumarill",
+            "jumpluff",
+            "sableye",
+            "cradily",
             "gastrodon",
+            "drapion",
             "serperior",
-            "greninja"
+            "mandibuzz",
+            "talonflame",
+            "malamar",
+            "golisopod",
+            "morpeko_full_belly",
+            "annihilape",
+            "clodsire"
           ]
         },
         {
@@ -1221,6 +1221,19 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Spring Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "remix",
+      "meta": "remix",
+      "rules": [
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "The 20 Pokémon that are most used by Trainers ranked Ace and above in the Great League are not eligible in the Great League Remix: Blastoise, Wigglytuff, Marowak, Galarian Weezing, Lapras, Feraligatr, Azumarill, Jumpluff, Sableye, Cradily, Gastrodon, Drapion, Serperior, Mandibuzz, Talonflame, Malamar, Golisopod, Morpeko, Annihilape, and Clodsire"
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Great League Remix"
     },
     {
       "cp": 1500,
@@ -98226,5 +98239,5 @@
     "bunnelby",
     "diggersby"
   ],
-  "timestamp": "2025-04-16 02:14:34"
+  "timestamp": "2025-04-19 18:09:25"
 }
