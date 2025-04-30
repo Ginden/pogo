@@ -1210,20 +1210,6 @@
     },
     {
       "cp": 1500,
-      "cup": "spring",
-      "meta": "spring",
-      "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Water-, Grass-, and Fairy-type Pokémon are eligible.",
-        "The following Pokémon will not be allowed: Jumpluff, Roserade, Toxapex"
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Spring Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "remix",
       "meta": "remix",
       "rules": [
@@ -1237,10 +1223,11 @@
     },
     {
       "cp": 1500,
-      "cup": "great",
+      "cup": "all",
+      "hideRankings": true,
       "meta": "championshipseries",
-      "showCup": false,
-      "showFormat": false,
+      "showCup": true,
+      "showFormat": true,
       "showMeta": true,
       "title": "P!P Championship Series"
     },
@@ -69325,7 +69312,8 @@
       "chargedMoves": [
         "BLIZZARD",
         "FLASH_CANNON",
-        "SIGNAL_BEAM"
+        "SIGNAL_BEAM",
+        "AVALANCHE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -69348,6 +69336,9 @@
         ]
       },
       "dex": 584,
+      "eliteMoves": [
+        "AVALANCHE"
+      ],
       "family": {
         "id": "FAMILY_VANILLITE",
         "parent": "vanillish"
@@ -87095,7 +87086,7 @@
       "fastMoves": [
         "ASTONISH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "applin",
       "speciesName": "Applin",
       "thirdMoveCost": 75000,
@@ -87152,7 +87143,7 @@
         "BULLET_SEED",
         "DRAGON_BREATH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "flapple",
       "speciesName": "Flapple",
       "thirdMoveCost": 75000,
@@ -87209,7 +87200,7 @@
         "BULLET_SEED",
         "ASTONISH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "appletun",
       "speciesName": "Appletun",
       "thirdMoveCost": 75000,
@@ -98239,5 +98230,5 @@
     "bunnelby",
     "diggersby"
   ],
-  "timestamp": "2025-04-19 18:09:25"
+  "timestamp": "2025-04-30 02:35:18"
 }
