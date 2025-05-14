@@ -2,7 +2,7 @@
 
 * **Excluded tags**: mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-05-07
+* **Date generated**: 2025-05-14
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -81,10 +81,10 @@
 * **Rampardos (Shadow)** using _Smack Down_ (100%)
 * **Kyurem (White)** using _Ice Fang_ (95%)
 * **Tyranitar (Shadow)** using _Smack Down_ (86%)
+* **Tyrantrum (Shadow)** using _Rock Throw_ (85%)
 * **Rampardos** using _Smack Down_ (83%)
 * **Aerodactyl (Shadow)** using _Rock Throw_ (83%)
 * **Rhyperior (Shadow)** using _Smack Down_ (83%)
-* **Darmanitan (Galarian)** using _Ice Fang_ (81%)
 
 # Anti-Ghost 👻
 
@@ -223,7 +223,7 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 * **Garchomp (Shadow)** using _Dragon Tail_ (94%)
 * **Palkia (Shadow)** using _Dragon Breath_ (92%)
 * **Kyurem (Black)** using _Dragon Tail_ (92%)
-* **Latios (Shadow)** using _Dragon Breath_ (89%)
+* **Dialga (Shadow)** using _Dragon Breath_ (91%)
 
 
 ### Highest **electric** (⚡) fast move damage: 
@@ -342,8 +342,8 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 * **Purugly (Shadow)** using _Scratch_ (59%)
 * **Ambipom** using _Scratch_ (57%)
 * **Rillaboom** using _Scratch_ (55%)
+* **Vigoroth (Shadow)** using _Scratch_ (54%)
 * **Darmanitan (Standard) (Shadow)** using _Tackle_ (54%)
-* **Delphox** using _Scratch_ (53%)
 
 
 ### Highest **poison** (🐍) fast move damage: 
@@ -375,11 +375,11 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 
 * **Rampardos (Shadow)** using _Smack Down_ (89%)
 * **Tyranitar (Shadow)** using _Smack Down_ (76%)
+* **Tyrantrum (Shadow)** using _Rock Throw_ (76%)
 * **Rampardos** using _Smack Down_ (74%)
 * **Aerodactyl (Shadow)** using _Rock Throw_ (74%)
 * **Rhyperior (Shadow)** using _Smack Down_ (73%)
 * **Golem (Shadow)** using _Rock Throw_ (71%)
-* **Golem (Alolan) (Shadow)** using _Rock Throw_ (71%)
 
 
 ### Highest **steel** (🛡️) fast move damage: 

@@ -2,7 +2,7 @@
 
 * **Excluded tags**: none
 * **Exclude unreleased**: true
-* **Date generated**: 2025-05-07
+* **Date generated**: 2025-05-14
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -343,7 +343,7 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 * **Diancie (Mega)** using _Tackle_ (52%)
 * **Ambipom** using _Scratch_ (52%)
 * **Rillaboom** using _Scratch_ (50%)
-* **Darmanitan (Standard) (Shadow)** using _Tackle_ (49%)
+* **Vigoroth (Shadow)** using _Scratch_ (49%)
 
 
 ### Highest **poison** (🐍) fast move damage: 
@@ -378,8 +378,8 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 * **Aerodactyl (Mega)** using _Rock Throw_ (72%)
 * **Tyranitar (Mega)** using _Smack Down_ (70%)
 * **Tyranitar (Shadow)** using _Smack Down_ (69%)
+* **Tyrantrum (Shadow)** using _Rock Throw_ (68%)
 * **Rampardos** using _Smack Down_ (67%)
-* **Aerodactyl (Shadow)** using _Rock Throw_ (66%)
 
 
 ### Highest **steel** (🛡️) fast move damage: 
