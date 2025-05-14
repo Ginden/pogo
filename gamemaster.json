@@ -853,7 +853,6 @@
             "bombirdier",
             "clefable",
             "cofagrigus",
-            "cofagrigus_shadow",
             "corviknight",
             "cradily",
             "cradily_shadow",
@@ -864,9 +863,7 @@
             "deoxys_defense",
             "diggersby",
             "dragalge",
-            "dragalge_shadow",
             "dunsparce",
-            "dunsparce_shadow",
             "dusclops",
             "dusclops_shadow",
             "dusknoir",
@@ -877,6 +874,7 @@
             "electivire",
             "electivire_shadow",
             "ferrothorn",
+            "ferrothorn_shadow",
             "froslass",
             "froslass_shadow",
             "furret",
@@ -884,7 +882,6 @@
             "galvantula_shadow",
             "gengar",
             "giratina_origin",
-            "giratina_origin_shadow",
             "glalie",
             "glalie_shadow",
             "gligar",
@@ -893,7 +890,6 @@
             "goodra",
             "greedent",
             "guzzlord",
-            "guzzlord_shadow",
             "hitmonchan",
             "hitmonchan_shadow",
             "hitmonlee",
@@ -912,13 +908,12 @@
             "magmortar",
             "magmortar_shadow",
             "magneton",
+            "magneton_shadow",
             "magnezone",
+            "magnezone_shadow",
             "malamar",
-            "malamar_shadow",
             "mandibuzz",
-            "mandibuzz_shadow",
             "mantine",
-            "mantine_shadow",
             "marowak_alolan",
             "marowak_alolan_shadow",
             "marowak",
@@ -928,6 +923,7 @@
             "milotic",
             "muk",
             "muk_alolan",
+            "muk_alolan_shadow",
             "muk_shadow",
             "nidoking",
             "nidoking_shadow",
@@ -935,10 +931,10 @@
             "nidoqueen_shadow",
             "ninetales",
             "ninetales_alolan",
+            "ninetales_alolan_shadow",
             "ninetales_shadow",
             "obstagoon",
             "pelipper",
-            "pelipper_shadow",
             "perrserker",
             "politoed",
             "politoed_shadow",
@@ -950,12 +946,8 @@
             "qwilfish_hisuian",
             "raichu",
             "raichu_alolan",
-            "raichu_alolan_shadow",
-            "raichu_shadow",
             "rapidash",
             "rapidash_galarian",
-            "rapidash_galarian_shadow",
-            "rapidash_shadow",
             "raticate_alolan",
             "raticate_alolan_shadow",
             "runerigus",
@@ -966,14 +958,11 @@
             "sandslash_alolan_shadow",
             "sandslash_shadow",
             "seviper",
-            "seviper_shadow",
             "slowbro",
             "slowbro_galarian",
             "slowbro_shadow",
             "solrock",
-            "solrock_shadow",
             "spiritomb",
-            "spiritomb_shadow",
             "stunfisk",
             "stunfisk_galarian",
             "tapu_fini",
@@ -982,10 +971,10 @@
             "tyranitar_shadow",
             "tyrunt",
             "ursaluna",
+            "ursaluna_shadow",
             "ursaring",
             "ursaring_shadow",
             "vespiquen",
-            "vespiquen_shadow",
             "weezing",
             "weezing_galarian",
             "weezing_galarian_shadow",
@@ -993,8 +982,7 @@
             "whiscash",
             "whiscash_shadow",
             "wormadam_trash",
-            "zangoose",
-            "zangoose_shadow"
+            "zangoose"
           ]
         }
       ],
@@ -1731,16 +1719,16 @@
     },
     {
       "cp": 1500,
-      "cup": "remix",
-      "meta": "remix",
+      "cup": "retro",
+      "meta": "retro",
       "rules": [
         "Pokémon must be at or below 1,500 CP to enter.",
-        "The 20 Pokémon that are most used by Trainers ranked Ace and above in the Great League are not eligible in the Great League Remix: Blastoise, Wigglytuff, Marowak, Galarian Weezing, Lapras, Feraligatr, Azumarill, Jumpluff, Sableye, Cradily, Gastrodon, Drapion, Serperior, Mandibuzz, Talonflame, Malamar, Golisopod, Morpeko, Annihilape, and Clodsire"
+        "Dark-, Steel-, and Fairy-type Pokémon are not eligible."
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Great League Remix"
+      "title": "Retro Cup"
     },
     {
       "cp": 1500,
@@ -23208,59 +23196,6 @@
       "buddyDistance": 3,
       "chargedMoves": [
         "EARTHQUAKE",
-        "CLOSE_COMBAT",
-        "IRON_HEAD",
-        "TRAILBLAZE"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          20,
-          4,
-          13,
-          5
-        ],
-        "cp2500": [
-          35.5,
-          5,
-          10,
-          14
-        ],
-        "cp500": [
-          6.5,
-          9,
-          15,
-          14
-        ]
-      },
-      "dex": 128,
-      "fastMoves": [
-        "TACKLE",
-        "ZEN_HEADBUTT",
-        "DOUBLE_KICK"
-      ],
-      "levelFloor": 20,
-      "released": true,
-      "speciesId": "tauros_combat",
-      "speciesName": "Tauros (Combat)",
-      "tags": [
-        "regional",
-        "paldean"
-      ],
-      "thirdMoveCost": 50000,
-      "types": [
-        "fighting",
-        "none"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 210,
-        "def": 193,
-        "hp": 181
-      },
-      "buddyDistance": 3,
-      "chargedMoves": [
-        "EARTHQUAKE",
         "AQUA_JET",
         "IRON_HEAD",
         "TRAILBLAZE"
@@ -23357,6 +23292,59 @@
       "types": [
         "fighting",
         "fire"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 210,
+        "def": 193,
+        "hp": 181
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "EARTHQUAKE",
+        "CLOSE_COMBAT",
+        "IRON_HEAD",
+        "TRAILBLAZE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          20,
+          4,
+          13,
+          5
+        ],
+        "cp2500": [
+          35.5,
+          5,
+          10,
+          14
+        ],
+        "cp500": [
+          6.5,
+          9,
+          15,
+          14
+        ]
+      },
+      "dex": 128,
+      "fastMoves": [
+        "TACKLE",
+        "ZEN_HEADBUTT",
+        "DOUBLE_KICK"
+      ],
+      "levelFloor": 20,
+      "released": true,
+      "speciesId": "tauros_combat",
+      "speciesName": "Tauros (Combat)",
+      "tags": [
+        "regional",
+        "paldean"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "fighting",
+        "none"
       ]
     },
     {
@@ -31154,7 +31142,7 @@
       "dex": 203,
       "family": {
         "evolutions": [
-          "farigaraf"
+          "farigiraf"
         ],
         "id": "FAMILY_GIRAFARIG"
       },
@@ -31213,7 +31201,7 @@
       "dex": 203,
       "family": {
         "evolutions": [
-          "farigaraf_shadow"
+          "farigiraf_shadow"
         ],
         "id": "FAMILY_GIRAFARIG"
       },
@@ -34148,7 +34136,7 @@
       ],
       "level25CP": 1621,
       "released": true,
-      "searchPriority": 4,
+      "searchPriority": 2,
       "speciesId": "kingdra",
       "speciesName": "Kingdra",
       "tags": [
@@ -34207,7 +34195,6 @@
         "WATERFALL"
       ],
       "released": true,
-      "searchPriority": 4,
       "speciesId": "kingdra_shadow",
       "speciesName": "Kingdra (Shadow)",
       "tags": [
@@ -40141,9 +40128,67 @@
       "fastMoves": [
         "YAWN"
       ],
+      "level25CP": 554,
       "released": true,
       "speciesId": "slakoth",
       "speciesName": "Slakoth",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "normal",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 104,
+        "def": 92,
+        "hp": 155
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "BODY_SLAM",
+        "BRICK_BREAK",
+        "NIGHT_SLASH"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          19.5,
+          4,
+          12,
+          14
+        ]
+      },
+      "dex": 287,
+      "family": {
+        "evolutions": [
+          "vigoroth_shadow"
+        ],
+        "id": "FAMILY_SLAKOTH"
+      },
+      "fastMoves": [
+        "YAWN"
+      ],
+      "released": true,
+      "speciesId": "slakoth_shadow",
+      "speciesName": "Slakoth (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "normal",
@@ -40195,10 +40240,72 @@
         "COUNTER",
         "SCRATCH"
       ],
+      "level25CP": 1177,
       "released": true,
       "searchPriority": 4,
       "speciesId": "vigoroth",
       "speciesName": "Vigoroth",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "normal",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 159,
+        "def": 145,
+        "hp": 190
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "BODY_SLAM",
+        "BRICK_BREAK",
+        "BULLDOZE",
+        "ROCK_SLIDE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          28.5,
+          6,
+          13,
+          12
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          9.5,
+          5,
+          14,
+          13
+        ]
+      },
+      "dex": 288,
+      "family": {
+        "evolutions": [
+          "slaking_shadow"
+        ],
+        "id": "FAMILY_SLAKOTH",
+        "parent": "slakoth_shadow"
+      },
+      "fastMoves": [
+        "COUNTER",
+        "SCRATCH"
+      ],
+      "released": true,
+      "searchPriority": 4,
+      "speciesId": "vigoroth_shadow",
+      "speciesName": "Vigoroth (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "normal",
@@ -40249,9 +40356,69 @@
       "fastMoves": [
         "YAWN"
       ],
+      "level25CP": 2809,
       "released": true,
       "speciesId": "slaking",
       "speciesName": "Slaking",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "normal",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 290,
+        "def": 166,
+        "hp": 284
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "EARTHQUAKE",
+        "HYPER_BEAM",
+        "PLAY_ROUGH",
+        "BODY_SLAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          12.5,
+          5,
+          11,
+          9
+        ],
+        "cp2500": [
+          21,
+          4,
+          11,
+          7
+        ],
+        "cp500": [
+          4.5,
+          5,
+          11,
+          7
+        ]
+      },
+      "dex": 289,
+      "eliteMoves": [
+        "BODY_SLAM"
+      ],
+      "family": {
+        "id": "FAMILY_SLAKOTH",
+        "parent": "vigoroth_shadow"
+      },
+      "fastMoves": [
+        "YAWN"
+      ],
+      "released": true,
+      "speciesId": "slaking_shadow",
+      "speciesName": "Slaking (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "normal",
@@ -59621,11 +59788,13 @@
         "DRAGON_BREATH",
         "METAL_CLAW"
       ],
+      "level25CP": 2551,
       "released": true,
       "speciesId": "dialga",
       "speciesName": "Dialga",
       "tags": [
-        "legendary"
+        "legendary",
+        "shadoweligible"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -59683,6 +59852,56 @@
       "speciesName": "Dialga (Origin)",
       "tags": [
         "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "steel",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 275,
+        "def": 211,
+        "hp": 205
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "DRACO_METEOR",
+        "IRON_HEAD",
+        "THUNDER"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          13.5,
+          8,
+          11,
+          13
+        ],
+        "cp2500": [
+          23,
+          4,
+          8,
+          12
+        ],
+        "cp500": [
+          4.5,
+          14,
+          13,
+          15
+        ]
+      },
+      "dex": 483,
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "METAL_CLAW"
+      ],
+      "released": true,
+      "speciesId": "dialga_shadow",
+      "speciesName": "Dialga (Shadow)",
+      "tags": [
+        "legendary",
+        "shadow"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -77257,9 +77476,68 @@
         "TACKLE",
         "PSYWAVE"
       ],
+      "level25CP": 507,
       "released": true,
       "speciesId": "inkay",
       "speciesName": "Inkay",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "dark",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 98,
+        "def": 95,
+        "hp": 142
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "PSYBEAM",
+        "NIGHT_SLASH"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          21.5,
+          4,
+          12,
+          11
+        ]
+      },
+      "dex": 686,
+      "family": {
+        "evolutions": [
+          "malamar_shadow"
+        ],
+        "id": "FAMILY_INKAY"
+      },
+      "fastMoves": [
+        "PECK",
+        "TACKLE",
+        "PSYWAVE"
+      ],
+      "released": true,
+      "speciesId": "inkay_shadow",
+      "speciesName": "Inkay (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "dark",
@@ -77315,10 +77593,76 @@
         "PSYCHO_CUT",
         "PSYWAVE"
       ],
+      "level25CP": 1434,
       "released": true,
       "searchPriority": 11,
       "speciesId": "malamar",
       "speciesName": "Malamar",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "dark",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 177,
+        "def": 165,
+        "hp": 200
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "PSYBEAM",
+        "FOUL_PLAY",
+        "SUPER_POWER",
+        "HYPER_BEAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          24,
+          4,
+          14,
+          9
+        ],
+        "cp2500": [
+          50,
+          5,
+          14,
+          11
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          8,
+          5,
+          14,
+          13
+        ]
+      },
+      "dex": 687,
+      "family": {
+        "id": "FAMILY_INKAY",
+        "parent": "inkay_shadow"
+      },
+      "fastMoves": [
+        "PECK",
+        "PSYCHO_CUT",
+        "PSYWAVE"
+      ],
+      "released": true,
+      "searchPriority": 11,
+      "speciesId": "malamar_shadow",
+      "speciesName": "Malamar (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "dark",
@@ -77800,9 +78144,68 @@
         "DRAGON_TAIL",
         "TACKLE"
       ],
+      "level25CP": 960,
       "released": true,
       "speciesId": "tyrunt",
       "speciesName": "Tyrunt",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "rock",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 158,
+        "def": 123,
+        "hp": 151
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "STOMP",
+        "ANCIENT_POWER",
+        "DRAGON_CLAW"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          39.5,
+          4,
+          12,
+          14
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          11.5,
+          5,
+          14,
+          12
+        ]
+      },
+      "dex": 696,
+      "family": {
+        "evolutions": [
+          "tyrantrum_shadow"
+        ],
+        "id": "FAMILY_TYRUNT"
+      },
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "TACKLE"
+      ],
+      "released": true,
+      "speciesId": "tyrunt_shadow",
+      "speciesName": "Tyrunt (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "rock",
@@ -77853,9 +78256,69 @@
         "CHARM",
         "ROCK_THROW"
       ],
+      "level25CP": 1944,
       "released": true,
       "speciesId": "tyrantrum",
       "speciesName": "Tyrantrum",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "rock",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 227,
+        "def": 191,
+        "hp": 193
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "CRUNCH",
+        "STONE_EDGE",
+        "OUTRAGE",
+        "EARTHQUAKE",
+        "METEOR_BEAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          17.5,
+          6,
+          12,
+          15
+        ],
+        "cp2500": [
+          30,
+          4,
+          12,
+          8
+        ],
+        "cp500": [
+          6,
+          10,
+          15,
+          10
+        ]
+      },
+      "dex": 697,
+      "family": {
+        "id": "FAMILY_TYRUNT",
+        "parent": "tyrunt_shadow"
+      },
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "CHARM",
+        "ROCK_THROW"
+      ],
+      "released": true,
+      "speciesId": "tyrantrum_shadow",
+      "speciesName": "Tyrantrum (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "rock",
@@ -77912,9 +78375,75 @@
         "POWDER_SNOW",
         "FROST_BREATH"
       ],
+      "level25CP": 783,
       "released": true,
       "speciesId": "amaura",
       "speciesName": "Amaura",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "rock",
+        "ice"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 124,
+        "def": 109,
+        "hp": 184
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "WEATHER_BALL_ICE",
+        "ANCIENT_POWER",
+        "AURORA_BEAM",
+        "THUNDERBOLT"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          12,
+          15,
+          12
+        ],
+        "cp1500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          14,
+          5,
+          15,
+          10
+        ]
+      },
+      "dex": 698,
+      "family": {
+        "evolutions": [
+          "aurorus_shadow"
+        ],
+        "id": "FAMILY_AMAURA"
+      },
+      "fastMoves": [
+        "POWDER_SNOW",
+        "FROST_BREATH"
+      ],
+      "released": true,
+      "speciesId": "amaura_shadow",
+      "speciesName": "Amaura (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "rock",
@@ -77966,9 +78495,70 @@
         "FROST_BREATH",
         "ROCK_THROW"
       ],
+      "level25CP": 1724,
       "released": true,
       "speciesId": "aurorus",
       "speciesName": "Aurorus",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "rock",
+        "ice"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 186,
+        "def": 163,
+        "hp": 265
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "WEATHER_BALL_ICE",
+        "ANCIENT_POWER",
+        "BLIZZARD",
+        "THUNDERBOLT",
+        "HYPER_BEAM",
+        "METEOR_BEAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          20,
+          5,
+          14,
+          8
+        ],
+        "cp2500": [
+          36.5,
+          5,
+          12,
+          13
+        ],
+        "cp500": [
+          7,
+          4,
+          5,
+          12
+        ]
+      },
+      "dex": 699,
+      "family": {
+        "id": "FAMILY_AMAURA",
+        "parent": "amaura_shadow"
+      },
+      "fastMoves": [
+        "POWDER_SNOW",
+        "FROST_BREATH",
+        "ROCK_THROW"
+      ],
+      "released": true,
+      "speciesId": "aurorus_shadow",
+      "speciesName": "Aurorus (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "rock",
@@ -92949,7 +93539,8 @@
         "DISCHARGE",
         "WILD_CHARGE",
         "CLOSE_COMBAT",
-        "THUNDER_PUNCH"
+        "THUNDER_PUNCH",
+        "BRICK_BREAK"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -92972,6 +93563,9 @@
         ]
       },
       "dex": 923,
+      "eliteMoves": [
+        "BRICK_BREAK"
+      ],
       "family": {
         "id": "FAMILY_PAWMI",
         "parent": "pawmo"
@@ -96872,7 +97466,8 @@
         "DARK_PULSE",
         "IRON_HEAD",
         "X_SCISSOR",
-        "FOCUS_BLAST"
+        "FOCUS_BLAST",
+        "FOUL_PLAY"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -96901,9 +97496,11 @@
       },
       "fastMoves": [
         "SNARL",
-        "METAL_CLAW"
+        "METAL_CLAW",
+        "METAL_SOUND"
       ],
-      "released": false,
+      "released": true,
+      "searchPriority": 3,
       "speciesId": "kingambit",
       "speciesName": "Kingambit",
       "thirdMoveCost": 75000,
@@ -98758,7 +99355,17 @@
     "trubbish",
     "garbodor",
     "bunnelby",
-    "diggersby"
+    "diggersby",
+    "slakoth",
+    "vigoroth",
+    "slaking",
+    "dialga",
+    "inkay",
+    "malamar",
+    "tyrunt",
+    "tyrantrum",
+    "amaura",
+    "aurorus"
   ],
-  "timestamp": "2025-05-06 05:27:35"
+  "timestamp": "2025-05-13 21:26:57"
 }
