@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-05-14
+* **Date generated**: 2025-05-21
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -71,10 +71,10 @@
 * **Kyogre** using _Waterfall_ (100%)
 * **Rampardos** using _Smack Down_ (100%)
 * **Excadrill** using _Mud Slap_ (95%)
+* **Urshifu (Rapid Strike)** using _Waterfall_ (94%)
 * **Mamoswine** using _Mud Slap_ (92%)
 * **Sharpedo** using _Waterfall_ (90%)
 * **Rhyperior** using _Mud Slap_ (90%)
-* **Terrakion** using _Smack Down_ (88%)
 
 # Anti-Flying 🕊️
 
@@ -93,8 +93,8 @@
 * **Hoopa** using _Astonish_ (84%)
 * **Hoopa (Unbound)** using _Astonish_ (82%)
 * **Hydreigon** using _Bite_ (82%)
+* **Urshifu (Single Strike)** using _Sucker Punch_ (82%)
 * **Cursola** using _Astonish_ (81%)
-* **Gholdengo** using _Astonish_ (81%)
 
 # Anti-Grass 🌱
 
@@ -132,9 +132,9 @@
 * **Marshadow** using _Counter_ (95%)
 * **Breloom** using _Force Palm_ (94%)
 * **Lucario** using _Force Palm_ (92%)
+* **Urshifu (Single Strike)** using _Counter_ (91%)
+* **Urshifu (Rapid Strike)** using _Counter_ (91%)
 * **Zapdos (Galarian)** using _Counter_ (90%)
-* **Sirfetch'd** using _Counter_ (89%)
-* **Conkeldurr** using _Counter_ (87%)
 
 # Anti-Poison 🐍
 
@@ -153,8 +153,8 @@
 * **Hoopa** using _Astonish_ (84%)
 * **Hoopa (Unbound)** using _Astonish_ (82%)
 * **Hydreigon** using _Bite_ (82%)
+* **Urshifu (Single Strike)** using _Sucker Punch_ (82%)
 * **Cursola** using _Astonish_ (81%)
-* **Gholdengo** using _Astonish_ (81%)
 
 # Anti-Rock 🪨
 
@@ -206,12 +206,12 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 
 * **Hydreigon** using _Bite_ (71%)
+* **Urshifu (Single Strike)** using _Sucker Punch_ (71%)
 * **Tyranitar** using _Bite_ (70%)
 * **Yveltal** using _Sucker Punch_ (70%)
 * **Thundurus (Therian)** using _Bite_ (68%)
 * **Sharpedo** using _Bite_ (68%)
 * **Zarude** using _Bite_ (68%)
-* **Salamence** using _Bite_ (64%)
 
 
 ### Highest **dragon** (🐉) fast move damage: 
@@ -257,9 +257,9 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 * **Marshadow** using _Counter_ (74%)
 * **Breloom** using _Force Palm_ (73%)
 * **Lucario** using _Force Palm_ (72%)
+* **Urshifu (Single Strike)** using _Counter_ (71%)
+* **Urshifu (Rapid Strike)** using _Counter_ (71%)
 * **Zapdos (Galarian)** using _Counter_ (70%)
-* **Sirfetch'd** using _Counter_ (69%)
-* **Conkeldurr** using _Counter_ (68%)
 
 
 ### Highest **fire** (🔥) fast move damage: 
@@ -398,9 +398,9 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 
 * **Kyogre** using _Waterfall_ (75%)
+* **Urshifu (Rapid Strike)** using _Waterfall_ (71%)
 * **Sharpedo** using _Waterfall_ (68%)
 * **Gyarados** using _Waterfall_ (66%)
 * **Primarina** using _Waterfall_ (65%)
 * **Crawdaunt** using _Waterfall_ (63%)
 * **Floatzel** using _Waterfall_ (62%)
-* **Kabutops** using _Waterfall_ (62%)

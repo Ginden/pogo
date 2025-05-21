@@ -2,7 +2,7 @@
 
 * **Excluded tags**: mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-05-14
+* **Date generated**: 2025-05-21
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -211,7 +211,7 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 * **Cacturne (Shadow)** using _Sucker Punch_ (74%)
 * **Gengar (Shadow)** using _Sucker Punch_ (72%)
 * **Hydreigon** using _Bite_ (71%)
-* **Tyranitar** using _Bite_ (69%)
+* **Urshifu (Single Strike)** using _Sucker Punch_ (70%)
 
 
 ### Highest **dragon** (🐉) fast move damage: 

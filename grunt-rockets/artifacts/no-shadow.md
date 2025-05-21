@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow
 * **Exclude unreleased**: true
-* **Date generated**: 2025-05-14
+* **Date generated**: 2025-05-21
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -210,8 +210,8 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 * **Gengar (Mega)** using _Sucker Punch_ (71%)
 * **Hydreigon** using _Bite_ (64%)
 * **Salamence (Mega)** using _Bite_ (64%)
+* **Urshifu (Single Strike)** using _Sucker Punch_ (63%)
 * **Tyranitar** using _Bite_ (62%)
-* **Yveltal** using _Sucker Punch_ (62%)
 
 
 ### Highest **dragon** (🐉) fast move damage: 
@@ -400,7 +400,7 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 * **Kyogre (Primal)** using _Waterfall_ (86%)
 * **Gyarados (Mega)** using _Waterfall_ (72%)
 * **Kyogre** using _Waterfall_ (67%)
+* **Urshifu (Rapid Strike)** using _Waterfall_ (63%)
 * **Sharpedo** using _Waterfall_ (61%)
 * **Gyarados** using _Waterfall_ (59%)
 * **Primarina** using _Waterfall_ (58%)
-* **Crawdaunt** using _Waterfall_ (56%)
