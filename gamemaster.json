@@ -91440,8 +91440,8 @@
       "dex": 891,
       "family": {
         "evolutions": [
-          "urshifu",
-          "urshifu"
+          "urshifu_rapid_strike",
+          "urshifu_single_strike"
         ],
         "id": "FAMILY_KUBFU"
       },
@@ -91453,61 +91453,6 @@
       "released": true,
       "speciesId": "kubfu",
       "speciesName": "Kubfu",
-      "tags": [
-        "legendary",
-        "untradeable"
-      ],
-      "thirdMoveCost": 100000,
-      "types": [
-        "fighting",
-        "none"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 254,
-        "def": 177,
-        "hp": 225
-      },
-      "buddyDistance": 20,
-      "chargedMoves": [
-        "BRICK_BREAK",
-        "DYNAMIC_PUNCH",
-        "CLOSE_COMBAT"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          15,
-          10,
-          12,
-          10
-        ],
-        "cp2500": [
-          24.5,
-          13,
-          13,
-          14
-        ],
-        "cp500": [
-          5,
-          11,
-          15,
-          14
-        ]
-      },
-      "dex": 892,
-      "family": {
-        "id": "FAMILY_KUBFU",
-        "parent": "kubfu"
-      },
-      "fastMoves": [
-        "ROCK_SMASH",
-        "COUNTER"
-      ],
-      "levelFloor": 15,
-      "released": false,
-      "speciesId": "urshifu",
-      "speciesName": "Urshifu",
       "tags": [
         "legendary",
         "untradeable"
@@ -91562,7 +91507,7 @@
         "WATERFALL"
       ],
       "levelFloor": 15,
-      "released": false,
+      "released": true,
       "speciesId": "urshifu_rapid_strike",
       "speciesName": "Urshifu (Rapid Strike)",
       "tags": [
@@ -91619,7 +91564,8 @@
         "SUCKER_PUNCH"
       ],
       "levelFloor": 15,
-      "released": false,
+      "released": true,
+      "searchPriority": 3,
       "speciesId": "urshifu_single_strike",
       "speciesName": "Urshifu (Single Strike)",
       "tags": [
@@ -99367,5 +99313,5 @@
     "amaura",
     "aurorus"
   ],
-  "timestamp": "2025-05-13 21:26:57"
+  "timestamp": "2025-05-19 01:05:03"
 }
