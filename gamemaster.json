@@ -331,7 +331,6 @@
             "regieleki",
             "ho_oh",
             "buzzwole",
-            "drapion_shadow",
             "marowak_alolan_shadow",
             "lapras_shadow",
             "hitmontop_shadow",
@@ -343,7 +342,18 @@
             "politoed_shadow",
             "sealeo_shadow",
             "guzzlord",
-            "zapdos_shadow"
+            "zapdos_shadow",
+            "sableye_shadow",
+            "feraligatr_shadow",
+            "golurk_shadow",
+            "quagsire_shadow",
+            "diggersby_shadow",
+            "zapdos_shadow",
+            "bastiodon_shadow",
+            "typhlosion_shadow",
+            "registeel_shadow",
+            "dusknoir_shadow",
+            "dusclops_shadow"
           ]
         },
         {
@@ -1719,16 +1729,16 @@
     },
     {
       "cp": 1500,
-      "cup": "retro",
-      "meta": "retro",
+      "cup": "catch",
+      "meta": "catch",
       "rules": [
         "Pokémon must be at or below 1,500 CP to enter.",
-        "Dark-, Steel-, and Fairy-type Pokémon are not eligible."
+        "Only Pokémon caught during the Might and Mastery Season are eligible."
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Retro Cup"
+      "title": "Catch Cup"
     },
     {
       "cp": 1500,
@@ -99313,5 +99323,5 @@
     "amaura",
     "aurorus"
   ],
-  "timestamp": "2025-05-19 01:05:03"
+  "timestamp": "2025-05-22 16:48:56"
 }
