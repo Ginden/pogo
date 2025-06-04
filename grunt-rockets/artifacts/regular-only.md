@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 * **Exclude unreleased**: true
-* **Date generated**: 2025-05-28
+* **Date generated**: 2025-06-04
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -24,7 +24,7 @@
 * **Togekiss** using _Charm_ (95%)
 * **Mienshao** using _Force Palm_ (94%)
 * **Granbull** using _Charm_ (90%)
-* **Breloom** using _Force Palm_ (88%)
+* **Volcarona** using _Bug Bite_ (89%)
 
 # Anti-Dragon 🐉
 
@@ -48,13 +48,13 @@
 
 # Anti-Fairy 🧚
 
-* **Sneasler** using _Poison Jab_ (100%)
-* **Roserade** using _Poison Jab_ (94%)
-* **Archeops** using _Steel Wing_ (93%)
-* **Revavroom** using _Poison Jab_ (89%)
-* **Salazzle** using _Poison Jab_ (89%)
-* **Toxtricity** using _Poison Jab_ (87%)
-* **Overqwil** using _Poison Jab_ (86%)
+* **Metagross** using _Bullet Punch_ (100%)
+* **Lucario** using _Bullet Punch_ (92%)
+* **Scizor** using _Bullet Punch_ (92%)
+* **Sneasler** using _Poison Jab_ (88%)
+* **Roserade** using _Poison Jab_ (83%)
+* **Archeops** using _Steel Wing_ (82%)
+* **Revavroom** using _Poison Jab_ (78%)
 
 # Anti-Fighting 💪
 
@@ -99,12 +99,12 @@
 # Anti-Grass 🌱
 
 * **Chandelure** using _Incinerate_ (100%)
+* **Volcarona** using _Bug Bite_ (98%)
 * **Darmanitan (Standard)** using _Incinerate_ (97%)
 * **Darmanitan (Standard)** using _Fire Fang_ (97%)
 * **Darmanitan (Galarian)** using _Ice Fang_ (97%)
 * **Baxcalibur** using _Ice Fang_ (94%)
-* **Chandelure** using _Fire Spin_ (92%)
-* **Volcarona** using _Fire Spin_ (89%)
+* **Vikavolt** using _Bug Bite_ (94%)
 
 # Anti-Ground 🏜️
 
@@ -124,7 +124,7 @@
 * **Darmanitan (Standard)** using _Incinerate_ (94%)
 * **Darmanitan (Standard)** using _Fire Fang_ (94%)
 * **Breloom** using _Force Palm_ (94%)
-* **Lucario** using _Force Palm_ (92%)
+* **Metagross** using _Bullet Punch_ (92%)
 
 # Anti-Normal ⚪
 
@@ -149,12 +149,12 @@
 # Anti-Psychic 🔮
 
 * **Dragapult** using _Astonish_ (100%)
+* **Volcarona** using _Bug Bite_ (99%)
 * **Hydreigon** using _Bite_ (96%)
+* **Vikavolt** using _Bug Bite_ (96%)
 * **Cursola** using _Astonish_ (95%)
 * **Gholdengo** using _Astonish_ (95%)
 * **Tyranitar** using _Bite_ (95%)
-* **Polteageist** using _Astonish_ (94%)
-* **Sharpedo** using _Bite_ (92%)
 
 # Anti-Rock 🪨
 
@@ -162,9 +162,9 @@
 * **Roserade** using _Razor Leaf_ (98%)
 * **Rillaboom** using _Razor Leaf_ (97%)
 * **Breloom** using _Force Palm_ (94%)
+* **Metagross** using _Bullet Punch_ (92%)
 * **Lucario** using _Force Palm_ (92%)
 * **Excadrill** using _Mud Slap_ (91%)
-* **Tsareena** using _Razor Leaf_ (90%)
 
 # Anti-Steel 🛡️
 
@@ -193,13 +193,13 @@ All Pokemon are normalized to neutral damage of Haxorus using Dragon Tail
 ### Highest **bug** (🪲) fast move damage: 
 
 
-* **Volcarona** using _Bug Bite_ (65%)
-* **Vikavolt** using _Bug Bite_ (62%)
-* **Pinsir** using _Bug Bite_ (59%)
-* **Heracross** using _Struggle Bug_ (58%)
-* **Yanmega** using _Bug Bite_ (57%)
-* **Escavalier** using _Bug Bite_ (55%)
-* **Armaldo** using _Struggle Bug_ (55%)
+* **Volcarona** using _Bug Bite_ (86%)
+* **Vikavolt** using _Bug Bite_ (83%)
+* **Pinsir** using _Bug Bite_ (78%)
+* **Yanmega** using _Bug Bite_ (76%)
+* **Escavalier** using _Bug Bite_ (73%)
+* **Centiskorch** using _Bug Bite_ (73%)
+* **Durant** using _Bug Bite_ (72%)
 
 
 ### Highest **dark** (🌌) fast move damage: 
@@ -385,13 +385,13 @@ All Pokemon are normalized to neutral damage of Haxorus using Dragon Tail
 ### Highest **steel** (🛡️) fast move damage: 
 
 
+* **Metagross** using _Bullet Punch_ (84%)
+* **Lucario** using _Bullet Punch_ (77%)
+* **Scizor** using _Bullet Punch_ (77%)
 * **Archeops** using _Steel Wing_ (69%)
-* **Metagross** using _Bullet Punch_ (63%)
+* **Machamp** using _Bullet Punch_ (64%)
 * **Dragonite** using _Steel Wing_ (63%)
-* **Empoleon** using _Steel Wing_ (61%)
-* **Lucario** using _Bullet Punch_ (58%)
-* **Scizor** using _Bullet Punch_ (58%)
-* **Tyranitar** using _Iron Tail_ (57%)
+* **Pangoro** using _Bullet Punch_ (62%)
 
 
 ### Highest **water** (💧) fast move damage: 

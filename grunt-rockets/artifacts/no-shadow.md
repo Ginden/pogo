@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow
 * **Exclude unreleased**: true
-* **Date generated**: 2025-05-28
+* **Date generated**: 2025-06-04
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -23,8 +23,8 @@
 * **Lucario (Mega)** using _Force Palm_ (83%)
 * **Heracross (Mega)** using _Counter_ (82%)
 * **Blaziken (Mega)** using _Counter_ (81%)
+* **Pheromosa** using _Bug Bite_ (78%)
 * **Lucario (Mega)** using _Counter_ (76%)
-* **Alakazam (Mega)** using _Counter_ (75%)
 
 # Anti-Dragon 🐉
 
@@ -48,13 +48,13 @@
 
 # Anti-Fairy 🧚
 
-* **Beedrill (Mega)** using _Poison Jab_ (100%)
-* **Gardevoir (Mega)** using _Charm_ (96%)
-* **Lucario (Mega)** using _Bullet Punch_ (88%)
-* **Naganadel** using _Poison Jab_ (87%)
-* **Sneasler** using _Poison Jab_ (86%)
-* **Alakazam (Mega)** using _Confusion_ (86%)
-* **Kartana** using _Razor Leaf_ (85%)
+* **Lucario (Mega)** using _Bullet Punch_ (100%)
+* **Scizor (Mega)** using _Bullet Punch_ (90%)
+* **Beedrill (Mega)** using _Poison Jab_ (86%)
+* **Metagross** using _Bullet Punch_ (84%)
+* **Gardevoir (Mega)** using _Charm_ (82%)
+* **Lucario** using _Bullet Punch_ (77%)
+* **Scizor** using _Bullet Punch_ (77%)
 
 # Anti-Fighting 💪
 
@@ -98,13 +98,13 @@
 
 # Anti-Grass 🌱
 
+* **Pheromosa** using _Bug Bite_ (100%)
 * **Blacephalon** using _Incinerate_ (100%)
 * **Kyurem (White)** using _Ice Fang_ (98%)
-* **Blaziken (Mega)** using _Fire Spin_ (96%)
+* **Pinsir (Mega)** using _Bug Bite_ (97%)
+* **Beedrill (Mega)** using _Bug Bite_ (96%)
+* **Blaziken (Mega)** using _Fire Spin_ (95%)
 * **Charizard (Mega Y)** using _Fire Spin_ (93%)
-* **Houndoom (Mega)** using _Fire Fang_ (92%)
-* **Pidgeot (Mega)** using _Gust_ (89%)
-* **Rayquaza (Mega)** using _Air Slash_ (89%)
 
 # Anti-Ground 🏜️
 
@@ -124,7 +124,7 @@
 * **Blaziken (Mega)** using _Counter_ (96%)
 * **Blacephalon** using _Incinerate_ (92%)
 * **Lucario (Mega)** using _Counter_ (91%)
-* **Alakazam (Mega)** using _Counter_ (89%)
+* **Lucario (Mega)** using _Bullet Punch_ (91%)
 
 # Anti-Normal ⚪
 
@@ -148,13 +148,13 @@
 
 # Anti-Psychic 🔮
 
+* **Pheromosa** using _Bug Bite_ (100%)
 * **Blacephalon** using _Astonish_ (100%)
 * **Tyranitar (Mega)** using _Bite_ (98%)
+* **Pinsir (Mega)** using _Bug Bite_ (97%)
+* **Beedrill (Mega)** using _Bug Bite_ (96%)
 * **Gyarados (Mega)** using _Bite_ (93%)
 * **Gengar (Mega)** using _Sucker Punch_ (92%)
-* **Dragapult** using _Astonish_ (85%)
-* **Hoopa** using _Astonish_ (84%)
-* **Gengar (Mega)** using _Shadow Claw_ (83%)
 
 # Anti-Rock 🪨
 
@@ -164,7 +164,7 @@
 * **Heracross (Mega)** using _Counter_ (92%)
 * **Blaziken (Mega)** using _Counter_ (90%)
 * **Lucario (Mega)** using _Counter_ (85%)
-* **Alakazam (Mega)** using _Counter_ (84%)
+* **Lucario (Mega)** using _Bullet Punch_ (85%)
 
 # Anti-Steel 🛡️
 
@@ -193,13 +193,13 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 ### Highest **bug** (🪲) fast move damage: 
 
 
+* **Pheromosa** using _Bug Bite_ (78%)
+* **Pinsir (Mega)** using _Bug Bite_ (75%)
+* **Beedrill (Mega)** using _Bug Bite_ (75%)
+* **Volcarona** using _Bug Bite_ (65%)
+* **Vikavolt** using _Bug Bite_ (63%)
 * **Heracross (Mega)** using _Struggle Bug_ (61%)
-* **Pheromosa** using _Bug Bite_ (58%)
-* **Pinsir (Mega)** using _Bug Bite_ (56%)
-* **Beedrill (Mega)** using _Bug Bite_ (56%)
-* **Volcarona** using _Bug Bite_ (49%)
-* **Vikavolt** using _Bug Bite_ (47%)
-* **Pinsir** using _Bug Bite_ (45%)
+* **Pinsir** using _Bug Bite_ (59%)
 
 
 ### Highest **dark** (🌌) fast move damage: 
@@ -331,7 +331,7 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 * **Glalie (Mega)** using _Frost Breath_ (55%)
 * **Zamazenta (Hero)** using _Ice Fang_ (53%)
 * **Glaceon** using _Frost Breath_ (52%)
-* **Avalugg** using _Ice Fang_ (50%)
+* **Zamazenta (Crowned Shield)** using _Ice Fang_ (52%)
 
 
 ### Highest **normal** (⚪) fast move damage: 
@@ -385,13 +385,13 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 ### Highest **steel** (🛡️) fast move damage: 
 
 
-* **Lucario (Mega)** using _Bullet Punch_ (57%)
+* **Lucario (Mega)** using _Bullet Punch_ (76%)
+* **Scizor (Mega)** using _Bullet Punch_ (69%)
+* **Metagross** using _Bullet Punch_ (64%)
+* **Lucario** using _Bullet Punch_ (59%)
+* **Scizor** using _Bullet Punch_ (59%)
 * **Kyurem (White)** using _Steel Wing_ (56%)
 * **Tyranitar (Mega)** using _Iron Tail_ (53%)
-* **Archeops** using _Steel Wing_ (53%)
-* **Aerodactyl (Mega)** using _Steel Wing_ (53%)
-* **Scizor (Mega)** using _Bullet Punch_ (52%)
-* **Aggron (Mega)** using _Iron Tail_ (51%)
 
 
 ### Highest **water** (💧) fast move damage: 

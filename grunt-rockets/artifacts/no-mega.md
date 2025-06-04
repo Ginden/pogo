@@ -2,7 +2,7 @@
 
 * **Excluded tags**: mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-05-28
+* **Date generated**: 2025-06-04
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -20,11 +20,11 @@
 
 * **Gardevoir (Shadow)** using _Charm_ (100%)
 * **Granbull (Shadow)** using _Charm_ (90%)
+* **Pheromosa** using _Bug Bite_ (88%)
 * **Hatterene** using _Charm_ (83%)
 * **Gallade (Shadow)** using _Charm_ (83%)
 * **Gardevoir** using _Charm_ (83%)
 * **Conkeldurr (Shadow)** using _Counter_ (82%)
-* **Primarina** using _Charm_ (82%)
 
 # Anti-Dragon 🐉
 
@@ -48,13 +48,13 @@
 
 # Anti-Fairy 🧚
 
-* **Sneasler (Shadow)** using _Poison Jab_ (100%)
-* **Archeops (Shadow)** using _Steel Wing_ (93%)
-* **Metagross (Shadow)** using _Bullet Punch_ (85%)
-* **Naganadel** using _Poison Jab_ (85%)
-* **Dragonite (Shadow)** using _Steel Wing_ (85%)
-* **Sneasler** using _Poison Jab_ (83%)
-* **Kartana** using _Razor Leaf_ (83%)
+* **Metagross (Shadow)** using _Bullet Punch_ (100%)
+* **Scizor (Shadow)** using _Bullet Punch_ (92%)
+* **Sneasler (Shadow)** using _Poison Jab_ (88%)
+* **Metagross** using _Bullet Punch_ (83%)
+* **Archeops (Shadow)** using _Steel Wing_ (82%)
+* **Lucario** using _Bullet Punch_ (77%)
+* **Scizor** using _Bullet Punch_ (77%)
 
 # Anti-Fighting 💪
 
@@ -101,10 +101,10 @@
 * **Chandelure (Shadow)** using _Incinerate_ (100%)
 * **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
 * **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
+* **Pheromosa** using _Bug Bite_ (96%)
 * **Blacephalon** using _Incinerate_ (96%)
 * **Kyurem (White)** using _Ice Fang_ (95%)
 * **Chandelure (Shadow)** using _Fire Spin_ (92%)
-* **Ho-Oh (Shadow)** using _Incinerate_ (89%)
 
 # Anti-Ground 🏜️
 
@@ -123,8 +123,8 @@
 * **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
 * **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
 * **Blacephalon** using _Incinerate_ (96%)
+* **Metagross (Shadow)** using _Bullet Punch_ (95%)
 * **Chandelure (Shadow)** using _Fire Spin_ (92%)
-* **Conkeldurr (Shadow)** using _Counter_ (90%)
 
 # Anti-Normal ⚪
 
@@ -148,23 +148,23 @@
 
 # Anti-Psychic 🔮
 
+* **Pheromosa** using _Bug Bite_ (100%)
 * **Blacephalon** using _Astonish_ (100%)
-* **Tyranitar (Shadow)** using _Bite_ (97%)
+* **Tyranitar (Shadow)** using _Bite_ (96%)
 * **Sharpedo (Shadow)** using _Bite_ (94%)
-* **Salamence (Shadow)** using _Bite_ (89%)
-* **Haunter (Shadow)** using _Astonish_ (87%)
-* **Golurk (Shadow)** using _Astonish_ (86%)
-* **Cacturne (Shadow)** using _Sucker Punch_ (86%)
+* **Pinsir (Shadow)** using _Bug Bite_ (92%)
+* **Salamence (Shadow)** using _Bite_ (88%)
+* **Escavalier (Shadow)** using _Bug Bite_ (86%)
 
 # Anti-Rock 🪨
 
 * **Kartana** using _Razor Leaf_ (100%)
 * **Kyogre (Shadow)** using _Waterfall_ (90%)
+* **Metagross (Shadow)** using _Bullet Punch_ (86%)
 * **Excadrill (Shadow)** using _Mud Slap_ (85%)
 * **Mamoswine (Shadow)** using _Mud Slap_ (83%)
 * **Conkeldurr (Shadow)** using _Counter_ (81%)
 * **Sharpedo (Shadow)** using _Waterfall_ (81%)
-* **Rhyperior (Shadow)** using _Mud Slap_ (81%)
 
 # Anti-Steel 🛡️
 
@@ -193,13 +193,13 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 ### Highest **bug** (🪲) fast move damage: 
 
 
-* **Pheromosa** using _Bug Bite_ (65%)
-* **Pinsir (Shadow)** using _Bug Bite_ (59%)
-* **Regigigas (Shadow)** using _Hidden Power (Bug)_ (59%)
-* **Escavalier (Shadow)** using _Bug Bite_ (56%)
-* **Armaldo (Shadow)** using _Struggle Bug_ (56%)
-* **Volcarona** using _Bug Bite_ (55%)
-* **Porygon-Z (Shadow)** using _Hidden Power (Bug)_ (55%)
+* **Pheromosa** using _Bug Bite_ (86%)
+* **Pinsir (Shadow)** using _Bug Bite_ (79%)
+* **Escavalier (Shadow)** using _Bug Bite_ (74%)
+* **Volcarona** using _Bug Bite_ (73%)
+* **Vikavolt** using _Bug Bite_ (70%)
+* **Heatran (Shadow)** using _Bug Bite_ (69%)
+* **Scolipede (Shadow)** using _Bug Bite_ (68%)
 
 
 ### Highest **dark** (🌌) fast move damage: 
@@ -385,13 +385,13 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 ### Highest **steel** (🛡️) fast move damage: 
 
 
+* **Metagross (Shadow)** using _Bullet Punch_ (85%)
+* **Scizor (Shadow)** using _Bullet Punch_ (79%)
+* **Metagross** using _Bullet Punch_ (71%)
 * **Archeops (Shadow)** using _Steel Wing_ (70%)
-* **Metagross (Shadow)** using _Bullet Punch_ (64%)
-* **Dragonite (Shadow)** using _Steel Wing_ (63%)
-* **Kyurem (White)** using _Steel Wing_ (62%)
-* **Empoleon (Shadow)** using _Steel Wing_ (62%)
-* **Regigigas (Shadow)** using _Hidden Power (Steel)_ (59%)
-* **Scizor (Shadow)** using _Bullet Punch_ (59%)
+* **Lucario** using _Bullet Punch_ (65%)
+* **Scizor** using _Bullet Punch_ (65%)
+* **Machamp (Shadow)** using _Bullet Punch_ (65%)
 
 
 ### Highest **water** (💧) fast move damage: 

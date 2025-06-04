@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-05-28
+* **Date generated**: 2025-06-04
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -18,13 +18,13 @@
 
 # Anti-Dark 🌌
 
-* **Hatterene** using _Charm_ (100%)
-* **Gardevoir** using _Charm_ (100%)
-* **Primarina** using _Charm_ (98%)
-* **Togekiss** using _Charm_ (95%)
-* **Mienshao** using _Force Palm_ (94%)
-* **Granbull** using _Charm_ (90%)
-* **Marshadow** using _Counter_ (89%)
+* **Pheromosa** using _Bug Bite_ (100%)
+* **Hatterene** using _Charm_ (95%)
+* **Gardevoir** using _Charm_ (95%)
+* **Primarina** using _Charm_ (93%)
+* **Togekiss** using _Charm_ (91%)
+* **Mienshao** using _Force Palm_ (89%)
+* **Granbull** using _Charm_ (86%)
 
 # Anti-Dragon 🐉
 
@@ -48,13 +48,13 @@
 
 # Anti-Fairy 🧚
 
-* **Naganadel** using _Poison Jab_ (100%)
-* **Sneasler** using _Poison Jab_ (99%)
-* **Kartana** using _Razor Leaf_ (98%)
-* **Kyurem (White)** using _Steel Wing_ (97%)
-* **Nihilego** using _Poison Jab_ (95%)
-* **Roserade** using _Poison Jab_ (93%)
-* **Archeops** using _Steel Wing_ (92%)
+* **Metagross** using _Bullet Punch_ (100%)
+* **Lucario** using _Bullet Punch_ (92%)
+* **Scizor** using _Bullet Punch_ (92%)
+* **Naganadel** using _Poison Jab_ (89%)
+* **Sneasler** using _Poison Jab_ (88%)
+* **Kartana** using _Razor Leaf_ (87%)
+* **Kyurem (White)** using _Steel Wing_ (87%)
 
 # Anti-Fighting 💪
 
@@ -98,13 +98,13 @@
 
 # Anti-Grass 🌱
 
+* **Pheromosa** using _Bug Bite_ (100%)
 * **Blacephalon** using _Incinerate_ (100%)
 * **Kyurem (White)** using _Ice Fang_ (98%)
 * **Reshiram** using _Fire Fang_ (88%)
-* **Chandelure** using _Incinerate_ (87%)
+* **Chandelure** using _Incinerate_ (86%)
+* **Volcarona** using _Bug Bite_ (84%)
 * **Darmanitan (Standard)** using _Incinerate_ (84%)
-* **Darmanitan (Standard)** using _Fire Fang_ (84%)
-* **Darmanitan (Galarian)** using _Ice Fang_ (84%)
 
 # Anti-Ground 🏜️
 
@@ -148,13 +148,13 @@
 
 # Anti-Psychic 🔮
 
+* **Pheromosa** using _Bug Bite_ (100%)
 * **Blacephalon** using _Astonish_ (100%)
 * **Dragapult** using _Astonish_ (85%)
-* **Hoopa** using _Astonish_ (84%)
+* **Volcarona** using _Bug Bite_ (84%)
+* **Hoopa** using _Astonish_ (83%)
 * **Hoopa (Unbound)** using _Astonish_ (82%)
 * **Hydreigon** using _Bite_ (82%)
-* **Urshifu (Single Strike)** using _Sucker Punch_ (82%)
-* **Cursola** using _Astonish_ (81%)
 
 # Anti-Rock 🪨
 
@@ -193,13 +193,13 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 ### Highest **bug** (🪲) fast move damage: 
 
 
-* **Pheromosa** using _Bug Bite_ (65%)
-* **Volcarona** using _Bug Bite_ (55%)
-* **Vikavolt** using _Bug Bite_ (53%)
-* **Pinsir** using _Bug Bite_ (50%)
-* **Regigigas** using _Hidden Power (Bug)_ (50%)
-* **Heracross** using _Struggle Bug_ (49%)
-* **Yanmega** using _Bug Bite_ (49%)
+* **Pheromosa** using _Bug Bite_ (87%)
+* **Volcarona** using _Bug Bite_ (73%)
+* **Vikavolt** using _Bug Bite_ (71%)
+* **Pinsir** using _Bug Bite_ (67%)
+* **Yanmega** using _Bug Bite_ (65%)
+* **Escavalier** using _Bug Bite_ (63%)
+* **Centiskorch** using _Bug Bite_ (62%)
 
 
 ### Highest **dark** (🌌) fast move damage: 
@@ -281,9 +281,9 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 * **Tornadus (Therian)** using _Gust_ (67%)
 * **Staraptor** using _Gust_ (65%)
 * **Rayquaza** using _Air Slash_ (59%)
+* **Zacian (Crowned Sword)** using _Air Slash_ (57%)
 * **Kartana** using _Air Slash_ (56%)
 * **Tornadus (Incarnate)** using _Air Slash_ (55%)
-* **Shaymin (Sky)** using _Hidden Power (Flying)_ (54%)
 
 
 ### Highest **ghost** (👻) fast move damage: 
@@ -330,8 +330,8 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 * **Baxcalibur** using _Ice Fang_ (71%)
 * **Zamazenta (Hero)** using _Ice Fang_ (59%)
 * **Glaceon** using _Frost Breath_ (58%)
+* **Zamazenta (Crowned Shield)** using _Ice Fang_ (58%)
 * **Avalugg** using _Ice Fang_ (56%)
-* **Jynx** using _Frost Breath_ (55%)
 
 
 ### Highest **normal** (⚪) fast move damage: 
@@ -385,13 +385,13 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 ### Highest **steel** (🛡️) fast move damage: 
 
 
+* **Metagross** using _Bullet Punch_ (72%)
+* **Lucario** using _Bullet Punch_ (66%)
+* **Scizor** using _Bullet Punch_ (66%)
 * **Kyurem (White)** using _Steel Wing_ (62%)
 * **Archeops** using _Steel Wing_ (59%)
-* **Metagross** using _Bullet Punch_ (54%)
-* **Dragonite** using _Steel Wing_ (53%)
-* **Empoleon** using _Steel Wing_ (52%)
-* **Kyurem** using _Steel Wing_ (50%)
-* **Regigigas** using _Hidden Power (Steel)_ (50%)
+* **Zacian (Crowned Sword)** using _Metal Claw_ (57%)
+* **Machamp** using _Bullet Punch_ (55%)
 
 
 ### Highest **water** (💧) fast move damage: 

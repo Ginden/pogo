@@ -2,7 +2,7 @@
 
 * **Excluded tags**: none
 * **Exclude unreleased**: true
-* **Date generated**: 2025-05-28
+* **Date generated**: 2025-06-04
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -48,13 +48,13 @@
 
 # Anti-Fairy 🧚
 
-* **Sneasler (Shadow)** using _Poison Jab_ (100%)
-* **Beedrill (Mega)** using _Poison Jab_ (97%)
-* **Archeops (Shadow)** using _Steel Wing_ (93%)
-* **Gardevoir (Mega)** using _Charm_ (93%)
-* **Metagross (Shadow)** using _Bullet Punch_ (85%)
-* **Lucario (Mega)** using _Bullet Punch_ (85%)
-* **Naganadel** using _Poison Jab_ (85%)
+* **Metagross (Shadow)** using _Bullet Punch_ (100%)
+* **Lucario (Mega)** using _Bullet Punch_ (100%)
+* **Scizor (Shadow)** using _Bullet Punch_ (92%)
+* **Scizor (Mega)** using _Bullet Punch_ (90%)
+* **Sneasler (Shadow)** using _Poison Jab_ (88%)
+* **Beedrill (Mega)** using _Poison Jab_ (85%)
+* **Metagross** using _Bullet Punch_ (83%)
 
 # Anti-Fighting 💪
 
@@ -101,10 +101,10 @@
 * **Chandelure (Shadow)** using _Incinerate_ (100%)
 * **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
 * **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
+* **Pheromosa** using _Bug Bite_ (96%)
 * **Blacephalon** using _Incinerate_ (96%)
 * **Kyurem (White)** using _Ice Fang_ (95%)
-* **Blaziken (Mega)** using _Fire Spin_ (92%)
-* **Chandelure (Shadow)** using _Fire Spin_ (92%)
+* **Pinsir (Mega)** using _Bug Bite_ (93%)
 
 # Anti-Ground 🏜️
 
@@ -148,13 +148,13 @@
 
 # Anti-Psychic 🔮
 
+* **Pheromosa** using _Bug Bite_ (100%)
 * **Blacephalon** using _Astonish_ (100%)
 * **Tyranitar (Mega)** using _Bite_ (98%)
-* **Tyranitar (Shadow)** using _Bite_ (97%)
+* **Pinsir (Mega)** using _Bug Bite_ (97%)
+* **Tyranitar (Shadow)** using _Bite_ (96%)
+* **Beedrill (Mega)** using _Bug Bite_ (96%)
 * **Sharpedo (Shadow)** using _Bite_ (94%)
-* **Gyarados (Mega)** using _Bite_ (93%)
-* **Gengar (Mega)** using _Sucker Punch_ (92%)
-* **Salamence (Shadow)** using _Bite_ (89%)
 
 # Anti-Rock 🪨
 
@@ -164,7 +164,7 @@
 * **Heracross (Mega)** using _Counter_ (92%)
 * **Blaziken (Mega)** using _Counter_ (90%)
 * **Kyogre (Shadow)** using _Waterfall_ (90%)
-* **Lucario (Mega)** using _Counter_ (85%)
+* **Metagross (Shadow)** using _Bullet Punch_ (86%)
 
 # Anti-Steel 🛡️
 
@@ -193,13 +193,13 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 ### Highest **bug** (🪲) fast move damage: 
 
 
-* **Heracross (Mega)** using _Struggle Bug_ (61%)
-* **Pheromosa** using _Bug Bite_ (58%)
-* **Pinsir (Mega)** using _Bug Bite_ (56%)
-* **Beedrill (Mega)** using _Bug Bite_ (56%)
-* **Pinsir (Shadow)** using _Bug Bite_ (53%)
-* **Regigigas (Shadow)** using _Hidden Power (Bug)_ (53%)
-* **Escavalier (Shadow)** using _Bug Bite_ (50%)
+* **Pheromosa** using _Bug Bite_ (78%)
+* **Pinsir (Mega)** using _Bug Bite_ (75%)
+* **Beedrill (Mega)** using _Bug Bite_ (75%)
+* **Pinsir (Shadow)** using _Bug Bite_ (71%)
+* **Escavalier (Shadow)** using _Bug Bite_ (67%)
+* **Volcarona** using _Bug Bite_ (65%)
+* **Vikavolt** using _Bug Bite_ (63%)
 
 
 ### Highest **dark** (🌌) fast move damage: 
@@ -385,13 +385,13 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 ### Highest **steel** (🛡️) fast move damage: 
 
 
+* **Metagross (Shadow)** using _Bullet Punch_ (77%)
+* **Lucario (Mega)** using _Bullet Punch_ (76%)
+* **Scizor (Shadow)** using _Bullet Punch_ (71%)
+* **Scizor (Mega)** using _Bullet Punch_ (69%)
+* **Metagross** using _Bullet Punch_ (64%)
 * **Archeops (Shadow)** using _Steel Wing_ (63%)
-* **Metagross (Shadow)** using _Bullet Punch_ (57%)
-* **Lucario (Mega)** using _Bullet Punch_ (57%)
-* **Dragonite (Shadow)** using _Steel Wing_ (57%)
-* **Kyurem (White)** using _Steel Wing_ (56%)
-* **Empoleon (Shadow)** using _Steel Wing_ (55%)
-* **Regigigas (Shadow)** using _Hidden Power (Steel)_ (53%)
+* **Lucario** using _Bullet Punch_ (59%)
 
 
 ### Highest **water** (💧) fast move damage: 
