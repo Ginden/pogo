@@ -391,6 +391,30 @@
     {
       "exclude": [
         {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "water",
+            "rock",
+            "steel"
+          ]
+        }
+      ],
+      "name": "fossil",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Fossil Cup"
+    },
+    {
+      "exclude": [
+        {
           "filterType": "type",
           "name": "Type",
           "values": [
@@ -1190,38 +1214,6 @@
       "exclude": [
         {
           "filterType": "tag",
-          "values": [
-            "mega"
-          ]
-        },
-        {
-          "filterType": "id",
-          "values": [
-            "jumpluff",
-            "roserade",
-            "toxapex"
-          ]
-        }
-      ],
-      "include": [
-        {
-          "filterType": "type",
-          "values": [
-            "water",
-            "grass",
-            "fairy"
-          ]
-        }
-      ],
-      "name": "spring",
-      "partySize": 3,
-      "presetOnly": true,
-      "title": "Spring Cup"
-    },
-    {
-      "exclude": [
-        {
-          "filterType": "tag",
           "name": "Tag",
           "values": [
             "mega"
@@ -1276,6 +1268,37 @@
       "overrides": [],
       "title": "Devon Stygian Cup",
       "useDefaultMovesets": 1
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "charizard"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "normal",
+            "fire",
+            "ground",
+            "grass"
+          ]
+        }
+      ],
+      "name": "sunshine",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Sunshine Cup"
     },
     {
       "exclude": [
@@ -1705,6 +1728,34 @@
   ],
   "formats": [
     {
+      "cp": 1500,
+      "cup": "sunshine",
+      "meta": "sunshine",
+      "rules": [
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Normal-, Fire-, Grass-, and Ground-type Pokémon are eligible.",
+        "Charizard is not allowed."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Sunshine Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "fossil",
+      "meta": "fossil",
+      "rules": [
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Water-, Rock-, and Steel-type Pokémon are eligible.",
+        "Charizard is not allowed."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Fossil Cup"
+    },
+    {
       "cp": 10000,
       "cup": "classic",
       "hideRankings": true,
@@ -1717,6 +1768,7 @@
     {
       "cp": 10000,
       "cup": "premier",
+      "hideRankings": true,
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
@@ -1726,19 +1778,6 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Master Premier"
-    },
-    {
-      "cp": 1500,
-      "cup": "catch",
-      "meta": "catch",
-      "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Pokémon caught during the Might and Mastery Season are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Catch Cup"
     },
     {
       "cp": 1500,
@@ -1785,15 +1824,6 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Battle Tower (Master)"
-    },
-    {
-      "cp": 1500,
-      "cup": "spicebowl",
-      "meta": "spicebowl",
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Spice Bowl"
     },
     {
       "cp": 1500,
@@ -1844,10 +1874,10 @@
   "moves": [
     {
       "abbreviation": "Ac",
-      "archetype": "Low Quality",
+      "archetype": "Multipurpose",
       "cooldown": 1000,
       "energy": 0,
-      "energyGain": 5,
+      "energyGain": 8,
       "moveId": "ACID",
       "name": "Acid",
       "power": 6,
@@ -2246,13 +2276,13 @@
     },
     {
       "abbreviation": "BBi",
-      "archetype": "General",
+      "archetype": "Multipurpose",
       "cooldown": 500,
       "energy": 0,
       "energyGain": 3,
       "moveId": "BUG_BITE",
       "name": "Bug Bite",
-      "power": 3,
+      "power": 4,
       "type": "bug"
     },
     {
@@ -2290,13 +2320,13 @@
       "type": "ground"
     },
     {
-      "archetype": "General",
+      "archetype": "Multipurpose",
       "cooldown": 1000,
       "energy": 0,
       "energyGain": 7,
       "moveId": "BULLET_PUNCH",
       "name": "Bullet Punch",
-      "power": 6,
+      "power": 8,
       "type": "steel"
     },
     {
@@ -2415,7 +2445,7 @@
     {
       "abbreviation": "Cr",
       "archetype": "Debuff",
-      "buffApplyChance": "0.3",
+      "buffApplyChance": "0.2",
       "buffTarget": "opponent",
       "buffs": [
         0,
@@ -2428,6 +2458,17 @@
       "name": "Crunch",
       "power": 70,
       "type": "dark"
+    },
+    {
+      "abbreviation": "CrG",
+      "archetype": "General",
+      "cooldown": 500,
+      "energy": 50,
+      "energyGain": 0,
+      "moveId": "CRUSH_GRIP",
+      "name": "Crush Grip",
+      "power": 110,
+      "type": "normal"
     },
     {
       "abbreviation": "Cu",
@@ -2509,7 +2550,7 @@
       "energyGain": 0,
       "moveId": "DOOM_DESIRE",
       "name": "Doom Desire",
-      "power": 75,
+      "power": 80,
       "type": "steel"
     },
     {
@@ -2520,7 +2561,7 @@
       "energyGain": 0,
       "moveId": "DOUBLE_IRON_BASH",
       "name": "Double Iron Bash",
-      "power": 50,
+      "power": 55,
       "type": "steel"
     },
     {
@@ -2584,6 +2625,17 @@
       "moveId": "DRAGON_CLAW",
       "name": "Dragon Claw",
       "power": 50,
+      "type": "dragon"
+    },
+    {
+      "abbreviation": "DrE",
+      "archetype": "General",
+      "cooldown": 500,
+      "energy": 45,
+      "energyGain": 0,
+      "moveId": "DRAGON_Energy",
+      "name": "Dragon Energy",
+      "power": 100,
       "type": "dragon"
     },
     {
@@ -2694,10 +2746,10 @@
       "type": "ground"
     },
     {
-      "archetype": "Heavy Damage",
+      "archetype": "Multipurpose",
       "cooldown": 1000,
       "energy": 0,
-      "energyGain": 6,
+      "energyGain": 7,
       "moveId": "EMBER",
       "name": "Ember",
       "power": 7,
@@ -3014,13 +3066,13 @@
       "type": "normal"
     },
     {
-      "archetype": "Fast Charge",
+      "archetype": "Multipurpose",
       "cooldown": 500,
       "energy": 0,
       "energyGain": 4,
       "moveId": "FURY_CUTTER",
       "name": "Fury Cutter",
-      "power": 2,
+      "power": 3,
       "type": "bug"
     },
     {
@@ -3630,6 +3682,7 @@
       "type": "grass"
     },
     {
+      "abbreviation": "Lf",
       "archetype": "General",
       "cooldown": 1000,
       "energy": 0,
@@ -3801,7 +3854,7 @@
       "energyGain": 8,
       "moveId": "METAL_SOUND",
       "name": "Metal Sound",
-      "power": 3,
+      "power": 5,
       "type": "steel"
     },
     {
@@ -4118,14 +4171,14 @@
     {
       "abbreviation": "PbC",
       "archetype": "Boost",
-      "buffApplyChance": ".66",
+      "buffApplyChance": "1",
       "buffTarget": "self",
       "buffs": [
         0,
         1
       ],
       "cooldown": 500,
-      "energy": 50,
+      "energy": 45,
       "energyGain": 0,
       "moveId": "PARABOLIC_CHARGE",
       "name": "Parabolic Charge",
@@ -5201,6 +5254,23 @@
       "type": "electric"
     },
     {
+      "abbreviation": "ThC",
+      "archetype": "Debuff",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        0,
+        -1
+      ],
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "moveId": "THUNDER_CAGE",
+      "name": "Thunder Cage",
+      "power": 60,
+      "type": "electric"
+    },
+    {
       "archetype": "Multipurpose",
       "cooldown": 1000,
       "energy": 0,
@@ -5552,35 +5622,19 @@
     },
     {
       "abbreviation": "Wr",
-      "archetype": "General",
+      "archetype": "Debuff",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        0,
+        -1
+      ],
       "cooldown": 500,
       "energy": 45,
       "energyGain": 0,
       "moveId": "WRAP",
       "name": "Wrap",
       "power": 60,
-      "type": "normal"
-    },
-    {
-      "abbreviation": "WrG",
-      "archetype": "General",
-      "cooldown": 500,
-      "energy": 45,
-      "energyGain": 0,
-      "moveId": "WRAP_GREEN",
-      "name": "Wrap Green",
-      "power": 25,
-      "type": "normal"
-    },
-    {
-      "abbreviation": "WrP",
-      "archetype": "General",
-      "cooldown": 500,
-      "energy": 45,
-      "energyGain": 0,
-      "moveId": "WRAP_PINK",
-      "name": "Wrap Pink",
-      "power": 25,
       "type": "normal"
     },
     {
@@ -7610,7 +7664,8 @@
       "fastMoves": [
         "BUG_BITE",
         "INFESTATION",
-        "POISON_JAB"
+        "POISON_JAB",
+        "POISON_STING"
       ],
       "level25CP": 1097,
       "released": true,
@@ -7672,7 +7727,8 @@
       "fastMoves": [
         "BUG_BITE",
         "INFESTATION",
-        "POISON_JAB"
+        "POISON_JAB",
+        "POISON_STING"
       ],
       "level25CP": 2099,
       "released": true,
@@ -7734,7 +7790,8 @@
       "fastMoves": [
         "BUG_BITE",
         "INFESTATION",
-        "POISON_JAB"
+        "POISON_JAB",
+        "POISON_STING"
       ],
       "released": true,
       "searchPriority": 4,
@@ -8875,7 +8932,8 @@
       "fastMoves": [
         "ACID",
         "BITE",
-        "DRAGON_TAIL"
+        "DRAGON_TAIL",
+        "POISON_STING"
       ],
       "level25CP": 1147,
       "released": true,
@@ -8931,7 +8989,8 @@
       "fastMoves": [
         "ACID",
         "BITE",
-        "DRAGON_TAIL"
+        "DRAGON_TAIL",
+        "POISON_STING"
       ],
       "released": true,
       "speciesId": "arbok_shadow",
@@ -9429,7 +9488,8 @@
         "THUNDER_PUNCH",
         "WILD_CHARGE",
         "SKULL_BASH",
-        "TRAILBLAZE"
+        "TRAILBLAZE",
+        "SURF"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -9489,7 +9549,8 @@
         "THUNDER_PUNCH",
         "WILD_CHARGE",
         "GRASS_KNOT",
-        "TRAILBLAZE"
+        "TRAILBLAZE",
+        "SURF"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -10344,7 +10405,8 @@
       },
       "fastMoves": [
         "BITE",
-        "POISON_JAB"
+        "POISON_JAB",
+        "POISON_STING"
       ],
       "level25CP": 1519,
       "nicknames": [
@@ -10410,7 +10472,8 @@
       },
       "fastMoves": [
         "BITE",
-        "POISON_JAB"
+        "POISON_JAB",
+        "POISON_STING"
       ],
       "nicknames": [
         "queen"
@@ -10718,7 +10781,8 @@
         "FURY_CUTTER",
         "IRON_TAIL",
         "POISON_JAB",
-        "DOUBLE_KICK"
+        "DOUBLE_KICK",
+        "POISON_STING"
       ],
       "level25CP": 1571,
       "released": true,
@@ -10785,7 +10849,8 @@
         "FURY_CUTTER",
         "IRON_TAIL",
         "POISON_JAB",
-        "DOUBLE_KICK"
+        "DOUBLE_KICK",
+        "POISON_STING"
       ],
       "released": true,
       "speciesId": "nidoking_shadow",
@@ -13088,7 +13153,8 @@
       },
       "fastMoves": [
         "SCRATCH",
-        "METAL_CLAW"
+        "METAL_CLAW",
+        "METAL_SOUND"
       ],
       "released": true,
       "speciesId": "meowth_galarian",
@@ -15888,7 +15954,8 @@
       },
       "fastMoves": [
         "ACID",
-        "POISON_JAB"
+        "POISON_JAB",
+        "POISON_STING"
       ],
       "level25CP": 1475,
       "nicknames": [
@@ -15954,7 +16021,8 @@
       },
       "fastMoves": [
         "ACID",
-        "POISON_JAB"
+        "POISON_JAB",
+        "POISON_STING"
       ],
       "nicknames": [
         "cruel"
@@ -20950,7 +21018,8 @@
         "HYPER_BEAM",
         "POWER_WHIP",
         "STOMP",
-        "BODY_SLAM"
+        "BODY_SLAM",
+        "WRAP"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -24970,7 +25039,8 @@
       "chargedMoves": [
         "FUTURE_SIGHT",
         "ANCIENT_POWER",
-        "BRAVE_BIRD"
+        "BRAVE_BIRD",
+        "FLY"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -25134,7 +25204,8 @@
       "chargedMoves": [
         "CLOSE_COMBAT",
         "ANCIENT_POWER",
-        "BRAVE_BIRD"
+        "BRAVE_BIRD",
+        "FLY"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -25295,7 +25366,8 @@
       "chargedMoves": [
         "PAYBACK",
         "ANCIENT_POWER",
-        "BRAVE_BIRD"
+        "BRAVE_BIRD",
+        "FLY"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -31509,7 +31581,7 @@
         "ROLLOUT"
       ],
       "released": true,
-      "searchPriority": 12,
+      "searchPriority": 5,
       "speciesId": "dunsparce",
       "speciesName": "Dunsparce",
       "thirdMoveCost": 50000,
@@ -32311,7 +32383,7 @@
         "FURY_CUTTER"
       ],
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 7,
       "speciesId": "scizor_shadow",
       "speciesName": "Scizor (Shadow)",
       "tags": [
@@ -36230,7 +36302,8 @@
         "FUTURE_SIGHT",
         "HYDRO_PUMP",
         "SKY_ATTACK",
-        "AEROBLAST"
+        "AEROBLAST",
+        "FLY"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -36285,7 +36358,8 @@
         "FUTURE_SIGHT",
         "HYDRO_PUMP",
         "SKY_ATTACK",
-        "AEROBLAST"
+        "AEROBLAST",
+        "FLY"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -41810,7 +41884,8 @@
       },
       "fastMoves": [
         "METAL_CLAW",
-        "TACKLE"
+        "TACKLE",
+        "METAL_SOUND"
       ],
       "level25CP": 750,
       "released": true,
@@ -41866,7 +41941,8 @@
       },
       "fastMoves": [
         "METAL_CLAW",
-        "TACKLE"
+        "TACKLE",
+        "METAL_SOUND"
       ],
       "released": true,
       "speciesId": "aron_shadow",
@@ -41923,7 +41999,8 @@
       },
       "fastMoves": [
         "IRON_TAIL",
-        "METAL_CLAW"
+        "METAL_CLAW",
+        "METAL_SOUND"
       ],
       "level25CP": 1234,
       "released": true,
@@ -41981,7 +42058,8 @@
       },
       "fastMoves": [
         "IRON_TAIL",
-        "METAL_CLAW"
+        "METAL_CLAW",
+        "METAL_SOUND"
       ],
       "released": true,
       "speciesId": "lairon_shadow",
@@ -42037,7 +42115,8 @@
       "fastMoves": [
         "DRAGON_TAIL",
         "IRON_TAIL",
-        "SMACK_DOWN"
+        "SMACK_DOWN",
+        "METAL_SOUND"
       ],
       "level25CP": 1857,
       "released": true,
@@ -42090,7 +42169,8 @@
       "fastMoves": [
         "DRAGON_TAIL",
         "IRON_TAIL",
-        "SMACK_DOWN"
+        "SMACK_DOWN",
+        "METAL_SOUND"
       ],
       "level25CP": 2629,
       "released": true,
@@ -42148,7 +42228,8 @@
       "fastMoves": [
         "DRAGON_TAIL",
         "IRON_TAIL",
-        "SMACK_DOWN"
+        "SMACK_DOWN",
+        "METAL_SOUND"
       ],
       "released": true,
       "speciesId": "aggron_shadow",
@@ -46099,7 +46180,8 @@
       "chargedMoves": [
         "BLIZZARD",
         "HYPER_BEAM",
-        "SURF"
+        "SURF",
+        "WRAP"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -47627,7 +47709,8 @@
       "chargedMoves": [
         "AURORA_BEAM",
         "BODY_SLAM",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "SURF"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -47685,7 +47768,8 @@
       "chargedMoves": [
         "AURORA_BEAM",
         "BODY_SLAM",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "SURF"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -48665,10 +48749,12 @@
       },
       "fastMoves": [
         "METAL_CLAW",
-        "ZEN_HEADBUTT"
+        "ZEN_HEADBUTT",
+        "FURY_CUTTER"
       ],
       "level25CP": 1016,
       "released": true,
+      "searchPriority": 5,
       "speciesId": "metang",
       "speciesName": "Metang",
       "tags": [
@@ -48722,7 +48808,8 @@
       },
       "fastMoves": [
         "METAL_CLAW",
-        "ZEN_HEADBUTT"
+        "ZEN_HEADBUTT",
+        "FURY_CUTTER"
       ],
       "released": true,
       "speciesId": "metang_shadow",
@@ -48779,7 +48866,8 @@
       },
       "fastMoves": [
         "BULLET_PUNCH",
-        "ZEN_HEADBUTT"
+        "ZEN_HEADBUTT",
+        "FURY_CUTTER"
       ],
       "level25CP": 2386,
       "released": true,
@@ -48838,7 +48926,8 @@
       },
       "fastMoves": [
         "BULLET_PUNCH",
-        "ZEN_HEADBUTT"
+        "ZEN_HEADBUTT",
+        "FURY_CUTTER"
       ],
       "released": true,
       "speciesId": "metagross_shadow",
@@ -50184,7 +50273,7 @@
         "dd"
       ],
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 3,
       "speciesId": "deoxys_defense",
       "speciesName": "Deoxys (Defense)",
       "tags": [
@@ -53886,7 +53975,7 @@
         "MUD_SLAP"
       ],
       "released": true,
-      "searchPriority": 9,
+      "searchPriority": 7,
       "speciesId": "gastrodon",
       "speciesName": "Gastrodon",
       "tags": [
@@ -56789,14 +56878,15 @@
       "fastMoves": [
         "COUNTER",
         "POISON_JAB",
-        "MUD_SHOT"
+        "MUD_SHOT",
+        "POISON_STING"
       ],
       "level25CP": 1515,
       "nicknames": [
         "croak"
       ],
       "released": true,
-      "searchPriority": 2,
+      "searchPriority": 3,
       "speciesId": "toxicroak",
       "speciesName": "Toxicroak",
       "tags": [
@@ -56855,13 +56945,13 @@
       "fastMoves": [
         "COUNTER",
         "POISON_JAB",
-        "MUD_SHOT"
+        "MUD_SHOT",
+        "POISON_STING"
       ],
       "nicknames": [
         "croak"
       ],
       "released": true,
-      "searchPriority": 9,
       "speciesId": "toxicroak_shadow",
       "speciesName": "Toxicroak (Shadow)",
       "tags": [
@@ -66418,7 +66508,8 @@
       },
       "fastMoves": [
         "BUG_BITE",
-        "POISON_JAB"
+        "POISON_JAB",
+        "POISON_STING"
       ],
       "level25CP": 1491,
       "released": true,
@@ -66479,7 +66570,8 @@
       },
       "fastMoves": [
         "BUG_BITE",
-        "POISON_JAB"
+        "POISON_JAB",
+        "POISON_STING"
       ],
       "released": true,
       "speciesId": "scolipede_shadow",
@@ -68018,6 +68110,9 @@
         "ASTONISH",
         "ZEN_HEADBUTT",
         "SHADOW_CLAW"
+      ],
+      "nicknames": [
+        "coffin"
       ],
       "released": true,
       "speciesId": "cofagrigus",
@@ -78725,6 +78820,7 @@
         "THUNDER_SHOCK"
       ],
       "released": true,
+      "searchPriority": 6,
       "speciesId": "dedenne",
       "speciesName": "Dedenne",
       "thirdMoveCost": 50000,
@@ -82494,6 +82590,7 @@
         "BUG_BITE"
       ],
       "released": true,
+      "searchPriority": 3,
       "speciesId": "araquanid",
       "speciesName": "Araquanid",
       "thirdMoveCost": 50000,
@@ -83373,9 +83470,67 @@
         "SHADOW_CLAW"
       ],
       "released": true,
-      "searchPriority": 4,
+      "searchPriority": 8,
       "speciesId": "golisopod",
       "speciesName": "Golisopod",
+      "thirdMoveCost": 10000,
+      "types": [
+        "bug",
+        "water"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 218,
+        "def": 226,
+        "hp": 181
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "X_SCISSOR",
+        "AQUA_JET",
+        "AERIAL_ACE",
+        "LIQUIDATION",
+        "RAZOR_SHELL"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          17.5,
+          6,
+          13,
+          11
+        ],
+        "cp2500": [
+          29.5,
+          4,
+          10,
+          13
+        ],
+        "cp500": [
+          6,
+          8,
+          15,
+          10
+        ]
+      },
+      "dex": 768,
+      "family": {
+        "id": "FAMILY_WIMPOD",
+        "parent": "wimpod"
+      },
+      "fastMoves": [
+        "FURY_CUTTER",
+        "METAL_CLAW",
+        "WATERFALL",
+        "SHADOW_CLAW"
+      ],
+      "released": true,
+      "speciesId": "golisopodsh",
+      "speciesName": "Golisopod",
+      "tags": [
+        "duplicate",
+        "duplicate1500"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "bug",
@@ -84885,7 +85040,8 @@
       "chargedMoves": [
         "POWER_WHIP",
         "SHADOW_BALL",
-        "HEAVY_SLAM"
+        "HEAVY_SLAM",
+        "WRAP"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -84910,7 +85066,8 @@
       "dex": 781,
       "fastMoves": [
         "ASTONISH",
-        "SHADOW_CLAW"
+        "SHADOW_CLAW",
+        "METAL_SOUND"
       ],
       "levelFloor": 20,
       "released": true,
@@ -85524,9 +85681,11 @@
       },
       "fastMoves": [
         "CONFUSION",
-        "AIR_SLASH"
+        "AIR_SLASH",
+        "SHADOW_CLAW"
       ],
       "released": true,
+      "searchPriority": 3,
       "speciesId": "lunala",
       "speciesName": "Lunala",
       "tags": [
@@ -89612,7 +89771,8 @@
       },
       "fastMoves": [
         "METAL_CLAW",
-        "SHADOW_CLAW"
+        "SHADOW_CLAW",
+        "METAL_SOUND"
       ],
       "released": true,
       "searchPriority": 3,
@@ -91151,7 +91311,7 @@
       "legacyMoves": [
         "BEHEMOTH_BLADE"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "zacian_crowned_sword",
       "speciesName": "Zacian (Crowned Sword)",
       "tags": [
@@ -91257,7 +91417,7 @@
       "legacyMoves": [
         "BEHEMOTH_BASH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "zamazenta_crowned_shield",
       "speciesName": "Zamazenta (Crowned Shield)",
       "tags": [
@@ -91704,10 +91864,10 @@
       ],
       "defaultIVs": {
         "cp1500": [
-          1,
-          0,
-          0,
-          0
+          20,
+          2,
+          4,
+          4
         ],
         "cp2500": [
           31.5,
@@ -92022,7 +92182,8 @@
       },
       "fastMoves": [
         "QUICK_ATTACK",
-        "AIR_SLASH"
+        "AIR_SLASH",
+        "FURY_CUTTER"
       ],
       "released": true,
       "speciesId": "kleavor",
@@ -92821,7 +92982,8 @@
       },
       "fastMoves": [
         "INCINERATE",
-        "BITE"
+        "BITE",
+        "HEX"
       ],
       "nicknames": [
         "dirge"
@@ -93418,7 +93580,8 @@
       },
       "fastMoves": [
         "SPARK",
-        "CHARGE_BEAM"
+        "CHARGE_BEAM",
+        "THUNDER_SHOCK"
       ],
       "released": true,
       "speciesId": "pawmi",
@@ -93472,7 +93635,8 @@
       },
       "fastMoves": [
         "SPARK",
-        "CHARGE_BEAM"
+        "CHARGE_BEAM",
+        "THUNDER_SHOCK"
       ],
       "released": true,
       "speciesId": "pawmo",
@@ -93529,7 +93693,8 @@
       "fastMoves": [
         "SPARK",
         "CHARGE_BEAM",
-        "LOW_KICK"
+        "LOW_KICK",
+        "THUNDER_SHOCK"
       ],
       "released": true,
       "speciesId": "pawmot",
@@ -94651,6 +94816,7 @@
         "SUCKER_PUNCH"
       ],
       "released": true,
+      "searchPriority": 3,
       "speciesId": "bellibolt",
       "speciesName": "Bellibolt",
       "thirdMoveCost": 50000,
@@ -96148,7 +96314,8 @@
       },
       "fastMoves": [
         "LICK",
-        "POISON_JAB"
+        "POISON_JAB",
+        "METAL_SOUND"
       ],
       "released": true,
       "speciesId": "varoom",
@@ -96199,7 +96366,8 @@
       },
       "fastMoves": [
         "LICK",
-        "POISON_JAB"
+        "POISON_JAB",
+        "METAL_SOUND"
       ],
       "released": true,
       "speciesId": "revavroom",
@@ -98206,7 +98374,8 @@
       "chargedMoves": [
         "SHADOW_BALL",
         "DAZZLING_GLEAM",
-        "FOCUS_BLAST"
+        "FOCUS_BLAST",
+        "POWER_GEM"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -99323,5 +99492,5 @@
     "amaura",
     "aurorus"
   ],
-  "timestamp": "2025-05-22 16:48:56"
+  "timestamp": "2025-06-03 22:59:33"
 }
