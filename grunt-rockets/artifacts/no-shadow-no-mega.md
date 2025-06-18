@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-06-11
+* **Date generated**: 2025-06-18
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -14,7 +14,7 @@
 * **Rampardos** using _Smack Down_ (86%)
 * **Darmanitan (Standard)** using _Incinerate_ (84%)
 * **Darmanitan (Standard)** using _Fire Fang_ (84%)
-* **Yveltal** using _Gust_ (80%)
+* **Volcanion** using _Incinerate_ (81%)
 
 # Anti-Dark 🌌
 
@@ -270,8 +270,8 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 * **Chandelure** using _Incinerate_ (75%)
 * **Darmanitan (Standard)** using _Incinerate_ (73%)
 * **Darmanitan (Standard)** using _Fire Fang_ (73%)
+* **Volcanion** using _Incinerate_ (70%)
 * **Chandelure** using _Fire Spin_ (69%)
-* **Volcarona** using _Fire Spin_ (67%)
 
 
 ### Highest **flying** (🕊️) fast move damage: 
