@@ -14,6 +14,68 @@
       "title": "All Pokemon"
     },
     {
+      "exclude": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "dragon",
+            "ghost",
+            "ground",
+            "rock",
+            "steel",
+            "water",
+            "normal"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "shadow",
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "bellibolt",
+            "furret",
+            "morpeko_full_belly",
+            "dedenne",
+            "malamar"
+          ]
+        }
+      ],
+      "excludeLowPokemon": 1,
+      "include": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "electric",
+            "fire",
+            "psychic"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "lapras",
+            "starmie"
+          ]
+        }
+      ],
+      "league": 1500,
+      "levelCap": 50,
+      "name": "ascension",
+      "overrides": [],
+      "title": "Devon Corp (Ascension Cup)",
+      "useDefaultMovesets": 1
+    },
+    {
       "allowSameSpecies": true,
       "exclude": [],
       "include": [],
@@ -387,6 +449,29 @@
       "include": [],
       "name": "custom",
       "title": "Custom"
+    },
+    {
+      "exclude": [],
+      "include": [
+        {
+          "filterType": "evolution",
+          "values": [
+            1
+          ]
+        },
+        {
+          "filterType": "type",
+          "values": [
+            "fire",
+            "water",
+            "grass"
+          ]
+        }
+      ],
+      "name": "element",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Element Cup"
     },
     {
       "exclude": [
@@ -1276,6 +1361,31 @@
           "values": [
             "mega"
           ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "normal",
+            "grass",
+            "fire",
+            "water",
+            "electric",
+            "bug"
+          ]
+        }
+      ],
+      "name": "summer",
+      "title": "Summer Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
         },
         {
           "filterType": "id",
@@ -1729,20 +1839,6 @@
   "formats": [
     {
       "cp": 1500,
-      "cup": "sunshine",
-      "meta": "sunshine",
-      "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Normal-, Fire-, Grass-, and Ground-type Pokémon are eligible.",
-        "Charizard is not allowed."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Sunshine Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "fossil",
       "meta": "fossil",
       "rules": [
@@ -1754,6 +1850,33 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Fossil Cup"
+    },
+    {
+      "cp": 2500,
+      "cup": "summer",
+      "meta": "summerultra",
+      "rules": [
+        "Pokémon must be at or below 2,500 CP to enter.",
+        "Only Normal-, Fire-, Water-, Grass-, Electric-, and Bug-type Pokémon are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Summer Cup (Ultra League)"
+    },
+    {
+      "cp": 500,
+      "cup": "element",
+      "meta": "element",
+      "rules": [
+        "Pokémon must be at or below 500 CP to enter.",
+        "Only Fire-, Water-, and Grass-type Pokémon are eligible.",
+        "Only Pokémon that are able to evolve and have not evolved even once will be eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Little Element Cup"
     },
     {
       "cp": 10000,
@@ -1836,6 +1959,15 @@
     },
     {
       "cp": 1500,
+      "cup": "ascension",
+      "meta": "ascension",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Devon Ascension Cup"
+    },
+    {
+      "cp": 1500,
       "cup": "tundraremixv2",
       "meta": "tundraremixv2",
       "showCup": true,
@@ -1881,6 +2013,7 @@
       "moveId": "ACID",
       "name": "Acid",
       "power": 6,
+      "turns": 2,
       "type": "poison"
     },
     {
@@ -1897,6 +2030,7 @@
       "moveId": "ACID_SPRAY",
       "name": "Acid Spray",
       "power": 20,
+      "turns": 1,
       "type": "poison"
     },
     {
@@ -1908,6 +2042,7 @@
       "moveId": "ACROBATICS",
       "name": "Acrobatics",
       "power": 110,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -1918,6 +2053,7 @@
       "moveId": "AERIAL_ACE",
       "name": "Aerial Ace",
       "power": 55,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -1934,6 +2070,7 @@
       "moveId": "AEROBLAST",
       "name": "Aeroblast",
       "power": 170,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -1950,6 +2087,7 @@
       "moveId": "AIR_CUTTER",
       "name": "Air Cutter",
       "power": 45,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -1960,6 +2098,7 @@
       "moveId": "AIR_SLASH",
       "name": "Air Slash",
       "power": 9,
+      "turns": 3,
       "type": "flying"
     },
     {
@@ -1976,6 +2115,7 @@
       "moveId": "ANCIENT_POWER",
       "name": "Ancient Power",
       "power": 60,
+      "turns": 1,
       "type": "rock"
     },
     {
@@ -1986,6 +2126,7 @@
       "moveId": "AQUA_JET",
       "name": "Aqua Jet",
       "power": 70,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -1996,6 +2137,7 @@
       "moveId": "AQUA_TAIL",
       "name": "Aqua Tail",
       "power": 55,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -2006,6 +2148,7 @@
       "moveId": "ASTONISH",
       "name": "Astonish",
       "power": 12,
+      "turns": 3,
       "type": "ghost"
     },
     {
@@ -2017,6 +2160,7 @@
       "moveId": "AURA_SPHERE",
       "name": "Aura Sphere",
       "power": 100,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -2034,6 +2178,7 @@
       "moveId": "AURA_WHEEL_ELECTRIC",
       "name": "Aura Wheel",
       "power": 100,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -2051,6 +2196,7 @@
       "moveId": "AURA_WHEEL_DARK",
       "name": "Aura Wheel",
       "power": 100,
+      "turns": 1,
       "type": "dark"
     },
     {
@@ -2061,6 +2207,7 @@
       "moveId": "AURORA_BEAM",
       "name": "Aurora Beam",
       "power": 80,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -2072,6 +2219,7 @@
       "moveId": "AVALANCHE",
       "name": "Avalanche",
       "power": 90,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -2082,6 +2230,7 @@
       "moveId": "BEHEMOTH_BASH",
       "name": "Behemoth Bash",
       "power": 80,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -2092,6 +2241,7 @@
       "moveId": "BEHEMOTH_BLADE",
       "name": "Behemoth Blade",
       "power": 100,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -2103,6 +2253,7 @@
       "moveId": "BITE",
       "name": "Bite",
       "power": 4,
+      "turns": 1,
       "type": "dark"
     },
     {
@@ -2113,6 +2264,7 @@
       "moveId": "BLAST_BURN",
       "name": "Blast Burn",
       "power": 110,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -2130,6 +2282,7 @@
       "moveId": "BLEAKWIND_STORM",
       "name": "Bleakwind Storm",
       "power": 60,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -2141,6 +2294,7 @@
       "moveId": "BLIZZARD",
       "name": "Blizzard",
       "power": 140,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -2151,6 +2305,7 @@
       "moveId": "BODY_SLAM",
       "name": "Body Slam",
       "power": 50,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -2162,6 +2317,7 @@
       "moveId": "BOOMBURST",
       "name": "Boomburst",
       "power": 150,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -2172,6 +2328,7 @@
       "moveId": "BONE_CLUB",
       "name": "Bone Club",
       "power": 55,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -2189,6 +2346,7 @@
       "moveId": "BRAVE_BIRD",
       "name": "Brave Bird",
       "power": 130,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -2206,6 +2364,7 @@
       "moveId": "BREAKING_SWIPE",
       "name": "Breaking Swipe",
       "power": 50,
+      "turns": 1,
       "type": "dragon"
     },
     {
@@ -2223,6 +2382,7 @@
       "moveId": "BRICK_BREAK",
       "name": "Brick Break",
       "power": 40,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -2234,6 +2394,7 @@
       "moveId": "BRUTAL_SWING",
       "name": "Brutal Swing",
       "power": 55,
+      "turns": 1,
       "type": "dark"
     },
     {
@@ -2245,6 +2406,7 @@
       "moveId": "BRINE",
       "name": "Brine",
       "power": 60,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -2255,6 +2417,7 @@
       "moveId": "BUBBLE",
       "name": "Bubble",
       "power": 8,
+      "turns": 3,
       "type": "water"
     },
     {
@@ -2272,6 +2435,7 @@
       "moveId": "BUBBLE_BEAM",
       "name": "Bubble Beam",
       "power": 25,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -2283,6 +2447,7 @@
       "moveId": "BUG_BITE",
       "name": "Bug Bite",
       "power": 4,
+      "turns": 1,
       "type": "bug"
     },
     {
@@ -2300,6 +2465,7 @@
       "moveId": "BUG_BUZZ",
       "name": "Bug Buzz",
       "power": 100,
+      "turns": 1,
       "type": "bug"
     },
     {
@@ -2317,6 +2483,7 @@
       "moveId": "BULLDOZE",
       "name": "Bulldoze",
       "power": 45,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -2327,6 +2494,7 @@
       "moveId": "BULLET_PUNCH",
       "name": "Bullet Punch",
       "power": 8,
+      "turns": 2,
       "type": "steel"
     },
     {
@@ -2337,6 +2505,7 @@
       "moveId": "BULLET_SEED",
       "name": "Bullet Seed",
       "power": 5,
+      "turns": 3,
       "type": "grass"
     },
     {
@@ -2347,6 +2516,7 @@
       "moveId": "CHARGE_BEAM",
       "name": "Charge Beam",
       "power": 5,
+      "turns": 3,
       "type": "electric"
     },
     {
@@ -2358,6 +2528,7 @@
       "moveId": "CHARM",
       "name": "Charm",
       "power": 15,
+      "turns": 3,
       "type": "fairy"
     },
     {
@@ -2374,6 +2545,7 @@
       "moveId": "CLOSE_COMBAT",
       "name": "Close Combat",
       "power": 100,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -2385,6 +2557,7 @@
       "moveId": "CONFUSION",
       "name": "Confusion",
       "power": 16,
+      "turns": 4,
       "type": "psychic"
     },
     {
@@ -2396,6 +2569,7 @@
       "moveId": "COUNTER",
       "name": "Counter",
       "power": 8,
+      "turns": 2,
       "type": "fighting"
     },
     {
@@ -2413,6 +2587,7 @@
       "moveId": "CRABHAMMER",
       "name": "Crabhammer",
       "power": 85,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -2424,6 +2599,7 @@
       "moveId": "CROSS_CHOP",
       "name": "Cross Chop",
       "power": 55,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -2440,6 +2616,7 @@
       "moveId": "CROSS_POISON",
       "name": "Cross Poison",
       "power": 50,
+      "turns": 1,
       "type": "poison"
     },
     {
@@ -2457,6 +2634,7 @@
       "moveId": "CRUNCH",
       "name": "Crunch",
       "power": 70,
+      "turns": 1,
       "type": "dark"
     },
     {
@@ -2468,6 +2646,7 @@
       "moveId": "CRUSH_GRIP",
       "name": "Crush Grip",
       "power": 110,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -2479,6 +2658,7 @@
       "moveId": "CUT",
       "name": "Cut",
       "power": 3,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -2490,6 +2670,7 @@
       "moveId": "DARKEST_LARIAT",
       "name": "Darkest Lariat",
       "power": 120,
+      "turns": 1,
       "type": "dark"
     },
     {
@@ -2500,6 +2681,7 @@
       "moveId": "DARK_PULSE",
       "name": "Dark Pulse",
       "power": 80,
+      "turns": 1,
       "type": "dark"
     },
     {
@@ -2510,6 +2692,7 @@
       "moveId": "DAZZLING_GLEAM",
       "name": "Dazzling Gleam",
       "power": 90,
+      "turns": 1,
       "type": "fairy"
     },
     {
@@ -2521,6 +2704,7 @@
       "moveId": "DIG",
       "name": "Dig",
       "power": 70,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -2531,6 +2715,7 @@
       "moveId": "DISARMING_VOICE",
       "name": "Disarming Voice",
       "power": 70,
+      "turns": 1,
       "type": "fairy"
     },
     {
@@ -2541,6 +2726,7 @@
       "moveId": "DISCHARGE",
       "name": "Discharge",
       "power": 55,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -2551,6 +2737,7 @@
       "moveId": "DOOM_DESIRE",
       "name": "Doom Desire",
       "power": 80,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -2562,6 +2749,7 @@
       "moveId": "DOUBLE_IRON_BASH",
       "name": "Double Iron Bash",
       "power": 55,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -2572,6 +2760,7 @@
       "moveId": "DOUBLE_KICK",
       "name": "Double Kick",
       "power": 8,
+      "turns": 3,
       "type": "fighting"
     },
     {
@@ -2588,6 +2777,7 @@
       "moveId": "DRACO_METEOR",
       "name": "Draco Meteor",
       "power": 150,
+      "turns": 1,
       "type": "dragon"
     },
     {
@@ -2605,6 +2795,7 @@
       "moveId": "DRAGON_ASCENT",
       "name": "Dragon Ascent",
       "power": 150,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -2615,6 +2806,7 @@
       "moveId": "DRAGON_BREATH",
       "name": "Dragon Breath",
       "power": 4,
+      "turns": 1,
       "type": "dragon"
     },
     {
@@ -2625,6 +2817,7 @@
       "moveId": "DRAGON_CLAW",
       "name": "Dragon Claw",
       "power": 50,
+      "turns": 1,
       "type": "dragon"
     },
     {
@@ -2636,6 +2829,7 @@
       "moveId": "DRAGON_Energy",
       "name": "Dragon Energy",
       "power": 100,
+      "turns": 1,
       "type": "dragon"
     },
     {
@@ -2647,6 +2841,7 @@
       "moveId": "DRAGON_PULSE",
       "name": "Dragon Pulse",
       "power": 90,
+      "turns": 1,
       "type": "dragon"
     },
     {
@@ -2657,6 +2852,7 @@
       "moveId": "DRAGON_TAIL",
       "name": "Dragon Tail",
       "power": 13,
+      "turns": 3,
       "type": "dragon"
     },
     {
@@ -2674,6 +2870,7 @@
       "moveId": "DRAIN_PUNCH",
       "name": "Drain Punch",
       "power": 20,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -2684,6 +2881,7 @@
       "moveId": "DRAINING_KISS",
       "name": "Draining Kiss",
       "power": 60,
+      "turns": 1,
       "type": "fairy"
     },
     {
@@ -2695,6 +2893,7 @@
       "moveId": "DRILL_PECK",
       "name": "Drill Peck",
       "power": 65,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -2705,6 +2904,7 @@
       "moveId": "DRILL_RUN",
       "name": "Drill Run",
       "power": 80,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -2716,6 +2916,7 @@
       "moveId": "DYNAMIC_PUNCH",
       "name": "Dynamic Punch",
       "power": 90,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -2727,6 +2928,7 @@
       "moveId": "EARTHQUAKE",
       "name": "Earthquake",
       "power": 110,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -2743,6 +2945,7 @@
       "moveId": "EARTH_POWER",
       "name": "Earth Power",
       "power": 90,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -2753,6 +2956,7 @@
       "moveId": "EMBER",
       "name": "Ember",
       "power": 7,
+      "turns": 2,
       "type": "fire"
     },
     {
@@ -2769,6 +2973,7 @@
       "moveId": "ENERGY_BALL",
       "name": "Energy Ball",
       "power": 90,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -2780,6 +2985,7 @@
       "moveId": "EXTRASENSORY",
       "name": "Extrasensory",
       "power": 8,
+      "turns": 3,
       "type": "psychic"
     },
     {
@@ -2790,6 +2996,7 @@
       "moveId": "FEINT_ATTACK",
       "name": "Feint Attack",
       "power": 6,
+      "turns": 2,
       "type": "dark"
     },
     {
@@ -2807,6 +3014,7 @@
       "moveId": "FELL_STINGER",
       "name": "Fell Stinger",
       "power": 20,
+      "turns": 1,
       "type": "bug"
     },
     {
@@ -2818,6 +3026,7 @@
       "moveId": "FIRE_BLAST",
       "name": "Fire Blast",
       "power": 140,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -2828,6 +3037,7 @@
       "moveId": "FIRE_FANG",
       "name": "Fire Fang",
       "power": 8,
+      "turns": 2,
       "type": "fire"
     },
     {
@@ -2839,6 +3049,7 @@
       "moveId": "FIRE_PUNCH",
       "name": "Fire Punch",
       "power": 60,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -2849,6 +3060,7 @@
       "moveId": "BLAZE_KICK",
       "name": "Blaze Kick",
       "power": 60,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -2859,6 +3071,7 @@
       "moveId": "FAIRY_WIND",
       "name": "Fairy Wind",
       "power": 4,
+      "turns": 2,
       "type": "fairy"
     },
     {
@@ -2876,6 +3089,7 @@
       "moveId": "FEATHER_DANCE",
       "name": "Feather Dance",
       "power": 35,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -2886,6 +3100,7 @@
       "moveId": "FIRE_SPIN",
       "name": "Fire Spin",
       "power": 11,
+      "turns": 3,
       "type": "fire"
     },
     {
@@ -2897,6 +3112,7 @@
       "moveId": "FLAME_BURST",
       "name": "Flame Burst",
       "power": 70,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -2914,6 +3130,7 @@
       "moveId": "FLAME_CHARGE",
       "name": "Flame Charge",
       "power": 65,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -2924,6 +3141,7 @@
       "moveId": "FLAME_WHEEL",
       "name": "Flame Wheel",
       "power": 60,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -2935,6 +3153,7 @@
       "moveId": "FLAMETHROWER",
       "name": "Flamethrower",
       "power": 90,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -2945,6 +3164,7 @@
       "moveId": "FLASH_CANNON",
       "name": "Flash Cannon",
       "power": 110,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -2962,6 +3182,7 @@
       "moveId": "FLOWER_TRICK",
       "name": "Flower Trick",
       "power": 30,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -2973,6 +3194,7 @@
       "moveId": "FLY",
       "name": "Fly",
       "power": 80,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -2984,6 +3206,7 @@
       "moveId": "FLYING_PRESS",
       "name": "Flying Press",
       "power": 90,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -2994,6 +3217,7 @@
       "moveId": "FOCUS_BLAST",
       "name": "Focus Blast",
       "power": 150,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -3005,6 +3229,7 @@
       "moveId": "FORCE_PALM",
       "name": "Force Palm",
       "power": 13,
+      "turns": 3,
       "type": "fighting"
     },
     {
@@ -3016,6 +3241,7 @@
       "moveId": "FOUL_PLAY",
       "name": "Foul Play",
       "power": 60,
+      "turns": 1,
       "type": "dark"
     },
     {
@@ -3033,6 +3259,7 @@
       "moveId": "FREEZE_SHOCK",
       "name": "Freeze Shock",
       "power": 120,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -3043,6 +3270,7 @@
       "moveId": "FRENZY_PLANT",
       "name": "Frenzy Plant",
       "power": 100,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -3053,6 +3281,7 @@
       "moveId": "FROST_BREATH",
       "name": "Frost Breath",
       "power": 7,
+      "turns": 2,
       "type": "ice"
     },
     {
@@ -3063,6 +3292,7 @@
       "moveId": "FRUSTRATION",
       "name": "Frustration",
       "power": 10,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -3073,6 +3303,7 @@
       "moveId": "FURY_CUTTER",
       "name": "Fury Cutter",
       "power": 3,
+      "turns": 1,
       "type": "bug"
     },
     {
@@ -3084,6 +3315,7 @@
       "moveId": "FUSION_BOLT",
       "name": "Fusion Bolt",
       "power": 90,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -3095,6 +3327,7 @@
       "moveId": "FUSION_FLARE",
       "name": "Fusion Flare",
       "power": 90,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -3105,6 +3338,7 @@
       "moveId": "FUTURE_SIGHT",
       "name": "Future Sight",
       "power": 110,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -3116,6 +3350,7 @@
       "moveId": "GEOMANCY",
       "name": "Geomancy",
       "power": 4,
+      "turns": 3,
       "type": "fairy"
     },
     {
@@ -3126,6 +3361,7 @@
       "moveId": "GIGA_DRAIN",
       "name": "Giga Drain",
       "power": 50,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -3136,6 +3372,7 @@
       "moveId": "GIGA_IMPACT",
       "name": "Giga Impact",
       "power": 150,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -3152,6 +3389,7 @@
       "moveId": "GLACIATE",
       "name": "Glaciate",
       "power": 60,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -3162,6 +3400,7 @@
       "moveId": "GRASS_KNOT",
       "name": "Grass Knot",
       "power": 90,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -3172,6 +3411,7 @@
       "moveId": "GUNK_SHOT",
       "name": "Gunk Shot",
       "power": 130,
+      "turns": 1,
       "type": "poison"
     },
     {
@@ -3182,6 +3422,7 @@
       "moveId": "GUST",
       "name": "Gust",
       "power": 16,
+      "turns": 4,
       "type": "flying"
     },
     {
@@ -3192,6 +3433,7 @@
       "moveId": "GYRO_BALL",
       "name": "Gyro Ball",
       "power": 80,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -3203,6 +3445,7 @@
       "moveId": "HEART_STAMP",
       "name": "Heart Stamp",
       "power": 40,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -3213,6 +3456,7 @@
       "moveId": "HEAT_WAVE",
       "name": "Heat Wave",
       "power": 95,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -3223,6 +3467,7 @@
       "moveId": "HEAVY_SLAM",
       "name": "Heavy Slam",
       "power": 70,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -3233,6 +3478,7 @@
       "moveId": "HEX",
       "name": "Hex",
       "power": 7,
+      "turns": 3,
       "type": "ghost"
     },
     {
@@ -3243,6 +3489,7 @@
       "moveId": "HIDDEN_POWER_BUG",
       "name": "Hidden Power (Bug)",
       "power": 9,
+      "turns": 3,
       "type": "bug"
     },
     {
@@ -3253,6 +3500,7 @@
       "moveId": "HIDDEN_POWER_DARK",
       "name": "Hidden Power (Dark)",
       "power": 9,
+      "turns": 3,
       "type": "dark"
     },
     {
@@ -3263,6 +3511,7 @@
       "moveId": "HIDDEN_POWER_DRAGON",
       "name": "Hidden Power (Dragon)",
       "power": 9,
+      "turns": 3,
       "type": "dragon"
     },
     {
@@ -3273,6 +3522,7 @@
       "moveId": "HIDDEN_POWER_ELECTRIC",
       "name": "Hidden Power (Electric)",
       "power": 9,
+      "turns": 3,
       "type": "electric"
     },
     {
@@ -3283,6 +3533,7 @@
       "moveId": "HIDDEN_POWER_FIGHTING",
       "name": "Hidden Power (Fighting)",
       "power": 9,
+      "turns": 3,
       "type": "fighting"
     },
     {
@@ -3293,6 +3544,7 @@
       "moveId": "HIDDEN_POWER_FIRE",
       "name": "Hidden Power (Fire)",
       "power": 9,
+      "turns": 3,
       "type": "fire"
     },
     {
@@ -3303,6 +3555,7 @@
       "moveId": "HIDDEN_POWER_FLYING",
       "name": "Hidden Power (Flying)",
       "power": 9,
+      "turns": 3,
       "type": "flying"
     },
     {
@@ -3313,6 +3566,7 @@
       "moveId": "HIDDEN_POWER_GHOST",
       "name": "Hidden Power (Ghost)",
       "power": 9,
+      "turns": 3,
       "type": "ghost"
     },
     {
@@ -3323,6 +3577,7 @@
       "moveId": "HIDDEN_POWER_GRASS",
       "name": "Hidden Power (Grass)",
       "power": 9,
+      "turns": 3,
       "type": "grass"
     },
     {
@@ -3333,6 +3588,7 @@
       "moveId": "HIDDEN_POWER_GROUND",
       "name": "Hidden Power (Ground)",
       "power": 9,
+      "turns": 3,
       "type": "ground"
     },
     {
@@ -3343,6 +3599,7 @@
       "moveId": "HIDDEN_POWER_ICE",
       "name": "Hidden Power (Ice)",
       "power": 9,
+      "turns": 3,
       "type": "ice"
     },
     {
@@ -3353,6 +3610,7 @@
       "moveId": "HIDDEN_POWER_POISON",
       "name": "Hidden Power (Poison)",
       "power": 9,
+      "turns": 3,
       "type": "poison"
     },
     {
@@ -3363,6 +3621,7 @@
       "moveId": "HIDDEN_POWER_PSYCHIC",
       "name": "Hidden Power (Psychic)",
       "power": 9,
+      "turns": 3,
       "type": "psychic"
     },
     {
@@ -3373,6 +3632,7 @@
       "moveId": "HIDDEN_POWER_ROCK",
       "name": "Hidden Power (Rock)",
       "power": 9,
+      "turns": 3,
       "type": "rock"
     },
     {
@@ -3383,6 +3643,7 @@
       "moveId": "HIDDEN_POWER_STEEL",
       "name": "Hidden Power (Steel)",
       "power": 9,
+      "turns": 3,
       "type": "steel"
     },
     {
@@ -3393,6 +3654,7 @@
       "moveId": "HIDDEN_POWER_WATER",
       "name": "Hidden Power (Water)",
       "power": 9,
+      "turns": 3,
       "type": "water"
     },
     {
@@ -3403,6 +3665,7 @@
       "moveId": "HIGH_HORSEPOWER",
       "name": "High Horsepower",
       "power": 100,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -3420,6 +3683,7 @@
       "moveId": "HIGH_JUMP_KICK",
       "name": "High Jump Kick",
       "power": 110,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -3430,6 +3694,7 @@
       "moveId": "HORN_ATTACK",
       "name": "Horn Attack",
       "power": 40,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -3441,6 +3706,7 @@
       "moveId": "HURRICANE",
       "name": "Hurricane",
       "power": 110,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -3451,6 +3717,7 @@
       "moveId": "HYDRO_CANNON",
       "name": "Hydro Cannon",
       "power": 80,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -3461,6 +3728,7 @@
       "moveId": "HYDRO_PUMP",
       "name": "Hydro Pump",
       "power": 130,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -3471,6 +3739,7 @@
       "moveId": "HYDRO_PUMP_BLASTOISE",
       "name": "Hydro Pump Blastoise",
       "power": 90,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -3481,6 +3750,7 @@
       "moveId": "HYPER_BEAM",
       "name": "Hyper Beam",
       "power": 150,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -3491,6 +3761,7 @@
       "moveId": "HYPER_FANG",
       "name": "Hyper Fang",
       "power": 80,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -3501,6 +3772,7 @@
       "moveId": "ICE_BEAM",
       "name": "Ice Beam",
       "power": 90,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -3518,6 +3790,7 @@
       "moveId": "ICE_BURN",
       "name": "Ice Burn",
       "power": 120,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -3528,6 +3801,7 @@
       "moveId": "ICE_FANG",
       "name": "Ice Fang",
       "power": 8,
+      "turns": 2,
       "type": "ice"
     },
     {
@@ -3538,6 +3812,7 @@
       "moveId": "ICE_PUNCH",
       "name": "Ice Punch",
       "power": 60,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -3548,6 +3823,7 @@
       "moveId": "ICE_SHARD",
       "name": "Ice Shard",
       "power": 9,
+      "turns": 3,
       "type": "ice"
     },
     {
@@ -3559,6 +3835,7 @@
       "moveId": "ICICLE_SPEAR",
       "name": "Icicle Spear",
       "power": 65,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -3575,6 +3852,7 @@
       "moveId": "ICY_WIND",
       "name": "Icy Wind",
       "power": 60,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -3585,6 +3863,7 @@
       "moveId": "INCINERATE",
       "name": "Incinerate",
       "power": 20,
+      "turns": 5,
       "type": "fire"
     },
     {
@@ -3596,6 +3875,7 @@
       "moveId": "INFESTATION",
       "name": "Infestation",
       "power": 6,
+      "turns": 3,
       "type": "bug"
     },
     {
@@ -3606,6 +3886,7 @@
       "moveId": "IRON_HEAD",
       "name": "Iron Head",
       "power": 70,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -3616,6 +3897,7 @@
       "moveId": "IRON_TAIL",
       "name": "Iron Tail",
       "power": 10,
+      "turns": 3,
       "type": "steel"
     },
     {
@@ -3626,6 +3908,7 @@
       "moveId": "KARATE_CHOP",
       "name": "Karate Chop",
       "power": 5,
+      "turns": 2,
       "type": "fighting"
     },
     {
@@ -3636,6 +3919,7 @@
       "moveId": "LAST_RESORT",
       "name": "Last Resort",
       "power": 90,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -3646,6 +3930,7 @@
       "moveId": "LEAF_BLADE",
       "name": "Leaf Blade",
       "power": 70,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -3662,6 +3947,7 @@
       "moveId": "LEAF_TORNADO",
       "name": "Leaf Tornado",
       "power": 45,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -3679,6 +3965,7 @@
       "moveId": "LEAF_STORM",
       "name": "Leaf Storm",
       "power": 130,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -3690,6 +3977,7 @@
       "moveId": "LEAFAGE",
       "name": "Leafage",
       "power": 6,
+      "turns": 2,
       "type": "grass"
     },
     {
@@ -3700,6 +3988,7 @@
       "moveId": "LICK",
       "name": "Lick",
       "power": 3,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -3717,6 +4006,7 @@
       "moveId": "LIQUIDATION",
       "name": "Liquidation",
       "power": 70,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -3727,6 +4017,7 @@
       "moveId": "LOCK_ON",
       "name": "Lock On",
       "power": 1,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -3737,6 +4028,7 @@
       "moveId": "LOW_KICK",
       "name": "Low Kick",
       "power": 4,
+      "turns": 2,
       "type": "fighting"
     },
     {
@@ -3747,6 +4039,7 @@
       "moveId": "LOW_SWEEP",
       "name": "Low Sweep",
       "power": 40,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -3764,6 +4057,7 @@
       "moveId": "LUNGE",
       "name": "Lunge",
       "power": 60,
+      "turns": 1,
       "type": "bug"
     },
     {
@@ -3781,6 +4075,7 @@
       "moveId": "LUSTER_PURGE",
       "name": "Luster Purge",
       "power": 120,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -3791,6 +4086,7 @@
       "moveId": "MAGICAL_LEAF",
       "name": "Magical Leaf",
       "power": 10,
+      "turns": 3,
       "type": "grass"
     },
     {
@@ -3802,6 +4098,7 @@
       "moveId": "MAGMA_STORM",
       "name": "Magma Storm",
       "power": 65,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -3813,6 +4110,7 @@
       "moveId": "MAGNET_BOMB",
       "name": "Magnet Bomb",
       "power": 70,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -3823,6 +4121,7 @@
       "moveId": "MEGA_DRAIN",
       "name": "Mega Drain",
       "power": 25,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -3834,6 +4133,7 @@
       "moveId": "MEGAHORN",
       "name": "Megahorn",
       "power": 110,
+      "turns": 1,
       "type": "bug"
     },
     {
@@ -3844,6 +4144,7 @@
       "moveId": "METAL_CLAW",
       "name": "Metal Claw",
       "power": 5,
+      "turns": 2,
       "type": "steel"
     },
     {
@@ -3855,6 +4156,7 @@
       "moveId": "METAL_SOUND",
       "name": "Metal Sound",
       "power": 5,
+      "turns": 2,
       "type": "steel"
     },
     {
@@ -3872,6 +4174,7 @@
       "moveId": "METEOR_BEAM",
       "name": "Meteor Beam",
       "power": 120,
+      "turns": 1,
       "type": "rock"
     },
     {
@@ -3882,6 +4185,7 @@
       "moveId": "METEOR_MASH",
       "name": "Meteor Mash",
       "power": 100,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -3893,6 +4197,7 @@
       "moveId": "MIRROR_COAT",
       "name": "Mirror Coat",
       "power": 60,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -3910,6 +4215,7 @@
       "moveId": "MIRROR_SHOT",
       "name": "Mirror Shot",
       "power": 35,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -3927,6 +4233,7 @@
       "moveId": "MIST_BALL",
       "name": "Mist Ball",
       "power": 120,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -3943,6 +4250,7 @@
       "moveId": "MOONBLAST",
       "name": "Moonblast",
       "power": 110,
+      "turns": 1,
       "type": "fairy"
     },
     {
@@ -3954,6 +4262,7 @@
       "moveId": "MOONGEIST_BEAM",
       "name": "Moongeist Beam",
       "power": 135,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -3964,6 +4273,7 @@
       "moveId": "MUD_BOMB",
       "name": "Mud Bomb",
       "power": 60,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -3980,6 +4290,7 @@
       "moveId": "MUDDY_WATER",
       "name": "Muddy Water",
       "power": 35,
+      "turns": 2,
       "type": "water"
     },
     {
@@ -3990,6 +4301,7 @@
       "moveId": "MUD_SHOT",
       "name": "Mud Shot",
       "power": 4,
+      "turns": 2,
       "type": "ground"
     },
     {
@@ -4001,6 +4313,7 @@
       "moveId": "MUD_SLAP",
       "name": "Mud Slap",
       "power": 12,
+      "turns": 3,
       "type": "ground"
     },
     {
@@ -4017,6 +4330,7 @@
       "moveId": "MYSTICAL_FIRE",
       "name": "Mystical Fire",
       "power": 60,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -4033,6 +4347,7 @@
       "moveId": "NATURES_MADNESS",
       "name": "Nature's Madness",
       "power": 80,
+      "turns": 1,
       "type": "fairy"
     },
     {
@@ -4044,6 +4359,7 @@
       "moveId": "NIGHT_SHADE",
       "name": "Night Shade",
       "power": 70,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -4060,6 +4376,7 @@
       "moveId": "NIGHT_SLASH",
       "name": "Night Slash",
       "power": 50,
+      "turns": 1,
       "type": "dark"
     },
     {
@@ -4071,6 +4388,7 @@
       "moveId": "OBLIVION_WING",
       "name": "Oblivion Wing",
       "power": 85,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -4096,6 +4414,7 @@
       "moveId": "OBSTRUCT",
       "name": "Obstruct",
       "power": 15,
+      "turns": 1,
       "type": "dark"
     },
     {
@@ -4113,6 +4432,7 @@
       "moveId": "OCTAZOOKA",
       "name": "Octazooka",
       "power": 50,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -4129,6 +4449,7 @@
       "moveId": "OMINOUS_WIND",
       "name": "Ominous Wind",
       "power": 45,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -4139,6 +4460,7 @@
       "moveId": "ORIGIN_PULSE",
       "name": "Origin Pulse",
       "power": 130,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -4149,6 +4471,7 @@
       "moveId": "OUTRAGE",
       "name": "Outrage",
       "power": 110,
+      "turns": 1,
       "type": "dragon"
     },
     {
@@ -4166,6 +4489,7 @@
       "moveId": "OVERHEAT",
       "name": "Overheat",
       "power": 130,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -4183,6 +4507,7 @@
       "moveId": "PARABOLIC_CHARGE",
       "name": "Parabolic Charge",
       "power": 70,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -4194,6 +4519,7 @@
       "moveId": "PAYBACK",
       "name": "Payback",
       "power": 110,
+      "turns": 1,
       "type": "dark"
     },
     {
@@ -4205,6 +4531,7 @@
       "moveId": "PECK",
       "name": "Peck",
       "power": 6,
+      "turns": 2,
       "type": "flying"
     },
     {
@@ -4216,6 +4543,7 @@
       "moveId": "PETAL_BLIZZARD",
       "name": "Petal Blizzard",
       "power": 110,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -4226,6 +4554,7 @@
       "moveId": "PLAY_ROUGH",
       "name": "Play Rough",
       "power": 90,
+      "turns": 1,
       "type": "fairy"
     },
     {
@@ -4242,6 +4571,7 @@
       "moveId": "POISON_FANG",
       "name": "Poison Fang",
       "power": 45,
+      "turns": 1,
       "type": "poison"
     },
     {
@@ -4252,6 +4582,7 @@
       "moveId": "POISON_JAB",
       "name": "Poison Jab",
       "power": 7,
+      "turns": 2,
       "type": "poison"
     },
     {
@@ -4263,6 +4594,7 @@
       "moveId": "POISON_STING",
       "name": "Poison Sting",
       "power": 4,
+      "turns": 2,
       "type": "poison"
     },
     {
@@ -4274,6 +4606,7 @@
       "moveId": "POLTERGEIST",
       "name": "Poltergeist",
       "power": 150,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -4285,6 +4618,7 @@
       "moveId": "POUND",
       "name": "Pound",
       "power": 4,
+      "turns": 2,
       "type": "normal"
     },
     {
@@ -4295,6 +4629,7 @@
       "moveId": "POWDER_SNOW",
       "name": "Powder Snow",
       "power": 5,
+      "turns": 2,
       "type": "ice"
     },
     {
@@ -4305,6 +4640,7 @@
       "moveId": "POWER_GEM",
       "name": "Power Gem",
       "power": 85,
+      "turns": 1,
       "type": "rock"
     },
     {
@@ -4321,6 +4657,7 @@
       "moveId": "POWER_UP_PUNCH",
       "name": "Power-Up Punch",
       "power": 20,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -4331,6 +4668,7 @@
       "moveId": "POWER_WHIP",
       "name": "Power Whip",
       "power": 90,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -4342,6 +4680,7 @@
       "moveId": "PRECIPICE_BLADES",
       "name": "Precipice Blades",
       "power": 130,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -4353,6 +4692,7 @@
       "moveId": "PRESENT",
       "name": "Present",
       "power": 3,
+      "turns": 3,
       "type": "normal"
     },
     {
@@ -4364,6 +4704,7 @@
       "moveId": "PSYBEAM",
       "name": "Psybeam",
       "power": 70,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -4380,6 +4721,7 @@
       "moveId": "PSYCHIC",
       "name": "Psychic",
       "power": 75,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -4397,6 +4739,7 @@
       "moveId": "PSYCHIC_FANGS",
       "name": "Psychic Fangs",
       "power": 40,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -4413,6 +4756,7 @@
       "moveId": "PSYCHO_BOOST",
       "name": "Psycho Boost",
       "power": 70,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -4423,6 +4767,7 @@
       "moveId": "PSYCHO_CUT",
       "name": "Psycho Cut",
       "power": 3,
+      "turns": 2,
       "type": "psychic"
     },
     {
@@ -4434,6 +4779,7 @@
       "moveId": "PSYSHOCK",
       "name": "Psyshock",
       "power": 70,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -4445,6 +4791,7 @@
       "moveId": "PSYSTRIKE",
       "name": "Psystrike",
       "power": 90,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -4456,6 +4803,7 @@
       "moveId": "PSYWAVE",
       "name": "Psywave",
       "power": 3,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -4466,6 +4814,7 @@
       "moveId": "QUICK_ATTACK",
       "name": "Quick Attack",
       "power": 5,
+      "turns": 2,
       "type": "normal"
     },
     {
@@ -4482,6 +4831,7 @@
       "moveId": "RAGE_FIST",
       "name": "Rage Fist",
       "power": 50,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -4492,6 +4842,7 @@
       "moveId": "RAZOR_LEAF",
       "name": "Razor Leaf",
       "power": 9,
+      "turns": 2,
       "type": "grass"
     },
     {
@@ -4509,6 +4860,7 @@
       "moveId": "RAZOR_SHELL",
       "name": "Razor Shell",
       "power": 35,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -4519,6 +4871,7 @@
       "moveId": "REST",
       "name": "Rest",
       "power": 50,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -4530,6 +4883,7 @@
       "moveId": "RETURN",
       "name": "Return",
       "power": 130,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -4540,6 +4894,7 @@
       "moveId": "ROAR_OF_TIME",
       "name": "Roar of Time",
       "power": 150,
+      "turns": 1,
       "type": "dragon"
     },
     {
@@ -4550,6 +4905,7 @@
       "moveId": "ROCK_BLAST",
       "name": "Rock Blast",
       "power": 50,
+      "turns": 1,
       "type": "rock"
     },
     {
@@ -4560,6 +4916,7 @@
       "moveId": "ROCK_SLIDE",
       "name": "Rock Slide",
       "power": 65,
+      "turns": 1,
       "type": "rock"
     },
     {
@@ -4571,6 +4928,7 @@
       "moveId": "ROCK_SMASH",
       "name": "Rock Smash",
       "power": 9,
+      "turns": 3,
       "type": "fighting"
     },
     {
@@ -4582,6 +4940,7 @@
       "moveId": "ROCK_THROW",
       "name": "Rock Throw",
       "power": 8,
+      "turns": 2,
       "type": "rock"
     },
     {
@@ -4598,6 +4957,7 @@
       "moveId": "ROCK_TOMB",
       "name": "Rock Tomb",
       "power": 80,
+      "turns": 1,
       "type": "rock"
     },
     {
@@ -4608,6 +4968,7 @@
       "moveId": "ROCK_WRECKER",
       "name": "Rock Wrecker",
       "power": 110,
+      "turns": 1,
       "type": "rock"
     },
     {
@@ -4619,6 +4980,7 @@
       "moveId": "ROLLOUT",
       "name": "Rollout",
       "power": 7,
+      "turns": 3,
       "type": "rock"
     },
     {
@@ -4635,6 +4997,7 @@
       "moveId": "SACRED_FIRE",
       "name": "Sacred Fire",
       "power": 130,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -4646,6 +5009,7 @@
       "moveId": "SACRED_SWORD",
       "name": "Sacred Sword",
       "power": 60,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -4657,6 +5021,7 @@
       "moveId": "SAND_ATTACK",
       "name": "Sand Attack",
       "power": 2,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -4673,6 +5038,7 @@
       "moveId": "SAND_TOMB",
       "name": "Sand Tomb",
       "power": 25,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -4690,6 +5056,7 @@
       "moveId": "SANDSEAR_STORM",
       "name": "Sandsear Storm",
       "power": 60,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -4707,6 +5074,7 @@
       "moveId": "SCALD",
       "name": "Scald",
       "power": 85,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -4724,6 +5092,7 @@
       "moveId": "SCORCHING_SANDS",
       "name": "Scorching Sands",
       "power": 80,
+      "turns": 1,
       "type": "ground"
     },
     {
@@ -4735,6 +5104,7 @@
       "moveId": "SCRATCH",
       "name": "Scratch",
       "power": 4,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -4746,6 +5116,7 @@
       "moveId": "SEED_BOMB",
       "name": "Seed Bomb",
       "power": 65,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -4763,6 +5134,7 @@
       "moveId": "SEED_FLARE",
       "name": "Seed Flare",
       "power": 130,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -4773,6 +5145,7 @@
       "moveId": "SHADOW_BALL",
       "name": "Shadow Ball",
       "power": 100,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -4790,6 +5163,7 @@
       "moveId": "SHADOW_BONE",
       "name": "Shadow Bone",
       "power": 80,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -4800,6 +5174,7 @@
       "moveId": "SHADOW_CLAW",
       "name": "Shadow Claw",
       "power": 6,
+      "turns": 2,
       "type": "ghost"
     },
     {
@@ -4811,6 +5186,7 @@
       "moveId": "SHADOW_FORCE",
       "name": "Shadow Force",
       "power": 120,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -4822,6 +5198,7 @@
       "moveId": "SHADOW_PUNCH",
       "name": "Shadow Punch",
       "power": 55,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -4832,6 +5209,7 @@
       "moveId": "SHADOW_SNEAK",
       "name": "Shadow Sneak",
       "power": 50,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -4849,6 +5227,7 @@
       "moveId": "SIGNAL_BEAM",
       "name": "Signal Beam",
       "power": 75,
+      "turns": 1,
       "type": "bug"
     },
     {
@@ -4866,6 +5245,7 @@
       "moveId": "SILVER_WIND",
       "name": "Silver Wind",
       "power": 60,
+      "turns": 1,
       "type": "bug"
     },
     {
@@ -4883,6 +5263,7 @@
       "moveId": "SKULL_BASH",
       "name": "Skull Bash",
       "power": 130,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -4893,6 +5274,7 @@
       "moveId": "SKY_ATTACK",
       "name": "Sky Attack",
       "power": 85,
+      "turns": 1,
       "type": "flying"
     },
     {
@@ -4904,6 +5286,7 @@
       "moveId": "SLUDGE",
       "name": "Sludge",
       "power": 70,
+      "turns": 1,
       "type": "poison"
     },
     {
@@ -4915,6 +5298,7 @@
       "moveId": "SLUDGE_BOMB",
       "name": "Sludge Bomb",
       "power": 80,
+      "turns": 1,
       "type": "poison"
     },
     {
@@ -4925,6 +5309,7 @@
       "moveId": "SLUDGE_WAVE",
       "name": "Sludge Wave",
       "power": 110,
+      "turns": 1,
       "type": "poison"
     },
     {
@@ -4935,6 +5320,7 @@
       "moveId": "SMACK_DOWN",
       "name": "Smack Down",
       "power": 11,
+      "turns": 3,
       "type": "rock"
     },
     {
@@ -4946,6 +5332,7 @@
       "moveId": "SNARL",
       "name": "Snarl",
       "power": 5,
+      "turns": 3,
       "type": "dark"
     },
     {
@@ -4957,6 +5344,7 @@
       "moveId": "SOLAR_BEAM",
       "name": "Solar Beam",
       "power": 150,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -4968,6 +5356,7 @@
       "moveId": "SPACIAL_REND",
       "name": "Spacial Rend",
       "power": 95,
+      "turns": 1,
       "type": "dragon"
     },
     {
@@ -4979,6 +5368,7 @@
       "moveId": "SPARK",
       "name": "Spark",
       "power": 5,
+      "turns": 2,
       "type": "electric"
     },
     {
@@ -4990,6 +5380,7 @@
       "moveId": "SPARKLING_ARIA",
       "name": "Sparkling Aria",
       "power": 80,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -5007,6 +5398,7 @@
       "moveId": "SPIRIT_SHACKLE",
       "name": "Spirit Shackle",
       "power": 50,
+      "turns": 1,
       "type": "ghost"
     },
     {
@@ -5018,6 +5410,7 @@
       "moveId": "SPLASH",
       "name": "Splash",
       "power": 0,
+      "turns": 4,
       "type": "water"
     },
     {
@@ -5035,6 +5428,7 @@
       "moveId": "SPRINGTIDE_STORM",
       "name": "Springtide Storm (Speculative)",
       "power": 60,
+      "turns": 1,
       "type": "fairy"
     },
     {
@@ -5046,6 +5440,7 @@
       "moveId": "STEEL_WING",
       "name": "Steel Wing",
       "power": 7,
+      "turns": 2,
       "type": "steel"
     },
     {
@@ -5057,6 +5452,7 @@
       "moveId": "STOMP",
       "name": "Stomp",
       "power": 55,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -5067,6 +5463,7 @@
       "moveId": "STONE_EDGE",
       "name": "Stone Edge",
       "power": 100,
+      "turns": 1,
       "type": "rock"
     },
     {
@@ -5078,6 +5475,7 @@
       "moveId": "STRUGGLE",
       "name": "Struggle",
       "power": 35,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -5089,6 +5487,7 @@
       "moveId": "STRUGGLE_BUG",
       "name": "Struggle Bug",
       "power": 9,
+      "turns": 3,
       "type": "bug"
     },
     {
@@ -5100,6 +5499,7 @@
       "moveId": "SUBMISSION",
       "name": "Submission",
       "power": 60,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -5111,6 +5511,7 @@
       "moveId": "SUCKER_PUNCH",
       "name": "Sucker Punch",
       "power": 8,
+      "turns": 2,
       "type": "dark"
     },
     {
@@ -5122,6 +5523,7 @@
       "moveId": "SUNSTEEL_STRIKE",
       "name": "Sunsteel Strike",
       "power": 135,
+      "turns": 1,
       "type": "steel"
     },
     {
@@ -5138,6 +5540,7 @@
       "moveId": "SUPER_POWER",
       "name": "Superpower",
       "power": 85,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -5148,6 +5551,7 @@
       "moveId": "SURF",
       "name": "Surf",
       "power": 75,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -5159,6 +5563,7 @@
       "moveId": "SWIFT",
       "name": "Swift",
       "power": 55,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -5170,6 +5575,7 @@
       "moveId": "SYNCHRONOISE",
       "name": "Synchronoise",
       "power": 80,
+      "turns": 1,
       "type": "psychic"
     },
     {
@@ -5181,6 +5587,7 @@
       "moveId": "TACKLE",
       "name": "Tackle",
       "power": 3,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -5191,6 +5598,7 @@
       "moveId": "TAKE_DOWN",
       "name": "Take Down",
       "power": 5,
+      "turns": 3,
       "type": "normal"
     },
     {
@@ -5201,6 +5609,7 @@
       "moveId": "TECHNO_BLAST_NORMAL",
       "name": "Techno Blast (Normal)",
       "power": 120,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -5211,6 +5620,7 @@
       "moveId": "TECHNO_BLAST_BURN",
       "name": "Techno Blast (Burn)",
       "power": 120,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -5221,6 +5631,7 @@
       "moveId": "TECHNO_BLAST_CHILL",
       "name": "Techno Blast (Chill)",
       "power": 120,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -5231,6 +5642,7 @@
       "moveId": "TECHNO_BLAST_DOUSE",
       "name": "Techno Blast (Douse)",
       "power": 120,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -5241,6 +5653,7 @@
       "moveId": "TECHNO_BLAST_SHOCK",
       "name": "Techno Blast (Shock)",
       "power": 120,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -5251,6 +5664,7 @@
       "moveId": "THUNDER",
       "name": "Thunder",
       "power": 100,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -5268,6 +5682,7 @@
       "moveId": "THUNDER_CAGE",
       "name": "Thunder Cage",
       "power": 60,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -5278,6 +5693,7 @@
       "moveId": "THUNDER_FANG",
       "name": "Thunder Fang",
       "power": 8,
+      "turns": 2,
       "type": "electric"
     },
     {
@@ -5288,6 +5704,7 @@
       "moveId": "THUNDER_PUNCH",
       "name": "Thunder Punch",
       "power": 60,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -5298,6 +5715,7 @@
       "moveId": "THUNDER_SHOCK",
       "name": "Thunder Shock",
       "power": 4,
+      "turns": 2,
       "type": "electric"
     },
     {
@@ -5309,6 +5727,7 @@
       "moveId": "THUNDERBOLT",
       "name": "Thunderbolt",
       "power": 90,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -5326,6 +5745,7 @@
       "moveId": "TORCH_SONG",
       "name": "Torch Song",
       "power": 70,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -5343,6 +5763,7 @@
       "moveId": "TRAILBLAZE",
       "name": "Trailblaze",
       "power": 65,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -5352,6 +5773,7 @@
       "moveId": "TRANSFORM",
       "name": "Transform",
       "power": 0,
+      "turns": 3,
       "type": "normal"
     },
     {
@@ -5368,6 +5790,7 @@
       "moveId": "TRI_ATTACK",
       "name": "Tri Attack",
       "power": 65,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -5385,6 +5808,7 @@
       "moveId": "TRIPLE_AXEL",
       "name": "Triple Axel",
       "power": 60,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -5396,6 +5820,7 @@
       "moveId": "TWISTER",
       "name": "Twister",
       "power": 45,
+      "turns": 1,
       "type": "dragon"
     },
     {
@@ -5412,6 +5837,7 @@
       "moveId": "UPPER_HAND",
       "name": "Upper Hand",
       "power": 70,
+      "turns": 1,
       "type": "fighting"
     },
     {
@@ -5428,6 +5854,7 @@
       "moveId": "V_CREATE",
       "name": "V-Create",
       "power": 95,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -5438,6 +5865,7 @@
       "moveId": "VICE_GRIP",
       "name": "Vise Grip",
       "power": 40,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -5448,6 +5876,7 @@
       "moveId": "VINE_WHIP",
       "name": "Vine Whip",
       "power": 5,
+      "turns": 2,
       "type": "grass"
     },
     {
@@ -5458,6 +5887,7 @@
       "moveId": "VOLT_SWITCH",
       "name": "Volt Switch",
       "power": 12,
+      "turns": 4,
       "type": "electric"
     },
     {
@@ -5474,6 +5904,7 @@
       "moveId": "VOLT_TACKLE",
       "name": "Volt Tackle",
       "power": 90,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -5484,6 +5915,7 @@
       "moveId": "WATER_GUN",
       "name": "Water Gun",
       "power": 3,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -5494,6 +5926,7 @@
       "moveId": "WATER_GUN_FAST_BLASTOISE",
       "name": "Water Gun Fast Blastoise",
       "power": 6,
+      "turns": 2,
       "type": "water"
     },
     {
@@ -5504,6 +5937,7 @@
       "moveId": "WATER_PULSE",
       "name": "Water Pulse",
       "power": 80,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -5514,6 +5948,7 @@
       "moveId": "WATERFALL",
       "name": "Waterfall",
       "power": 12,
+      "turns": 3,
       "type": "water"
     },
     {
@@ -5525,6 +5960,7 @@
       "moveId": "WATER_SHURIKEN",
       "name": "Water Shuriken",
       "power": 6,
+      "turns": 3,
       "type": "water"
     },
     {
@@ -5535,6 +5971,7 @@
       "moveId": "WEATHER_BALL_FIRE",
       "name": "Weather Ball (Fire)",
       "power": 55,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -5545,6 +5982,7 @@
       "moveId": "WEATHER_BALL_ICE",
       "name": "Weather Ball (Ice)",
       "power": 55,
+      "turns": 1,
       "type": "ice"
     },
     {
@@ -5555,6 +5993,7 @@
       "moveId": "WEATHER_BALL_ROCK",
       "name": "Weather Ball (Rock)",
       "power": 55,
+      "turns": 1,
       "type": "rock"
     },
     {
@@ -5565,6 +6004,7 @@
       "moveId": "WEATHER_BALL_NORMAL",
       "name": "Weather Ball (Normal)",
       "power": 55,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -5575,6 +6015,7 @@
       "moveId": "WEATHER_BALL_WATER",
       "name": "Weather Ball (Water)",
       "power": 55,
+      "turns": 1,
       "type": "water"
     },
     {
@@ -5592,6 +6033,7 @@
       "moveId": "WILDBOLT_STORM",
       "name": "Wildbolt Storm",
       "power": 60,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -5608,6 +6050,7 @@
       "moveId": "WILD_CHARGE",
       "name": "Wild Charge",
       "power": 100,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -5618,6 +6061,7 @@
       "moveId": "WING_ATTACK",
       "name": "Wing Attack",
       "power": 5,
+      "turns": 2,
       "type": "flying"
     },
     {
@@ -5635,6 +6079,7 @@
       "moveId": "WRAP",
       "name": "Wrap",
       "power": 60,
+      "turns": 1,
       "type": "normal"
     },
     {
@@ -5645,6 +6090,7 @@
       "moveId": "X_SCISSOR",
       "name": "X-Scissor",
       "power": 65,
+      "turns": 1,
       "type": "bug"
     },
     {
@@ -5655,6 +6101,7 @@
       "moveId": "YAWN",
       "name": "Yawn",
       "power": 0,
+      "turns": 4,
       "type": "normal"
     },
     {
@@ -5671,6 +6118,7 @@
       "moveId": "ZAP_CANNON",
       "name": "Zap Cannon",
       "power": 150,
+      "turns": 1,
       "type": "electric"
     },
     {
@@ -5681,6 +6129,7 @@
       "moveId": "ZEN_HEADBUTT",
       "name": "Zen Headbutt",
       "power": 8,
+      "turns": 3,
       "type": "psychic"
     }
   ],
@@ -80483,21 +80932,21 @@
       "defaultIVs": {
         "cp1500": [
           15,
-          5,
-          15,
-          13
+          10,
+          11,
+          10
         ],
         "cp2500": [
-          25,
-          8,
+          24,
           15,
-          11
+          15,
+          15
         ],
         "cp500": [
-          5.5,
-          6,
-          4,
-          5
+          5,
+          15,
+          15,
+          10
         ]
       },
       "dex": 721,
@@ -80506,9 +80955,15 @@
         "WATER_GUN",
         "TAKE_DOWN"
       ],
-      "released": false,
+      "levelFloor": 15,
+      "released": true,
+      "searchPriority": 2,
       "speciesId": "volcanion",
       "speciesName": "Volcanion",
+      "tags": [
+        "mythical",
+        "untradeable"
+      ],
       "thirdMoveCost": 100000,
       "types": [
         "fire",
@@ -88110,7 +88565,7 @@
         "SPARK",
         "BITE"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "yamper",
       "speciesName": "Yamper",
       "thirdMoveCost": 50000,
@@ -88159,7 +88614,7 @@
         "SPARK",
         "BITE"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "boltund",
       "speciesName": "Boltund",
       "thirdMoveCost": 50000,
@@ -99043,9 +99498,7 @@
   "settings": {
     "buffDivisor": 4,
     "maxBuffStages": 4,
-    "partySize": 3,
-    "shadowAtkMult": 1.2,
-    "shadowDefMult": 0.83333331
+    "partySize": 3
   },
   "shadowPokemon": [
     "bulbasaur",
@@ -99492,5 +99945,5 @@
     "amaura",
     "aurorus"
   ],
-  "timestamp": "2025-06-03 22:59:33"
+  "timestamp": "2025-06-18 02:42:38"
 }
