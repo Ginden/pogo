@@ -227,10 +227,7 @@
             "rayquaza_mega",
             "salamence_mega",
             "swampert_mega",
-            "tyranitar_mega",
-            "zacian_crowned_sword",
-            "zamazenta_crowned_shield",
-            "volcanion"
+            "tyranitar_mega"
           ]
         }
       ],
@@ -356,7 +353,15 @@
       "exclude": [
         {
           "filterType": "id",
-          "values": []
+          "values": [
+            "bellibolt",
+            "cradily",
+            "virizion",
+            "lapras",
+            "moltres_galarian",
+            "primeape",
+            "weezing_galarian"
+          ]
         }
       ],
       "include": [],
@@ -650,6 +655,51 @@
       "partySize": 3,
       "presetOnly": true,
       "title": "GO Battle League"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "dex",
+          "values": [
+            387,
+            493
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "sneasel_hisuian",
+            "sneasel_hisuian_shadow",
+            "sneasler",
+            "sneasler_shadow",
+            "qwilfish_hisuian",
+            "overqwil",
+            "growlithe_hisuian",
+            "arcanine_hisuian",
+            "braviary_hisuian",
+            "voltorb_hisuian",
+            "electrode_hisuian",
+            "typhlosion_hisuian",
+            "samurott_hisuian",
+            "decidueye_hisuian",
+            "wyrdeer",
+            "kleavor",
+            "ursaluna"
+          ]
+        }
+      ],
+      "name": "hisui",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Hisui Cup"
     },
     {
       "exclude": [
@@ -2229,6 +2279,19 @@
       "title": "Little Element Cup"
     },
     {
+      "cp": 1500,
+      "cup": "hisui",
+      "meta": "hisui",
+      "rules": [
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Pokémon first discovered in the Hisui region or Pokémon with a Pokédex number from #387 to #493 will be allowed."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Hisui Cup"
+    },
+    {
       "cp": 10000,
       "cup": "classic",
       "hideRankings": true,
@@ -2269,7 +2332,7 @@
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Battle Tower (Aurora)"
+      "title": "Battle Frontier (Aurora)"
     },
     {
       "cp": 1500,
@@ -2278,7 +2341,7 @@
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Battle Tower (Onyx)"
+      "title": "Battle Frontier (Onyx)"
     },
     {
       "cp": 2500,
@@ -2287,7 +2350,7 @@
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Battle Tower (Ultra)"
+      "title": "Battle Frontier (Ultra)"
     },
     {
       "cp": 10000,
@@ -2296,7 +2359,7 @@
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Battle Tower (Master)"
+      "title": "Battle Frontier (Master)"
     },
     {
       "cp": 1500,
@@ -7194,7 +7257,7 @@
         "zard"
       ],
       "released": true,
-      "searchPriority": 10,
+      "searchPriority": 5,
       "speciesId": "charizard",
       "speciesName": "Charizard",
       "tags": [
@@ -7406,7 +7469,6 @@
         "zard"
       ],
       "released": true,
-      "searchPriority": 10,
       "speciesId": "charizard_shadow",
       "speciesName": "Charizard (Shadow)",
       "tags": [
@@ -18934,12 +18996,8 @@
         "id": "FAMILY_GRIMER"
       },
       "fastMoves": [
-        "ACID",
         "BITE",
         "POISON_JAB"
-      ],
-      "legacyMoves": [
-        "ACID"
       ],
       "level25CP": 787,
       "released": true,
@@ -50476,7 +50534,7 @@
       ],
       "level25CP": 2604,
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 4,
       "speciesId": "kyogre",
       "speciesName": "Kyogre",
       "tags": [
@@ -75583,6 +75641,7 @@
         "FREEZE_SHOCK"
       ],
       "released": true,
+      "searchPriority": 5,
       "speciesId": "kyurem_black",
       "speciesName": "Kyurem (Black)",
       "tags": [
@@ -92111,22 +92170,22 @@
       ],
       "defaultIVs": {
         "cp1500": [
-          12.5,
-          4,
-          12,
-          8
+          11,
+          5,
+          14,
+          10
         ],
         "cp2500": [
-          20.5,
-          5,
-          11,
-          14
+          18,
+          4,
+          15,
+          15
         ],
         "cp500": [
-          4.5,
           4,
           6,
-          11
+          15,
+          8
         ]
       },
       "dex": 888,
@@ -92138,6 +92197,7 @@
         "BEHEMOTH_BLADE"
       ],
       "released": true,
+      "searchPriority": 9,
       "speciesId": "zacian_crowned_sword",
       "speciesName": "Zacian (Crowned Sword)",
       "tags": [
@@ -92190,7 +92250,6 @@
         "FIRE_FANG"
       ],
       "released": true,
-      "searchPriority": 5,
       "speciesId": "zacian_hero",
       "speciesName": "Zacian (Hero)",
       "tags": [
@@ -92217,21 +92276,21 @@
       ],
       "defaultIVs": {
         "cp1500": [
-          14.5,
-          5,
-          11,
-          14
-        ],
-        "cp2500": [
-          24,
-          4,
           13,
+          5,
+          15,
           15
         ],
+        "cp2500": [
+          22,
+          4,
+          15,
+          11
+        ],
         "cp500": [
-          5,
-          10,
-          10,
+          4.5,
+          13,
+          15,
           15
         ]
       },
@@ -92244,6 +92303,7 @@
         "BEHEMOTH_BASH"
       ],
       "released": true,
+      "searchPriority": 7,
       "speciesId": "zamazenta_crowned_shield",
       "speciesName": "Zamazenta (Crowned Shield)",
       "tags": [
@@ -92296,7 +92356,6 @@
         "ICE_FANG"
       ],
       "released": true,
-      "searchPriority": 5,
       "speciesId": "zamazenta_hero",
       "speciesName": "Zamazenta (Hero)",
       "tags": [
@@ -100326,5 +100385,5 @@
     "amaura",
     "aurorus"
   ],
-  "timestamp": "2025-06-22 20:57:31"
+  "timestamp": "2025-07-01 00:42:50"
 }
