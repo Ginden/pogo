@@ -354,13 +354,15 @@
         {
           "filterType": "id",
           "values": [
+            "feraligatr",
             "bellibolt",
             "cradily",
             "virizion",
             "lapras",
-            "moltres_galarian",
-            "primeape",
-            "weezing_galarian"
+            "tentacruel",
+            "forretress",
+            "dusknoir",
+            "talonflame"
           ]
         }
       ],
@@ -531,6 +533,68 @@
       "title": "Custom"
     },
     {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "dark",
+            "ground",
+            "ice",
+            "steel"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "boltund",
+            "bellibolt",
+            "dusknoir",
+            "carbink",
+            "golurk",
+            "corsola_galarian",
+            "hakamo_o",
+            "dragonair"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "electric",
+            "ghost",
+            "poison",
+            "rock"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "feraligatr",
+            "feraligatr_shadow",
+            "golisopod",
+            "typhlosion",
+            "typhlosion_shadow",
+            "leavanny"
+          ]
+        }
+      ],
+      "levelCap": 50,
+      "name": "devonchampionship",
+      "title": "Devon (Championship Invitational)"
+    },
+    {
       "exclude": [],
       "include": [
         {
@@ -692,7 +756,8 @@
             "decidueye_hisuian",
             "wyrdeer",
             "kleavor",
-            "ursaluna"
+            "ursaluna",
+            "zoroark_hisuian"
           ]
         }
       ],
@@ -2238,33 +2303,6 @@
   ],
   "formats": [
     {
-      "cp": 1500,
-      "cup": "fossil",
-      "meta": "fossil",
-      "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Water-, Rock-, and Steel-type Pokémon are eligible.",
-        "Charizard is not allowed."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Fossil Cup"
-    },
-    {
-      "cp": 2500,
-      "cup": "summer",
-      "meta": "summerultra",
-      "rules": [
-        "Pokémon must be at or below 2,500 CP to enter.",
-        "Only Normal-, Fire-, Water-, Grass-, Electric-, and Bug-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Summer Cup (Ultra League)"
-    },
-    {
       "cp": 500,
       "cup": "element",
       "meta": "element",
@@ -2290,6 +2328,49 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Hisui Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "sunshine",
+      "meta": "sunshine",
+      "rules": [
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Normal-, Fire-, Grass-, and Ground-type Pokémon are eligible.",
+        "Charizard is not allowed."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Sunshine Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "fossil",
+      "hideRankings": true,
+      "meta": "fossil",
+      "rules": [
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Water-, Rock-, and Steel-type Pokémon are eligible.",
+        "Charizard is not allowed."
+      ],
+      "showCup": false,
+      "showFormat": false,
+      "showMeta": false,
+      "title": "Fossil Cup"
+    },
+    {
+      "cp": 2500,
+      "cup": "summer",
+      "hideRankings": true,
+      "meta": "summerultra",
+      "rules": [
+        "Pokémon must be at or below 2,500 CP to enter.",
+        "Only Normal-, Fire-, Water-, Grass-, Electric-, and Bug-type Pokémon are eligible."
+      ],
+      "showCup": false,
+      "showFormat": false,
+      "showMeta": false,
+      "title": "Summer Cup (Ultra League)"
     },
     {
       "cp": 10000,
@@ -2363,21 +2444,21 @@
     },
     {
       "cp": 1500,
-      "cup": "rivalry",
-      "meta": "rivalry",
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Devon Rivalry Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "ascension",
       "meta": "ascension",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
       "title": "Devon Ascension Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "devonchampionship",
+      "meta": "devonchampionship",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Devon (Championship Invitational S2)"
     },
     {
       "cp": 1500,
@@ -67703,6 +67784,66 @@
     },
     {
       "baseStats": {
+        "atk": 208,
+        "def": 159,
+        "hp": 172
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "PETAL_BLIZZARD",
+        "CLOSE_COMBAT",
+        "SOLAR_BEAM",
+        "UPPER_HAND"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          22.5,
+          4,
+          7,
+          15
+        ],
+        "cp2500": [
+          44,
+          4,
+          15,
+          13
+        ],
+        "cp2500l40": [
+          39.5,
+          14,
+          15,
+          15
+        ],
+        "cp500": [
+          7.5,
+          5,
+          12,
+          15
+        ]
+      },
+      "dex": 549,
+      "family": {
+        "id": "FAMILY_PETILIL",
+        "parent": "petilil"
+      },
+      "fastMoves": [
+        "MAGICAL_LEAF",
+        "BULLET_SEED"
+      ],
+      "released": true,
+      "speciesId": "lilligant_hisuian",
+      "speciesName": "Lilligant (Hisuian)",
+      "tags": [
+        "hisuian"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "grass",
+        "fighting"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 189,
         "def": 129,
         "hp": 172
@@ -69746,6 +69887,62 @@
     },
     {
       "baseStats": {
+        "atk": 162,
+        "def": 79,
+        "hp": 111
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "FOUL_PLAY",
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "NIGHT_SHADE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          15.5,
+          4,
+          15,
+          15
+        ]
+      },
+      "dex": 570,
+      "family": {
+        "evolutions": [
+          "zoroark"
+        ],
+        "id": "FAMILY_ZORUA"
+      },
+      "fastMoves": [
+        "SCRATCH",
+        "SNARL"
+      ],
+      "released": true,
+      "speciesId": "zorua_hisuian",
+      "speciesName": "Zorua (Hisuian)",
+      "tags": [
+        "hisuian"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "normal",
+        "ghost"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 250,
         "def": 127,
         "hp": 155
@@ -69799,6 +69996,62 @@
       "types": [
         "dark",
         "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 261,
+        "def": 128,
+        "hp": 146
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "FOUL_PLAY",
+        "SLUDGE_BOMB",
+        "FLAMETHROWER",
+        "SHADOW_BALL"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          21,
+          5,
+          13,
+          14
+        ],
+        "cp2500": [
+          40,
+          6,
+          15,
+          11
+        ],
+        "cp500": [
+          7.5,
+          2,
+          11,
+          5
+        ]
+      },
+      "dex": 571,
+      "family": {
+        "id": "FAMILY_ZORUA",
+        "parent": "zorua"
+      },
+      "fastMoves": [
+        "SHADOW_CLAW",
+        "SNARL"
+      ],
+      "released": true,
+      "searchPriority": 2,
+      "speciesId": "zoroark_hisuian",
+      "speciesName": "Zoroark (Hisuian)",
+      "tags": [
+        "hisuian",
+        "include1500"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "normal",
+        "ghost"
       ]
     },
     {
@@ -83316,7 +83569,7 @@
         "MUD_SLAP",
         "ROCK_SMASH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "mudbray",
       "speciesName": "Mudbray",
       "thirdMoveCost": 50000,
@@ -83367,7 +83620,7 @@
         "MUD_SLAP",
         "ROCK_SMASH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "mudsdale",
       "speciesName": "Mudsdale",
       "thirdMoveCost": 50000,
@@ -100385,5 +100638,5 @@
     "amaura",
     "aurorus"
   ],
-  "timestamp": "2025-07-01 00:42:50"
+  "timestamp": "2025-07-09 03:57:00"
 }
