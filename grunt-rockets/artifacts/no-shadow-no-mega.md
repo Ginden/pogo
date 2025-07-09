@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-07-02
+* **Date generated**: 2025-07-09
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -319,7 +319,7 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 * **Krookodile** using _Mud Slap_ (64%)
 * **Golurk** using _Mud Slap_ (62%)
 * **Rhydon** using _Mud Slap_ (62%)
-* **Donphan** using _Mud Slap_ (60%)
+* **Mudsdale** using _Mud Slap_ (60%)
 
 
 ### Highest **ice** (❄️) fast move damage: 
@@ -343,7 +343,7 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 * **Ursaluna** using _Tackle_ (51%)
 * **Purugly** using _Scratch_ (49%)
 * **Bewear** using _Tackle_ (48%)
-* **Arboliva** using _Tackle_ (46%)
+* **Zorua (Hisuian)** using _Scratch_ (47%)
 
 
 ### Highest **poison** (🐍) fast move damage: 

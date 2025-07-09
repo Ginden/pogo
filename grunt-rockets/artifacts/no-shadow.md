@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow
 * **Exclude unreleased**: true
-* **Date generated**: 2025-07-02
+* **Date generated**: 2025-07-09
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -319,7 +319,7 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 * **Krookodile** using _Mud Slap_ (57%)
 * **Golurk** using _Mud Slap_ (56%)
 * **Rhydon** using _Mud Slap_ (56%)
-* **Donphan** using _Mud Slap_ (54%)
+* **Mudsdale** using _Mud Slap_ (54%)
 
 
 ### Highest **ice** (❄️) fast move damage: 

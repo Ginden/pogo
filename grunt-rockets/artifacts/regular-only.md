@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 * **Exclude unreleased**: true
-* **Date generated**: 2025-07-02
+* **Date generated**: 2025-07-09
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -44,7 +44,7 @@
 * **Krookodile** using _Mud Slap_ (90%)
 * **Golurk** using _Mud Slap_ (88%)
 * **Rhydon** using _Mud Slap_ (88%)
-* **Donphan** using _Mud Slap_ (85%)
+* **Mudsdale** using _Mud Slap_ (85%)
 
 # Anti-Fairy 🧚
 
@@ -319,7 +319,7 @@ All Pokemon are normalized to neutral damage of Haxorus using Dragon Tail
 * **Krookodile** using _Mud Slap_ (75%)
 * **Golurk** using _Mud Slap_ (73%)
 * **Rhydon** using _Mud Slap_ (73%)
-* **Donphan** using _Mud Slap_ (71%)
+* **Mudsdale** using _Mud Slap_ (71%)
 
 
 ### Highest **ice** (❄️) fast move damage: 
@@ -343,7 +343,7 @@ All Pokemon are normalized to neutral damage of Haxorus using Dragon Tail
 * **Ursaluna** using _Tackle_ (60%)
 * **Purugly** using _Scratch_ (58%)
 * **Bewear** using _Tackle_ (56%)
-* **Arboliva** using _Tackle_ (54%)
+* **Zorua (Hisuian)** using _Scratch_ (55%)
 
 
 ### Highest **poison** (🐍) fast move damage: 
