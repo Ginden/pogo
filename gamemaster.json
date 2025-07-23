@@ -354,14 +354,15 @@
         {
           "filterType": "id",
           "values": [
+            "lapras",
             "moltres_galarian",
             "gastrodon",
+            "forretress",
+            "dusknoir",
             "feraligatr",
             "weezing_galarian",
-            "bellibolt",
-            "cradily",
-            "blastoise",
-            "primeape"
+            "talonflame",
+            "tentacruel"
           ]
         }
       ],
@@ -504,6 +505,13 @@
           "values": [
             "mega"
           ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "aegislash_blade",
+            "aegislash_shield"
+          ]
         }
       ],
       "include": [],
@@ -550,8 +558,6 @@
             "jumpluff_shadow",
             "primeape",
             "primeape_shadow",
-            "annihilape",
-            "annihilape_shadow",
             "ariados",
             "corsola_galarian",
             "marowak",
@@ -606,6 +612,8 @@
         },
         {
           "pokemon": [
+            "annihilape",
+            "annihilape_shadow",
             "azumarill",
             "drapion",
             "drapion_shadow",
@@ -4395,19 +4403,6 @@
   "formats": [
     {
       "cp": 1500,
-      "cup": "hisui",
-      "meta": "hisui",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Pokémon first discovered in the Hisui region or Pokémon with a Pokédex number from #387 to #493 will be allowed."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Hisui Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "sunshine",
       "meta": "sunshine",
       "rules": [
@@ -4437,15 +4432,14 @@
     {
       "cp": 2500,
       "cup": "summer",
-      "hideRankings": true,
       "meta": "summerultra",
       "rules": [
         "Pokémon must be at or below 2, 500 CP to enter.",
         "Only Normal-,  Fire-,  Water-,  Grass-,  Electric-,  and Bug-type Pokémon are eligible."
       ],
-      "showCup": false,
-      "showFormat": false,
-      "showMeta": false,
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
       "title": "Summer Cup (Ultra League)"
     },
     {
@@ -4616,6 +4610,30 @@
       "type": "flying"
     },
     {
+      "abbreviation": "PC",
+      "archetype": "Low Quality",
+      "cooldown": 1000,
+      "energy": 0,
+      "energyGain": 6,
+      "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
+      "name": "Psycho Cut",
+      "power": 0,
+      "turns": 2,
+      "type": "psychic"
+    },
+    {
+      "abbreviation": "AS",
+      "archetype": "Low Quality",
+      "cooldown": 1500,
+      "energy": 0,
+      "energyGain": 6,
+      "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
+      "name": "Air Slash",
+      "power": 0,
+      "turns": 3,
+      "type": "flying"
+    },
+    {
       "archetype": "General",
       "cooldown": 500,
       "energy": 40,
@@ -4696,6 +4714,24 @@
       "moveId": "AQUA_JET",
       "name": "Aqua Jet",
       "power": 70,
+      "turns": 1,
+      "type": "water"
+    },
+    {
+      "abbreviation": "ASt",
+      "archetype": "Boost",
+      "buffApplyChance": "1",
+      "buffTarget": "self",
+      "buffs": [
+        1,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "moveId": "AQUA_STEP",
+      "name": "Aqua Step",
+      "power": 55,
       "turns": 1,
       "type": "water"
     },
@@ -80373,7 +80409,7 @@
         "TACKLE",
         "PSYCHO_CUT"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "honedge",
       "speciesName": "Honedge",
       "thirdMoveCost": 75000,
@@ -80422,7 +80458,7 @@
       "dex": 680,
       "family": {
         "evolutions": [
-          "aegislash"
+          "aegislash_shield"
         ],
         "id": "FAMILY_HONEDGE",
         "parent": "honedge"
@@ -80431,7 +80467,7 @@
         "PSYCHO_CUT",
         "TACKLE"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "doublade",
       "speciesName": "Doublade",
       "thirdMoveCost": 75000,
@@ -80442,7 +80478,7 @@
     },
     {
       "baseStats": {
-        "atk": 291,
+        "atk": 272,
         "def": 97,
         "hp": 155
       },
@@ -80454,20 +80490,26 @@
       ],
       "defaultIVs": {
         "cp1500": [
-          21,
+          22,
           4,
-          11,
+          15,
           15
         ],
         "cp2500": [
-          38.5,
-          6,
+          43.5,
+          5,
           15,
-          14
+          15
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
         ],
         "cp500": [
-          7,
-          6,
+          7.5,
+          4,
           15,
           15
         ]
@@ -80481,7 +80523,12 @@
         "PSYCHO_CUT",
         "AIR_SLASH"
       ],
-      "originalFormId": "aegislash_shield",
+      "formChange": {
+        "alternativeFormId": "aegislash_shield",
+        "trigger": "activate_shield",
+        "type": "set"
+      },
+      "originalFormId": "aegislash_blade",
       "released": false,
       "speciesId": "aegislash_blade",
       "speciesName": "Aegislash (Blade)",
@@ -80494,7 +80541,7 @@
     {
       "baseStats": {
         "atk": 97,
-        "def": 291,
+        "def": 272,
         "hp": 155
       },
       "buddyDistance": 5,
@@ -80505,16 +80552,16 @@
       ],
       "defaultIVs": {
         "cp1500": [
-          43.5,
+          46,
           4,
-          13,
+          14,
           15
         ],
         "cp1500l40": [
-          37,
-          13,
+          40,
+          12,
           15,
-          15
+          14
         ],
         "cp2500": [
           50,
@@ -80526,7 +80573,7 @@
           12.5,
           4,
           15,
-          6
+          15
         ]
       },
       "dex": 681,
@@ -80535,11 +80582,17 @@
         "parent": "doublade"
       },
       "fastMoves": [
-        "PSYCHO_CUT",
-        "AIR_SLASH"
+        "AEGISLASH_CHARGE_PSYCHO_CUT",
+        "AEGISLASH_CHARGE_AIR_SLASH"
       ],
+      "formChange": {
+        "alternativeFormId": "aegislash_blade",
+        "moveId": "ANY",
+        "trigger": "activate_charged",
+        "type": "set"
+      },
       "originalFormId": "aegislash_shield",
-      "released": false,
+      "released": true,
       "searchPriority": 2,
       "speciesId": "aegislash_shield",
       "speciesName": "Aegislash (Shield)",
@@ -96355,7 +96408,9 @@
         "AQUA_JET",
         "AERIAL_ACE",
         "LIQUIDATION",
-        "CLOSE_COMBAT"
+        "CLOSE_COMBAT",
+        "AQUA_STEP",
+        "HYDRO_CANNON"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -96378,6 +96433,9 @@
         ]
       },
       "dex": 914,
+      "eliteMoves": [
+        "HYDRO_CANNON"
+      ],
       "family": {
         "id": "FAMILY_QUAXLY",
         "parent": "quaxwell"
@@ -102702,5 +102760,5 @@
     "amaura",
     "aurorus"
   ],
-  "timestamp": "2025-07-15 18:01:28"
+  "timestamp": "2025-07-22 23:36:16"
 }
