@@ -354,15 +354,16 @@
         {
           "filterType": "id",
           "values": [
+            "primeape",
+            "bellibolt",
             "lapras",
             "moltres_galarian",
             "gastrodon",
             "forretress",
             "dusknoir",
-            "feraligatr",
-            "weezing_galarian",
-            "talonflame",
-            "tentacruel"
+            "drifblim",
+            "blastoise",
+            "gliscor"
           ]
         }
       ],
@@ -4403,20 +4404,6 @@
   "formats": [
     {
       "cp": 1500,
-      "cup": "sunshine",
-      "meta": "sunshine",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Normal-,  Fire-,  Grass-,  and Ground-type Pokémon are eligible.",
-        "Charizard is not allowed."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Sunshine Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "fossil",
       "meta": "fossil",
       "rules": [
@@ -4555,7 +4542,16 @@
       "showCup": false,
       "showFormat": false,
       "showMeta": false,
-      "title": "Little"
+      "title": "Little Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "catch",
+      "meta": "great",
+      "showCup": false,
+      "showFormat": false,
+      "showMeta": false,
+      "title": "Catch Cup"
     },
     {
       "cp": 1500,
@@ -32561,7 +32557,7 @@
         "toed"
       ],
       "released": true,
-      "searchPriority": 4,
+      "searchPriority": 2,
       "speciesId": "politoed",
       "speciesName": "Politoed",
       "tags": [
@@ -32632,7 +32628,6 @@
         "toed"
       ],
       "released": true,
-      "searchPriority": 4,
       "speciesId": "politoed_shadow",
       "speciesName": "Politoed (Shadow)",
       "tags": [
@@ -80492,12 +80487,12 @@
         "cp1500": [
           22,
           4,
-          15,
+          14,
           15
         ],
         "cp2500": [
-          43.5,
-          5,
+          38,
+          15,
           15,
           15
         ],
@@ -94775,7 +94770,7 @@
       },
       "buddyDistance": 20,
       "chargedMoves": [
-        "SLUDGE_BOMB",
+        "CROSS_POISON",
         "DRAGON_PULSE",
         "FLAMETHROWER",
         "HYPER_BEAM"
@@ -94822,7 +94817,7 @@
       },
       "buddyDistance": 20,
       "chargedMoves": [
-        "SLUDGE_BOMB",
+        "CROSS_POISON",
         "DRAGON_PULSE",
         "FLAMETHROWER",
         "HYPER_BEAM"
@@ -98605,7 +98600,7 @@
         "MUD_SLAP",
         "MUD_SHOT"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "toedscool",
       "speciesName": "Toedscool",
       "thirdMoveCost": 50000,
@@ -98662,7 +98657,8 @@
         "MUD_SLAP",
         "MUD_SHOT"
       ],
-      "released": false,
+      "released": true,
+      "searchPriority": 4,
       "speciesId": "toedscruel",
       "speciesName": "Toedscruel",
       "thirdMoveCost": 50000,
@@ -102760,5 +102756,5 @@
     "amaura",
     "aurorus"
   ],
-  "timestamp": "2025-07-22 23:36:16"
+  "timestamp": "2025-07-30 01:20:52"
 }
