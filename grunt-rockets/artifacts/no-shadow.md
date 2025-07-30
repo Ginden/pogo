@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow
 * **Exclude unreleased**: true
-* **Date generated**: 2025-07-23
+* **Date generated**: 2025-07-30
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
