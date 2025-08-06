@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-07-30
+* **Date generated**: 2025-08-06
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -198,8 +198,8 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 * **Vikavolt** using _Bug Bite_ (71%)
 * **Pinsir** using _Bug Bite_ (67%)
 * **Yanmega** using _Bug Bite_ (65%)
+* **Frosmoth** using _Bug Bite_ (64%)
 * **Escavalier** using _Bug Bite_ (63%)
-* **Centiskorch** using _Bug Bite_ (62%)
 
 
 ### Highest **dark** (🌌) fast move damage: 

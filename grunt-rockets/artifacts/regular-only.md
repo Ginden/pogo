@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 * **Exclude unreleased**: true
-* **Date generated**: 2025-07-30
+* **Date generated**: 2025-08-06
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -197,9 +197,9 @@ All Pokemon are normalized to neutral damage of Haxorus using Dragon Tail
 * **Vikavolt** using _Bug Bite_ (83%)
 * **Pinsir** using _Bug Bite_ (78%)
 * **Yanmega** using _Bug Bite_ (76%)
+* **Frosmoth** using _Bug Bite_ (76%)
 * **Escavalier** using _Bug Bite_ (73%)
 * **Centiskorch** using _Bug Bite_ (73%)
-* **Durant** using _Bug Bite_ (72%)
 
 
 ### Highest **dark** (🌌) fast move damage: 
