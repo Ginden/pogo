@@ -354,16 +354,14 @@
         {
           "filterType": "id",
           "values": [
+            "feraligatr",
+            "tentacruel",
             "primeape",
             "bellibolt",
+            "malamar",
+            "virizion",
             "lapras",
-            "moltres_galarian",
-            "gastrodon",
-            "forretress",
-            "dusknoir",
-            "drifblim",
-            "blastoise",
-            "gliscor"
+            "steelix"
           ]
         }
       ],
@@ -5132,6 +5130,23 @@
       "power": 15,
       "turns": 3,
       "type": "fairy"
+    },
+    {
+      "archetype": "Debuff",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        -1,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 45,
+      "energyGain": 0,
+      "moveId": "CHILLING_WATER",
+      "name": "Chilling Water (Speculative)",
+      "power": 60,
+      "turns": 1,
+      "type": "water"
     },
     {
       "abbreviation": "ClS",
@@ -84008,7 +84023,7 @@
         "MAGICAL_LEAF",
         "PSYCHO_CUT"
       ],
-      "levelFloor": 20,
+      "levelFloor": 15,
       "released": true,
       "speciesId": "decidueye_hisuian",
       "speciesName": "Decidueye (Hisuian)",
@@ -86744,6 +86759,9 @@
         "METAL_CLAW",
         "WATERFALL",
         "SHADOW_CLAW"
+      ],
+      "nicknames": [
+        "pod"
       ],
       "released": true,
       "searchPriority": 8,
@@ -93524,7 +93542,8 @@
         "POWDER_SNOW",
         "STRUGGLE_BUG"
       ],
-      "released": false,
+      "levelFloor": 20,
+      "released": true,
       "speciesId": "snom",
       "speciesName": "Snom",
       "thirdMoveCost": 75000,
@@ -93575,7 +93594,8 @@
         "POWDER_SNOW",
         "BUG_BITE"
       ],
-      "released": false,
+      "levelFloor": 20,
+      "released": true,
       "speciesId": "frosmoth",
       "speciesName": "Frosmoth",
       "thirdMoveCost": 75000,
@@ -102756,5 +102776,5 @@
     "amaura",
     "aurorus"
   ],
-  "timestamp": "2025-07-30 01:20:52"
+  "timestamp": "2025-08-05 22:56:14"
 }
