@@ -2,7 +2,7 @@
 
 * **Excluded tags**: mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-08-06
+* **Date generated**: 2025-08-13
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -21,10 +21,10 @@
 * **Gardevoir (Shadow)** using _Charm_ (100%)
 * **Granbull (Shadow)** using _Charm_ (90%)
 * **Pheromosa** using _Bug Bite_ (88%)
+* **Vikavolt (Shadow)** using _Bug Bite_ (85%)
 * **Hatterene** using _Charm_ (83%)
 * **Gallade (Shadow)** using _Charm_ (83%)
 * **Gardevoir** using _Charm_ (83%)
-* **Conkeldurr (Shadow)** using _Counter_ (82%)
 
 # Anti-Dragon 🐉
 
@@ -104,7 +104,7 @@
 * **Pheromosa** using _Bug Bite_ (96%)
 * **Blacephalon** using _Incinerate_ (96%)
 * **Kyurem (White)** using _Ice Fang_ (95%)
-* **Chandelure (Shadow)** using _Fire Spin_ (92%)
+* **Vikavolt (Shadow)** using _Bug Bite_ (94%)
 
 # Anti-Ground 🏜️
 
@@ -150,11 +150,11 @@
 
 * **Pheromosa** using _Bug Bite_ (100%)
 * **Blacephalon** using _Astonish_ (100%)
+* **Vikavolt (Shadow)** using _Bug Bite_ (97%)
 * **Tyranitar (Shadow)** using _Bite_ (96%)
 * **Sharpedo (Shadow)** using _Bite_ (94%)
 * **Pinsir (Shadow)** using _Bug Bite_ (92%)
 * **Salamence (Shadow)** using _Bite_ (88%)
-* **Escavalier (Shadow)** using _Bug Bite_ (86%)
 
 # Anti-Rock 🪨
 
@@ -194,12 +194,12 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 
 
 * **Pheromosa** using _Bug Bite_ (86%)
+* **Vikavolt (Shadow)** using _Bug Bite_ (84%)
 * **Pinsir (Shadow)** using _Bug Bite_ (79%)
 * **Escavalier (Shadow)** using _Bug Bite_ (74%)
 * **Volcarona** using _Bug Bite_ (73%)
 * **Vikavolt** using _Bug Bite_ (70%)
 * **Heatran (Shadow)** using _Bug Bite_ (69%)
-* **Scolipede (Shadow)** using _Bug Bite_ (68%)
 
 
 ### Highest **dark** (🌌) fast move damage: 
@@ -230,12 +230,12 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 
 
 * **Manectric (Shadow)** using _Thunder Fang_ (72%)
+* **Vikavolt (Shadow)** using _Volt Switch_ (63%)
 * **Arcanine (Shadow)** using _Thunder Fang_ (63%)
 * **Thundurus (Therian)** using _Volt Switch_ (61%)
 * **Raikou (Shadow)** using _Volt Switch_ (60%)
 * **Manectric** using _Thunder Fang_ (60%)
 * **Magnezone (Shadow)** using _Volt Switch_ (59%)
-* **Regigigas (Shadow)** using _Hidden Power (Electric)_ (59%)
 
 
 ### Highest **fairy** (🧚) fast move damage: 

@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 * **Exclude unreleased**: true
-* **Date generated**: 2025-08-06
+* **Date generated**: 2025-08-13
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
