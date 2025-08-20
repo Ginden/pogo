@@ -1,4 +1,19 @@
 {
+  "chargedMoveArchetypes": [
+    "Boost",
+    "Boost Nuke",
+    "Boost Spam",
+    "Debuff",
+    "Debuff Nuke",
+    "Debuff Spam",
+    "General",
+    "High Energy",
+    "Nuke",
+    "Self-Debuff",
+    "Self-Debuff Nuke",
+    "Self-Debuff Spam",
+    "Spam/Bait"
+  ],
   "cups": [
     {
       "exclude": [
@@ -4409,20 +4424,14 @@
       "title": "Willpower Cup"
     }
   ],
+  "fastMoveArchetypes": [
+    "Fast Charge",
+    "General",
+    "Heavy Damage",
+    "Low Quality",
+    "Multipurpose"
+  ],
   "formats": [
-    {
-      "cp": 2500,
-      "cup": "summer",
-      "meta": "summerultra",
-      "rules": [
-        "Pokémon must be at or below 2, 500 CP to enter.",
-        "Only Normal-,  Fire-,  Water-,  Grass-,  Electric-,  and Bug-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Summer Cup (Ultra League)"
-    },
     {
       "cp": 10000,
       "cup": "classic",
@@ -4557,6 +4566,7 @@
       "title": "Custom"
     }
   ],
+  "id": "gamemaster",
   "moves": [
     {
       "abbreviation": "Ac",
@@ -4600,30 +4610,6 @@
       "type": "flying"
     },
     {
-      "abbreviation": "PC",
-      "archetype": "Low Quality",
-      "cooldown": 1000,
-      "energy": 0,
-      "energyGain": 6,
-      "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
-      "name": "Psycho Cut",
-      "power": 0,
-      "turns": 2,
-      "type": "psychic"
-    },
-    {
-      "abbreviation": "AS",
-      "archetype": "Low Quality",
-      "cooldown": 1500,
-      "energy": 0,
-      "energyGain": 6,
-      "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
-      "name": "Air Slash",
-      "power": 0,
-      "turns": 3,
-      "type": "flying"
-    },
-    {
       "archetype": "General",
       "cooldown": 500,
       "energy": 40,
@@ -4652,7 +4638,7 @@
       "type": "flying"
     },
     {
-      "archetype": "Boost Spam/Bait",
+      "archetype": "Boost Spam",
       "buffApplyChance": ".3",
       "buffTarget": "self",
       "buffs": [
@@ -4676,6 +4662,18 @@
       "moveId": "AIR_SLASH",
       "name": "Air Slash",
       "power": 9,
+      "turns": 3,
+      "type": "flying"
+    },
+    {
+      "abbreviation": "AS",
+      "archetype": "Low Quality",
+      "cooldown": 1500,
+      "energy": 0,
+      "energyGain": 6,
+      "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
+      "name": "Air Slash",
+      "power": 0,
       "turns": 3,
       "type": "flying"
     },
@@ -4947,7 +4945,7 @@
     },
     {
       "abbreviation": "BkS",
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": ".5",
       "buffTarget": "opponent",
       "buffs": [
@@ -4965,7 +4963,7 @@
     },
     {
       "abbreviation": "BkB",
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": "1",
       "buffTarget": "opponent",
       "buffs": [
@@ -5018,7 +5016,7 @@
     },
     {
       "abbreviation": "BuB",
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": "1",
       "buffTarget": "opponent",
       "buffs": [
@@ -5048,7 +5046,7 @@
     },
     {
       "abbreviation": "BBu",
-      "archetype": "High Energy Debuff",
+      "archetype": "Debuff",
       "buffApplyChance": ".3",
       "buffTarget": "opponent",
       "buffs": [
@@ -5066,7 +5064,7 @@
     },
     {
       "abbreviation": "Bd",
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": ".5",
       "buffTarget": "opponent",
       "buffs": [
@@ -5234,7 +5232,7 @@
       "type": "fighting"
     },
     {
-      "archetype": "Boost Spam/Bait",
+      "archetype": "Boost Spam",
       "buffApplyChance": ".125",
       "buffTarget": "self",
       "buffs": [
@@ -5488,7 +5486,7 @@
     },
     {
       "abbreviation": "DrP",
-      "archetype": "Boost Spam/Bait",
+      "archetype": "Boost Spam",
       "buffApplyChance": "1",
       "buffTarget": "self",
       "buffs": [
@@ -5575,7 +5573,7 @@
       "type": "ground"
     },
     {
-      "archetype": "High Energy Debuff",
+      "archetype": "High Energy",
       "buffApplyChance": ".1",
       "buffTarget": "opponent",
       "buffs": [
@@ -5603,7 +5601,7 @@
       "type": "fire"
     },
     {
-      "archetype": "High Energy Debuff",
+      "archetype": "High Energy",
       "buffApplyChance": ".1",
       "buffTarget": "opponent",
       "buffs": [
@@ -5644,7 +5642,7 @@
     },
     {
       "abbreviation": "FeS",
-      "archetype": "Boost Spam/Bait",
+      "archetype": "Boost Spam",
       "buffApplyChance": "1",
       "buffTarget": "self",
       "buffs": [
@@ -6577,7 +6575,7 @@
       "type": "grass"
     },
     {
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": ".5",
       "buffTarget": "opponent",
       "buffs": [
@@ -6845,7 +6843,7 @@
     },
     {
       "abbreviation": "MrS",
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": ".3",
       "buffTarget": "opponent",
       "buffs": [
@@ -6920,7 +6918,7 @@
       "type": "ground"
     },
     {
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": ".3",
       "buffTarget": "opponent",
       "buffs": [
@@ -7006,7 +7004,7 @@
       "type": "ghost"
     },
     {
-      "archetype": "Boost Spam/Bait",
+      "archetype": "Boost Spam",
       "buffApplyChance": ".125",
       "buffTarget": "self",
       "buffs": [
@@ -7036,7 +7034,7 @@
     },
     {
       "abbreviation": "Ob",
-      "archetype": "Boost Spam/Bait",
+      "archetype": "Boost Spam",
       "buffApplyChance": "1",
       "buffTarget": "both",
       "buffs": [
@@ -7201,7 +7199,7 @@
       "type": "fairy"
     },
     {
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": "1",
       "buffTarget": "opponent",
       "buffs": [
@@ -7287,7 +7285,7 @@
       "type": "rock"
     },
     {
-      "archetype": "Boost Spam/Bait",
+      "archetype": "Boost Spam",
       "buffApplyChance": "1",
       "buffTarget": "self",
       "buffs": [
@@ -7351,7 +7349,7 @@
       "type": "psychic"
     },
     {
-      "archetype": "High Energy Debuff",
+      "archetype": "High Energy",
       "buffApplyChance": ".1",
       "buffTarget": "opponent",
       "buffs": [
@@ -7369,7 +7367,7 @@
     },
     {
       "abbreviation": "PsF",
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": "1",
       "buffTarget": "opponent",
       "buffs": [
@@ -7410,6 +7408,18 @@
       "moveId": "PSYCHO_CUT",
       "name": "Psycho Cut",
       "power": 3,
+      "turns": 2,
+      "type": "psychic"
+    },
+    {
+      "abbreviation": "PC",
+      "archetype": "Low Quality",
+      "cooldown": 1000,
+      "energy": 0,
+      "energyGain": 6,
+      "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
+      "name": "Psycho Cut",
+      "power": 0,
       "turns": 2,
       "type": "psychic"
     },
@@ -7490,7 +7500,7 @@
     },
     {
       "abbreviation": "RSh",
-      "archetype": "Spam/Bait Debuff",
+      "archetype": "Debuff Spam",
       "buffApplyChance": "0.5",
       "buffTarget": "opponent",
       "buffs": [
@@ -7668,7 +7678,7 @@
       "type": "ground"
     },
     {
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": "1",
       "buffTarget": "opponent",
       "buffs": [
@@ -7704,7 +7714,7 @@
     },
     {
       "abbreviation": "Sc",
-      "archetype": "High Energy Debuff",
+      "archetype": "Debuff",
       "buffApplyChance": "0.3",
       "buffTarget": "opponent",
       "buffs": [
@@ -7722,7 +7732,7 @@
     },
     {
       "abbreviation": "ScS",
-      "archetype": "High Energy Debuff",
+      "archetype": "Debuff",
       "buffApplyChance": "0.3",
       "buffTarget": "opponent",
       "buffs": [
@@ -7764,7 +7774,7 @@
     },
     {
       "abbreviation": "SFl",
-      "archetype": "Nuke Debuff",
+      "archetype": "Debuff Nuke",
       "buffApplyChance": ".4",
       "buffTarget": "opponent",
       "buffs": [
@@ -7857,7 +7867,7 @@
     },
     {
       "abbreviation": "SiB",
-      "archetype": "High Energy Debuff",
+      "archetype": "High Energy",
       "buffApplyChance": ".2",
       "buffTarget": "opponent",
       "buffs": [
@@ -8028,7 +8038,7 @@
     },
     {
       "abbreviation": "SSh",
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": ".33",
       "buffTarget": "opponent",
       "buffs": [
@@ -8467,7 +8477,7 @@
       "type": "dragon"
     },
     {
-      "archetype": "Debuff Spam/Bait",
+      "archetype": "Debuff Spam",
       "buffApplyChance": ".3",
       "buffTarget": "opponent",
       "buffs": [
@@ -95685,28 +95695,29 @@
       },
       "buddyDistance": 20,
       "chargedMoves": [
-        "CROSS_POISON",
+        "SLUDGE_BOMB",
         "FLAMETHROWER",
-        "HYPER_BEAM"
+        "HYPER_BEAM",
+        "DYNAMAX_CANNON"
       ],
       "defaultIVs": {
         "cp1500": [
-          12.5,
-          4,
-          14,
-          8
+          12,
+          12,
+          15,
+          14
         ],
         "cp2500": [
-          20.5,
-          5,
+          20,
           14,
-          15
+          14,
+          11
         ],
         "cp500": [
-          4.5,
           4,
           10,
-          11
+          15,
+          14
         ]
       },
       "dex": 890,
@@ -95714,9 +95725,15 @@
         "DRAGON_TAIL",
         "POISON_JAB"
       ],
-      "released": false,
+      "levelFloor": 15,
+      "released": true,
+      "searchPriority": 5,
       "speciesId": "eternatus",
       "speciesName": "Eternatus",
+      "tags": [
+        "legendary",
+        "untradeable"
+      ],
       "thirdMoveCost": 100000,
       "types": [
         "poison",
@@ -95731,7 +95748,7 @@
       },
       "buddyDistance": 20,
       "chargedMoves": [
-        "CROSS_POISON",
+        "SLUDGE_BOMB",
         "FLAMETHROWER",
         "HYPER_BEAM"
       ],
@@ -96523,6 +96540,7 @@
         "def": 144,
         "hp": 260
       },
+      "buddyDistance": 1,
       "chargedMoves": [
         "STRUGGLE"
       ],
@@ -96557,7 +96575,7 @@
       "released": false,
       "speciesId": "basculegion_female",
       "speciesName": "Basculegion (Female)",
-      "tags": [],
+      "thirdMoveCost": 10000,
       "types": [
         "water",
         "ghost"
@@ -96569,6 +96587,7 @@
         "def": 144,
         "hp": 260
       },
+      "buddyDistance": 1,
       "chargedMoves": [
         "STRUGGLE"
       ],
@@ -96603,7 +96622,7 @@
       "released": false,
       "speciesId": "basculegion_male",
       "speciesName": "Basculegion (Male)",
-      "tags": [],
+      "thirdMoveCost": 10000,
       "types": [
         "water",
         "ghost"
@@ -103120,19 +103139,25 @@
     }
   ],
   "pokemonTags": [
-    "legendary",
-    "mythical",
     "alolan",
+    "duplicate",
+    "duplicate1500",
     "galarian",
-    "starter",
+    "hisuian",
+    "include1500",
+    "include2500",
+    "legendary",
+    "mega",
+    "mythical",
+    "paldean",
     "regional",
     "shadow",
     "shadoweligible",
+    "starter",
+    "teambuilderexclude",
+    "ultrabeast",
     "untradeable",
-    "mega",
-    "xs",
-    "hisuian",
-    "ultrabeast"
+    "wildlegendary"
   ],
   "pokemonTraits": {
     "cons": [
@@ -103681,5 +103706,6 @@
     "charjabug",
     "vikavolt"
   ],
-  "timestamp": "2025-08-11 19:38:21"
+  "timestamp": "2025-08-18 17:02:32",
+  "title": "Default"
 }
