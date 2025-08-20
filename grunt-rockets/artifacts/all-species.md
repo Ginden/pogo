@@ -2,7 +2,7 @@
 
 * **Excluded tags**: none
 * **Exclude unreleased**: true
-* **Date generated**: 2025-08-13
+* **Date generated**: 2025-08-20
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -351,11 +351,11 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 
 * **Sneasler (Shadow)** using _Poison Jab_ (67%)
 * **Beedrill (Mega)** using _Poison Jab_ (65%)
+* **Eternatus** using _Poison Jab_ (60%)
 * **Naganadel** using _Poison Jab_ (57%)
 * **Sneasler** using _Poison Jab_ (56%)
 * **Toxicroak (Shadow)** using _Poison Jab_ (56%)
 * **Nihilego** using _Poison Jab_ (54%)
-* **Nidoking (Shadow)** using _Poison Jab_ (54%)
 
 
 ### Highest **psychic** (🔮) fast move damage: 

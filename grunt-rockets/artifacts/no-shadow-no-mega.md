@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-08-13
+* **Date generated**: 2025-08-20
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -49,12 +49,12 @@
 # Anti-Fairy 🧚
 
 * **Metagross** using _Bullet Punch_ (100%)
+* **Eternatus** using _Poison Jab_ (94%)
 * **Lucario** using _Bullet Punch_ (92%)
 * **Scizor** using _Bullet Punch_ (92%)
 * **Naganadel** using _Poison Jab_ (89%)
 * **Sneasler** using _Poison Jab_ (88%)
 * **Kartana** using _Razor Leaf_ (87%)
-* **Kyurem (White)** using _Steel Wing_ (87%)
 
 # Anti-Fighting 💪
 
@@ -223,7 +223,7 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 * **Haxorus** using _Dragon Tail_ (85%)
 * **Rayquaza** using _Dragon Tail_ (85%)
 * **Palkia** using _Dragon Tail_ (84%)
-* **Salamence** using _Dragon Tail_ (83%)
+* **Eternatus** using _Dragon Tail_ (84%)
 
 
 ### Highest **electric** (⚡) fast move damage: 
@@ -349,13 +349,13 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 ### Highest **poison** (🐍) fast move damage: 
 
 
+* **Eternatus** using _Poison Jab_ (67%)
 * **Naganadel** using _Poison Jab_ (64%)
 * **Sneasler** using _Poison Jab_ (63%)
 * **Nihilego** using _Poison Jab_ (61%)
 * **Roserade** using _Poison Jab_ (59%)
 * **Revavroom** using _Poison Jab_ (56%)
 * **Salazzle** using _Poison Jab_ (56%)
-* **Toxtricity** using _Poison Jab_ (55%)
 
 
 ### Highest **psychic** (🔮) fast move damage: 

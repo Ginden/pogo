@@ -2,7 +2,7 @@
 
 * **Excluded tags**: mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-08-13
+* **Date generated**: 2025-08-20
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -53,8 +53,8 @@
 * **Sneasler (Shadow)** using _Poison Jab_ (88%)
 * **Metagross** using _Bullet Punch_ (83%)
 * **Archeops (Shadow)** using _Steel Wing_ (82%)
+* **Eternatus** using _Poison Jab_ (79%)
 * **Lucario** using _Bullet Punch_ (77%)
-* **Scizor** using _Bullet Punch_ (77%)
 
 # Anti-Fighting 💪
 
@@ -350,12 +350,12 @@ All Pokemon are normalized to neutral damage of Palkia (Shadow) using Dragon Tai
 
 
 * **Sneasler (Shadow)** using _Poison Jab_ (75%)
+* **Eternatus** using _Poison Jab_ (67%)
 * **Naganadel** using _Poison Jab_ (63%)
 * **Sneasler** using _Poison Jab_ (63%)
 * **Toxicroak (Shadow)** using _Poison Jab_ (62%)
 * **Nihilego** using _Poison Jab_ (60%)
 * **Nidoking (Shadow)** using _Poison Jab_ (60%)
-* **Scolipede (Shadow)** using _Poison Jab_ (60%)
 
 
 ### Highest **psychic** (🔮) fast move damage: 

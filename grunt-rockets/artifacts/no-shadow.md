@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow
 * **Exclude unreleased**: true
-* **Date generated**: 2025-08-13
+* **Date generated**: 2025-08-20
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -53,8 +53,8 @@
 * **Beedrill (Mega)** using _Poison Jab_ (86%)
 * **Metagross** using _Bullet Punch_ (84%)
 * **Gardevoir (Mega)** using _Charm_ (82%)
+* **Eternatus** using _Poison Jab_ (79%)
 * **Lucario** using _Bullet Punch_ (77%)
-* **Scizor** using _Bullet Punch_ (77%)
 
 # Anti-Fighting 💪
 
@@ -350,12 +350,12 @@ All Pokemon are normalized to neutral damage of Gardevoir (Mega) using Charm
 
 
 * **Beedrill (Mega)** using _Poison Jab_ (65%)
+* **Eternatus** using _Poison Jab_ (60%)
 * **Naganadel** using _Poison Jab_ (57%)
 * **Sneasler** using _Poison Jab_ (56%)
 * **Nihilego** using _Poison Jab_ (54%)
 * **Roserade** using _Poison Jab_ (53%)
 * **Revavroom** using _Poison Jab_ (50%)
-* **Salazzle** using _Poison Jab_ (50%)
 
 
 ### Highest **psychic** (🔮) fast move damage: 
