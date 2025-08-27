@@ -264,6 +264,7 @@
             "points": 7,
             "pokemon": [
               "aggron_mega",
+              "eternatus",
               "gallade_mega",
               "kyurem_black",
               "kyurem_white",
@@ -274,7 +275,6 @@
             "points": 6,
             "pokemon": [
               "charizard_mega_y",
-              "eternatus",
               "gengar_mega"
             ]
           },
@@ -372,15 +372,13 @@
             "feraligatr",
             "tentacruel",
             "moltres_galarian",
-            "primeape",
-            "bellibolt",
-            "malamar",
-            "virizion",
-            "blastoise",
-            "weezing_galarian",
-            "cradily",
-            "giratina_altered",
-            "registeel"
+            "dusknoir",
+            "forretress",
+            "lickilicky",
+            "runerigus",
+            "talonflame",
+            "tinkaton",
+            "giratina_altered_shadow"
           ]
         }
       ],
@@ -101144,10 +101142,10 @@
       ],
       "defaultIVs": {
         "cp1500": [
-          18.5,
-          6,
-          13,
-          14
+          20,
+          0,
+          2,
+          2
         ],
         "cp2500": [
           32,
@@ -101167,7 +101165,8 @@
         "WATERFALL",
         "WATER_GUN"
       ],
-      "released": false,
+      "levelFloor": 20,
+      "released": true,
       "speciesId": "dondozo",
       "speciesName": "Dondozo",
       "thirdMoveCost": 75000,
@@ -103706,6 +103705,6 @@
     "charjabug",
     "vikavolt"
   ],
-  "timestamp": "2025-08-18 17:02:32",
+  "timestamp": "2025-08-26 02:05:15",
   "title": "Default"
 }
