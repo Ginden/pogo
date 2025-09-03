@@ -526,13 +526,7 @@
           "filterType": "id",
           "values": [
             "aegislash_blade",
-            "aegislash_shield",
-            "giratina_altered_shadow",
-            "talonflame_shadow",
-            "fletchinder_shadow",
-            "charjabug_shadow",
-            "vikavolt_shadow",
-            "starmie_shadow"
+            "aegislash_shield"
           ]
         }
       ],
@@ -4466,6 +4460,15 @@
     },
     {
       "cp": 1500,
+      "cup": "retro",
+      "meta": "retro",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Retro Cup"
+    },
+    {
+      "cp": 1500,
       "cup": "aurora",
       "meta": "aurora",
       "showCup": true,
@@ -4608,13 +4611,37 @@
       "type": "flying"
     },
     {
+      "abbreviation": "AS",
+      "archetype": "Low Quality",
+      "cooldown": 1500,
+      "energy": 0,
+      "energyGain": 6,
+      "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
+      "name": "Air Slash",
+      "power": 0,
+      "turns": 3,
+      "type": "flying"
+    },
+    {
+      "abbreviation": "PC",
+      "archetype": "Low Quality",
+      "cooldown": 1000,
+      "energy": 0,
+      "energyGain": 6,
+      "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
+      "name": "Psycho Cut",
+      "power": 0,
+      "turns": 2,
+      "type": "psychic"
+    },
+    {
       "archetype": "General",
       "cooldown": 500,
-      "energy": 40,
+      "energy": 45,
       "energyGain": 0,
       "moveId": "AERIAL_ACE",
       "name": "Aerial Ace",
-      "power": 55,
+      "power": 60,
       "turns": 1,
       "type": "flying"
     },
@@ -4660,18 +4687,6 @@
       "moveId": "AIR_SLASH",
       "name": "Air Slash",
       "power": 9,
-      "turns": 3,
-      "type": "flying"
-    },
-    {
-      "abbreviation": "AS",
-      "archetype": "Low Quality",
-      "cooldown": 1500,
-      "energy": 0,
-      "energyGain": 6,
-      "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
-      "name": "Air Slash",
-      "power": 0,
       "turns": 3,
       "type": "flying"
     },
@@ -4745,33 +4760,15 @@
     },
     {
       "abbreviation": "AuS",
-      "archetype": "Nuke",
+      "archetype": "Spam/Bait",
       "cooldown": 500,
-      "energy": 55,
+      "energy": 40,
       "energyGain": 0,
       "moveId": "AURA_SPHERE",
       "name": "Aura Sphere",
-      "power": 100,
+      "power": 80,
       "turns": 1,
       "type": "fighting"
-    },
-    {
-      "abbreviation": "AuW",
-      "archetype": "Boost",
-      "buffApplyChance": "1",
-      "buffTarget": "self",
-      "buffs": [
-        1,
-        0
-      ],
-      "cooldown": 500,
-      "energy": 45,
-      "energyGain": 0,
-      "moveId": "AURA_WHEEL_ELECTRIC",
-      "name": "Aura Wheel",
-      "power": 100,
-      "turns": 1,
-      "type": "electric"
     },
     {
       "abbreviation": "AuW",
@@ -4790,6 +4787,24 @@
       "power": 100,
       "turns": 1,
       "type": "dark"
+    },
+    {
+      "abbreviation": "AuW",
+      "archetype": "Boost",
+      "buffApplyChance": "1",
+      "buffTarget": "self",
+      "buffs": [
+        1,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 45,
+      "energyGain": 0,
+      "moveId": "AURA_WHEEL_ELECTRIC",
+      "name": "Aura Wheel",
+      "power": 100,
+      "turns": 1,
+      "type": "electric"
     },
     {
       "archetype": "High Energy",
@@ -4860,6 +4875,17 @@
       "type": "fire"
     },
     {
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "moveId": "BLAZE_KICK",
+      "name": "Blaze Kick",
+      "power": 60,
+      "turns": 1,
+      "type": "fire"
+    },
+    {
       "abbreviation": "BwS",
       "archetype": "Debuff",
       "buffApplyChance": "1",
@@ -4896,19 +4922,7 @@
       "energyGain": 0,
       "moveId": "BODY_SLAM",
       "name": "Body Slam",
-      "power": 50,
-      "turns": 1,
-      "type": "normal"
-    },
-    {
-      "abbreviation": "BmB",
-      "archetype": "Nuke",
-      "cooldown": 500,
-      "energy": 70,
-      "energyGain": 0,
-      "moveId": "BOOMBURST",
-      "name": "Boomburst",
-      "power": 150,
+      "power": 55,
       "turns": 1,
       "type": "normal"
     },
@@ -4922,6 +4936,18 @@
       "power": 55,
       "turns": 1,
       "type": "ground"
+    },
+    {
+      "abbreviation": "BmB",
+      "archetype": "Nuke",
+      "cooldown": 500,
+      "energy": 70,
+      "energyGain": 0,
+      "moveId": "BOOMBURST",
+      "name": "Boomburst",
+      "power": 150,
+      "turns": 1,
+      "type": "normal"
     },
     {
       "abbreviation": "BrB",
@@ -4943,15 +4969,15 @@
     },
     {
       "abbreviation": "BkS",
-      "archetype": "Debuff Spam",
-      "buffApplyChance": ".5",
+      "archetype": "Debuff",
+      "buffApplyChance": 1,
       "buffTarget": "opponent",
       "buffs": [
         -1,
         0
       ],
       "cooldown": 500,
-      "energy": 35,
+      "energy": 50,
       "energyGain": 0,
       "moveId": "BREAKING_SWIPE",
       "name": "Breaking Swipe",
@@ -4978,18 +5004,6 @@
       "type": "fighting"
     },
     {
-      "abbreviation": "BrS",
-      "archetype": "Spam/Bait",
-      "cooldown": 500,
-      "energy": 35,
-      "energyGain": 0,
-      "moveId": "BRUTAL_SWING",
-      "name": "Brutal Swing",
-      "power": 55,
-      "turns": 1,
-      "type": "dark"
-    },
-    {
       "abbreviation": "Bri",
       "archetype": "General",
       "cooldown": 500,
@@ -5000,6 +5014,18 @@
       "power": 60,
       "turns": 1,
       "type": "water"
+    },
+    {
+      "abbreviation": "BrS",
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 35,
+      "energyGain": 0,
+      "moveId": "BRUTAL_SWING",
+      "name": "Brutal Swing",
+      "power": 55,
+      "turns": 1,
+      "type": "dark"
     },
     {
       "archetype": "Fast Charge",
@@ -5116,10 +5142,10 @@
       "archetype": "Heavy Damage",
       "cooldown": 1500,
       "energy": 0,
-      "energyGain": 6,
+      "energyGain": 8,
       "moveId": "CHARM",
       "name": "Charm",
-      "power": 15,
+      "power": 13,
       "turns": 3,
       "type": "fairy"
     },
@@ -5180,7 +5206,7 @@
       "archetype": "Multipurpose",
       "cooldown": 2000,
       "energy": 0,
-      "energyGain": 12,
+      "energyGain": 14,
       "moveId": "CONFUSION",
       "name": "Confusion",
       "power": 16,
@@ -5429,21 +5455,21 @@
       "archetype": "Multipurpose",
       "cooldown": 500,
       "energy": 0,
-      "energyGain": 3,
+      "energyGain": 4,
       "moveId": "DRAGON_BREATH",
       "name": "Dragon Breath",
-      "power": 4,
+      "power": 3,
       "turns": 1,
       "type": "dragon"
     },
     {
-      "archetype": "Spam/Bait",
+      "archetype": "General",
       "cooldown": 500,
-      "energy": 35,
+      "energy": 50,
       "energyGain": 0,
       "moveId": "DRAGON_CLAW",
       "name": "Dragon Claw",
-      "power": 50,
+      "power": 80,
       "turns": 1,
       "type": "dragon"
     },
@@ -5463,7 +5489,7 @@
       "abbreviation": "DgP",
       "archetype": "High Energy",
       "cooldown": 500,
-      "energy": 60,
+      "energy": 55,
       "energyGain": 0,
       "moveId": "DRAGON_PULSE",
       "name": "Dragon Pulse",
@@ -5475,12 +5501,23 @@
       "archetype": "Multipurpose",
       "cooldown": 1500,
       "energy": 0,
-      "energyGain": 9,
+      "energyGain": 12,
       "moveId": "DRAGON_TAIL",
       "name": "Dragon Tail",
-      "power": 13,
+      "power": 9,
       "turns": 3,
       "type": "dragon"
+    },
+    {
+      "archetype": "High Energy",
+      "cooldown": 500,
+      "energy": 55,
+      "energyGain": 0,
+      "moveId": "DRAINING_KISS",
+      "name": "Draining Kiss",
+      "power": 60,
+      "turns": 1,
+      "type": "fairy"
     },
     {
       "abbreviation": "DrP",
@@ -5501,17 +5538,6 @@
       "type": "fighting"
     },
     {
-      "archetype": "High Energy",
-      "cooldown": 500,
-      "energy": 55,
-      "energyGain": 0,
-      "moveId": "DRAINING_KISS",
-      "name": "Draining Kiss",
-      "power": 60,
-      "turns": 1,
-      "type": "fairy"
-    },
-    {
       "abbreviation": "DrlP",
       "archetype": "Spam/Bait",
       "cooldown": 500,
@@ -5519,7 +5545,7 @@
       "energyGain": 0,
       "moveId": "DRILL_PECK",
       "name": "Drill Peck",
-      "power": 65,
+      "power": 70,
       "turns": 1,
       "type": "flying"
     },
@@ -5588,13 +5614,13 @@
       "type": "ground"
     },
     {
-      "archetype": "Multipurpose",
+      "archetype": "Fast Charge",
       "cooldown": 1000,
       "energy": 0,
-      "energyGain": 7,
+      "energyGain": 9,
       "moveId": "EMBER",
       "name": "Ember",
-      "power": 7,
+      "power": 4,
       "turns": 2,
       "type": "fire"
     },
@@ -5626,6 +5652,35 @@
       "power": 8,
       "turns": 3,
       "type": "psychic"
+    },
+    {
+      "archetype": "Fast Charge",
+      "cooldown": 1000,
+      "energy": 0,
+      "energyGain": 9,
+      "moveId": "FAIRY_WIND",
+      "name": "Fairy Wind",
+      "power": 4,
+      "turns": 2,
+      "type": "fairy"
+    },
+    {
+      "abbreviation": "FrD",
+      "archetype": "Debuff",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        -2,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 50,
+      "energyGain": 0,
+      "moveId": "FEATHER_DANCE",
+      "name": "Feather Dance",
+      "power": 35,
+      "turns": 1,
+      "type": "flying"
     },
     {
       "archetype": "General",
@@ -5692,46 +5747,6 @@
       "type": "fire"
     },
     {
-      "archetype": "Spam/Bait",
-      "cooldown": 500,
-      "energy": 40,
-      "energyGain": 0,
-      "moveId": "BLAZE_KICK",
-      "name": "Blaze Kick",
-      "power": 60,
-      "turns": 1,
-      "type": "fire"
-    },
-    {
-      "archetype": "Fast Charge",
-      "cooldown": 1000,
-      "energy": 0,
-      "energyGain": 9,
-      "moveId": "FAIRY_WIND",
-      "name": "Fairy Wind",
-      "power": 4,
-      "turns": 2,
-      "type": "fairy"
-    },
-    {
-      "abbreviation": "FrD",
-      "archetype": "Debuff",
-      "buffApplyChance": "1",
-      "buffTarget": "opponent",
-      "buffs": [
-        -2,
-        0
-      ],
-      "cooldown": 500,
-      "energy": 50,
-      "energyGain": 0,
-      "moveId": "FEATHER_DANCE",
-      "name": "Feather Dance",
-      "power": 35,
-      "turns": 1,
-      "type": "flying"
-    },
-    {
       "archetype": "General",
       "cooldown": 1500,
       "energy": 0,
@@ -5740,6 +5755,18 @@
       "name": "Fire Spin",
       "power": 11,
       "turns": 3,
+      "type": "fire"
+    },
+    {
+      "abbreviation": "Ft",
+      "archetype": "High Energy",
+      "cooldown": 500,
+      "energy": 55,
+      "energyGain": 0,
+      "moveId": "FLAMETHROWER",
+      "name": "Flamethrower",
+      "power": 90,
+      "turns": 1,
       "type": "fire"
     },
     {
@@ -5773,25 +5800,13 @@
       "type": "fire"
     },
     {
-      "archetype": "High Energy",
+      "archetype": "General",
       "cooldown": 500,
-      "energy": 55,
+      "energy": 45,
       "energyGain": 0,
       "moveId": "FLAME_WHEEL",
       "name": "Flame Wheel",
-      "power": 60,
-      "turns": 1,
-      "type": "fire"
-    },
-    {
-      "abbreviation": "Ft",
-      "archetype": "High Energy",
-      "cooldown": 500,
-      "energy": 55,
-      "energyGain": 0,
-      "moveId": "FLAMETHROWER",
-      "name": "Flamethrower",
-      "power": 90,
+      "power": 80,
       "turns": 1,
       "type": "fire"
     },
@@ -6065,9 +6080,9 @@
       "type": "flying"
     },
     {
-      "archetype": "High Energy",
+      "archetype": "General",
       "cooldown": 500,
-      "energy": 60,
+      "energy": 50,
       "energyGain": 0,
       "moveId": "GYRO_BALL",
       "name": "Gyro Ball",
@@ -6562,6 +6577,18 @@
       "type": "normal"
     },
     {
+      "abbreviation": "Lf",
+      "archetype": "Multipurpose",
+      "cooldown": 1000,
+      "energy": 0,
+      "energyGain": 8,
+      "moveId": "LEAFAGE",
+      "name": "Leafage",
+      "power": 6,
+      "turns": 2,
+      "type": "grass"
+    },
+    {
       "archetype": "Spam/Bait",
       "cooldown": 500,
       "energy": 35,
@@ -6569,23 +6596,6 @@
       "moveId": "LEAF_BLADE",
       "name": "Leaf Blade",
       "power": 70,
-      "turns": 1,
-      "type": "grass"
-    },
-    {
-      "archetype": "Debuff Spam",
-      "buffApplyChance": ".5",
-      "buffTarget": "opponent",
-      "buffs": [
-        -2,
-        0
-      ],
-      "cooldown": 500,
-      "energy": 40,
-      "energyGain": 0,
-      "moveId": "LEAF_TORNADO",
-      "name": "Leaf Tornado",
-      "power": 45,
       "turns": 1,
       "type": "grass"
     },
@@ -6608,15 +6618,20 @@
       "type": "grass"
     },
     {
-      "abbreviation": "Lf",
-      "archetype": "General",
-      "cooldown": 1000,
-      "energy": 0,
-      "energyGain": 7,
-      "moveId": "LEAFAGE",
-      "name": "Leafage",
-      "power": 6,
-      "turns": 2,
+      "archetype": "Debuff Spam",
+      "buffApplyChance": ".5",
+      "buffTarget": "opponent",
+      "buffs": [
+        -2,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "moveId": "LEAF_TORNADO",
+      "name": "Leaf Tornado",
+      "power": 45,
+      "turns": 1,
       "type": "grass"
     },
     {
@@ -6753,17 +6768,6 @@
       "type": "steel"
     },
     {
-      "archetype": "High Energy",
-      "cooldown": 500,
-      "energy": 55,
-      "energyGain": 0,
-      "moveId": "MEGA_DRAIN",
-      "name": "Mega Drain",
-      "power": 25,
-      "turns": 1,
-      "type": "grass"
-    },
-    {
       "abbreviation": "Mh",
       "archetype": "Nuke",
       "cooldown": 500,
@@ -6774,6 +6778,17 @@
       "power": 110,
       "turns": 1,
       "type": "bug"
+    },
+    {
+      "archetype": "High Energy",
+      "cooldown": 500,
+      "energy": 55,
+      "energyGain": 0,
+      "moveId": "MEGA_DRAIN",
+      "name": "Mega Drain",
+      "power": 25,
+      "turns": 1,
+      "type": "grass"
     },
     {
       "archetype": "General",
@@ -6905,17 +6920,6 @@
       "type": "ghost"
     },
     {
-      "archetype": "Spam/Bait",
-      "cooldown": 500,
-      "energy": 40,
-      "energyGain": 0,
-      "moveId": "MUD_BOMB",
-      "name": "Mud Bomb",
-      "power": 60,
-      "turns": 1,
-      "type": "ground"
-    },
-    {
       "archetype": "Debuff Spam",
       "buffApplyChance": ".3",
       "buffTarget": "opponent",
@@ -6931,6 +6935,17 @@
       "power": 35,
       "turns": 2,
       "type": "water"
+    },
+    {
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "moveId": "MUD_BOMB",
+      "name": "Mud Bomb",
+      "power": 60,
+      "turns": 1,
+      "type": "ground"
     },
     {
       "archetype": "Fast Charge",
@@ -7163,10 +7178,10 @@
     },
     {
       "abbreviation": "Pk",
-      "archetype": "Low Quality",
+      "archetype": "Multipurpose",
       "cooldown": 1000,
       "energy": 0,
-      "energyGain": 5,
+      "energyGain": 8,
       "moveId": "PECK",
       "name": "Peck",
       "power": 6,
@@ -7410,18 +7425,6 @@
       "type": "psychic"
     },
     {
-      "abbreviation": "PC",
-      "archetype": "Low Quality",
-      "cooldown": 1000,
-      "energy": 0,
-      "energyGain": 6,
-      "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
-      "name": "Psycho Cut",
-      "power": 0,
-      "turns": 2,
-      "type": "psychic"
-    },
-    {
       "abbreviation": "Psh",
       "archetype": "General",
       "cooldown": 500,
@@ -7566,7 +7569,7 @@
       "energyGain": 0,
       "moveId": "ROCK_SLIDE",
       "name": "Rock Slide",
-      "power": 65,
+      "power": 75,
       "turns": 1,
       "type": "rock"
     },
@@ -7664,6 +7667,24 @@
       "type": "fighting"
     },
     {
+      "abbreviation": "SSt",
+      "archetype": "Debuff",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        -1,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 45,
+      "energyGain": 0,
+      "moveId": "SANDSEAR_STORM",
+      "name": "Sandsear Storm",
+      "power": 60,
+      "turns": 1,
+      "type": "ground"
+    },
+    {
       "abbreviation": "SdA",
       "archetype": "Fast Charge",
       "cooldown": 500,
@@ -7693,24 +7714,6 @@
       "type": "ground"
     },
     {
-      "abbreviation": "SSt",
-      "archetype": "Debuff",
-      "buffApplyChance": "1",
-      "buffTarget": "opponent",
-      "buffs": [
-        -1,
-        0
-      ],
-      "cooldown": 500,
-      "energy": 45,
-      "energyGain": 0,
-      "moveId": "SANDSEAR_STORM",
-      "name": "Sandsear Storm",
-      "power": 60,
-      "turns": 1,
-      "type": "ground"
-    },
-    {
       "abbreviation": "Sc",
       "archetype": "Debuff",
       "buffApplyChance": "0.3",
@@ -7731,7 +7734,7 @@
     {
       "abbreviation": "ScS",
       "archetype": "Debuff",
-      "buffApplyChance": "0.3",
+      "buffApplyChance": 0.1,
       "buffTarget": "opponent",
       "buffs": [
         -1,
@@ -7760,13 +7763,13 @@
     },
     {
       "abbreviation": "SeB",
-      "archetype": "General",
+      "archetype": "Spam/Bait",
       "cooldown": 500,
-      "energy": 45,
+      "energy": 40,
       "energyGain": 0,
       "moveId": "SEED_BOMB",
       "name": "Seed Bomb",
-      "power": 65,
+      "power": 55,
       "turns": 1,
       "type": "grass"
     },
@@ -7918,13 +7921,13 @@
       "type": "normal"
     },
     {
-      "archetype": "High Energy",
+      "archetype": "General",
       "cooldown": 500,
-      "energy": 55,
+      "energy": 50,
       "energyGain": 0,
       "moveId": "SKY_ATTACK",
       "name": "Sky Attack",
-      "power": 85,
+      "power": 75,
       "turns": 1,
       "type": "flying"
     },
@@ -7970,7 +7973,7 @@
       "energyGain": 8,
       "moveId": "SMACK_DOWN",
       "name": "Smack Down",
-      "power": 11,
+      "power": 12,
       "turns": 3,
       "type": "rock"
     },
@@ -8084,10 +8087,10 @@
     },
     {
       "abbreviation": "StW",
-      "archetype": "General",
+      "archetype": "Heavy Damage",
       "cooldown": 1000,
       "energy": 0,
-      "energyGain": 6,
+      "energyGain": 5,
       "moveId": "STEEL_WING",
       "name": "Steel Wing",
       "power": 7,
@@ -8257,17 +8260,6 @@
       "cooldown": 500,
       "energy": 55,
       "energyGain": 0,
-      "moveId": "TECHNO_BLAST_NORMAL",
-      "name": "Techno Blast (Normal)",
-      "power": 120,
-      "turns": 1,
-      "type": "normal"
-    },
-    {
-      "archetype": "Nuke",
-      "cooldown": 500,
-      "energy": 55,
-      "energyGain": 0,
       "moveId": "TECHNO_BLAST_BURN",
       "name": "Techno Blast (Burn)",
       "power": 120,
@@ -8301,6 +8293,17 @@
       "cooldown": 500,
       "energy": 55,
       "energyGain": 0,
+      "moveId": "TECHNO_BLAST_NORMAL",
+      "name": "Techno Blast (Normal)",
+      "power": 120,
+      "turns": 1,
+      "type": "normal"
+    },
+    {
+      "archetype": "Nuke",
+      "cooldown": 500,
+      "energy": 55,
+      "energyGain": 0,
       "moveId": "TECHNO_BLAST_SHOCK",
       "name": "Techno Blast (Shock)",
       "power": 120,
@@ -8315,6 +8318,18 @@
       "moveId": "THUNDER",
       "name": "Thunder",
       "power": 100,
+      "turns": 1,
+      "type": "electric"
+    },
+    {
+      "abbreviation": "Tb",
+      "archetype": "High Energy",
+      "cooldown": 500,
+      "energy": 55,
+      "energyGain": 0,
+      "moveId": "THUNDERBOLT",
+      "name": "Thunderbolt",
+      "power": 90,
       "turns": 1,
       "type": "electric"
     },
@@ -8370,18 +8385,6 @@
       "type": "electric"
     },
     {
-      "abbreviation": "Tb",
-      "archetype": "High Energy",
-      "cooldown": 500,
-      "energy": 55,
-      "energyGain": 0,
-      "moveId": "THUNDERBOLT",
-      "name": "Thunderbolt",
-      "power": 90,
-      "turns": 1,
-      "type": "electric"
-    },
-    {
       "abbreviation": "TSo",
       "archetype": "Boost",
       "buffApplyChance": "1",
@@ -8428,23 +8431,6 @@
       "type": "normal"
     },
     {
-      "archetype": "Debuff",
-      "buffApplyChance": ".5",
-      "buffTarget": "opponent",
-      "buffs": [
-        -1,
-        -1
-      ],
-      "cooldown": 500,
-      "energy": 50,
-      "energyGain": 0,
-      "moveId": "TRI_ATTACK",
-      "name": "Tri Attack",
-      "power": 65,
-      "turns": 1,
-      "type": "normal"
-    },
-    {
       "abbreviation": "TAx",
       "archetype": "Boost",
       "buffApplyChance": "1",
@@ -8461,6 +8447,23 @@
       "power": 60,
       "turns": 1,
       "type": "ice"
+    },
+    {
+      "archetype": "Debuff",
+      "buffApplyChance": ".5",
+      "buffTarget": "opponent",
+      "buffs": [
+        -1,
+        -1
+      ],
+      "cooldown": 500,
+      "energy": 50,
+      "energyGain": 0,
+      "moveId": "TRI_ATTACK",
+      "name": "Tri Attack",
+      "power": 65,
+      "turns": 1,
+      "type": "normal"
     },
     {
       "abbreviation": "Tw",
@@ -8492,23 +8495,6 @@
       "type": "fighting"
     },
     {
-      "archetype": "Self-Debuff Spam",
-      "buffApplyChance": "1",
-      "buffTarget": "self",
-      "buffs": [
-        0,
-        -3
-      ],
-      "cooldown": 500,
-      "energy": 40,
-      "energyGain": 0,
-      "moveId": "V_CREATE",
-      "name": "V-Create",
-      "power": 95,
-      "turns": 1,
-      "type": "fire"
-    },
-    {
       "archetype": "Spam/Bait",
       "cooldown": 500,
       "energy": 40,
@@ -8537,7 +8523,7 @@
       "energyGain": 16,
       "moveId": "VOLT_SWITCH",
       "name": "Volt Switch",
-      "power": 12,
+      "power": 14,
       "turns": 4,
       "type": "electric"
     },
@@ -8557,6 +8543,34 @@
       "power": 90,
       "turns": 1,
       "type": "electric"
+    },
+    {
+      "archetype": "Self-Debuff Spam",
+      "buffApplyChance": "1",
+      "buffTarget": "self",
+      "buffs": [
+        0,
+        -3
+      ],
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "moveId": "V_CREATE",
+      "name": "V-Create",
+      "power": 95,
+      "turns": 1,
+      "type": "fire"
+    },
+    {
+      "archetype": "Heavy Damage",
+      "cooldown": 1500,
+      "energy": 0,
+      "energyGain": 8,
+      "moveId": "WATERFALL",
+      "name": "Waterfall",
+      "power": 12,
+      "turns": 3,
+      "type": "water"
     },
     {
       "archetype": "General",
@@ -8583,23 +8597,12 @@
     {
       "archetype": "General",
       "cooldown": 500,
-      "energy": 55,
+      "energy": 50,
       "energyGain": 0,
       "moveId": "WATER_PULSE",
       "name": "Water Pulse",
       "power": 80,
       "turns": 1,
-      "type": "water"
-    },
-    {
-      "archetype": "Heavy Damage",
-      "cooldown": 1500,
-      "energy": 0,
-      "energyGain": 8,
-      "moveId": "WATERFALL",
-      "name": "Waterfall",
-      "power": 12,
-      "turns": 3,
       "type": "water"
     },
     {
@@ -8621,7 +8624,7 @@
       "energyGain": 0,
       "moveId": "WEATHER_BALL_FIRE",
       "name": "Weather Ball (Fire)",
-      "power": 55,
+      "power": 60,
       "turns": 1,
       "type": "fire"
     },
@@ -8632,7 +8635,7 @@
       "energyGain": 0,
       "moveId": "WEATHER_BALL_ICE",
       "name": "Weather Ball (Ice)",
-      "power": 55,
+      "power": 60,
       "turns": 1,
       "type": "ice"
     },
@@ -8641,20 +8644,9 @@
       "cooldown": 500,
       "energy": 35,
       "energyGain": 0,
-      "moveId": "WEATHER_BALL_ROCK",
-      "name": "Weather Ball (Rock)",
-      "power": 55,
-      "turns": 1,
-      "type": "rock"
-    },
-    {
-      "archetype": "Spam/Bait",
-      "cooldown": 500,
-      "energy": 35,
-      "energyGain": 0,
       "moveId": "WEATHER_BALL_NORMAL",
       "name": "Weather Ball (Normal)",
-      "power": 55,
+      "power": 60,
       "turns": 1,
       "type": "normal"
     },
@@ -8663,9 +8655,20 @@
       "cooldown": 500,
       "energy": 35,
       "energyGain": 0,
+      "moveId": "WEATHER_BALL_ROCK",
+      "name": "Weather Ball (Rock)",
+      "power": 60,
+      "turns": 1,
+      "type": "rock"
+    },
+    {
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 35,
+      "energyGain": 0,
       "moveId": "WEATHER_BALL_WATER",
       "name": "Weather Ball (Water)",
-      "power": 55,
+      "power": 60,
       "turns": 1,
       "type": "water"
     },
@@ -9024,7 +9027,8 @@
         "FRENZY_PLANT",
         "PETAL_BLIZZARD",
         "SLUDGE_BOMB",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "SLUDGE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -9084,7 +9088,8 @@
         "FRENZY_PLANT",
         "PETAL_BLIZZARD",
         "SLUDGE_BOMB",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "SLUDGE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -9144,7 +9149,8 @@
         "FRENZY_PLANT",
         "PETAL_BLIZZARD",
         "SLUDGE_BOMB",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "SLUDGE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -9440,7 +9446,8 @@
         "DRAGON_CLAW",
         "FIRE_BLAST",
         "FLAMETHROWER",
-        "OVERHEAT"
+        "OVERHEAT",
+        "AIR_CUTTER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -9511,7 +9518,8 @@
         "DRAGON_CLAW",
         "FIRE_BLAST",
         "FLAMETHROWER",
-        "OVERHEAT"
+        "OVERHEAT",
+        "AIR_CUTTER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -9582,7 +9590,8 @@
         "DRAGON_CLAW",
         "FIRE_BLAST",
         "FLAMETHROWER",
-        "OVERHEAT"
+        "OVERHEAT",
+        "AIR_CUTTER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -9653,7 +9662,8 @@
         "DRAGON_CLAW",
         "FIRE_BLAST",
         "FLAMETHROWER",
-        "OVERHEAT"
+        "OVERHEAT",
+        "AIR_CUTTER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -9698,6 +9708,7 @@
         "zard"
       ],
       "released": true,
+      "searchPriority": 6,
       "speciesId": "charizard_shadow",
       "speciesName": "Charizard (Shadow)",
       "tags": [
@@ -11827,7 +11838,8 @@
         "DRILL_RUN",
         "SKY_ATTACK",
         "TWISTER",
-        "FLY"
+        "FLY",
+        "DRILL_PECK"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -12648,7 +12660,8 @@
         "WILD_CHARGE",
         "GRASS_KNOT",
         "TRAILBLAZE",
-        "SURF"
+        "SURF",
+        "PSYSHOCK"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -13504,7 +13517,8 @@
       "fastMoves": [
         "BITE",
         "POISON_JAB",
-        "POISON_STING"
+        "POISON_STING",
+        "MUD_SLAP"
       ],
       "level25CP": 1519,
       "nicknames": [
@@ -13571,7 +13585,8 @@
       "fastMoves": [
         "BITE",
         "POISON_JAB",
-        "POISON_STING"
+        "POISON_STING",
+        "MUD_SLAP"
       ],
       "nicknames": [
         "queen"
@@ -14073,7 +14088,7 @@
         "FAIRY_WIND"
       ],
       "released": true,
-      "searchPriority": 8,
+      "searchPriority": 3,
       "speciesId": "clefable",
       "speciesName": "Clefable",
       "thirdMoveCost": 10000,
@@ -14582,7 +14597,7 @@
         "k9"
       ],
       "released": true,
-      "searchPriority": 3,
+      "searchPriority": 6,
       "speciesId": "ninetales_shadow",
       "speciesName": "Ninetales (Shadow)",
       "tags": [
@@ -18451,7 +18466,7 @@
       ],
       "level25CP": 1893,
       "released": true,
-      "searchPriority": 12,
+      "searchPriority": 3,
       "speciesId": "machamp",
       "speciesName": "Machamp",
       "tags": [
@@ -18517,7 +18532,7 @@
         "KARATE_CHOP"
       ],
       "released": true,
-      "searchPriority": 12,
+      "searchPriority": 4,
       "speciesId": "machamp_shadow",
       "speciesName": "Machamp (Shadow)",
       "tags": [
@@ -20273,7 +20288,8 @@
         "PSYCHIC",
         "WATER_PULSE",
         "SURF",
-        "SCALD"
+        "SCALD",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -20340,7 +20356,8 @@
         "SLUDGE_BOMB",
         "SURF",
         "SCALD",
-        "BRUTAL_SWING"
+        "BRUTAL_SWING",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -20404,7 +20421,8 @@
         "PSYCHIC",
         "WATER_PULSE",
         "SURF",
-        "SCALD"
+        "SCALD",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -20463,7 +20481,8 @@
         "PSYCHIC",
         "WATER_PULSE",
         "SURF",
-        "SCALD"
+        "SCALD",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -20951,7 +20970,8 @@
         "AERIAL_ACE",
         "AIR_CUTTER",
         "BRAVE_BIRD",
-        "DRILL_PECK"
+        "DRILL_PECK",
+        "TRAILBLAZE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -20989,7 +21009,8 @@
       },
       "fastMoves": [
         "FEINT_ATTACK",
-        "STEEL_WING"
+        "STEEL_WING",
+        "PECK"
       ],
       "released": true,
       "speciesId": "dodrio",
@@ -22123,7 +22144,8 @@
         "SHADOW_BALL",
         "SLUDGE_BOMB",
         "SLUDGE_WAVE",
-        "SHADOW_PUNCH"
+        "SHADOW_PUNCH",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -22190,7 +22212,8 @@
         "SHADOW_BALL",
         "SLUDGE_BOMB",
         "SLUDGE_WAVE",
-        "SHADOW_PUNCH"
+        "SHADOW_PUNCH",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -22256,7 +22279,8 @@
         "SHADOW_BALL",
         "SLUDGE_BOMB",
         "SLUDGE_WAVE",
-        "SHADOW_PUNCH"
+        "SHADOW_PUNCH",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -23825,7 +23849,7 @@
         "kwak"
       ],
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 10,
       "speciesId": "marowak_shadow",
       "speciesName": "Marowak (Shadow)",
       "tags": [
@@ -26969,7 +26993,7 @@
         "gary"
       ],
       "released": true,
-      "searchPriority": 4,
+      "searchPriority": 9,
       "speciesId": "gyarados_shadow",
       "speciesName": "Gyarados (Shadow)",
       "tags": [
@@ -28934,6 +28958,7 @@
         "nair"
       ],
       "released": true,
+      "searchPriority": 5,
       "speciesId": "dragonair_shadow",
       "speciesName": "Dragonair (Shadow)",
       "tags": [
@@ -28959,7 +28984,8 @@
         "HURRICANE",
         "HYPER_BEAM",
         "OUTRAGE",
-        "SUPER_POWER"
+        "SUPER_POWER",
+        "THUNDER_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -29026,7 +29052,8 @@
         "HURRICANE",
         "HYPER_BEAM",
         "OUTRAGE",
-        "SUPER_POWER"
+        "SUPER_POWER",
+        "THUNDER_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -29066,7 +29093,7 @@
         "dnite"
       ],
       "released": true,
-      "searchPriority": 3,
+      "searchPriority": 4,
       "speciesId": "dragonite_shadow",
       "speciesName": "Dragonite (Shadow)",
       "tags": [
@@ -31094,7 +31121,7 @@
       ],
       "level25CP": 1624,
       "released": true,
-      "searchPriority": 3,
+      "searchPriority": 1,
       "speciesId": "crobat",
       "speciesName": "Crobat",
       "tags": [
@@ -31156,7 +31183,7 @@
         "BITE"
       ],
       "released": true,
-      "searchPriority": 3,
+      "searchPriority": 1,
       "speciesId": "crobat_shadow",
       "speciesName": "Crobat (Shadow)",
       "tags": [
@@ -31783,7 +31810,8 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "FUTURE_SIGHT",
-        "OMINOUS_WIND"
+        "OMINOUS_WIND",
+        "PSYSHOCK"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -31812,7 +31840,8 @@
       },
       "fastMoves": [
         "AIR_SLASH",
-        "FEINT_ATTACK"
+        "FEINT_ATTACK",
+        "PECK"
       ],
       "level25CP": 1321,
       "released": true,
@@ -31837,7 +31866,8 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "FUTURE_SIGHT",
-        "OMINOUS_WIND"
+        "OMINOUS_WIND",
+        "PSYSHOCK"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -31866,7 +31896,8 @@
       },
       "fastMoves": [
         "AIR_SLASH",
-        "FEINT_ATTACK"
+        "FEINT_ATTACK",
+        "PECK"
       ],
       "released": true,
       "speciesId": "xatu_shadow",
@@ -33083,7 +33114,7 @@
       ],
       "level25CP": 958,
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 4,
       "speciesId": "jumpluff",
       "speciesName": "Jumpluff",
       "tags": [
@@ -33149,7 +33180,7 @@
         "FAIRY_WIND"
       ],
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 4,
       "speciesId": "jumpluff_shadow",
       "speciesName": "Jumpluff (Shadow)",
       "tags": [
@@ -33625,7 +33656,8 @@
         "STONE_EDGE",
         "ACID_SPRAY",
         "MUD_BOMB",
-        "AQUA_TAIL"
+        "AQUA_TAIL",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -33686,7 +33718,8 @@
         "STONE_EDGE",
         "ACID_SPRAY",
         "MUD_BOMB",
-        "AQUA_TAIL"
+        "AQUA_TAIL",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -34045,7 +34078,8 @@
         "SHADOW_BALL",
         "SLUDGE_WAVE",
         "SURF",
-        "SCALD"
+        "SCALD",
+        "PSYSHOCK"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -35629,7 +35663,7 @@
         "FURY_CUTTER"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 11,
       "speciesId": "scizor_shadow",
       "speciesName": "Scizor (Shadow)",
       "tags": [
@@ -36759,7 +36793,7 @@
         "TACKLE"
       ],
       "released": true,
-      "searchPriority": 3,
+      "searchPriority": 6,
       "speciesId": "corsola_galarian",
       "speciesName": "Corsola (Galarian)",
       "tags": [
@@ -37427,7 +37461,8 @@
         "BLIZZARD",
         "HYDRO_PUMP",
         "OUTRAGE",
-        "OCTAZOOKA"
+        "OCTAZOOKA",
+        "SWIFT"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -37470,7 +37505,7 @@
       ],
       "level25CP": 1621,
       "released": true,
-      "searchPriority": 2,
+      "searchPriority": 9,
       "speciesId": "kingdra",
       "speciesName": "Kingdra",
       "tags": [
@@ -37493,7 +37528,8 @@
         "BLIZZARD",
         "HYDRO_PUMP",
         "OUTRAGE",
-        "OCTAZOOKA"
+        "OCTAZOOKA",
+        "SWIFT"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -38767,7 +38803,8 @@
         "SHADOW_BALL",
         "THUNDER",
         "THUNDERBOLT",
-        "WILD_CHARGE"
+        "WILD_CHARGE",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -38820,7 +38857,8 @@
         "SHADOW_BALL",
         "THUNDER",
         "THUNDERBOLT",
-        "WILD_CHARGE"
+        "WILD_CHARGE",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -39829,7 +39867,8 @@
         "HYPER_BEAM",
         "PSYCHIC",
         "SEED_BOMB",
-        "LEAF_STORM"
+        "LEAF_STORM",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -44771,7 +44810,8 @@
         "FOUL_PLAY",
         "POWER_GEM",
         "SHADOW_SNEAK",
-        "DAZZLING_GLEAM"
+        "DAZZLING_GLEAM",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -44829,7 +44869,8 @@
         "FOUL_PLAY",
         "POWER_GEM",
         "SHADOW_SNEAK",
-        "DAZZLING_GLEAM"
+        "DAZZLING_GLEAM",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -44881,7 +44922,8 @@
         "FOUL_PLAY",
         "POWER_GEM",
         "SHADOW_SNEAK",
-        "DAZZLING_GLEAM"
+        "DAZZLING_GLEAM",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -47008,7 +47050,8 @@
       "chargedMoves": [
         "EARTHQUAKE",
         "OVERHEAT",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "FLAME_WHEEL"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -47585,7 +47628,8 @@
         "STONE_EDGE",
         "EARTH_POWER",
         "BOOMBURST",
-        "SCORCHING_SANDS"
+        "SCORCHING_SANDS",
+        "SAND_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -47646,7 +47690,8 @@
         "STONE_EDGE",
         "EARTH_POWER",
         "BOOMBURST",
-        "SCORCHING_SANDS"
+        "SCORCHING_SANDS",
+        "SAND_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -47998,7 +48043,8 @@
         "DAZZLING_GLEAM",
         "DRAGON_PULSE",
         "SKY_ATTACK",
-        "MOONBLAST"
+        "MOONBLAST",
+        "FLAMETHROWER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -48053,7 +48099,8 @@
         "DAZZLING_GLEAM",
         "DRAGON_PULSE",
         "SKY_ATTACK",
-        "MOONBLAST"
+        "MOONBLAST",
+        "FLAMETHROWER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -48475,7 +48522,7 @@
         "cash"
       ],
       "released": true,
-      "searchPriority": 10,
+      "searchPriority": 4,
       "speciesId": "whiscash",
       "speciesName": "Whiscash",
       "tags": [
@@ -48533,7 +48580,7 @@
         "cash"
       ],
       "released": true,
-      "searchPriority": 10,
+      "searchPriority": 4,
       "speciesId": "whiscash_shadow",
       "speciesName": "Whiscash (Shadow)",
       "tags": [
@@ -49056,7 +49103,7 @@
         "dily"
       ],
       "released": true,
-      "searchPriority": 2,
+      "searchPriority": 10,
       "speciesId": "cradily",
       "speciesName": "Cradily",
       "tags": [
@@ -51627,7 +51674,8 @@
       "chargedMoves": [
         "DRAGON_PULSE",
         "FLAMETHROWER",
-        "TWISTER"
+        "TWISTER",
+        "CRUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -51684,7 +51732,8 @@
       "chargedMoves": [
         "DRAGON_PULSE",
         "FLAMETHROWER",
-        "TWISTER"
+        "TWISTER",
+        "CRUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -51742,7 +51791,9 @@
         "FIRE_BLAST",
         "HYDRO_PUMP",
         "OUTRAGE",
-        "FLY"
+        "FLY",
+        "BRUTAL_SWING",
+        "CRUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -51802,7 +51853,9 @@
         "FIRE_BLAST",
         "HYDRO_PUMP",
         "OUTRAGE",
-        "FLY"
+        "FLY",
+        "BRUTAL_SWING",
+        "CRUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -51859,7 +51912,9 @@
         "FIRE_BLAST",
         "HYDRO_PUMP",
         "OUTRAGE",
-        "FLY"
+        "FLY",
+        "BRUTAL_SWING",
+        "CRUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -52517,7 +52572,7 @@
       ],
       "level25CP": 1484,
       "released": true,
-      "searchPriority": 40,
+      "searchPriority": 10,
       "speciesId": "registeel",
       "speciesName": "Registeel",
       "tags": [
@@ -52579,7 +52634,7 @@
         "LOCK_ON"
       ],
       "released": true,
-      "searchPriority": 40,
+      "searchPriority": 10,
       "speciesId": "registeel_shadow",
       "speciesName": "Registeel (Shadow)",
       "tags": [
@@ -52603,7 +52658,8 @@
         "OUTRAGE",
         "PSYCHIC",
         "THUNDER",
-        "MIST_BALL"
+        "MIST_BALL",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -52660,7 +52716,8 @@
         "OUTRAGE",
         "PSYCHIC",
         "THUNDER",
-        "MIST_BALL"
+        "MIST_BALL",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -52718,7 +52775,8 @@
         "OUTRAGE",
         "PSYCHIC",
         "THUNDER",
-        "MIST_BALL"
+        "MIST_BALL",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -52773,7 +52831,8 @@
         "DRAGON_CLAW",
         "PSYCHIC",
         "SOLAR_BEAM",
-        "LUSTER_PURGE"
+        "LUSTER_PURGE",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -52829,7 +52888,8 @@
         "DRAGON_CLAW",
         "PSYCHIC",
         "SOLAR_BEAM",
-        "LUSTER_PURGE"
+        "LUSTER_PURGE",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -52886,7 +52946,8 @@
         "DRAGON_CLAW",
         "PSYCHIC",
         "SOLAR_BEAM",
-        "LUSTER_PURGE"
+        "LUSTER_PURGE",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -53390,7 +53451,8 @@
       "chargedMoves": [
         "DAZZLING_GLEAM",
         "DOOM_DESIRE",
-        "PSYCHIC"
+        "PSYCHIC",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -53418,6 +53480,7 @@
         "CONFUSION"
       ],
       "released": true,
+      "searchPriority": 4,
       "speciesId": "jirachi",
       "speciesName": "Jirachi",
       "tags": [
@@ -53912,7 +53975,8 @@
       },
       "fastMoves": [
         "BITE",
-        "RAZOR_LEAF"
+        "RAZOR_LEAF",
+        "MUD_SLAP"
       ],
       "level25CP": 1816,
       "released": true,
@@ -53972,7 +54036,8 @@
       },
       "fastMoves": [
         "BITE",
-        "RAZOR_LEAF"
+        "RAZOR_LEAF",
+        "MUD_SLAP"
       ],
       "released": true,
       "speciesId": "torterra_shadow",
@@ -54617,11 +54682,12 @@
       "fastMoves": [
         "METAL_CLAW",
         "WATERFALL",
-        "STEEL_WING"
+        "STEEL_WING",
+        "METAL_SOUND"
       ],
       "level25CP": 1793,
       "released": true,
-      "searchPriority": 4,
+      "searchPriority": 8,
       "speciesId": "empoleon",
       "speciesName": "Empoleon",
       "tags": [
@@ -54679,7 +54745,8 @@
       "fastMoves": [
         "METAL_CLAW",
         "WATERFALL",
-        "STEEL_WING"
+        "STEEL_WING",
+        "METAL_SOUND"
       ],
       "released": true,
       "searchPriority": 4,
@@ -56849,7 +56916,8 @@
       "chargedMoves": [
         "THUNDER",
         "THUNDER_PUNCH",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "HYPER_FANG"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -57143,7 +57211,7 @@
         "RAZOR_LEAF"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 2,
       "speciesId": "cherrim_sunny",
       "speciesName": "Cherrim (Sunshine)",
       "thirdMoveCost": 10000,
@@ -59145,7 +59213,8 @@
         "FIRE_BLAST",
         "OUTRAGE",
         "SAND_TOMB",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "BREAKING_SWIPE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -59184,7 +59253,7 @@
         "chomp"
       ],
       "released": true,
-      "searchPriority": 8,
+      "searchPriority": 3,
       "speciesId": "garchomp",
       "speciesName": "Garchomp",
       "tags": [
@@ -59208,7 +59277,8 @@
         "FIRE_BLAST",
         "OUTRAGE",
         "SAND_TOMB",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "BREAKING_SWIPE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -59262,7 +59332,8 @@
         "FIRE_BLAST",
         "OUTRAGE",
         "SAND_TOMB",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "BREAKING_SWIPE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -59300,7 +59371,7 @@
         "chomp"
       ],
       "released": true,
-      "searchPriority": 8,
+      "searchPriority": 3,
       "speciesId": "garchomp_shadow",
       "speciesName": "Garchomp (Shadow)",
       "tags": [
@@ -60146,7 +60217,8 @@
         "DYNAMIC_PUNCH",
         "MUD_BOMB",
         "SLUDGE_BOMB",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -60213,7 +60285,8 @@
         "DYNAMIC_PUNCH",
         "MUD_BOMB",
         "SLUDGE_BOMB",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -60988,7 +61061,7 @@
         "zone"
       ],
       "released": true,
-      "searchPriority": 4,
+      "searchPriority": 5,
       "speciesId": "magnezone_shadow",
       "speciesName": "Magnezone (Shadow)",
       "tags": [
@@ -61596,13 +61669,14 @@
         "HIDDEN_POWER_PSYCHIC",
         "HIDDEN_POWER_ROCK",
         "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER"
+        "HIDDEN_POWER_WATER",
+        "PECK"
       ],
       "nicknames": [
         "kiss"
       ],
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 8,
       "speciesId": "togekiss",
       "speciesName": "Togekiss",
       "thirdMoveCost": 50000,
@@ -63251,7 +63325,7 @@
         "dialgao"
       ],
       "released": true,
-      "searchPriority": 10,
+      "searchPriority": 11,
       "speciesId": "dialga_origin",
       "speciesName": "Dialga (Origin)",
       "tags": [
@@ -63854,70 +63928,6 @@
       ]
     },
     {
-      "aliasId": "giratina_altered_shadow",
-      "baseStats": {
-        "atk": 187,
-        "def": 225,
-        "hp": 284
-      },
-      "buddyDistance": 20,
-      "chargedMoves": [
-        "ANCIENT_POWER",
-        "DRAGON_CLAW",
-        "SHADOW_SNEAK",
-        "SHADOW_FORCE"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          16,
-          10,
-          9,
-          15
-        ],
-        "cp2500": [
-          27,
-          11,
-          10,
-          8
-        ],
-        "cp500": [
-          5.5,
-          12,
-          8,
-          15
-        ]
-      },
-      "dex": 487,
-      "eliteMoves": [
-        "SHADOW_FORCE"
-      ],
-      "fastMoves": [
-        "DRAGON_BREATH",
-        "SHADOW_CLAW"
-      ],
-      "nicknames": [
-        "tina",
-        "gira a",
-        "tinaa",
-        "tina a"
-      ],
-      "released": true,
-      "searchPriority": 7,
-      "speciesId": "giratina_altered_shadow_b",
-      "speciesName": "Giratina (Altered) (Shadow)",
-      "tags": [
-        "legendary",
-        "shadow",
-        "duplicate",
-        "duplicate1500"
-      ],
-      "thirdMoveCost": 100000,
-      "types": [
-        "ghost",
-        "dragon"
-      ]
-    },
-    {
       "baseStats": {
         "atk": 225,
         "def": 187,
@@ -64020,7 +64030,7 @@
       ],
       "level25CP": 1756,
       "released": true,
-      "searchPriority": 10,
+      "searchPriority": 6,
       "speciesId": "cresselia",
       "speciesName": "Cresselia",
       "tags": [
@@ -65215,7 +65225,8 @@
         "OVERHEAT",
         "FOCUS_BLAST",
         "PSYCHIC",
-        "V_CREATE"
+        "V_CREATE",
+        "PSYSHOCK"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -68613,7 +68624,7 @@
       ],
       "level25CP": 2010,
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 3,
       "speciesId": "excadrill",
       "speciesName": "Excadrill",
       "tags": [
@@ -68670,7 +68681,7 @@
         "MUD_SHOT"
       ],
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 3,
       "speciesId": "excadrill_shadow",
       "speciesName": "Excadrill (Shadow)",
       "tags": [
@@ -70510,7 +70521,8 @@
         "EARTHQUAKE",
         "CRUNCH",
         "OUTRAGE",
-        "BRICK_BREAK"
+        "BRICK_BREAK",
+        "SAND_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -71180,7 +71192,8 @@
       "chargedMoves": [
         "ROCK_BLAST",
         "X_SCISSOR",
-        "ROCK_SLIDE"
+        "ROCK_SLIDE",
+        "ROCK_WRECKER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -71219,6 +71232,7 @@
       ],
       "level25CP": 1555,
       "released": true,
+      "searchPriority": 3,
       "speciesId": "crustle",
       "speciesName": "Crustle",
       "tags": [
@@ -71240,7 +71254,8 @@
       "chargedMoves": [
         "ROCK_BLAST",
         "X_SCISSOR",
-        "ROCK_SLIDE"
+        "ROCK_SLIDE",
+        "ROCK_WRECKER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -74134,7 +74149,7 @@
       ],
       "level25CP": 1784,
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 2,
       "speciesId": "escavalier",
       "speciesName": "Escavalier",
       "tags": [
@@ -74193,7 +74208,7 @@
         "BUG_BITE"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": null,
       "speciesId": "escavalier_shadow",
       "speciesName": "Escavalier (Shadow)",
       "tags": [
@@ -74524,7 +74539,7 @@
         "HEX"
       ],
       "released": true,
-      "searchPriority": 3,
+      "searchPriority": 6,
       "speciesId": "jellicent",
       "speciesName": "Jellicent",
       "thirdMoveCost": 50000,
@@ -76513,7 +76528,8 @@
         "BRICK_BREAK",
         "LOW_SWEEP",
         "FOCUS_BLAST",
-        "HIGH_JUMP_KICK"
+        "HIGH_JUMP_KICK",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -76576,7 +76592,8 @@
         "GRASS_KNOT",
         "STONE_EDGE",
         "BLAZE_KICK",
-        "BRUTAL_SWING"
+        "BRUTAL_SWING",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -76628,7 +76645,8 @@
       "chargedMoves": [
         "DRAGON_CLAW",
         "NIGHT_SLASH",
-        "HYPER_BEAM"
+        "HYPER_BEAM",
+        "ROCK_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -77308,7 +77326,7 @@
         "AIR_SLASH"
       ],
       "released": true,
-      "searchPriority": 15,
+      "searchPriority": 9,
       "speciesId": "mandibuzz",
       "speciesName": "Mandibuzz",
       "thirdMoveCost": 75000,
@@ -79216,7 +79234,8 @@
         "FLAME_CHARGE",
         "FIRE_BLAST",
         "BLAST_BURN",
-        "MYSTICAL_FIRE"
+        "MYSTICAL_FIRE",
+        "PSYSHOCK"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -79422,7 +79441,7 @@
         "WATER_SHURIKEN"
       ],
       "released": true,
-      "searchPriority": 4,
+      "searchPriority": 6,
       "speciesId": "greninja",
       "speciesName": "Greninja",
       "tags": [
@@ -81207,7 +81226,8 @@
         "MOONBLAST",
         "THUNDERBOLT",
         "PSYCHIC",
-        "DRAINING_KISS"
+        "DRAINING_KISS",
+        "PSYSHOCK"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -81518,7 +81538,7 @@
       ],
       "level25CP": 1434,
       "released": true,
-      "searchPriority": 11,
+      "searchPriority": 7,
       "speciesId": "malamar",
       "speciesName": "Malamar",
       "tags": [
@@ -81580,7 +81600,7 @@
         "PSYWAVE"
       ],
       "released": true,
-      "searchPriority": 11,
+      "searchPriority": 7,
       "speciesId": "malamar_shadow",
       "speciesName": "Malamar (Shadow)",
       "tags": [
@@ -82034,7 +82054,8 @@
       "chargedMoves": [
         "STOMP",
         "ANCIENT_POWER",
-        "DRAGON_CLAW"
+        "DRAGON_CLAW",
+        "ROCK_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -82090,7 +82111,8 @@
       "chargedMoves": [
         "STOMP",
         "ANCIENT_POWER",
-        "DRAGON_CLAW"
+        "DRAGON_CLAW",
+        "ROCK_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -82147,7 +82169,8 @@
         "STONE_EDGE",
         "OUTRAGE",
         "EARTHQUAKE",
-        "METEOR_BEAM"
+        "METEOR_BEAM",
+        "ROCK_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -82204,7 +82227,8 @@
         "STONE_EDGE",
         "OUTRAGE",
         "EARTHQUAKE",
-        "METEOR_BEAM"
+        "METEOR_BEAM",
+        "ROCK_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -82638,7 +82662,7 @@
         "THUNDER_SHOCK"
       ],
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 12,
       "speciesId": "dedenne",
       "speciesName": "Dedenne",
       "thirdMoveCost": 50000,
@@ -82694,7 +82718,7 @@
         "bink"
       ],
       "released": true,
-      "searchPriority": 3,
+      "searchPriority": 8,
       "speciesId": "carbink",
       "speciesName": "Carbink",
       "thirdMoveCost": 75000,
@@ -84693,7 +84717,9 @@
         "DARK_PULSE",
         "BLAZE_KICK",
         "BLAST_BURN",
-        "DARKEST_LARIAT"
+        "DARKEST_LARIAT",
+        "BRUTAL_SWING",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -85519,7 +85545,7 @@
       ],
       "level25CP": 1001,
       "released": true,
-      "searchPriority": 12,
+      "searchPriority": 8,
       "speciesId": "charjabug",
       "speciesName": "Charjabug",
       "tags": [
@@ -85580,7 +85606,7 @@
         "VOLT_SWITCH"
       ],
       "released": true,
-      "searchPriority": 12,
+      "searchPriority": 8,
       "speciesId": "charjabug_shadow",
       "speciesName": "Charjabug (Shadow)",
       "tags": [
@@ -86577,7 +86603,7 @@
         "BITE"
       ],
       "released": true,
-      "searchPriority": 9,
+      "searchPriority": 4,
       "speciesId": "toxapex",
       "speciesName": "Toxapex",
       "thirdMoveCost": 50000,
@@ -87526,7 +87552,8 @@
         "BRICK_BREAK",
         "CLOSE_COMBAT",
         "SUPER_POWER",
-        "BRUTAL_SWING"
+        "BRUTAL_SWING",
+        "DRAIN_PUNCH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -88978,7 +89005,9 @@
         "OVERHEAT",
         "FLAMETHROWER",
         "DRAGON_PULSE",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "BRUTAL_SWING",
+        "DRAGON_CLAW"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -89013,6 +89042,7 @@
         "INCINERATE"
       ],
       "released": true,
+      "searchPriority": 4,
       "speciesId": "turtonator",
       "speciesName": "Turtonator",
       "thirdMoveCost": 75000,
@@ -89332,7 +89362,8 @@
       "chargedMoves": [
         "DRAGON_CLAW",
         "BRICK_BREAK",
-        "DRAGON_PULSE"
+        "DRAGON_PULSE",
+        "ROCK_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -89389,7 +89420,8 @@
         "FLAMETHROWER",
         "BOOMBURST",
         "BRICK_BREAK",
-        "CLANGING_SCALES"
+        "CLANGING_SCALES",
+        "UPPER_HAND"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -89421,7 +89453,8 @@
       },
       "fastMoves": [
         "POISON_JAB",
-        "DRAGON_TAIL"
+        "DRAGON_TAIL",
+        "METAL_SOUND"
       ],
       "released": true,
       "searchPriority": 3,
@@ -91650,7 +91683,8 @@
       "chargedMoves": [
         "SKY_ATTACK",
         "PAYBACK",
-        "IRON_HEAD"
+        "IRON_HEAD",
+        "AIR_CUTTER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -91680,7 +91714,8 @@
       },
       "dex": 823,
       "eliteMoves": [
-        "IRON_HEAD"
+        "IRON_HEAD",
+        "AIR_CUTTER"
       ],
       "family": {
         "id": "FAMILY_ROOKIDEE",
@@ -91692,6 +91727,7 @@
         "SAND_ATTACK"
       ],
       "released": true,
+      "searchPriority": 5,
       "speciesId": "corviknight",
       "speciesName": "Corviknight",
       "thirdMoveCost": 10000,
@@ -95695,8 +95731,8 @@
       "chargedMoves": [
         "SLUDGE_BOMB",
         "FLAMETHROWER",
-        "HYPER_BEAM",
-        "DYNAMAX_CANNON"
+        "DYNAMAX_CANNON",
+        "DRAGON_PULSE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -95719,6 +95755,9 @@
         ]
       },
       "dex": 890,
+      "eliteMoves": [
+        "DYNAMAX_CANNON"
+      ],
       "fastMoves": [
         "DRAGON_TAIL",
         "POISON_JAB"
@@ -96105,6 +96144,7 @@
         "DRAGON_BREATH"
       ],
       "released": true,
+      "searchPriority": 12,
       "speciesId": "regidrago",
       "speciesName": "Regidrago",
       "tags": [
@@ -101143,8 +101183,8 @@
       "defaultIVs": {
         "cp1500": [
           20,
-          0,
-          2,
+          1,
+          1,
           2
         ],
         "cp2500": [
@@ -101501,7 +101541,7 @@
         "MUD_SHOT"
       ],
       "released": true,
-      "searchPriority": 15,
+      "searchPriority": 9,
       "speciesId": "clodsire",
       "speciesName": "Clodsire",
       "thirdMoveCost": 50000,
@@ -103705,6 +103745,6 @@
     "charjabug",
     "vikavolt"
   ],
-  "timestamp": "2025-08-26 02:05:15",
+  "timestamp": "2025-09-03 02:06:19",
   "title": "Default"
 }
