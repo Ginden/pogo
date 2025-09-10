@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow
 * **Exclude unreleased**: true
-* **Date generated**: 2025-09-03
+* **Date generated**: 2025-09-10
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -74,7 +74,7 @@
 * **Rampardos** using _Smack Down_ (84%)
 * **Aerodactyl (Mega)** using _Rock Throw_ (83%)
 * **Gyarados (Mega)** using _Waterfall_ (83%)
-* **Kyogre** using _Waterfall_ (77%)
+* **Sharpedo (Mega)** using _Waterfall_ (83%)
 
 # Anti-Flying 🕊️
 
@@ -91,10 +91,10 @@
 * **Blacephalon** using _Astonish_ (100%)
 * **Tyranitar (Mega)** using _Bite_ (98%)
 * **Gyarados (Mega)** using _Bite_ (93%)
+* **Sharpedo (Mega)** using _Bite_ (92%)
 * **Gengar (Mega)** using _Sucker Punch_ (92%)
 * **Dragapult** using _Astonish_ (85%)
 * **Hoopa** using _Astonish_ (84%)
-* **Gengar (Mega)** using _Shadow Claw_ (83%)
 
 # Anti-Grass 🌱
 
@@ -112,9 +112,9 @@
 * **Kyogre (Primal)** using _Waterfall_ (97%)
 * **Kyurem (White)** using _Ice Fang_ (85%)
 * **Gyarados (Mega)** using _Waterfall_ (81%)
+* **Sharpedo (Mega)** using _Waterfall_ (80%)
 * **Roserade** using _Razor Leaf_ (76%)
 * **Venusaur (Mega)** using _Razor Leaf_ (76%)
-* **Abomasnow (Mega)** using _Razor Leaf_ (75%)
 
 # Anti-Ice ❄️
 
@@ -154,7 +154,7 @@
 * **Pinsir (Mega)** using _Bug Bite_ (97%)
 * **Beedrill (Mega)** using _Bug Bite_ (96%)
 * **Gyarados (Mega)** using _Bite_ (93%)
-* **Gengar (Mega)** using _Sucker Punch_ (92%)
+* **Sharpedo (Mega)** using _Bite_ (92%)
 
 # Anti-Rock 🪨
 
@@ -207,11 +207,11 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 
 * **Tyranitar (Mega)** using _Bite_ (85%)
 * **Gyarados (Mega)** using _Bite_ (80%)
+* **Sharpedo (Mega)** using _Bite_ (80%)
 * **Gengar (Mega)** using _Sucker Punch_ (79%)
 * **Hydreigon** using _Bite_ (71%)
 * **Salamence (Mega)** using _Bite_ (71%)
 * **Urshifu (Single Strike)** using _Sucker Punch_ (70%)
-* **Tyranitar** using _Bite_ (70%)
 
 
 ### Highest **dragon** (🐉) fast move damage: 
@@ -399,8 +399,8 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 
 * **Kyogre (Primal)** using _Waterfall_ (96%)
 * **Gyarados (Mega)** using _Waterfall_ (80%)
+* **Sharpedo (Mega)** using _Waterfall_ (80%)
 * **Kyogre** using _Waterfall_ (75%)
 * **Urshifu (Rapid Strike)** using _Waterfall_ (70%)
 * **Sharpedo** using _Waterfall_ (68%)
 * **Gyarados** using _Waterfall_ (66%)
-* **Primarina** using _Waterfall_ (65%)

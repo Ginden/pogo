@@ -2,7 +2,7 @@
 
 * **Excluded tags**: none
 * **Exclude unreleased**: true
-* **Date generated**: 2025-09-03
+* **Date generated**: 2025-09-10
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -93,8 +93,8 @@
 * **Tyranitar (Shadow)** using _Bite_ (97%)
 * **Sharpedo (Shadow)** using _Bite_ (94%)
 * **Gyarados (Mega)** using _Bite_ (93%)
+* **Sharpedo (Mega)** using _Bite_ (92%)
 * **Gengar (Mega)** using _Sucker Punch_ (92%)
-* **Salamence (Shadow)** using _Bite_ (89%)
 
 # Anti-Grass 🌱
 
@@ -114,7 +114,7 @@
 * **Kyurem (White)** using _Ice Fang_ (85%)
 * **Sharpedo (Shadow)** using _Waterfall_ (81%)
 * **Gyarados (Mega)** using _Waterfall_ (81%)
-* **Gyarados (Shadow)** using _Waterfall_ (80%)
+* **Sharpedo (Mega)** using _Waterfall_ (80%)
 
 # Anti-Ice ❄️
 
@@ -209,9 +209,9 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 * **Tyranitar (Shadow)** using _Bite_ (84%)
 * **Sharpedo (Shadow)** using _Bite_ (81%)
 * **Gyarados (Mega)** using _Bite_ (80%)
+* **Sharpedo (Mega)** using _Bite_ (80%)
 * **Gengar (Mega)** using _Sucker Punch_ (79%)
 * **Salamence (Shadow)** using _Bite_ (76%)
-* **Cacturne (Shadow)** using _Sucker Punch_ (74%)
 
 
 ### Highest **dragon** (🐉) fast move damage: 
@@ -401,6 +401,6 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 * **Kyogre (Shadow)** using _Waterfall_ (90%)
 * **Sharpedo (Shadow)** using _Waterfall_ (81%)
 * **Gyarados (Mega)** using _Waterfall_ (80%)
+* **Sharpedo (Mega)** using _Waterfall_ (80%)
 * **Gyarados (Shadow)** using _Waterfall_ (79%)
 * **Crawdaunt (Shadow)** using _Waterfall_ (75%)
-* **Kyogre** using _Waterfall_ (75%)
