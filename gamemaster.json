@@ -3133,6 +3133,59 @@
     {
       "exclude": [
         {
+          "filterType": "type",
+          "values": [
+            "dark",
+            "rock"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "values": [
+            "mega",
+            "legendary",
+            "mythical",
+            "shadow",
+            "ultrabeast"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "sandslash_alolan",
+            "sandshrew_alolan",
+            "corsola_galarian",
+            "corviknight",
+            "jellicent",
+            "lapras",
+            "kingdra",
+            "ninetales_alolan",
+            "honedge",
+            "doublade",
+            "aegislash_shield",
+            "aegislash_blade"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "dragon",
+            "flying",
+            "ghost",
+            "ice",
+            "psychic"
+          ]
+        }
+      ],
+      "link": "https://laic.gg/competitor_info/pokemon_go/",
+      "name": "laic2025",
+      "title": "LAIC 2025 Championship Series Cup"
+    },
+    {
+      "exclude": [
+        {
           "filterType": "id",
           "values": [
             "shuckle",
@@ -3151,6 +3204,12 @@
       "levelCap": 50,
       "name": "little",
       "title": "Little Cup"
+    },
+    {
+      "exclude": [],
+      "include": [],
+      "name": "mega",
+      "title": "All Pokemon"
     },
     {
       "exclude": [
@@ -3237,195 +3296,131 @@
       "title": "Onyx Cup"
     },
     {
-      "exclude": [
-        {
-          "filterType": "type",
-          "name": "Type",
-          "values": [
-            "bug",
-            "dark",
-            "dragon",
-            "electric",
-            "fairy",
-            "fighting",
-            "fire",
-            "flying",
-            "ghost",
-            "grass",
-            "ground",
-            "ice",
-            "normal",
-            "poison",
-            "psychic",
-            "rock",
-            "steel",
-            "water",
-            "none"
-          ]
-        }
-      ],
-      "excludeLowPokemon": 1,
+      "exclude": [],
       "include": [
         {
           "filterType": "id",
           "name": "Species",
           "values": [
-            "quagsire",
-            "quagsire_shadow",
-            "emolga",
-            "araquanid",
+            "bewear",
+            "bibarel",
+            "bibarel_shadow",
+            "starmie",
             "lokix",
-            "golisopod",
             "ariados",
             "leavanny",
-            "scizor",
+            "araquanid",
             "beedrill",
+            "golisopod",
+            "beedrill_shadow",
             "malamar",
+            "malamar_shadow",
             "sableye",
+            "sableye_shadow",
             "raticate_alolan",
+            "raticate_alolan_shadow",
             "qwilfish_hisuian",
             "goodra",
             "arctibax",
-            "altaria",
             "dragapult",
-            "sneasler",
-            "sneasel_hisuian",
-            "mienshao",
+            "sceptile",
+            "sceptile_shadow",
+            "froslass",
+            "froslass_shadow",
             "spiritomb",
             "trevenant",
-            "froslass",
-            "jumpluff",
-            "sceptile",
-            "stunfisk",
-            "runerigus",
-            "gligar",
-            "flygon",
-            "gliscor",
-            "sandslash",
-            "regice",
-            "walrein",
-            "lapras",
-            "sealeo",
-            "aurorus",
-            "lickilicky",
-            "miltank",
-            "ursaring",
-            "noctowl",
-            "pidgeot",
-            "furfrou",
-            "furret",
-            "greedent",
-            "zangoose",
-            "bewear",
-            "diggersby",
-            "bibarel",
-            "clodsire",
-            "weezing_galarian",
-            "drapion",
-            "swalot",
-            "nidoqueen",
-            "nidoking",
             "cresselia",
             "rapidash_galarian",
             "victini",
+            "stunfisk",
+            "runerigus",
+            "gligar",
+            "gligar_shadow",
+            "gliscor",
+            "gliscor_shadow",
+            "flygon",
+            "flygon_shadow",
+            "sandslash",
+            "sandslash_shadow",
+            "clodsire",
+            "weezing_galarian",
+            "weezing_galarian_shadow",
+            "drapion",
+            "drapion_shadow",
+            "swalot",
+            "nidoking",
+            "nidoking_shadow",
+            "nidoqueen",
+            "nidoqueen_shadow",
+            "regice",
+            "lapras",
+            "lapras_shadow",
+            "walrein",
+            "walrein_shadow",
+            "sealeo",
+            "sealeo_shadow",
+            "aurorus",
+            "aurorus_shadow",
             "regirock",
             "cradily",
-            "lunatone",
+            "cradily_shadow",
             "solrock",
+            "lunatone",
+            "lickilicky",
+            "miltank",
+            "ursaring",
+            "ursaring_shadow",
+            "diggersby",
+            "diggersby_shadow",
+            "noctowl",
+            "pidgeot",
+            "pidgeot_shadow",
+            "furfrou",
+            "greedent",
+            "zangoose",
             "azumarill",
             "feraligatr",
+            "feraligatr_shadow",
             "castform_rainy",
-            "qwilfish",
             "tapu_fini",
+            "qwilfish",
             "empoleon",
+            "empoleon_shadow",
             "samurott",
+            "samurott_shadow",
             "pelipper",
-            "politoed",
             "jellicent",
-            "gyarados",
             "seaking",
             "poliwhirl",
-            "starmie",
-            "lokix_shadow",
-            "golisopod_shadow",
-            "ariados_shadow",
-            "leavanny_shadow",
-            "scizor_shadow",
-            "beedrill_shadow",
-            "malamar_shadow",
-            "sableye_shadow",
-            "raticate_alolan_shadow",
-            "qwilfish_hisuian_shadow",
-            "goodra_shadow",
-            "arctibax_shadow",
-            "altaria_shadow",
-            "dragapult_shadow",
+            "politoed",
+            "gyarados",
+            "sneasler",
             "sneasler_shadow",
-            "sneasel_hisuian_shadow",
-            "mienshao_shadow",
-            "rapidash_shadow",
-            "spiritomb_shadow",
-            "trevenant_shadow",
-            "froslass_shadow",
-            "jumpluff_shadow",
-            "sceptile_shadow",
-            "stunfisk_shadow",
-            "runerigus_shadow",
-            "gligar_shadow",
-            "flygon_shadow",
-            "gliscor_shadow",
-            "sandslash_shadow",
-            "regice_shadow",
-            "walrein_shadow",
-            "lapras_shadow",
-            "sealeo_shadow",
-            "aurorus_shadow",
-            "lickilicky_shadow",
-            "miltank_shadow",
-            "ursaring_shadow",
-            "noctowl_shadow",
-            "pidgeot_shadow",
-            "furfrou_shadow",
-            "furret_shadow",
-            "greedent_shadow",
-            "zangoose_shadow",
-            "bewear_shadow",
-            "diggersby_shadow",
-            "bibarel_shadow",
-            "clodsire_shadow",
-            "weezing_galarian_shadow",
-            "drapion_shadow",
-            "swalot_shadow",
-            "nidoqueen_shadow",
-            "nidoking_shadow",
-            "cresselia_shadow",
-            "rapidash_galarian_shadow",
-            "victini_shadow",
-            "regirock_shadow",
-            "cradily_shadow",
-            "lunatone_shadow",
-            "solrock_shadow",
-            "azumarill_shadow",
-            "feraligatr_shadow",
-            "castform_rainy_shadow",
-            "qwilfish_shadow",
-            "tapu_fini_shadow",
-            "empoleon_shadow",
-            "samurott_shadow",
-            "pelipper_shadow",
-            "politoed_shadow",
-            "jellicent_shadow",
             "gyarados_shadow",
-            "seaking_shadow",
-            "poliwhirl_shadow",
-            "starmie_shadow"
+            "sneasel_hisuian",
+            "sneasel_hisuian_shadow",
+            "mienshao",
+            "mienshao_shadow",
+            "quagsire",
+            "quagsire_shadow",
+            "magmar",
+            "magmar_shadow",
+            "magmortar",
+            "magmortar_shadow",
+            "araquanid",
+            "fearow",
+            "crustle",
+            "oranguru",
+            "turtonator",
+            "castform",
+            "ninetales",
+            "ninetales_shadow",
+            "crustle_shadow"
           ]
         }
       ],
-      "league": 1500,
-      "name": "pillar2",
-      "title": "Pillar2",
-      "useDefaultMovesets": 1
+      "name": "pillar3",
+      "title": "Gymbreakers Pillar Cup Remix"
     },
     {
       "exclude": [
@@ -4397,7 +4392,9 @@
         {
           "filterType": "id",
           "values": [
-            "gardevoir"
+            "gardevoir",
+            "zorua",
+            "zoroark"
           ]
         }
       ],
@@ -4460,12 +4457,52 @@
     },
     {
       "cp": 1500,
-      "cup": "retro",
-      "meta": "retro",
+      "cup": "summer",
+      "meta": "summer",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Normal-,  Fire-,  Water-,  Grass-,  Electric-,  and Bug-type Pokémon are eligible."
+      ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Retro Cup"
+      "title": "Summer Cup (Great League)"
+    },
+    {
+      "cp": 1500,
+      "cup": "willpower",
+      "meta": "willpower",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Fighting-,  Psychic-,  and Dark-type Pokémon will be eligible.",
+        "The following Pokémon will not be allowed: Gardevoir,  Zorua,  Zoroark"
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Willpower Cup"
+    },
+    {
+      "cp": 10000,
+      "cup": "mega",
+      "meta": "mega",
+      "rules": [
+        "No CP limit.",
+        "Mega-Evolved Pokémon are allowed."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Mega Master League"
+    },
+    {
+      "cp": 1500,
+      "cup": "laic2025",
+      "meta": "laic2025",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "LAIC 2025 Championship Series Cup"
     },
     {
       "cp": 1500,
@@ -4523,8 +4560,8 @@
     },
     {
       "cp": 1500,
-      "cup": "pillar2",
-      "meta": "pillar2",
+      "cup": "pillar3",
+      "meta": "pillar3",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
@@ -46516,6 +46553,62 @@
     },
     {
       "baseStats": {
+        "atk": 289,
+        "def": 144,
+        "hp": 172
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "CRUNCH",
+        "HYDRO_PUMP",
+        "POISON_FANG"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          16.5,
+          7,
+          14,
+          15
+        ],
+        "cp2500": [
+          28,
+          4,
+          12,
+          15
+        ],
+        "cp500": [
+          6,
+          4,
+          10,
+          6
+        ]
+      },
+      "dex": 319,
+      "family": {
+        "id": "FAMILY_CARVANHA",
+        "parent": "carvanha"
+      },
+      "fastMoves": [
+        "BITE",
+        "WATERFALL"
+      ],
+      "level25CP": 1295,
+      "released": true,
+      "speciesId": "sharpedo_mega",
+      "speciesName": "Sharpedo (Mega)",
+      "tags": [
+        "shadoweligible",
+        "include1500",
+        "mega"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "water",
+        "dark"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 243,
         "def": 83,
         "hp": 172
@@ -46978,6 +47071,63 @@
       "speciesName": "Camerupt",
       "tags": [
         "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "fire",
+        "ground"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 253,
+        "def": 183,
+        "hp": 172
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "EARTHQUAKE",
+        "OVERHEAT",
+        "SOLAR_BEAM",
+        "EARTH_POWER"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          17,
+          4,
+          15,
+          14
+        ],
+        "cp2500": [
+          28.5,
+          4,
+          15,
+          12
+        ],
+        "cp500": [
+          6,
+          4,
+          11,
+          12
+        ]
+      },
+      "dex": 323,
+      "family": {
+        "id": "FAMILY_NUMEL",
+        "parent": "numel"
+      },
+      "fastMoves": [
+        "EMBER",
+        "ROCK_SMASH",
+        "INCINERATE"
+      ],
+      "level25CP": 1323,
+      "released": false,
+      "speciesId": "camerupt_mega",
+      "speciesName": "Camerupt (Mega)",
+      "tags": [
+        "shadoweligible",
+        "mega"
       ],
       "thirdMoveCost": 50000,
       "types": [
@@ -52235,6 +52385,67 @@
       "speciesName": "Metagross",
       "tags": [
         "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 300,
+        "def": 289,
+        "hp": 190
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "EARTHQUAKE",
+        "FLASH_CANNON",
+        "METEOR_MASH",
+        "PSYCHIC"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          11,
+          6,
+          15,
+          14
+        ],
+        "cp2500": [
+          18.5,
+          4,
+          14,
+          14
+        ],
+        "cp500": [
+          4,
+          8,
+          14,
+          14
+        ]
+      },
+      "dex": 376,
+      "eliteMoves": [
+        "METEOR_MASH"
+      ],
+      "family": {
+        "id": "FAMILY_BELDUM",
+        "parent": "metang"
+      },
+      "fastMoves": [
+        "BULLET_PUNCH",
+        "ZEN_HEADBUTT",
+        "FURY_CUTTER"
+      ],
+      "level25CP": 2386,
+      "released": false,
+      "searchPriority": 4,
+      "speciesId": "metagross_mega",
+      "speciesName": "Metagross (Mega)",
+      "tags": [
+        "shadoweligible",
+        "mega"
       ],
       "thirdMoveCost": 75000,
       "types": [
@@ -103745,6 +103956,6 @@
     "charjabug",
     "vikavolt"
   ],
-  "timestamp": "2025-09-03 02:06:19",
+  "timestamp": "2025-09-09 21:47:25",
   "title": "Default"
 }
