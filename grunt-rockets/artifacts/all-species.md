@@ -2,7 +2,7 @@
 
 * **Excluded tags**: none
 * **Exclude unreleased**: true
-* **Date generated**: 2025-09-10
+* **Date generated**: 2025-09-17
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -89,12 +89,12 @@
 # Anti-Ghost 👻
 
 * **Blacephalon** using _Astonish_ (100%)
+* **Hydreigon (Shadow)** using _Bite_ (99%)
 * **Tyranitar (Mega)** using _Bite_ (98%)
 * **Tyranitar (Shadow)** using _Bite_ (97%)
 * **Sharpedo (Shadow)** using _Bite_ (94%)
 * **Gyarados (Mega)** using _Bite_ (93%)
 * **Sharpedo (Mega)** using _Bite_ (92%)
-* **Gengar (Mega)** using _Sucker Punch_ (92%)
 
 # Anti-Grass 🌱
 
@@ -150,11 +150,11 @@
 
 * **Pheromosa** using _Bug Bite_ (100%)
 * **Blacephalon** using _Astonish_ (100%)
+* **Hydreigon (Shadow)** using _Bite_ (98%)
 * **Tyranitar (Mega)** using _Bite_ (98%)
 * **Vikavolt (Shadow)** using _Bug Bite_ (97%)
 * **Pinsir (Mega)** using _Bug Bite_ (97%)
 * **Tyranitar (Shadow)** using _Bite_ (96%)
-* **Beedrill (Mega)** using _Bug Bite_ (96%)
 
 # Anti-Rock 🪨
 
@@ -205,13 +205,13 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 ### Highest **dark** (🌌) fast move damage: 
 
 
+* **Hydreigon (Shadow)** using _Bite_ (85%)
 * **Tyranitar (Mega)** using _Bite_ (85%)
 * **Tyranitar (Shadow)** using _Bite_ (84%)
 * **Sharpedo (Shadow)** using _Bite_ (81%)
 * **Gyarados (Mega)** using _Bite_ (80%)
 * **Sharpedo (Mega)** using _Bite_ (80%)
 * **Gengar (Mega)** using _Sucker Punch_ (79%)
-* **Salamence (Shadow)** using _Bite_ (76%)
 
 
 ### Highest **dragon** (🐉) fast move damage: 
@@ -282,8 +282,8 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 * **Rayquaza (Mega)** using _Air Slash_ (77%)
 * **Yveltal** using _Gust_ (69%)
 * **Tornadus (Therian)** using _Gust_ (66%)
+* **Tornadus (Incarnate) (Shadow)** using _Air Slash_ (66%)
 * **Charizard (Mega Y)** using _Air Slash_ (66%)
-* **Staraptor** using _Gust_ (65%)
 
 
 ### Highest **ghost** (👻) fast move damage: 

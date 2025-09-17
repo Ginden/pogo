@@ -2,7 +2,7 @@
 
 * **Excluded tags**: mega
 * **Exclude unreleased**: true
-* **Date generated**: 2025-09-10
+* **Date generated**: 2025-09-17
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -89,12 +89,12 @@
 # Anti-Ghost 👻
 
 * **Blacephalon** using _Astonish_ (100%)
+* **Hydreigon (Shadow)** using _Bite_ (99%)
 * **Tyranitar (Shadow)** using _Bite_ (97%)
 * **Sharpedo (Shadow)** using _Bite_ (94%)
 * **Salamence (Shadow)** using _Bite_ (89%)
 * **Haunter (Shadow)** using _Astonish_ (87%)
 * **Golurk (Shadow)** using _Astonish_ (86%)
-* **Cacturne (Shadow)** using _Sucker Punch_ (86%)
 
 # Anti-Grass 🌱
 
@@ -150,11 +150,11 @@
 
 * **Pheromosa** using _Bug Bite_ (100%)
 * **Blacephalon** using _Astonish_ (100%)
+* **Hydreigon (Shadow)** using _Bite_ (98%)
 * **Vikavolt (Shadow)** using _Bug Bite_ (97%)
 * **Tyranitar (Shadow)** using _Bite_ (96%)
 * **Sharpedo (Shadow)** using _Bite_ (94%)
 * **Pinsir (Shadow)** using _Bug Bite_ (92%)
-* **Salamence (Shadow)** using _Bite_ (88%)
 
 # Anti-Rock 🪨
 
@@ -205,13 +205,13 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 ### Highest **dark** (🌌) fast move damage: 
 
 
+* **Hydreigon (Shadow)** using _Bite_ (86%)
 * **Tyranitar (Shadow)** using _Bite_ (84%)
 * **Sharpedo (Shadow)** using _Bite_ (81%)
 * **Salamence (Shadow)** using _Bite_ (77%)
 * **Cacturne (Shadow)** using _Sucker Punch_ (74%)
+* **Tornadus (Incarnate) (Shadow)** using _Bite_ (74%)
 * **Gengar (Shadow)** using _Sucker Punch_ (73%)
-* **Hydreigon** using _Bite_ (71%)
-* **Urshifu (Single Strike)** using _Sucker Punch_ (71%)
 
 
 ### Highest **dragon** (🐉) fast move damage: 
@@ -280,10 +280,10 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 * **Staraptor (Shadow)** using _Gust_ (79%)
 * **Yveltal** using _Gust_ (70%)
 * **Tornadus (Therian)** using _Gust_ (67%)
+* **Tornadus (Incarnate) (Shadow)** using _Air Slash_ (67%)
 * **Staraptor** using _Gust_ (65%)
 * **Honchkrow (Shadow)** using _Peck_ (61%)
 * **Archeops (Shadow)** using _Wing Attack_ (61%)
-* **Ho-Oh (Shadow)** using _Hidden Power (Flying)_ (60%)
 
 
 ### Highest **ghost** (👻) fast move damage: 
