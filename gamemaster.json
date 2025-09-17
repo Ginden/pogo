@@ -2743,6 +2743,28 @@
         {
           "filterType": "type",
           "values": [
+            "steel",
+            "dragon",
+            "fairy"
+          ]
+        }
+      ],
+      "name": "fantasy",
+      "title": "Fantasy Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
             "water",
             "rock",
             "steel"
@@ -4423,25 +4445,15 @@
   "formats": [
     {
       "cp": 10000,
-      "cup": "classic",
-      "hideRankings": true,
-      "meta": "master",
-      "showCup": false,
-      "showFormat": true,
-      "showMeta": false,
-      "title": "Master League (Classic)"
-    },
-    {
-      "cp": 10000,
       "cup": "premier",
       "hideRankings": true,
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
+        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
       ],
       "showCup": true,
-      "showFormat": true,
+      "showFormat": false,
       "showMeta": true,
       "title": "Master Premier"
     },
@@ -4457,25 +4469,12 @@
     },
     {
       "cp": 1500,
-      "cup": "summer",
-      "meta": "summer",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Normal-,  Fire-,  Water-,  Grass-,  Electric-,  and Bug-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Summer Cup (Great League)"
-    },
-    {
-      "cp": 1500,
       "cup": "willpower",
       "meta": "willpower",
       "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Fighting-,  Psychic-,  and Dark-type Pokémon will be eligible.",
-        "The following Pokémon will not be allowed: Gardevoir,  Zorua,  Zoroark"
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Fighting-, Psychic-, and Dark-type Pokémon will be eligible.",
+        "The following Pokémon will not be allowed: Gardevoir, Zorua, Zoroark"
       ],
       "showCup": true,
       "showFormat": true,
@@ -4494,6 +4493,19 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Mega Master League"
+    },
+    {
+      "cp": 1500,
+      "cup": "fantasy",
+      "meta": "fantasy",
+      "rules": [
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Dragon-, Steel-, and Fairy-type Pokémon are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Fantasy Cup"
     },
     {
       "cp": 1500,
@@ -5198,7 +5210,7 @@
       "energy": 45,
       "energyGain": 0,
       "moveId": "CHILLING_WATER",
-      "name": "Chilling Water (Speculative)",
+      "name": "Chilling Water",
       "power": 60,
       "turns": 1,
       "type": "water"
@@ -9745,7 +9757,7 @@
         "zard"
       ],
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 8,
       "speciesId": "charizard_shadow",
       "speciesName": "Charizard (Shadow)",
       "tags": [
@@ -35476,9 +35488,13 @@
         "POISON_STING",
         "WATER_GUN"
       ],
+      "level25CP": 1231,
       "released": true,
       "speciesId": "qwilfish",
       "speciesName": "Qwilfish",
+      "tags": [
+        "shadoweligible"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "water",
@@ -35542,6 +35558,58 @@
       "thirdMoveCost": 50000,
       "types": [
         "dark",
+        "poison"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 184,
+        "def": 138,
+        "hp": 163
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "AQUA_TAIL",
+        "ICE_BEAM",
+        "SLUDGE_WAVE",
+        "ACID_SPRAY",
+        "FELL_STINGER",
+        "SCALD"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          27,
+          5,
+          14,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          9,
+          5,
+          15,
+          15
+        ]
+      },
+      "dex": 211,
+      "fastMoves": [
+        "POISON_STING",
+        "WATER_GUN"
+      ],
+      "released": true,
+      "speciesId": "qwilfish_shadow",
+      "speciesName": "Qwilfish (Shadow)",
+      "tags": [
+        "shadow"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "water",
         "poison"
       ]
     },
@@ -48173,9 +48241,68 @@
         "ASTONISH",
         "PECK"
       ],
+      "level25CP": 440,
       "released": true,
       "speciesId": "swablu",
       "speciesName": "Swablu",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 76,
+        "def": 132,
+        "hp": 128
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "AERIAL_ACE",
+        "DISARMING_VOICE",
+        "ICE_BEAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          24.5,
+          4,
+          11,
+          15
+        ]
+      },
+      "dex": 333,
+      "family": {
+        "evolutions": [
+          "altaria_shadow"
+        ],
+        "id": "FAMILY_SWABLU"
+      },
+      "fastMoves": [
+        "ASTONISH",
+        "PECK"
+      ],
+      "released": true,
+      "speciesId": "swablu_shadow",
+      "speciesName": "Swablu (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "normal",
@@ -48228,10 +48355,14 @@
         "DRAGON_BREATH",
         "PECK"
       ],
+      "level25CP": 1199,
       "released": true,
       "searchPriority": 21,
       "speciesId": "altaria",
       "speciesName": "Altaria",
+      "tags": [
+        "shadoweligible"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "dragon",
@@ -48294,6 +48425,65 @@
       "types": [
         "dragon",
         "fairy"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 141,
+        "def": 201,
+        "hp": 181
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "DAZZLING_GLEAM",
+        "DRAGON_PULSE",
+        "SKY_ATTACK",
+        "MOONBLAST",
+        "FLAMETHROWER"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          28.5,
+          4,
+          12,
+          13
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          9.5,
+          4,
+          15,
+          12
+        ]
+      },
+      "dex": 334,
+      "eliteMoves": [
+        "MOONBLAST"
+      ],
+      "family": {
+        "id": "FAMILY_SWABLU",
+        "parent": "swablu_shadow"
+      },
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "PECK"
+      ],
+      "released": true,
+      "searchPriority": 21,
+      "speciesId": "altaria_shadow",
+      "speciesName": "Altaria (Shadow)",
+      "tags": [
+        "shadow"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "dragon",
+        "flying"
       ]
     },
     {
@@ -49025,9 +49215,68 @@
         "CONFUSION",
         "EXTRASENSORY"
       ],
+      "level25CP": 419,
       "released": true,
       "speciesId": "baltoy",
       "speciesName": "Baltoy",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "ground",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 77,
+        "def": 124,
+        "hp": 120
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "DIG",
+        "GYRO_BALL",
+        "PSYBEAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          25.5,
+          4,
+          15,
+          12
+        ]
+      },
+      "dex": 343,
+      "family": {
+        "evolutions": [
+          "claydol_shadow"
+        ],
+        "id": "FAMILY_BALTOY"
+      },
+      "fastMoves": [
+        "CONFUSION",
+        "EXTRASENSORY"
+      ],
+      "released": true,
+      "speciesId": "baltoy_shadow",
+      "speciesName": "Baltoy (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "ground",
@@ -49081,10 +49330,74 @@
         "EXTRASENSORY",
         "MUD_SLAP"
       ],
+      "level25CP": 1176,
       "released": true,
       "searchPriority": 2,
       "speciesId": "claydol",
       "speciesName": "Claydol",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "ground",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 140,
+        "def": 229,
+        "hp": 155
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "EARTHQUAKE",
+        "GYRO_BALL",
+        "PSYCHIC",
+        "EARTH_POWER",
+        "ICE_BEAM",
+        "SHADOW_BALL",
+        "ROCK_TOMB",
+        "SCORCHING_SANDS"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          29,
+          4,
+          11,
+          14
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          9.5,
+          6,
+          14,
+          14
+        ]
+      },
+      "dex": 344,
+      "family": {
+        "id": "FAMILY_BALTOY",
+        "parent": "baltoy_shadow"
+      },
+      "fastMoves": [
+        "CONFUSION",
+        "EXTRASENSORY",
+        "MUD_SLAP"
+      ],
+      "released": true,
+      "searchPriority": 2,
+      "speciesId": "claydol_shadow",
+      "speciesName": "Claydol (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "ground",
@@ -49662,9 +49975,66 @@
         "SPLASH",
         "TACKLE"
       ],
+      "level25CP": 109,
       "released": true,
       "speciesId": "feebas",
       "speciesName": "Feebas",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "water",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 29,
+        "def": 85,
+        "hp": 85
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "MIRROR_COAT"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          50,
+          15,
+          15,
+          15
+        ]
+      },
+      "dex": 349,
+      "family": {
+        "evolutions": [
+          "milotic_shadow"
+        ],
+        "id": "FAMILY_FEEBAS"
+      },
+      "fastMoves": [
+        "SPLASH",
+        "TACKLE"
+      ],
+      "released": true,
+      "speciesId": "feebas_shadow",
+      "speciesName": "Feebas (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "water",
@@ -49713,9 +50083,67 @@
         "DRAGON_TAIL",
         "WATERFALL"
       ],
+      "level25CP": 1863,
       "released": true,
       "speciesId": "milotic",
       "speciesName": "Milotic",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "water",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 192,
+        "def": 219,
+        "hp": 216
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "BLIZZARD",
+        "HYPER_BEAM",
+        "SURF",
+        "WRAP"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          18.5,
+          5,
+          14,
+          12
+        ],
+        "cp2500": [
+          31.5,
+          4,
+          14,
+          15
+        ],
+        "cp500": [
+          6.5,
+          4,
+          11,
+          8
+        ]
+      },
+      "dex": 350,
+      "family": {
+        "id": "FAMILY_FEEBAS",
+        "parent": "feebas_shadow"
+      },
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "WATERFALL"
+      ],
+      "released": true,
+      "speciesId": "milotic_shadow",
+      "speciesName": "Milotic (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "water",
@@ -77693,9 +78121,68 @@
         "TACKLE",
         "DRAGON_BREATH"
       ],
+      "level25CP": 592,
       "released": true,
       "speciesId": "deino",
       "speciesName": "Deino",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "dark",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 116,
+        "def": 93,
+        "hp": 141
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "CRUNCH",
+        "BODY_SLAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          18.5,
+          4,
+          15,
+          7
+        ]
+      },
+      "dex": 633,
+      "family": {
+        "evolutions": [
+          "zweilous_shadow"
+        ],
+        "id": "FAMILY_DEINO"
+      },
+      "fastMoves": [
+        "TACKLE",
+        "DRAGON_BREATH"
+      ],
+      "released": true,
+      "speciesId": "deino_shadow",
+      "speciesName": "Deino (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "dark",
@@ -77746,10 +78233,71 @@
         "BITE",
         "DRAGON_BREATH"
       ],
+      "level25CP": 1093,
       "released": true,
       "searchPriority": 3,
       "speciesId": "zweilous",
       "speciesName": "Zweilous",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "dark",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 159,
+        "def": 135,
+        "hp": 176
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "DARK_PULSE",
+        "BODY_SLAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          30.5,
+          5,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          10.5,
+          4,
+          10,
+          9
+        ]
+      },
+      "dex": 634,
+      "family": {
+        "evolutions": [
+          "hydreigon_shadow"
+        ],
+        "id": "FAMILY_DEINO",
+        "parent": "deino_shadow"
+      },
+      "fastMoves": [
+        "BITE",
+        "DRAGON_BREATH"
+      ],
+      "released": true,
+      "searchPriority": 3,
+      "speciesId": "zweilous_shadow",
+      "speciesName": "Zweilous (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "dark",
@@ -77801,9 +78349,70 @@
         "BITE",
         "DRAGON_BREATH"
       ],
+      "level25CP": 2274,
       "released": true,
       "speciesId": "hydreigon",
       "speciesName": "Hydreigon",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "dark",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 256,
+        "def": 188,
+        "hp": 211
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "DARK_PULSE",
+        "FLASH_CANNON",
+        "BRUTAL_SWING"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          15,
+          7,
+          14,
+          14
+        ],
+        "cp2500": [
+          25,
+          6,
+          15,
+          14
+        ],
+        "cp500": [
+          5.5,
+          4,
+          7,
+          6
+        ]
+      },
+      "dex": 635,
+      "eliteMoves": [
+        "BRUTAL_SWING"
+      ],
+      "family": {
+        "id": "FAMILY_DEINO",
+        "parent": "zweilous_shadow"
+      },
+      "fastMoves": [
+        "BITE",
+        "DRAGON_BREATH"
+      ],
+      "released": true,
+      "speciesId": "hydreigon_shadow",
+      "speciesName": "Hydreigon (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "dark",
@@ -78121,11 +78730,64 @@
         "BITE",
         "AIR_SLASH"
       ],
+      "level25CP": 2083,
       "released": true,
       "speciesId": "tornadus_incarnate",
       "speciesName": "Tornadus (Incarnate)",
       "tags": [
-        "legendary"
+        "legendary",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "flying",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 266,
+        "def": 164,
+        "hp": 188
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "GRASS_KNOT",
+        "DARK_PULSE",
+        "HYPER_BEAM",
+        "HURRICANE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          16.5,
+          7,
+          12,
+          10
+        ],
+        "cp2500": [
+          27.5,
+          5,
+          14,
+          9
+        ],
+        "cp500": [
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "dex": 641,
+      "fastMoves": [
+        "BITE",
+        "AIR_SLASH"
+      ],
+      "released": true,
+      "speciesId": "tornadus_incarnate_shadow",
+      "speciesName": "Tornadus (Incarnate) (Shadow)",
+      "tags": [
+        "legendary",
+        "shadow"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -80675,7 +81337,8 @@
         "PETAL_BLIZZARD",
         "PSYCHIC",
         "DISARMING_VOICE",
-        "TRAILBLAZE"
+        "TRAILBLAZE",
+        "CHILLING_WATER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -80698,6 +81361,9 @@
         ]
       },
       "dex": 671,
+      "eliteMoves": [
+        "CHILLING_WATER"
+      ],
       "family": {
         "id": "FAMILY_FLABEBE",
         "parent": "floette"
@@ -85756,7 +86422,7 @@
       ],
       "level25CP": 1001,
       "released": true,
-      "searchPriority": 8,
+      "searchPriority": 7,
       "speciesId": "charjabug",
       "speciesName": "Charjabug",
       "tags": [
@@ -85817,7 +86483,7 @@
         "VOLT_SWITCH"
       ],
       "released": true,
-      "searchPriority": 8,
+      "searchPriority": 7,
       "speciesId": "charjabug_shadow",
       "speciesName": "Charjabug (Shadow)",
       "tags": [
@@ -94939,57 +95605,6 @@
     },
     {
       "baseStats": {
-        "atk": 208,
-        "def": 166,
-        "hp": 155
-      },
-      "buddyDistance": 3,
-      "chargedMoves": [
-        "PSYBEAM",
-        "PSYCHIC",
-        "SHADOW_BALL"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          22.5,
-          5,
-          15,
-          14
-        ],
-        "cp2500": [
-          46.5,
-          4,
-          13,
-          14
-        ],
-        "cp2500l40": [
-          40,
-          15,
-          15,
-          15
-        ],
-        "cp500": [
-          8,
-          4,
-          10,
-          5
-        ]
-      },
-      "dex": 876,
-      "fastMoves": [
-        "EXTRASENSORY"
-      ],
-      "released": false,
-      "speciesId": "indeedee",
-      "speciesName": "Indeedee",
-      "thirdMoveCost": 50000,
-      "types": [
-        "psychic",
-        "normal"
-      ]
-    },
-    {
-      "baseStats": {
         "atk": 184,
         "def": 184,
         "hp": 172
@@ -95030,7 +95645,8 @@
       "fastMoves": [
         "EXTRASENSORY"
       ],
-      "released": false,
+      "levelFloor": 20,
+      "released": true,
       "speciesId": "indeedee_female",
       "speciesName": "Indeedee (Female)",
       "thirdMoveCost": 50000,
@@ -95081,7 +95697,8 @@
       "fastMoves": [
         "EXTRASENSORY"
       ],
-      "released": false,
+      "levelFloor": 20,
+      "released": true,
       "speciesId": "indeedee_male",
       "speciesName": "Indeedee (Male)",
       "thirdMoveCost": 50000,
@@ -103954,8 +104571,19 @@
     "toucannon",
     "grubbin",
     "charjabug",
-    "vikavolt"
+    "vikavolt",
+    "qwilfish",
+    "swablu",
+    "altaria",
+    "baltoy",
+    "claydol",
+    "deino",
+    "zweilous",
+    "hydreigon",
+    "tornadus_incarnate",
+    "feebas",
+    "milotic"
   ],
-  "timestamp": "2025-09-09 21:47:25",
+  "timestamp": "2025-09-17 01:43:53",
   "title": "Default"
 }
