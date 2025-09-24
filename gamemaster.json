@@ -3237,6 +3237,67 @@
       "exclude": [
         {
           "filterType": "type",
+          "name": "Type",
+          "values": [
+            "dark",
+            "electric",
+            "steel",
+            "ice"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "corsola_galarian",
+            "rapidash_galarian",
+            "togetic"
+          ]
+        }
+      ],
+      "excludeLowPokemon": 1,
+      "include": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "dragon",
+            "flying",
+            "psychic"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "togekiss",
+            "jellicent",
+            "trevenant",
+            "marowak_alolan",
+            "marowak_alolan_shadow",
+            "seaking",
+            "primeape",
+            "primeape_shadow"
+          ]
+        }
+      ],
+      "league": 1500,
+      "name": "metamorphosis",
+      "overrides": [],
+      "title": "Metamorphosis",
+      "useDefaultMovesets": 1
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "type",
           "values": [
             "ground",
             "flying",
@@ -4450,7 +4511,7 @@
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
+        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": false,
@@ -4472,9 +4533,9 @@
       "cup": "willpower",
       "meta": "willpower",
       "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Fighting-, Psychic-, and Dark-type Pokémon will be eligible.",
-        "The following Pokémon will not be allowed: Gardevoir, Zorua, Zoroark"
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Fighting-,  Psychic-,  and Dark-type Pokémon will be eligible.",
+        "The following Pokémon will not be allowed: Gardevoir,  Zorua,  Zoroark"
       ],
       "showCup": true,
       "showFormat": true,
@@ -4499,8 +4560,8 @@
       "cup": "fantasy",
       "meta": "fantasy",
       "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Dragon-, Steel-, and Fairy-type Pokémon are eligible."
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."
       ],
       "showCup": true,
       "showFormat": true,
@@ -4554,21 +4615,12 @@
     },
     {
       "cp": 1500,
-      "cup": "ascension",
-      "meta": "ascension",
+      "cup": "metamorphosis",
+      "meta": "metamorphosis",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Devon Ascension Cup"
-    },
-    {
-      "cp": 1500,
-      "cup": "devonchampionship",
-      "meta": "devonchampionship",
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Devon (Championship Invitational S2)"
+      "title": "Devon Metamorphosis Cup"
     },
     {
       "cp": 1500,
@@ -5019,7 +5071,7 @@
     {
       "abbreviation": "BkS",
       "archetype": "Debuff",
-      "buffApplyChance": 1,
+      "buffApplyChance": "1",
       "buffTarget": "opponent",
       "buffs": [
         -1,
@@ -7783,7 +7835,7 @@
     {
       "abbreviation": "ScS",
       "archetype": "Debuff",
-      "buffApplyChance": 0.1,
+      "buffApplyChance": "0.1",
       "buffTarget": "opponent",
       "buffs": [
         -1,
@@ -9757,7 +9809,7 @@
         "zard"
       ],
       "released": true,
-      "searchPriority": 8,
+      "searchPriority": 6,
       "speciesId": "charizard_shadow",
       "speciesName": "Charizard (Shadow)",
       "tags": [
@@ -27042,7 +27094,7 @@
         "gary"
       ],
       "released": true,
-      "searchPriority": 9,
+      "searchPriority": 6,
       "speciesId": "gyarados_shadow",
       "speciesName": "Gyarados (Shadow)",
       "tags": [
@@ -34904,6 +34956,12 @@
         ]
       },
       "dex": 206,
+      "family": {
+        "evolutions": [
+          "dudunsparce"
+        ],
+        "id": "FAMILY_DUNSPARCE"
+      },
       "fastMoves": [
         "ASTONISH",
         "BITE",
@@ -57986,7 +58044,7 @@
         "MUD_SLAP"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 9,
       "speciesId": "gastrodon",
       "speciesName": "Gastrodon",
       "tags": [
@@ -63280,6 +63338,7 @@
         "HEX"
       ],
       "released": true,
+      "searchPriority": 5,
       "speciesId": "dusknoir_shadow",
       "speciesName": "Dusknoir (Shadow)",
       "tags": [
@@ -91312,7 +91371,7 @@
         "dusk mane"
       ],
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 4,
       "speciesId": "necrozma_dusk_mane",
       "speciesName": "Necrozma (Dusk Mane)",
       "tags": [
@@ -102379,67 +102438,6 @@
       ]
     },
     {
-      "aliasId": "clodsire",
-      "baseStats": {
-        "atk": 127,
-        "def": 151,
-        "hp": 277
-      },
-      "buddyDistance": 3,
-      "chargedMoves": [
-        "SLUDGE_BOMB",
-        "EARTHQUAKE",
-        "STONE_EDGE",
-        "ACID_SPRAY",
-        "WATER_PULSE",
-        "MEGAHORN"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          29.5,
-          4,
-          14,
-          10
-        ],
-        "cp2500": [
-          50,
-          15,
-          15,
-          15
-        ],
-        "cp500": [
-          10,
-          4,
-          6,
-          15
-        ]
-      },
-      "dex": 980,
-      "eliteMoves": [
-        "MEGAHORN"
-      ],
-      "family": {
-        "id": "FAMILY_WOOPER_PALDEAN",
-        "parent": "wooper_paldean"
-      },
-      "fastMoves": [
-        "POISON_STING",
-        "MUD_SHOT"
-      ],
-      "released": true,
-      "speciesId": "clodsiresb",
-      "speciesName": "Clodsire",
-      "tags": [
-        "duplicate",
-        "duplicate1500"
-      ],
-      "thirdMoveCost": 50000,
-      "types": [
-        "poison",
-        "ground"
-      ]
-    },
-    {
       "baseStats": {
         "atk": 209,
         "def": 136,
@@ -102533,111 +102531,9 @@
         "ASTONISH",
         "ROLLOUT"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "dudunsparce",
       "speciesName": "Dudunsparce",
-      "thirdMoveCost": 50000,
-      "types": [
-        "normal",
-        "none"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 188,
-        "def": 150,
-        "hp": 268
-      },
-      "buddyDistance": 3,
-      "chargedMoves": [
-        "DIG",
-        "ROCK_SLIDE",
-        "DRILL_RUN"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          20.5,
-          4,
-          13,
-          12
-        ],
-        "cp2500": [
-          38,
-          4,
-          15,
-          11
-        ],
-        "cp500": [
-          7,
-          4,
-          14,
-          10
-        ]
-      },
-      "dex": 982,
-      "family": {
-        "id": "FAMILY_DUNSPARCE",
-        "parent": "dunsparce"
-      },
-      "fastMoves": [
-        "BITE",
-        "ASTONISH",
-        "ROLLOUT"
-      ],
-      "released": false,
-      "speciesId": "dudunsparce_three",
-      "speciesName": "Dudunsparce_three",
-      "thirdMoveCost": 50000,
-      "types": [
-        "normal",
-        "none"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 188,
-        "def": 150,
-        "hp": 268
-      },
-      "buddyDistance": 3,
-      "chargedMoves": [
-        "DIG",
-        "ROCK_SLIDE",
-        "DRILL_RUN"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          20.5,
-          4,
-          13,
-          12
-        ],
-        "cp2500": [
-          38,
-          4,
-          15,
-          11
-        ],
-        "cp500": [
-          7,
-          4,
-          14,
-          10
-        ]
-      },
-      "dex": 982,
-      "family": {
-        "id": "FAMILY_DUNSPARCE",
-        "parent": "dunsparce"
-      },
-      "fastMoves": [
-        "BITE",
-        "ASTONISH",
-        "ROLLOUT"
-      ],
-      "released": false,
-      "speciesId": "dudunsparce_two",
-      "speciesName": "Dudunsparce_two",
       "thirdMoveCost": 50000,
       "types": [
         "normal",
@@ -104584,6 +104480,6 @@
     "feebas",
     "milotic"
   ],
-  "timestamp": "2025-09-17 01:43:53",
+  "timestamp": "2025-09-23 17:26:47",
   "title": "Default"
 }
