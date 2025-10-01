@@ -3155,6 +3155,42 @@
     {
       "exclude": [
         {
+          "filterType": "id",
+          "values": [
+            "gligar",
+            "stunfisk_galarian"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "normal",
+            "grass",
+            "electric",
+            "poison",
+            "ground",
+            "flying",
+            "bug",
+            "dark"
+          ]
+        }
+      ],
+      "name": "jungle",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Jungle Cup"
+    },
+    {
+      "exclude": [
+        {
           "filterType": "type",
           "values": [
             "dark",
@@ -4530,33 +4566,6 @@
     },
     {
       "cp": 1500,
-      "cup": "willpower",
-      "meta": "willpower",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Fighting-,  Psychic-,  and Dark-type Pokémon will be eligible.",
-        "The following Pokémon will not be allowed: Gardevoir,  Zorua,  Zoroark"
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Willpower Cup"
-    },
-    {
-      "cp": 10000,
-      "cup": "mega",
-      "meta": "mega",
-      "rules": [
-        "No CP limit.",
-        "Mega-Evolved Pokémon are allowed."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Mega Master League"
-    },
-    {
-      "cp": 1500,
       "cup": "fantasy",
       "meta": "fantasy",
       "rules": [
@@ -4567,6 +4576,34 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Fantasy Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "jungle",
+      "meta": "jungle",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Normal-,  Grass-,  Electric-,  Poison-,  Ground-,  Flying-,  Bug-,  and Dark-type Pokémon are eligible.",
+        "The following Pokémon will not be allowed: Gligar,  Galarian Stunfisk"
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Jungle Cup"
+    },
+    {
+      "cp": 10000,
+      "cup": "mega",
+      "hideRankings": true,
+      "meta": "mega",
+      "rules": [
+        "No CP limit.",
+        "Mega-Evolved Pokémon are allowed."
+      ],
+      "showCup": false,
+      "showFormat": false,
+      "showMeta": false,
+      "title": "Mega Master League"
     },
     {
       "cp": 1500,
@@ -96229,7 +96266,7 @@
         "DRAGON_TAIL",
         "METAL_CLAW"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "duraludon",
       "speciesName": "Duraludon",
       "thirdMoveCost": 75000,
@@ -104480,6 +104517,6 @@
     "feebas",
     "milotic"
   ],
-  "timestamp": "2025-09-23 17:26:47",
+  "timestamp": "2025-09-29 19:14:52",
   "title": "Default"
 }
