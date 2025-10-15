@@ -241,7 +241,13 @@
             "latias_mega",
             "rayquaza_mega",
             "zacian_crowned_sword",
-            "zamazenta_crowned_shield"
+            "zamazenta_crowned_shield",
+            "metagross_mega",
+            "palkia_origin",
+            "groudon",
+            "dialga_origin",
+            "florges",
+            "salamence_mega"
           ]
         }
       ],
@@ -253,7 +259,13 @@
       "exclude": [
         {
           "filterType": "id",
-          "values": []
+          "values": [
+            "bellibolt",
+            "florges",
+            "cradily",
+            "corviknight",
+            "dusknoir"
+          ]
         }
       ],
       "include": [],
@@ -2807,6 +2819,32 @@
       ],
       "include": [
         {
+          "filterType": "type",
+          "values": [
+            "poison",
+            "ghost",
+            "bug",
+            "dark",
+            "fairy"
+          ]
+        }
+      ],
+      "name": "halloween",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Halloween Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "include": [
+        {
           "filterType": "dex",
           "values": [
             387,
@@ -3508,25 +3546,24 @@
           ],
           "values": [
             "blastoise",
-            "wigglytuff",
+            "primeape",
             "marowak",
-            "weezing_galarian",
-            "lapras",
-            "feraligatr",
             "azumarill",
-            "jumpluff",
-            "sableye",
+            "dunsparce",
+            "scizor",
+            "corsola_galarian",
+            "altaria",
             "cradily",
+            "dusclops",
+            "empoleon",
+            "bastiodon",
             "gastrodon",
-            "drapion",
-            "serperior",
-            "mandibuzz",
+            "togekiss",
+            "stunfisk",
             "talonflame",
-            "malamar",
-            "golisopod",
-            "morpeko_full_belly",
-            "annihilape",
-            "clodsire"
+            "dedenne",
+            "corviknight",
+            "annihilape"
           ]
         },
         {
@@ -4493,25 +4530,12 @@
     },
     {
       "cp": 1500,
-      "cup": "fantasy",
-      "meta": "fantasy",
-      "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Dragon-, Steel-, and Fairy-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Fantasy Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "jungle",
       "meta": "jungle",
       "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Normal-, Grass-, Electric-, Poison-, Ground-, Flying-, Bug-, and Dark-type Pokémon are eligible.",
-        "The following Pokémon will not be allowed: Gligar, Galarian Stunfisk"
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Normal-,  Grass-,  Electric-,  Poison-,  Ground-,  Flying-,  Bug-,  and Dark-type Pokémon are eligible.",
+        "The following Pokémon will not be allowed: Gligar,  Galarian Stunfisk"
       ],
       "showCup": true,
       "showFormat": true,
@@ -4524,12 +4548,39 @@
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
+        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
       "title": "Master Premier"
+    },
+    {
+      "cp": 1500,
+      "cup": "remix",
+      "meta": "remix",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "The following Pokémon will not be allowed: Blastoise,  Primeape,  Marowak,  Azumarill,  Dunsparce,  Scizor,  Galarian Corsola,  Altaria,  Cradily,  Dusclops,  Empoleon,  Bastiodon,  Gastrodon,  Togekiss,  Stunfisk,  Talonflame,  Dedenne,  Corviknight,  Annihilape"
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Great League Remix"
+    },
+    {
+      "cp": 1500,
+      "cup": "halloween",
+      "hideRankings": true,
+      "meta": "halloween",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Poison-,  Bug-,  Ghost-,  Dark-,  and Fairy-type Pokémon are eligible."
+      ],
+      "showCup": false,
+      "showFormat": false,
+      "showMeta": false,
+      "title": "Halloween Cup"
     },
     {
       "cp": 10000,
@@ -74012,6 +74063,9 @@
         ]
       },
       "dex": 579,
+      "eliteMoves": [
+        "CHARM"
+      ],
       "family": {
         "id": "FAMILY_SOLOSIS",
         "parent": "duosion"
@@ -74033,7 +74087,8 @@
         "HIDDEN_POWER_ROCK",
         "HIDDEN_POWER_STEEL",
         "HIDDEN_POWER_WATER",
-        "ZEN_HEADBUTT"
+        "ZEN_HEADBUTT",
+        "CHARM"
       ],
       "level25CP": 1806,
       "released": true,
@@ -74082,6 +74137,9 @@
         ]
       },
       "dex": 579,
+      "eliteMoves": [
+        "CHARM"
+      ],
       "family": {
         "id": "FAMILY_SOLOSIS",
         "parent": "duosion_shadow"
@@ -74103,7 +74161,8 @@
         "HIDDEN_POWER_ROCK",
         "HIDDEN_POWER_STEEL",
         "HIDDEN_POWER_WATER",
-        "ZEN_HEADBUTT"
+        "ZEN_HEADBUTT",
+        "CHARM"
       ],
       "released": true,
       "speciesId": "reuniclus_shadow",
@@ -93509,7 +93568,8 @@
       "family": {
         "evolutions": [
           "flapple",
-          "appletun"
+          "appletun",
+          "dipplin"
         ],
         "id": "FAMILY_APPLIN"
       },
@@ -96199,6 +96259,12 @@
         ]
       },
       "dex": 884,
+      "family": {
+        "evolutions": [
+          "archaludon"
+        ],
+        "id": "FAMILY_DURALUDON"
+      },
       "fastMoves": [
         "DRAGON_TAIL",
         "METAL_CLAW"
@@ -103811,6 +103877,852 @@
         "electric",
         "dragon"
       ]
+    },
+    {
+      "baseStats": {
+        "atk": 233,
+        "def": 171,
+        "hp": 203
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          18,
+          4,
+          14,
+          7
+        ],
+        "cp2500": [
+          29.5,
+          4,
+          14,
+          14
+        ],
+        "cp500": [
+          6,
+          9,
+          15,
+          13
+        ]
+      },
+      "dex": 1009,
+      "fastMoves": [
+        "SPLASH"
+      ],
+      "nicknames": [
+        "wake"
+      ],
+      "released": false,
+      "speciesId": "walking_wake",
+      "speciesName": "Walking Wake",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "water",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 236,
+        "def": 194,
+        "hp": 189
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          17,
+          4,
+          15,
+          14
+        ],
+        "cp2500": [
+          28.5,
+          4,
+          13,
+          13
+        ],
+        "cp500": [
+          6,
+          4,
+          7,
+          14
+        ]
+      },
+      "dex": 1010,
+      "fastMoves": [
+        "SPLASH"
+      ],
+      "released": false,
+      "speciesId": "iron_leaves",
+      "speciesName": "Iron Leaves",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "grass",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 173,
+        "def": 184,
+        "hp": 190
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "OUTRAGE",
+        "SEED_BOMB"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          23.5,
+          4,
+          15,
+          15
+        ],
+        "cp2500": [
+          49,
+          4,
+          15,
+          15
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          8,
+          4,
+          14,
+          14
+        ]
+      },
+      "dex": 1011,
+      "family": {
+        "evolutions": [
+          "hydrapple"
+        ],
+        "id": "FAMILY_APPLIN",
+        "parent": "applin"
+      },
+      "fastMoves": [
+        "BULLET_SEED",
+        "DRAGON_TAIL",
+        "ROLLOUT"
+      ],
+      "released": true,
+      "speciesId": "dipplin",
+      "speciesName": "Dipplin",
+      "thirdMoveCost": 75000,
+      "types": [
+        "grass",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 134,
+        "def": 96,
+        "hp": 120
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "ENERGY_BALL",
+        "POLTERGEIST"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          16.5,
+          6,
+          15,
+          13
+        ]
+      },
+      "dex": 1012,
+      "family": {
+        "id": "FAMILY_SINISTCHA",
+        "parent": "sinistcha"
+      },
+      "fastMoves": [
+        "ASTONISH",
+        "MAGICAL_LEAF"
+      ],
+      "released": false,
+      "speciesId": "poltchageist",
+      "speciesName": "Poltchageist",
+      "thirdMoveCost": 50000,
+      "types": [
+        "grass",
+        "ghost"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 225,
+        "def": 191,
+        "hp": 174
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "ENERGY_BALL",
+        "POLTERGEIST"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          18.5,
+          5,
+          15,
+          15
+        ],
+        "cp2500": [
+          32,
+          5,
+          15,
+          13
+        ],
+        "cp500": [
+          6.5,
+          4,
+          13,
+          11
+        ]
+      },
+      "dex": 1013,
+      "family": {
+        "evolutions": [
+          "poltchageist"
+        ],
+        "id": "FAMILY_SINISTCHA"
+      },
+      "fastMoves": [
+        "ASTONISH",
+        "MAGICAL_LEAF"
+      ],
+      "released": false,
+      "speciesId": "sinistcha",
+      "speciesName": "Sinistcha",
+      "thirdMoveCost": 50000,
+      "types": [
+        "grass",
+        "ghost"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 220,
+        "def": 191,
+        "hp": 186
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "SUPER_POWER",
+        "UPPER_HAND",
+        "SLUDGE_BOMB"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          18.5,
+          5,
+          14,
+          13
+        ],
+        "cp2500": [
+          31.5,
+          5,
+          14,
+          14
+        ],
+        "cp500": [
+          6.5,
+          4,
+          6,
+          14
+        ]
+      },
+      "dex": 1014,
+      "fastMoves": [
+        "POISON_JAB",
+        "FORCE_PALM"
+      ],
+      "released": false,
+      "speciesId": "okidogi",
+      "speciesName": "Okidogi",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "poison",
+        "fighting"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 238,
+        "def": 157,
+        "hp": 186
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "SLUDGE_BOMB",
+        "FUTURE_SIGHT",
+        "PSYCHIC"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          19,
+          6,
+          15,
+          5
+        ],
+        "cp2500": [
+          33.5,
+          5,
+          13,
+          8
+        ],
+        "cp500": [
+          6.5,
+          7,
+          10,
+          11
+        ]
+      },
+      "dex": 1015,
+      "fastMoves": [
+        "POISON_JAB",
+        "CONFUSION"
+      ],
+      "released": false,
+      "speciesId": "munkidori",
+      "speciesName": "Munkidori",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "poison",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 169,
+        "def": 208,
+        "hp": 186
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "SLUDGE_BOMB",
+        "MOONBLAST",
+        "DISARMING_VOICE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          23,
+          5,
+          12,
+          13
+        ],
+        "cp2500": [
+          48,
+          4,
+          10,
+          14
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          8,
+          4,
+          6,
+          9
+        ]
+      },
+      "dex": 1016,
+      "fastMoves": [
+        "POISON_JAB",
+        "CHARM"
+      ],
+      "released": false,
+      "speciesId": "fezandipiti",
+      "speciesName": "Fezandipiti",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "poison",
+        "fairy"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 219,
+        "def": 178,
+        "hp": 173
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "POWER_WHIP",
+        "GRASS_KNOT",
+        "PLAY_ROUGH"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          20.5,
+          4,
+          6,
+          11
+        ],
+        "cp2500": [
+          37,
+          4,
+          11,
+          13
+        ],
+        "cp500": [
+          7,
+          5,
+          6,
+          9
+        ]
+      },
+      "dex": 1017,
+      "fastMoves": [
+        "VINE_WHIP",
+        "MAGICAL_LEAF",
+        "DOUBLE_KICK"
+      ],
+      "released": false,
+      "speciesId": "ogerpon",
+      "speciesName": "Ogerpon",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "grass",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 250,
+        "def": 215,
+        "hp": 207
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "FLASH_CANNON",
+        "DRAGON_CLAW",
+        "HYPER_BEAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          14.5,
+          6,
+          15,
+          15
+        ],
+        "cp2500": [
+          24.5,
+          4,
+          15,
+          13
+        ],
+        "cp500": [
+          5,
+          13,
+          15,
+          14
+        ]
+      },
+      "dex": 1018,
+      "family": {
+        "id": "FAMILY_DURALUDON",
+        "parent": "duraludon"
+      },
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "METAL_CLAW"
+      ],
+      "released": false,
+      "speciesId": "archaludon",
+      "speciesName": "Archaludon",
+      "thirdMoveCost": 75000,
+      "types": [
+        "steel",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 216,
+        "def": 186,
+        "hp": 235
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "OUTRAGE",
+        "SEED_BOMB"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          17,
+          6,
+          15,
+          12
+        ],
+        "cp2500": [
+          28.5,
+          5,
+          12,
+          15
+        ],
+        "cp500": [
+          6,
+          4,
+          14,
+          8
+        ]
+      },
+      "dex": 1019,
+      "family": {
+        "id": "FAMILY_APPLIN",
+        "parent": "dipplin"
+      },
+      "fastMoves": [
+        "BULLET_SEED",
+        "DRAGON_TAIL",
+        "ROLLOUT"
+      ],
+      "released": true,
+      "speciesId": "hydrapple",
+      "speciesName": "Hydrapple",
+      "thirdMoveCost": 75000,
+      "types": [
+        "grass",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 205,
+        "def": 208,
+        "hp": 213
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          18,
+          4,
+          12,
+          12
+        ],
+        "cp2500": [
+          29.5,
+          4,
+          15,
+          15
+        ],
+        "cp500": [
+          6,
+          13,
+          8,
+          15
+        ]
+      },
+      "dex": 1020,
+      "fastMoves": [
+        "SPLASH"
+      ],
+      "released": false,
+      "speciesId": "gouging_fire",
+      "speciesName": "Gouging Fire",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "fire",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 235,
+        "def": 165,
+        "hp": 245
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          16.5,
+          5,
+          11,
+          11
+        ],
+        "cp2500": [
+          27,
+          5,
+          13,
+          15
+        ],
+        "cp500": [
+          5.5,
+          15,
+          13,
+          11
+        ]
+      },
+      "dex": 1021,
+      "fastMoves": [
+        "SPLASH"
+      ],
+      "released": false,
+      "speciesId": "raging_bolt",
+      "speciesName": "Raging Bolt",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "electric",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 227,
+        "def": 195,
+        "hp": 189
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          18,
+          4,
+          5,
+          15
+        ],
+        "cp2500": [
+          30,
+          4,
+          9,
+          11
+        ],
+        "cp500": [
+          6,
+          8,
+          12,
+          14
+        ]
+      },
+      "dex": 1022,
+      "fastMoves": [
+        "SPLASH"
+      ],
+      "released": false,
+      "speciesId": "iron_boulder",
+      "speciesName": "Iron Boulder",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "rock",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 221,
+        "def": 200,
+        "hp": 189
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          18,
+          7,
+          14,
+          7
+        ],
+        "cp2500": [
+          30.5,
+          5,
+          11,
+          10
+        ],
+        "cp500": [
+          6,
+          9,
+          14,
+          14
+        ]
+      },
+      "dex": 1023,
+      "fastMoves": [
+        "SPLASH"
+      ],
+      "released": false,
+      "speciesId": "iron_crown",
+      "speciesName": "Iron Crown",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "steel",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 126,
+        "def": 165,
+        "hp": 207
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "STRUGGLE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          35,
+          4,
+          14,
+          14
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          11,
+          4,
+          12,
+          10
+        ]
+      },
+      "dex": 1024,
+      "fastMoves": [
+        "SPLASH"
+      ],
+      "released": false,
+      "speciesId": "terapagos",
+      "speciesName": "Terapagos",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "normal",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 164,
+        "def": 248,
+        "hp": 186
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "GUNK_SHOT",
+        "POLTERGEIST"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          21.5,
+          6,
+          15,
+          15
+        ],
+        "cp2500": [
+          43,
+          4,
+          14,
+          15
+        ],
+        "cp2500l40": [
+          39.5,
+          12,
+          14,
+          14
+        ],
+        "cp500": [
+          7.5,
+          4,
+          10,
+          13
+        ]
+      },
+      "dex": 1025,
+      "fastMoves": [
+        "ASTONISH"
+      ],
+      "levelFloor": 15,
+      "released": false,
+      "speciesId": "pecharunt",
+      "speciesName": "Pecharunt",
+      "tags": [
+        "mythical"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "poison",
+        "ghost"
+      ]
     }
   ],
   "pokemonRegions": [
@@ -104454,6 +105366,6 @@
     "feebas",
     "milotic"
   ],
-  "timestamp": "2025-10-05 02:55:58",
+  "timestamp": "2025-10-15 01:00:24",
   "title": "Default"
 }
