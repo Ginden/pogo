@@ -243,11 +243,15 @@
             "zacian_crowned_sword",
             "zamazenta_crowned_shield",
             "metagross_mega",
+            "kyurem_white",
             "palkia_origin",
+            "reshiram",
+            "swampert_mega",
             "groudon",
             "dialga_origin",
             "florges",
-            "salamence_mega"
+            "lugia",
+            "necrozma_dusk_mane"
           ]
         }
       ],
@@ -260,11 +264,13 @@
         {
           "filterType": "id",
           "values": [
+            "togekiss",
             "bellibolt",
-            "florges",
-            "cradily",
-            "corviknight",
-            "dusknoir"
+            "forretress",
+            "moltres_galarian",
+            "gastrodon",
+            "lapras",
+            "weezing_galarian"
           ]
         }
       ],
@@ -4571,15 +4577,14 @@
     {
       "cp": 1500,
       "cup": "halloween",
-      "hideRankings": true,
       "meta": "halloween",
       "rules": [
         "Pokémon must be at or below 1, 500 CP to enter.",
         "Only Poison-,  Bug-,  Ghost-,  Dark-,  and Fairy-type Pokémon are eligible."
       ],
-      "showCup": false,
-      "showFormat": false,
-      "showMeta": false,
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
       "title": "Halloween Cup"
     },
     {
@@ -72244,9 +72249,13 @@
         "ASTONISH",
         "ZEN_HEADBUTT"
       ],
+      "level25CP": 542,
       "released": true,
       "speciesId": "yamask",
       "speciesName": "Yamask",
+      "tags": [
+        "shadoweligible"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "ghost",
@@ -72308,6 +72317,61 @@
     },
     {
       "baseStats": {
+        "atk": 95,
+        "def": 141,
+        "hp": 116
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "OMINOUS_WIND"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          20,
+          4,
+          12,
+          15
+        ]
+      },
+      "dex": 562,
+      "family": {
+        "evolutions": [
+          "cofagrigus_shadow"
+        ],
+        "id": "FAMILY_YAMASK"
+      },
+      "fastMoves": [
+        "ASTONISH",
+        "ZEN_HEADBUTT"
+      ],
+      "released": true,
+      "speciesId": "yamask_shadow",
+      "speciesName": "Yamask (Shadow)",
+      "tags": [
+        "shadow"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "ghost",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 163,
         "def": 237,
         "hp": 151
@@ -72354,12 +72418,79 @@
         "ZEN_HEADBUTT",
         "SHADOW_CLAW"
       ],
+      "level25CP": 1375,
       "nicknames": [
         "coffin"
       ],
       "released": true,
       "speciesId": "cofagrigus",
       "speciesName": "Cofagrigus",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "ghost",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 163,
+        "def": 237,
+        "hp": 151
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "PSYCHIC"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          24.5,
+          6,
+          13,
+          14
+        ],
+        "cp2500": [
+          49.5,
+          12,
+          12,
+          15
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          8.5,
+          4,
+          11,
+          9
+        ]
+      },
+      "dex": 563,
+      "family": {
+        "id": "FAMILY_YAMASK",
+        "parent": "yamask_shadow"
+      },
+      "fastMoves": [
+        "ASTONISH",
+        "ZEN_HEADBUTT",
+        "SHADOW_CLAW"
+      ],
+      "nicknames": [
+        "coffin"
+      ],
+      "released": true,
+      "speciesId": "cofagrigus_shadow",
+      "speciesName": "Cofagrigus (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "ghost",
@@ -83952,9 +84083,68 @@
         "ASTONISH",
         "TACKLE"
       ],
+      "level25CP": 632,
       "released": true,
       "speciesId": "phantump",
       "speciesName": "Phantump",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 125,
+        "def": 103,
+        "hp": 125
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "SEED_BOMB",
+        "SHADOW_BALL",
+        "FOUL_PLAY"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          17,
+          4,
+          15,
+          13
+        ]
+      },
+      "dex": 708,
+      "family": {
+        "evolutions": [
+          "trevenant_shadow"
+        ],
+        "id": "FAMILY_PHANTUMP"
+      },
+      "fastMoves": [
+        "ASTONISH",
+        "TACKLE"
+      ],
+      "released": true,
+      "speciesId": "phantump_shadow",
+      "speciesName": "Phantump (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "ghost",
@@ -84008,10 +84198,74 @@
         "SHADOW_CLAW",
         "SUCKER_PUNCH"
       ],
+      "level25CP": 1565,
       "released": true,
       "searchPriority": 6,
       "speciesId": "trevenant",
       "speciesName": "Trevenant",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "ghost",
+        "grass"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 201,
+        "def": 154,
+        "hp": 198
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "SEED_BOMB",
+        "SHADOW_BALL",
+        "FOUL_PLAY"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          22,
+          3,
+          13,
+          12
+        ],
+        "cp2500": [
+          43.5,
+          4,
+          14,
+          10
+        ],
+        "cp2500l40": [
+          39.5,
+          12,
+          14,
+          15
+        ],
+        "cp500": [
+          7.5,
+          4,
+          8,
+          15
+        ]
+      },
+      "dex": 709,
+      "family": {
+        "id": "FAMILY_PHANTUMP",
+        "parent": "phantump_shadow"
+      },
+      "fastMoves": [
+        "SHADOW_CLAW",
+        "SUCKER_PUNCH"
+      ],
+      "released": true,
+      "searchPriority": 6,
+      "speciesId": "trevenant_shadow",
+      "speciesName": "Trevenant (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "ghost",
@@ -104074,7 +104328,7 @@
         "ASTONISH",
         "MAGICAL_LEAF"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "poltchageist",
       "speciesName": "Poltchageist",
       "thirdMoveCost": 50000,
@@ -104126,6 +104380,7 @@
         "ASTONISH",
         "MAGICAL_LEAF"
       ],
+      "levelFloor": 20,
       "released": false,
       "speciesId": "sinistcha",
       "speciesName": "Sinistcha",
@@ -105364,8 +105619,12 @@
     "hydreigon",
     "tornadus_incarnate",
     "feebas",
-    "milotic"
+    "milotic",
+    "yamask",
+    "cofagrigus",
+    "phantump",
+    "trevenant"
   ],
-  "timestamp": "2025-10-15 01:00:24",
+  "timestamp": "2025-10-20 23:05:15",
   "title": "Default"
 }
