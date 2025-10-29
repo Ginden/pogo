@@ -243,15 +243,15 @@
             "zacian_crowned_sword",
             "zamazenta_crowned_shield",
             "metagross_mega",
+            "landorus_therian",
             "kyurem_white",
+            "salamence_mega",
+            "zekrom",
             "palkia_origin",
             "reshiram",
             "swampert_mega",
-            "groudon",
-            "dialga_origin",
-            "florges",
-            "lugia",
-            "necrozma_dusk_mane"
+            "kyurem_black",
+            "metagross"
           ]
         }
       ],
@@ -264,13 +264,15 @@
         {
           "filterType": "id",
           "values": [
+            "florges",
             "togekiss",
+            "corviknight",
             "bellibolt",
             "forretress",
             "moltres_galarian",
-            "gastrodon",
-            "lapras",
-            "weezing_galarian"
+            "dusknoir",
+            "feraligatr",
+            "empoleon"
           ]
         }
       ],
@@ -4535,20 +4537,6 @@
       "title": "P!P Championship Series"
     },
     {
-      "cp": 1500,
-      "cup": "jungle",
-      "meta": "jungle",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Normal-,  Grass-,  Electric-,  Poison-,  Ground-,  Flying-,  Bug-,  and Dark-type Pokémon are eligible.",
-        "The following Pokémon will not be allowed: Gligar,  Galarian Stunfisk"
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Jungle Cup"
-    },
-    {
       "cp": 10000,
       "cup": "premier",
       "meta": "premiermaster",
@@ -4586,6 +4574,20 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Halloween Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "jungle",
+      "meta": "jungle",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Normal-,  Grass-,  Electric-,  Poison-,  Ground-,  Flying-,  Bug-,  and Dark-type Pokémon are eligible.",
+        "The following Pokémon will not be allowed: Gligar,  Galarian Stunfisk"
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Jungle Cup"
     },
     {
       "cp": 10000,
@@ -105625,6 +105627,6 @@
     "phantump",
     "trevenant"
   ],
-  "timestamp": "2025-10-20 23:05:15",
+  "timestamp": "2025-10-24 18:57:35",
   "title": "Default"
 }
