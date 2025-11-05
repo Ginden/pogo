@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 * **Exclude unreleased**: true
-* **Date generated**: 2025-10-29
+* **Date generated**: 2025-11-05
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -294,8 +294,8 @@ All Pokemon are normalized to neutral damage of Rampardos using Smack Down
 * **Gholdengo** using _Astonish_ (86%)
 * **Polteageist** using _Astonish_ (85%)
 * **Dhelmise** using _Astonish_ (80%)
+* **Sinistcha** using _Astonish_ (77%)
 * **Haunter** using _Astonish_ (77%)
-* **Golurk** using _Astonish_ (76%)
 
 
 ### Highest **grass** (🌱) fast move damage: 

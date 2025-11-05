@@ -2,7 +2,7 @@
 
 * **Excluded tags**: none
 * **Exclude unreleased**: true
-* **Date generated**: 2025-10-29
+* **Date generated**: 2025-11-05
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -50,11 +50,11 @@
 
 * **Metagross (Shadow)** using _Bullet Punch_ (100%)
 * **Lucario (Mega)** using _Bullet Punch_ (100%)
+* **Metagross (Mega)** using _Bullet Punch_ (96%)
 * **Scizor (Shadow)** using _Bullet Punch_ (92%)
 * **Scizor (Mega)** using _Bullet Punch_ (90%)
 * **Sneasler (Shadow)** using _Poison Jab_ (88%)
 * **Beedrill (Mega)** using _Poison Jab_ (85%)
-* **Metagross** using _Bullet Punch_ (83%)
 
 # Anti-Fighting 💪
 
@@ -387,11 +387,11 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 
 * **Metagross (Shadow)** using _Bullet Punch_ (85%)
 * **Lucario (Mega)** using _Bullet Punch_ (85%)
+* **Metagross (Mega)** using _Bullet Punch_ (82%)
 * **Scizor (Shadow)** using _Bullet Punch_ (79%)
 * **Scizor (Mega)** using _Bullet Punch_ (77%)
 * **Metagross** using _Bullet Punch_ (71%)
 * **Archeops (Shadow)** using _Steel Wing_ (70%)
-* **Lucario** using _Bullet Punch_ (66%)
 
 
 ### Highest **water** (💧) fast move damage: 

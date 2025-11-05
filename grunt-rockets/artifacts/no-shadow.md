@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow
 * **Exclude unreleased**: true
-* **Date generated**: 2025-10-29
+* **Date generated**: 2025-11-05
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -49,12 +49,12 @@
 # Anti-Fairy 🧚
 
 * **Lucario (Mega)** using _Bullet Punch_ (100%)
+* **Metagross (Mega)** using _Bullet Punch_ (97%)
 * **Scizor (Mega)** using _Bullet Punch_ (90%)
 * **Beedrill (Mega)** using _Poison Jab_ (86%)
 * **Metagross** using _Bullet Punch_ (84%)
 * **Eternatus** using _Poison Jab_ (79%)
 * **Lucario** using _Bullet Punch_ (77%)
-* **Scizor** using _Bullet Punch_ (77%)
 
 # Anti-Fighting 💪
 
@@ -386,12 +386,12 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 
 
 * **Lucario (Mega)** using _Bullet Punch_ (85%)
+* **Metagross (Mega)** using _Bullet Punch_ (82%)
 * **Scizor (Mega)** using _Bullet Punch_ (77%)
 * **Metagross** using _Bullet Punch_ (71%)
 * **Lucario** using _Bullet Punch_ (66%)
 * **Scizor** using _Bullet Punch_ (66%)
 * **Kyurem (White)** using _Steel Wing_ (62%)
-* **Tyranitar (Mega)** using _Iron Tail_ (59%)
 
 
 ### Highest **water** (💧) fast move damage: 
