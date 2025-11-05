@@ -243,15 +243,15 @@
             "zacian_crowned_sword",
             "zamazenta_crowned_shield",
             "metagross_mega",
+            "dialga_origin",
             "landorus_therian",
+            "groudon",
+            "florges",
             "kyurem_white",
             "salamence_mega",
             "zekrom",
-            "palkia_origin",
-            "reshiram",
-            "swampert_mega",
-            "kyurem_black",
-            "metagross"
+            "charizard_mega_y",
+            "ho_oh"
           ]
         }
       ],
@@ -264,15 +264,14 @@
         {
           "filterType": "id",
           "values": [
+            "lapras",
             "florges",
+            "zygarde_complete",
+            "jellicent",
             "togekiss",
             "corviknight",
-            "bellibolt",
-            "forretress",
-            "moltres_galarian",
-            "dusknoir",
-            "feraligatr",
-            "empoleon"
+            "weezing_galarian",
+            "cresselia"
           ]
         }
       ],
@@ -4537,32 +4536,6 @@
       "title": "P!P Championship Series"
     },
     {
-      "cp": 10000,
-      "cup": "premier",
-      "meta": "premiermaster",
-      "rules": [
-        "No CP limit.",
-        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Master Premier"
-    },
-    {
-      "cp": 1500,
-      "cup": "remix",
-      "meta": "remix",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "The following Pokémon will not be allowed: Blastoise,  Primeape,  Marowak,  Azumarill,  Dunsparce,  Scizor,  Galarian Corsola,  Altaria,  Cradily,  Dusclops,  Empoleon,  Bastiodon,  Gastrodon,  Togekiss,  Stunfisk,  Talonflame,  Dedenne,  Corviknight,  Annihilape"
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Great League Remix"
-    },
-    {
       "cp": 1500,
       "cup": "halloween",
       "meta": "halloween",
@@ -4592,15 +4565,14 @@
     {
       "cp": 10000,
       "cup": "mega",
-      "hideRankings": true,
       "meta": "mega",
       "rules": [
         "No CP limit.",
         "Mega-Evolved Pokémon are allowed."
       ],
-      "showCup": false,
-      "showFormat": false,
-      "showMeta": false,
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
       "title": "Mega Master League"
     },
     {
@@ -52955,7 +52927,7 @@
         "SHADOW_CLAW"
       ],
       "level25CP": 2386,
-      "released": false,
+      "released": true,
       "searchPriority": 4,
       "speciesId": "metagross_mega",
       "speciesName": "Metagross (Mega)",
@@ -75628,9 +75600,6 @@
         "FURY_CUTTER"
       ],
       "level25CP": 1330,
-      "nicknames": [
-        "spooder"
-      ],
       "released": true,
       "searchPriority": 3,
       "speciesId": "galvantula",
@@ -75686,9 +75655,6 @@
       "fastMoves": [
         "VOLT_SWITCH",
         "FURY_CUTTER"
-      ],
-      "nicknames": [
-        "spooder"
       ],
       "released": true,
       "searchPriority": 3,
@@ -98816,7 +98782,7 @@
         "BUG_BITE",
         "STRUGGLE_BUG"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "tarountula",
       "speciesName": "Tarountula",
       "thirdMoveCost": 50000,
@@ -98865,9 +98831,11 @@
       },
       "fastMoves": [
         "BUG_BITE",
-        "COUNTER"
+        "COUNTER",
+        "SHADOW_CLAW"
       ],
-      "released": false,
+      "released": true,
+      "searchPriority": 2,
       "speciesId": "spidops",
       "speciesName": "Spidops",
       "thirdMoveCost": 50000,
@@ -104383,7 +104351,7 @@
         "MAGICAL_LEAF"
       ],
       "levelFloor": 20,
-      "released": false,
+      "released": true,
       "speciesId": "sinistcha",
       "speciesName": "Sinistcha",
       "thirdMoveCost": 50000,
@@ -105627,6 +105595,6 @@
     "phantump",
     "trevenant"
   ],
-  "timestamp": "2025-10-24 18:57:35",
+  "timestamp": "2025-11-03 16:08:07",
   "title": "Default"
 }
