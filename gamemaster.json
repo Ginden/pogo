@@ -247,11 +247,11 @@
             "palkia_origin",
             "reshiram",
             "necrozma_dusk_mane",
-            "landorus_therian",
-            "groudon",
-            "florges",
-            "scizor_mega",
-            "lugia"
+            "kyurem_white",
+            "metagross",
+            "zekrom",
+            "zygarde_complete",
+            "salamence_mega"
           ]
         }
       ],
@@ -266,13 +266,12 @@
           "values": [
             "lapras",
             "gastrodon",
-            "florges",
-            "zygarde_complete",
-            "jellicent",
-            "bellibolt",
-            "regidrago",
-            "moltres_galarian",
-            "empoleon"
+            "feraligatr",
+            "corviknight",
+            "dusknoir",
+            "cradily",
+            "forretress",
+            "blastoise"
           ]
         }
       ],
@@ -4537,33 +4536,6 @@
       "title": "P!P Championship Series"
     },
     {
-      "cp": 1500,
-      "cup": "halloween",
-      "meta": "halloween",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Poison-,  Bug-,  Ghost-,  Dark-,  and Fairy-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Halloween Cup"
-    },
-    {
-      "cp": 1500,
-      "cup": "jungle",
-      "meta": "jungle",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Normal-,  Grass-,  Electric-,  Poison-,  Ground-,  Flying-,  Bug-,  and Dark-type Pokémon are eligible.",
-        "The following Pokémon will not be allowed: Gligar,  Galarian Stunfisk"
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Jungle Cup"
-    },
-    {
       "cp": 10000,
       "cup": "mega",
       "meta": "mega",
@@ -4928,6 +4900,24 @@
       "power": 90,
       "turns": 1,
       "type": "ice"
+    },
+    {
+      "abbreviation": "BBl",
+      "archetype": "Debuff Nuke",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        -1,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 55,
+      "energyGain": 0,
+      "moveId": "BEAK_BLAST",
+      "name": "Beak Blast",
+      "power": 110,
+      "turns": 1,
+      "type": "flying"
     },
     {
       "archetype": "General",
@@ -7860,6 +7850,18 @@
       "power": 4,
       "turns": 1,
       "type": "normal"
+    },
+    {
+      "abbreviation": "SeS",
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 35,
+      "energyGain": 0,
+      "moveId": "SECRET_SWORD",
+      "name": "Secret Sword",
+      "power": 70,
+      "turns": 1,
+      "type": "fighting"
     },
     {
       "abbreviation": "SeB",
@@ -64937,13 +64939,71 @@
         "FEINT_ATTACK",
         "SNARL"
       ],
+      "level25CP": 2346,
       "levelFloor": 15,
       "released": true,
       "speciesId": "darkrai",
       "speciesName": "Darkrai",
       "tags": [
         "mythical",
-        "untradeable"
+        "untradeable",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "dark",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 285,
+        "def": 198,
+        "hp": 172
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "DARK_PULSE",
+        "FOCUS_BLAST",
+        "SHADOW_BALL",
+        "SLUDGE_BOMB"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "cp2500": [
+          24,
+          10,
+          11,
+          13
+        ],
+        "cp500": [
+          5,
+          10,
+          13,
+          15
+        ]
+      },
+      "dex": 491,
+      "eliteMoves": [
+        "SLUDGE_BOMB"
+      ],
+      "fastMoves": [
+        "FEINT_ATTACK",
+        "SNARL"
+      ],
+      "levelFloor": 15,
+      "released": true,
+      "speciesId": "darkrai_shadow",
+      "speciesName": "Darkrai (Shadow)",
+      "tags": [
+        "mythical",
+        "untradeable",
+        "shadow"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -79591,7 +79651,7 @@
         "CLOSE_COMBAT",
         "HYDRO_PUMP",
         "X_SCISSOR",
-        "SACRED_SWORD"
+        "SECRET_SWORD"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -79614,14 +79674,15 @@
         ]
       },
       "dex": 647,
-      "eliteMoves": [
-        "SACRED_SWORD"
-      ],
       "fastMoves": [
         "POISON_JAB",
         "LOW_KICK"
       ],
-      "released": false,
+      "legacyMoves": [
+        "SECRET_SWORD"
+      ],
+      "released": true,
+      "searchPriority": 2,
       "speciesId": "keldeo_resolute",
       "speciesName": "Keldeo (Resolute)",
       "tags": [
@@ -94909,7 +94970,7 @@
         "BITE",
         "SUCKER_PUNCH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "impidimp",
       "speciesName": "Impidimp",
       "thirdMoveCost": 50000,
@@ -94968,7 +95029,7 @@
         "BITE",
         "SUCKER_PUNCH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "morgrem",
       "speciesName": "Morgrem",
       "thirdMoveCost": 50000,
@@ -95020,7 +95081,7 @@
         "SUCKER_PUNCH",
         "LOW_KICK"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "grimmsnarl",
       "speciesName": "Grimmsnarl",
       "thirdMoveCost": 50000,
@@ -105594,8 +105655,9 @@
     "yamask",
     "cofagrigus",
     "phantump",
-    "trevenant"
+    "trevenant",
+    "darkrai"
   ],
-  "timestamp": "2025-11-06 23:46:42",
+  "timestamp": "2025-11-25 21:13:14",
   "title": "Default"
 }
