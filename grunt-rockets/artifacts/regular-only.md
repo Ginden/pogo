@@ -2,7 +2,7 @@
 
 * **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 * **Exclude unreleased**: true
-* **Date generated**: 2025-11-19
+* **Date generated**: 2025-11-26
 * **Excluded Pokemon**: ditto, deoxys_attack
 * **Attack IV assumed**: 15
 
@@ -209,9 +209,9 @@ All Pokemon are normalized to neutral damage of Rampardos using Smack Down
 * **Tyranitar** using _Bite_ (86%)
 * **Sharpedo** using _Bite_ (83%)
 * **Salamence** using _Bite_ (78%)
+* **Grimmsnarl** using _Sucker Punch_ (78%)
+* **Grimmsnarl** using _Bite_ (78%)
 * **Cacturne** using _Sucker Punch_ (76%)
-* **Gengar** using _Sucker Punch_ (74%)
-* **Polteageist** using _Sucker Punch_ (71%)
 
 
 ### Highest **dragon** (🐉) fast move damage: 
