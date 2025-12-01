@@ -1,16 +1,10 @@
-import { getGameMaster } from "./get-gamemaster.js";
-import {
-  damageReduction,
-  shadowBonus,
-  stab,
-  superEffectiveDamage,
-} from "./game-constants.js";
-import { capitalizeFirstLetter, percentOf } from "./helpers.js";
-import { getTypeTraits, PokemonTypeDescription } from "./get-type-traits.js";
+import { getGameMaster } from "./get-gamemaster";
+import { capitalizeFirstLetter, percentOf } from "./helpers";
+import { getTypeTraits, PokemonTypeDescription } from "./get-type-traits";
 import type { PokemonType } from "./types";
-import { typeEmoji } from "./type-emoji.js";
+import { typeEmoji } from "./type-emoji";
 import { getPokemonMoveVariants } from "./calculator/get-move-variants";
-import { getPokemon } from "./calculator/get-filtered-pokemon.js";
+import { getPokemon } from "./calculator/get-filtered-pokemon";
 import { calculateTypePairDamageModifier } from "./calculator/calculate-type-pair-damage-modifier";
 
 export type RocketFinderOptions = {
@@ -52,77 +46,52 @@ export async function rocketFinderCalculator({
    */
   const bestByDefenderType = Object.fromEntries(
     [...types].map((defendingType) => {
+      const damageData = pokemonMoveVariant.map((variant) => {
+        const attackType = variant.selectedFastAttack.type;
+        const damageModifier = calculateTypePairDamageModifier(attackType, [
+          defendingType,
+        ]);
+        return {
+          ...variant,
+          effectiveDps: variant.dps * damageModifier,
+        };
+      });
+
       return [
         defendingType as PokemonType,
-        pokemonMoveVariant.map((variant) => {
-          const attackType = variant.selectedFastAttack.type;
-          const damageModifier = calculateTypePairDamageModifier(attackType, [
-            defendingType,
-          ]);
-          return {
-            ...variant,
-            effectiveDps: variant.dps * damageModifier,
-          };
-        }),
+        damageData.toSorted((a, b) => b.effectiveDps - a.effectiveDps),
       ];
     }),
   );
 
-  const bestByAttackType: Record<PokemonType, typeof pokemonMoveVariant> =
-    Object.fromEntries(
-      [...types].map((t) => {
-        return [t as PokemonType, []];
-      }),
-    );
+  const bestByAttackType = Object.fromEntries(
+    [...types].map((t) => {
+      const variants = pokemonMoveVariant
+        .filter((variant) => variant.selectedFastAttack.type === t)
+        .sort((a, b) => b.dps - a.dps);
+      return [t as PokemonType, variants];
+    }),
+  ) as { [p in PokemonType]: typeof pokemonMoveVariant };
 
   return {
-    bestByDefenderType,
+    bestByDefenderType: bestByDefenderType as {
+      [p in PokemonType]: (typeof bestByDefenderType)[string];
+    },
     bestByAttackType,
   };
 }
 
-export async function rocketFinder(options: RocketFinderOptions) {
-  const { write, entriesLimit } = options;
-
-  const bestOfType: Record<
-    string,
-    ReturnType<typeof getPokemonMoveVariants>
-  > = Object.fromEntries([...types].map((t) => [t, []]));
-  const bestAgainstType: typeof bestOfType = JSON.parse(
-    JSON.stringify(bestOfType),
-  );
-
-  // Calculations
-  for (const type of types) {
-    bestOfType[type] = pokemonMoveVariant
-      .filter((m) => m.selectedFastAttack.type === type)
-      .sort((a, b) => a.dps - b.dps)
-      .reverse()
-      .slice(0, entriesLimit);
-    const { resistances, weaknesses, immunities } = traits[type];
-    const typesResistances = Object.fromEntries(
-      [...types].map((damageType) => [
-        damageType,
-        resistances.includes(damageType)
-          ? damageReduction
-          : immunities.includes(damageType)
-            ? damageReduction ** 2
-            : weaknesses.includes(damageType)
-              ? superEffectiveDamage
-              : 1,
-      ]),
-    );
-
-    bestAgainstType[type] = pokemonMoveVariant
-      .map((a) => ({
-        ...a,
-        dps: a.dps * typesResistances[a.selectedFastAttack.type],
-      }))
-      .sort((a, b) => a.dps - b.dps)
-      .reverse()
-      .slice(0, entriesLimit);
-  }
-
+export function markdownRocketFinderPrinter(
+  data: Awaited<ReturnType<typeof rocketFinderCalculator>>,
+  {
+    excludedTags,
+    excludeUnreleased,
+    excludedSpecies,
+    attackIv,
+    entriesLimit,
+    write,
+  }: RocketFinderOptions,
+) {
   // Printing data
 
   write("# Generation details \n");
@@ -133,13 +102,16 @@ export async function rocketFinder(options: RocketFinderOptions) {
   write(`* **Excluded Pokemon**: ${[...excludedSpecies].join(", ")}`);
   write(`* **Attack IV assumed**: ${attackIv}`);
 
-  for (const type of [...types].sort()) {
-    const emoji = typeEmoji[type];
+  for (const [type, bestVariants] of Object.entries(data.bestByDefenderType)) {
+    const emoji = typeEmoji[type as PokemonType];
     write(``);
     write(`# Anti-${capitalizeFirstLetter(type)} ${emoji}`);
     write("");
-    const [highestDamageVariant] = bestAgainstType[type];
-    for (const variant of bestAgainstType[type]) {
+
+    const variantsToShow = bestVariants.slice(0, entriesLimit);
+
+    const [highestDamageVariant] = variantsToShow;
+    for (const variant of variantsToShow) {
       write(
         `* **${variant.pokemon.speciesName}** using _${variant.selectedFastAttack.name}_ (${percentOf(variant.dps, highestDamageVariant.dps)})`,
       );
@@ -149,23 +121,35 @@ export async function rocketFinder(options: RocketFinderOptions) {
   write(`----`);
 
   write(`# Highest DPS by damage type`);
-  const highestDpsPokemon = pokemonMoveVariant
-    .sort((a, b) => a.dps - b.dps)
-    .reverse()
-    .shift()!;
+  const highestDpsPokemon = Object.values(data.bestByAttackType)
+    .flat()
+    .toSorted((a, b) => b.dps - a.dps)[0];
   write(
     `All Pokemon are normalized to neutral damage of ${highestDpsPokemon.pokemon.speciesName} using ${highestDpsPokemon.selectedFastAttack.name}`,
   );
 
-  for (const type of [...types].sort()) {
-    const emoji = typeEmoji[type];
+  for (const [type, bestOfType] of Object.entries(data.bestByAttackType)) {
+    const variantsToShow = bestOfType.slice(0, entriesLimit);
+    const emoji = typeEmoji[type as PokemonType];
     write("\n");
     write(`### Highest **${type}** (${emoji}) fast move damage: `);
     write("\n");
-    for (const variant of bestOfType[type]) {
+    for (const variant of variantsToShow) {
       write(
         `* **${variant.pokemon.speciesName}** using _${variant.selectedFastAttack.name}_ (${percentOf(variant.dps, highestDpsPokemon.dps)})`,
       );
     }
   }
+}
+
+export async function generateRocketMarkdownReport(
+  options: RocketFinderOptions,
+) {
+  const data = await rocketFinderCalculator(options);
+  markdownRocketFinderPrinter(data, options);
+}
+
+export async function generateRocketDebugReport(options: RocketFinderOptions) {
+  const data = await rocketFinderCalculator(options);
+  options.write(JSON.stringify(data, null, 2));
 }

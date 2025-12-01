@@ -1,4 +1,4 @@
-import { rocketFinder, RocketFinderOptions } from "./rocket-finder.js";
+import {generateRocketMarkdownReport, RocketFinderOptions} from "./rocket-finder";
 import { mkdir } from "fs/promises";
 import { writeFile } from "node:fs/promises";
 
@@ -71,7 +71,7 @@ await mkdir(outputDirectory, { recursive: true });
 for (const { options, linkDescription, fileName } of variants) {
   const filePath = `${outputDirectory}/${fileName}.md`;
   const contentArray: string[] = [];
-  await rocketFinder({
+  await generateRocketMarkdownReport({
     ...options,
     write: (data) => contentArray.push(data),
   });
