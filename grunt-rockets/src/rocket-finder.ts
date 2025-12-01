@@ -99,10 +99,10 @@ export function markdownRocketFinderPrinter(
   write(`* **Excluded Pokemon**: ${[...excludedSpecies].join(", ")}`);
   write(`* **Attack IV assumed**: ${attackIv}`);
 
-  for (const [type, bestVariants] of Object.entries(data.bestByDefenderType)) {
-    const emoji = typeEmoji[type as PokemonType];
+  for (const [defenderType, bestVariants] of Object.entries(data.bestByDefenderType)) {
+    const emoji = typeEmoji[defenderType as PokemonType];
     write(``);
-    write(`# Anti-${capitalizeFirstLetter(type)} ${emoji}`);
+    write(`# Anti-${capitalizeFirstLetter(defenderType)} ${emoji}`);
     write("");
 
     const variantsToShow = bestVariants.slice(0, entriesLimit);
@@ -110,7 +110,7 @@ export function markdownRocketFinderPrinter(
     const [highestDamageVariant] = variantsToShow;
     for (const variant of variantsToShow) {
       write(
-        `* **${variant.pokemon.speciesName}** using _${variant.selectedFastAttack.name}_ (${percentOf(variant.dps, highestDamageVariant.dps)})`,
+        `* **${variant.pokemon.speciesName}** using _${variant.selectedFastAttack.name}_ (${percentOf(variant.dps, highestDamageVariant.dps)}) (DPS=${variant.dps})`,
       );
     }
   }
@@ -133,7 +133,7 @@ export function markdownRocketFinderPrinter(
     write("\n");
     for (const variant of variantsToShow) {
       write(
-        `* **${variant.pokemon.speciesName}** using _${variant.selectedFastAttack.name}_ (${percentOf(variant.dps, highestDpsPokemon.dps)})`,
+        `* **${variant.pokemon.speciesName}** using _${variant.selectedFastAttack.name}_ (${percentOf(variant.dps, highestDpsPokemon.dps)}) (DPS=${variant.dps})`,
       );
     }
   }

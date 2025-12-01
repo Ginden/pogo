@@ -1,7 +1,7 @@
 import { type RocketFinderOptions } from "./rocket-finder.ts";
 
 export const baseOptions = {
-  entriesLimit: 7,
+  entriesLimit: 20,
   attackIv: 15,
   excludedSpecies: new Set<string>(["ditto", "deoxys_attack"]),
   excludeUnreleased: true,

@@ -27,6 +27,7 @@ jobs:
           npm ci;
           npm run build;
           npm run generate-artifacts;
+          npx prettier --write artifacts;
           git add artifacts;
           
           if ! git diff --cached --quiet; then
