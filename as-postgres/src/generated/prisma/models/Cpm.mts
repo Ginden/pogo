@@ -9,8 +9,8 @@
  * 🟢 You can import this file directly.
  */
 import type * as runtime from "@prisma/client/runtime/client"
-import type * as $Enums from "../enums.mjs"
-import type * as Prisma from "../internal/prismaNamespace.mjs"
+import type * as $Enums from "../enums.mts"
+import type * as Prisma from "../internal/prismaNamespace.mts"
 
 /**
  * Model Cpm

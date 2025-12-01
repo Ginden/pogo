@@ -9,7 +9,69 @@
 * 🟢 You can import this file directly.
 */
 
+export const PokemonType = {
+  bug: 'bug',
+  dark: 'dark',
+  dragon: 'dragon',
+  electric: 'electric',
+  fairy: 'fairy',
+  fighting: 'fighting',
+  fire: 'fire',
+  flying: 'flying',
+  ghost: 'ghost',
+  grass: 'grass',
+  ground: 'ground',
+  ice: 'ice',
+  none: 'none',
+  normal: 'normal',
+  poison: 'poison',
+  psychic: 'psychic',
+  rock: 'rock',
+  steel: 'steel',
+  water: 'water'
+} as const
+
+export type PokemonType = (typeof PokemonType)[keyof typeof PokemonType]
 
 
-// This file is empty because there are no enums in the schema.
-export {}
+export const BuffTarget = {
+  both: 'both',
+  opponent: 'opponent',
+  self: 'self'
+} as const
+
+export type BuffTarget = (typeof BuffTarget)[keyof typeof BuffTarget]
+
+
+export const MoveCategory = {
+  fast: 'fast',
+  charged: 'charged'
+} as const
+
+export type MoveCategory = (typeof MoveCategory)[keyof typeof MoveCategory]
+
+
+export const PokemonTag = {
+  alolan: 'alolan',
+  duplicate: 'duplicate',
+  duplicate1500: 'duplicate1500',
+  galarian: 'galarian',
+  hisuian: 'hisuian',
+  include1500: 'include1500',
+  include2500: 'include2500',
+  legendary: 'legendary',
+  mega: 'mega',
+  mythical: 'mythical',
+  paldean: 'paldean',
+  regional: 'regional',
+  shadow: 'shadow',
+  shadoweligible: 'shadoweligible',
+  starter: 'starter',
+  teambuilderexclude: 'teambuilderexclude',
+  ultrabeast: 'ultrabeast',
+  untradeable: 'untradeable',
+  wildlegendary: 'wildlegendary',
+  xs: 'xs'
+} as const
+
+export type PokemonTag = (typeof PokemonTag)[keyof typeof PokemonTag]

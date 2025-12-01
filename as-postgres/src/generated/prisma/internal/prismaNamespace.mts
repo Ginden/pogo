@@ -16,10 +16,10 @@
  */
 
 import * as runtime from "@prisma/client/runtime/client"
-import type * as Prisma from "../models.mjs"
-import { type PrismaClient } from "./class.mjs"
+import type * as Prisma from "../models.mts"
+import { type PrismaClient } from "./class.mts"
 
-export type * from '../models.mjs'
+export type * from '../models.mts'
 
 export type DMMF = typeof runtime.DMMF
 
@@ -385,7 +385,15 @@ type FieldRefInputType<Model, FieldType> = Model extends never ? never : FieldRe
 
 export const ModelName = {
   Cpm: 'Cpm',
-  PokemonCp: 'PokemonCp'
+  Move: 'Move',
+  Family: 'Family',
+  Pokemon: 'Pokemon',
+  PokemonMove: 'PokemonMove',
+  PokemonDefaultIv: 'PokemonDefaultIv',
+  PokemonTagLink: 'PokemonTagLink',
+  PokemonNickname: 'PokemonNickname',
+  PokemonEvolution: 'PokemonEvolution',
+  PokemonRegionDefinition: 'PokemonRegionDefinition'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -401,7 +409,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "cpm" | "pokemonCp"
+    modelProps: "cpm" | "move" | "family" | "pokemon" | "pokemonMove" | "pokemonDefaultIv" | "pokemonTagLink" | "pokemonNickname" | "pokemonEvolution" | "pokemonRegionDefinition"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -479,33 +487,669 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         }
       }
     }
-    PokemonCp: {
-      payload: Prisma.$PokemonCpPayload<ExtArgs>
-      fields: Prisma.PokemonCpFieldRefs
+    Move: {
+      payload: Prisma.$MovePayload<ExtArgs>
+      fields: Prisma.MoveFieldRefs
       operations: {
+        findUnique: {
+          args: Prisma.MoveFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MovePayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.MoveFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MovePayload>
+        }
         findFirst: {
-          args: Prisma.PokemonCpFindFirstArgs<ExtArgs>
-          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonCpPayload> | null
+          args: Prisma.MoveFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MovePayload> | null
         }
         findFirstOrThrow: {
-          args: Prisma.PokemonCpFindFirstOrThrowArgs<ExtArgs>
-          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonCpPayload>
+          args: Prisma.MoveFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MovePayload>
         }
         findMany: {
-          args: Prisma.PokemonCpFindManyArgs<ExtArgs>
-          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonCpPayload>[]
+          args: Prisma.MoveFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MovePayload>[]
+        }
+        create: {
+          args: Prisma.MoveCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MovePayload>
+        }
+        createMany: {
+          args: Prisma.MoveCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.MoveCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MovePayload>[]
+        }
+        delete: {
+          args: Prisma.MoveDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MovePayload>
+        }
+        update: {
+          args: Prisma.MoveUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MovePayload>
+        }
+        deleteMany: {
+          args: Prisma.MoveDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.MoveUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.MoveUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MovePayload>[]
+        }
+        upsert: {
+          args: Prisma.MoveUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MovePayload>
         }
         aggregate: {
-          args: Prisma.PokemonCpAggregateArgs<ExtArgs>
-          result: runtime.Types.Utils.Optional<Prisma.AggregatePokemonCp>
+          args: Prisma.MoveAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateMove>
         }
         groupBy: {
-          args: Prisma.PokemonCpGroupByArgs<ExtArgs>
-          result: runtime.Types.Utils.Optional<Prisma.PokemonCpGroupByOutputType>[]
+          args: Prisma.MoveGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MoveGroupByOutputType>[]
         }
         count: {
-          args: Prisma.PokemonCpCountArgs<ExtArgs>
-          result: runtime.Types.Utils.Optional<Prisma.PokemonCpCountAggregateOutputType> | number
+          args: Prisma.MoveCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MoveCountAggregateOutputType> | number
+        }
+      }
+    }
+    Family: {
+      payload: Prisma.$FamilyPayload<ExtArgs>
+      fields: Prisma.FamilyFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.FamilyFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$FamilyPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.FamilyFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$FamilyPayload>
+        }
+        findFirst: {
+          args: Prisma.FamilyFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$FamilyPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.FamilyFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$FamilyPayload>
+        }
+        findMany: {
+          args: Prisma.FamilyFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$FamilyPayload>[]
+        }
+        create: {
+          args: Prisma.FamilyCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$FamilyPayload>
+        }
+        createMany: {
+          args: Prisma.FamilyCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.FamilyCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$FamilyPayload>[]
+        }
+        delete: {
+          args: Prisma.FamilyDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$FamilyPayload>
+        }
+        update: {
+          args: Prisma.FamilyUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$FamilyPayload>
+        }
+        deleteMany: {
+          args: Prisma.FamilyDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.FamilyUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.FamilyUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$FamilyPayload>[]
+        }
+        upsert: {
+          args: Prisma.FamilyUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$FamilyPayload>
+        }
+        aggregate: {
+          args: Prisma.FamilyAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateFamily>
+        }
+        groupBy: {
+          args: Prisma.FamilyGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.FamilyGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.FamilyCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.FamilyCountAggregateOutputType> | number
+        }
+      }
+    }
+    Pokemon: {
+      payload: Prisma.$PokemonPayload<ExtArgs>
+      fields: Prisma.PokemonFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.PokemonFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.PokemonFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonPayload>
+        }
+        findFirst: {
+          args: Prisma.PokemonFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.PokemonFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonPayload>
+        }
+        findMany: {
+          args: Prisma.PokemonFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonPayload>[]
+        }
+        create: {
+          args: Prisma.PokemonCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonPayload>
+        }
+        createMany: {
+          args: Prisma.PokemonCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.PokemonCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonPayload>[]
+        }
+        delete: {
+          args: Prisma.PokemonDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonPayload>
+        }
+        update: {
+          args: Prisma.PokemonUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonPayload>
+        }
+        deleteMany: {
+          args: Prisma.PokemonDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.PokemonUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.PokemonUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonPayload>[]
+        }
+        upsert: {
+          args: Prisma.PokemonUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonPayload>
+        }
+        aggregate: {
+          args: Prisma.PokemonAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregatePokemon>
+        }
+        groupBy: {
+          args: Prisma.PokemonGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.PokemonCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonCountAggregateOutputType> | number
+        }
+      }
+    }
+    PokemonMove: {
+      payload: Prisma.$PokemonMovePayload<ExtArgs>
+      fields: Prisma.PokemonMoveFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.PokemonMoveFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonMovePayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.PokemonMoveFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonMovePayload>
+        }
+        findFirst: {
+          args: Prisma.PokemonMoveFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonMovePayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.PokemonMoveFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonMovePayload>
+        }
+        findMany: {
+          args: Prisma.PokemonMoveFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonMovePayload>[]
+        }
+        create: {
+          args: Prisma.PokemonMoveCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonMovePayload>
+        }
+        createMany: {
+          args: Prisma.PokemonMoveCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.PokemonMoveCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonMovePayload>[]
+        }
+        delete: {
+          args: Prisma.PokemonMoveDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonMovePayload>
+        }
+        update: {
+          args: Prisma.PokemonMoveUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonMovePayload>
+        }
+        deleteMany: {
+          args: Prisma.PokemonMoveDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.PokemonMoveUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.PokemonMoveUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonMovePayload>[]
+        }
+        upsert: {
+          args: Prisma.PokemonMoveUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonMovePayload>
+        }
+        aggregate: {
+          args: Prisma.PokemonMoveAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregatePokemonMove>
+        }
+        groupBy: {
+          args: Prisma.PokemonMoveGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonMoveGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.PokemonMoveCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonMoveCountAggregateOutputType> | number
+        }
+      }
+    }
+    PokemonDefaultIv: {
+      payload: Prisma.$PokemonDefaultIvPayload<ExtArgs>
+      fields: Prisma.PokemonDefaultIvFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.PokemonDefaultIvFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonDefaultIvPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.PokemonDefaultIvFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonDefaultIvPayload>
+        }
+        findFirst: {
+          args: Prisma.PokemonDefaultIvFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonDefaultIvPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.PokemonDefaultIvFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonDefaultIvPayload>
+        }
+        findMany: {
+          args: Prisma.PokemonDefaultIvFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonDefaultIvPayload>[]
+        }
+        create: {
+          args: Prisma.PokemonDefaultIvCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonDefaultIvPayload>
+        }
+        createMany: {
+          args: Prisma.PokemonDefaultIvCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.PokemonDefaultIvCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonDefaultIvPayload>[]
+        }
+        delete: {
+          args: Prisma.PokemonDefaultIvDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonDefaultIvPayload>
+        }
+        update: {
+          args: Prisma.PokemonDefaultIvUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonDefaultIvPayload>
+        }
+        deleteMany: {
+          args: Prisma.PokemonDefaultIvDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.PokemonDefaultIvUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.PokemonDefaultIvUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonDefaultIvPayload>[]
+        }
+        upsert: {
+          args: Prisma.PokemonDefaultIvUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonDefaultIvPayload>
+        }
+        aggregate: {
+          args: Prisma.PokemonDefaultIvAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregatePokemonDefaultIv>
+        }
+        groupBy: {
+          args: Prisma.PokemonDefaultIvGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonDefaultIvGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.PokemonDefaultIvCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonDefaultIvCountAggregateOutputType> | number
+        }
+      }
+    }
+    PokemonTagLink: {
+      payload: Prisma.$PokemonTagLinkPayload<ExtArgs>
+      fields: Prisma.PokemonTagLinkFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.PokemonTagLinkFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonTagLinkPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.PokemonTagLinkFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonTagLinkPayload>
+        }
+        findFirst: {
+          args: Prisma.PokemonTagLinkFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonTagLinkPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.PokemonTagLinkFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonTagLinkPayload>
+        }
+        findMany: {
+          args: Prisma.PokemonTagLinkFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonTagLinkPayload>[]
+        }
+        create: {
+          args: Prisma.PokemonTagLinkCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonTagLinkPayload>
+        }
+        createMany: {
+          args: Prisma.PokemonTagLinkCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.PokemonTagLinkCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonTagLinkPayload>[]
+        }
+        delete: {
+          args: Prisma.PokemonTagLinkDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonTagLinkPayload>
+        }
+        update: {
+          args: Prisma.PokemonTagLinkUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonTagLinkPayload>
+        }
+        deleteMany: {
+          args: Prisma.PokemonTagLinkDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.PokemonTagLinkUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.PokemonTagLinkUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonTagLinkPayload>[]
+        }
+        upsert: {
+          args: Prisma.PokemonTagLinkUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonTagLinkPayload>
+        }
+        aggregate: {
+          args: Prisma.PokemonTagLinkAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregatePokemonTagLink>
+        }
+        groupBy: {
+          args: Prisma.PokemonTagLinkGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonTagLinkGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.PokemonTagLinkCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonTagLinkCountAggregateOutputType> | number
+        }
+      }
+    }
+    PokemonNickname: {
+      payload: Prisma.$PokemonNicknamePayload<ExtArgs>
+      fields: Prisma.PokemonNicknameFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.PokemonNicknameFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonNicknamePayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.PokemonNicknameFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonNicknamePayload>
+        }
+        findFirst: {
+          args: Prisma.PokemonNicknameFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonNicknamePayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.PokemonNicknameFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonNicknamePayload>
+        }
+        findMany: {
+          args: Prisma.PokemonNicknameFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonNicknamePayload>[]
+        }
+        create: {
+          args: Prisma.PokemonNicknameCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonNicknamePayload>
+        }
+        createMany: {
+          args: Prisma.PokemonNicknameCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.PokemonNicknameCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonNicknamePayload>[]
+        }
+        delete: {
+          args: Prisma.PokemonNicknameDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonNicknamePayload>
+        }
+        update: {
+          args: Prisma.PokemonNicknameUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonNicknamePayload>
+        }
+        deleteMany: {
+          args: Prisma.PokemonNicknameDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.PokemonNicknameUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.PokemonNicknameUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonNicknamePayload>[]
+        }
+        upsert: {
+          args: Prisma.PokemonNicknameUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonNicknamePayload>
+        }
+        aggregate: {
+          args: Prisma.PokemonNicknameAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregatePokemonNickname>
+        }
+        groupBy: {
+          args: Prisma.PokemonNicknameGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonNicknameGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.PokemonNicknameCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonNicknameCountAggregateOutputType> | number
+        }
+      }
+    }
+    PokemonEvolution: {
+      payload: Prisma.$PokemonEvolutionPayload<ExtArgs>
+      fields: Prisma.PokemonEvolutionFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.PokemonEvolutionFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonEvolutionPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.PokemonEvolutionFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonEvolutionPayload>
+        }
+        findFirst: {
+          args: Prisma.PokemonEvolutionFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonEvolutionPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.PokemonEvolutionFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonEvolutionPayload>
+        }
+        findMany: {
+          args: Prisma.PokemonEvolutionFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonEvolutionPayload>[]
+        }
+        create: {
+          args: Prisma.PokemonEvolutionCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonEvolutionPayload>
+        }
+        createMany: {
+          args: Prisma.PokemonEvolutionCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.PokemonEvolutionCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonEvolutionPayload>[]
+        }
+        delete: {
+          args: Prisma.PokemonEvolutionDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonEvolutionPayload>
+        }
+        update: {
+          args: Prisma.PokemonEvolutionUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonEvolutionPayload>
+        }
+        deleteMany: {
+          args: Prisma.PokemonEvolutionDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.PokemonEvolutionUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.PokemonEvolutionUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonEvolutionPayload>[]
+        }
+        upsert: {
+          args: Prisma.PokemonEvolutionUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonEvolutionPayload>
+        }
+        aggregate: {
+          args: Prisma.PokemonEvolutionAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregatePokemonEvolution>
+        }
+        groupBy: {
+          args: Prisma.PokemonEvolutionGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonEvolutionGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.PokemonEvolutionCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonEvolutionCountAggregateOutputType> | number
+        }
+      }
+    }
+    PokemonRegionDefinition: {
+      payload: Prisma.$PokemonRegionDefinitionPayload<ExtArgs>
+      fields: Prisma.PokemonRegionDefinitionFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.PokemonRegionDefinitionFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonRegionDefinitionPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.PokemonRegionDefinitionFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonRegionDefinitionPayload>
+        }
+        findFirst: {
+          args: Prisma.PokemonRegionDefinitionFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonRegionDefinitionPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.PokemonRegionDefinitionFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonRegionDefinitionPayload>
+        }
+        findMany: {
+          args: Prisma.PokemonRegionDefinitionFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonRegionDefinitionPayload>[]
+        }
+        create: {
+          args: Prisma.PokemonRegionDefinitionCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonRegionDefinitionPayload>
+        }
+        createMany: {
+          args: Prisma.PokemonRegionDefinitionCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.PokemonRegionDefinitionCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonRegionDefinitionPayload>[]
+        }
+        delete: {
+          args: Prisma.PokemonRegionDefinitionDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonRegionDefinitionPayload>
+        }
+        update: {
+          args: Prisma.PokemonRegionDefinitionUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonRegionDefinitionPayload>
+        }
+        deleteMany: {
+          args: Prisma.PokemonRegionDefinitionDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.PokemonRegionDefinitionUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.PokemonRegionDefinitionUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonRegionDefinitionPayload>[]
+        }
+        upsert: {
+          args: Prisma.PokemonRegionDefinitionUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$PokemonRegionDefinitionPayload>
+        }
+        aggregate: {
+          args: Prisma.PokemonRegionDefinitionAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregatePokemonRegionDefinition>
+        }
+        groupBy: {
+          args: Prisma.PokemonRegionDefinitionGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonRegionDefinitionGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.PokemonRegionDefinitionCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.PokemonRegionDefinitionCountAggregateOutputType> | number
         }
       }
     }
@@ -558,16 +1202,121 @@ export const CpmScalarFieldEnum = {
 export type CpmScalarFieldEnum = (typeof CpmScalarFieldEnum)[keyof typeof CpmScalarFieldEnum]
 
 
-export const PokemonCpScalarFieldEnum = {
+export const MoveScalarFieldEnum = {
+  moveId: 'moveId',
+  name: 'name',
+  abbreviation: 'abbreviation',
+  archetype: 'archetype',
+  type: 'type',
+  cooldownMs: 'cooldownMs',
+  energy: 'energy',
+  energyGain: 'energyGain',
+  power: 'power',
+  turns: 'turns',
+  buffApplyChance: 'buffApplyChance',
+  buffTarget: 'buffTarget',
+  buffs: 'buffs',
+  buffsOpponent: 'buffsOpponent',
+  buffsSelf: 'buffsSelf'
+} as const
+
+export type MoveScalarFieldEnum = (typeof MoveScalarFieldEnum)[keyof typeof MoveScalarFieldEnum]
+
+
+export const FamilyScalarFieldEnum = {
+  id: 'id',
+  parentSpeciesId: 'parentSpeciesId',
+  evolutions: 'evolutions'
+} as const
+
+export type FamilyScalarFieldEnum = (typeof FamilyScalarFieldEnum)[keyof typeof FamilyScalarFieldEnum]
+
+
+export const PokemonScalarFieldEnum = {
+  speciesId: 'speciesId',
+  speciesName: 'speciesName',
+  dex: 'dex',
+  baseAtk: 'baseAtk',
+  baseDef: 'baseDef',
+  baseHp: 'baseHp',
+  typePrimary: 'typePrimary',
+  typeSecondary: 'typeSecondary',
+  released: 'released',
+  buddyDistance: 'buddyDistance',
+  level25Cp: 'level25Cp',
+  searchPriority: 'searchPriority',
+  thirdMoveCost: 'thirdMoveCost',
+  thirdMoveUnlockable: 'thirdMoveUnlockable',
+  levelFloor: 'levelFloor',
+  aliasId: 'aliasId',
+  originalFormId: 'originalFormId',
+  familyId: 'familyId',
+  familyParentSpeciesId: 'familyParentSpeciesId',
+  formChange: 'formChange',
+  shadowAvailable: 'shadowAvailable'
+} as const
+
+export type PokemonScalarFieldEnum = (typeof PokemonScalarFieldEnum)[keyof typeof PokemonScalarFieldEnum]
+
+
+export const PokemonMoveScalarFieldEnum = {
+  pokemonId: 'pokemonId',
+  moveId: 'moveId',
+  category: 'category',
+  isElite: 'isElite',
+  isLegacy: 'isLegacy'
+} as const
+
+export type PokemonMoveScalarFieldEnum = (typeof PokemonMoveScalarFieldEnum)[keyof typeof PokemonMoveScalarFieldEnum]
+
+
+export const PokemonDefaultIvScalarFieldEnum = {
+  id: 'id',
+  scenario: 'scenario',
   level: 'level',
-  levelRaw: 'levelRaw',
   attack: 'attack',
   defense: 'defense',
   stamina: 'stamina',
-  cp: 'cp'
+  pokemonId: 'pokemonId'
 } as const
 
-export type PokemonCpScalarFieldEnum = (typeof PokemonCpScalarFieldEnum)[keyof typeof PokemonCpScalarFieldEnum]
+export type PokemonDefaultIvScalarFieldEnum = (typeof PokemonDefaultIvScalarFieldEnum)[keyof typeof PokemonDefaultIvScalarFieldEnum]
+
+
+export const PokemonTagLinkScalarFieldEnum = {
+  pokemonId: 'pokemonId',
+  tag: 'tag'
+} as const
+
+export type PokemonTagLinkScalarFieldEnum = (typeof PokemonTagLinkScalarFieldEnum)[keyof typeof PokemonTagLinkScalarFieldEnum]
+
+
+export const PokemonNicknameScalarFieldEnum = {
+  id: 'id',
+  nickname: 'nickname',
+  pokemonId: 'pokemonId'
+} as const
+
+export type PokemonNicknameScalarFieldEnum = (typeof PokemonNicknameScalarFieldEnum)[keyof typeof PokemonNicknameScalarFieldEnum]
+
+
+export const PokemonEvolutionScalarFieldEnum = {
+  fromSpeciesId: 'fromSpeciesId',
+  toSpeciesId: 'toSpeciesId',
+  familyId: 'familyId'
+} as const
+
+export type PokemonEvolutionScalarFieldEnum = (typeof PokemonEvolutionScalarFieldEnum)[keyof typeof PokemonEvolutionScalarFieldEnum]
+
+
+export const PokemonRegionDefinitionScalarFieldEnum = {
+  name: 'name',
+  dexStart: 'dexStart',
+  dexEnd: 'dexEnd',
+  slug: 'slug'
+} as const
+
+export type PokemonRegionDefinitionScalarFieldEnum = (typeof PokemonRegionDefinitionScalarFieldEnum)[keyof typeof PokemonRegionDefinitionScalarFieldEnum]
 
 
 export const SortOrder = {
@@ -576,6 +1325,39 @@ export const SortOrder = {
 } as const
 
 export type SortOrder = (typeof SortOrder)[keyof typeof SortOrder]
+
+
+export const NullableJsonNullValueInput = {
+  DbNull: DbNull,
+  JsonNull: JsonNull
+} as const
+
+export type NullableJsonNullValueInput = (typeof NullableJsonNullValueInput)[keyof typeof NullableJsonNullValueInput]
+
+
+export const QueryMode = {
+  default: 'default',
+  insensitive: 'insensitive'
+} as const
+
+export type QueryMode = (typeof QueryMode)[keyof typeof QueryMode]
+
+
+export const NullsOrder = {
+  first: 'first',
+  last: 'last'
+} as const
+
+export type NullsOrder = (typeof NullsOrder)[keyof typeof NullsOrder]
+
+
+export const JsonNullValueFilter = {
+  DbNull: DbNull,
+  JsonNull: JsonNull,
+  AnyNull: AnyNull
+} as const
+
+export type JsonNullValueFilter = (typeof JsonNullValueFilter)[keyof typeof JsonNullValueFilter]
 
 
 
@@ -616,6 +1398,90 @@ export type ListFloatFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaMode
  * Reference to a field of type 'Boolean'
  */
 export type BooleanFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Boolean'>
+    
+
+
+/**
+ * Reference to a field of type 'String'
+ */
+export type StringFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'String'>
+    
+
+
+/**
+ * Reference to a field of type 'String[]'
+ */
+export type ListStringFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'String[]'>
+    
+
+
+/**
+ * Reference to a field of type 'PokemonType'
+ */
+export type EnumPokemonTypeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'PokemonType'>
+    
+
+
+/**
+ * Reference to a field of type 'PokemonType[]'
+ */
+export type ListEnumPokemonTypeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'PokemonType[]'>
+    
+
+
+/**
+ * Reference to a field of type 'BuffTarget'
+ */
+export type EnumBuffTargetFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'BuffTarget'>
+    
+
+
+/**
+ * Reference to a field of type 'BuffTarget[]'
+ */
+export type ListEnumBuffTargetFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'BuffTarget[]'>
+    
+
+
+/**
+ * Reference to a field of type 'Json'
+ */
+export type JsonFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Json'>
+    
+
+
+/**
+ * Reference to a field of type 'QueryMode'
+ */
+export type EnumQueryModeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'QueryMode'>
+    
+
+
+/**
+ * Reference to a field of type 'MoveCategory'
+ */
+export type EnumMoveCategoryFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MoveCategory'>
+    
+
+
+/**
+ * Reference to a field of type 'MoveCategory[]'
+ */
+export type ListEnumMoveCategoryFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'MoveCategory[]'>
+    
+
+
+/**
+ * Reference to a field of type 'PokemonTag'
+ */
+export type EnumPokemonTagFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'PokemonTag'>
+    
+
+
+/**
+ * Reference to a field of type 'PokemonTag[]'
+ */
+export type ListEnumPokemonTagFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'PokemonTag[]'>
     
 
 /**
@@ -698,7 +1564,15 @@ export type PrismaClientOptions = ({
 }
 export type GlobalOmitConfig = {
   cpm?: Prisma.CpmOmit
-  pokemonCp?: Prisma.PokemonCpOmit
+  move?: Prisma.MoveOmit
+  family?: Prisma.FamilyOmit
+  pokemon?: Prisma.PokemonOmit
+  pokemonMove?: Prisma.PokemonMoveOmit
+  pokemonDefaultIv?: Prisma.PokemonDefaultIvOmit
+  pokemonTagLink?: Prisma.PokemonTagLinkOmit
+  pokemonNickname?: Prisma.PokemonNicknameOmit
+  pokemonEvolution?: Prisma.PokemonEvolutionOmit
+  pokemonRegionDefinition?: Prisma.PokemonRegionDefinitionOmit
 }
 
 /* Types for Logging */

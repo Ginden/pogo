@@ -17,8 +17,8 @@
 
 import * as runtime from "@prisma/client/runtime/index-browser"
 
-export type * from '../models.mjs'
-export type * from './prismaNamespace.mjs'
+export type * from '../models.mts'
+export type * from './prismaNamespace.mts'
 
 export const Decimal = runtime.Decimal
 
@@ -52,7 +52,15 @@ export const AnyNull = runtime.AnyNull
 
 export const ModelName = {
   Cpm: 'Cpm',
-  PokemonCp: 'PokemonCp'
+  Move: 'Move',
+  Family: 'Family',
+  Pokemon: 'Pokemon',
+  PokemonMove: 'PokemonMove',
+  PokemonDefaultIv: 'PokemonDefaultIv',
+  PokemonTagLink: 'PokemonTagLink',
+  PokemonNickname: 'PokemonNickname',
+  PokemonEvolution: 'PokemonEvolution',
+  PokemonRegionDefinition: 'PokemonRegionDefinition'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -81,16 +89,121 @@ export const CpmScalarFieldEnum = {
 export type CpmScalarFieldEnum = (typeof CpmScalarFieldEnum)[keyof typeof CpmScalarFieldEnum]
 
 
-export const PokemonCpScalarFieldEnum = {
+export const MoveScalarFieldEnum = {
+  moveId: 'moveId',
+  name: 'name',
+  abbreviation: 'abbreviation',
+  archetype: 'archetype',
+  type: 'type',
+  cooldownMs: 'cooldownMs',
+  energy: 'energy',
+  energyGain: 'energyGain',
+  power: 'power',
+  turns: 'turns',
+  buffApplyChance: 'buffApplyChance',
+  buffTarget: 'buffTarget',
+  buffs: 'buffs',
+  buffsOpponent: 'buffsOpponent',
+  buffsSelf: 'buffsSelf'
+} as const
+
+export type MoveScalarFieldEnum = (typeof MoveScalarFieldEnum)[keyof typeof MoveScalarFieldEnum]
+
+
+export const FamilyScalarFieldEnum = {
+  id: 'id',
+  parentSpeciesId: 'parentSpeciesId',
+  evolutions: 'evolutions'
+} as const
+
+export type FamilyScalarFieldEnum = (typeof FamilyScalarFieldEnum)[keyof typeof FamilyScalarFieldEnum]
+
+
+export const PokemonScalarFieldEnum = {
+  speciesId: 'speciesId',
+  speciesName: 'speciesName',
+  dex: 'dex',
+  baseAtk: 'baseAtk',
+  baseDef: 'baseDef',
+  baseHp: 'baseHp',
+  typePrimary: 'typePrimary',
+  typeSecondary: 'typeSecondary',
+  released: 'released',
+  buddyDistance: 'buddyDistance',
+  level25Cp: 'level25Cp',
+  searchPriority: 'searchPriority',
+  thirdMoveCost: 'thirdMoveCost',
+  thirdMoveUnlockable: 'thirdMoveUnlockable',
+  levelFloor: 'levelFloor',
+  aliasId: 'aliasId',
+  originalFormId: 'originalFormId',
+  familyId: 'familyId',
+  familyParentSpeciesId: 'familyParentSpeciesId',
+  formChange: 'formChange',
+  shadowAvailable: 'shadowAvailable'
+} as const
+
+export type PokemonScalarFieldEnum = (typeof PokemonScalarFieldEnum)[keyof typeof PokemonScalarFieldEnum]
+
+
+export const PokemonMoveScalarFieldEnum = {
+  pokemonId: 'pokemonId',
+  moveId: 'moveId',
+  category: 'category',
+  isElite: 'isElite',
+  isLegacy: 'isLegacy'
+} as const
+
+export type PokemonMoveScalarFieldEnum = (typeof PokemonMoveScalarFieldEnum)[keyof typeof PokemonMoveScalarFieldEnum]
+
+
+export const PokemonDefaultIvScalarFieldEnum = {
+  id: 'id',
+  scenario: 'scenario',
   level: 'level',
-  levelRaw: 'levelRaw',
   attack: 'attack',
   defense: 'defense',
   stamina: 'stamina',
-  cp: 'cp'
+  pokemonId: 'pokemonId'
 } as const
 
-export type PokemonCpScalarFieldEnum = (typeof PokemonCpScalarFieldEnum)[keyof typeof PokemonCpScalarFieldEnum]
+export type PokemonDefaultIvScalarFieldEnum = (typeof PokemonDefaultIvScalarFieldEnum)[keyof typeof PokemonDefaultIvScalarFieldEnum]
+
+
+export const PokemonTagLinkScalarFieldEnum = {
+  pokemonId: 'pokemonId',
+  tag: 'tag'
+} as const
+
+export type PokemonTagLinkScalarFieldEnum = (typeof PokemonTagLinkScalarFieldEnum)[keyof typeof PokemonTagLinkScalarFieldEnum]
+
+
+export const PokemonNicknameScalarFieldEnum = {
+  id: 'id',
+  nickname: 'nickname',
+  pokemonId: 'pokemonId'
+} as const
+
+export type PokemonNicknameScalarFieldEnum = (typeof PokemonNicknameScalarFieldEnum)[keyof typeof PokemonNicknameScalarFieldEnum]
+
+
+export const PokemonEvolutionScalarFieldEnum = {
+  fromSpeciesId: 'fromSpeciesId',
+  toSpeciesId: 'toSpeciesId',
+  familyId: 'familyId'
+} as const
+
+export type PokemonEvolutionScalarFieldEnum = (typeof PokemonEvolutionScalarFieldEnum)[keyof typeof PokemonEvolutionScalarFieldEnum]
+
+
+export const PokemonRegionDefinitionScalarFieldEnum = {
+  name: 'name',
+  dexStart: 'dexStart',
+  dexEnd: 'dexEnd',
+  slug: 'slug'
+} as const
+
+export type PokemonRegionDefinitionScalarFieldEnum = (typeof PokemonRegionDefinitionScalarFieldEnum)[keyof typeof PokemonRegionDefinitionScalarFieldEnum]
 
 
 export const SortOrder = {
@@ -99,4 +212,37 @@ export const SortOrder = {
 } as const
 
 export type SortOrder = (typeof SortOrder)[keyof typeof SortOrder]
+
+
+export const NullableJsonNullValueInput = {
+  DbNull: 'DbNull',
+  JsonNull: 'JsonNull'
+} as const
+
+export type NullableJsonNullValueInput = (typeof NullableJsonNullValueInput)[keyof typeof NullableJsonNullValueInput]
+
+
+export const QueryMode = {
+  default: 'default',
+  insensitive: 'insensitive'
+} as const
+
+export type QueryMode = (typeof QueryMode)[keyof typeof QueryMode]
+
+
+export const NullsOrder = {
+  first: 'first',
+  last: 'last'
+} as const
+
+export type NullsOrder = (typeof NullsOrder)[keyof typeof NullsOrder]
+
+
+export const JsonNullValueFilter = {
+  DbNull: 'DbNull',
+  JsonNull: 'JsonNull',
+  AnyNull: 'AnyNull'
+} as const
+
+export type JsonNullValueFilter = (typeof JsonNullValueFilter)[keyof typeof JsonNullValueFilter]
 

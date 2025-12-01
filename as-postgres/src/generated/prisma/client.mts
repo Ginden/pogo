@@ -16,12 +16,12 @@ import { fileURLToPath } from 'node:url'
 globalThis['__dirname'] = path.dirname(fileURLToPath(import.meta.url))
 
 import * as runtime from "@prisma/client/runtime/client"
-import * as $Enums from "./enums.mjs"
-import * as $Class from "./internal/class.mjs"
-import * as Prisma from "./internal/prismaNamespace.mjs"
+import * as $Enums from "./enums.mts"
+import * as $Class from "./internal/class.mts"
+import * as Prisma from "./internal/prismaNamespace.mts"
 
-export * as $Enums from './enums.mjs'
-export * from "./enums.mjs"
+export * as $Enums from './enums.mts'
+export * from "./enums.mts"
 /**
  * ## Prisma Client
  * 
@@ -45,7 +45,47 @@ export { Prisma }
  */
 export type Cpm = Prisma.CpmModel
 /**
- * Model PokemonCp
+ * Model Move
  * 
  */
-export type PokemonCp = Prisma.PokemonCpModel
+export type Move = Prisma.MoveModel
+/**
+ * Model Family
+ * 
+ */
+export type Family = Prisma.FamilyModel
+/**
+ * Model Pokemon
+ * 
+ */
+export type Pokemon = Prisma.PokemonModel
+/**
+ * Model PokemonMove
+ * 
+ */
+export type PokemonMove = Prisma.PokemonMoveModel
+/**
+ * Model PokemonDefaultIv
+ * 
+ */
+export type PokemonDefaultIv = Prisma.PokemonDefaultIvModel
+/**
+ * Model PokemonTagLink
+ * 
+ */
+export type PokemonTagLink = Prisma.PokemonTagLinkModel
+/**
+ * Model PokemonNickname
+ * 
+ */
+export type PokemonNickname = Prisma.PokemonNicknameModel
+/**
+ * Model PokemonEvolution
+ * 
+ */
+export type PokemonEvolution = Prisma.PokemonEvolutionModel
+/**
+ * Model PokemonRegionDefinition
+ * 
+ */
+export type PokemonRegionDefinition = Prisma.PokemonRegionDefinitionModel

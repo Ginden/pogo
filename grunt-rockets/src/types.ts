@@ -43,8 +43,8 @@ export type GameMasterMove = {
   cooldown: number;
 };
 
-export type GameMaster = {
+export interface GameMaster {
   pokemonTags: string[];
   pokemon: GameMasterPokemon[];
   moves: GameMasterMove[];
-};
+}

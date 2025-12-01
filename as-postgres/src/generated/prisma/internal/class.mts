@@ -12,17 +12,15 @@
  */
 
 import * as runtime from "@prisma/client/runtime/client"
-import type * as Prisma from "./prismaNamespace.mjs"
+import type * as Prisma from "./prismaNamespace.mts"
 
 
 const config: runtime.GetPrismaClientConfig = {
-  "previewFeatures": [
-    "views"
-  ],
+  "previewFeatures": [],
   "clientVersion": "7.0.1",
   "engineVersion": "f09f2815f091dbba658cdcd2264306d88bb5bda6",
   "activeProvider": "postgresql",
-  "inlineSchema": "// This is your Prisma schema file,\n// learn more about it in the docs: https://pris.ly/d/prisma-schema\n\n// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?\n// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init\n\ngenerator client {\n  provider               = \"prisma-client\"\n  output                 = \"../src/generated/prisma\"\n  generatedFileExtension = \"mts\"\n  previewFeatures        = [\"views\"]\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel Cpm {\n  // Level multiplied by 2, as Pokemon Go uses half-levels\n  level    Int   @id @default(autoincrement()) @db.SmallInt\n  // 1, 1.5, 2, ..., 50.5, 51\n  levelRaw Float @db.Real\n\n  // Whether this level requires the best buddy boost to reach - only 50.5 and 51\n  requiresBestBuddyBoost Boolean @default(false) @db.Boolean\n\n  // CPM value to get CP at that level\n  cpm Float @db.Real\n}\n\nview PokemonCp {\n  // TODO: replace with actual reference\n  pokemonId Unsupported(\"\")\n\n  level    Int\n  levelRaw Float @db.Real\n  // 0-15 attack IV\n  attack   Int   @db.SmallInt\n  // 0-15 defense IV\n  defense  Int   @db.SmallInt\n  // 0-15 stamina IV\n  stamina  Int   @db.SmallInt\n\n  cp Int\n}\n",
+  "inlineSchema": "// This is your Prisma schema file,\n// learn more about it in the docs: https://pris.ly/d/prisma-schema\n\n// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?\n// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init\n\ngenerator client {\n  provider               = \"prisma-client\"\n  output                 = \"../src/generated/prisma\"\n  generatedFileExtension = \"mts\"\n}\n\ndatasource db {\n  provider = \"postgresql\"\n}\n\nmodel Cpm {\n  // Level multiplied by 2, as Pokemon Go uses half-levels\n  level    Int   @id @default(autoincrement()) @db.SmallInt\n  // 1, 1.5, 2, ..., 50.5, 51\n  levelRaw Float @db.Real\n\n  // Whether this level requires the best buddy boost to reach - only 50.5 and 51\n  requiresBestBuddyBoost Boolean @default(false) @db.Boolean\n\n  // CPM value to get CP at that level\n  cpm Float @db.Real\n}\n\nmodel Move {\n  moveId          String        @id\n  name            String\n  abbreviation    String?\n  archetype       String?\n  type            PokemonType\n  cooldownMs      Int\n  energy          Int\n  energyGain      Int\n  power           Int\n  turns           Int?\n  buffApplyChance Float?        @db.Real\n  buffTarget      BuffTarget?\n  buffs           Int[]         @default([])\n  buffsOpponent   Int[]         @default([])\n  buffsSelf       Int[]         @default([])\n  pokemon         PokemonMove[]\n}\n\nmodel Family {\n  id              String             @id\n  parentSpeciesId String?\n  evolutions      String[]           @default([])\n  pokemon         Pokemon[]\n  evolutionsOf    PokemonEvolution[]\n}\n\nmodel Pokemon {\n  speciesId             String             @id\n  speciesName           String\n  dex                   Int\n  baseAtk               Int\n  baseDef               Int\n  baseHp                Int\n  typePrimary           PokemonType\n  typeSecondary         PokemonType?\n  released              Boolean\n  buddyDistance         Int?\n  level25Cp             Int?\n  searchPriority        Int?\n  thirdMoveCost         Int?\n  thirdMoveUnlockable   Boolean            @default(false)\n  levelFloor            Int?\n  aliasId               String?\n  originalFormId        String?\n  familyId              String?\n  familyParentSpeciesId String?\n  formChange            Json?\n  shadowAvailable       Boolean            @default(false)\n  family                Family?            @relation(fields: [familyId], references: [id])\n  defaultIVs            PokemonDefaultIv[]\n  moves                 PokemonMove[]\n  tags                  PokemonTagLink[]\n  nicknames             PokemonNickname[]\n  evolutionsFrom        PokemonEvolution[] @relation(\"EvolutionFrom\")\n  evolutionsTo          PokemonEvolution[] @relation(\"EvolutionTo\")\n\n  @@index([dex])\n}\n\nmodel PokemonMove {\n  pokemonId String\n  moveId    String\n  category  MoveCategory\n  isElite   Boolean      @default(false)\n  isLegacy  Boolean      @default(false)\n\n  pokemon Pokemon @relation(fields: [pokemonId], references: [speciesId], onDelete: Cascade)\n  move    Move    @relation(fields: [moveId], references: [moveId], onDelete: Cascade)\n\n  @@id([pokemonId, moveId, category])\n}\n\nmodel PokemonDefaultIv {\n  id        Int     @id @default(autoincrement())\n  scenario  String\n  level     Float   @db.Real\n  attack    Int     @db.SmallInt\n  defense   Int     @db.SmallInt\n  stamina   Int     @db.SmallInt\n  pokemonId String\n  pokemon   Pokemon @relation(fields: [pokemonId], references: [speciesId], onDelete: Cascade)\n\n  @@unique([pokemonId, scenario])\n}\n\nmodel PokemonTagLink {\n  pokemonId String\n  tag       PokemonTag\n  pokemon   Pokemon    @relation(fields: [pokemonId], references: [speciesId], onDelete: Cascade)\n\n  @@id([pokemonId, tag])\n}\n\nmodel PokemonNickname {\n  id        Int     @id @default(autoincrement())\n  nickname  String\n  pokemonId String\n  pokemon   Pokemon @relation(fields: [pokemonId], references: [speciesId], onDelete: Cascade)\n\n  @@unique([pokemonId, nickname])\n}\n\nmodel PokemonEvolution {\n  fromSpeciesId String\n  toSpeciesId   String\n  familyId      String?\n\n  from   Pokemon @relation(\"EvolutionFrom\", fields: [fromSpeciesId], references: [speciesId], onDelete: Cascade)\n  to     Pokemon @relation(\"EvolutionTo\", fields: [toSpeciesId], references: [speciesId], onDelete: Cascade)\n  family Family? @relation(fields: [familyId], references: [id])\n\n  @@id([fromSpeciesId, toSpeciesId])\n}\n\nmodel PokemonRegionDefinition {\n  name     String @id\n  dexStart Int\n  dexEnd   Int\n  slug     String\n}\n\nenum PokemonType {\n  bug\n  dark\n  dragon\n  electric\n  fairy\n  fighting\n  fire\n  flying\n  ghost\n  grass\n  ground\n  ice\n  none\n  normal\n  poison\n  psychic\n  rock\n  steel\n  water\n}\n\nenum BuffTarget {\n  both\n  opponent\n  self\n}\n\nenum MoveCategory {\n  fast\n  charged\n}\n\nenum PokemonTag {\n  alolan\n  duplicate\n  duplicate1500\n  galarian\n  hisuian\n  include1500\n  include2500\n  legendary\n  mega\n  mythical\n  paldean\n  regional\n  shadow\n  shadoweligible\n  starter\n  teambuilderexclude\n  ultrabeast\n  untradeable\n  wildlegendary\n  xs\n}\n",
   "runtimeDataModel": {
     "models": {},
     "enums": {},
@@ -30,7 +28,7 @@ const config: runtime.GetPrismaClientConfig = {
   }
 }
 
-config.runtimeDataModel = JSON.parse("{\"models\":{\"Cpm\":{\"fields\":[{\"name\":\"level\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"levelRaw\",\"kind\":\"scalar\",\"type\":\"Float\"},{\"name\":\"requiresBestBuddyBoost\",\"kind\":\"scalar\",\"type\":\"Boolean\"},{\"name\":\"cpm\",\"kind\":\"scalar\",\"type\":\"Float\"}],\"dbName\":null},\"PokemonCp\":{\"fields\":[{\"name\":\"level\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"levelRaw\",\"kind\":\"scalar\",\"type\":\"Float\"},{\"name\":\"attack\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"defense\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"stamina\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"cp\",\"kind\":\"scalar\",\"type\":\"Int\"}],\"dbName\":null}},\"enums\":{},\"types\":{}}")
+config.runtimeDataModel = JSON.parse("{\"models\":{\"Cpm\":{\"fields\":[{\"name\":\"level\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"levelRaw\",\"kind\":\"scalar\",\"type\":\"Float\"},{\"name\":\"requiresBestBuddyBoost\",\"kind\":\"scalar\",\"type\":\"Boolean\"},{\"name\":\"cpm\",\"kind\":\"scalar\",\"type\":\"Float\"}],\"dbName\":null},\"Move\":{\"fields\":[{\"name\":\"moveId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"abbreviation\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"archetype\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"type\",\"kind\":\"enum\",\"type\":\"PokemonType\"},{\"name\":\"cooldownMs\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"energy\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"energyGain\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"power\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"turns\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"buffApplyChance\",\"kind\":\"scalar\",\"type\":\"Float\"},{\"name\":\"buffTarget\",\"kind\":\"enum\",\"type\":\"BuffTarget\"},{\"name\":\"buffs\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"buffsOpponent\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"buffsSelf\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"pokemon\",\"kind\":\"object\",\"type\":\"PokemonMove\",\"relationName\":\"MoveToPokemonMove\"}],\"dbName\":null},\"Family\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"parentSpeciesId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"evolutions\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"pokemon\",\"kind\":\"object\",\"type\":\"Pokemon\",\"relationName\":\"FamilyToPokemon\"},{\"name\":\"evolutionsOf\",\"kind\":\"object\",\"type\":\"PokemonEvolution\",\"relationName\":\"FamilyToPokemonEvolution\"}],\"dbName\":null},\"Pokemon\":{\"fields\":[{\"name\":\"speciesId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"speciesName\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"dex\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"baseAtk\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"baseDef\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"baseHp\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"typePrimary\",\"kind\":\"enum\",\"type\":\"PokemonType\"},{\"name\":\"typeSecondary\",\"kind\":\"enum\",\"type\":\"PokemonType\"},{\"name\":\"released\",\"kind\":\"scalar\",\"type\":\"Boolean\"},{\"name\":\"buddyDistance\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"level25Cp\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"searchPriority\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"thirdMoveCost\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"thirdMoveUnlockable\",\"kind\":\"scalar\",\"type\":\"Boolean\"},{\"name\":\"levelFloor\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"aliasId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"originalFormId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"familyId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"familyParentSpeciesId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"formChange\",\"kind\":\"scalar\",\"type\":\"Json\"},{\"name\":\"shadowAvailable\",\"kind\":\"scalar\",\"type\":\"Boolean\"},{\"name\":\"family\",\"kind\":\"object\",\"type\":\"Family\",\"relationName\":\"FamilyToPokemon\"},{\"name\":\"defaultIVs\",\"kind\":\"object\",\"type\":\"PokemonDefaultIv\",\"relationName\":\"PokemonToPokemonDefaultIv\"},{\"name\":\"moves\",\"kind\":\"object\",\"type\":\"PokemonMove\",\"relationName\":\"PokemonToPokemonMove\"},{\"name\":\"tags\",\"kind\":\"object\",\"type\":\"PokemonTagLink\",\"relationName\":\"PokemonToPokemonTagLink\"},{\"name\":\"nicknames\",\"kind\":\"object\",\"type\":\"PokemonNickname\",\"relationName\":\"PokemonToPokemonNickname\"},{\"name\":\"evolutionsFrom\",\"kind\":\"object\",\"type\":\"PokemonEvolution\",\"relationName\":\"EvolutionFrom\"},{\"name\":\"evolutionsTo\",\"kind\":\"object\",\"type\":\"PokemonEvolution\",\"relationName\":\"EvolutionTo\"}],\"dbName\":null},\"PokemonMove\":{\"fields\":[{\"name\":\"pokemonId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"moveId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"category\",\"kind\":\"enum\",\"type\":\"MoveCategory\"},{\"name\":\"isElite\",\"kind\":\"scalar\",\"type\":\"Boolean\"},{\"name\":\"isLegacy\",\"kind\":\"scalar\",\"type\":\"Boolean\"},{\"name\":\"pokemon\",\"kind\":\"object\",\"type\":\"Pokemon\",\"relationName\":\"PokemonToPokemonMove\"},{\"name\":\"move\",\"kind\":\"object\",\"type\":\"Move\",\"relationName\":\"MoveToPokemonMove\"}],\"dbName\":null},\"PokemonDefaultIv\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"scenario\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"level\",\"kind\":\"scalar\",\"type\":\"Float\"},{\"name\":\"attack\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"defense\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"stamina\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"pokemonId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"pokemon\",\"kind\":\"object\",\"type\":\"Pokemon\",\"relationName\":\"PokemonToPokemonDefaultIv\"}],\"dbName\":null},\"PokemonTagLink\":{\"fields\":[{\"name\":\"pokemonId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"tag\",\"kind\":\"enum\",\"type\":\"PokemonTag\"},{\"name\":\"pokemon\",\"kind\":\"object\",\"type\":\"Pokemon\",\"relationName\":\"PokemonToPokemonTagLink\"}],\"dbName\":null},\"PokemonNickname\":{\"fields\":[{\"name\":\"id\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"nickname\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"pokemonId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"pokemon\",\"kind\":\"object\",\"type\":\"Pokemon\",\"relationName\":\"PokemonToPokemonNickname\"}],\"dbName\":null},\"PokemonEvolution\":{\"fields\":[{\"name\":\"fromSpeciesId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"toSpeciesId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"familyId\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"from\",\"kind\":\"object\",\"type\":\"Pokemon\",\"relationName\":\"EvolutionFrom\"},{\"name\":\"to\",\"kind\":\"object\",\"type\":\"Pokemon\",\"relationName\":\"EvolutionTo\"},{\"name\":\"family\",\"kind\":\"object\",\"type\":\"Family\",\"relationName\":\"FamilyToPokemonEvolution\"}],\"dbName\":null},\"PokemonRegionDefinition\":{\"fields\":[{\"name\":\"name\",\"kind\":\"scalar\",\"type\":\"String\"},{\"name\":\"dexStart\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"dexEnd\",\"kind\":\"scalar\",\"type\":\"Int\"},{\"name\":\"slug\",\"kind\":\"scalar\",\"type\":\"String\"}],\"dbName\":null}},\"enums\":{},\"types\":{}}")
 
 async function decodeBase64AsWasm(wasmBase64: string): Promise<WebAssembly.Module> {
   const { Buffer } = await import('node:buffer')
@@ -187,14 +185,94 @@ export interface PrismaClient<
   get cpm(): Prisma.CpmDelegate<ExtArgs, { omit: OmitOpts }>;
 
   /**
-   * `prisma.pokemonCp`: Exposes CRUD operations for the **PokemonCp** model.
+   * `prisma.move`: Exposes CRUD operations for the **Move** model.
     * Example usage:
     * ```ts
-    * // Fetch zero or more PokemonCps
-    * const pokemonCps = await prisma.pokemonCp.findMany()
+    * // Fetch zero or more Moves
+    * const moves = await prisma.move.findMany()
     * ```
     */
-  get pokemonCp(): Prisma.PokemonCpDelegate<ExtArgs, { omit: OmitOpts }>;
+  get move(): Prisma.MoveDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
+   * `prisma.family`: Exposes CRUD operations for the **Family** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more Families
+    * const families = await prisma.family.findMany()
+    * ```
+    */
+  get family(): Prisma.FamilyDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
+   * `prisma.pokemon`: Exposes CRUD operations for the **Pokemon** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more Pokemon
+    * const pokemon = await prisma.pokemon.findMany()
+    * ```
+    */
+  get pokemon(): Prisma.PokemonDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
+   * `prisma.pokemonMove`: Exposes CRUD operations for the **PokemonMove** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more PokemonMoves
+    * const pokemonMoves = await prisma.pokemonMove.findMany()
+    * ```
+    */
+  get pokemonMove(): Prisma.PokemonMoveDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
+   * `prisma.pokemonDefaultIv`: Exposes CRUD operations for the **PokemonDefaultIv** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more PokemonDefaultIvs
+    * const pokemonDefaultIvs = await prisma.pokemonDefaultIv.findMany()
+    * ```
+    */
+  get pokemonDefaultIv(): Prisma.PokemonDefaultIvDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
+   * `prisma.pokemonTagLink`: Exposes CRUD operations for the **PokemonTagLink** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more PokemonTagLinks
+    * const pokemonTagLinks = await prisma.pokemonTagLink.findMany()
+    * ```
+    */
+  get pokemonTagLink(): Prisma.PokemonTagLinkDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
+   * `prisma.pokemonNickname`: Exposes CRUD operations for the **PokemonNickname** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more PokemonNicknames
+    * const pokemonNicknames = await prisma.pokemonNickname.findMany()
+    * ```
+    */
+  get pokemonNickname(): Prisma.PokemonNicknameDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
+   * `prisma.pokemonEvolution`: Exposes CRUD operations for the **PokemonEvolution** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more PokemonEvolutions
+    * const pokemonEvolutions = await prisma.pokemonEvolution.findMany()
+    * ```
+    */
+  get pokemonEvolution(): Prisma.PokemonEvolutionDelegate<ExtArgs, { omit: OmitOpts }>;
+
+  /**
+   * `prisma.pokemonRegionDefinition`: Exposes CRUD operations for the **PokemonRegionDefinition** model.
+    * Example usage:
+    * ```ts
+    * // Fetch zero or more PokemonRegionDefinitions
+    * const pokemonRegionDefinitions = await prisma.pokemonRegionDefinition.findMany()
+    * ```
+    */
+  get pokemonRegionDefinition(): Prisma.PokemonRegionDefinitionDelegate<ExtArgs, { omit: OmitOpts }>;
 }
 
 export function getPrismaClientClass(): PrismaClientConstructor {

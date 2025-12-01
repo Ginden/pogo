@@ -8,6 +8,14 @@
  *
  * 🟢 You can import this file directly.
  */
-export type * from './models/Cpm.mjs'
-export type * from './models/PokemonCp.mjs'
-export type * from './commonInputTypes.mjs'
+export type * from './models/Cpm.mts'
+export type * from './models/Move.mts'
+export type * from './models/Family.mts'
+export type * from './models/Pokemon.mts'
+export type * from './models/PokemonMove.mts'
+export type * from './models/PokemonDefaultIv.mts'
+export type * from './models/PokemonTagLink.mts'
+export type * from './models/PokemonNickname.mts'
+export type * from './models/PokemonEvolution.mts'
+export type * from './models/PokemonRegionDefinition.mts'
+export type * from './commonInputTypes.mts'

@@ -9,6 +9,8 @@ import { capitalizeFirstLetter, percentOf } from "./helpers.js";
 import { getTypeTraits, PokemonTypeDescription } from "./get-type-traits.js";
 import type { PokemonType } from "./types";
 import { typeEmoji } from "./type-emoji.js";
+import { getPokemonMoveVariants } from "./calculator/get-move-variants";
+import { getPokemon } from "./calculator/get-filtered-pokemon.js";
 
 export type RocketFinderOptions = {
   entriesLimit: number;
@@ -27,69 +29,20 @@ export async function rocketFinder({
   attackIv,
   write,
 }: RocketFinderOptions) {
-  function getPokemonMoveVariants() {
-    return pokemon
-      .filter((p) => (excludeUnreleased ? p.released : true))
-      .filter((p) => !excludedSpecies.has(p.speciesId))
-      .filter(({ tags }) => {
-        if (!tags?.length) {
-          return true;
-        }
-        return new Set(tags).isDisjointFrom(excludedTags);
-      })
-      .flatMap((poke) => {
-        const {
-          speciesName,
-          fastMoves,
-          types,
-          tags,
-          baseStats: { atk },
-        } = poke;
-        const isShadow = (tags ?? []).includes("shadow");
-        return fastMoves.map((fm) => ({
-          speciesName,
-          atk,
-          types,
-          isShadow,
-          fastAttack: movesMap[fm] ?? (null as any).foo,
-        }));
-      })
-      .map((x) => {
-        const { speciesName, atk, types, isShadow, fastAttack } = x;
-        const moveType = fastAttack.type;
-        let dps = fastAttack.power / (fastAttack.cooldown / 500);
-        const isStab = types.includes(moveType);
-        if (isShadow) {
-          dps *= shadowBonus;
-        }
-        if (isStab) {
-          dps *= stab;
-        }
-        // This will be our synthetic metric to sort by
-        dps *= atk + attackIv;
-        dps = Math.round(dps);
+  const { moves } = await getGameMaster();
 
-        return {
-          speciesName,
-          fastAttack: fastAttack.name,
-          dps,
-          moveType,
-        };
-      });
-  }
-
-  const { pokemon, moves } = await getGameMaster();
+  const pokemon = await getPokemon({
+    excludedSpecies,
+    excludeUnreleased,
+    excludedTags,
+  });
 
   const types = new Set(moves.map((m) => m.type));
   const traits: { [p: string]: PokemonTypeDescription } = Object.fromEntries(
     [...types].map((t) => [t as PokemonType, getTypeTraits(t)]),
   );
 
-  const fastMoves = moves.filter((m) => m.energyGain);
-
-  const movesMap = Object.fromEntries(fastMoves.map((m) => [m.moveId, m]));
-
-  const pokemonMoveVariant = getPokemonMoveVariants();
+  const pokemonMoveVariant = getPokemonMoveVariants({ pokemon, moves });
 
   const bestOfType: Record<
     string,
