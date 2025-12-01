@@ -1,4 +1,4 @@
-import type { PokemonType } from "./types";
+import type { PokemonType } from "./types.ts";
 
 export type PokemonTypeDescription = {
   weaknesses: PokemonType[];

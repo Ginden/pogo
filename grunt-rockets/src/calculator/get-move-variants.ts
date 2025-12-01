@@ -1,5 +1,5 @@
-import { GameMaster, GameMasterPokemon } from "../types";
-import { shadowBonus, stab } from "../game-constants";
+import type { GameMaster, GameMasterPokemon } from "../types.ts";
+import { shadowBonus, stab } from "../game-constants.ts";
 
 interface PokemonMoveVariantBase {
   pokemon: GameMasterPokemon;

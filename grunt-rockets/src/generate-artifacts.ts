@@ -1,4 +1,4 @@
-import {generateRocketMarkdownReport, RocketFinderOptions} from "./rocket-finder";
+import {generateRocketMarkdownReport, type RocketFinderOptions} from "./rocket-finder.ts";
 import { mkdir } from "fs/promises";
 import { writeFile } from "node:fs/promises";
 

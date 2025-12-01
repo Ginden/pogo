@@ -1,6 +1,6 @@
-import { PokemonType, RawPokemonType } from "../types";
-import { getTypeTraits } from "../get-type-traits";
-import { damageReduction, superEffectiveDamage } from "../game-constants";
+import type { PokemonType, RawPokemonType } from "../types.ts";
+import { getTypeTraits } from "../get-type-traits.ts";
+import { damageReduction, superEffectiveDamage } from "../game-constants.ts";
 
 export function calculateTypePairDamageModifier(
   attackType: PokemonType,

@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "get-gamemaster": "node dist/get-gamemaster.js",
-    "generate-artifacts": "node dist/generate-artifacts.js ./artifacts"
+    "build": "tsc --noEmit",
+    "get-gamemaster": "node src/get-gamemaster.ts",
+    "generate-artifacts": "node src/generate-artifacts.ts ./artifacts"
   },
   "author": "",
   "license": "MIT",

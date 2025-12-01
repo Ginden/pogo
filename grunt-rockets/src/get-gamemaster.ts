@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 import process from "process";
 import path from "node:path";
 import fs from "node:fs/promises";
-import { GameMaster, GameMasterPokemon } from "./types";
+import type { GameMaster, GameMasterPokemon } from "./types.ts";
 import { pick } from "lodash-es";
 
 const repoGameMasterPath = path.join(

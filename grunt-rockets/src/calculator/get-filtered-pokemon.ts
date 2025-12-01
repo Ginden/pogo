@@ -1,5 +1,5 @@
-import { getGameMaster } from "../get-gamemaster";
-import { RocketFinderOptions } from "../rocket-finder";
+import { getGameMaster } from "../get-gamemaster.ts";
+import type { RocketFinderOptions } from "../rocket-finder.ts";
 
 export async function getPokemon({
   excludedSpecies,

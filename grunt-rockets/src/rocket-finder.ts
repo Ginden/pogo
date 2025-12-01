@@ -1,20 +1,20 @@
-import { getGameMaster } from "./get-gamemaster";
-import { capitalizeFirstLetter, percentOf } from "./helpers";
-import { getTypeTraits, PokemonTypeDescription } from "./get-type-traits";
+import { getGameMaster } from "./get-gamemaster.ts";
+import { capitalizeFirstLetter, percentOf } from "./helpers.ts";
+import { getTypeTraits, type PokemonTypeDescription } from "./get-type-traits.ts";
 import type { PokemonType } from "./types";
-import { typeEmoji } from "./type-emoji";
-import { getPokemonMoveVariants } from "./calculator/get-move-variants";
-import { getPokemon } from "./calculator/get-filtered-pokemon";
-import { calculateTypePairDamageModifier } from "./calculator/calculate-type-pair-damage-modifier";
+import { typeEmoji } from "./type-emoji.ts";
+import { getPokemonMoveVariants } from "./calculator/get-move-variants.ts";
+import { getPokemon } from "./calculator/get-filtered-pokemon.ts";
+import { calculateTypePairDamageModifier } from "./calculator/calculate-type-pair-damage-modifier.ts";
 
-export type RocketFinderOptions = {
+export interface RocketFinderOptions {
   entriesLimit: number;
   excludedSpecies: Set<string>;
   excludedTags: Set<string>;
   excludeUnreleased: boolean;
   attackIv: number;
   write: (data: string) => void;
-};
+}
 
 export async function rocketFinderCalculator({
   excludedSpecies,
