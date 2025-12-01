@@ -1,1 +1,3 @@
 dist
+
+/prisma/src/generated/prisma
