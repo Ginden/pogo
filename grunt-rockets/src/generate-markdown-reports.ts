@@ -1,9 +1,7 @@
-import {generateRocketMarkdownReport } from "./rocket-finder.ts";
+import { generateRocketMarkdownReport } from "./rocket-finder.ts";
 import { mkdir } from "fs/promises";
 import { writeFile } from "node:fs/promises";
-import {variants} from "./settings.ts";
-
-
+import { variants } from "./settings.ts";
 
 const outputDirectory = process.argv[2];
 if (!outputDirectory) {

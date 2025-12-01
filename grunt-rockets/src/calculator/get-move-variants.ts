@@ -40,7 +40,9 @@ export function getPokemonMoveVariants({
       tags,
     } = pokemon;
     const moveType = selectedFastAttack.type;
-    let dps = selectedFastAttack.power / (selectedFastAttack.cooldown / 500);
+    const moveDps =
+      selectedFastAttack.power / (selectedFastAttack.cooldown / 500);
+    let dps = moveDps;
     const isShadow = (tags ?? []).includes("shadow");
     const isStab = types.includes(moveType);
     if (isShadow) {
@@ -57,6 +59,7 @@ export function getPokemonMoveVariants({
       pokemon,
       selectedFastAttack,
       dps,
+      moveDps,
     };
   });
 }
