@@ -8,11 +8,11 @@ generator client {
   provider               = "prisma-client"
   output                 = "../src/generated/prisma"
   generatedFileExtension = "mts"
-  previewFeatures        = ["views"]
 }
 
 datasource db {
   provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model Cpm {
@@ -28,18 +28,180 @@ model Cpm {
   cpm Float @db.Real
 }
 
-view PokemonCp {
-  // TODO: replace with actual reference
-  pokemonId Unsupported("")
+model Move {
+  moveId          String     @id
+  name            String
+  abbreviation    String?
+  archetype       String?
+  type            PokemonType
+  cooldownMs      Int
+  energy          Int
+  energyGain      Int
+  power           Int
+  turns           Int?
+  buffApplyChance Float?     @db.Real
+  buffTarget      BuffTarget?
+  buffs           Int[]      @default([])
+  buffsOpponent   Int[]      @default([])
+  buffsSelf       Int[]      @default([])
+  pokemon         PokemonMove[]
+}
 
-  level    Int
-  levelRaw Float @db.Real
-  // 0-15 attack IV
-  attack   Int   @db.SmallInt
-  // 0-15 defense IV
-  defense  Int   @db.SmallInt
-  // 0-15 stamina IV
-  stamina  Int   @db.SmallInt
+model Family {
+  id           String            @id
+  parentSpeciesId String?
+  evolutions   String[]          @default([])
+  pokemon      Pokemon[]
+  evolutionsOf PokemonEvolution[]
+}
 
-  cp Int
+model Pokemon {
+  speciesId            String              @id
+  speciesName          String
+  dex                  Int
+  baseAtk              Int
+  baseDef              Int
+  baseHp               Int
+  typePrimary          PokemonType
+  typeSecondary        PokemonType?
+  released             Boolean
+  buddyDistance        Int?
+  level25Cp            Int?
+  searchPriority       Int?
+  thirdMoveCost        Int?
+  thirdMoveUnlockable  Boolean            @default(false)
+  levelFloor           Int?
+  aliasId              String?
+  originalFormId       String?
+  familyId             String?
+  familyParentSpeciesId String?
+  formChange           Json?
+  shadowAvailable      Boolean            @default(false)
+  family               Family?            @relation(fields: [familyId], references: [id])
+  defaultIVs           PokemonDefaultIv[]
+  moves                PokemonMove[]
+  tags                 PokemonTagLink[]
+  nicknames            PokemonNickname[]
+  evolutionsFrom       PokemonEvolution[] @relation("EvolutionFrom")
+  evolutionsTo         PokemonEvolution[] @relation("EvolutionTo")
+
+  @@index([dex])
+}
+
+model PokemonMove {
+  pokemonId String
+  moveId    String
+  category  MoveCategory
+  isElite   Boolean @default(false)
+  isLegacy  Boolean @default(false)
+
+  pokemon Pokemon @relation(fields: [pokemonId], references: [speciesId], onDelete: Cascade)
+  move    Move    @relation(fields: [moveId], references: [moveId], onDelete: Cascade)
+
+  @@id([pokemonId, moveId, category])
+}
+
+model PokemonDefaultIv {
+  id        Int     @id @default(autoincrement())
+  scenario  String
+  level     Float   @db.Real
+  attack    Int     @db.SmallInt
+  defense   Int     @db.SmallInt
+  stamina   Int     @db.SmallInt
+  pokemonId String
+  pokemon   Pokemon @relation(fields: [pokemonId], references: [speciesId], onDelete: Cascade)
+
+  @@unique([pokemonId, scenario])
+}
+
+model PokemonTagLink {
+  pokemonId String
+  tag       PokemonTag
+  pokemon   Pokemon @relation(fields: [pokemonId], references: [speciesId], onDelete: Cascade)
+
+  @@id([pokemonId, tag])
+}
+
+model PokemonNickname {
+  id        Int     @id @default(autoincrement())
+  nickname  String
+  pokemonId String
+  pokemon   Pokemon @relation(fields: [pokemonId], references: [speciesId], onDelete: Cascade)
+
+  @@unique([pokemonId, nickname])
+}
+
+model PokemonEvolution {
+  fromSpeciesId String
+  toSpeciesId   String
+  familyId      String?
+
+  from   Pokemon @relation("EvolutionFrom", fields: [fromSpeciesId], references: [speciesId], onDelete: Cascade)
+  to     Pokemon @relation("EvolutionTo", fields: [toSpeciesId], references: [speciesId], onDelete: Cascade)
+  family Family? @relation(fields: [familyId], references: [id])
+
+  @@id([fromSpeciesId, toSpeciesId])
+}
+
+model PokemonRegionDefinition {
+  name     String @id
+  dexStart Int
+  dexEnd   Int
+  slug     String
+}
+
+enum PokemonType {
+  bug
+  dark
+  dragon
+  electric
+  fairy
+  fighting
+  fire
+  flying
+  ghost
+  grass
+  ground
+  ice
+  none
+  normal
+  poison
+  psychic
+  rock
+  steel
+  water
+}
+
+enum BuffTarget {
+  both
+  opponent
+  self
+}
+
+enum MoveCategory {
+  fast
+  charged
+}
+
+enum PokemonTag {
+  alolan
+  duplicate
+  duplicate1500
+  galarian
+  hisuian
+  include1500
+  include2500
+  legendary
+  mega
+  mythical
+  paldean
+  regional
+  shadow
+  shadoweligible
+  starter
+  teambuilderexclude
+  ultrabeast
+  untradeable
+  wildlegendary
+  xs
 }

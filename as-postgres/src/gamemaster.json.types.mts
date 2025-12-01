@@ -51,6 +51,7 @@ export interface Move {
   readonly name: string;
   readonly power: number;
   readonly type: PokemonType;
+  readonly turns?: number;
   readonly buffApplyChance?: string;
   readonly buffTarget?: BuffTarget;
   readonly buffs?: number[];
