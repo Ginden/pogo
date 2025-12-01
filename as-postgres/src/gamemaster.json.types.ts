@@ -1,5 +1,11 @@
 export interface GamemasterJSON {
-  readonly cups: Cup[];
+    /**
+     * @ignore
+     */
+  readonly cups: unknown[];
+    /**
+     * @ignore
+     */
   readonly formats: Format[];
   readonly moves: Move[];
   readonly pokemon: Pokemon[];
@@ -10,57 +16,6 @@ export interface GamemasterJSON {
   readonly settings: Settings;
   readonly shadowPokemon: string[];
   readonly timestamp: Date;
-}
-
-export interface Cup {
-  readonly exclude: Exclude[];
-  readonly include: Include[];
-  readonly name: string;
-  readonly title: string;
-  readonly allowSameSpecies?: boolean;
-  readonly tierRules?: TierRules;
-  readonly levelCap?: number;
-  readonly partySize?: number;
-  readonly league?: number;
-  readonly overrides?: any[];
-  readonly useDefaultMovesets?: number;
-  readonly presetOnly?: boolean;
-  readonly excludeLowPokemon?: number;
-  readonly includeLowStatProduct?: boolean;
-  readonly restrictedPicks?: number;
-  readonly restrictedPokemon?: string[];
-}
-
-export interface Exclude {
-  readonly filterType: ExcludeFilterType;
-  readonly values: string[];
-  readonly name?: Name;
-  readonly leagues?: number[];
-}
-
-export enum ExcludeFilterType {
-  Id = "id",
-  Move = "move",
-  Tag = "tag",
-  Type = "type",
-}
-
-export enum Name {
-  Species = "Species",
-  Tag = "Tag",
-  Type = "Type",
-}
-
-export interface Include {
-  readonly filterType: IncludeFilterType;
-  readonly values: Array<number | string>;
-  readonly name?: Name;
-}
-
-export enum IncludeFilterType {
-  Evolution = "evolution",
-  Id = "id",
-  Type = "type",
 }
 
 export interface TierRules {
@@ -95,7 +50,7 @@ export interface Move {
   readonly moveId: string;
   readonly name: string;
   readonly power: number;
-  readonly type: Type;
+  readonly type: PokemonType;
   readonly buffApplyChance?: string;
   readonly buffTarget?: BuffTarget;
   readonly buffs?: number[];
@@ -103,33 +58,44 @@ export interface Move {
   readonly buffsSelf?: number[];
 }
 
-export enum BuffTarget {
-  Both = "both",
-  Opponent = "opponent",
-  Self = "self",
-}
+export const BuffTarget = {
+  Both: "both",
+  Opponent: "opponent",
+  Self: "self",
+} as const;
 
-export enum Type {
-  Bug = "bug",
-  Dark = "dark",
-  Dragon = "dragon",
-  Electric = "electric",
-  Fairy = "fairy",
-  Fighting = "fighting",
-  Fire = "fire",
-  Flying = "flying",
-  Ghost = "ghost",
-  Grass = "grass",
-  Ground = "ground",
-  Ice = "ice",
-  None = "none",
-  Normal = "normal",
-  Poison = "poison",
-  Psychic = "psychic",
-  Rock = "rock",
-  Steel = "steel",
-  Water = "water",
-}
+export type BuffTarget = typeof BuffTarget[keyof typeof BuffTarget];
+
+export const PokemonType = {
+  Bug: "bug",
+  Dark: "dark",
+  Dragon: "dragon",
+  Electric: "electric",
+  Fairy: "fairy",
+  Fighting: "fighting",
+  Fire: "fire",
+  Flying: "flying",
+  Ghost: "ghost",
+  Grass: "grass",
+  Ground: "ground",
+  Ice: "ice",
+  None: "none",
+  Normal: "normal",
+  Poison: "poison",
+  Psychic: "psychic",
+  Rock: "rock",
+  Steel: "steel",
+  Water: "water",
+} as const;
+
+export const PokemonTypeOrNone = {
+    ...PokemonType,
+    None: "none",
+} as const;
+
+export type PokemonTypeOrNone = typeof PokemonTypeOrNone[keyof typeof PokemonTypeOrNone];
+
+export type PokemonType = typeof PokemonType[keyof typeof PokemonType];
 
 export interface Pokemon {
   readonly baseStats: BaseStats;
@@ -145,7 +111,7 @@ export interface Pokemon {
   readonly speciesName: string;
   readonly tags?: Tag[];
   readonly thirdMoveCost?: boolean | number;
-  readonly types: Type[];
+  readonly types: [PokemonType, PokemonTypeOrNone];
   readonly eliteMoves?: string[];
   readonly searchPriority?: number;
   readonly nicknames?: string[];

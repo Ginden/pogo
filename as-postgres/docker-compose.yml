@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   postgres:
+    container_name: 'pogo-pg'
     image: postgres:17
     environment:
       POSTGRES_USER: pogo

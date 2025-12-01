@@ -2,7 +2,7 @@
   "name": "as-postgres",
   "version": "1.0.0",
   "description": "This subproject is intended for running analytical queries.",
-  "main": "dist/index.mjs",
+  "main": "src/index.mts",
   "scripts": {},
   "type": "module",
   "author": "Michał Wadas",
