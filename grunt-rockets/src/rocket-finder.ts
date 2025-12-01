@@ -11,6 +11,7 @@ import type { PokemonType } from "./types";
 import { typeEmoji } from "./type-emoji.js";
 import { getPokemonMoveVariants } from "./calculator/get-move-variants";
 import { getPokemon } from "./calculator/get-filtered-pokemon.js";
+import { calculateTypePairDamageModifier } from "./calculator/calculate-type-pair-damage-modifier";
 
 export type RocketFinderOptions = {
   entriesLimit: number;
@@ -21,13 +22,11 @@ export type RocketFinderOptions = {
   write: (data: string) => void;
 };
 
-export async function rocketFinder({
-  entriesLimit,
+export async function rocketFinderCalculator({
   excludedSpecies,
   excludeUnreleased,
   excludedTags,
   attackIv,
-  write,
 }: RocketFinderOptions) {
   const { moves } = await getGameMaster();
 
@@ -42,7 +41,48 @@ export async function rocketFinder({
     [...types].map((t) => [t as PokemonType, getTypeTraits(t)]),
   );
 
-  const pokemonMoveVariant = getPokemonMoveVariants({ pokemon, moves });
+  const pokemonMoveVariant = getPokemonMoveVariants({
+    pokemon,
+    moves,
+    attackIv,
+  });
+
+  /**
+   * Big map of best variants sorted by damage to defender type
+   */
+  const bestByDefenderType = Object.fromEntries(
+    [...types].map((defendingType) => {
+      return [
+        defendingType as PokemonType,
+        pokemonMoveVariant.map((variant) => {
+          const attackType = variant.selectedFastAttack.type;
+          const damageModifier = calculateTypePairDamageModifier(attackType, [
+            defendingType,
+          ]);
+          return {
+            ...variant,
+            effectiveDps: variant.dps * damageModifier,
+          };
+        }),
+      ];
+    }),
+  );
+
+  const bestByAttackType: Record<PokemonType, typeof pokemonMoveVariant> =
+    Object.fromEntries(
+      [...types].map((t) => {
+        return [t as PokemonType, []];
+      }),
+    );
+
+  return {
+    bestByDefenderType,
+    bestByAttackType,
+  };
+}
+
+export async function rocketFinder(options: RocketFinderOptions) {
+  const { write, entriesLimit } = options;
 
   const bestOfType: Record<
     string,
@@ -55,7 +95,7 @@ export async function rocketFinder({
   // Calculations
   for (const type of types) {
     bestOfType[type] = pokemonMoveVariant
-      .filter((m) => m.moveType === type)
+      .filter((m) => m.selectedFastAttack.type === type)
       .sort((a, b) => a.dps - b.dps)
       .reverse()
       .slice(0, entriesLimit);
@@ -76,7 +116,7 @@ export async function rocketFinder({
     bestAgainstType[type] = pokemonMoveVariant
       .map((a) => ({
         ...a,
-        dps: a.dps * typesResistances[a.moveType],
+        dps: a.dps * typesResistances[a.selectedFastAttack.type],
       }))
       .sort((a, b) => a.dps - b.dps)
       .reverse()
@@ -101,7 +141,7 @@ export async function rocketFinder({
     const [highestDamageVariant] = bestAgainstType[type];
     for (const variant of bestAgainstType[type]) {
       write(
-        `* **${variant.speciesName}** using _${variant.fastAttack}_ (${percentOf(variant.dps, highestDamageVariant.dps)})`,
+        `* **${variant.pokemon.speciesName}** using _${variant.selectedFastAttack.name}_ (${percentOf(variant.dps, highestDamageVariant.dps)})`,
       );
     }
   }
@@ -114,7 +154,7 @@ export async function rocketFinder({
     .reverse()
     .shift()!;
   write(
-    `All Pokemon are normalized to neutral damage of ${highestDpsPokemon.speciesName} using ${highestDpsPokemon.fastAttack}`,
+    `All Pokemon are normalized to neutral damage of ${highestDpsPokemon.pokemon.speciesName} using ${highestDpsPokemon.selectedFastAttack.name}`,
   );
 
   for (const type of [...types].sort()) {
@@ -124,7 +164,7 @@ export async function rocketFinder({
     write("\n");
     for (const variant of bestOfType[type]) {
       write(
-        `* **${variant.speciesName}** using _${variant.fastAttack}_ (${percentOf(variant.dps, highestDpsPokemon.dps)})`,
+        `* **${variant.pokemon.speciesName}** using _${variant.selectedFastAttack.name}_ (${percentOf(variant.dps, highestDpsPokemon.dps)})`,
       );
     }
   }

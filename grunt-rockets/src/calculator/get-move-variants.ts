@@ -35,7 +35,6 @@ export function getPokemonMoveVariants({
 
   return baseVariants.map(({ pokemon, selectedFastAttack }) => {
     const {
-      speciesName,
       baseStats: { atk },
       types,
       tags,
