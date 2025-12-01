@@ -2,11 +2,10 @@ This project is basically standalone ETL pipeline.
 
 It loads data from `gamemaster.json` file to PostgreSQL database, defines useful functions.
 
-
 ## Prerequisites
 
-* Docker with Compose plugin installed
-* Node.js
+- Docker with Compose plugin installed
+- Node.js
 
 ## Building project
 

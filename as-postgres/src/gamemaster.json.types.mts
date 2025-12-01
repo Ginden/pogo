@@ -1,11 +1,11 @@
 export interface GamemasterJSON {
-    /**
-     * @ignore
-     */
+  /**
+   * @ignore
+   */
   readonly cups: unknown[];
-    /**
-     * @ignore
-     */
+  /**
+   * @ignore
+   */
   readonly formats: Format[];
   readonly moves: Move[];
   readonly pokemon: Pokemon[];
@@ -64,7 +64,7 @@ export const BuffTarget = {
   Self: "self",
 } as const;
 
-export type BuffTarget = typeof BuffTarget[keyof typeof BuffTarget];
+export type BuffTarget = (typeof BuffTarget)[keyof typeof BuffTarget];
 
 export const PokemonType = {
   Bug: "bug",
@@ -89,13 +89,14 @@ export const PokemonType = {
 } as const;
 
 export const PokemonTypeOrNone = {
-    ...PokemonType,
-    None: "none",
+  ...PokemonType,
+  None: "none",
 } as const;
 
-export type PokemonTypeOrNone = typeof PokemonTypeOrNone[keyof typeof PokemonTypeOrNone];
+export type PokemonTypeOrNone =
+  (typeof PokemonTypeOrNone)[keyof typeof PokemonTypeOrNone];
 
-export type PokemonType = typeof PokemonType[keyof typeof PokemonType];
+export type PokemonType = (typeof PokemonType)[keyof typeof PokemonType];
 
 export interface Pokemon {
   readonly baseStats: BaseStats;
@@ -142,28 +143,30 @@ export interface FormChange {
   readonly type: string;
 }
 
-export enum Tag {
-  Alolan = "alolan",
-  Duplicate = "duplicate",
-  Duplicate1500 = "duplicate1500",
-  Galarian = "galarian",
-  Hisuian = "hisuian",
-  Include1500 = "include1500",
-  Include2500 = "include2500",
-  Legendary = "legendary",
-  Mega = "mega",
-  Mythical = "mythical",
-  Paldean = "paldean",
-  Regional = "regional",
-  Shadow = "shadow",
-  Shadoweligible = "shadoweligible",
-  Starter = "starter",
-  Teambuilderexclude = "teambuilderexclude",
-  Ultrabeast = "ultrabeast",
-  Untradeable = "untradeable",
-  Wildlegendary = "wildlegendary",
-  Xs = "xs",
-}
+export const Tag = {
+  Alolan: "alolan",
+  Duplicate: "duplicate",
+  Duplicate1500: "duplicate1500",
+  Galarian: "galarian",
+  Hisuian: "hisuian",
+  Include1500: "include1500",
+  Include2500: "include2500",
+  Legendary: "legendary",
+  Mega: "mega",
+  Mythical: "mythical",
+  Paldean: "paldean",
+  Regional: "regional",
+  Shadow: "shadow",
+  Shadoweligible: "shadoweligible",
+  Starter: "starter",
+  Teambuilderexclude: "teambuilderexclude",
+  Ultrabeast: "ultrabeast",
+  Untradeable: "untradeable",
+  Wildlegendary: "wildlegendary",
+  Xs: "xs",
+} as const;
+
+export type Tag = (typeof Tag)[keyof typeof Tag];
 
 export interface PokemonRegion {
   readonly dexEnd: number;

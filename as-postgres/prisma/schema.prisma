@@ -5,11 +5,41 @@
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
 generator client {
-  provider = "prisma-client"
-  output   = "src/generated/prisma"
+  provider               = "prisma-client"
+  output                 = "../src/generated/prisma"
+  generatedFileExtension = "mts"
+  previewFeatures        = ["views"]
 }
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+}
+
+model Cpm {
+  // Level multiplied by 2, as Pokemon Go uses half-levels
+  level    Int   @id @default(autoincrement()) @db.SmallInt
+  // 1, 1.5, 2, ..., 50.5, 51
+  levelRaw Float @db.Real
+
+  // Whether this level requires the best buddy boost to reach - only 50.5 and 51
+  requiresBestBuddyBoost Boolean @default(false) @db.Boolean
+
+  // CPM value to get CP at that level
+  cpm Float @db.Real
+}
+
+view PokemonCp {
+  // TODO: replace with actual reference
+  pokemonId Unsupported("")
+
+  level    Int
+  levelRaw Float @db.Real
+  // 0-15 attack IV
+  attack   Int   @db.SmallInt
+  // 0-15 defense IV
+  defense  Int   @db.SmallInt
+  // 0-15 stamina IV
+  stamina  Int   @db.SmallInt
+
+  cp Int
 }

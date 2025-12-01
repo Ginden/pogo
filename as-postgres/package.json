@@ -10,8 +10,9 @@
   "devDependencies": {
     "@types/node": "^24.10.1",
     "@types/pg": "^8.15.6",
-    "typescript": "^5.9.3",
-    "prisma": "^7.0.1"
+    "prettier": "^3.7.3",
+    "prisma": "^7.0.1",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.0.1",
