@@ -1,11 +1,11 @@
 import { getGameMaster } from "./get-gamemaster.ts";
 import { capitalizeFirstLetter, percentOf } from "./helpers.ts";
-import { getTypeTraits, type PokemonTypeDescription } from "./get-type-traits.ts";
 import type { PokemonType } from "./types";
 import { typeEmoji } from "./type-emoji.ts";
 import { getPokemonMoveVariants } from "./calculator/get-move-variants.ts";
 import { getPokemon } from "./calculator/get-filtered-pokemon.ts";
 import { calculateTypePairDamageModifier } from "./calculator/calculate-type-pair-damage-modifier.ts";
+import { pokemonTypes } from "./game-constants.ts";
 
 export interface RocketFinderOptions {
   entriesLimit: number;
@@ -30,10 +30,7 @@ export async function rocketFinderCalculator({
     excludedTags,
   });
 
-  const types = new Set(moves.map((m) => m.type));
-  const traits: { [p: string]: PokemonTypeDescription } = Object.fromEntries(
-    [...types].map((t) => [t as PokemonType, getTypeTraits(t)]),
-  );
+  const types = pokemonTypes;
 
   const pokemonMoveVariant = getPokemonMoveVariants({
     pokemon,
@@ -147,9 +144,4 @@ export async function generateRocketMarkdownReport(
 ) {
   const data = await rocketFinderCalculator(options);
   markdownRocketFinderPrinter(data, options);
-}
-
-export async function generateRocketDebugReport(options: RocketFinderOptions) {
-  const data = await rocketFinderCalculator(options);
-  options.write(JSON.stringify(data, null, 2));
 }

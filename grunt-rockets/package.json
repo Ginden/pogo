@@ -5,7 +5,8 @@
   "scripts": {
     "build": "tsc --noEmit",
     "get-gamemaster": "node src/get-gamemaster.ts",
-    "generate-artifacts": "node src/generate-artifacts.ts ./artifacts"
+    "generate-artifacts": "node src/generate-markdown-reports.ts ./artifacts",
+    "debug-output": "node src/debug-output.ts"
   },
   "author": "",
   "license": "MIT",
