@@ -2693,6 +2693,66 @@
     {
       "exclude": [
         {
+          "filterType": "type",
+          "values": [
+            "steel",
+            "flying",
+            "fighting"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "araquanid",
+            "crustle",
+            "morpeko_full_belly",
+            "turtonator",
+            "wigglytuff",
+            "morgrem",
+            "ribombee",
+            "chansey",
+            "diggersby"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "values": [
+            "mega",
+            "legendary",
+            "mythical",
+            "ultrabeast"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "normal",
+            "dark",
+            "bug",
+            "dragon"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "froslass",
+            "froslass_shadow",
+            "politoed",
+            "politoed_shadow",
+            "seaking",
+            "milotic",
+            "milotic_shadow"
+          ]
+        }
+      ],
+      "name": "euic2026",
+      "title": "EUIC 2026 Championship Series Cup"
+    },
+    {
+      "exclude": [
+        {
           "filterType": "tag",
           "values": [
             "mega"
@@ -4536,26 +4596,13 @@
       "title": "P!P Championship Series"
     },
     {
-      "cp": 10000,
-      "cup": "mega",
-      "meta": "mega",
-      "rules": [
-        "No CP limit.",
-        "Mega-Evolved Pokémon are allowed."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Mega Master League"
-    },
-    {
       "cp": 1500,
-      "cup": "laic2025",
-      "meta": "laic2025",
+      "cup": "euic2026",
+      "meta": "euic2026",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "LAIC 2025 Championship Series Cup"
+      "title": "EUIC 2026 Championship Series Cup"
     },
     {
       "cp": 1500,
@@ -5089,7 +5136,7 @@
       "energyGain": 0,
       "moveId": "BRICK_BREAK",
       "name": "Brick Break",
-      "power": 40,
+      "power": 50,
       "turns": 1,
       "type": "fighting"
     },
@@ -5571,7 +5618,7 @@
       "energyGain": 0,
       "moveId": "DRAGON_ENERGY",
       "name": "Dragon Energy",
-      "power": 100,
+      "power": 90,
       "turns": 1,
       "type": "dragon"
     },
@@ -5984,7 +6031,7 @@
       "energyGain": 0,
       "moveId": "FOUL_PLAY",
       "name": "Foul Play",
-      "power": 60,
+      "power": 65,
       "turns": 1,
       "type": "dark"
     },
@@ -6093,7 +6140,7 @@
       "energyGain": 13,
       "moveId": "GEOMANCY",
       "name": "Geomancy",
-      "power": 4,
+      "power": 8,
       "turns": 3,
       "type": "fairy"
     },
@@ -6578,7 +6625,7 @@
       "energyGain": 0,
       "moveId": "ICICLE_SPEAR",
       "name": "Icicle Spear",
-      "power": 65,
+      "power": 70,
       "turns": 1,
       "type": "ice"
     },
@@ -6924,7 +6971,7 @@
     {
       "archetype": "General",
       "cooldown": 500,
-      "energy": 50,
+      "energy": 45,
       "energyGain": 0,
       "moveId": "METEOR_MASH",
       "name": "Meteor Mash",
@@ -7125,7 +7172,13 @@
     },
     {
       "abbreviation": "ObW",
-      "archetype": "General",
+      "archetype": "Boost",
+      "buffApplyChance": "1",
+      "buffTarget": "self",
+      "buffs": [
+        0,
+        1
+      ],
       "cooldown": 500,
       "energy": 50,
       "energyGain": 0,
@@ -7246,7 +7299,7 @@
         1
       ],
       "cooldown": 500,
-      "energy": 45,
+      "energy": 50,
       "energyGain": 0,
       "moveId": "PARABOLIC_CHARGE",
       "name": "Parabolic Charge",
@@ -7366,13 +7419,13 @@
       "type": "normal"
     },
     {
-      "archetype": "Fast Charge",
+      "archetype": "Multipurpose",
       "cooldown": 1000,
       "energy": 0,
       "energyGain": 8,
       "moveId": "POWDER_SNOW",
       "name": "Powder Snow",
-      "power": 5,
+      "power": 6,
       "turns": 2,
       "type": "ice"
     },
@@ -7894,9 +7947,9 @@
       "type": "grass"
     },
     {
-      "archetype": "Nuke",
+      "archetype": "General",
       "cooldown": 500,
-      "energy": 55,
+      "energy": 50,
       "energyGain": 0,
       "moveId": "SHADOW_BALL",
       "name": "Shadow Ball",
@@ -7960,11 +8013,11 @@
     {
       "archetype": "General",
       "cooldown": 500,
-      "energy": 45,
+      "energy": 50,
       "energyGain": 0,
       "moveId": "SHADOW_SNEAK",
       "name": "Shadow Sneak",
-      "power": 50,
+      "power": 75,
       "turns": 1,
       "type": "ghost"
     },
@@ -8105,9 +8158,9 @@
     },
     {
       "abbreviation": "SpR",
-      "archetype": "General",
+      "archetype": "High Energy",
       "cooldown": 500,
-      "energy": 50,
+      "energy": 55,
       "energyGain": 0,
       "moveId": "SPACIAL_REND",
       "name": "Spacial Rend",
@@ -8603,7 +8656,7 @@
       "energyGain": 0,
       "moveId": "VICE_GRIP",
       "name": "Vise Grip",
-      "power": 40,
+      "power": 70,
       "turns": 1,
       "type": "normal"
     },
@@ -19140,7 +19193,8 @@
         "HYDRO_PUMP",
         "SLUDGE_WAVE",
         "ACID_SPRAY",
-        "SCALD"
+        "SCALD",
+        "PAYBACK"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -19207,7 +19261,8 @@
         "HYDRO_PUMP",
         "SLUDGE_WAVE",
         "ACID_SPRAY",
-        "SCALD"
+        "SCALD",
+        "PAYBACK"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -28093,7 +28148,8 @@
       "fastMoves": [
         "BITE",
         "STEEL_WING",
-        "ROCK_THROW"
+        "ROCK_THROW",
+        "DRAGON_BREATH"
       ],
       "level25CP": 1713,
       "released": true,
@@ -28146,7 +28202,8 @@
       "fastMoves": [
         "BITE",
         "STEEL_WING",
-        "ROCK_THROW"
+        "ROCK_THROW",
+        "DRAGON_BREATH"
       ],
       "released": true,
       "speciesId": "aerodactyl_mega",
@@ -28199,7 +28256,8 @@
       "fastMoves": [
         "BITE",
         "STEEL_WING",
-        "ROCK_THROW"
+        "ROCK_THROW",
+        "DRAGON_BREATH"
       ],
       "released": true,
       "speciesId": "aerodactyl_shadow",
@@ -39242,7 +39300,8 @@
         "HIDDEN_POWER_STEEL",
         "HIDDEN_POWER_WATER",
         "ICE_FANG",
-        "SNARL"
+        "SNARL",
+        "WATER_GUN"
       ],
       "level25CP": 1846,
       "released": true,
@@ -39331,7 +39390,8 @@
         "HIDDEN_POWER_STEEL",
         "HIDDEN_POWER_WATER",
         "ICE_FANG",
-        "SNARL"
+        "SNARL",
+        "WATER_GUN"
       ],
       "released": true,
       "speciesId": "suicune_shadow",
@@ -39614,7 +39674,8 @@
       "fastMoves": [
         "BITE",
         "IRON_TAIL",
-        "SMACK_DOWN"
+        "SMACK_DOWN",
+        "DRAGON_BREATH"
       ],
       "level25CP": 2416,
       "nicknames": [
@@ -39673,7 +39734,8 @@
       "fastMoves": [
         "BITE",
         "IRON_TAIL",
-        "SMACK_DOWN"
+        "SMACK_DOWN",
+        "DRAGON_BREATH"
       ],
       "level25CP": 3435,
       "released": true,
@@ -39733,7 +39795,8 @@
       "fastMoves": [
         "BITE",
         "IRON_TAIL",
-        "SMACK_DOWN"
+        "SMACK_DOWN",
+        "DRAGON_BREATH"
       ],
       "nicknames": [
         "ttar"
@@ -40726,7 +40789,8 @@
         "OVERHEAT",
         "STONE_EDGE",
         "BLAST_BURN",
-        "BLAZE_KICK"
+        "BLAZE_KICK",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -40759,7 +40823,8 @@
       },
       "fastMoves": [
         "COUNTER",
-        "FIRE_SPIN"
+        "FIRE_SPIN",
+        "EMBER"
       ],
       "level25CP": 1752,
       "released": true,
@@ -40789,7 +40854,8 @@
         "OVERHEAT",
         "STONE_EDGE",
         "BLAST_BURN",
-        "BLAZE_KICK"
+        "BLAZE_KICK",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -40818,7 +40884,8 @@
       ],
       "fastMoves": [
         "COUNTER",
-        "FIRE_SPIN"
+        "FIRE_SPIN",
+        "EMBER"
       ],
       "level25CP": 2622,
       "released": true,
@@ -40848,7 +40915,8 @@
         "OVERHEAT",
         "STONE_EDGE",
         "BLAST_BURN",
-        "BLAZE_KICK"
+        "BLAZE_KICK",
+        "AURA_SPHERE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -40881,7 +40949,8 @@
       },
       "fastMoves": [
         "COUNTER",
-        "FIRE_SPIN"
+        "FIRE_SPIN",
+        "EMBER"
       ],
       "released": true,
       "searchPriority": 2,
@@ -42263,7 +42332,8 @@
         "ICE_BEAM",
         "SOLAR_BEAM",
         "LEAF_STORM",
-        "SCALD"
+        "SCALD",
+        "WEATHER_BALL_WATER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -42298,7 +42368,8 @@
       },
       "fastMoves": [
         "BUBBLE",
-        "RAZOR_LEAF"
+        "RAZOR_LEAF",
+        "ASTONISH"
       ],
       "released": true,
       "speciesId": "ludicolo",
@@ -48659,7 +48730,8 @@
       "chargedMoves": [
         "MOONBLAST",
         "PSYCHIC",
-        "ROCK_SLIDE"
+        "ROCK_SLIDE",
+        "WEATHER_BALL_ICE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -48715,7 +48787,8 @@
       "chargedMoves": [
         "PSYCHIC",
         "ROCK_SLIDE",
-        "SOLAR_BEAM"
+        "SOLAR_BEAM",
+        "WEATHER_BALL_FIRE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -50111,7 +50184,8 @@
         "BLIZZARD",
         "HYPER_BEAM",
         "SURF",
-        "WRAP"
+        "WRAP",
+        "AQUA_TAIL"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -50166,7 +50240,8 @@
         "BLIZZARD",
         "HYPER_BEAM",
         "SURF",
-        "WRAP"
+        "WRAP",
+        "AQUA_TAIL"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -51232,6 +51307,9 @@
         ]
       },
       "dex": 359,
+      "eliteMoves": [
+        "BRUTAL_SWING"
+      ],
       "fastMoves": [
         "PSYCHO_CUT",
         "SNARL"
@@ -51457,7 +51535,8 @@
       "fastMoves": [
         "FROST_BREATH",
         "ICE_SHARD",
-        "ROLLOUT"
+        "ROLLOUT",
+        "POWDER_SNOW"
       ],
       "level25CP": 1267,
       "released": true,
@@ -51508,7 +51587,8 @@
       "fastMoves": [
         "FROST_BREATH",
         "ICE_SHARD",
-        "ROLLOUT"
+        "ROLLOUT",
+        "POWDER_SNOW"
       ],
       "released": true,
       "speciesId": "glalie_mega",
@@ -51562,7 +51642,8 @@
       "fastMoves": [
         "FROST_BREATH",
         "ICE_SHARD",
-        "ROLLOUT"
+        "ROLLOUT",
+        "POWDER_SNOW"
       ],
       "released": true,
       "speciesId": "glalie_shadow",
@@ -53706,7 +53787,8 @@
         "HYDRO_PUMP",
         "THUNDER",
         "SURF",
-        "ORIGIN_PULSE"
+        "ORIGIN_PULSE",
+        "AVALANCHE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -53762,7 +53844,8 @@
         "HYDRO_PUMP",
         "THUNDER",
         "SURF",
-        "ORIGIN_PULSE"
+        "ORIGIN_PULSE",
+        "AVALANCHE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -53816,7 +53899,8 @@
         "HYDRO_PUMP",
         "THUNDER",
         "SURF",
-        "ORIGIN_PULSE"
+        "ORIGIN_PULSE",
+        "AVALANCHE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -59383,7 +59467,8 @@
         "PSYCHIC",
         "BULLDOZE",
         "PSYSHOCK",
-        "PAYBACK"
+        "PAYBACK",
+        "WEATHER_BALL_WATER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -60208,7 +60293,8 @@
         "POWER_UP_PUNCH",
         "AURA_SPHERE",
         "BLAZE_KICK",
-        "THUNDER_PUNCH"
+        "THUNDER_PUNCH",
+        "METEOR_MASH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -60266,7 +60352,8 @@
         "POWER_UP_PUNCH",
         "AURA_SPHERE",
         "BLAZE_KICK",
-        "THUNDER_PUNCH"
+        "THUNDER_PUNCH",
+        "METEOR_MASH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -61155,7 +61242,8 @@
       "chargedMoves": [
         "BLIZZARD",
         "SILVER_WIND",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "AQUA_TAIL"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -67047,7 +67135,8 @@
         "RAZOR_SHELL",
         "ICY_WIND",
         "X_SCISSOR",
-        "DARK_PULSE"
+        "DARK_PULSE",
+        "SACRED_SWORD"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -78567,7 +78656,8 @@
         "DRAGON_PULSE",
         "DARK_PULSE",
         "FLASH_CANNON",
-        "BRUTAL_SWING"
+        "BRUTAL_SWING",
+        "FLY"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -78625,7 +78715,8 @@
         "DRAGON_PULSE",
         "DARK_PULSE",
         "FLASH_CANNON",
-        "BRUTAL_SWING"
+        "BRUTAL_SWING",
+        "FLY"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -79674,12 +79765,12 @@
         ]
       },
       "dex": 647,
+      "eliteMoves": [
+        "SECRET_SWORD"
+      ],
       "fastMoves": [
         "POISON_JAB",
         "LOW_KICK"
-      ],
-      "legacyMoves": [
-        "SECRET_SWORD"
       ],
       "released": true,
       "searchPriority": 2,
@@ -81698,7 +81789,8 @@
       "chargedMoves": [
         "BRICK_BREAK",
         "LEAF_BLADE",
-        "SEED_BOMB"
+        "SEED_BOMB",
+        "ROCK_SLIDE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -82119,7 +82211,8 @@
       "buddyDistance": 5,
       "chargedMoves": [
         "IRON_HEAD",
-        "GYRO_BALL"
+        "GYRO_BALL",
+        "SACRED_SWORD"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -82157,7 +82250,8 @@
       },
       "fastMoves": [
         "PSYCHO_CUT",
-        "TACKLE"
+        "TACKLE",
+        "SHADOW_CLAW"
       ],
       "released": true,
       "speciesId": "doublade",
@@ -82952,6 +83046,7 @@
         "DRAGON_TAIL"
       ],
       "released": true,
+      "searchPriority": 4,
       "speciesId": "dragalge",
       "speciesName": "Dragalge",
       "thirdMoveCost": 50000,
@@ -83792,7 +83887,7 @@
         "THUNDER_SHOCK"
       ],
       "released": true,
-      "searchPriority": 12,
+      "searchPriority": 6,
       "speciesId": "dedenne",
       "speciesName": "Dedenne",
       "thirdMoveCost": 50000,
@@ -84567,7 +84662,8 @@
       },
       "fastMoves": [
         "HEX",
-        "RAZOR_LEAF"
+        "RAZOR_LEAF",
+        "INCINERATE"
       ],
       "released": true,
       "speciesId": "gourgeist_average",
@@ -84628,7 +84724,8 @@
       },
       "fastMoves": [
         "HEX",
-        "RAZOR_LEAF"
+        "RAZOR_LEAF",
+        "INCINERATE"
       ],
       "released": true,
       "speciesId": "gourgeist_large",
@@ -84689,7 +84786,8 @@
       },
       "fastMoves": [
         "HEX",
-        "RAZOR_LEAF"
+        "RAZOR_LEAF",
+        "INCINERATE"
       ],
       "released": true,
       "speciesId": "gourgeist_small",
@@ -84750,7 +84848,8 @@
       },
       "fastMoves": [
         "HEX",
-        "RAZOR_LEAF"
+        "RAZOR_LEAF",
+        "INCINERATE"
       ],
       "released": true,
       "searchPriority": 2,
@@ -86436,7 +86535,8 @@
       "chargedMoves": [
         "DRILL_PECK",
         "ROCK_BLAST",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "BEAK_BLAST"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -86459,6 +86559,9 @@
         ]
       },
       "dex": 733,
+      "eliteMoves": [
+        "BEAK_BLAST"
+      ],
       "family": {
         "id": "FAMILY_PIKIPEK",
         "parent": "trumbeak"
@@ -86491,7 +86594,8 @@
       "chargedMoves": [
         "DRILL_PECK",
         "ROCK_BLAST",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "BEAK_BLAST"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -86514,6 +86618,9 @@
         ]
       },
       "dex": 733,
+      "eliteMoves": [
+        "BEAK_BLAST"
+      ],
       "family": {
         "id": "FAMILY_PIKIPEK",
         "parent": "trumbeak_shadow"
@@ -90515,7 +90622,8 @@
         "POWER_WHIP",
         "SHADOW_BALL",
         "HEAVY_SLAM",
-        "WRAP"
+        "WRAP",
+        "BRUTAL_SWING"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -91440,7 +91548,8 @@
         "LEAF_BLADE",
         "X_SCISSOR",
         "NIGHT_SLASH",
-        "AERIAL_ACE"
+        "AERIAL_ACE",
+        "SACRED_SWORD"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -91465,7 +91574,8 @@
       "dex": 798,
       "fastMoves": [
         "AIR_SLASH",
-        "RAZOR_LEAF"
+        "RAZOR_LEAF",
+        "FURY_CUTTER"
       ],
       "levelFloor": 15,
       "released": true,
@@ -97323,7 +97433,8 @@
         "OUTRAGE",
         "DRAGON_PULSE",
         "BREAKING_SWIPE",
-        "DRAGON_ENERGY"
+        "DRAGON_ENERGY",
+        "VICE_GRIP"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -97676,7 +97787,8 @@
         "HIGH_HORSEPOWER",
         "ICE_PUNCH",
         "TRAILBLAZE",
-        "SWIFT"
+        "SWIFT",
+        "PLAY_ROUGH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -97708,7 +97820,8 @@
       },
       "fastMoves": [
         "TACKLE",
-        "ROCK_SMASH"
+        "ROCK_SMASH",
+        "SMACK_DOWN"
       ],
       "level25CP": 2427,
       "released": true,
@@ -97737,7 +97850,8 @@
         "HIGH_HORSEPOWER",
         "ICE_PUNCH",
         "TRAILBLAZE",
-        "SWIFT"
+        "SWIFT",
+        "PLAY_ROUGH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -97769,7 +97883,8 @@
       },
       "fastMoves": [
         "TACKLE",
-        "ROCK_SMASH"
+        "ROCK_SMASH",
+        "SMACK_DOWN"
       ],
       "released": true,
       "speciesId": "ursaluna_shadow",
@@ -99486,7 +99601,8 @@
       },
       "fastMoves": [
         "CHARM",
-        "BITE"
+        "BITE",
+        "FIRE_FANG"
       ],
       "released": true,
       "searchPriority": 4,
@@ -99937,7 +100053,7 @@
         "ROCK_THROW",
         "MUD_SHOT"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "nacli",
       "speciesName": "Nacli",
       "thirdMoveCost": 50000,
@@ -99990,7 +100106,7 @@
         "SMACK_DOWN",
         "MUD_SHOT"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "naclstack",
       "speciesName": "Naclstack",
       "thirdMoveCost": 50000,
@@ -100040,7 +100156,7 @@
         "SMACK_DOWN",
         "MUD_SHOT"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "garganacl",
       "speciesName": "Garganacl",
       "thirdMoveCost": 50000,
@@ -102129,7 +102245,8 @@
       "chargedMoves": [
         "SHADOW_BALL",
         "DIG",
-        "PSYCHIC_FANGS"
+        "PSYCHIC_FANGS",
+        "PLAY_ROUGH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -102285,7 +102402,9 @@
       "chargedMoves": [
         "BODY_SLAM",
         "AVALANCHE",
-        "HEAVY_SLAM"
+        "HEAVY_SLAM",
+        "SUPER_POWER",
+        "ICICLE_SPEAR"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -102825,7 +102944,8 @@
       "chargedMoves": [
         "DIG",
         "ROCK_SLIDE",
-        "DRILL_RUN"
+        "DRILL_RUN",
+        "BODY_SLAM"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -102855,7 +102975,8 @@
       "fastMoves": [
         "BITE",
         "ASTONISH",
-        "ROLLOUT"
+        "ROLLOUT",
+        "DRAGON_TAIL"
       ],
       "released": true,
       "speciesId": "dudunsparce",
@@ -105658,6 +105779,6 @@
     "trevenant",
     "darkrai"
   ],
-  "timestamp": "2025-11-25 21:13:14",
+  "timestamp": "2025-12-02 21:47:23",
   "title": "Default"
 }
