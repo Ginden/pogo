@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 - **Exclude unreleased**: true
-- **Date generated**: 2025-12-01
+- **Date generated**: 2025-12-03
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -368,9 +368,9 @@ All Pokemon are normalized to neutral damage of Rampardos using Smack Down
 - **Avalugg** using _Ice Fang_ (68%)
 - **Jynx** using _Frost Breath_ (67%)
 - **Vanilluxe** using _Frost Breath_ (66%)
+- **Mamoswine** using _Powder Snow_ (63%)
 - **Weavile** using _Ice Shard_ (62%)
 - **Glaceon** using _Ice Shard_ (61%)
-- **Arctibax** using _Ice Fang_ (61%)
 
 ### Highest **normal** (⚪) fast move damage:
 

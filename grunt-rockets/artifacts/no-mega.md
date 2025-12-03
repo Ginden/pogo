@@ -2,7 +2,7 @@
 
 - **Excluded tags**: mega
 - **Exclude unreleased**: true
-- **Date generated**: 2025-12-01
+- **Date generated**: 2025-12-03
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -365,12 +365,12 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Kyurem (White)** using _Ice Fang_ (85%)
 - **Darmanitan (Galarian)** using _Ice Fang_ (73%)
 - **Baxcalibur** using _Ice Fang_ (71%)
+- **Mamoswine (Shadow)** using _Powder Snow_ (62%)
 - **Weavile (Shadow)** using _Ice Shard_ (61%)
 - **Regigigas (Shadow)** using _Hidden Power (Ice)_ (60%)
 - **Zamazenta (Hero)** using _Ice Fang_ (59%)
 - **Glaceon** using _Frost Breath_ (58%)
 - **Zamazenta (Crowned Shield)** using _Ice Fang_ (58%)
-- **Feraligatr (Shadow)** using _Ice Fang_ (58%)
 
 ### Highest **normal** (⚪) fast move damage:
 
