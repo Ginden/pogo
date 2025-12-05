@@ -4597,6 +4597,20 @@
     },
     {
       "cp": 1500,
+      "cup": "scroll",
+      "meta": "scroll",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Water-,  Fighting-,  and Dark-type Pokémon are eligible.",
+        "The following Pokémon will not be allowed: Primarina"
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Scroll Cup"
+    },
+    {
+      "cp": 1500,
       "cup": "euic2026",
       "meta": "euic2026",
       "showCup": true,
@@ -105779,6 +105793,6 @@
     "trevenant",
     "darkrai"
   ],
-  "timestamp": "2025-12-02 21:47:23",
+  "timestamp": "2025-12-03 22:27:25",
   "title": "Default"
 }
