@@ -2952,6 +2952,56 @@
     {
       "exclude": [
         {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "leagues": [
+            500
+          ],
+          "values": [
+            "smeargle",
+            "articuno",
+            "celebi",
+            "ho_oh",
+            "hoopa",
+            "lugia",
+            "moltres",
+            "rayquaza",
+            "regice",
+            "regieleki",
+            "regigigas",
+            "shaymin",
+            "shaymin_sky",
+            "zapdos",
+            "morpeko_full_belly"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "grass",
+            "normal",
+            "ice",
+            "ghost",
+            "flying",
+            "electric"
+          ]
+        }
+      ],
+      "name": "holiday",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Holiday Cup"
+    },
+    {
+      "exclude": [
+        {
           "filterType": "type",
           "name": "Type",
           "values": [
@@ -3286,6 +3336,73 @@
       "link": "https://laic.gg/competitor_info/pokemon_go/",
       "name": "laic2025",
       "title": "LAIC 2025 Championship Series Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "type",
+          "values": [
+            "dark",
+            "rock"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "values": [
+            "mega",
+            "legendary",
+            "mythical",
+            "shadow",
+            "ultrabeast"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "sandslash_alolan",
+            "sandshrew_alolan",
+            "corsola_galarian",
+            "corviknight",
+            "jellicent",
+            "kingdra",
+            "ninetales_alolan",
+            "honedge",
+            "doublade",
+            "aegislash_shield",
+            "aegislash_blade",
+            "oranguru",
+            "runerigus",
+            "walrein",
+            "dewgong"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "id",
+          "values": [
+            "barbaracle",
+            "crustle",
+            "dudunsparce",
+            "feraligatr",
+            "milotic"
+          ]
+        },
+        {
+          "filterType": "type",
+          "values": [
+            "dragon",
+            "flying",
+            "ghost",
+            "ice",
+            "psychic"
+          ]
+        }
+      ],
+      "league": 1500,
+      "link": "https://discord.gg/Gymbreakers",
+      "name": "laic2025remix",
+      "title": "Gymbreakers LAIC 2025 Remix"
     },
     {
       "exclude": [
@@ -4611,6 +4728,19 @@
     },
     {
       "cp": 1500,
+      "cup": "holiday",
+      "meta": "holiday",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Normal-,  Grass-,  Electric-,  Ice-,  Flying-,  and Ghost-type Pokémon are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Holiday Cup"
+    },
+    {
+      "cp": 1500,
       "cup": "euic2026",
       "meta": "euic2026",
       "showCup": true,
@@ -4656,12 +4786,12 @@
     },
     {
       "cp": 1500,
-      "cup": "pillar3",
-      "meta": "pillar3",
+      "cup": "laic2025remix",
+      "meta": "laic2025remix",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Gymbreakers Pillar Cup Remix"
+      "title": "Gymbreakers LAIC 2025 Remix"
     },
     {
       "cp": 1500,
@@ -94730,7 +94860,7 @@
       "fastMoves": [
         "ROCK_SMASH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "clobbopus",
       "speciesName": "Clobbopus",
       "thirdMoveCost": 50000,
@@ -94781,7 +94911,7 @@
         "ROCK_SMASH",
         "WATERFALL"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "grapploct",
       "speciesName": "Grapploct",
       "thirdMoveCost": 50000,
@@ -105793,6 +105923,6 @@
     "trevenant",
     "darkrai"
   ],
-  "timestamp": "2025-12-03 22:27:25",
+  "timestamp": "2025-12-08 18:04:50",
   "title": "Default"
 }
