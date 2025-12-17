@@ -3497,6 +3497,80 @@
       "exclude": [
         {
           "filterType": "type",
+          "name": "Type",
+          "values": [
+            "dragon",
+            "fire",
+            "flying",
+            "ghost",
+            "ground",
+            "ice",
+            "psychic",
+            "steel"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "clodsire",
+            "cradily",
+            "cradily_shadow",
+            "dachsbun",
+            "nidoqueen",
+            "nidoqueen_shadow",
+            "wigglytuff"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "excludeLowPokemon": 1,
+      "include": [
+        {
+          "filterType": "id",
+          "values": [
+            "empoleon",
+            "empoleon_shadow",
+            "escavalier",
+            "pawniard",
+            "perrserker",
+            "tinkaton"
+          ]
+        },
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "bug",
+            "dark",
+            "electric",
+            "fairy",
+            "fighting",
+            "grass",
+            "normal",
+            "poison",
+            "rock",
+            "water"
+          ]
+        }
+      ],
+      "league": 1500,
+      "levelCap": 50,
+      "link": "https://devon.gg/nettle-cup",
+      "name": "nettle",
+      "overrides": [],
+      "title": "Devon Nettle Cup",
+      "useDefaultMovesets": 1
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "type",
           "values": [
             "ground",
             "flying",
@@ -4737,7 +4811,20 @@
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Holiday Cup"
+      "title": "Holiday Cup (Great League)"
+    },
+    {
+      "cp": 2500,
+      "cup": "holiday",
+      "meta": "holidayultra",
+      "rules": [
+        "Pokémon must be at or below 2, 500 CP to enter.",
+        "Only Normal-,  Grass-,  Electric-,  Ice-,  Flying-,  and Ghost-type Pokémon are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Holiday Cup (Ultra League)"
     },
     {
       "cp": 1500,
@@ -4777,12 +4864,12 @@
     },
     {
       "cp": 1500,
-      "cup": "metamorphosis",
-      "meta": "metamorphosis",
+      "cup": "nettle",
+      "meta": "nettle",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Devon Metamorphosis Cup"
+      "title": "Devon Nettle Cup"
     },
     {
       "cp": 1500,
@@ -105923,6 +106010,6 @@
     "trevenant",
     "darkrai"
   ],
-  "timestamp": "2025-12-08 18:04:50",
+  "timestamp": "2025-12-15 00:52:07",
   "title": "Default"
 }
