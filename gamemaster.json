@@ -4788,20 +4788,6 @@
     },
     {
       "cp": 1500,
-      "cup": "scroll",
-      "meta": "scroll",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Water-,  Fighting-,  and Dark-type Pokémon are eligible.",
-        "The following Pokémon will not be allowed: Primarina"
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Scroll Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "holiday",
       "meta": "holiday",
       "rules": [
@@ -4825,6 +4811,20 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Holiday Cup (Ultra League)"
+    },
+    {
+      "cp": 1500,
+      "cup": "sunshine",
+      "meta": "sunshine",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Normal-,  Fire-,  Grass-,  and Ground-type Pokémon are eligible.",
+        "The following Pokémon will not be allowed: Charizard"
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Sunshine Cup"
     },
     {
       "cp": 1500,
@@ -7209,6 +7209,24 @@
       "power": 100,
       "turns": 1,
       "type": "steel"
+    },
+    {
+      "abbreviation": "MdB",
+      "archetype": "Debuff",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        0,
+        -4
+      ],
+      "cooldown": 500,
+      "energy": 35,
+      "energyGain": 0,
+      "moveId": "MIND_BLOWN",
+      "name": "Mind Blown",
+      "power": 90,
+      "turns": 1,
+      "type": "fire"
     },
     {
       "abbreviation": "MrC",
@@ -94035,7 +94053,7 @@
         "SMACK_DOWN",
         "TACKLE"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "rolycoly",
       "speciesName": "Rolycoly",
       "thirdMoveCost": 10000,
@@ -94091,10 +94109,9 @@
         "parent": "boltund"
       },
       "fastMoves": [
-        "SMACK_DOWN",
-        "INCINERATE"
+        "SMACK_DOWN"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "carkol",
       "speciesName": "Carkol",
       "thirdMoveCost": 10000,
@@ -94148,9 +94165,9 @@
       },
       "fastMoves": [
         "SMACK_DOWN",
-        "INCINERATE"
+        "FIRE_SPIN"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "coalossal",
       "speciesName": "Coalossal",
       "thirdMoveCost": 10000,
@@ -106010,6 +106027,6 @@
     "trevenant",
     "darkrai"
   ],
-  "timestamp": "2025-12-15 00:52:07",
+  "timestamp": "2025-12-23 19:45:41",
   "title": "Default"
 }
