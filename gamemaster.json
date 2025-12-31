@@ -234,24 +234,37 @@
           "filterType": "id",
           "values": [
             "eternatus",
-            "groudon_primal",
-            "gyarados_mega",
-            "kyogre_primal",
-            "latios_mega",
-            "latias_mega",
-            "rayquaza_mega",
             "zacian_crowned_sword",
             "zamazenta_crowned_shield",
-            "metagross_mega",
             "dialga_origin",
             "palkia_origin",
-            "reshiram",
+            "necrozma_dawn_wings",
             "necrozma_dusk_mane",
+            "kyurem_black",
             "kyurem_white",
-            "metagross",
-            "zekrom",
-            "zygarde_complete",
-            "salamence_mega"
+            "kyogre_primal",
+            "groudon_primal",
+            "rayquaza_mega",
+            "garchomp_mega",
+            "lucario_mega",
+            "gallade_mega",
+            "latias_mega",
+            "latios_mega",
+            "blaziken_mega",
+            "swampert_mega",
+            "gardevoir_mega",
+            "aggron_mega",
+            "salamence_mega",
+            "metagross_mega",
+            "charizard_mega_y",
+            "blastoise_mega",
+            "gengar_mega",
+            "gyarados_mega",
+            "steelix_mega",
+            "scizor_mega",
+            "heracross_mega",
+            "tyranitar_mega",
+            "zygarde_complete"
           ]
         }
       ],
@@ -2600,6 +2613,122 @@
       "title": "Classic"
     },
     {
+      "exclude": [
+        {
+          "filterType": "type",
+          "values": [
+            "rock",
+            "water",
+            "dragon",
+            "electric"
+          ]
+        },
+        {
+          "filterType": "move",
+          "values": [
+            "ROCK_THROW",
+            "SMACK_DOWN"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "moltres_galarian",
+            "umbreon",
+            "florges",
+            "mewtwo_armored"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "normal",
+            "fighting",
+            "ghost",
+            "dark",
+            "fairy",
+            "steel",
+            "grass",
+            "bug",
+            "ice",
+            "fire",
+            "ground",
+            "flying",
+            "psychic",
+            "poison"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "lairon",
+            "lairon_shadow",
+            "kleavor",
+            "armaldo",
+            "armaldo_shadow",
+            "avalugg_hisuian",
+            "empoleon",
+            "empoleon_shadow",
+            "ludicolo",
+            "golisopod",
+            "araquanid",
+            "lapras",
+            "lapras_shadow",
+            "walrein",
+            "walrein_shadow",
+            "dewgong",
+            "cloyster",
+            "cloyster_shadow",
+            "sealeo",
+            "sealeo_shadow",
+            "dialga",
+            "dialga_origin",
+            "dialga_shadow",
+            "duraludon",
+            "dipplin",
+            "hydrapple",
+            "appletun",
+            "flapple",
+            "exeggutor_alolan",
+            "exeggutor_alolan_shadow",
+            "kyurem",
+            "arctibax",
+            "baxcalibur",
+            "kyurem_black",
+            "kyurem_white",
+            "magnezone",
+            "magnezone_shadow",
+            "magneton",
+            "magneton_shadow",
+            "togedemaru",
+            "electrode_hisuian",
+            "rotom_mow",
+            "galvantula",
+            "galvantula_shadow",
+            "vikavolt",
+            "vikavolt_shadow",
+            "rotom_frost",
+            "volcarona",
+            "volcanion",
+            "reshiram",
+            "zapdos",
+            "zapdos_shadow",
+            "zekrom",
+            "raikou",
+            "raikou_shadow",
+            "tapu_koko",
+            "thundurus_therian",
+            "thundurus_incarnate",
+            "regieleki"
+          ]
+        }
+      ],
+      "name": "crucible",
+      "title": "Crucible Cup"
+    },
+    {
       "exclude": [],
       "include": [],
       "name": "custom",
@@ -3425,6 +3554,67 @@
       "levelCap": 50,
       "name": "little",
       "title": "Little Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "type",
+          "values": [
+            "dark",
+            "none",
+            "electric",
+            "rock",
+            "steel",
+            "fire"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "azumarill",
+            "oranguru",
+            "fearow",
+            "toucannon",
+            "trumbeak",
+            "dodrio",
+            "rufflet",
+            "toxapex",
+            "ninetales_alolan",
+            "sealeo",
+            "dewgong",
+            "wigglytuff",
+            "walrein",
+            "jellicent",
+            "araquanid",
+            "girafarig"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "fairy",
+            "ice",
+            "psychic",
+            "ghost",
+            "water",
+            "normal"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": []
+        }
+      ],
+      "name": "majestic",
+      "title": "Majestic Cup"
     },
     {
       "exclude": [],
@@ -4787,19 +4977,6 @@
       "title": "P!P Championship Series"
     },
     {
-      "cp": 1500,
-      "cup": "holiday",
-      "meta": "holiday",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Normal-,  Grass-,  Electric-,  Ice-,  Flying-,  and Ghost-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Holiday Cup (Great League)"
-    },
-    {
       "cp": 2500,
       "cup": "holiday",
       "meta": "holidayultra",
@@ -4837,21 +5014,21 @@
     },
     {
       "cp": 1500,
-      "cup": "calamity",
-      "meta": "calamity",
+      "cup": "majestic",
+      "meta": "majestic",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Battle Frontier (Calamity)"
+      "title": "Battle Frontier (Majestic)"
     },
     {
       "cp": 2500,
-      "cup": "battlefrontierultra",
-      "meta": "ultra",
+      "cup": "crucible",
+      "meta": "crucible",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Battle Frontier (Ultra)"
+      "title": "Battle Frontier (Crucible)"
     },
     {
       "cp": 10000,
@@ -7214,7 +7391,7 @@
       "abbreviation": "MdB",
       "archetype": "Debuff",
       "buffApplyChance": "1",
-      "buffTarget": "opponent",
+      "buffTarget": "self",
       "buffs": [
         0,
         -4
@@ -92377,7 +92554,8 @@
       "chargedMoves": [
         "MYSTICAL_FIRE",
         "SHADOW_BALL",
-        "OVERHEAT"
+        "OVERHEAT",
+        "MIND_BLOWN"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -92400,6 +92578,9 @@
         ]
       },
       "dex": 806,
+      "eliteMoves": [
+        "MIND_BLOWN"
+      ],
       "fastMoves": [
         "INCINERATE",
         "ASTONISH"
@@ -92408,7 +92589,10 @@
       "speciesId": "blacephalon",
       "speciesName": "Blacephalon",
       "tags": [
-        "ultrabeast"
+        "ultrabeast",
+        "include1500",
+        "include2500",
+        "include10000"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -106027,6 +106211,6 @@
     "trevenant",
     "darkrai"
   ],
-  "timestamp": "2025-12-23 19:45:41",
+  "timestamp": "2025-12-30 21:34:35",
   "title": "Default"
 }
