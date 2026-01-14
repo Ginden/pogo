@@ -172,19 +172,29 @@
               "altaria",
               "annihilape",
               "azumarill",
+              "charjabug",
+              "clefable",
+              "clodsire",
               "corsola_galarian",
               "corviknight",
               "empoleon",
+              "feraligatr",
               "florges",
+              "forretress",
               "gastrodon",
+              "guzzlord",
               "jellicent",
+              "lickilicky",
+              "ludicolo",
+              "malamar",
               "marowak",
               "primeape",
               "sableye",
               "scizor",
+              "sealeo",
+              "stunfisk",
               "talonflame",
-              "wigglytuff",
-              "stunfisk"
+              "wigglytuff"
             ]
           }
         ]
@@ -4945,30 +4955,42 @@
     },
     {
       "cp": 1500,
-      "cup": "sunshine",
-      "meta": "sunshine",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Normal-,  Fire-,  Grass-,  and Ground-type Pokémon are eligible.",
-        "The following Pokémon will not be allowed: Charizard"
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Sunshine Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "retro",
       "meta": "retro",
       "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Dark-,  Steel-,  and Fairy-type Pokémon are not eligible."
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Dark-, Steel-, and Fairy-type Pokémon are not eligible."
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
       "title": "Retro Cup"
+    },
+    {
+      "cp": 10000,
+      "cup": "premier",
+      "meta": "premiermaster",
+      "rules": [
+        "No CP limit.",
+        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Master Premier Cup"
+    },
+    {
+      "cp": 2500,
+      "cup": "premier",
+      "meta": "premierultra",
+      "rules": [
+        "No CP limit.",
+        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Ultra Premier Cup"
     },
     {
       "cp": 1500,
@@ -100876,7 +100898,7 @@
         "THUNDER_SHOCK",
         "PECK"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "wattrel",
       "speciesName": "Wattrel",
       "thirdMoveCost": 10000,
@@ -100932,7 +100954,7 @@
         "THUNDER_SHOCK",
         "AIR_SLASH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "kilowattrel",
       "speciesName": "Kilowattrel",
       "thirdMoveCost": 10000,
@@ -106188,6 +106210,6 @@
     "trevenant",
     "darkrai"
   ],
-  "timestamp": "2026-01-06 16:06:24",
+  "timestamp": "2026-01-14 00:56:12",
   "title": "Default"
 }
