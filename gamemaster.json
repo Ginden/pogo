@@ -162,39 +162,35 @@
           {
             "points": 2,
             "pokemon": [
-              "cradily",
-              "furret"
+              "cradily"
             ]
           },
           {
             "points": 1,
             "pokemon": [
-              "altaria",
-              "annihilape",
-              "azumarill",
+              "blastoise",
               "charjabug",
               "clefable",
               "clodsire",
               "corsola_galarian",
-              "corviknight",
+              "dusknoir",
               "empoleon",
               "feraligatr",
               "florges",
               "forretress",
+              "furret",
               "gastrodon",
+              "gourgeist",
               "guzzlord",
               "jellicent",
+              "lapras",
               "lickilicky",
-              "ludicolo",
               "malamar",
-              "marowak",
-              "primeape",
-              "sableye",
-              "scizor",
-              "sealeo",
+              "moltres_galarian",
+              "ninetales_alolan",
+              "steelix",
               "stunfisk",
-              "talonflame",
-              "wigglytuff"
+              "tinkaton"
             ]
           }
         ]
@@ -4958,8 +4954,8 @@
       "cup": "retro",
       "meta": "retro",
       "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Dark-, Steel-, and Fairy-type Pokémon are not eligible."
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Dark-,  Steel-,  and Fairy-type Pokémon are not eligible."
       ],
       "showCup": true,
       "showFormat": true,
@@ -4972,7 +4968,7 @@
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
+        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": true,
@@ -4985,7 +4981,7 @@
       "meta": "premierultra",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
+        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": true,
@@ -6103,6 +6099,24 @@
       "power": 80,
       "turns": 1,
       "type": "ground"
+    },
+    {
+      "abbreviation": "DrB",
+      "archetype": "Debuff Spam",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        -1,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 35,
+      "energyGain": 0,
+      "moveId": "DRUM_BEATING",
+      "name": "Drum Beating",
+      "power": 60,
+      "turns": 1,
+      "type": "grass"
     },
     {
       "abbreviation": "DyC",
@@ -92877,7 +92891,9 @@
       "chargedMoves": [
         "ENERGY_BALL",
         "GRASS_KNOT",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "DRUM_BEATING",
+        "FRENZY_PLANT"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -92900,6 +92916,9 @@
         ]
       },
       "dex": 812,
+      "eliteMoves": [
+        "FRENZY_PLANT"
+      ],
       "family": {
         "id": "FAMILY_GROOKEY",
         "parent": "thwackey"
@@ -102574,7 +102593,8 @@
       "chargedMoves": [
         "DAZZLING_GLEAM",
         "POWER_GEM",
-        "SLUDGE_WAVE"
+        "SLUDGE_WAVE",
+        "METEOR_BEAM"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -106210,6 +106230,6 @@
     "trevenant",
     "darkrai"
   ],
-  "timestamp": "2026-01-14 00:56:12",
+  "timestamp": "2026-01-17 15:51:44",
   "title": "Default"
 }
