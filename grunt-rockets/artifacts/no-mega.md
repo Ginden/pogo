@@ -2,7 +2,7 @@
 
 - **Excluded tags**: mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-01-21
+- **Date generated**: 2026-01-28
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -330,11 +330,11 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Haunter (Shadow)** using _Astonish_ (75%)
 - **Golurk (Shadow)** using _Astonish_ (75%)
 - **Dragapult** using _Astonish_ (74%)
+- **Thundurus (Incarnate) (Shadow)** using _Astonish_ (74%)
 - **Hoopa** using _Astonish_ (73%)
 - **Hoopa (Unbound)** using _Astonish_ (71%)
 - **Cursola** using _Astonish_ (70%)
 - **Gholdengo** using _Astonish_ (70%)
-- **Polteageist** using _Astonish_ (69%)
 
 ### Highest **grass** (🌱) fast move damage:
 
@@ -375,6 +375,7 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 ### Highest **normal** (⚪) fast move damage:
 
 - **Ambipom (Shadow)** using _Scratch_ (69%)
+- **Delphox (Shadow)** using _Scratch_ (64%)
 - **Ursaluna (Shadow)** using _Tackle_ (61%)
 - **Purugly (Shadow)** using _Scratch_ (59%)
 - **Ambipom** using _Scratch_ (58%)
@@ -382,7 +383,6 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Vigoroth (Shadow)** using _Scratch_ (55%)
 - **Darmanitan (Standard) (Shadow)** using _Tackle_ (55%)
 - **Delphox** using _Scratch_ (54%)
-- **Persian (Shadow)** using _Scratch_ (52%)
 
 ### Highest **poison** (🐍) fast move damage:
 
@@ -439,7 +439,7 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Gyarados (Shadow)** using _Waterfall_ (80%)
 - **Crawdaunt (Shadow)** using _Waterfall_ (75%)
 - **Kyogre** using _Waterfall_ (75%)
+- **Kabutops (Shadow)** using _Waterfall_ (74%)
 - **Samurott (Shadow)** using _Waterfall_ (72%)
 - **Empoleon (Shadow)** using _Waterfall_ (71%)
 - **Urshifu (Rapid Strike)** using _Waterfall_ (71%)
-- **Feraligatr (Shadow)** using _Waterfall_ (69%)

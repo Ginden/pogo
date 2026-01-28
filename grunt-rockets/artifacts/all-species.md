@@ -2,7 +2,7 @@
 
 - **Excluded tags**: none
 - **Exclude unreleased**: true
-- **Date generated**: 2026-01-21
+- **Date generated**: 2026-01-28
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -330,11 +330,11 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Haunter (Shadow)** using _Astonish_ (75%)
 - **Golurk (Shadow)** using _Astonish_ (74%)
 - **Dragapult** using _Astonish_ (74%)
+- **Thundurus (Incarnate) (Shadow)** using _Astonish_ (74%)
 - **Hoopa** using _Astonish_ (72%)
 - **Gengar (Mega)** using _Lick_ (71%)
 - **Gengar (Mega)** using _Shadow Claw_ (71%)
 - **Hoopa (Unbound)** using _Astonish_ (71%)
-- **Cursola** using _Astonish_ (70%)
 
 ### Highest **grass** (🌱) fast move damage:
 
@@ -375,6 +375,7 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 ### Highest **normal** (⚪) fast move damage:
 
 - **Ambipom (Shadow)** using _Scratch_ (69%)
+- **Delphox (Shadow)** using _Scratch_ (64%)
 - **Ursaluna (Shadow)** using _Tackle_ (61%)
 - **Purugly (Shadow)** using _Scratch_ (59%)
 - **Diancie (Mega)** using _Tackle_ (58%)
@@ -382,7 +383,6 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Rillaboom** using _Scratch_ (55%)
 - **Vigoroth (Shadow)** using _Scratch_ (55%)
 - **Darmanitan (Standard) (Shadow)** using _Tackle_ (55%)
-- **Delphox** using _Scratch_ (53%)
 
 ### Highest **poison** (🐍) fast move damage:
 
@@ -442,4 +442,4 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Gyarados (Shadow)** using _Waterfall_ (79%)
 - **Crawdaunt (Shadow)** using _Waterfall_ (75%)
 - **Kyogre** using _Waterfall_ (75%)
-- **Samurott (Shadow)** using _Waterfall_ (71%)
+- **Kabutops (Shadow)** using _Waterfall_ (74%)
