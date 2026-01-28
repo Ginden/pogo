@@ -29,6 +29,144 @@
       "title": "All Pokemon"
     },
     {
+      "cup": "amor",
+      "exclude": [
+        {
+          "filterType": "move",
+          "name": "Move",
+          "values": [
+            "charm",
+            "incinerate",
+            "mud_slap",
+            "smack_down"
+          ]
+        }
+      ],
+      "excludeLowPokemon": 1,
+      "include": [
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "ariados",
+            "armarouge",
+            "audino",
+            "bewear",
+            "bisharp",
+            "blaziken",
+            "blaziken_shadow",
+            "bruxish",
+            "buzzwole",
+            "camerupt",
+            "camerupt_shadow",
+            "castform_sunny",
+            "centiskorch",
+            "charizard",
+            "charizard_shadow",
+            "cherrim_sunny",
+            "chimecho",
+            "clefable",
+            "crobat",
+            "crobat_shadow",
+            "crustle",
+            "crustle_shadow",
+            "darmanitan_standard",
+            "darmanitan_standard_shadow",
+            "deoxys_defense",
+            "druddigon",
+            "electrode",
+            "electrode_hisuian",
+            "electrode_shadow",
+            "espeon",
+            "frosmoth",
+            "gallade",
+            "gallade_shadow",
+            "gardevoir",
+            "gardevoir_shadow",
+            "heatmor",
+            "incineroar",
+            "krookodile",
+            "latias",
+            "latias_shadow",
+            "latios",
+            "latios_shadow",
+            "leavanny",
+            "ledian",
+            "lickitung",
+            "lopunny",
+            "lucario",
+            "lurantis",
+            "magcargo",
+            "magmar",
+            "magmar_shadow",
+            "magmortar",
+            "magmortar_shadow",
+            "medicham",
+            "mesprit",
+            "mew",
+            "milotic",
+            "miltank",
+            "moltres",
+            "moltres_shadow",
+            "nidoking",
+            "nidoking_shadow",
+            "nidoqueen",
+            "nidoqueen_shadow",
+            "pawniard",
+            "rapidash_galarian",
+            "rotom",
+            "rotom_fan",
+            "rotom_frost",
+            "rotom_heat",
+            "rotom_mow",
+            "rotom_wash",
+            "scolipede",
+            "scolipede_shadow",
+            "scrafty",
+            "seaking",
+            "simisear",
+            "skeledirge",
+            "slowbro",
+            "slowbro_galarian",
+            "slowbro_shadow",
+            "slowking",
+            "slowking_galarian",
+            "slowking_shadow",
+            "slowpoke",
+            "slowpoke_shadow",
+            "slurpuff",
+            "snorlax",
+            "snorlax_shadow",
+            "solrock",
+            "spinda",
+            "swoobat",
+            "sylveon",
+            "talonflame",
+            "talonflame_shadow",
+            "tatsugiri_curly",
+            "tatsugiri_droopy",
+            "tatsugiri_stretchy",
+            "tinkaton",
+            "tinkatuff",
+            "turtonator",
+            "tyrantrum",
+            "tyrantrum_shadow",
+            "umbreon",
+            "vileplume",
+            "vileplume_shadow",
+            "wormadam_trash",
+            "wugtrio"
+          ]
+        }
+      ],
+      "league": 1500,
+      "link": "https://devon.gg",
+      "name": "amor",
+      "overrides": [],
+      "title": "Amor Cup",
+      "useDefaultMovesets": 1
+    },
+    {
       "exclude": [
         {
           "filterType": "type",
@@ -162,35 +300,34 @@
           {
             "points": 2,
             "pokemon": [
-              "cradily"
+              "furret"
             ]
           },
           {
             "points": 1,
             "pokemon": [
+              "altaria",
+              "azumarill",
               "blastoise",
-              "charjabug",
-              "clefable",
-              "clodsire",
-              "corsola_galarian",
+              "corviknight",
+              "cradily",
               "dusknoir",
               "empoleon",
-              "feraligatr",
-              "florges",
-              "forretress",
-              "furret",
-              "gastrodon",
-              "gourgeist",
-              "guzzlord",
+              "gourgeist_average",
+              "gourgeist_large",
+              "gourgeist_small",
+              "gourgeist_super",
               "jellicent",
               "lapras",
-              "lickilicky",
-              "malamar",
+              "marowak",
               "moltres_galarian",
               "ninetales_alolan",
+              "scizor",
               "steelix",
               "stunfisk",
-              "tinkaton"
+              "talonflame",
+              "tinkaton",
+              "wigglytuff"
             ]
           }
         ]
@@ -4950,28 +5087,16 @@
       "title": "P!P Championship Series"
     },
     {
-      "cp": 1500,
-      "cup": "retro",
-      "meta": "retro",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Dark-,  Steel-,  and Fairy-type Pokémon are not eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Retro Cup"
-    },
-    {
       "cp": 10000,
       "cup": "premier",
+      "hideRankings": true,
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
         "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
       ],
       "showCup": true,
-      "showFormat": true,
+      "showFormat": false,
       "showMeta": true,
       "title": "Master Premier Cup"
     },
@@ -5036,12 +5161,12 @@
     },
     {
       "cp": 1500,
-      "cup": "nettle",
-      "meta": "nettle",
+      "cup": "amor",
+      "meta": "amor",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Devon Nettle Cup"
+      "title": "Devon Amor Cup"
     },
     {
       "cp": 1500,
@@ -20504,9 +20629,13 @@
         "EMBER",
         "TACKLE"
       ],
+      "level25CP": 1000,
       "released": true,
       "speciesId": "ponyta",
       "speciesName": "Ponyta",
+      "tags": [
+        "shadoweligible"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "fire",
@@ -20570,6 +20699,65 @@
     },
     {
       "baseStats": {
+        "atk": 170,
+        "def": 127,
+        "hp": 137
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "FIRE_BLAST",
+        "FLAME_CHARGE",
+        "FLAME_WHEEL",
+        "STOMP"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          36,
+          4,
+          14,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          11,
+          5,
+          15,
+          12
+        ]
+      },
+      "dex": 77,
+      "eliteMoves": [
+        "FIRE_BLAST"
+      ],
+      "family": {
+        "evolutions": [
+          "rapidash_shadow"
+        ],
+        "id": "FAMILY_PONYTA"
+      },
+      "fastMoves": [
+        "EMBER",
+        "TACKLE"
+      ],
+      "released": true,
+      "speciesId": "ponyta_shadow",
+      "speciesName": "Ponyta (Shadow)",
+      "tags": [
+        "shadow"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "fire",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 207,
         "def": 162,
         "hp": 163
@@ -20624,10 +20812,14 @@
         "LOW_KICK",
         "INCINERATE"
       ],
+      "level25CP": 1500,
       "released": true,
       "searchPriority": 5,
       "speciesId": "rapidash",
       "speciesName": "Rapidash",
+      "tags": [
+        "shadoweligible"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "fire",
@@ -20701,6 +20893,75 @@
       "types": [
         "psychic",
         "fairy"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 207,
+        "def": 162,
+        "hp": 163
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "DRILL_RUN",
+        "FIRE_BLAST",
+        "HEAT_WAVE",
+        "FLAME_CHARGE",
+        "SCORCHING_SANDS",
+        "WILD_CHARGE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          22.5,
+          4,
+          14,
+          15
+        ],
+        "cp2500": [
+          46,
+          4,
+          13,
+          14
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          7.5,
+          9,
+          14,
+          14
+        ]
+      },
+      "dex": 78,
+      "eliteMoves": [
+        "EMBER",
+        "WILD_CHARGE"
+      ],
+      "family": {
+        "id": "FAMILY_PONYTA",
+        "parent": "ponyta_shadow"
+      },
+      "fastMoves": [
+        "EMBER",
+        "FIRE_SPIN",
+        "LOW_KICK",
+        "INCINERATE"
+      ],
+      "released": true,
+      "searchPriority": 5,
+      "speciesId": "rapidash_shadow",
+      "speciesName": "Rapidash (Shadow)",
+      "tags": [
+        "shadow"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "fire",
+        "none"
       ]
     },
     {
@@ -28485,9 +28746,74 @@
         "MUD_SHOT",
         "SCRATCH"
       ],
+      "level25CP": 789,
       "released": true,
       "speciesId": "kabuto",
       "speciesName": "Kabuto",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 148,
+        "def": 140,
+        "hp": 102
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "ANCIENT_POWER",
+        "AQUA_JET",
+        "ROCK_TOMB"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          49,
+          13,
+          15,
+          13
+        ],
+        "cp1500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          14,
+          4,
+          14,
+          11
+        ]
+      },
+      "dex": 140,
+      "family": {
+        "evolutions": [
+          "kabutops_shadow"
+        ],
+        "id": "FAMILY_KABUTO"
+      },
+      "fastMoves": [
+        "MUD_SHOT",
+        "SCRATCH"
+      ],
+      "released": true,
+      "speciesId": "kabuto_shadow",
+      "speciesName": "Kabuto (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "rock",
@@ -28540,9 +28866,71 @@
         "ROCK_SMASH",
         "WATERFALL"
       ],
+      "level25CP": 1666,
       "released": true,
       "speciesId": "kabutops",
       "speciesName": "Kabutops",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "rock",
+        "water"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 220,
+        "def": 186,
+        "hp": 155
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "ANCIENT_POWER",
+        "STONE_EDGE",
+        "WATER_PULSE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          20.5,
+          4,
+          12,
+          14
+        ],
+        "cp2500": [
+          37.5,
+          5,
+          15,
+          14
+        ],
+        "cp500": [
+          7,
+          4,
+          12,
+          14
+        ]
+      },
+      "dex": 141,
+      "eliteMoves": [
+        "FURY_CUTTER"
+      ],
+      "family": {
+        "id": "FAMILY_KABUTO",
+        "parent": "kabuto_shadow"
+      },
+      "fastMoves": [
+        "FURY_CUTTER",
+        "MUD_SHOT",
+        "ROCK_SMASH",
+        "WATERFALL"
+      ],
+      "released": true,
+      "speciesId": "kabutops_shadow",
+      "speciesName": "Kabutops (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "rock",
@@ -79669,11 +80057,64 @@
         "ASTONISH",
         "THUNDER_SHOCK"
       ],
+      "level25CP": 2083,
       "released": true,
       "speciesId": "thundurus_incarnate",
       "speciesName": "Thundurus (Incarnate)",
       "tags": [
-        "legendary"
+        "legendary",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "electric",
+        "flying"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 266,
+        "def": 164,
+        "hp": 188
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "CRUNCH",
+        "THUNDER",
+        "BRICK_BREAK",
+        "THUNDER_PUNCH"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          16.5,
+          7,
+          12,
+          10
+        ],
+        "cp2500": [
+          27.5,
+          5,
+          14,
+          9
+        ],
+        "cp500": [
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "dex": 642,
+      "fastMoves": [
+        "ASTONISH",
+        "THUNDER_SHOCK"
+      ],
+      "released": true,
+      "speciesId": "thundurus_incarnate_shadow",
+      "speciesName": "Thundurus (Incarnate) (Shadow)",
+      "tags": [
+        "legendary",
+        "shadow"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -80637,11 +81078,69 @@
         "TAKE_DOWN",
         "VINE_WHIP"
       ],
+      "level25CP": 614,
       "released": true,
       "speciesId": "chespin",
       "speciesName": "Chespin",
       "tags": [
-        "starter"
+        "starter",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "grass",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 110,
+        "def": 106,
+        "hp": 148
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "GYRO_BALL",
+        "SEED_BOMB",
+        "BODY_SLAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          17.5,
+          5,
+          13,
+          15
+        ]
+      },
+      "dex": 650,
+      "family": {
+        "evolutions": [
+          "quilladin_shadow"
+        ],
+        "id": "FAMILY_CHESPIN"
+      },
+      "fastMoves": [
+        "TAKE_DOWN",
+        "VINE_WHIP"
+      ],
+      "released": true,
+      "speciesId": "chespin_shadow",
+      "speciesName": "Chespin (Shadow)",
+      "tags": [
+        "starter",
+        "shadow"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -80693,11 +81192,70 @@
         "LOW_KICK",
         "VINE_WHIP"
       ],
+      "level25CP": 1016,
       "released": true,
       "speciesId": "quilladin",
       "speciesName": "Quilladin",
       "tags": [
-        "starter"
+        "starter",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "grass",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 146,
+        "def": 156,
+        "hp": 156
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "GYRO_BALL",
+        "ENERGY_BALL",
+        "BODY_SLAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          35,
+          5,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          11,
+          4,
+          13,
+          15
+        ]
+      },
+      "dex": 651,
+      "family": {
+        "evolutions": [
+          "chesnaught_shadow"
+        ],
+        "id": "FAMILY_CHESPIN",
+        "parent": "chespin_shadow"
+      },
+      "fastMoves": [
+        "LOW_KICK",
+        "VINE_WHIP"
+      ],
+      "released": true,
+      "speciesId": "quilladin_shadow",
+      "speciesName": "Quilladin (Shadow)",
+      "tags": [
+        "starter",
+        "shadow"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -80753,12 +81311,76 @@
         "SMACK_DOWN",
         "VINE_WHIP"
       ],
+      "level25CP": 1829,
       "released": true,
       "searchPriority": 3,
       "speciesId": "chesnaught",
       "speciesName": "Chesnaught",
       "tags": [
-        "starter"
+        "starter",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "grass",
+        "fighting"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 201,
+        "def": 204,
+        "hp": 204
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "GYRO_BALL",
+        "ENERGY_BALL",
+        "SUPER_POWER",
+        "SOLAR_BEAM",
+        "FRENZY_PLANT",
+        "THUNDER_PUNCH"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          19,
+          4,
+          14,
+          9
+        ],
+        "cp2500": [
+          33,
+          4,
+          15,
+          11
+        ],
+        "cp500": [
+          6.5,
+          4,
+          15,
+          11
+        ]
+      },
+      "dex": 652,
+      "eliteMoves": [
+        "FRENZY_PLANT"
+      ],
+      "family": {
+        "id": "FAMILY_CHESPIN",
+        "parent": "quilladin_shadow"
+      },
+      "fastMoves": [
+        "LOW_KICK",
+        "SMACK_DOWN",
+        "VINE_WHIP"
+      ],
+      "released": true,
+      "searchPriority": 3,
+      "speciesId": "chesnaught_shadow",
+      "speciesName": "Chesnaught (Shadow)",
+      "tags": [
+        "starter",
+        "shadow"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -80809,11 +81431,69 @@
         "SCRATCH",
         "EMBER"
       ],
+      "level25CP": 572,
       "released": true,
       "speciesId": "fennekin",
       "speciesName": "Fennekin",
       "tags": [
-        "starter"
+        "starter",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "fire",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 116,
+        "def": 102,
+        "hp": 120
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "PSYSHOCK",
+        "FLAMETHROWER",
+        "FLAME_CHARGE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          19,
+          4,
+          12,
+          13
+        ]
+      },
+      "dex": 653,
+      "family": {
+        "evolutions": [
+          "braixen_shadow"
+        ],
+        "id": "FAMILY_FENNEKIN"
+      },
+      "fastMoves": [
+        "SCRATCH",
+        "EMBER"
+      ],
+      "released": true,
+      "speciesId": "fennekin_shadow",
+      "speciesName": "Fennekin (Shadow)",
+      "tags": [
+        "starter",
+        "shadow"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -80865,11 +81545,70 @@
         "SCRATCH",
         "EMBER"
       ],
+      "level25CP": 1075,
       "released": true,
       "speciesId": "braixen",
       "speciesName": "Braixen",
       "tags": [
-        "starter"
+        "starter",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "fire",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 171,
+        "def": 130,
+        "hp": 153
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "PSYSHOCK",
+        "FLAMETHROWER",
+        "FLAME_CHARGE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          31,
+          6,
+          15,
+          14
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          10.5,
+          4,
+          11,
+          12
+        ]
+      },
+      "dex": 654,
+      "family": {
+        "evolutions": [
+          "delphox_shadow"
+        ],
+        "id": "FAMILY_FENNEKIN",
+        "parent": "fennekin_shadow"
+      },
+      "fastMoves": [
+        "SCRATCH",
+        "EMBER"
+      ],
+      "released": true,
+      "speciesId": "braixen_shadow",
+      "speciesName": "Braixen (Shadow)",
+      "tags": [
+        "starter",
+        "shadow"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -80926,11 +81665,75 @@
         "FIRE_SPIN",
         "ZEN_HEADBUTT"
       ],
+      "level25CP": 1897,
       "released": true,
       "speciesId": "delphox",
       "speciesName": "Delphox",
       "tags": [
-        "starter"
+        "starter",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "fire",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 230,
+        "def": 189,
+        "hp": 181
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "PSYCHIC",
+        "FLAMETHROWER",
+        "FLAME_CHARGE",
+        "FIRE_BLAST",
+        "BLAST_BURN",
+        "MYSTICAL_FIRE",
+        "PSYSHOCK"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          18,
+          4,
+          15,
+          14
+        ],
+        "cp2500": [
+          30.5,
+          4,
+          15,
+          11
+        ],
+        "cp500": [
+          6,
+          14,
+          15,
+          13
+        ]
+      },
+      "dex": 655,
+      "eliteMoves": [
+        "BLAST_BURN"
+      ],
+      "family": {
+        "id": "FAMILY_FENNEKIN",
+        "parent": "braixen_shadow"
+      },
+      "fastMoves": [
+        "SCRATCH",
+        "FIRE_SPIN",
+        "ZEN_HEADBUTT"
+      ],
+      "released": true,
+      "speciesId": "delphox_shadow",
+      "speciesName": "Delphox (Shadow)",
+      "tags": [
+        "starter",
+        "shadow"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -80981,11 +81784,69 @@
         "POUND",
         "BUBBLE"
       ],
+      "level25CP": 548,
       "released": true,
       "speciesId": "froakie",
       "speciesName": "Froakie",
       "tags": [
-        "starter"
+        "starter",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "water",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 122,
+        "def": 84,
+        "hp": 121
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "WATER_PULSE",
+        "AERIAL_ACE",
+        "SURF"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          19.5,
+          4,
+          12,
+          15
+        ]
+      },
+      "dex": 656,
+      "family": {
+        "evolutions": [
+          "frogadier_shadow"
+        ],
+        "id": "FAMILY_FROAKIE"
+      },
+      "fastMoves": [
+        "POUND",
+        "BUBBLE"
+      ],
+      "released": true,
+      "speciesId": "froakie_shadow",
+      "speciesName": "Froakie (Shadow)",
+      "tags": [
+        "starter",
+        "shadow"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -81037,11 +81898,70 @@
         "POUND",
         "BUBBLE"
       ],
+      "level25CP": 960,
       "released": true,
       "speciesId": "frogadier",
       "speciesName": "Frogadier",
       "tags": [
-        "starter"
+        "starter",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "water",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 168,
+        "def": 114,
+        "hp": 144
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "WATER_PULSE",
+        "AERIAL_ACE",
+        "SURF"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          38.5,
+          4,
+          15,
+          14
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          11.5,
+          4,
+          12,
+          15
+        ]
+      },
+      "dex": 657,
+      "family": {
+        "evolutions": [
+          "greninja_shadow"
+        ],
+        "id": "FAMILY_FROAKIE",
+        "parent": "froakie_shadow"
+      },
+      "fastMoves": [
+        "POUND",
+        "BUBBLE"
+      ],
+      "released": true,
+      "speciesId": "frogadier_shadow",
+      "speciesName": "Frogadier (Shadow)",
+      "tags": [
+        "starter",
+        "shadow"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -81096,12 +82016,75 @@
         "BUBBLE",
         "WATER_SHURIKEN"
       ],
+      "level25CP": 1627,
       "released": true,
       "searchPriority": 6,
       "speciesId": "greninja",
       "speciesName": "Greninja",
       "tags": [
-        "starter"
+        "starter",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "water",
+        "dark"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 223,
+        "def": 152,
+        "hp": 176
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "NIGHT_SLASH",
+        "AERIAL_ACE",
+        "SURF",
+        "HYDRO_PUMP",
+        "HYDRO_CANNON"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          21,
+          5,
+          12,
+          12
+        ],
+        "cp2500": [
+          39.5,
+          4,
+          13,
+          15
+        ],
+        "cp500": [
+          7,
+          7,
+          15,
+          15
+        ]
+      },
+      "dex": 658,
+      "eliteMoves": [
+        "HYDRO_CANNON"
+      ],
+      "family": {
+        "id": "FAMILY_FROAKIE",
+        "parent": "frogadier_shadow"
+      },
+      "fastMoves": [
+        "FEINT_ATTACK",
+        "BUBBLE",
+        "WATER_SHURIKEN"
+      ],
+      "released": true,
+      "searchPriority": 6,
+      "speciesId": "greninja_shadow",
+      "speciesName": "Greninja (Shadow)",
+      "tags": [
+        "starter",
+        "shadow"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -106228,8 +107211,22 @@
     "cofagrigus",
     "phantump",
     "trevenant",
-    "darkrai"
+    "darkrai",
+    "thundurus_incarnate",
+    "froakie",
+    "frogadier",
+    "greninja",
+    "chespin",
+    "quilladin",
+    "chesnaught",
+    "fennekin",
+    "braixen",
+    "delphox",
+    "ponyta",
+    "rapidash",
+    "kabuto",
+    "kabutops"
   ],
-  "timestamp": "2026-01-17 15:51:44",
+  "timestamp": "2026-01-24 03:31:16",
   "title": "Default"
 }
