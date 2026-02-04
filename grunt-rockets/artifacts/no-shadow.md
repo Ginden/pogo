@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-01-28
+- **Date generated**: 2026-02-04
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -416,9 +416,9 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Aerodactyl (Mega)** using _Rock Throw_ (80%)
 - **Terrakion** using _Smack Down_ (72%)
 - **Tyranitar** using _Smack Down_ (70%)
+- **Glimmora** using _Rock Throw_ (68%)
+- **Glimmora** using _Smack Down_ (68%)
 - **Rhyperior** using _Smack Down_ (67%)
-- **Lycanroc (Dusk)** using _Rock Throw_ (65%)
-- **Lycanroc (Midday)** using _Rock Throw_ (64%)
 
 ### Highest **steel** (🛡️) fast move damage:
 

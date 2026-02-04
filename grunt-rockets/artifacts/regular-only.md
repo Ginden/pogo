@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 - **Exclude unreleased**: true
-- **Date generated**: 2026-01-28
+- **Date generated**: 2026-02-04
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -14,9 +14,9 @@
 - **Darmanitan (Standard)** using _Incinerate_ (90%)
 - **Tyranitar** using _Smack Down_ (86%)
 - **Chandelure** using _Fire Spin_ (85%)
+- **Glimmora** using _Rock Throw_ (84%)
+- **Glimmora** using _Smack Down_ (84%)
 - **Rhyperior** using _Smack Down_ (83%)
-- **Volcarona** using _Fire Spin_ (83%)
-- **Ceruledge** using _Incinerate_ (82%)
 
 # Anti-Dark 🌌
 
@@ -84,11 +84,11 @@
 - **Excadrill** using _Mud Slap_ (87%)
 - **Tyranitar** using _Smack Down_ (86%)
 - **Mamoswine** using _Mud Slap_ (85%)
+- **Glimmora** using _Rock Throw_ (84%)
+- **Glimmora** using _Smack Down_ (84%)
 - **Sharpedo** using _Waterfall_ (83%)
 - **Rhyperior** using _Mud Slap_ (83%)
 - **Rhyperior** using _Smack Down_ (83%)
-- **Gyarados** using _Waterfall_ (81%)
-- **Lycanroc (Dusk)** using _Rock Throw_ (80%)
 
 # Anti-Flying 🕊️
 
@@ -96,11 +96,11 @@
 - **Darmanitan (Galarian)** using _Ice Fang_ (90%)
 - **Baxcalibur** using _Ice Fang_ (87%)
 - **Tyranitar** using _Smack Down_ (86%)
+- **Glimmora** using _Rock Throw_ (84%)
+- **Glimmora** using _Smack Down_ (84%)
 - **Rhyperior** using _Smack Down_ (83%)
 - **Lycanroc (Dusk)** using _Rock Throw_ (80%)
 - **Lycanroc (Midday)** using _Rock Throw_ (79%)
-- **Tyrantrum** using _Rock Throw_ (78%)
-- **Gigalith** using _Smack Down_ (78%)
 
 # Anti-Ghost 👻
 
@@ -412,13 +412,13 @@ All Pokemon are normalized to neutral damage of Rampardos using Smack Down
 
 - **Rampardos** using _Smack Down_ (100%)
 - **Tyranitar** using _Smack Down_ (86%)
+- **Glimmora** using _Rock Throw_ (84%)
+- **Glimmora** using _Smack Down_ (84%)
 - **Rhyperior** using _Smack Down_ (83%)
 - **Lycanroc (Dusk)** using _Rock Throw_ (80%)
 - **Lycanroc (Midday)** using _Rock Throw_ (79%)
 - **Tyrantrum** using _Rock Throw_ (78%)
 - **Gigalith** using _Smack Down_ (78%)
-- **Stonjourner** using _Rock Throw_ (76%)
-- **Aerodactyl** using _Rock Throw_ (76%)
 
 ### Highest **steel** (🛡️) fast move damage:
 

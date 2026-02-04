@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-01-28
+- **Date generated**: 2026-02-04
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -87,8 +87,8 @@
 - **Urshifu (Rapid Strike)** using _Waterfall_ (87%)
 - **Tyranitar** using _Smack Down_ (86%)
 - **Mamoswine** using _Mud Slap_ (85%)
-- **Sharpedo** using _Waterfall_ (83%)
-- **Rhyperior** using _Mud Slap_ (83%)
+- **Glimmora** using _Rock Throw_ (84%)
+- **Glimmora** using _Smack Down_ (84%)
 
 # Anti-Flying 🕊️
 
@@ -99,8 +99,8 @@
 - **Thundurus (Therian)** using _Volt Switch_ (83%)
 - **Baxcalibur** using _Ice Fang_ (83%)
 - **Tyranitar** using _Smack Down_ (82%)
-- **Rhyperior** using _Smack Down_ (79%)
-- **Lycanroc (Dusk)** using _Rock Throw_ (77%)
+- **Glimmora** using _Rock Throw_ (80%)
+- **Glimmora** using _Smack Down_ (80%)
 
 # Anti-Ghost 👻
 
@@ -413,12 +413,12 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Rampardos** using _Smack Down_ (82%)
 - **Terrakion** using _Smack Down_ (72%)
 - **Tyranitar** using _Smack Down_ (70%)
+- **Glimmora** using _Rock Throw_ (69%)
+- **Glimmora** using _Smack Down_ (69%)
 - **Rhyperior** using _Smack Down_ (67%)
 - **Lycanroc (Dusk)** using _Rock Throw_ (65%)
 - **Lycanroc (Midday)** using _Rock Throw_ (65%)
 - **Tyrantrum** using _Rock Throw_ (64%)
-- **Gigalith** using _Smack Down_ (63%)
-- **Stonjourner** using _Rock Throw_ (62%)
 
 ### Highest **steel** (🛡️) fast move damage:
 
