@@ -307,26 +307,25 @@
             "points": 1,
             "pokemon": [
               "altaria",
+              "annihilape",
               "azumarill",
-              "blastoise",
+              "clodsire",
+              "corsola_galarian",
               "corviknight",
               "cradily",
-              "dusknoir",
               "empoleon",
-              "gourgeist_average",
-              "gourgeist_large",
-              "gourgeist_small",
-              "gourgeist_super",
+              "feraligatr",
+              "florges",
+              "forretress",
+              "gastrodon",
+              "guzzlord",
               "jellicent",
-              "lapras",
+              "lickilicky",
               "marowak",
-              "moltres_galarian",
-              "ninetales_alolan",
+              "primeape",
               "scizor",
-              "steelix",
               "stunfisk",
               "talonflame",
-              "tinkaton",
               "wigglytuff"
             ]
           }
@@ -2827,6 +2826,7 @@
             "tapu_koko",
             "thundurus_therian",
             "thundurus_incarnate",
+            "thundurus_incarnate_shadow",
             "regieleki"
           ]
         }
@@ -5101,19 +5101,6 @@
       "title": "Master Premier Cup"
     },
     {
-      "cp": 2500,
-      "cup": "premier",
-      "meta": "premierultra",
-      "rules": [
-        "No CP limit.",
-        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Ultra Premier Cup"
-    },
-    {
       "cp": 1500,
       "cup": "euic2026",
       "meta": "euic2026",
@@ -5214,6 +5201,63 @@
       "title": "Custom"
     }
   ],
+  "greatLeagueIneligible": [
+    "mewtwo",
+    "mewtwo_armored",
+    "giratina_altered",
+    "groudon",
+    "kyogre",
+    "palkia",
+    "dialga",
+    "cobalion",
+    "terrakion",
+    "virizion",
+    "tornadus_therian",
+    "tornadus_therian_xl",
+    "landorus_therian",
+    "reshiram",
+    "zekrom",
+    "kyurem",
+    "genesect_burn",
+    "xerneas",
+    "thundurus_therian",
+    "yveltal",
+    "meloetta_aria",
+    "zacian",
+    "zamazenta",
+    "zacian_hero",
+    "zamazenta_hero",
+    "genesect_douse",
+    "zarude",
+    "hoopa_unbound",
+    "genesect_shock",
+    "tapu_koko",
+    "tapu_lele",
+    "tapu_bulu",
+    "nihilego",
+    "genesect_chill",
+    "solgaleo",
+    "lunala",
+    "keldeo_ordinary",
+    "kyogre_primal",
+    "groudon_primal",
+    "zygarde_complete",
+    "enamorus_therian",
+    "enamorus_incarnate",
+    "dialga_origin",
+    "palkia_origin",
+    "necrozma",
+    "necrozma_dawn_wings",
+    "necrozma_dusk_mane",
+    "marshadow",
+    "kyurem_black",
+    "kyurem_white",
+    "zacian_crowned_sword",
+    "zamazenta_crowned_shield",
+    "eternatus",
+    "sinistcha",
+    "keldeo_resolute"
+  ],
   "id": "gamemaster",
   "moves": [
     {
@@ -5256,30 +5300,6 @@
       "power": 110,
       "turns": 1,
       "type": "flying"
-    },
-    {
-      "abbreviation": "AS",
-      "archetype": "Low Quality",
-      "cooldown": 1500,
-      "energy": 0,
-      "energyGain": 6,
-      "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
-      "name": "Air Slash",
-      "power": 0,
-      "turns": 3,
-      "type": "flying"
-    },
-    {
-      "abbreviation": "PC",
-      "archetype": "Low Quality",
-      "cooldown": 1000,
-      "energy": 0,
-      "energyGain": 6,
-      "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
-      "name": "Psycho Cut",
-      "power": 0,
-      "turns": 2,
-      "type": "psychic"
     },
     {
       "archetype": "General",
@@ -5336,6 +5356,19 @@
       "power": 9,
       "turns": 3,
       "type": "flying"
+    },
+    {
+      "abbreviation": "AS",
+      "archetype": "Low Quality",
+      "cooldown": 1500,
+      "energy": 0,
+      "energyGain": 6,
+      "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
+      "name": "Air Slash",
+      "power": 0,
+      "turns": 3,
+      "type": "flying",
+      "unlisted": true
     },
     {
       "archetype": "Boost",
@@ -6827,7 +6860,8 @@
       "name": "Hidden Power (Bug)",
       "power": 9,
       "turns": 3,
-      "type": "bug"
+      "type": "bug",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6838,7 +6872,8 @@
       "name": "Hidden Power (Dark)",
       "power": 9,
       "turns": 3,
-      "type": "dark"
+      "type": "dark",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6849,7 +6884,8 @@
       "name": "Hidden Power (Dragon)",
       "power": 9,
       "turns": 3,
-      "type": "dragon"
+      "type": "dragon",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6860,7 +6896,8 @@
       "name": "Hidden Power (Electric)",
       "power": 9,
       "turns": 3,
-      "type": "electric"
+      "type": "electric",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6871,7 +6908,8 @@
       "name": "Hidden Power (Fighting)",
       "power": 9,
       "turns": 3,
-      "type": "fighting"
+      "type": "fighting",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6882,7 +6920,8 @@
       "name": "Hidden Power (Fire)",
       "power": 9,
       "turns": 3,
-      "type": "fire"
+      "type": "fire",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6893,7 +6932,8 @@
       "name": "Hidden Power (Flying)",
       "power": 9,
       "turns": 3,
-      "type": "flying"
+      "type": "flying",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6904,7 +6944,8 @@
       "name": "Hidden Power (Ghost)",
       "power": 9,
       "turns": 3,
-      "type": "ghost"
+      "type": "ghost",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6915,7 +6956,8 @@
       "name": "Hidden Power (Grass)",
       "power": 9,
       "turns": 3,
-      "type": "grass"
+      "type": "grass",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6926,7 +6968,8 @@
       "name": "Hidden Power (Ground)",
       "power": 9,
       "turns": 3,
-      "type": "ground"
+      "type": "ground",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6937,7 +6980,19 @@
       "name": "Hidden Power (Ice)",
       "power": 9,
       "turns": 3,
-      "type": "ice"
+      "type": "ice",
+      "unlisted": true
+    },
+    {
+      "archetype": "Low Quality",
+      "cooldown": 1500,
+      "energy": 0,
+      "energyGain": 8,
+      "moveId": "HIDDEN_POWER_NORMAL",
+      "name": "Hidden Power",
+      "power": 9,
+      "turns": 3,
+      "type": "normal"
     },
     {
       "archetype": "Low Quality",
@@ -6948,7 +7003,8 @@
       "name": "Hidden Power (Poison)",
       "power": 9,
       "turns": 3,
-      "type": "poison"
+      "type": "poison",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6959,7 +7015,8 @@
       "name": "Hidden Power (Psychic)",
       "power": 9,
       "turns": 3,
-      "type": "psychic"
+      "type": "psychic",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6970,7 +7027,8 @@
       "name": "Hidden Power (Rock)",
       "power": 9,
       "turns": 3,
-      "type": "rock"
+      "type": "rock",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6981,7 +7039,8 @@
       "name": "Hidden Power (Steel)",
       "power": 9,
       "turns": 3,
-      "type": "steel"
+      "type": "steel",
+      "unlisted": true
     },
     {
       "archetype": "Low Quality",
@@ -6992,7 +7051,8 @@
       "name": "Hidden Power (Water)",
       "power": 9,
       "turns": 3,
-      "type": "water"
+      "type": "water",
+      "unlisted": true
     },
     {
       "archetype": "Nuke",
@@ -8132,6 +8192,19 @@
       "type": "psychic"
     },
     {
+      "abbreviation": "PC",
+      "archetype": "Low Quality",
+      "cooldown": 1000,
+      "energy": 0,
+      "energyGain": 6,
+      "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
+      "name": "Psycho Cut",
+      "power": 0,
+      "turns": 2,
+      "type": "psychic",
+      "unlisted": true
+    },
+    {
       "abbreviation": "Psh",
       "archetype": "General",
       "cooldown": 500,
@@ -9147,7 +9220,8 @@
       "name": "Transform",
       "power": 0,
       "turns": 3,
-      "type": "normal"
+      "type": "normal",
+      "unlisted": true
     },
     {
       "abbreviation": "TAx",
@@ -9311,7 +9385,8 @@
       "name": "Water Gun Fast Blastoise",
       "power": 6,
       "turns": 2,
-      "type": "water"
+      "type": "water",
+      "unlisted": true
     },
     {
       "archetype": "General",
@@ -13808,7 +13883,7 @@
         "aslash"
       ],
       "released": true,
-      "searchPriority": 9,
+      "searchPriority": 4,
       "speciesId": "sandslash_alolan",
       "speciesName": "Sandslash (Alolan)",
       "tags": [
@@ -14118,7 +14193,7 @@
       ],
       "level25CP": 749,
       "released": true,
-      "searchPriority": 2,
+      "searchPriority": 1,
       "speciesId": "nidorina",
       "speciesName": "Nidorina",
       "tags": [
@@ -14176,7 +14251,7 @@
         "POISON_STING"
       ],
       "released": true,
-      "searchPriority": 2,
+      "searchPriority": null,
       "speciesId": "nidorina_shadow",
       "speciesName": "Nidorina (Shadow)",
       "tags": [
@@ -14244,7 +14319,7 @@
         "queen"
       ],
       "released": true,
-      "searchPriority": 2,
+      "searchPriority": 3,
       "speciesId": "nidoqueen",
       "speciesName": "Nidoqueen",
       "tags": [
@@ -15059,7 +15134,8 @@
         "PSYSHOCK",
         "SOLAR_BEAM",
         "WEATHER_BALL_FIRE",
-        "SCORCHING_SANDS"
+        "SCORCHING_SANDS",
+        "ENERGY_BALL"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -15091,7 +15167,8 @@
       "eliteMoves": [
         "EMBER",
         "FIRE_BLAST",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "ENERGY_BALL"
       ],
       "family": {
         "id": "FAMILY_VULPIX",
@@ -15131,7 +15208,8 @@
         "DAZZLING_GLEAM",
         "ICE_BEAM",
         "PSYSHOCK",
-        "WEATHER_BALL_ICE"
+        "WEATHER_BALL_ICE",
+        "CHILLING_WATER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -15160,6 +15238,9 @@
         ]
       },
       "dex": 38,
+      "eliteMoves": [
+        "CHILLING_WATER"
+      ],
       "family": {
         "id": "FAMILY_VULPIX",
         "parent": "vulpix_alolan"
@@ -15174,7 +15255,7 @@
         "a9"
       ],
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 8,
       "speciesId": "ninetales_alolan",
       "speciesName": "Ninetales (Alolan)",
       "tags": [
@@ -15199,7 +15280,8 @@
         "DAZZLING_GLEAM",
         "ICE_BEAM",
         "PSYSHOCK",
-        "WEATHER_BALL_ICE"
+        "WEATHER_BALL_ICE",
+        "CHILLING_WATER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -15228,6 +15310,9 @@
         ]
       },
       "dex": 38,
+      "eliteMoves": [
+        "CHILLING_WATER"
+      ],
       "family": {
         "id": "FAMILY_VULPIX",
         "parent": "vulpix_alolan_shadow"
@@ -15269,7 +15354,8 @@
         "PSYSHOCK",
         "SOLAR_BEAM",
         "WEATHER_BALL_FIRE",
-        "SCORCHING_SANDS"
+        "SCORCHING_SANDS",
+        "ENERGY_BALL"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -15301,7 +15387,8 @@
       "eliteMoves": [
         "EMBER",
         "FIRE_BLAST",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "ENERGY_BALL"
       ],
       "family": {
         "id": "FAMILY_VULPIX",
@@ -22360,7 +22447,7 @@
         "amuk"
       ],
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 2,
       "speciesId": "muk_alolan",
       "speciesName": "Muk (Alolan)",
       "tags": [
@@ -31427,7 +31514,7 @@
         "gator"
       ],
       "released": true,
-      "searchPriority": 8,
+      "searchPriority": 3,
       "speciesId": "feraligatr",
       "speciesName": "Feraligatr",
       "tags": [
@@ -31494,7 +31581,7 @@
         "gator"
       ],
       "released": true,
-      "searchPriority": 8,
+      "searchPriority": 3,
       "speciesId": "feraligatr_shadow",
       "speciesName": "Feraligatr (Shadow)",
       "tags": [
@@ -31603,7 +31690,7 @@
         "SUCKER_PUNCH"
       ],
       "released": true,
-      "searchPriority": 3,
+      "searchPriority": 10,
       "speciesId": "furret",
       "speciesName": "Furret",
       "thirdMoveCost": 10000,
@@ -33189,7 +33276,7 @@
       ],
       "level25CP": 1760,
       "released": true,
-      "searchPriority": 3,
+      "searchPriority": 4,
       "speciesId": "ampharos",
       "speciesName": "Ampharos",
       "tags": [
@@ -33611,7 +33698,7 @@
       ],
       "level25CP": 1296,
       "released": true,
-      "searchPriority": 8,
+      "searchPriority": 2,
       "speciesId": "sudowoodo",
       "speciesName": "Sudowoodo",
       "tags": [
@@ -33668,7 +33755,7 @@
         "ROCK_THROW"
       ],
       "released": true,
-      "searchPriority": 8,
+      "searchPriority": 2,
       "speciesId": "sudowoodo_shadow",
       "speciesName": "Sudowoodo (Shadow)",
       "tags": [
@@ -35734,7 +35821,7 @@
       ],
       "level25CP": 1383,
       "released": true,
-      "searchPriority": 2,
+      "searchPriority": 7,
       "speciesId": "forretress",
       "speciesName": "Forretress",
       "tags": [
@@ -35797,7 +35884,7 @@
         "VOLT_SWITCH"
       ],
       "released": true,
-      "searchPriority": 2,
+      "searchPriority": 7,
       "speciesId": "forretress_shadow",
       "speciesName": "Forretress (Shadow)",
       "tags": [
@@ -36712,7 +36799,7 @@
         "FURY_CUTTER"
       ],
       "released": true,
-      "searchPriority": 11,
+      "searchPriority": 8,
       "speciesId": "scizor_shadow",
       "speciesName": "Scizor (Shadow)",
       "tags": [
@@ -37842,7 +37929,7 @@
         "TACKLE"
       ],
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 5,
       "speciesId": "corsola_galarian",
       "speciesName": "Corsola (Galarian)",
       "tags": [
@@ -43199,6 +43286,7 @@
         "ASTONISH"
       ],
       "released": true,
+      "searchPriority": 5,
       "speciesId": "ludicolo",
       "speciesName": "Ludicolo",
       "thirdMoveCost": 50000,
@@ -45908,7 +45996,7 @@
       ],
       "level25CP": 858,
       "released": true,
-      "searchPriority": 10,
+      "searchPriority": 7,
       "speciesId": "sableye",
       "speciesName": "Sableye",
       "tags": [
@@ -46019,7 +46107,7 @@
         "SHADOW_CLAW"
       ],
       "released": true,
-      "searchPriority": 9,
+      "searchPriority": 7,
       "speciesId": "sableye_shadow",
       "speciesName": "Sableye (Shadow)",
       "tags": [
@@ -60149,7 +60237,7 @@
       ],
       "level25CP": 1430,
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 3,
       "speciesId": "skuntank",
       "speciesName": "Skuntank",
       "tags": [
@@ -60210,7 +60298,7 @@
         "POISON_JAB"
       ],
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 3,
       "speciesId": "skuntank_shadow",
       "speciesName": "Skuntank (Shadow)",
       "tags": [
@@ -62746,7 +62834,7 @@
         "ROLLOUT"
       ],
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 10,
       "speciesId": "lickilicky",
       "speciesName": "Lickilicky",
       "thirdMoveCost": 50000,
@@ -64319,7 +64407,7 @@
         "lass"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 2,
       "speciesId": "froslass",
       "speciesName": "Froslass",
       "tags": [
@@ -64377,7 +64465,7 @@
         "lass"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 2,
       "speciesId": "froslass_shadow",
       "speciesName": "Froslass (Shadow)",
       "tags": [
@@ -76808,7 +76896,7 @@
       ],
       "level25CP": 1408,
       "released": true,
-      "searchPriority": 4,
+      "searchPriority": 2,
       "speciesId": "ferrothorn",
       "speciesName": "Ferrothorn",
       "tags": [
@@ -76870,7 +76958,7 @@
         "METAL_CLAW"
       ],
       "released": true,
-      "searchPriority": 4,
+      "searchPriority": 2,
       "speciesId": "ferrothorn_shadow",
       "speciesName": "Ferrothorn (Shadow)",
       "tags": [
@@ -78261,7 +78349,7 @@
         "ufisk"
       ],
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 9,
       "speciesId": "stunfisk",
       "speciesName": "Stunfisk",
       "thirdMoveCost": 75000,
@@ -83141,7 +83229,7 @@
         "FAIRY_WIND"
       ],
       "released": true,
-      "searchPriority": 2,
+      "searchPriority": 8,
       "speciesId": "florges",
       "speciesName": "Florges",
       "thirdMoveCost": 50000,
@@ -85309,7 +85397,7 @@
         "THUNDER_SHOCK"
       ],
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 4,
       "speciesId": "dedenne",
       "speciesName": "Dedenne",
       "thirdMoveCost": 50000,
@@ -86274,7 +86362,7 @@
         "INCINERATE"
       ],
       "released": true,
-      "searchPriority": 2,
+      "searchPriority": 7,
       "speciesId": "gourgeist_super",
       "speciesName": "Gourgeist (Super)",
       "thirdMoveCost": 75000,
@@ -90476,7 +90564,7 @@
         "pod"
       ],
       "released": true,
-      "searchPriority": 8,
+      "searchPriority": 6,
       "speciesId": "golisopod",
       "speciesName": "Golisopod",
       "thirdMoveCost": 10000,
@@ -94524,7 +94612,7 @@
         "SAND_ATTACK"
       ],
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 8,
       "speciesId": "corviknight",
       "speciesName": "Corviknight",
       "thirdMoveCost": 10000,
@@ -100007,7 +100095,7 @@
         "dirge"
       ],
       "released": true,
-      "searchPriority": 5,
+      "searchPriority": 6,
       "speciesId": "skeledirge",
       "speciesName": "Skeledirge",
       "thirdMoveCost": 10000,
@@ -103557,7 +103645,7 @@
         "ROCK_THROW",
         "SMACK_DOWN"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "glimmet",
       "speciesName": "Glimmet",
       "thirdMoveCost": 50000,
@@ -103608,7 +103696,7 @@
         "ROCK_THROW",
         "SMACK_DOWN"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "glimmora",
       "speciesName": "Glimmora",
       "thirdMoveCost": 50000,
@@ -103737,7 +103825,7 @@
       "chargedMoves": [
         "AERIAL_ACE",
         "BRAVE_BIRD",
-        "CLOSE_COMBAT"
+        "UPPER_HAND"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -103764,7 +103852,7 @@
         "WING_ATTACK",
         "DOUBLE_KICK"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "flamigo",
       "speciesName": "Flamigo",
       "thirdMoveCost": 75000,
@@ -104186,6 +104274,7 @@
         "ape"
       ],
       "released": true,
+      "searchPriority": 6,
       "speciesId": "annihilape",
       "speciesName": "Annihilape",
       "tags": [
@@ -104248,6 +104337,7 @@
         "ape"
       ],
       "released": true,
+      "searchPriority": 7,
       "speciesId": "annihilape_shadow",
       "speciesName": "Annihilape (Shadow)",
       "tags": [
@@ -107227,6 +107317,6 @@
     "kabuto",
     "kabutops"
   ],
-  "timestamp": "2026-01-24 03:31:16",
+  "timestamp": "2026-02-03 17:32:55",
   "title": "Default"
 }
