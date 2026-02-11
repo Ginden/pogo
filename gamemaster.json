@@ -92,6 +92,7 @@
             "latios_shadow",
             "leavanny",
             "ledian",
+            "ledian_shadow",
             "lickitung",
             "lopunny",
             "lucario",
@@ -105,6 +106,7 @@
             "mesprit",
             "mew",
             "milotic",
+            "milotic_shadow",
             "miltank",
             "moltres",
             "moltres_shadow",
@@ -298,17 +300,13 @@
         "max": 2,
         "tiers": [
           {
-            "points": 2,
-            "pokemon": [
-              "furret"
-            ]
-          },
-          {
             "points": 1,
             "pokemon": [
               "altaria",
               "annihilape",
-              "azumarill",
+              "blastoise",
+              "charjabug",
+              "clefable",
               "clodsire",
               "corsola_galarian",
               "corviknight",
@@ -317,14 +315,18 @@
               "feraligatr",
               "florges",
               "forretress",
+              "furret",
               "gastrodon",
               "guzzlord",
               "jellicent",
               "lickilicky",
+              "ludicolo",
+              "malamar",
               "marowak",
+              "moltres_galarian",
+              "ninetales_alolan",
               "primeape",
-              "scizor",
-              "stunfisk",
+              "steelix",
               "talonflame",
               "wigglytuff"
             ]
@@ -19648,6 +19650,67 @@
       "speciesName": "Victreebel",
       "tags": [
         "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "grass",
+        "poison"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 265,
+        "def": 181,
+        "hp": 190
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "LEAF_BLADE",
+        "SLUDGE_BOMB",
+        "SOLAR_BEAM",
+        "ACID_SPRAY",
+        "LEAF_TORNADO"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          15.5,
+          7,
+          14,
+          14
+        ],
+        "cp2500": [
+          26,
+          4,
+          14,
+          15
+        ],
+        "cp500": [
+          5.5,
+          5,
+          12,
+          13
+        ]
+      },
+      "dex": 71,
+      "eliteMoves": [
+        "MAGICAL_LEAF"
+      ],
+      "family": {
+        "id": "FAMILY_BELLSPROUT",
+        "parent": "weepinbell"
+      },
+      "fastMoves": [
+        "ACID",
+        "RAZOR_LEAF",
+        "MAGICAL_LEAF"
+      ],
+      "level25CP": 2192,
+      "released": false,
+      "speciesId": "victreebel_mega",
+      "speciesName": "Victreebel (Mega)",
+      "tags": [
+        "shadoweligible",
+        "mega"
       ],
       "thirdMoveCost": 50000,
       "types": [
@@ -84286,6 +84349,63 @@
     },
     {
       "baseStats": {
+        "atk": 208,
+        "def": 222,
+        "hp": 200
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "PSYBEAM",
+        "FOUL_PLAY",
+        "SUPER_POWER",
+        "HYPER_BEAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          17.5,
+          4,
+          15,
+          15
+        ],
+        "cp2500": [
+          29.5,
+          4,
+          15,
+          11
+        ],
+        "cp500": [
+          6,
+          8,
+          13,
+          15
+        ]
+      },
+      "dex": 687,
+      "family": {
+        "id": "FAMILY_INKAY",
+        "parent": "inkay"
+      },
+      "fastMoves": [
+        "PECK",
+        "PSYCHO_CUT",
+        "PSYWAVE"
+      ],
+      "level25CP": 1955,
+      "released": false,
+      "speciesId": "malamar_mega",
+      "speciesName": "Malamar (Mega)",
+      "tags": [
+        "shadoweligible",
+        "mega"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "dark",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 177,
         "def": 165,
         "hp": 200
@@ -99735,9 +99855,10 @@
       },
       "buddyDistance": 20,
       "chargedMoves": [
-        "DAZZLING_GLEAM",
+        "MOONBLAST",
         "FLY",
-        "GRASS_KNOT"
+        "EARTH_POWER",
+        "MYSTICAL_FIRE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -99762,7 +99883,7 @@
       "dex": 905,
       "fastMoves": [
         "ASTONISH",
-        "ZEN_HEADBUTT",
+        "EXTRASENSORY",
         "FAIRY_WIND"
       ],
       "released": false,
@@ -107317,6 +107438,6 @@
     "kabuto",
     "kabutops"
   ],
-  "timestamp": "2026-02-03 17:32:55",
+  "timestamp": "2026-02-07 16:15:18",
   "title": "Default"
 }
