@@ -303,32 +303,29 @@
             "points": 1,
             "pokemon": [
               "altaria",
-              "annihilape",
+              "azumarill",
               "blastoise",
               "charjabug",
               "clefable",
-              "clodsire",
-              "corsola_galarian",
               "corviknight",
               "cradily",
               "empoleon",
-              "feraligatr",
-              "florges",
-              "forretress",
               "furret",
               "gastrodon",
-              "guzzlord",
+              "gourgeist_average",
+              "gourgeist_large",
+              "gourgeist_small",
+              "gourgeist_super",
               "jellicent",
-              "lickilicky",
+              "lapras",
               "ludicolo",
               "malamar",
               "marowak",
               "moltres_galarian",
               "ninetales_alolan",
-              "primeape",
+              "scizor",
               "steelix",
-              "talonflame",
-              "wigglytuff"
+              "stunfisk"
             ]
           }
         ]
@@ -3726,6 +3723,11 @@
             "porygon_z",
             "porygon_z_shadow",
             "rotom_wash",
+            "rotom_mow",
+            "rotom",
+            "rotom_fan",
+            "rotom_frost",
+            "rotom_heat",
             "tepig",
             "pignite",
             "emboar",
@@ -3845,7 +3847,18 @@
             "tinkatuff",
             "tinkaton",
             "flamigo",
-            "tatsugiri_droopy"
+            "tatsugiri_droopy",
+            "sizzlipede",
+            "centiskorch",
+            "groudon",
+            "deoxys",
+            "deoxys_defense",
+            "deoxys_attack",
+            "deoxys_speed",
+            "moltres_galarian",
+            "ho_oh",
+            "mew",
+            "diancie"
           ]
         }
       ],
@@ -5294,6 +5307,32 @@
     },
     {
       "cp": 1500,
+      "cup": "love",
+      "meta": "love",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only red- or pink-colored Pokémon are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Love Cup"
+    },
+    {
+      "cp": 10000,
+      "cup": "mega",
+      "meta": "mega",
+      "rules": [
+        "No CP limit.",
+        "Mega-Evolved Pokémon are allowed."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Mega Master League"
+    },
+    {
+      "cp": 1500,
       "cup": "euic2026",
       "meta": "euic2026",
       "rules": [
@@ -5308,19 +5347,6 @@
       "showFormat": true,
       "showMeta": true,
       "title": "EUIC 2026 Championship Series Cup"
-    },
-    {
-      "cp": 1500,
-      "cup": "love",
-      "meta": "love",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only red- or pink-colored Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Love Cup"
     },
     {
       "cp": 1500,
@@ -19916,7 +19942,7 @@
         "MAGICAL_LEAF"
       ],
       "level25CP": 2192,
-      "released": false,
+      "released": true,
       "speciesId": "victreebel_mega",
       "speciesName": "Victreebel (Mega)",
       "tags": [
@@ -30446,6 +30472,71 @@
       "speciesName": "Dragonite (Shadow)",
       "tags": [
         "shadow"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "dragon",
+        "flying"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 299,
+        "def": 255,
+        "hp": 209
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRACO_METEOR",
+        "DRAGON_CLAW",
+        "DRAGON_PULSE",
+        "HURRICANE",
+        "HYPER_BEAM",
+        "OUTRAGE",
+        "SUPER_POWER",
+        "THUNDER_PUNCH"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          11.5,
+          4,
+          8,
+          12
+        ],
+        "cp2500": [
+          19,
+          4,
+          9,
+          15
+        ],
+        "cp500": [
+          4,
+          12,
+          15,
+          15
+        ]
+      },
+      "dex": 149,
+      "eliteMoves": [
+        "DRACO_METEOR",
+        "DRAGON_PULSE"
+      ],
+      "family": {
+        "id": "FAMILY_DRATINI",
+        "parent": "dragonair"
+      },
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "DRAGON_TAIL",
+        "STEEL_WING"
+      ],
+      "level25CP": 3079,
+      "released": true,
+      "speciesId": "dragonite_mega",
+      "speciesName": "Dragonite (Mega)",
+      "tags": [
+        "shadoweligible",
+        "mega"
       ],
       "thirdMoveCost": 75000,
       "types": [
@@ -84602,7 +84693,7 @@
         "PSYWAVE"
       ],
       "level25CP": 1955,
-      "released": false,
+      "released": true,
       "speciesId": "malamar_mega",
       "speciesName": "Malamar (Mega)",
       "tags": [
@@ -107649,6 +107740,6 @@
     "kabuto",
     "kabutops"
   ],
-  "timestamp": "2026-02-15 16:52:51",
+  "timestamp": "2026-02-23 17:13:47",
   "title": "Default"
 }
