@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-02-18
+- **Date generated**: 2026-02-25
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -131,12 +131,12 @@
 - **Kartana** using _Razor Leaf_ (100%)
 - **Kyogre (Primal)** using _Waterfall_ (97%)
 - **Kyurem (White)** using _Ice Fang_ (85%)
+- **Victreebel (Mega)** using _Razor Leaf_ (83%)
 - **Gyarados (Mega)** using _Waterfall_ (81%)
 - **Sharpedo (Mega)** using _Waterfall_ (80%)
 - **Roserade** using _Razor Leaf_ (76%)
 - **Venusaur (Mega)** using _Razor Leaf_ (76%)
 - **Abomasnow (Mega)** using _Razor Leaf_ (75%)
-- **Rillaboom** using _Razor Leaf_ (75%)
 
 # Anti-Ice ❄️
 
@@ -213,6 +213,7 @@
 # Anti-Water 💧
 
 - **Kartana** using _Razor Leaf_ (100%)
+- **Victreebel (Mega)** using _Razor Leaf_ (83%)
 - **Manectric (Mega)** using _Thunder Fang_ (79%)
 - **Roserade** using _Razor Leaf_ (76%)
 - **Venusaur (Mega)** using _Razor Leaf_ (76%)
@@ -220,7 +221,6 @@
 - **Rillaboom** using _Razor Leaf_ (75%)
 - **Thundurus (Therian)** using _Volt Switch_ (71%)
 - **Ampharos (Mega)** using _Volt Switch_ (71%)
-- **Tsareena** using _Razor Leaf_ (70%)
 
 ---
 
@@ -260,9 +260,9 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Kyurem (White)** using _Dragon Breath_ (64%)
 - **Kyurem (Black)** using _Dragon Tail_ (64%)
 - **Salamence (Mega)** using _Dragon Tail_ (64%)
+- **Dragonite (Mega)** using _Dragon Breath_ (62%)
+- **Dragonite (Mega)** using _Dragon Tail_ (62%)
 - **Groudon (Primal)** using _Dragon Tail_ (60%)
-- **Latias (Mega)** using _Dragon Breath_ (60%)
-- **Palkia (Origin)** using _Dragon Breath_ (59%)
 
 ### Highest **electric** (⚡) fast move damage:
 
@@ -339,6 +339,7 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 ### Highest **grass** (🌱) fast move damage:
 
 - **Kartana** using _Razor Leaf_ (100%)
+- **Victreebel (Mega)** using _Razor Leaf_ (82%)
 - **Roserade** using _Razor Leaf_ (76%)
 - **Venusaur (Mega)** using _Razor Leaf_ (75%)
 - **Abomasnow (Mega)** using _Razor Leaf_ (75%)
@@ -346,7 +347,6 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Tsareena** using _Razor Leaf_ (70%)
 - **Arboliva** using _Razor Leaf_ (69%)
 - **Leafeon** using _Razor Leaf_ (68%)
-- **Decidueye** using _Razor Leaf_ (66%)
 
 ### Highest **ground** (🏜️) fast move damage:
 
@@ -394,7 +394,7 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Roserade** using _Poison Jab_ (59%)
 - **Revavroom** using _Poison Jab_ (56%)
 - **Salazzle** using _Poison Jab_ (56%)
-- **Toxtricity** using _Poison Jab_ (55%)
+- **Victreebel (Mega)** using _Acid_ (55%)
 
 ### Highest **psychic** (🔮) fast move damage:
 
@@ -429,8 +429,8 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Lucario** using _Bullet Punch_ (66%)
 - **Scizor** using _Bullet Punch_ (66%)
 - **Kyurem (White)** using _Steel Wing_ (62%)
+- **Dragonite (Mega)** using _Steel Wing_ (60%)
 - **Tyranitar (Mega)** using _Iron Tail_ (59%)
-- **Aerodactyl (Mega)** using _Steel Wing_ (59%)
 
 ### Highest **water** (💧) fast move damage:
 

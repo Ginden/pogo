@@ -2,7 +2,7 @@
 
 - **Excluded tags**: none
 - **Exclude unreleased**: true
-- **Date generated**: 2026-02-18
+- **Date generated**: 2026-02-25
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -132,11 +132,11 @@
 - **Kyogre (Primal)** using _Waterfall_ (97%)
 - **Kyogre (Shadow)** using _Waterfall_ (90%)
 - **Kyurem (White)** using _Ice Fang_ (85%)
+- **Victreebel (Mega)** using _Razor Leaf_ (83%)
 - **Sharpedo (Shadow)** using _Waterfall_ (81%)
 - **Gyarados (Mega)** using _Waterfall_ (81%)
 - **Sharpedo (Mega)** using _Waterfall_ (80%)
 - **Gyarados (Shadow)** using _Waterfall_ (80%)
-- **Victreebel (Shadow)** using _Razor Leaf_ (79%)
 
 # Anti-Ice ❄️
 
@@ -213,6 +213,7 @@
 # Anti-Water 💧
 
 - **Kartana** using _Razor Leaf_ (100%)
+- **Victreebel (Mega)** using _Razor Leaf_ (83%)
 - **Manectric (Mega)** using _Thunder Fang_ (79%)
 - **Victreebel (Shadow)** using _Razor Leaf_ (79%)
 - **Torterra (Shadow)** using _Razor Leaf_ (77%)
@@ -220,7 +221,6 @@
 - **Roserade** using _Razor Leaf_ (76%)
 - **Shiftry (Shadow)** using _Razor Leaf_ (76%)
 - **Venusaur (Mega)** using _Razor Leaf_ (76%)
-- **Venusaur (Shadow)** using _Razor Leaf_ (76%)
 
 ---
 
@@ -339,6 +339,7 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 ### Highest **grass** (🌱) fast move damage:
 
 - **Kartana** using _Razor Leaf_ (100%)
+- **Victreebel (Mega)** using _Razor Leaf_ (82%)
 - **Victreebel (Shadow)** using _Razor Leaf_ (78%)
 - **Torterra (Shadow)** using _Razor Leaf_ (77%)
 - **Vileplume (Shadow)** using _Razor Leaf_ (77%)
@@ -346,7 +347,6 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Shiftry (Shadow)** using _Razor Leaf_ (76%)
 - **Venusaur (Mega)** using _Razor Leaf_ (75%)
 - **Venusaur (Shadow)** using _Razor Leaf_ (75%)
-- **Abomasnow (Mega)** using _Razor Leaf_ (75%)
 
 ### Highest **ground** (🏜️) fast move damage:
 
