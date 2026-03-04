@@ -3521,6 +3521,28 @@
     {
       "exclude": [
         {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "dex",
+          "values": [
+            1,
+            151
+          ]
+        }
+      ],
+      "name": "kanto",
+      "partySize": 3,
+      "title": "Kanto Cup"
+    },
+    {
+      "exclude": [
+        {
           "filterType": "type",
           "values": [
             "dark",
@@ -4734,6 +4756,38 @@
       "exclude": [
         {
           "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "jumpluff",
+            "roserade",
+            "toxapex"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "water",
+            "grass",
+            "fairy"
+          ]
+        }
+      ],
+      "name": "spring",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Spring Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
           "name": "Tag",
           "values": [
             "mega"
@@ -5298,7 +5352,7 @@
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
+        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": false,
@@ -5307,46 +5361,12 @@
     },
     {
       "cp": 1500,
-      "cup": "love",
-      "meta": "love",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only red- or pink-colored Pokémon are eligible."
-      ],
+      "cup": "kanto",
+      "meta": "kanto",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Love Cup"
-    },
-    {
-      "cp": 10000,
-      "cup": "mega",
-      "meta": "mega",
-      "rules": [
-        "No CP limit.",
-        "Mega-Evolved Pokémon are allowed."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Mega Master League"
-    },
-    {
-      "cp": 1500,
-      "cup": "euic2026",
-      "meta": "euic2026",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Bug-,  Dark-,  Normal-,  and Dragon-type Pokémon are eligible.",
-        "Fighting-,  Flying-,  and Steel-type Pokémon are not eligible.",
-        "Legendary Pokémon,  Mythical Pokémon,  Mega Pokémon,  and Ultra Beasts are not eligible.",
-        "The following Pokémon will be allowed: Seaking,  Politoed,  Milotic,  and Froslass.",
-        "The following Pokémon will not be allowed: Wigglytuff,  CHansey,  Crustle,  Diggersby,  Ribombee,  Araquanid,  Turtonator,  Morgrem,  Morpeko"
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "EUIC 2026 Championship Series Cup"
+      "title": "Kanto Cup"
     },
     {
       "cp": 1500,
@@ -5595,19 +5615,6 @@
       "power": 9,
       "turns": 3,
       "type": "flying"
-    },
-    {
-      "abbreviation": "AS",
-      "archetype": "Low Quality",
-      "cooldown": 1500,
-      "energy": 0,
-      "energyGain": 6,
-      "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
-      "name": "Air Slash",
-      "power": 0,
-      "turns": 3,
-      "type": "flying",
-      "unlisted": true
     },
     {
       "archetype": "Boost",
@@ -6042,13 +6049,13 @@
       "type": "ground"
     },
     {
-      "archetype": "Multipurpose",
+      "archetype": "General",
       "cooldown": 1000,
       "energy": 0,
       "energyGain": 7,
       "moveId": "BULLET_PUNCH",
       "name": "Bullet Punch",
-      "power": 8,
+      "power": 7,
       "turns": 2,
       "type": "steel"
     },
@@ -6470,7 +6477,7 @@
       "energyGain": 0,
       "moveId": "DRAIN_PUNCH",
       "name": "Drain Punch",
-      "power": 20,
+      "power": 40,
       "turns": 1,
       "type": "fighting"
     },
@@ -7058,13 +7065,13 @@
       "type": "psychic"
     },
     {
-      "archetype": "High Energy",
+      "archetype": "General",
       "cooldown": 500,
-      "energy": 75,
+      "energy": 45,
       "energyGain": 0,
       "moveId": "HEAT_WAVE",
       "name": "Heat Wave",
-      "power": 95,
+      "power": 75,
       "turns": 1,
       "type": "fire"
     },
@@ -7657,13 +7664,13 @@
       "type": "normal"
     },
     {
-      "archetype": "Low Quality",
+      "archetype": "Fast Charge",
       "cooldown": 1000,
       "energy": 0,
-      "energyGain": 5,
+      "energyGain": 8,
       "moveId": "LOW_KICK",
       "name": "Low Kick",
-      "power": 4,
+      "power": 5,
       "turns": 2,
       "type": "fighting"
     },
@@ -7937,13 +7944,13 @@
       "type": "water"
     },
     {
-      "archetype": "Spam/Bait",
+      "archetype": "General",
       "cooldown": 500,
-      "energy": 40,
+      "energy": 45,
       "energyGain": 0,
       "moveId": "MUD_BOMB",
       "name": "Mud Bomb",
-      "power": 60,
+      "power": 65,
       "turns": 1,
       "type": "ground"
     },
@@ -7951,22 +7958,22 @@
       "archetype": "Fast Charge",
       "cooldown": 1000,
       "energy": 0,
-      "energyGain": 8,
+      "energyGain": 9,
       "moveId": "MUD_SHOT",
       "name": "Mud Shot",
-      "power": 4,
+      "power": 3,
       "turns": 2,
       "type": "ground"
     },
     {
       "abbreviation": "MSl",
-      "archetype": "Multipurpose",
+      "archetype": "Heavy Damage",
       "cooldown": 1500,
       "energy": 0,
       "energyGain": 10,
       "moveId": "MUD_SLAP",
       "name": "Mud Slap",
-      "power": 12,
+      "power": 11,
       "turns": 3,
       "type": "ground"
     },
@@ -8021,7 +8028,7 @@
       "buffApplyChance": ".125",
       "buffTarget": "self",
       "buffs": [
-        2,
+        1,
         0
       ],
       "cooldown": 500,
@@ -8426,22 +8433,9 @@
       "energyGain": 9,
       "moveId": "PSYCHO_CUT",
       "name": "Psycho Cut",
-      "power": 3,
+      "power": 4,
       "turns": 2,
       "type": "psychic"
-    },
-    {
-      "abbreviation": "PC",
-      "archetype": "Low Quality",
-      "cooldown": 1000,
-      "energy": 0,
-      "energyGain": 6,
-      "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
-      "name": "Psycho Cut",
-      "power": 0,
-      "turns": 2,
-      "type": "psychic",
-      "unlisted": true
     },
     {
       "abbreviation": "Psh",
@@ -8478,6 +8472,17 @@
       "power": 3,
       "turns": 1,
       "type": "psychic"
+    },
+    {
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "moveId": "PYRO_BALL",
+      "name": "Pyro Ball",
+      "power": 75,
+      "turns": 1,
+      "type": "fire"
     },
     {
       "archetype": "Fast Charge",
@@ -8629,7 +8634,7 @@
       "energyGain": 0,
       "moveId": "ROCK_TOMB",
       "name": "Rock Tomb",
-      "power": 80,
+      "power": 75,
       "turns": 1,
       "type": "rock"
     },
@@ -8728,7 +8733,7 @@
       "energyGain": 0,
       "moveId": "SAND_TOMB",
       "name": "Sand Tomb",
-      "power": 25,
+      "power": 40,
       "turns": 1,
       "type": "ground"
     },
@@ -9004,7 +9009,7 @@
       "energyGain": 8,
       "moveId": "SMACK_DOWN",
       "name": "Smack Down",
-      "power": 12,
+      "power": 11,
       "turns": 3,
       "type": "rock"
     },
@@ -9499,13 +9504,13 @@
     },
     {
       "abbreviation": "Tw",
-      "archetype": "General",
+      "archetype": "Spam/Bait",
       "cooldown": 500,
-      "energy": 45,
+      "energy": 40,
       "energyGain": 0,
       "moveId": "TWISTER",
       "name": "Twister",
-      "power": 45,
+      "power": 70,
       "turns": 1,
       "type": "dragon"
     },
@@ -9568,7 +9573,7 @@
         -1
       ],
       "cooldown": 500,
-      "energy": 50,
+      "energy": 40,
       "energyGain": 0,
       "moveId": "VOLT_TACKLE",
       "name": "Volt Tackle",
@@ -9597,10 +9602,10 @@
       "archetype": "Heavy Damage",
       "cooldown": 1500,
       "energy": 0,
-      "energyGain": 8,
+      "energyGain": 10,
       "moveId": "WATERFALL",
       "name": "Waterfall",
-      "power": 12,
+      "power": 11,
       "turns": 3,
       "type": "water"
     },
@@ -9744,7 +9749,7 @@
       "archetype": "Fast Charge",
       "cooldown": 1000,
       "energy": 0,
-      "energyGain": 7,
+      "energyGain": 8,
       "moveId": "WING_ATTACK",
       "name": "Wing Attack",
       "power": 5,
@@ -9818,6 +9823,32 @@
       "power": 8,
       "turns": 3,
       "type": "psychic"
+    },
+    {
+      "abbreviation": "AS",
+      "archetype": "Low Quality",
+      "cooldown": 1500,
+      "energy": 0,
+      "energyGain": 6,
+      "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
+      "name": "Air Slash",
+      "power": 0,
+      "turns": 3,
+      "type": "flying",
+      "unlisted": true
+    },
+    {
+      "abbreviation": "PC",
+      "archetype": "Low Quality",
+      "cooldown": 1000,
+      "energy": 0,
+      "energyGain": 6,
+      "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
+      "name": "Psycho Cut",
+      "power": 0,
+      "turns": 2,
+      "type": "psychic",
+      "unlisted": true
     }
   ],
   "pokemon": [
@@ -12184,7 +12215,8 @@
         "AIR_CUTTER",
         "BRAVE_BIRD",
         "HURRICANE",
-        "FEATHER_DANCE"
+        "FEATHER_DANCE",
+        "HEAT_WAVE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -12248,7 +12280,8 @@
         "AIR_CUTTER",
         "BRAVE_BIRD",
         "HURRICANE",
-        "FEATHER_DANCE"
+        "FEATHER_DANCE",
+        "HEAT_WAVE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -12310,7 +12343,8 @@
         "AIR_CUTTER",
         "BRAVE_BIRD",
         "HURRICANE",
-        "FEATHER_DANCE"
+        "FEATHER_DANCE",
+        "HEAT_WAVE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -29657,7 +29691,8 @@
       ],
       "fastMoves": [
         "FROST_BREATH",
-        "ICE_SHARD"
+        "ICE_SHARD",
+        "POWDER_SNOW"
       ],
       "level25CP": 1893,
       "released": true,
@@ -29767,7 +29802,8 @@
       ],
       "fastMoves": [
         "FROST_BREATH",
-        "ICE_SHARD"
+        "ICE_SHARD",
+        "POWDER_SNOW"
       ],
       "released": true,
       "searchPriority": 2,
@@ -29795,7 +29831,8 @@
         "THUNDERBOLT",
         "ZAP_CANNON",
         "ANCIENT_POWER",
-        "DRILL_PECK"
+        "DRILL_PECK",
+        "HEAT_WAVE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -29902,7 +29939,8 @@
         "THUNDERBOLT",
         "ZAP_CANNON",
         "ANCIENT_POWER",
-        "DRILL_PECK"
+        "DRILL_PECK",
+        "HEAT_WAVE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -29957,7 +29995,8 @@
         "HEAT_WAVE",
         "OVERHEAT",
         "SKY_ATTACK",
-        "ANCIENT_POWER"
+        "ANCIENT_POWER",
+        "FLY"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -30066,7 +30105,8 @@
         "HEAT_WAVE",
         "OVERHEAT",
         "SKY_ATTACK",
-        "ANCIENT_POWER"
+        "ANCIENT_POWER",
+        "FLY"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -33063,7 +33103,8 @@
         "ANCIENT_POWER",
         "DAZZLING_GLEAM",
         "DRAINING_KISS",
-        "PSYSHOCK"
+        "PSYSHOCK",
+        "HEAT_WAVE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -37287,7 +37328,8 @@
         "EARTHQUAKE",
         "MEGAHORN",
         "ROCK_BLAST",
-        "UPPER_HAND"
+        "UPPER_HAND",
+        "ROCK_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -37312,7 +37354,8 @@
       "dex": 214,
       "fastMoves": [
         "COUNTER",
-        "STRUGGLE_BUG"
+        "STRUGGLE_BUG",
+        "FURY_CUTTER"
       ],
       "released": true,
       "speciesId": "heracross",
@@ -37338,7 +37381,8 @@
         "EARTHQUAKE",
         "MEGAHORN",
         "ROCK_BLAST",
-        "UPPER_HAND"
+        "UPPER_HAND",
+        "ROCK_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -37363,7 +37407,8 @@
       "dex": 214,
       "fastMoves": [
         "COUNTER",
-        "STRUGGLE_BUG"
+        "STRUGGLE_BUG",
+        "FURY_CUTTER"
       ],
       "released": true,
       "speciesId": "heracross_mega",
@@ -48076,7 +48121,6 @@
       "speciesName": "Sharpedo (Mega)",
       "tags": [
         "shadoweligible",
-        "include1500",
         "mega"
       ],
       "thirdMoveCost": 50000,
@@ -48131,7 +48175,8 @@
       "speciesName": "Sharpedo (Shadow)",
       "tags": [
         "shadoweligible",
-        "shadow"
+        "shadow",
+        "include1500"
       ],
       "thirdMoveCost": 50000,
       "types": [
@@ -48511,7 +48556,9 @@
         "EARTHQUAKE",
         "OVERHEAT",
         "SOLAR_BEAM",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "SCORCHING_SANDS",
+        "ROCK_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -48567,7 +48614,9 @@
         "EARTHQUAKE",
         "OVERHEAT",
         "SOLAR_BEAM",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "SCORCHING_SANDS",
+        "ROCK_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -48624,7 +48673,9 @@
         "EARTHQUAKE",
         "OVERHEAT",
         "SOLAR_BEAM",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "SCORCHING_SANDS",
+        "ROCK_TOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -49257,7 +49308,8 @@
         "EARTH_POWER",
         "BOOMBURST",
         "SCORCHING_SANDS",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "TWISTER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -49319,7 +49371,8 @@
         "EARTH_POWER",
         "BOOMBURST",
         "SCORCHING_SANDS",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "TWISTER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -58693,7 +58746,8 @@
       },
       "fastMoves": [
         "BUG_BITE",
-        "CONFUSION"
+        "CONFUSION",
+        "SUCKER_PUNCH"
       ],
       "released": true,
       "speciesId": "wormadam_plant",
@@ -58743,7 +58797,8 @@
       },
       "fastMoves": [
         "BUG_BITE",
-        "CONFUSION"
+        "CONFUSION",
+        "SUCKER_PUNCH"
       ],
       "released": true,
       "speciesId": "wormadam_sandy",
@@ -58800,7 +58855,8 @@
       "fastMoves": [
         "BUG_BITE",
         "CONFUSION",
-        "METAL_SOUND"
+        "METAL_SOUND",
+        "SUCKER_PUNCH"
       ],
       "nicknames": [
         "trash"
@@ -61283,7 +61339,8 @@
         "OUTRAGE",
         "SAND_TOMB",
         "EARTH_POWER",
-        "BREAKING_SWIPE"
+        "BREAKING_SWIPE",
+        "TWISTER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -61347,7 +61404,8 @@
         "OUTRAGE",
         "SAND_TOMB",
         "EARTH_POWER",
-        "BREAKING_SWIPE"
+        "BREAKING_SWIPE",
+        "TWISTER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -61402,7 +61460,8 @@
         "OUTRAGE",
         "SAND_TOMB",
         "EARTH_POWER",
-        "BREAKING_SWIPE"
+        "BREAKING_SWIPE",
+        "TWISTER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -63930,7 +63989,8 @@
         "AERIAL_ACE",
         "EARTHQUAKE",
         "NIGHT_SLASH",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "ACROBATICS"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -63986,7 +64046,8 @@
         "AERIAL_ACE",
         "EARTHQUAKE",
         "NIGHT_SLASH",
-        "SAND_TOMB"
+        "SAND_TOMB",
+        "ACROBATICS"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -65054,7 +65115,8 @@
       "chargedMoves": [
         "OMINOUS_WIND",
         "THUNDER",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "LEAF_STORM"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -72061,7 +72123,8 @@
         "MEGAHORN",
         "SLUDGE_BOMB",
         "GYRO_BALL",
-        "X_SCISSOR"
+        "X_SCISSOR",
+        "AQUA_TAIL"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -72123,7 +72186,8 @@
         "MEGAHORN",
         "SLUDGE_BOMB",
         "GYRO_BALL",
-        "X_SCISSOR"
+        "X_SCISSOR",
+        "AQUA_TAIL"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -87604,7 +87668,8 @@
         "HYDRO_PUMP",
         "OVERHEAT",
         "EARTH_POWER",
-        "SLUDGE_BOMB"
+        "SLUDGE_BOMB",
+        "SCALD"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -93874,7 +93939,8 @@
       "fastMoves": [
         "SUCKER_PUNCH",
         "COUNTER",
-        "POISON_JAB"
+        "POISON_JAB",
+        "SHADOW_CLAW"
       ],
       "released": true,
       "searchPriority": 2,
@@ -104697,7 +104763,7 @@
         "ape"
       ],
       "released": true,
-      "searchPriority": 6,
+      "searchPriority": 7,
       "speciesId": "annihilape",
       "speciesName": "Annihilape",
       "tags": [
@@ -104760,7 +104826,7 @@
         "ape"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 6,
       "speciesId": "annihilape_shadow",
       "speciesName": "Annihilape (Shadow)",
       "tags": [
@@ -107740,6 +107806,6 @@
     "kabuto",
     "kabutops"
   ],
-  "timestamp": "2026-02-23 17:13:47",
+  "timestamp": "2026-03-04 01:33:32",
   "title": "Default"
 }
