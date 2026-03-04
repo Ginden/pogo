@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-02-25
+- **Date generated**: 2026-03-04
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -10,13 +10,13 @@
 
 - **Diancie (Mega)** using _Rock Throw_ (100%)
 - **Blacephalon** using _Incinerate_ (92%)
-- **Tyranitar (Mega)** using _Smack Down_ (91%)
 - **Blaziken (Mega)** using _Fire Spin_ (88%)
-- **Rampardos** using _Smack Down_ (87%)
 - **Aerodactyl (Mega)** using _Rock Throw_ (86%)
 - **Charizard (Mega Y)** using _Fire Spin_ (86%)
 - **Houndoom (Mega)** using _Fire Fang_ (85%)
+- **Tyranitar (Mega)** using _Smack Down_ (83%)
 - **Pidgeot (Mega)** using _Gust_ (83%)
+- **Rayquaza (Mega)** using _Air Slash_ (82%)
 
 # Anti-Dark 🌌
 
@@ -46,25 +46,25 @@
 
 - **Excadrill** using _Mud Slap_ (100%)
 - **Mamoswine** using _Mud Slap_ (97%)
+- **Alakazam (Mega)** using _Confusion_ (154%)
+- **Kartana** using _Razor Leaf_ (154%)
 - **Rhyperior** using _Mud Slap_ (95%)
+- **Gardevoir (Mega)** using _Charm_ (149%)
 - **Krookodile** using _Mud Slap_ (90%)
-- **Alakazam (Mega)** using _Confusion_ (142%)
-- **Kartana** using _Razor Leaf_ (141%)
-- **Golurk** using _Mud Slap_ (88%)
-- **Rhydon** using _Mud Slap_ (88%)
-- **Gardevoir (Mega)** using _Charm_ (137%)
+- **Diancie (Mega)** using _Rock Throw_ (144%)
+- **Lucario (Mega)** using _Force Palm_ (142%)
 
 # Anti-Fairy 🧚
 
 - **Lucario (Mega)** using _Bullet Punch_ (100%)
+- **Beedrill (Mega)** using _Poison Jab_ (98%)
 - **Metagross (Mega)** using _Bullet Punch_ (97%)
 - **Scizor (Mega)** using _Bullet Punch_ (90%)
-- **Beedrill (Mega)** using _Poison Jab_ (86%)
+- **Eternatus** using _Poison Jab_ (90%)
+- **Naganadel** using _Poison Jab_ (86%)
+- **Sneasler** using _Poison Jab_ (84%)
+- **Alakazam (Mega)** using _Confusion_ (134%)
 - **Metagross** using _Bullet Punch_ (84%)
-- **Eternatus** using _Poison Jab_ (79%)
-- **Lucario** using _Bullet Punch_ (77%)
-- **Scizor** using _Bullet Punch_ (77%)
-- **Naganadel** using _Poison Jab_ (75%)
 
 # Anti-Fighting 💪
 
@@ -80,27 +80,27 @@
 
 # Anti-Fire 🔥
 
-- **Kyogre (Primal)** using _Waterfall_ (100%)
-- **Diancie (Mega)** using _Rock Throw_ (97%)
-- **Tyranitar (Mega)** using _Smack Down_ (88%)
-- **Rampardos** using _Smack Down_ (84%)
-- **Aerodactyl (Mega)** using _Rock Throw_ (83%)
-- **Gyarados (Mega)** using _Waterfall_ (83%)
-- **Sharpedo (Mega)** using _Waterfall_ (83%)
-- **Kyogre** using _Waterfall_ (77%)
-- **Terrakion** using _Smack Down_ (75%)
+- **Diancie (Mega)** using _Rock Throw_ (100%)
+- **Kyogre (Primal)** using _Waterfall_ (94%)
+- **Aerodactyl (Mega)** using _Rock Throw_ (86%)
+- **Tyranitar (Mega)** using _Smack Down_ (83%)
+- **Rampardos** using _Smack Down_ (80%)
+- **Gyarados (Mega)** using _Waterfall_ (79%)
+- **Sharpedo (Mega)** using _Waterfall_ (78%)
+- **Kyogre** using _Waterfall_ (73%)
+- **Glimmora** using _Rock Throw_ (73%)
 
 # Anti-Flying 🕊️
 
 - **Diancie (Mega)** using _Rock Throw_ (100%)
 - **Kyurem (White)** using _Ice Fang_ (91%)
-- **Tyranitar (Mega)** using _Smack Down_ (91%)
-- **Rampardos** using _Smack Down_ (87%)
 - **Aerodactyl (Mega)** using _Rock Throw_ (86%)
 - **Manectric (Mega)** using _Thunder Fang_ (84%)
+- **Tyranitar (Mega)** using _Smack Down_ (83%)
+- **Rampardos** using _Smack Down_ (80%)
 - **Darmanitan (Galarian)** using _Ice Fang_ (78%)
-- **Terrakion** using _Smack Down_ (77%)
 - **Thundurus (Therian)** using _Volt Switch_ (76%)
+- **Ampharos (Mega)** using _Volt Switch_ (76%)
 
 # Anti-Ghost 👻
 
@@ -129,14 +129,14 @@
 # Anti-Ground 🏜️
 
 - **Kartana** using _Razor Leaf_ (100%)
-- **Kyogre (Primal)** using _Waterfall_ (97%)
+- **Kyogre (Primal)** using _Waterfall_ (89%)
 - **Kyurem (White)** using _Ice Fang_ (85%)
 - **Victreebel (Mega)** using _Razor Leaf_ (83%)
-- **Gyarados (Mega)** using _Waterfall_ (81%)
-- **Sharpedo (Mega)** using _Waterfall_ (80%)
 - **Roserade** using _Razor Leaf_ (76%)
 - **Venusaur (Mega)** using _Razor Leaf_ (76%)
 - **Abomasnow (Mega)** using _Razor Leaf_ (75%)
+- **Rillaboom** using _Razor Leaf_ (75%)
+- **Gyarados (Mega)** using _Waterfall_ (74%)
 
 # Anti-Ice ❄️
 
@@ -145,10 +145,10 @@
 - **Heracross (Mega)** using _Counter_ (98%)
 - **Blaziken (Mega)** using _Counter_ (96%)
 - **Blacephalon** using _Incinerate_ (92%)
-- **Lucario (Mega)** using _Bullet Punch_ (91%)
 - **Lucario (Mega)** using _Counter_ (91%)
-- **Tyranitar (Mega)** using _Smack Down_ (91%)
 - **Alakazam (Mega)** using _Counter_ (89%)
+- **Blaziken (Mega)** using _Fire Spin_ (88%)
+- **Aerodactyl (Mega)** using _Rock Throw_ (86%)
 
 # Anti-Normal ⚪
 
@@ -189,14 +189,14 @@
 # Anti-Rock 🪨
 
 - **Kartana** using _Razor Leaf_ (100%)
-- **Kyogre (Primal)** using _Waterfall_ (97%)
 - **Lucario (Mega)** using _Force Palm_ (93%)
 - **Heracross (Mega)** using _Counter_ (92%)
 - **Blaziken (Mega)** using _Counter_ (90%)
-- **Lucario (Mega)** using _Bullet Punch_ (85%)
+- **Kyogre (Primal)** using _Waterfall_ (89%)
 - **Lucario (Mega)** using _Counter_ (85%)
 - **Alakazam (Mega)** using _Counter_ (84%)
-- **Metagross (Mega)** using _Bullet Punch_ (83%)
+- **Victreebel (Mega)** using _Razor Leaf_ (83%)
+- **Mienshao** using _Force Palm_ (78%)
 
 # Anti-Steel 🛡️
 
@@ -235,10 +235,10 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Beedrill (Mega)** using _Bug Bite_ (83%)
 - **Volcarona** using _Bug Bite_ (73%)
 - **Vikavolt** using _Bug Bite_ (70%)
+- **Heracross (Mega)** using _Fury Cutter_ (68%)
 - **Heracross (Mega)** using _Struggle Bug_ (68%)
 - **Pinsir** using _Bug Bite_ (66%)
 - **Yanmega** using _Bug Bite_ (64%)
-- **Frosmoth** using _Bug Bite_ (64%)
 
 ### Highest **dark** (🌌) fast move damage:
 
@@ -350,15 +350,15 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 
 ### Highest **ground** (🏜️) fast move damage:
 
-- **Excadrill** using _Mud Slap_ (71%)
-- **Mamoswine** using _Mud Slap_ (69%)
-- **Rhyperior** using _Mud Slap_ (67%)
-- **Krookodile** using _Mud Slap_ (64%)
-- **Golurk** using _Mud Slap_ (62%)
-- **Rhydon** using _Mud Slap_ (62%)
-- **Donphan** using _Mud Slap_ (60%)
-- **Mudsdale** using _Mud Slap_ (60%)
-- **Golem** using _Mud Slap_ (59%)
+- **Excadrill** using _Mud Slap_ (65%)
+- **Mamoswine** using _Mud Slap_ (63%)
+- **Rhyperior** using _Mud Slap_ (61%)
+- **Krookodile** using _Mud Slap_ (59%)
+- **Golurk** using _Mud Slap_ (57%)
+- **Rhydon** using _Mud Slap_ (57%)
+- **Donphan** using _Mud Slap_ (55%)
+- **Mudsdale** using _Mud Slap_ (55%)
+- **Golem** using _Mud Slap_ (54%)
 
 ### Highest **ice** (❄️) fast move damage:
 
@@ -411,35 +411,35 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 ### Highest **rock** (🪨) fast move damage:
 
 - **Diancie (Mega)** using _Rock Throw_ (93%)
-- **Tyranitar (Mega)** using _Smack Down_ (85%)
-- **Rampardos** using _Smack Down_ (81%)
 - **Aerodactyl (Mega)** using _Rock Throw_ (80%)
-- **Terrakion** using _Smack Down_ (72%)
-- **Tyranitar** using _Smack Down_ (70%)
+- **Tyranitar (Mega)** using _Smack Down_ (78%)
+- **Rampardos** using _Smack Down_ (74%)
 - **Glimmora** using _Rock Throw_ (68%)
-- **Glimmora** using _Smack Down_ (68%)
-- **Rhyperior** using _Smack Down_ (67%)
+- **Terrakion** using _Smack Down_ (66%)
+- **Lycanroc (Dusk)** using _Rock Throw_ (65%)
+- **Lycanroc (Midday)** using _Rock Throw_ (64%)
+- **Tyranitar** using _Smack Down_ (64%)
 
 ### Highest **steel** (🛡️) fast move damage:
 
-- **Lucario (Mega)** using _Bullet Punch_ (85%)
-- **Metagross (Mega)** using _Bullet Punch_ (82%)
-- **Scizor (Mega)** using _Bullet Punch_ (77%)
-- **Metagross** using _Bullet Punch_ (71%)
-- **Lucario** using _Bullet Punch_ (66%)
-- **Scizor** using _Bullet Punch_ (66%)
+- **Lucario (Mega)** using _Bullet Punch_ (74%)
+- **Metagross (Mega)** using _Bullet Punch_ (72%)
+- **Scizor (Mega)** using _Bullet Punch_ (67%)
+- **Metagross** using _Bullet Punch_ (62%)
 - **Kyurem (White)** using _Steel Wing_ (62%)
 - **Dragonite (Mega)** using _Steel Wing_ (60%)
 - **Tyranitar (Mega)** using _Iron Tail_ (59%)
+- **Aerodactyl (Mega)** using _Steel Wing_ (59%)
+- **Archeops** using _Steel Wing_ (59%)
 
 ### Highest **water** (💧) fast move damage:
 
-- **Kyogre (Primal)** using _Waterfall_ (96%)
-- **Gyarados (Mega)** using _Waterfall_ (80%)
-- **Sharpedo (Mega)** using _Waterfall_ (80%)
-- **Kyogre** using _Waterfall_ (75%)
-- **Urshifu (Rapid Strike)** using _Waterfall_ (70%)
-- **Sharpedo** using _Waterfall_ (68%)
-- **Gyarados** using _Waterfall_ (66%)
-- **Primarina** using _Waterfall_ (65%)
-- **Crawdaunt** using _Waterfall_ (63%)
+- **Kyogre (Primal)** using _Waterfall_ (88%)
+- **Gyarados (Mega)** using _Waterfall_ (74%)
+- **Sharpedo (Mega)** using _Waterfall_ (73%)
+- **Kyogre** using _Waterfall_ (68%)
+- **Urshifu (Rapid Strike)** using _Waterfall_ (65%)
+- **Sharpedo** using _Waterfall_ (62%)
+- **Gyarados** using _Waterfall_ (60%)
+- **Primarina** using _Waterfall_ (59%)
+- **Swampert (Mega)** using _Water Gun_ (59%)

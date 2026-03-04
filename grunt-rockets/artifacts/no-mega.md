@@ -2,21 +2,21 @@
 
 - **Excluded tags**: mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-02-25
+- **Date generated**: 2026-03-04
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
 # Anti-Bug 🪲
 
-- **Rampardos (Shadow)** using _Smack Down_ (100%)
-- **Chandelure (Shadow)** using _Incinerate_ (92%)
-- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (90%)
-- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (90%)
-- **Blacephalon** using _Incinerate_ (89%)
-- **Tyranitar (Shadow)** using _Smack Down_ (86%)
-- **Chandelure (Shadow)** using _Fire Spin_ (85%)
-- **Rampardos** using _Smack Down_ (83%)
-- **Rhyperior (Shadow)** using _Smack Down_ (83%)
+- **Chandelure (Shadow)** using _Incinerate_ (100%)
+- **Rampardos (Shadow)** using _Smack Down_ (99%)
+- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
+- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
+- **Blacephalon** using _Incinerate_ (96%)
+- **Chandelure (Shadow)** using _Fire Spin_ (92%)
+- **Ho-Oh (Shadow)** using _Incinerate_ (89%)
+- **Entei (Shadow)** using _Fire Fang_ (87%)
+- **Staraptor (Shadow)** using _Gust_ (87%)
 
 # Anti-Dark 🌌
 
@@ -56,15 +56,15 @@
 
 # Anti-Fairy 🧚
 
-- **Metagross (Shadow)** using _Bullet Punch_ (100%)
+- **Sneasler (Shadow)** using _Poison Jab_ (100%)
+- **Metagross (Shadow)** using _Bullet Punch_ (99%)
+- **Archeops (Shadow)** using _Steel Wing_ (93%)
 - **Scizor (Shadow)** using _Bullet Punch_ (92%)
-- **Sneasler (Shadow)** using _Poison Jab_ (88%)
+- **Eternatus** using _Poison Jab_ (89%)
+- **Dragonite (Shadow)** using _Steel Wing_ (85%)
+- **Naganadel** using _Poison Jab_ (85%)
+- **Sneasler** using _Poison Jab_ (83%)
 - **Metagross** using _Bullet Punch_ (83%)
-- **Archeops (Shadow)** using _Steel Wing_ (82%)
-- **Eternatus** using _Poison Jab_ (79%)
-- **Lucario** using _Bullet Punch_ (77%)
-- **Scizor** using _Bullet Punch_ (77%)
-- **Machamp (Shadow)** using _Bullet Punch_ (76%)
 
 # Anti-Fighting 💪
 
@@ -84,23 +84,23 @@
 - **Kyogre (Shadow)** using _Waterfall_ (92%)
 - **Excadrill (Shadow)** using _Mud Slap_ (87%)
 - **Tyranitar (Shadow)** using _Smack Down_ (86%)
+- **Tyrantrum (Shadow)** using _Rock Throw_ (85%)
 - **Mamoswine (Shadow)** using _Mud Slap_ (84%)
 - **Rampardos** using _Smack Down_ (83%)
 - **Sharpedo (Shadow)** using _Waterfall_ (83%)
-- **Rhyperior (Shadow)** using _Mud Slap_ (83%)
-- **Rhyperior (Shadow)** using _Smack Down_ (83%)
+- **Aerodactyl (Shadow)** using _Rock Throw_ (83%)
 
 # Anti-Flying 🕊️
 
 - **Rampardos (Shadow)** using _Smack Down_ (100%)
-- **Kyurem (White)** using _Ice Fang_ (87%)
+- **Kyurem (White)** using _Ice Fang_ (95%)
 - **Tyranitar (Shadow)** using _Smack Down_ (86%)
+- **Tyrantrum (Shadow)** using _Rock Throw_ (85%)
 - **Rampardos** using _Smack Down_ (83%)
+- **Aerodactyl (Shadow)** using _Rock Throw_ (83%)
+- **Vikavolt (Shadow)** using _Volt Switch_ (83%)
 - **Rhyperior (Shadow)** using _Smack Down_ (83%)
-- **Tyrantrum (Shadow)** using _Rock Throw_ (78%)
-- **Gigalith (Shadow)** using _Smack Down_ (78%)
-- **Aerodactyl (Shadow)** using _Rock Throw_ (76%)
-- **Vikavolt (Shadow)** using _Volt Switch_ (76%)
+- **Darmanitan (Galarian)** using _Ice Fang_ (81%)
 
 # Anti-Ghost 👻
 
@@ -129,26 +129,26 @@
 # Anti-Ground 🏜️
 
 - **Kartana** using _Razor Leaf_ (100%)
-- **Kyogre (Shadow)** using _Waterfall_ (90%)
 - **Kyurem (White)** using _Ice Fang_ (85%)
-- **Sharpedo (Shadow)** using _Waterfall_ (81%)
-- **Gyarados (Shadow)** using _Waterfall_ (80%)
+- **Kyogre (Shadow)** using _Waterfall_ (82%)
 - **Victreebel (Shadow)** using _Razor Leaf_ (79%)
 - **Torterra (Shadow)** using _Razor Leaf_ (77%)
 - **Vileplume (Shadow)** using _Razor Leaf_ (77%)
 - **Roserade** using _Razor Leaf_ (76%)
+- **Shiftry (Shadow)** using _Razor Leaf_ (76%)
+- **Venusaur (Shadow)** using _Razor Leaf_ (76%)
 
 # Anti-Ice ❄️
 
-- **Rampardos (Shadow)** using _Smack Down_ (100%)
-- **Chandelure (Shadow)** using _Incinerate_ (92%)
-- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (90%)
-- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (90%)
-- **Blacephalon** using _Incinerate_ (89%)
-- **Metagross (Shadow)** using _Bullet Punch_ (88%)
-- **Tyranitar (Shadow)** using _Smack Down_ (86%)
-- **Chandelure (Shadow)** using _Fire Spin_ (85%)
-- **Rampardos** using _Smack Down_ (83%)
+- **Chandelure (Shadow)** using _Incinerate_ (100%)
+- **Rampardos (Shadow)** using _Smack Down_ (99%)
+- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
+- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
+- **Blacephalon** using _Incinerate_ (96%)
+- **Chandelure (Shadow)** using _Fire Spin_ (92%)
+- **Conkeldurr (Shadow)** using _Counter_ (90%)
+- **Blaziken (Shadow)** using _Counter_ (89%)
+- **Ho-Oh (Shadow)** using _Incinerate_ (89%)
 
 # Anti-Normal ⚪
 
@@ -167,12 +167,12 @@
 - **Mewtwo (Shadow)** using _Confusion_ (100%)
 - **Alakazam (Shadow)** using _Confusion_ (91%)
 - **Hoopa (Unbound)** using _Confusion_ (86%)
-- **Excadrill (Shadow)** using _Mud Slap_ (86%)
 - **Mewtwo** using _Confusion_ (83%)
-- **Mamoswine (Shadow)** using _Mud Slap_ (83%)
-- **Rhyperior (Shadow)** using _Mud Slap_ (81%)
 - **Gallade (Shadow)** using _Confusion_ (80%)
 - **Gardevoir (Shadow)** using _Confusion_ (80%)
+- **Exeggutor (Shadow)** using _Confusion_ (79%)
+- **Excadrill (Shadow)** using _Mud Slap_ (79%)
+- **Kadabra (Shadow)** using _Confusion_ (78%)
 
 # Anti-Psychic 🔮
 
@@ -189,14 +189,14 @@
 # Anti-Rock 🪨
 
 - **Kartana** using _Razor Leaf_ (100%)
-- **Kyogre (Shadow)** using _Waterfall_ (90%)
-- **Metagross (Shadow)** using _Bullet Punch_ (86%)
-- **Excadrill (Shadow)** using _Mud Slap_ (85%)
-- **Mamoswine (Shadow)** using _Mud Slap_ (83%)
+- **Kyogre (Shadow)** using _Waterfall_ (82%)
 - **Conkeldurr (Shadow)** using _Counter_ (81%)
-- **Sharpedo (Shadow)** using _Waterfall_ (81%)
-- **Rhyperior (Shadow)** using _Mud Slap_ (81%)
 - **Blaziken (Shadow)** using _Counter_ (80%)
+- **Victreebel (Shadow)** using _Razor Leaf_ (79%)
+- **Machamp (Shadow)** using _Counter_ (79%)
+- **Excadrill (Shadow)** using _Mud Slap_ (78%)
+- **Mienshao** using _Force Palm_ (78%)
+- **Torterra (Shadow)** using _Razor Leaf_ (77%)
 
 # Anti-Steel 🛡️
 
@@ -204,11 +204,11 @@
 - **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
 - **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
 - **Blacephalon** using _Incinerate_ (96%)
-- **Excadrill (Shadow)** using _Mud Slap_ (94%)
 - **Chandelure (Shadow)** using _Fire Spin_ (92%)
-- **Mamoswine (Shadow)** using _Mud Slap_ (92%)
 - **Conkeldurr (Shadow)** using _Counter_ (90%)
-- **Rhyperior (Shadow)** using _Mud Slap_ (90%)
+- **Blaziken (Shadow)** using _Counter_ (89%)
+- **Ho-Oh (Shadow)** using _Incinerate_ (89%)
+- **Entei (Shadow)** using _Fire Fang_ (87%)
 
 # Anti-Water 💧
 
@@ -350,15 +350,15 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 ### Highest **ground** (🏜️) fast move damage:
 
-- **Excadrill (Shadow)** using _Mud Slap_ (85%)
-- **Mamoswine (Shadow)** using _Mud Slap_ (83%)
-- **Rhyperior (Shadow)** using _Mud Slap_ (81%)
-- **Golurk (Shadow)** using _Mud Slap_ (75%)
-- **Rhydon (Shadow)** using _Mud Slap_ (75%)
-- **Donphan (Shadow)** using _Mud Slap_ (72%)
-- **Golem (Shadow)** using _Mud Slap_ (71%)
-- **Excadrill** using _Mud Slap_ (71%)
-- **Vikavolt (Shadow)** using _Mud Slap_ (71%)
+- **Excadrill (Shadow)** using _Mud Slap_ (78%)
+- **Mamoswine (Shadow)** using _Mud Slap_ (76%)
+- **Rhyperior (Shadow)** using _Mud Slap_ (74%)
+- **Golurk (Shadow)** using _Mud Slap_ (69%)
+- **Rhydon (Shadow)** using _Mud Slap_ (69%)
+- **Donphan (Shadow)** using _Mud Slap_ (66%)
+- **Golem (Shadow)** using _Mud Slap_ (65%)
+- **Excadrill** using _Mud Slap_ (65%)
+- **Vikavolt (Shadow)** using _Mud Slap_ (65%)
 
 ### Highest **ice** (❄️) fast move damage:
 
@@ -410,36 +410,36 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 ### Highest **rock** (🪨) fast move damage:
 
-- **Rampardos (Shadow)** using _Smack Down_ (98%)
-- **Tyranitar (Shadow)** using _Smack Down_ (84%)
-- **Rampardos** using _Smack Down_ (82%)
-- **Rhyperior (Shadow)** using _Smack Down_ (81%)
+- **Rampardos (Shadow)** using _Smack Down_ (90%)
+- **Tyranitar (Shadow)** using _Smack Down_ (77%)
 - **Tyrantrum (Shadow)** using _Rock Throw_ (76%)
-- **Gigalith (Shadow)** using _Smack Down_ (76%)
+- **Rampardos** using _Smack Down_ (75%)
 - **Aerodactyl (Shadow)** using _Rock Throw_ (74%)
-- **Terrakion** using _Smack Down_ (72%)
+- **Rhyperior (Shadow)** using _Smack Down_ (74%)
 - **Golem (Alolan) (Shadow)** using _Rock Throw_ (71%)
+- **Golem (Shadow)** using _Rock Throw_ (71%)
+- **Omastar (Shadow)** using _Rock Throw_ (70%)
 
 ### Highest **steel** (🛡️) fast move damage:
 
-- **Metagross (Shadow)** using _Bullet Punch_ (86%)
-- **Scizor (Shadow)** using _Bullet Punch_ (79%)
-- **Metagross** using _Bullet Punch_ (72%)
+- **Metagross (Shadow)** using _Bullet Punch_ (75%)
 - **Archeops (Shadow)** using _Steel Wing_ (71%)
-- **Lucario** using _Bullet Punch_ (66%)
-- **Scizor** using _Bullet Punch_ (66%)
-- **Machamp (Shadow)** using _Bullet Punch_ (65%)
+- **Scizor (Shadow)** using _Bullet Punch_ (69%)
 - **Dragonite (Shadow)** using _Steel Wing_ (64%)
+- **Metagross** using _Bullet Punch_ (63%)
 - **Kyurem (White)** using _Steel Wing_ (62%)
+- **Empoleon (Shadow)** using _Steel Wing_ (62%)
+- **Regigigas (Shadow)** using _Hidden Power (Steel)_ (60%)
+- **Archeops** using _Steel Wing_ (59%)
 
 ### Highest **water** (💧) fast move damage:
 
-- **Kyogre (Shadow)** using _Waterfall_ (90%)
-- **Sharpedo (Shadow)** using _Waterfall_ (81%)
-- **Gyarados (Shadow)** using _Waterfall_ (80%)
-- **Crawdaunt (Shadow)** using _Waterfall_ (75%)
-- **Kyogre** using _Waterfall_ (75%)
-- **Kabutops (Shadow)** using _Waterfall_ (74%)
-- **Samurott (Shadow)** using _Waterfall_ (72%)
-- **Empoleon (Shadow)** using _Waterfall_ (71%)
-- **Urshifu (Rapid Strike)** using _Waterfall_ (71%)
+- **Kyogre (Shadow)** using _Waterfall_ (82%)
+- **Sharpedo (Shadow)** using _Waterfall_ (75%)
+- **Gyarados (Shadow)** using _Waterfall_ (73%)
+- **Crawdaunt (Shadow)** using _Waterfall_ (69%)
+- **Kyogre** using _Waterfall_ (69%)
+- **Kabutops (Shadow)** using _Waterfall_ (68%)
+- **Samurott (Shadow)** using _Waterfall_ (66%)
+- **Empoleon (Shadow)** using _Waterfall_ (65%)
+- **Urshifu (Rapid Strike)** using _Waterfall_ (65%)
