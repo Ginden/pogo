@@ -2925,6 +2925,71 @@
       "title": "Element Cup"
     },
     {
+      "cup": "equinox",
+      "exclude": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "electric",
+            "rock"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "altaria",
+            "dudunsparce",
+            "dunsparce",
+            "lickilicky",
+            "miltank",
+            "piloswine",
+            "whimsicott",
+            "wigglytuff"
+          ]
+        }
+      ],
+      "excludeLowPokemon": 1,
+      "include": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "fire",
+            "flying",
+            "grass",
+            "ground",
+            "normal"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "wailmer",
+            "wailmer_shadow",
+            "wailord",
+            "wailord_shadow"
+          ]
+        }
+      ],
+      "league": 1500,
+      "levelCap": 50,
+      "link": "https://devon.gg",
+      "name": "equinox",
+      "overrides": [],
+      "title": "Equinox Cup",
+      "useDefaultMovesets": 1
+    },
+    {
       "exclude": [
         {
           "filterType": "type",
@@ -5352,7 +5417,7 @@
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
+        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": false,
@@ -5363,10 +5428,28 @@
       "cp": 1500,
       "cup": "kanto",
       "meta": "kanto",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Pokémon with a Pokédex number between #001 and #151 are eligible."
+      ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
       "title": "Kanto Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "spring",
+      "meta": "spring",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Water-,  Grass-,  and Fairy-type Pokémon are eligible.",
+        "The following Pokemon are not allowed: Jumpluff,  Roserade,  Toxapex"
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Spring Cup"
     },
     {
       "cp": 1500,
@@ -5407,12 +5490,12 @@
     },
     {
       "cp": 1500,
-      "cup": "amor",
-      "meta": "amor",
+      "cup": "equinox",
+      "meta": "equinox",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Devon Amor Cup"
+      "title": "Devon Equinox Cup"
     },
     {
       "cp": 1500,
@@ -107806,6 +107889,6 @@
     "kabuto",
     "kabutops"
   ],
-  "timestamp": "2026-03-04 01:33:32",
+  "timestamp": "2026-03-10 01:13:57",
   "title": "Default"
 }
