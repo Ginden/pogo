@@ -2553,6 +2553,28 @@
           ]
         }
       ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "steel",
+            "dragon",
+            "fairy"
+          ]
+        }
+      ],
+      "name": "fantasy",
+      "title": "Fantasy Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
       "include": [],
       "name": "gobattleleague",
       "partySize": 3,
@@ -2677,6 +2699,55 @@
       "levelCap": 50,
       "name": "little",
       "title": "Little Cup"
+    },
+    {
+      "cup": "maelstrom",
+      "exclude": [
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "aegislash_shield",
+            "altaria",
+            "annihilape",
+            "araquanid",
+            "azumarill",
+            "carbink",
+            "corsola_galarian",
+            "corviknight",
+            "doublade",
+            "empoleon",
+            "florges",
+            "forretress",
+            "furret",
+            "gastrodon",
+            "guzzlord",
+            "jellicent",
+            "lickilicky",
+            "marowak",
+            "quagsire",
+            "scizor",
+            "stunfisk",
+            "tinkaton",
+            "wigglytuff"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "excludeLowPokemon": 1,
+      "include": [],
+      "league": 1500,
+      "link": "https://devon.gg",
+      "name": "maelstrom",
+      "overrides": [],
+      "title": "Maelstrom Cup",
+      "useDefaultMovesets": 1
     },
     {
       "exclude": [
@@ -2821,19 +2892,6 @@
     },
     {
       "cp": 1500,
-      "cup": "jungle",
-      "meta": "jungle",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Normal-,  Grass-,  Electric-,  Poison-,  Ground-,  Flying-,  Bug-,  and Dark-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Jungle Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "electric",
       "meta": "electric",
       "rules": [
@@ -2845,6 +2903,19 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Electric Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "fantasy",
+      "meta": "fantasy",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Fantasy Cup"
     },
     {
       "cp": 1500,
@@ -2890,6 +2961,15 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Devon Equinox Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "maelstrom",
+      "meta": "maelstrom",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Devon Maelstrom Cup"
     },
     {
       "cp": 1500,
@@ -4467,6 +4547,17 @@
       "power": 150,
       "turns": 1,
       "type": "normal"
+    },
+    {
+      "archetype": "Nuke",
+      "cooldown": 500,
+      "energy": 60,
+      "energyGain": 0,
+      "moveId": "GIGATON_HAMMER",
+      "name": "Gigaton Hammer",
+      "power": 130,
+      "turns": 1,
+      "type": "steel"
     },
     {
       "archetype": "Debuff",
@@ -105290,6 +105381,6 @@
     "kabuto",
     "kabutops"
   ],
-  "timestamp": "2026-03-25 02:08:24",
+  "timestamp": "2026-03-30 23:32:08",
   "title": "Default"
 }
