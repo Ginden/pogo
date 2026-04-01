@@ -2,7 +2,7 @@
 
 - **Excluded tags**: mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-03-25
+- **Date generated**: 2026-04-01
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
