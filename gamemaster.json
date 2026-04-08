@@ -2856,6 +2856,38 @@
       ],
       "name": "spellcraft",
       "title": "Spellcraft Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "jumpluff",
+            "roserade",
+            "toxapex"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "water",
+            "grass",
+            "fairy"
+          ]
+        }
+      ],
+      "name": "spring",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Spring Cup"
     }
   ],
   "fastMoveArchetypes": [
@@ -2916,6 +2948,20 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Fantasy Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "spring",
+      "meta": "spring",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Water-,  Grass-,  and Fairy-type Pokémon are eligible.",
+        "The following Pokemon are not allowed: Junpluff,  Roserade,  Toxapex"
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Spring Cup"
     },
     {
       "cp": 1500,
@@ -81818,6 +81864,7 @@
       ],
       "formChange": {
         "alternativeFormId": "aegislash_shield",
+        "resetOnSwitch": true,
         "trigger": "activate_shield",
         "type": "set"
       },
@@ -81881,6 +81928,7 @@
       "formChange": {
         "alternativeFormId": "aegislash_blade",
         "moveId": "ANY",
+        "resetOnSwitch": true,
         "trigger": "activate_charged",
         "type": "set"
       },
@@ -90066,9 +90114,85 @@
         "SHADOW_CLAW",
         "HEX"
       ],
+      "formChange": {
+        "alternativeFormId": "mimikyu_busted",
+        "effect": "protect",
+        "moveId": "ANY",
+        "resetOnSwitch": false,
+        "trigger": "charged_move_damage",
+        "type": "set"
+      },
+      "nativeStatBuffs": [
+        0,
+        0
+      ],
+      "originalFormId": "mimikyu",
       "released": false,
+      "searchPriority": 4,
       "speciesId": "mimikyu",
       "speciesName": "Mimikyu",
+      "thirdMoveCost": 50000,
+      "types": [
+        "ghost",
+        "fairy"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 177,
+        "def": 199,
+        "hp": 146
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "SHADOW_SNEAK",
+        "PLAY_ROUGH",
+        "THUNDER"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          25,
+          5,
+          13,
+          15
+        ],
+        "cp2500": [
+          50,
+          13,
+          15,
+          15
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          8.5,
+          4,
+          12,
+          14
+        ]
+      },
+      "dex": 778,
+      "fastMoves": [
+        "SHADOW_CLAW",
+        "HEX"
+      ],
+      "formChange": {
+        "resetOnSwitch": false,
+        "trigger": "none",
+        "type": "set"
+      },
+      "nativeStatBuffs": [
+        0,
+        -1
+      ],
+      "originalFormId": "mimikyu",
+      "released": false,
+      "speciesId": "mimikyu_busted",
+      "speciesName": "Mimikyu (Busted)",
       "thirdMoveCost": 50000,
       "types": [
         "ghost",
@@ -95821,6 +95945,7 @@
         "alternativeFormId": "morpeko_hangry",
         "defaultFormId": "morpeko_full_belly",
         "moveId": "ANY",
+        "resetOnSwitch": true,
         "trigger": "charged_move",
         "type": "toggle"
       },
@@ -105381,6 +105506,6 @@
     "kabuto",
     "kabutops"
   ],
-  "timestamp": "2026-03-30 23:32:08",
+  "timestamp": "2026-04-07 00:02:52",
   "title": "Default"
 }
