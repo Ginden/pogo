@@ -2754,6 +2754,67 @@
         {
           "filterType": "tag",
           "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "type",
+          "values": [
+            "dark",
+            "grass",
+            "steel"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "araquanid",
+            "carbink",
+            "chansey",
+            "chinchou",
+            "claydol",
+            "clefable",
+            "cresselia",
+            "dedenne",
+            "diggersby",
+            "farfetchd",
+            "furret",
+            "gastrodon",
+            "golisopod",
+            "greedent",
+            "jellicent",
+            "lanturn",
+            "lickilicky",
+            "lickitung",
+            "lugia",
+            "medicham",
+            "oranguru",
+            "poliwrath",
+            "rotom_wash",
+            "toxapex",
+            "wigglytuff"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "fairy",
+            "normal",
+            "psychic",
+            "water"
+          ]
+        }
+      ],
+      "name": "naic2026",
+      "title": "NAIC 2026 Championship Series Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
             "legendary",
             "mythical",
             "ultrabeast",
@@ -2924,17 +2985,17 @@
     },
     {
       "cp": 1500,
-      "cup": "electric",
-      "meta": "electric",
+      "cup": "spring",
+      "meta": "spring",
       "rules": [
         "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Electric-type Pokémon are eligible.",
-        "The following Pokemon are not allowed: Stunfisk,  Heliolisk,  Charjabug,  Vikavolt"
+        "Only Water-,  Grass-,  and Fairy-type Pokémon are eligible.",
+        "The following Pokemon are not allowed: Jumpluff,  Roserade,  Toxapex"
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Electric Cup"
+      "title": "Spring Cup"
     },
     {
       "cp": 1500,
@@ -2951,17 +3012,18 @@
     },
     {
       "cp": 1500,
-      "cup": "spring",
-      "meta": "spring",
+      "cup": "naic2026",
+      "meta": "naic2026",
       "rules": [
         "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Water-,  Grass-,  and Fairy-type Pokémon are eligible.",
-        "The following Pokemon are not allowed: Junpluff,  Roserade,  Toxapex"
+        "Only Fairy-,  Normal-,  Psychic- and Water-type Pokémon are eligible.",
+        "The following types are not allowed: Dark,  Grass,  Steel",
+        "The following Pokemon are not allowed: Araquanid,  Carbink,  Chansey,  Chinchou,  Claydol,  Clefable,  Cresselia,  Dedenne,  Diggersby,  Farfetch'd,  Gastrodon,  Golisopod,  Greedent,  Jellicent,  Lanturn,  Lickilicky,  Lickitung,  Lugia,  Medicham,  Oranguru,  Poliwrath"
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Spring Cup"
+      "title": "NAIC 2026 Championship Series Cup"
     },
     {
       "cp": 1500,
@@ -90340,7 +90402,6 @@
         "SHADOW_CLAW",
         "METAL_SOUND"
       ],
-      "levelFloor": 20,
       "released": true,
       "speciesId": "dhelmise",
       "speciesName": "Dhelmise",
@@ -93845,7 +93906,7 @@
         "MUD_SLAP",
         "MUD_SHOT"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "silicobra",
       "speciesName": "Silicobra",
       "thirdMoveCost": 50000,
@@ -93896,7 +93957,7 @@
         "MUD_SLAP",
         "MUD_SHOT"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "sandaconda",
       "speciesName": "Sandaconda",
       "thirdMoveCost": 50000,
@@ -101169,7 +101230,8 @@
         "PLAY_ROUGH",
         "FLASH_CANNON",
         "HEAVY_SLAM",
-        "BULLDOZE"
+        "BULLDOZE",
+        "GIGATON_HAMMER"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -101198,6 +101260,9 @@
         ]
       },
       "dex": 959,
+      "eliteMoves": [
+        "GIGATON_HAMMER"
+      ],
       "family": {
         "id": "FAMILY_TINKATINK",
         "parent": "tinkatuff"
@@ -105506,6 +105571,6 @@
     "kabuto",
     "kabutops"
   ],
-  "timestamp": "2026-04-07 00:02:52",
+  "timestamp": "2026-04-14 18:14:43",
   "title": "Default"
 }
