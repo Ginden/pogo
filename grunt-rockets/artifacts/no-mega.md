@@ -2,7 +2,7 @@
 
 - **Excluded tags**: mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-04-22
+- **Date generated**: 2026-04-29
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -272,9 +272,9 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Raikou (Shadow)** using _Volt Switch_ (71%)
 - **Magnezone (Shadow)** using _Volt Switch_ (70%)
 - **Magneton (Shadow)** using _Volt Switch_ (66%)
+- **Heliolisk (Shadow)** using _Volt Switch_ (65%)
 - **Arcanine (Shadow)** using _Thunder Fang_ (64%)
 - **Ampharos (Shadow)** using _Volt Switch_ (62%)
-- **Golem (Alolan) (Shadow)** using _Volt Switch_ (62%)
 
 ### Highest **fairy** (🧚) fast move damage:
 
@@ -379,10 +379,10 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Ursaluna (Shadow)** using _Tackle_ (61%)
 - **Purugly (Shadow)** using _Scratch_ (59%)
 - **Ambipom** using _Scratch_ (58%)
+- **Bewear (Shadow)** using _Tackle_ (57%)
 - **Rillaboom** using _Scratch_ (56%)
 - **Vigoroth (Shadow)** using _Scratch_ (55%)
 - **Darmanitan (Standard) (Shadow)** using _Tackle_ (55%)
-- **Delphox** using _Scratch_ (54%)
 
 ### Highest **poison** (🐍) fast move damage:
 
@@ -416,9 +416,9 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Rampardos** using _Smack Down_ (75%)
 - **Aerodactyl (Shadow)** using _Rock Throw_ (74%)
 - **Rhyperior (Shadow)** using _Smack Down_ (74%)
+- **Landorus (Incarnate) (Shadow)** using _Rock Throw_ (73%)
 - **Golem (Alolan) (Shadow)** using _Rock Throw_ (71%)
 - **Golem (Shadow)** using _Rock Throw_ (71%)
-- **Omastar (Shadow)** using _Rock Throw_ (70%)
 
 ### Highest **steel** (🛡️) fast move damage:
 

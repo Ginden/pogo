@@ -2,7 +2,7 @@
 
 - **Excluded tags**: none
 - **Exclude unreleased**: true
-- **Date generated**: 2026-04-22
+- **Date generated**: 2026-04-29
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -274,7 +274,7 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Raikou (Shadow)** using _Volt Switch_ (70%)
 - **Magnezone (Shadow)** using _Volt Switch_ (70%)
 - **Magneton (Shadow)** using _Volt Switch_ (65%)
-- **Arcanine (Shadow)** using _Thunder Fang_ (63%)
+- **Heliolisk (Shadow)** using _Volt Switch_ (64%)
 
 ### Highest **fairy** (🧚) fast move damage:
 
@@ -380,9 +380,9 @@ All Pokemon are normalized to neutral damage of Alakazam (Mega) using Confusion
 - **Purugly (Shadow)** using _Scratch_ (59%)
 - **Diancie (Mega)** using _Tackle_ (58%)
 - **Ambipom** using _Scratch_ (58%)
+- **Bewear (Shadow)** using _Tackle_ (57%)
 - **Rillaboom** using _Scratch_ (55%)
 - **Vigoroth (Shadow)** using _Scratch_ (55%)
-- **Darmanitan (Standard) (Shadow)** using _Tackle_ (55%)
 
 ### Highest **poison** (🐍) fast move damage:
 
