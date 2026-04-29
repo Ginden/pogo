@@ -2440,6 +2440,345 @@
       "title": "Classic"
     },
     {
+      "cup": "cosy",
+      "exclude": [
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "excludeLowPokemon": 1,
+      "include": [
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "absol",
+            "absol_shadow",
+            "aerodactyl",
+            "aerodactyl_shadow",
+            "alakazam_shadow",
+            "alakazam",
+            "ampharos_shadow",
+            "ampharos",
+            "arbok_shadow",
+            "arbok",
+            "arcanine_hisuian",
+            "arcanine_shadow",
+            "arcanine",
+            "ariados",
+            "armarouge",
+            "articuno_galarian",
+            "articuno_shadow",
+            "articuno",
+            "audino",
+            "aurorus_shadow",
+            "aurorus",
+            "bellossom_shadow",
+            "bellossom",
+            "blastoise_shadow",
+            "blastoise",
+            "blaziken_shadow",
+            "blaziken",
+            "blissey",
+            "bonsly",
+            "cacturne_shadow",
+            "cacturne",
+            "carkol",
+            "ceruledge",
+            "chandelure_shadow",
+            "chandelure",
+            "chansey",
+            "charizard_shadow",
+            "charizard",
+            "charjabug_shadow",
+            "charjabug",
+            "charmeleon_shadow",
+            "charmeleon",
+            "chatot",
+            "cinccino",
+            "cinderace",
+            "clefable",
+            "coalossal",
+            "combusken_shadow",
+            "combusken",
+            "conkeldurr_shadow",
+            "conkeldurr",
+            "crobat_shadow",
+            "crobat",
+            "dachsbun",
+            "dartrix",
+            "decidueye",
+            "dedenne",
+            "dragapult",
+            "dragonair_shadow",
+            "dragonair",
+            "dragonite_shadow",
+            "dragonite",
+            "drifblim_shadow",
+            "drifblim",
+            "drifloon_shadow",
+            "drifloon",
+            "dugtrio_alolan_shadow",
+            "dugtrio_alolan",
+            "dugtrio_shadow",
+            "dugtrio",
+            "dusclops_shadow",
+            "dusclops",
+            "dusknoir_shadow",
+            "dusknoir",
+            "electabuzz_shadow",
+            "electabuzz",
+            "electivire_shadow",
+            "electivire",
+            "electrode_hisuian",
+            "electrode_shadow",
+            "electrode",
+            "entei_shadow",
+            "entei",
+            "espeon",
+            "excadrill_shadow",
+            "excadrill",
+            "exeggutor_alolan_shadow",
+            "exeggutor_alolan",
+            "exeggutor_shadow",
+            "exeggutor",
+            "farfetchd_galarian",
+            "farfetchd",
+            "flareon",
+            "flygon_shadow",
+            "flygon",
+            "fraxure",
+            "gallade_shadow",
+            "gallade",
+            "garbodor",
+            "garbodor_shadow",
+            "gardevoir_shadow",
+            "gardevoir",
+            "gastrodon",
+            "gengar_shadow",
+            "gengar",
+            "girafarig",
+            "girafarig_shadow",
+            "glaceon",
+            "golbat_shadow",
+            "golbat",
+            "golduck_shadow",
+            "golduck",
+            "golem_alolan_shadow",
+            "golem_alolan",
+            "golem_shadow",
+            "golem",
+            "goodra",
+            "graveler_alolan",
+            "graveler_shadow",
+            "graveler",
+            "graveler_alolan_shadow",
+            "greedent",
+            "greninja_shadow",
+            "greninja",
+            "grimer_alolan_shadow",
+            "grimer_alolan",
+            "grimer_shadow",
+            "grimer",
+            "gyarados_shadow",
+            "gyarados",
+            "hariyama_shadow",
+            "hariyama",
+            "haunter_shadow",
+            "haunter",
+            "haxorus",
+            "heracross",
+            "hitmonchan_shadow",
+            "hitmonchan",
+            "hitmonlee_shadow",
+            "hitmonlee",
+            "hitmontop_shadow",
+            "hitmontop",
+            "ho_oh_shadow",
+            "honchkrow",
+            "honchkrow_shadow",
+            "illumise",
+            "ivysaur_shadow",
+            "ivysaur",
+            "jolteon",
+            "kilowattrel",
+            "kricketune",
+            "kyogre_shadow",
+            "lapras_shadow",
+            "lapras",
+            "leafeon",
+            "lucario",
+            "ludicolo",
+            "lugia_shadow",
+            "machamp_shadow",
+            "machamp",
+            "machoke_shadow",
+            "machoke",
+            "magmar_shadow",
+            "magmar",
+            "magmortar_shadow",
+            "magmortar",
+            "magneton_shadow",
+            "magneton",
+            "magnezone_shadow",
+            "magnezone",
+            "marowak_alolan_shadow",
+            "marowak_alolan",
+            "mawile_shadow",
+            "mawile",
+            "meowscarada",
+            "metagross_shadow",
+            "metagross",
+            "metang_shadow",
+            "metang",
+            "mew",
+            "mewtwo_shadow",
+            "minun",
+            "misdreavus_shadow",
+            "misdreavus",
+            "mismagius_shadow",
+            "mismagius",
+            "moltres_galarian",
+            "moltres_shadow",
+            "moltres",
+            "mr_mime",
+            "muk_alolan_shadow",
+            "muk_alolan",
+            "muk_shadow",
+            "muk",
+            "munchlax",
+            "murkrow",
+            "murkrow_shadow",
+            "ninetales_alolan_shadow",
+            "ninetales_alolan",
+            "ninetales_shadow",
+            "ninetales",
+            "noctowl",
+            "noivern",
+            "onix_shadow",
+            "onix",
+            "parasect",
+            "pawmot",
+            "pelipper",
+            "persian",
+            "persian_shadow",
+            "pidgeot_shadow",
+            "pidgeot",
+            "pinsir_shadow",
+            "pinsir",
+            "plusle",
+            "politoed_shadow",
+            "politoed",
+            "poliwrath_shadow",
+            "poliwrath",
+            "porygon_shadow",
+            "porygon_z_shadow",
+            "porygon_z",
+            "porygon",
+            "porygon2_shadow",
+            "porygon2",
+            "prinplup_shadow",
+            "prinplup",
+            "raichu_alolan",
+            "raichu",
+            "raikou_shadow",
+            "raikou",
+            "rampardos_shadow",
+            "rampardos",
+            "rotom",
+            "scizor_shadow",
+            "scizor",
+            "scyther_shadow",
+            "scyther",
+            "serperior_shadow",
+            "serperior",
+            "slowbro_galarian",
+            "slowbro_shadow",
+            "slowbro",
+            "slowking_galarian",
+            "slowking_shadow",
+            "slowking",
+            "slowpoke_shadow",
+            "slowpoke",
+            "snorlax_shadow",
+            "snorlax",
+            "steelix_shadow",
+            "steelix",
+            "sudowoodo",
+            "sudowoodo_shadow",
+            "suicune_shadow",
+            "suicune",
+            "swalot",
+            "sylveon",
+            "tangela_shadow",
+            "tangela",
+            "tangrowth_shadow",
+            "tangrowth",
+            "tatsugiri_curly",
+            "tatsugiri_droopy",
+            "tatsugiri_stretchy",
+            "tinkaton",
+            "tinkatuff",
+            "torkoal",
+            "toxtricity",
+            "typhlosion_hisuian",
+            "typhlosion_shadow",
+            "typhlosion",
+            "tyranitar_shadow",
+            "tyranitar",
+            "tyrantrum_shadow",
+            "tyrantrum",
+            "tyrunt_shadow",
+            "tyrunt",
+            "umbreon",
+            "vaporeon",
+            "venomoth_shadow",
+            "venomoth",
+            "venusaur_shadow",
+            "venusaur",
+            "vespiquen",
+            "victreebel_shadow",
+            "victreebel",
+            "vikavolt_shadow",
+            "vikavolt",
+            "vileplume_shadow",
+            "vileplume",
+            "volbeat",
+            "volcanion",
+            "wartortle_shadow",
+            "wartortle",
+            "weepinbell_shadow",
+            "weepinbell",
+            "weezing_galarian_shadow",
+            "weezing_galarian",
+            "weezing_shadow",
+            "weezing",
+            "wigglytuff",
+            "zapdos_galarian",
+            "zapdos_shadow",
+            "zapdos",
+            "zoroark_hisuian",
+            "zoroark"
+          ]
+        },
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": []
+        }
+      ],
+      "league": 1500,
+      "link": "https://devon.gg",
+      "name": "cosy",
+      "overrides": [],
+      "title": "Devon Cosy Cup",
+      "useDefaultMovesets": 1
+    },
+    {
       "exclude": [],
       "include": [],
       "name": "custom",
@@ -2985,20 +3324,6 @@
     },
     {
       "cp": 1500,
-      "cup": "spring",
-      "meta": "spring",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Water-,  Grass-,  and Fairy-type Pokémon are eligible.",
-        "The following Pokemon are not allowed: Jumpluff,  Roserade,  Toxapex"
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Spring Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "fantasy",
       "meta": "fantasy",
       "rules": [
@@ -3009,6 +3334,19 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Fantasy Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "jungle",
+      "meta": "jungle",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Normal-,  Grass-,  Electric-,  Poison-,  Ground-,  Flying-,  Bug-,  and Dark-type Pokémon are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Jungle Cup"
     },
     {
       "cp": 1500,
@@ -3063,21 +3401,21 @@
     },
     {
       "cp": 1500,
-      "cup": "equinox",
-      "meta": "equinox",
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Devon Equinox Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "maelstrom",
       "meta": "maelstrom",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
       "title": "Devon Maelstrom Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "cosy",
+      "meta": "cosy",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Devon Cosy Cup"
     },
     {
       "cp": 1500,
@@ -28130,6 +28468,71 @@
     },
     {
       "baseStats": {
+        "atk": 299,
+        "def": 255,
+        "hp": 209
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRACO_METEOR",
+        "DRAGON_CLAW",
+        "DRAGON_PULSE",
+        "HURRICANE",
+        "HYPER_BEAM",
+        "OUTRAGE",
+        "SUPER_POWER",
+        "THUNDER_PUNCH"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          11.5,
+          4,
+          8,
+          12
+        ],
+        "cp2500": [
+          19,
+          4,
+          9,
+          15
+        ],
+        "cp500": [
+          4,
+          12,
+          15,
+          15
+        ]
+      },
+      "dex": 149,
+      "eliteMoves": [
+        "DRACO_METEOR",
+        "DRAGON_PULSE"
+      ],
+      "family": {
+        "id": "FAMILY_DRATINI",
+        "parent": "dragonair"
+      },
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "DRAGON_TAIL",
+        "STEEL_WING"
+      ],
+      "level25CP": 3079,
+      "released": true,
+      "speciesId": "dragonite_mega",
+      "speciesName": "Dragonite (Mega)",
+      "tags": [
+        "shadoweligible",
+        "mega"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "dragon",
+        "flying"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 263,
         "def": 198,
         "hp": 209
@@ -28188,71 +28591,6 @@
       "speciesName": "Dragonite (Shadow)",
       "tags": [
         "shadow"
-      ],
-      "thirdMoveCost": 75000,
-      "types": [
-        "dragon",
-        "flying"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 299,
-        "def": 255,
-        "hp": 209
-      },
-      "buddyDistance": 5,
-      "chargedMoves": [
-        "DRACO_METEOR",
-        "DRAGON_CLAW",
-        "DRAGON_PULSE",
-        "HURRICANE",
-        "HYPER_BEAM",
-        "OUTRAGE",
-        "SUPER_POWER",
-        "THUNDER_PUNCH"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          11.5,
-          4,
-          8,
-          12
-        ],
-        "cp2500": [
-          19,
-          4,
-          9,
-          15
-        ],
-        "cp500": [
-          4,
-          12,
-          15,
-          15
-        ]
-      },
-      "dex": 149,
-      "eliteMoves": [
-        "DRACO_METEOR",
-        "DRAGON_PULSE"
-      ],
-      "family": {
-        "id": "FAMILY_DRATINI",
-        "parent": "dragonair"
-      },
-      "fastMoves": [
-        "DRAGON_BREATH",
-        "DRAGON_TAIL",
-        "STEEL_WING"
-      ],
-      "level25CP": 3079,
-      "released": true,
-      "speciesId": "dragonite_mega",
-      "speciesName": "Dragonite (Mega)",
-      "tags": [
-        "shadoweligible",
-        "mega"
       ],
       "thirdMoveCost": 75000,
       "types": [
@@ -77771,6 +78109,7 @@
         "DRAGON_BREATH"
       ],
       "released": true,
+      "searchPriority": 2,
       "speciesId": "hydreigon_shadow",
       "speciesName": "Hydreigon (Shadow)",
       "tags": [
@@ -78517,12 +78856,14 @@
         "MUD_SHOT",
         "ROCK_THROW"
       ],
+      "level25CP": 2249,
       "released": true,
       "searchPriority": 2,
       "speciesId": "landorus_incarnate",
       "speciesName": "Landorus (Incarnate)",
       "tags": [
-        "legendary"
+        "legendary",
+        "shadoweligible"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -78578,6 +78919,58 @@
       "speciesName": "Landorus (Therian)",
       "tags": [
         "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "ground",
+        "flying"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 261,
+        "def": 182,
+        "hp": 205
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "EARTH_POWER",
+        "OUTRAGE",
+        "ROCK_SLIDE",
+        "FOCUS_BLAST"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          15,
+          10,
+          13,
+          14
+        ],
+        "cp2500": [
+          26,
+          5,
+          8,
+          11
+        ],
+        "cp500": [
+          5.5,
+          6,
+          8,
+          5
+        ]
+      },
+      "dex": 645,
+      "fastMoves": [
+        "MUD_SHOT",
+        "ROCK_THROW"
+      ],
+      "released": true,
+      "searchPriority": 2,
+      "speciesId": "landorus_incarnate_shadow",
+      "speciesName": "Landorus (Incarnate) (Shadow)",
+      "tags": [
+        "legendary",
+        "shadow"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -82875,9 +83268,68 @@
         "QUICK_ATTACK",
         "THUNDER_SHOCK"
       ],
+      "level25CP": 510,
       "released": true,
       "speciesId": "helioptile",
       "speciesName": "Helioptile",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "electric",
+        "normal"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 115,
+        "def": 78,
+        "hp": 127
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "PARABOLIC_CHARGE",
+        "BULLDOZE",
+        "THUNDERBOLT"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          20.5,
+          4,
+          15,
+          14
+        ]
+      },
+      "dex": 694,
+      "family": {
+        "evolutions": [
+          "heliolisk_shadow"
+        ],
+        "id": "FAMILY_HELIOPTILE"
+      },
+      "fastMoves": [
+        "QUICK_ATTACK",
+        "THUNDER_SHOCK"
+      ],
+      "released": true,
+      "speciesId": "helioptile_shadow",
+      "speciesName": "Helioptile (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "electric",
@@ -82934,9 +83386,75 @@
         "VOLT_SWITCH",
         "MUD_SLAP"
       ],
+      "level25CP": 1591,
       "released": true,
       "speciesId": "heliolisk",
       "speciesName": "Heliolisk",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "electric",
+        "normal"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 219,
+        "def": 168,
+        "hp": 158
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "PARABOLIC_CHARGE",
+        "BULLDOZE",
+        "THUNDERBOLT",
+        "GRASS_KNOT",
+        "BREAKING_SWIPE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          21.5,
+          4,
+          13,
+          12
+        ],
+        "cp2500": [
+          40.5,
+          5,
+          14,
+          15
+        ],
+        "cp2500l40": [
+          38.5,
+          12,
+          14,
+          14
+        ],
+        "cp500": [
+          7.5,
+          4,
+          8,
+          8
+        ]
+      },
+      "dex": 695,
+      "family": {
+        "id": "FAMILY_HELIOPTILE",
+        "parent": "helioptile_shadow"
+      },
+      "fastMoves": [
+        "QUICK_ATTACK",
+        "VOLT_SWITCH",
+        "MUD_SLAP"
+      ],
+      "released": true,
+      "speciesId": "heliolisk_shadow",
+      "speciesName": "Heliolisk (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "electric",
@@ -87793,9 +88311,68 @@
         "INFESTATION",
         "BUG_BITE"
       ],
+      "level25CP": 374,
       "released": true,
       "speciesId": "dewpider",
       "speciesName": "Dewpider",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "water",
+        "bug"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 72,
+        "def": 117,
+        "hp": 116
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "WATER_PULSE",
+        "BUBBLE_BEAM",
+        "MIRROR_COAT"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          28.5,
+          4,
+          14,
+          12
+        ]
+      },
+      "dex": 751,
+      "family": {
+        "evolutions": [
+          "araquanid_shadow"
+        ],
+        "id": "FAMILY_DEWPIDER"
+      },
+      "fastMoves": [
+        "INFESTATION",
+        "BUG_BITE"
+      ],
+      "released": true,
+      "speciesId": "dewpider_shadow",
+      "speciesName": "Dewpider (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "water",
@@ -87844,10 +88421,69 @@
         "INFESTATION",
         "BUG_BITE"
       ],
+      "level25CP": 1081,
       "released": true,
       "searchPriority": 3,
       "speciesId": "araquanid",
       "speciesName": "Araquanid",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "water",
+        "bug"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 126,
+        "def": 219,
+        "hp": 169
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "BUG_BUZZ",
+        "BUBBLE_BEAM",
+        "MIRROR_COAT",
+        "WATER_PULSE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          32,
+          5,
+          15,
+          14
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          10.5,
+          4,
+          14,
+          12
+        ]
+      },
+      "dex": 752,
+      "family": {
+        "id": "FAMILY_DEWPIDER",
+        "parent": "dewpider_shadow"
+      },
+      "fastMoves": [
+        "INFESTATION",
+        "BUG_BITE"
+      ],
+      "released": true,
+      "searchPriority": 3,
+      "speciesId": "araquanid_shadow",
+      "speciesName": "Araquanid (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "water",
@@ -88057,9 +88693,65 @@
       "fastMoves": [
         "ASTONISH"
       ],
+      "level25CP": 1108,
       "released": true,
       "speciesId": "shiinotic",
       "speciesName": "Shiinotic",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "grass",
+        "fairy"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 154,
+        "def": 168,
+        "hp": 155
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "MOONBLAST",
+        "SEED_BOMB",
+        "SLUDGE_BOMB"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          31,
+          4,
+          14,
+          12
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          10,
+          5,
+          15,
+          15
+        ]
+      },
+      "dex": 756,
+      "family": {
+        "id": "FAMILY_MORELULL",
+        "parent": "morelull"
+      },
+      "fastMoves": [
+        "ASTONISH"
+      ],
+      "released": true,
+      "speciesId": "shiinotic_shadow",
+      "speciesName": "Shiinotic (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "grass",
@@ -88225,9 +88917,74 @@
         "TACKLE",
         "TAKE_DOWN"
       ],
+      "level25CP": 775,
       "released": true,
       "speciesId": "stufful",
       "speciesName": "Stufful",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 136,
+        "def": 95,
+        "hp": 172
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "SUPER_POWER",
+        "BRICK_BREAK",
+        "STOMP"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          49.5,
+          13,
+          15,
+          15
+        ],
+        "cp1500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          14,
+          4,
+          15,
+          14
+        ]
+      },
+      "dex": 759,
+      "family": {
+        "evolutions": [
+          "bewear_shadow"
+        ],
+        "id": "FAMILY_STUFFUL"
+      },
+      "fastMoves": [
+        "TACKLE",
+        "TAKE_DOWN"
+      ],
+      "released": true,
+      "speciesId": "stufful_shadow",
+      "speciesName": "Stufful (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "normal",
@@ -88280,9 +89037,71 @@
         "LOW_KICK",
         "SHADOW_CLAW"
       ],
+      "level25CP": 1930,
       "released": true,
       "speciesId": "bewear",
       "speciesName": "Bewear",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "normal",
+        "fighting"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 226,
+        "def": 141,
+        "hp": 260
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "SUPER_POWER",
+        "PAYBACK",
+        "STOMP",
+        "DRAIN_PUNCH"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          17.5,
+          6,
+          15,
+          14
+        ],
+        "cp2500": [
+          29.5,
+          4,
+          14,
+          15
+        ],
+        "cp500": [
+          6,
+          9,
+          14,
+          15
+        ]
+      },
+      "dex": 760,
+      "eliteMoves": [
+        "DRAIN_PUNCH"
+      ],
+      "family": {
+        "id": "FAMILY_STUFFUL",
+        "parent": "stufful_shadow"
+      },
+      "fastMoves": [
+        "TACKLE",
+        "LOW_KICK",
+        "SHADOW_CLAW"
+      ],
+      "released": true,
+      "speciesId": "bewear_shadow",
+      "speciesName": "Bewear (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "normal",
@@ -101847,7 +102666,8 @@
         "IRON_TAIL",
         "MUD_SLAP"
       ],
-      "released": false,
+      "levelFloor": 20,
+      "released": true,
       "speciesId": "orthworm",
       "speciesName": "Orthworm",
       "thirdMoveCost": 75000,
@@ -105569,8 +106389,17 @@
     "ponyta",
     "rapidash",
     "kabuto",
-    "kabutops"
+    "kabutops",
+    "helioptile",
+    "heliolisk",
+    "morellul",
+    "shiinotic",
+    "stufful",
+    "bewear",
+    "dewpider",
+    "araquanid",
+    "landorus_incarnate"
   ],
-  "timestamp": "2026-04-14 18:14:43",
+  "timestamp": "2026-04-29 01:55:04",
   "title": "Default"
 }
