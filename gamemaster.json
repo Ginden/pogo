@@ -3401,6 +3401,15 @@
     },
     {
       "cp": 1500,
+      "cup": "equinox",
+      "meta": "equinox",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Devon Equinox Cup"
+    },
+    {
+      "cp": 1500,
       "cup": "maelstrom",
       "meta": "maelstrom",
       "showCup": true,
@@ -106400,6 +106409,6 @@
     "araquanid",
     "landorus_incarnate"
   ],
-  "timestamp": "2026-04-29 01:55:04",
+  "timestamp": "2026-04-30 02:56:27",
   "title": "Default"
 }
