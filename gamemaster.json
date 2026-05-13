@@ -99435,13 +99435,17 @@
         ]
       },
       "dex": 916,
+      "eliteMoves": [
+        "MUD_SLAP"
+      ],
       "family": {
         "id": "FAMILY_LECHONK",
         "parent": "lechonk"
       },
       "fastMoves": [
         "TACKLE",
-        "TAKE_DOWN"
+        "TAKE_DOWN",
+        "MUD_SLAP"
       ],
       "released": true,
       "speciesId": "oinkologne",
@@ -99491,16 +99495,20 @@
         ]
       },
       "dex": 916,
+      "eliteMoves": [
+        "MUD_SLAP"
+      ],
       "family": {
         "id": "FAMILY_LECHONK",
         "parent": "lechonk"
       },
       "fastMoves": [
         "TACKLE",
-        "TAKE_DOWN"
+        "TAKE_DOWN",
+        "MUD_SLAP"
       ],
       "released": true,
-      "searchPriority": 2,
+      "searchPriority": 4,
       "speciesId": "oinkologne_female",
       "speciesName": "Oinkologne (Female)",
       "thirdMoveCost": 10000,
@@ -106409,6 +106417,6 @@
     "araquanid",
     "landorus_incarnate"
   ],
-  "timestamp": "2026-04-30 02:56:27",
+  "timestamp": "2026-05-08 15:17:12",
   "title": "Default"
 }
