@@ -101886,7 +101886,7 @@
         "PECK",
         "CONFUSION"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "flittle",
       "speciesName": "Flittle",
       "thirdMoveCost": 50000,
@@ -101943,7 +101943,7 @@
         "PECK",
         "CONFUSION"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "espathra",
       "speciesName": "Espathra",
       "thirdMoveCost": 50000,
@@ -106417,6 +106417,6 @@
     "araquanid",
     "landorus_incarnate"
   ],
-  "timestamp": "2026-05-08 15:17:12",
+  "timestamp": "2026-05-15 00:25:19",
   "title": "Default"
 }
