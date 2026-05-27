@@ -3324,32 +3324,6 @@
     },
     {
       "cp": 1500,
-      "cup": "fantasy",
-      "meta": "fantasy",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Fantasy Cup"
-    },
-    {
-      "cp": 1500,
-      "cup": "jungle",
-      "meta": "jungle",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Normal-,  Grass-,  Electric-,  Poison-,  Ground-,  Flying-,  Bug-,  and Dark-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Jungle Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "naic2026",
       "meta": "naic2026",
       "rules": [
@@ -103127,10 +103101,10 @@
       ],
       "defaultIVs": {
         "cp1500": [
-          20,
-          1,
-          1,
-          2
+          18.5,
+          6,
+          13,
+          14
         ],
         "cp2500": [
           32,
@@ -103150,7 +103124,7 @@
         "WATERFALL",
         "WATER_GUN"
       ],
-      "levelFloor": 20,
+      "levelFloor": 15,
       "released": true,
       "speciesId": "dondozo",
       "speciesName": "Dondozo",
@@ -106417,6 +106391,6 @@
     "araquanid",
     "landorus_incarnate"
   ],
-  "timestamp": "2026-05-15 00:25:19",
+  "timestamp": "2026-05-21 02:54:33",
   "title": "Default"
 }
