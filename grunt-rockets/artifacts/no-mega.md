@@ -2,7 +2,7 @@
 
 - **Excluded tags**: mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-05-27
+- **Date generated**: 2026-06-03
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -20,27 +20,27 @@
 
 # Anti-Dark 🌌
 
-- **Pheromosa** using _Bug Bite_ (100%)
-- **Gardevoir (Shadow)** using _Charm_ (99%)
-- **Vikavolt (Shadow)** using _Bug Bite_ (97%)
-- **Conkeldurr (Shadow)** using _Counter_ (94%)
-- **Blaziken (Shadow)** using _Counter_ (92%)
-- **Pinsir (Shadow)** using _Bug Bite_ (92%)
-- **Machamp (Shadow)** using _Counter_ (90%)
-- **Mienshao** using _Force Palm_ (89%)
-- **Granbull (Shadow)** using _Charm_ (89%)
+- **Conkeldurr (Shadow)** using _Force Palm_ (100%)
+- **Pheromosa** using _Bug Bite_ (99%)
+- **Vikavolt (Shadow)** using _Bug Bite_ (96%)
+- **Conkeldurr (Shadow)** using _Counter_ (92%)
+- **Blaziken (Shadow)** using _Counter_ (91%)
+- **Pinsir (Shadow)** using _Bug Bite_ (90%)
+- **Gardevoir (Shadow)** using _Charm_ (90%)
+- **Machamp (Shadow)** using _Counter_ (89%)
+- **Mienshao** using _Force Palm_ (88%)
 
 # Anti-Dragon 🐉
 
-- **Gardevoir (Shadow)** using _Charm_ (100%)
-- **Kyurem (White)** using _Ice Fang_ (99%)
-- **Granbull (Shadow)** using _Charm_ (90%)
-- **Darmanitan (Galarian)** using _Ice Fang_ (85%)
-- **Gallade (Shadow)** using _Charm_ (83%)
-- **Gardevoir** using _Charm_ (83%)
-- **Hatterene** using _Charm_ (83%)
-- **Baxcalibur** using _Ice Fang_ (82%)
-- **Primarina** using _Charm_ (82%)
+- **Kyurem (White)** using _Ice Fang_ (100%)
+- **Gardevoir (Shadow)** using _Charm_ (93%)
+- **Darmanitan (Galarian)** using _Ice Fang_ (86%)
+- **Granbull (Shadow)** using _Charm_ (84%)
+- **Baxcalibur** using _Ice Fang_ (83%)
+- **Palkia (Shadow)** using _Dragon Breath_ (82%)
+- **Palkia (Shadow)** using _Dragon Tail_ (82%)
+- **Salamence (Shadow)** using _Dragon Tail_ (81%)
+- **Dialga (Shadow)** using _Dragon Breath_ (80%)
 
 # Anti-Electric ⚡
 
@@ -70,9 +70,9 @@
 
 - **Mewtwo (Shadow)** using _Confusion_ (100%)
 - **Alakazam (Shadow)** using _Confusion_ (91%)
-- **Gardevoir (Shadow)** using _Charm_ (87%)
 - **Hoopa (Unbound)** using _Confusion_ (86%)
 - **Mewtwo** using _Confusion_ (83%)
+- **Gardevoir (Shadow)** using _Charm_ (80%)
 - **Gallade (Shadow)** using _Confusion_ (80%)
 - **Gardevoir (Shadow)** using _Confusion_ (80%)
 - **Staraptor (Shadow)** using _Gust_ (79%)
@@ -142,25 +142,25 @@
 
 - **Chandelure (Shadow)** using _Incinerate_ (100%)
 - **Rampardos (Shadow)** using _Smack Down_ (99%)
+- **Conkeldurr (Shadow)** using _Force Palm_ (98%)
 - **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
 - **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
 - **Blacephalon** using _Incinerate_ (96%)
 - **Chandelure (Shadow)** using _Fire Spin_ (92%)
 - **Conkeldurr (Shadow)** using _Counter_ (90%)
 - **Blaziken (Shadow)** using _Counter_ (89%)
-- **Ho-Oh (Shadow)** using _Incinerate_ (89%)
 
 # Anti-Normal ⚪
 
-- **Conkeldurr (Shadow)** using _Counter_ (100%)
-- **Blaziken (Shadow)** using _Counter_ (99%)
-- **Machamp (Shadow)** using _Counter_ (97%)
-- **Mienshao** using _Force Palm_ (96%)
-- **Hariyama (Shadow)** using _Force Palm_ (94%)
-- **Alakazam (Shadow)** using _Counter_ (92%)
-- **Annihilape (Shadow)** using _Counter_ (91%)
-- **Marshadow** using _Counter_ (90%)
-- **Breloom** using _Force Palm_ (90%)
+- **Conkeldurr (Shadow)** using _Force Palm_ (100%)
+- **Conkeldurr (Shadow)** using _Counter_ (92%)
+- **Blaziken (Shadow)** using _Counter_ (91%)
+- **Machamp (Shadow)** using _Counter_ (89%)
+- **Mienshao** using _Force Palm_ (88%)
+- **Hariyama (Shadow)** using _Force Palm_ (87%)
+- **Alakazam (Shadow)** using _Counter_ (85%)
+- **Annihilape (Shadow)** using _Counter_ (84%)
+- **Marshadow** using _Counter_ (83%)
 
 # Anti-Poison 🐍
 
@@ -189,6 +189,7 @@
 # Anti-Rock 🪨
 
 - **Kartana** using _Razor Leaf_ (100%)
+- **Conkeldurr (Shadow)** using _Force Palm_ (88%)
 - **Kyogre (Shadow)** using _Waterfall_ (82%)
 - **Conkeldurr (Shadow)** using _Counter_ (81%)
 - **Blaziken (Shadow)** using _Counter_ (80%)
@@ -196,11 +197,11 @@
 - **Machamp (Shadow)** using _Counter_ (79%)
 - **Excadrill (Shadow)** using _Mud Slap_ (78%)
 - **Mienshao** using _Force Palm_ (78%)
-- **Torterra (Shadow)** using _Razor Leaf_ (77%)
 
 # Anti-Steel 🛡️
 
 - **Chandelure (Shadow)** using _Incinerate_ (100%)
+- **Conkeldurr (Shadow)** using _Force Palm_ (98%)
 - **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
 - **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
 - **Blacephalon** using _Incinerate_ (96%)
@@ -208,7 +209,6 @@
 - **Conkeldurr (Shadow)** using _Counter_ (90%)
 - **Blaziken (Shadow)** using _Counter_ (89%)
 - **Ho-Oh (Shadow)** using _Incinerate_ (89%)
-- **Entei (Shadow)** using _Fire Fang_ (87%)
 
 # Anti-Water 💧
 
@@ -278,18 +278,19 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 ### Highest **fairy** (🧚) fast move damage:
 
-- **Gardevoir (Shadow)** using _Charm_ (86%)
-- **Granbull (Shadow)** using _Charm_ (78%)
-- **Gallade (Shadow)** using _Charm_ (72%)
-- **Gardevoir** using _Charm_ (72%)
-- **Hatterene** using _Charm_ (72%)
-- **Primarina** using _Charm_ (70%)
-- **Latias (Shadow)** using _Charm_ (69%)
-- **Tyrantrum (Shadow)** using _Charm_ (69%)
-- **Togekiss** using _Charm_ (68%)
+- **Gardevoir (Shadow)** using _Charm_ (80%)
+- **Granbull (Shadow)** using _Charm_ (72%)
+- **Gallade (Shadow)** using _Charm_ (66%)
+- **Gardevoir** using _Charm_ (66%)
+- **Hatterene** using _Charm_ (66%)
+- **Primarina** using _Charm_ (65%)
+- **Latias (Shadow)** using _Charm_ (64%)
+- **Tyrantrum (Shadow)** using _Charm_ (64%)
+- **Togekiss** using _Charm_ (63%)
 
 ### Highest **fighting** (💪) fast move damage:
 
+- **Conkeldurr (Shadow)** using _Force Palm_ (88%)
 - **Conkeldurr (Shadow)** using _Counter_ (81%)
 - **Blaziken (Shadow)** using _Counter_ (80%)
 - **Machamp (Shadow)** using _Counter_ (79%)
@@ -298,7 +299,6 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Alakazam (Shadow)** using _Counter_ (75%)
 - **Annihilape (Shadow)** using _Counter_ (74%)
 - **Marshadow** using _Counter_ (74%)
-- **Breloom** using _Force Palm_ (73%)
 
 ### Highest **fire** (🔥) fast move damage:
 
@@ -319,10 +319,10 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Tornadus (Incarnate) (Shadow)** using _Air Slash_ (67%)
 - **Tornadus (Therian)** using _Gust_ (67%)
 - **Staraptor** using _Gust_ (65%)
+- **Swanna (Shadow)** using _Gust_ (62%)
 - **Honchkrow (Shadow)** using _Peck_ (61%)
 - **Archeops (Shadow)** using _Wing Attack_ (61%)
 - **Ho-Oh (Shadow)** using _Hidden Power (Flying)_ (60%)
-- **Regigigas (Shadow)** using _Hidden Power (Flying)_ (60%)
 
 ### Highest **ghost** (👻) fast move damage:
 

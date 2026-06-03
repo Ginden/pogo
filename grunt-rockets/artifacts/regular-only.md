@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 - **Exclude unreleased**: true
-- **Date generated**: 2026-05-27
+- **Date generated**: 2026-06-03
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -21,26 +21,26 @@
 # Anti-Dark 🌌
 
 - **Mienshao** using _Force Palm_ (100%)
+- **Conkeldurr** using _Force Palm_ (95%)
 - **Volcarona** using _Bug Bite_ (94%)
 - **Breloom** using _Force Palm_ (94%)
-- **Gardevoir** using _Charm_ (92%)
-- **Hatterene** using _Charm_ (92%)
 - **Lucario** using _Force Palm_ (92%)
 - **Vikavolt** using _Bug Bite_ (91%)
-- **Primarina** using _Charm_ (90%)
 - **Sirfetch'd** using _Counter_ (89%)
+- **Conkeldurr** using _Counter_ (87%)
+- **Breloom** using _Counter_ (87%)
 
 # Anti-Dragon 🐉
 
 - **Darmanitan (Galarian)** using _Ice Fang_ (100%)
-- **Gardevoir** using _Charm_ (98%)
-- **Hatterene** using _Charm_ (98%)
 - **Baxcalibur** using _Ice Fang_ (97%)
-- **Primarina** using _Charm_ (96%)
-- **Togekiss** using _Charm_ (94%)
-- **Granbull** using _Charm_ (88%)
-- **Sylveon** using _Charm_ (85%)
-- **Ribombee** using _Charm_ (83%)
+- **Gardevoir** using _Charm_ (91%)
+- **Hatterene** using _Charm_ (91%)
+- **Primarina** using _Charm_ (89%)
+- **Togekiss** using _Charm_ (86%)
+- **Granbull** using _Charm_ (82%)
+- **Haxorus** using _Dragon Tail_ (81%)
+- **Glaceon** using _Frost Breath_ (80%)
 
 # Anti-Electric ⚡
 
@@ -70,13 +70,13 @@
 
 - **Alakazam** using _Confusion_ (100%)
 - **Espeon** using _Confusion_ (97%)
-- **Gardevoir** using _Charm_ (95%)
-- **Hatterene** using _Charm_ (95%)
-- **Primarina** using _Charm_ (94%)
-- **Togekiss** using _Charm_ (91%)
+- **Gardevoir** using _Charm_ (88%)
+- **Hatterene** using _Charm_ (88%)
 - **Gallade** using _Confusion_ (88%)
 - **Gardevoir** using _Confusion_ (88%)
 - **Hatterene** using _Confusion_ (88%)
+- **Staraptor** using _Gust_ (87%)
+- **Exeggutor** using _Confusion_ (87%)
 
 # Anti-Fire 🔥
 
@@ -143,16 +143,17 @@
 - **Mienshao** using _Force Palm_ (100%)
 - **Chandelure** using _Incinerate_ (97%)
 - **Rampardos** using _Smack Down_ (96%)
+- **Conkeldurr** using _Force Palm_ (95%)
 - **Darmanitan (Standard)** using _Fire Fang_ (94%)
 - **Darmanitan (Standard)** using _Incinerate_ (94%)
 - **Breloom** using _Force Palm_ (94%)
 - **Lucario** using _Force Palm_ (92%)
 - **Sirfetch'd** using _Counter_ (89%)
-- **Chandelure** using _Fire Spin_ (89%)
 
 # Anti-Normal ⚪
 
 - **Mienshao** using _Force Palm_ (100%)
+- **Conkeldurr** using _Force Palm_ (95%)
 - **Breloom** using _Force Palm_ (94%)
 - **Lucario** using _Force Palm_ (92%)
 - **Sirfetch'd** using _Counter_ (89%)
@@ -160,7 +161,6 @@
 - **Breloom** using _Counter_ (87%)
 - **Blaziken** using _Counter_ (86%)
 - **Lucario** using _Counter_ (85%)
-- **Haxorus** using _Counter_ (84%)
 
 # Anti-Poison 🐍
 
@@ -191,24 +191,24 @@
 - **Mienshao** using _Force Palm_ (100%)
 - **Roserade** using _Razor Leaf_ (98%)
 - **Rillaboom** using _Razor Leaf_ (97%)
+- **Conkeldurr** using _Force Palm_ (95%)
 - **Breloom** using _Force Palm_ (94%)
 - **Lucario** using _Force Palm_ (92%)
 - **Tsareena** using _Razor Leaf_ (90%)
 - **Arboliva** using _Razor Leaf_ (89%)
 - **Sirfetch'd** using _Counter_ (89%)
-- **Leafeon** using _Razor Leaf_ (88%)
 
 # Anti-Steel 🛡️
 
 - **Mienshao** using _Force Palm_ (100%)
 - **Chandelure** using _Incinerate_ (97%)
+- **Conkeldurr** using _Force Palm_ (95%)
 - **Darmanitan (Standard)** using _Fire Fang_ (94%)
 - **Darmanitan (Standard)** using _Incinerate_ (94%)
 - **Breloom** using _Force Palm_ (94%)
 - **Lucario** using _Force Palm_ (92%)
 - **Sirfetch'd** using _Counter_ (89%)
 - **Chandelure** using _Fire Spin_ (89%)
-- **Conkeldurr** using _Counter_ (87%)
 
 # Anti-Water 💧
 
@@ -278,19 +278,20 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 
 ### Highest **fairy** (🧚) fast move damage:
 
-- **Gardevoir** using _Charm_ (92%)
-- **Hatterene** using _Charm_ (92%)
-- **Primarina** using _Charm_ (90%)
-- **Togekiss** using _Charm_ (88%)
-- **Granbull** using _Charm_ (83%)
-- **Sylveon** using _Charm_ (80%)
-- **Ribombee** using _Charm_ (78%)
-- **Gallade** using _Charm_ (77%)
-- **Beartic** using _Charm_ (76%)
+- **Gardevoir** using _Charm_ (85%)
+- **Hatterene** using _Charm_ (85%)
+- **Primarina** using _Charm_ (84%)
+- **Togekiss** using _Charm_ (81%)
+- **Granbull** using _Charm_ (77%)
+- **Sylveon** using _Charm_ (74%)
+- **Ribombee** using _Charm_ (72%)
+- **Gallade** using _Charm_ (71%)
+- **Beartic** using _Charm_ (70%)
 
 ### Highest **fighting** (💪) fast move damage:
 
 - **Mienshao** using _Force Palm_ (100%)
+- **Conkeldurr** using _Force Palm_ (95%)
 - **Breloom** using _Force Palm_ (94%)
 - **Lucario** using _Force Palm_ (92%)
 - **Sirfetch'd** using _Counter_ (89%)
@@ -298,7 +299,6 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 - **Breloom** using _Counter_ (87%)
 - **Blaziken** using _Counter_ (86%)
 - **Lucario** using _Counter_ (85%)
-- **Haxorus** using _Counter_ (84%)
 
 ### Highest **fire** (🔥) fast move damage:
 
@@ -315,6 +315,7 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 ### Highest **flying** (🕊️) fast move damage:
 
 - **Staraptor** using _Gust_ (84%)
+- **Swanna** using _Gust_ (67%)
 - **Honchkrow** using _Peck_ (65%)
 - **Archeops** using _Wing Attack_ (65%)
 - **Vivillon** using _Gust_ (65%)
@@ -322,7 +323,6 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 - **Pidgeot** using _Gust_ (61%)
 - **Unfezant** using _Air Slash_ (61%)
 - **Togekiss** using _Peck_ (61%)
-- **Togekiss** using _Air Slash_ (61%)
 
 ### Highest **ghost** (👻) fast move damage:
 
