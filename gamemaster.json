@@ -31,6 +31,68 @@
     {
       "exclude": [
         {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "electric",
+            "fairy",
+            "fire",
+            "flying",
+            "ground"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega",
+            "shadow"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "doublade",
+            "empoleon",
+            "forretress",
+            "melmetal",
+            "metang"
+          ]
+        }
+      ],
+      "excludeLowPokemon": 1,
+      "include": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "bug",
+            "dragon",
+            "poison",
+            "steel",
+            "water"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "sandslash_alolan",
+            "stunfisk_galarian"
+          ]
+        }
+      ],
+      "league": 1500,
+      "link": "https://devon.gg/",
+      "name": "bastille",
+      "overrides": [],
+      "title": "Bastille Cup",
+      "useDefaultMovesets": 1
+    },
+    {
+      "exclude": [
+        {
           "filterType": "id",
           "values": [
             "dragonite_mega",
@@ -695,6 +757,71 @@
       "title": "Custom"
     },
     {
+      "cup": "equinox",
+      "exclude": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "electric",
+            "rock"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "altaria",
+            "dudunsparce",
+            "dunsparce",
+            "lickilicky",
+            "miltank",
+            "piloswine",
+            "whimsicott",
+            "wigglytuff"
+          ]
+        }
+      ],
+      "excludeLowPokemon": 1,
+      "include": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "fire",
+            "flying",
+            "grass",
+            "ground",
+            "normal"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "wailmer",
+            "wailmer_shadow",
+            "wailord",
+            "wailord_shadow"
+          ]
+        }
+      ],
+      "league": 1500,
+      "levelCap": 50,
+      "link": "https://devon.gg",
+      "name": "equinox",
+      "overrides": [],
+      "title": "Equinox Cup",
+      "useDefaultMovesets": 1
+    },
+    {
       "exclude": [
         {
           "filterType": "tag",
@@ -949,6 +1076,37 @@
       ],
       "name": "spellcraft",
       "title": "Spellcraft Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "charizard"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "normal",
+            "fire",
+            "ground",
+            "grass"
+          ]
+        }
+      ],
+      "name": "sunshine",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Sunshine Cup"
     }
   ],
   "fastMoveArchetypes": [
@@ -1000,6 +1158,20 @@
     },
     {
       "cp": 1500,
+      "cup": "sunshine",
+      "meta": "sunshine",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Normal-,  Fire-,  Grass-,  and Ground-type Pokémon are eligible.",
+        "The following Pokemon are not allowed: Charizard"
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Sunshine Cup"
+    },
+    {
+      "cp": 1500,
       "cup": "bayou",
       "meta": "bayou",
       "showCup": true,
@@ -1036,12 +1208,21 @@
     },
     {
       "cp": 1500,
-      "cup": "cosy",
-      "meta": "cosy",
+      "cup": "equinox",
+      "meta": "equinox",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Devon Cosy Cup"
+      "title": "Devon Equinox Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "bastille",
+      "meta": "bastille",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Devon Bastille Cup"
     },
     {
       "cp": 500,
@@ -3834,18 +4015,6 @@
       "power": 110,
       "turns": 1,
       "type": "grass"
-    },
-    {
-      "abbreviation": "PlF",
-      "archetype": "Spam/Bait",
-      "cooldown": 500,
-      "energy": 35,
-      "energyGain": 0,
-      "moveId": "PLASMA_FISTS",
-      "name": "Plasma Fists",
-      "power": 60,
-      "turns": 1,
-      "type": "electric"
     },
     {
       "archetype": "High Energy",
@@ -19671,6 +19840,71 @@
       "released": true,
       "speciesId": "krabby",
       "speciesName": "Krabby",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "water",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 181,
+        "def": 124,
+        "hp": 102
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "BUBBLE_BEAM",
+        "VICE_GRIP",
+        "WATER_PULSE",
+        "RAZOR_SHELL"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          42,
+          4,
+          15,
+          13
+        ],
+        "cp1500l40": [
+          39,
+          12,
+          13,
+          14
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          12,
+          4,
+          12,
+          15
+        ]
+      },
+      "dex": 98,
+      "family": {
+        "evolutions": [
+          "kingler_shadow"
+        ],
+        "id": "FAMILY_KRABBY"
+      },
+      "fastMoves": [
+        "BUBBLE",
+        "MUD_SHOT"
+      ],
+      "released": true,
+      "speciesId": "krabby_shadow",
+      "speciesName": "Krabby (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "water",
@@ -19727,6 +19961,68 @@
       "released": true,
       "speciesId": "kingler",
       "speciesName": "Kingler",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "water",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 240,
+        "def": 181,
+        "hp": 146
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "VICE_GRIP",
+        "WATER_PULSE",
+        "X_SCISSOR",
+        "CRABHAMMER",
+        "RAZOR_SHELL"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          19.5,
+          5,
+          15,
+          12
+        ],
+        "cp2500": [
+          35,
+          4,
+          15,
+          13
+        ],
+        "cp500": [
+          6.5,
+          11,
+          14,
+          15
+        ]
+      },
+      "dex": 99,
+      "eliteMoves": [
+        "MUD_SHOT"
+      ],
+      "family": {
+        "id": "FAMILY_KRABBY",
+        "parent": "krabby_shadow"
+      },
+      "fastMoves": [
+        "BUBBLE",
+        "METAL_CLAW",
+        "MUD_SHOT"
+      ],
+      "released": true,
+      "speciesId": "kingler_shadow",
+      "speciesName": "Kingler (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "water",
@@ -104261,8 +104557,10 @@
     "bewear",
     "dewpider",
     "araquanid",
-    "landorus_incarnate"
+    "landorus_incarnate",
+    "krabby",
+    "kingler"
   ],
-  "timestamp": "2026-06-02 22:33:47",
+  "timestamp": "2026-06-10 01:32:25",
   "title": "Default"
 }
