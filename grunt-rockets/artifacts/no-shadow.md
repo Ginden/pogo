@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-06-10
+- **Date generated**: 2026-06-17
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -20,15 +20,15 @@
 
 # Anti-Dark 🌌
 
-- **Lucario (Mega)** using _Force Palm_ (100%)
-- **Heracross (Mega)** using _Counter_ (99%)
-- **Blaziken (Mega)** using _Counter_ (98%)
-- **Gardevoir (Mega)** using _Charm_ (97%)
-- **Pheromosa** using _Bug Bite_ (94%)
-- **Lucario (Mega)** using _Counter_ (92%)
-- **Pinsir (Mega)** using _Bug Bite_ (91%)
-- **Alakazam (Mega)** using _Counter_ (90%)
-- **Beedrill (Mega)** using _Bug Bite_ (90%)
+- **Mewtwo (Mega X)** using _Counter_ (100%)
+- **Mewtwo (Mega Y)** using _Counter_ (86%)
+- **Lucario (Mega)** using _Force Palm_ (85%)
+- **Heracross (Mega)** using _Counter_ (84%)
+- **Blaziken (Mega)** using _Counter_ (83%)
+- **Gardevoir (Mega)** using _Charm_ (82%)
+- **Pheromosa** using _Bug Bite_ (80%)
+- **Lucario (Mega)** using _Counter_ (79%)
+- **Pinsir (Mega)** using _Bug Bite_ (77%)
 
 # Anti-Dragon 🐉
 
@@ -45,6 +45,7 @@
 # Anti-Electric ⚡
 
 - **Mewtwo (Mega Y)** using _Confusion_ (100%)
+- **Mewtwo (Mega X)** using _Counter_ (97%)
 - **Mewtwo (Mega X)** using _Confusion_ (97%)
 - **Excadrill** using _Mud Slap_ (58%)
 - **Mamoswine** using _Mud Slap_ (56%)
@@ -52,7 +53,6 @@
 - **Kartana** using _Razor Leaf_ (89%)
 - **Rhyperior** using _Mud Slap_ (55%)
 - **Krookodile** using _Mud Slap_ (52%)
-- **Diancie (Mega)** using _Rock Throw_ (83%)
 
 # Anti-Fairy 🧚
 
@@ -140,27 +140,27 @@
 
 # Anti-Ice ❄️
 
-- **Diancie (Mega)** using _Rock Throw_ (100%)
-- **Lucario (Mega)** using _Force Palm_ (99%)
-- **Heracross (Mega)** using _Counter_ (98%)
-- **Blaziken (Mega)** using _Counter_ (96%)
-- **Blacephalon** using _Incinerate_ (92%)
-- **Lucario (Mega)** using _Counter_ (91%)
-- **Alakazam (Mega)** using _Counter_ (89%)
-- **Blaziken (Mega)** using _Fire Spin_ (88%)
-- **Aerodactyl (Mega)** using _Rock Throw_ (86%)
+- **Mewtwo (Mega X)** using _Counter_ (100%)
+- **Diancie (Mega)** using _Rock Throw_ (86%)
+- **Mewtwo (Mega Y)** using _Counter_ (86%)
+- **Lucario (Mega)** using _Force Palm_ (85%)
+- **Heracross (Mega)** using _Counter_ (84%)
+- **Blaziken (Mega)** using _Counter_ (83%)
+- **Blacephalon** using _Incinerate_ (80%)
+- **Lucario (Mega)** using _Counter_ (79%)
+- **Alakazam (Mega)** using _Counter_ (77%)
 
 # Anti-Normal ⚪
 
-- **Lucario (Mega)** using _Force Palm_ (100%)
-- **Heracross (Mega)** using _Counter_ (99%)
-- **Blaziken (Mega)** using _Counter_ (98%)
-- **Lucario (Mega)** using _Counter_ (92%)
-- **Alakazam (Mega)** using _Counter_ (90%)
-- **Mienshao** using _Force Palm_ (84%)
-- **Falinks (Mega)** using _Counter_ (80%)
-- **Marshadow** using _Counter_ (80%)
-- **Conkeldurr** using _Force Palm_ (79%)
+- **Mewtwo (Mega X)** using _Counter_ (100%)
+- **Mewtwo (Mega Y)** using _Counter_ (86%)
+- **Lucario (Mega)** using _Force Palm_ (85%)
+- **Heracross (Mega)** using _Counter_ (84%)
+- **Blaziken (Mega)** using _Counter_ (83%)
+- **Lucario (Mega)** using _Counter_ (79%)
+- **Alakazam (Mega)** using _Counter_ (77%)
+- **Mienshao** using _Force Palm_ (71%)
+- **Falinks (Mega)** using _Counter_ (68%)
 
 # Anti-Poison 🐍
 
@@ -188,27 +188,27 @@
 
 # Anti-Rock 🪨
 
-- **Kartana** using _Razor Leaf_ (100%)
-- **Lucario (Mega)** using _Force Palm_ (93%)
-- **Heracross (Mega)** using _Counter_ (92%)
-- **Blaziken (Mega)** using _Counter_ (90%)
-- **Kyogre (Primal)** using _Waterfall_ (89%)
-- **Lucario (Mega)** using _Counter_ (85%)
-- **Alakazam (Mega)** using _Counter_ (84%)
-- **Victreebel (Mega)** using _Razor Leaf_ (83%)
-- **Mienshao** using _Force Palm_ (78%)
+- **Mewtwo (Mega X)** using _Counter_ (100%)
+- **Kartana** using _Razor Leaf_ (92%)
+- **Mewtwo (Mega Y)** using _Counter_ (86%)
+- **Lucario (Mega)** using _Force Palm_ (85%)
+- **Heracross (Mega)** using _Counter_ (84%)
+- **Blaziken (Mega)** using _Counter_ (83%)
+- **Kyogre (Primal)** using _Waterfall_ (81%)
+- **Lucario (Mega)** using _Counter_ (79%)
+- **Alakazam (Mega)** using _Counter_ (77%)
 
 # Anti-Steel 🛡️
 
-- **Lucario (Mega)** using _Force Palm_ (100%)
-- **Heracross (Mega)** using _Counter_ (99%)
-- **Blaziken (Mega)** using _Counter_ (98%)
-- **Blacephalon** using _Incinerate_ (94%)
-- **Lucario (Mega)** using _Counter_ (92%)
-- **Alakazam (Mega)** using _Counter_ (90%)
-- **Blaziken (Mega)** using _Fire Spin_ (90%)
-- **Charizard (Mega Y)** using _Fire Spin_ (87%)
-- **Houndoom (Mega)** using _Fire Fang_ (86%)
+- **Mewtwo (Mega X)** using _Counter_ (100%)
+- **Mewtwo (Mega Y)** using _Counter_ (86%)
+- **Lucario (Mega)** using _Force Palm_ (85%)
+- **Heracross (Mega)** using _Counter_ (84%)
+- **Blaziken (Mega)** using _Counter_ (83%)
+- **Blacephalon** using _Incinerate_ (80%)
+- **Lucario (Mega)** using _Counter_ (79%)
+- **Alakazam (Mega)** using _Counter_ (77%)
+- **Blaziken (Mega)** using _Fire Spin_ (76%)
 
 # Anti-Water 💧
 
@@ -290,6 +290,8 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 
 ### Highest **fighting** (💪) fast move damage:
 
+- **Mewtwo (Mega X)** using _Counter_ (97%)
+- **Mewtwo (Mega Y)** using _Counter_ (83%)
 - **Lucario (Mega)** using _Force Palm_ (82%)
 - **Heracross (Mega)** using _Counter_ (82%)
 - **Blaziken (Mega)** using _Counter_ (80%)
@@ -297,8 +299,6 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Alakazam (Mega)** using _Counter_ (74%)
 - **Mienshao** using _Force Palm_ (69%)
 - **Falinks (Mega)** using _Counter_ (66%)
-- **Marshadow** using _Counter_ (65%)
-- **Conkeldurr** using _Force Palm_ (65%)
 
 ### Highest **fire** (🔥) fast move damage:
 
