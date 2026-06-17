@@ -909,6 +909,12 @@
       "useDefaultMovesets": 1
     },
     {
+      "exclude": [],
+      "include": [],
+      "name": "mega",
+      "title": "All Pokemon"
+    },
+    {
       "exclude": [
         {
           "filterType": "tag",
@@ -1169,6 +1175,19 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Sunshine Cup"
+    },
+    {
+      "cp": 10000,
+      "cup": "mega",
+      "meta": "mega",
+      "rules": [
+        "No CP limit.",
+        "Mega Evolutions are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Mega Master League"
     },
     {
       "cp": 1500,
@@ -26578,7 +26597,11 @@
       ],
       "fastMoves": [
         "CONFUSION",
-        "PSYCHO_CUT"
+        "PSYCHO_CUT",
+        "COUNTER"
+      ],
+      "legacyMoves": [
+        "COUNTER"
       ],
       "level25CP": 2641,
       "nicknames": [
@@ -26601,7 +26624,7 @@
       "baseStats": {
         "atk": 399,
         "def": 215,
-        "hp": 214
+        "hp": 228
       },
       "buddyDistance": 20,
       "chargedMoves": [
@@ -26617,21 +26640,21 @@
       "defaultIVs": {
         "cp1500": [
           9,
-          14,
-          11,
-          14
+          5,
+          13,
+          8
         ],
         "cp2500": [
           15,
-          9,
-          12,
-          15
+          4,
+          13,
+          7
         ],
         "cp500": [
-          3.5,
-          7,
-          4,
-          6
+          3,
+          9,
+          15,
+          14
         ]
       },
       "dex": 150,
@@ -26642,7 +26665,11 @@
       ],
       "fastMoves": [
         "CONFUSION",
-        "PSYCHO_CUT"
+        "PSYCHO_CUT",
+        "COUNTER"
+      ],
+      "legacyMoves": [
+        "COUNTER"
       ],
       "level25CP": 2641,
       "levelFloor": 15,
@@ -26663,8 +26690,8 @@
     {
       "baseStats": {
         "atk": 413,
-        "def": 228,
-        "hp": 214
+        "def": 223,
+        "hp": 228
       },
       "buddyDistance": 20,
       "chargedMoves": [
@@ -26680,15 +26707,15 @@
       "defaultIVs": {
         "cp1500": [
           8.5,
-          12,
-          15,
-          11
+          6,
+          5,
+          15
         ],
         "cp2500": [
-          14.5,
+          14,
           4,
-          9,
-          12
+          7,
+          15
         ],
         "cp500": [
           3,
@@ -26705,7 +26732,11 @@
       ],
       "fastMoves": [
         "CONFUSION",
-        "PSYCHO_CUT"
+        "PSYCHO_CUT",
+        "COUNTER"
+      ],
+      "legacyMoves": [
+        "COUNTER"
       ],
       "level25CP": 2641,
       "levelFloor": 15,
@@ -104561,6 +104592,6 @@
     "krabby",
     "kingler"
   ],
-  "timestamp": "2026-06-10 01:32:25",
+  "timestamp": "2026-06-16 15:18:30",
   "title": "Default"
 }
