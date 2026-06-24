@@ -386,8 +386,7 @@
         {
           "filterType": "id",
           "values": [
-            "aegislash_blade",
-            "aegislash_shield"
+            "mimikyu"
           ]
         }
       ],
@@ -410,6 +409,76 @@
       "name": "classic",
       "partySize": 3,
       "title": "Classic"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "legendary",
+            "mythical",
+            "mega",
+            "ultrabeast",
+            "shadow"
+          ]
+        },
+        {
+          "filterType": "type",
+          "values": [
+            "fire",
+            "ground",
+            "electric",
+            "fighting",
+            "grass",
+            "fairy",
+            "ghost"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "aegislash_shield",
+            "araquanid",
+            "bastiodon",
+            "corviknight",
+            "doublade",
+            "durant",
+            "empoleon",
+            "escavalier",
+            "forretress",
+            "honedge",
+            "klang",
+            "mandibuzz",
+            "mantine",
+            "obstagoon",
+            "orthworm",
+            "probopass",
+            "scizor",
+            "steelix",
+            "toxapex",
+            "umbreon",
+            "vullaby",
+            "wormadam_trash"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "dark",
+            "steel",
+            "water",
+            "dragon"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": []
+        }
+      ],
+      "name": "copadiluvio",
+      "title": "Battle Frontier (Copa Dilúvio)"
     },
     {
       "cup": "cosy",
@@ -751,6 +820,73 @@
       "useDefaultMovesets": 1
     },
     {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": []
+        },
+        {
+          "filterType": "type",
+          "values": []
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "meloetta_aria",
+            "xerneas",
+            "moltres_galarian",
+            "salamence_mega",
+            "metagross",
+            "rayquaza_mega",
+            "charizard_mega_y",
+            "gallade_mega",
+            "gardevoir_mega",
+            "dragonite_mega",
+            "lunala",
+            "gyarados_mega",
+            "yveltal",
+            "kyurem_black",
+            "kyurem_white",
+            "kyogre_primal",
+            "metagross_mega",
+            "latios_mega",
+            "latias_mega",
+            "swampert_mega",
+            "zacian_crowned_sword",
+            "palkia_origin",
+            "mewtwo_mega_x",
+            "mewtwo_mega_y"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "fairy",
+            "flying",
+            "ice",
+            "psychic",
+            "water",
+            "normal"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "shaymin_land",
+            "banette_mega",
+            "giratina_altered",
+            "goodra",
+            "sceptile_mega",
+            "xurkitree"
+          ]
+        }
+      ],
+      "name": "coupedusillage",
+      "title": "Battle Frontier (Coupe du Sillage)"
+    },
+    {
       "exclude": [],
       "include": [],
       "name": "custom",
@@ -836,6 +972,23 @@
       "presetOnly": true,
       "rankingAlias": "all",
       "title": "GO Battle League"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "id",
+          "values": [
+            "bellibolt",
+            "jellicent",
+            "mewtwo_armored",
+            "tinkaton",
+            "zygarde_complete"
+          ]
+        }
+      ],
+      "include": [],
+      "name": "ligaultra",
+      "title": "Battle Frontier (Liga Ultra)"
     },
     {
       "exclude": [
@@ -1090,6 +1243,31 @@
           "values": [
             "mega"
           ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "normal",
+            "grass",
+            "fire",
+            "water",
+            "electric",
+            "bug"
+          ]
+        }
+      ],
+      "name": "summer",
+      "title": "Summer Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
         },
         {
           "filterType": "id",
@@ -1113,6 +1291,98 @@
       "partySize": 3,
       "presetOnly": true,
       "title": "Sunshine Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "legendary",
+            "mythical",
+            "mega",
+            "ultrabeast"
+          ]
+        },
+        {
+          "filterType": "type",
+          "values": [
+            "dark",
+            "fire",
+            "flying",
+            "ground",
+            "steel"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "abomasnow",
+            "amaura",
+            "annihilape",
+            "aurorus",
+            "azumarill",
+            "bewear",
+            "carbink",
+            "cetoddle",
+            "chansey",
+            "clefable",
+            "corsola_galarian",
+            "cradily",
+            "crustle",
+            "dolliv",
+            "drampa",
+            "dubwool",
+            "dudunsparce",
+            "dunsparce",
+            "dusknoir",
+            "frillish",
+            "furfrou",
+            "furret",
+            "girafarig",
+            "greedent",
+            "jellicent",
+            "kangaskhan",
+            "kecleon",
+            "lapras",
+            "lickilicky",
+            "lickitung",
+            "lileep",
+            "linoone",
+            "miltank",
+            "naclstack",
+            "ninetales_alolan",
+            "oinkologne",
+            "oinkologne_female",
+            "oranguru",
+            "relicanth",
+            "spinda",
+            "ursaring",
+            "vigoroth",
+            "weezing_galarian",
+            "wigglytuff",
+            "wyrdeer",
+            "zangoose"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "fairy",
+            "ghost",
+            "ice",
+            "normal",
+            "rock"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": []
+        }
+      ],
+      "name": "tsuki",
+      "title": "Battle Frontier (Tsuki Cup)"
     }
   ],
   "fastMoveArchetypes": [
@@ -1149,81 +1419,52 @@
     },
     {
       "cp": 1500,
-      "cup": "naic2026",
-      "meta": "naic2026",
+      "cup": "summer",
+      "meta": "summer",
       "rules": [
         "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Fairy-,  Normal-,  Psychic- and Water-type Pokémon are eligible.",
-        "The following types are not allowed: Dark,  Grass,  Steel",
-        "The following Pokemon are not allowed: Araquanid,  Carbink,  Chansey,  Chinchou,  Claydol,  Clefable,  Cresselia,  Dedenne,  Diggersby,  Farfetch'd,  Gastrodon,  Golisopod,  Greedent,  Jellicent,  Lanturn,  Lickilicky,  Lickitung,  Lugia,  Medicham,  Oranguru,  Poliwrath"
+        "Only Normal-,  Fire-,  Water-,  Grass-,  Electric-,  and Bug-type Pokémon are eligible."
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "NAIC 2026 Championship Series Cup"
+      "title": "Summer Cup"
     },
     {
       "cp": 1500,
-      "cup": "sunshine",
-      "meta": "sunshine",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Normal-,  Fire-,  Grass-,  and Ground-type Pokémon are eligible.",
-        "The following Pokemon are not allowed: Charizard"
-      ],
+      "cup": "copadiluvio",
+      "meta": "copadiluvio",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Sunshine Cup"
-    },
-    {
-      "cp": 10000,
-      "cup": "mega",
-      "meta": "mega",
-      "rules": [
-        "No CP limit.",
-        "Mega Evolutions are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Mega Master League"
+      "title": "Battle Frontier (Copa Dilúvio)"
     },
     {
       "cp": 1500,
-      "cup": "bayou",
-      "meta": "bayou",
+      "cup": "tsuki",
+      "meta": "tsuki",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Battle Frontier (Bayou Cup)"
-    },
-    {
-      "cp": 1500,
-      "cup": "spellcraft",
-      "meta": "spellcraft",
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Battle Frontier (Spellcraft Cup)"
+      "title": "Battle Frontier (Tsuki Cup)"
     },
     {
       "cp": 2500,
-      "cup": "bfretro",
-      "meta": "bfretro",
+      "cup": "ligaultra",
+      "meta": "ligaultra",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Battle Frontier (UL Retro)"
+      "title": "Battle Frontier (Liga Ultra)"
     },
     {
       "cp": 10000,
-      "cup": "battlefrontiermaster",
-      "meta": "battlefrontiermaster",
+      "cup": "coupedusillage",
+      "meta": "coupedusillage",
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Battle Frontier (Master)"
+      "title": "Battle Frontier (Coupe du Sillage)"
     },
     {
       "cp": 1500,
@@ -2829,6 +3070,24 @@
       "power": 60,
       "turns": 1,
       "type": "ice"
+    },
+    {
+      "abbreviation": "GlR",
+      "archetype": "Self-Debuff",
+      "buffApplyChance": "1",
+      "buffTarget": "self",
+      "buffs": [
+        0,
+        -1
+      ],
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "moveId": "GLAIVE_RUSH",
+      "name": "Glaive Rush",
+      "power": 90,
+      "turns": 1,
+      "type": "dragon"
     },
     {
       "archetype": "General",
@@ -18183,9 +18442,74 @@
         "LICK",
         "WATER_GUN"
       ],
+      "level25CP": 532,
       "released": true,
       "speciesId": "seel",
       "speciesName": "Seel",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "water",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 85,
+        "def": 121,
+        "hp": 163
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "AQUA_JET",
+        "AQUA_TAIL",
+        "AURORA_BEAM",
+        "ICY_WIND"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          20.5,
+          4,
+          12,
+          15
+        ]
+      },
+      "dex": 86,
+      "eliteMoves": [
+        "WATER_GUN",
+        "AQUA_JET"
+      ],
+      "family": {
+        "evolutions": [
+          "dewgong_shadow"
+        ],
+        "id": "FAMILY_SEEL"
+      },
+      "fastMoves": [
+        "ICE_SHARD",
+        "LICK",
+        "WATER_GUN"
+      ],
+      "released": true,
+      "speciesId": "seel_shadow",
+      "speciesName": "Seel (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "water",
@@ -18243,9 +18567,76 @@
         "ICE_SHARD",
         "IRON_TAIL"
       ],
+      "level25CP": 1187,
       "released": true,
       "speciesId": "dewgong",
       "speciesName": "Dewgong",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "water",
+        "ice"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 139,
+        "def": 177,
+        "hp": 207
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "AQUA_JET",
+        "AURORA_BEAM",
+        "BLIZZARD",
+        "ICY_WIND",
+        "WATER_PULSE",
+        "DRILL_RUN",
+        "LIQUIDATION"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          28.5,
+          4,
+          15,
+          14
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          9.5,
+          5,
+          13,
+          15
+        ]
+      },
+      "dex": 87,
+      "eliteMoves": [
+        "ICE_SHARD",
+        "AQUA_JET",
+        "ICY_WIND"
+      ],
+      "family": {
+        "id": "FAMILY_SEEL",
+        "parent": "seel_shadow"
+      },
+      "fastMoves": [
+        "FROST_BREATH",
+        "ICE_SHARD",
+        "IRON_TAIL"
+      ],
+      "released": true,
+      "speciesId": "dewgong_shadow",
+      "speciesName": "Dewgong (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "water",
@@ -26622,6 +27013,63 @@
     },
     {
       "baseStats": {
+        "atk": 182,
+        "def": 278,
+        "hp": 214
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "DYNAMIC_PUNCH",
+        "ROCK_SLIDE",
+        "EARTHQUAKE",
+        "FUTURE_SIGHT",
+        "PSYSTRIKE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          17.5,
+          6,
+          10,
+          12
+        ],
+        "cp2500": [
+          29.5,
+          4,
+          10,
+          11
+        ],
+        "cp500": [
+          6,
+          7,
+          13,
+          11
+        ]
+      },
+      "dex": 150,
+      "eliteMoves": [
+        "PSYSTRIKE"
+      ],
+      "fastMoves": [
+        "CONFUSION",
+        "IRON_TAIL"
+      ],
+      "nicknames": [
+        "am2"
+      ],
+      "released": true,
+      "speciesId": "mewtwo_armored",
+      "speciesName": "Mewtwo (Armored)",
+      "tags": [
+        "legendary"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "psychic",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 399,
         "def": 215,
         "hp": 228
@@ -26747,63 +27195,6 @@
         "legendary",
         "shadoweligible",
         "mega"
-      ],
-      "thirdMoveCost": 100000,
-      "types": [
-        "psychic",
-        "none"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 182,
-        "def": 278,
-        "hp": 214
-      },
-      "buddyDistance": 20,
-      "chargedMoves": [
-        "DYNAMIC_PUNCH",
-        "ROCK_SLIDE",
-        "EARTHQUAKE",
-        "FUTURE_SIGHT",
-        "PSYSTRIKE"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          17.5,
-          6,
-          10,
-          12
-        ],
-        "cp2500": [
-          29.5,
-          4,
-          10,
-          11
-        ],
-        "cp500": [
-          6,
-          7,
-          13,
-          11
-        ]
-      },
-      "dex": 150,
-      "eliteMoves": [
-        "PSYSTRIKE"
-      ],
-      "fastMoves": [
-        "CONFUSION",
-        "IRON_TAIL"
-      ],
-      "nicknames": [
-        "am2"
-      ],
-      "released": true,
-      "speciesId": "mewtwo_armored",
-      "speciesName": "Mewtwo (Armored)",
-      "tags": [
-        "legendary"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -28253,9 +28644,68 @@
         "FEINT_ATTACK",
         "PECK"
       ],
+      "level25CP": 349,
       "released": true,
       "speciesId": "hoothoot",
       "speciesName": "Hoothoot",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 67,
+        "def": 88,
+        "hp": 155
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "AERIAL_ACE",
+        "NIGHT_SHADE",
+        "SKY_ATTACK"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          30.5,
+          4,
+          13,
+          14
+        ]
+      },
+      "dex": 163,
+      "family": {
+        "evolutions": [
+          "noctowl_shadow"
+        ],
+        "id": "FAMILY_HOOTHOOT"
+      },
+      "fastMoves": [
+        "FEINT_ATTACK",
+        "PECK"
+      ],
+      "released": true,
+      "speciesId": "hoothoot_shadow",
+      "speciesName": "Hoothoot (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "normal",
@@ -28304,6 +28754,7 @@
         "EXTRASENSORY",
         "WING_ATTACK"
       ],
+      "level25CP": 1211,
       "nicknames": [
         "owl"
       ],
@@ -28311,6 +28762,67 @@
       "searchPriority": 2,
       "speciesId": "noctowl",
       "speciesName": "Noctowl",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "normal",
+        "flying"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 145,
+        "def": 156,
+        "hp": 225
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "NIGHT_SHADE",
+        "PSYCHIC",
+        "SKY_ATTACK",
+        "SHADOW_BALL"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          28,
+          4,
+          14,
+          14
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          9.5,
+          4,
+          11,
+          11
+        ]
+      },
+      "dex": 164,
+      "family": {
+        "id": "FAMILY_HOOTHOOT",
+        "parent": "hoothoot_shadow"
+      },
+      "fastMoves": [
+        "EXTRASENSORY",
+        "WING_ATTACK"
+      ],
+      "nicknames": [
+        "owl"
+      ],
+      "released": true,
+      "searchPriority": 2,
+      "speciesId": "noctowl_shadow",
+      "speciesName": "Noctowl (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "normal",
@@ -76870,12 +77382,70 @@
         "DRAGON_BREATH",
         "FIRE_FANG"
       ],
+      "level25CP": 2551,
       "released": true,
       "searchPriority": 4,
       "speciesId": "reshiram",
       "speciesName": "Reshiram",
       "tags": [
-        "legendary"
+        "legendary",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "dragon",
+        "fire"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 275,
+        "def": 211,
+        "hp": 205
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "CRUNCH",
+        "OVERHEAT",
+        "DRACO_METEOR",
+        "STONE_EDGE",
+        "FUSION_FLARE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          13.5,
+          7,
+          11,
+          14
+        ],
+        "cp2500": [
+          22.5,
+          6,
+          14,
+          12
+        ],
+        "cp500": [
+          4.5,
+          14,
+          15,
+          12
+        ]
+      },
+      "dex": 643,
+      "eliteMoves": [
+        "FUSION_FLARE"
+      ],
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "FIRE_FANG"
+      ],
+      "released": true,
+      "searchPriority": 4,
+      "speciesId": "reshiram_shadow",
+      "speciesName": "Reshiram (Shadow)",
+      "tags": [
+        "legendary",
+        "shadow"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -76993,6 +77563,58 @@
     },
     {
       "baseStats": {
+        "atk": 261,
+        "def": 182,
+        "hp": 205
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "EARTH_POWER",
+        "OUTRAGE",
+        "ROCK_SLIDE",
+        "FOCUS_BLAST"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          15,
+          10,
+          13,
+          14
+        ],
+        "cp2500": [
+          26,
+          5,
+          8,
+          11
+        ],
+        "cp500": [
+          5.5,
+          6,
+          8,
+          5
+        ]
+      },
+      "dex": 645,
+      "fastMoves": [
+        "MUD_SHOT",
+        "ROCK_THROW"
+      ],
+      "released": true,
+      "searchPriority": 2,
+      "speciesId": "landorus_incarnate_shadow",
+      "speciesName": "Landorus (Incarnate) (Shadow)",
+      "tags": [
+        "legendary",
+        "shadow"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "ground",
+        "flying"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 289,
         "def": 179,
         "hp": 205
@@ -77039,58 +77661,6 @@
       "speciesName": "Landorus (Therian)",
       "tags": [
         "legendary"
-      ],
-      "thirdMoveCost": 100000,
-      "types": [
-        "ground",
-        "flying"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 261,
-        "def": 182,
-        "hp": 205
-      },
-      "buddyDistance": 20,
-      "chargedMoves": [
-        "EARTH_POWER",
-        "OUTRAGE",
-        "ROCK_SLIDE",
-        "FOCUS_BLAST"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          15,
-          10,
-          13,
-          14
-        ],
-        "cp2500": [
-          26,
-          5,
-          8,
-          11
-        ],
-        "cp500": [
-          5.5,
-          6,
-          8,
-          5
-        ]
-      },
-      "dex": 645,
-      "fastMoves": [
-        "MUD_SHOT",
-        "ROCK_THROW"
-      ],
-      "released": true,
-      "searchPriority": 2,
-      "speciesId": "landorus_incarnate_shadow",
-      "speciesName": "Landorus (Incarnate) (Shadow)",
-      "tags": [
-        "legendary",
-        "shadow"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -83380,9 +83950,68 @@
         "WING_ATTACK",
         "BITE"
       ],
+      "level25CP": 346,
       "released": true,
       "speciesId": "noibat",
       "speciesName": "Noibat",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "flying",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 83,
+        "def": 73,
+        "hp": 120
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "AIR_CUTTER",
+        "HEAT_WAVE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          29.5,
+          4,
+          15,
+          15
+        ]
+      },
+      "dex": 714,
+      "family": {
+        "evolutions": [
+          "noivern_shadow"
+        ],
+        "id": "FAMILY_NOIBAT"
+      },
+      "fastMoves": [
+        "WING_ATTACK",
+        "BITE"
+      ],
+      "released": true,
+      "speciesId": "noibat_shadow",
+      "speciesName": "Noibat (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "flying",
@@ -83435,9 +84064,71 @@
         "AIR_SLASH",
         "BITE"
       ],
+      "level25CP": 1702,
       "released": true,
       "speciesId": "noivern",
       "speciesName": "Noivern",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "flying",
+        "dragon"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 205,
+        "def": 175,
+        "hp": 198
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRACO_METEOR",
+        "HURRICANE",
+        "HEAT_WAVE",
+        "PSYCHIC",
+        "BOOMBURST"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          20,
+          5,
+          15,
+          13
+        ],
+        "cp2500": [
+          36.5,
+          5,
+          14,
+          15
+        ],
+        "cp500": [
+          7,
+          4,
+          14,
+          6
+        ]
+      },
+      "dex": 715,
+      "eliteMoves": [
+        "BOOMBURST"
+      ],
+      "family": {
+        "id": "FAMILY_NOIBAT",
+        "parent": "noibat_shadow"
+      },
+      "fastMoves": [
+        "AIR_SLASH",
+        "BITE"
+      ],
+      "released": true,
+      "speciesId": "noivern_shadow",
+      "speciesName": "Noivern (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "flying",
@@ -89132,7 +89823,7 @@
         0
       ],
       "originalFormId": "mimikyu",
-      "released": false,
+      "released": true,
       "searchPriority": 4,
       "speciesId": "mimikyu",
       "speciesName": "Mimikyu",
@@ -91687,9 +92378,68 @@
         "AIR_SLASH",
         "SAND_ATTACK"
       ],
+      "level25CP": 346,
       "released": true,
       "speciesId": "rookidee",
       "speciesName": "Rookidee",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "flying",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 88,
+        "def": 67,
+        "hp": 116
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "SKY_ATTACK",
+        "PAYBACK"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          29.5,
+          4,
+          14,
+          15
+        ]
+      },
+      "dex": 821,
+      "family": {
+        "evolutions": [
+          "corvisquire_shadow"
+        ],
+        "id": "FAMILY_ROOKIDEE"
+      },
+      "fastMoves": [
+        "PECK",
+        "AIR_SLASH",
+        "SAND_ATTACK"
+      ],
+      "released": true,
+      "speciesId": "rookidee_shadow",
+      "speciesName": "Rookidee (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "flying",
@@ -91746,9 +92496,75 @@
         "AIR_SLASH",
         "SAND_ATTACK"
       ],
+      "level25CP": 784,
       "released": true,
       "speciesId": "corvisquire",
       "speciesName": "Corvisquire",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "flying",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 129,
+        "def": 110,
+        "hp": 169
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "SKY_ATTACK",
+        "PAYBACK"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          49.5,
+          12,
+          15,
+          14
+        ],
+        "cp1500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          14,
+          4,
+          15,
+          12
+        ]
+      },
+      "dex": 822,
+      "family": {
+        "evolutions": [
+          "corviknight_shadow"
+        ],
+        "id": "FAMILY_ROOKIDEE",
+        "parent": "rookidee_shadow"
+      },
+      "fastMoves": [
+        "PECK",
+        "AIR_SLASH",
+        "SAND_ATTACK"
+      ],
+      "released": true,
+      "speciesId": "corvisquire_shadow",
+      "speciesName": "Corvisquire (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "flying",
@@ -91808,10 +92624,80 @@
         "AIR_SLASH",
         "SAND_ATTACK"
       ],
+      "level25CP": 1497,
       "released": true,
       "searchPriority": 8,
       "speciesId": "corviknight",
       "speciesName": "Corviknight",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "flying",
+        "steel"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 163,
+        "def": 192,
+        "hp": 221
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "SKY_ATTACK",
+        "PAYBACK",
+        "IRON_HEAD",
+        "AIR_CUTTER"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          23,
+          4,
+          12,
+          14
+        ],
+        "cp2500": [
+          47,
+          4,
+          14,
+          13
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          7.5,
+          10,
+          14,
+          14
+        ]
+      },
+      "dex": 823,
+      "eliteMoves": [
+        "IRON_HEAD",
+        "AIR_CUTTER"
+      ],
+      "family": {
+        "id": "FAMILY_ROOKIDEE",
+        "parent": "corvisquire_shadow"
+      },
+      "fastMoves": [
+        "STEEL_WING",
+        "AIR_SLASH",
+        "SAND_ATTACK"
+      ],
+      "released": true,
+      "searchPriority": 8,
+      "speciesId": "corviknight_shadow",
+      "speciesName": "Corviknight (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "flying",
@@ -98597,193 +99483,9 @@
         "PECK",
         "AIR_SLASH"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "squawkabilly",
       "speciesName": "Squawkabilly",
-      "thirdMoveCost": 75000,
-      "types": [
-        "normal",
-        "flying"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 185,
-        "def": 105,
-        "hp": 193
-      },
-      "buddyDistance": 3,
-      "chargedMoves": [
-        "AERIAL_ACE",
-        "BRAVE_BIRD",
-        "FLY"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          28,
-          4,
-          15,
-          15
-        ],
-        "cp2500": [
-          50,
-          15,
-          15,
-          15
-        ],
-        "cp500": [
-          9.5,
-          4,
-          13,
-          14
-        ]
-      },
-      "dex": 931,
-      "fastMoves": [
-        "PECK",
-        "AIR_SLASH"
-      ],
-      "released": false,
-      "speciesId": "squawkabilly_blue",
-      "speciesName": "Squawkabilly_blue",
-      "thirdMoveCost": 75000,
-      "types": [
-        "normal",
-        "flying"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 185,
-        "def": 105,
-        "hp": 193
-      },
-      "buddyDistance": 3,
-      "chargedMoves": [
-        "AERIAL_ACE",
-        "BRAVE_BIRD",
-        "FLY"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          28,
-          4,
-          15,
-          15
-        ],
-        "cp2500": [
-          50,
-          15,
-          15,
-          15
-        ],
-        "cp500": [
-          9.5,
-          4,
-          13,
-          14
-        ]
-      },
-      "dex": 931,
-      "fastMoves": [
-        "PECK",
-        "AIR_SLASH"
-      ],
-      "released": false,
-      "speciesId": "squawkabilly_green",
-      "speciesName": "Squawkabilly_green",
-      "thirdMoveCost": 75000,
-      "types": [
-        "normal",
-        "flying"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 185,
-        "def": 105,
-        "hp": 193
-      },
-      "buddyDistance": 3,
-      "chargedMoves": [
-        "AERIAL_ACE",
-        "BRAVE_BIRD",
-        "FLY"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          28,
-          4,
-          15,
-          15
-        ],
-        "cp2500": [
-          50,
-          15,
-          15,
-          15
-        ],
-        "cp500": [
-          9.5,
-          4,
-          13,
-          14
-        ]
-      },
-      "dex": 931,
-      "fastMoves": [
-        "PECK",
-        "AIR_SLASH"
-      ],
-      "released": false,
-      "speciesId": "squawkabilly_white",
-      "speciesName": "Squawkabilly_white",
-      "thirdMoveCost": 75000,
-      "types": [
-        "normal",
-        "flying"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 185,
-        "def": 105,
-        "hp": 193
-      },
-      "buddyDistance": 3,
-      "chargedMoves": [
-        "AERIAL_ACE",
-        "BRAVE_BIRD",
-        "FLY"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          28,
-          4,
-          15,
-          15
-        ],
-        "cp2500": [
-          50,
-          15,
-          15,
-          15
-        ],
-        "cp500": [
-          9.5,
-          4,
-          13,
-          14
-        ]
-      },
-      "dex": 931,
-      "fastMoves": [
-        "PECK",
-        "AIR_SLASH"
-      ],
-      "released": false,
-      "speciesId": "squawkabilly_yellow",
-      "speciesName": "Squawkabilly_yellow",
       "thirdMoveCost": 75000,
       "types": [
         "normal",
@@ -102471,7 +103173,8 @@
         "AVALANCHE",
         "OUTRAGE",
         "BLIZZARD",
-        "ICY_WIND"
+        "ICY_WIND",
+        "GLAIVE_RUSH"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -102494,6 +103197,9 @@
         ]
       },
       "dex": 998,
+      "eliteMoves": [
+        "GLAIVE_RUSH"
+      ],
       "family": {
         "id": "FAMILY_FRIGIBAX",
         "parent": "arctibax"
@@ -104590,8 +105296,18 @@
     "araquanid",
     "landorus_incarnate",
     "krabby",
-    "kingler"
+    "kingler",
+    "seel",
+    "dewgong",
+    "hoothoot",
+    "noctowl",
+    "noibat",
+    "noivern",
+    "rookidee",
+    "corvisquire",
+    "corviknight",
+    "reshiram"
   ],
-  "timestamp": "2026-06-16 15:18:30",
+  "timestamp": "2026-06-23 23:20:31",
   "title": "Default"
 }
