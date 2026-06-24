@@ -2,21 +2,21 @@
 
 - **Excluded tags**: mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-06-17
+- **Date generated**: 2026-06-24
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
 # Anti-Bug 🪲
 
-- **Chandelure (Shadow)** using _Incinerate_ (100%)
-- **Rampardos (Shadow)** using _Smack Down_ (99%)
-- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
-- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
-- **Blacephalon** using _Incinerate_ (96%)
-- **Chandelure (Shadow)** using _Fire Spin_ (92%)
-- **Ho-Oh (Shadow)** using _Incinerate_ (89%)
-- **Entei (Shadow)** using _Fire Fang_ (87%)
-- **Staraptor (Shadow)** using _Gust_ (87%)
+- **Reshiram (Shadow)** using _Fire Fang_ (100%)
+- **Chandelure (Shadow)** using _Incinerate_ (99%)
+- **Rampardos (Shadow)** using _Smack Down_ (98%)
+- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (96%)
+- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (96%)
+- **Blacephalon** using _Incinerate_ (95%)
+- **Chandelure (Shadow)** using _Fire Spin_ (90%)
+- **Ho-Oh (Shadow)** using _Incinerate_ (88%)
+- **Entei (Shadow)** using _Fire Fang_ (86%)
 
 # Anti-Dark 🌌
 
@@ -116,15 +116,15 @@
 
 # Anti-Grass 🌱
 
-- **Chandelure (Shadow)** using _Incinerate_ (100%)
-- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
-- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
-- **Pheromosa** using _Bug Bite_ (96%)
-- **Blacephalon** using _Incinerate_ (96%)
-- **Kyurem (White)** using _Ice Fang_ (95%)
-- **Vikavolt (Shadow)** using _Bug Bite_ (94%)
-- **Chandelure (Shadow)** using _Fire Spin_ (92%)
-- **Ho-Oh (Shadow)** using _Incinerate_ (89%)
+- **Reshiram (Shadow)** using _Fire Fang_ (100%)
+- **Chandelure (Shadow)** using _Incinerate_ (99%)
+- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (96%)
+- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (96%)
+- **Pheromosa** using _Bug Bite_ (95%)
+- **Blacephalon** using _Incinerate_ (95%)
+- **Kyurem (White)** using _Ice Fang_ (93%)
+- **Vikavolt (Shadow)** using _Bug Bite_ (93%)
+- **Chandelure (Shadow)** using _Fire Spin_ (90%)
 
 # Anti-Ground 🏜️
 
@@ -140,15 +140,15 @@
 
 # Anti-Ice ❄️
 
-- **Chandelure (Shadow)** using _Incinerate_ (100%)
-- **Rampardos (Shadow)** using _Smack Down_ (99%)
-- **Conkeldurr (Shadow)** using _Force Palm_ (98%)
-- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
-- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
-- **Blacephalon** using _Incinerate_ (96%)
-- **Chandelure (Shadow)** using _Fire Spin_ (92%)
-- **Conkeldurr (Shadow)** using _Counter_ (90%)
-- **Blaziken (Shadow)** using _Counter_ (89%)
+- **Reshiram (Shadow)** using _Fire Fang_ (100%)
+- **Chandelure (Shadow)** using _Incinerate_ (99%)
+- **Rampardos (Shadow)** using _Smack Down_ (98%)
+- **Conkeldurr (Shadow)** using _Force Palm_ (96%)
+- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (96%)
+- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (96%)
+- **Blacephalon** using _Incinerate_ (95%)
+- **Chandelure (Shadow)** using _Fire Spin_ (90%)
+- **Conkeldurr (Shadow)** using _Counter_ (89%)
 
 # Anti-Normal ⚪
 
@@ -200,15 +200,15 @@
 
 # Anti-Steel 🛡️
 
-- **Chandelure (Shadow)** using _Incinerate_ (100%)
-- **Conkeldurr (Shadow)** using _Force Palm_ (98%)
-- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (97%)
-- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (97%)
-- **Blacephalon** using _Incinerate_ (96%)
-- **Chandelure (Shadow)** using _Fire Spin_ (92%)
-- **Conkeldurr (Shadow)** using _Counter_ (90%)
-- **Blaziken (Shadow)** using _Counter_ (89%)
-- **Ho-Oh (Shadow)** using _Incinerate_ (89%)
+- **Reshiram (Shadow)** using _Fire Fang_ (100%)
+- **Chandelure (Shadow)** using _Incinerate_ (99%)
+- **Conkeldurr (Shadow)** using _Force Palm_ (96%)
+- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (96%)
+- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (96%)
+- **Blacephalon** using _Incinerate_ (95%)
+- **Chandelure (Shadow)** using _Fire Spin_ (90%)
+- **Conkeldurr (Shadow)** using _Counter_ (89%)
+- **Blaziken (Shadow)** using _Counter_ (88%)
 
 # Anti-Water 💧
 
@@ -258,11 +258,11 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Palkia (Shadow)** using _Dragon Tail_ (70%)
 - **Salamence (Shadow)** using _Dragon Tail_ (69%)
 - **Dialga (Shadow)** using _Dragon Breath_ (69%)
+- **Reshiram (Shadow)** using _Dragon Breath_ (69%)
 - **Latios (Shadow)** using _Dragon Breath_ (67%)
 - **Dragonite (Shadow)** using _Dragon Breath_ (66%)
 - **Dragonite (Shadow)** using _Dragon Tail_ (66%)
 - **Garchomp (Shadow)** using _Dragon Tail_ (65%)
-- **Hydreigon (Shadow)** using _Dragon Breath_ (64%)
 
 ### Highest **electric** (⚡) fast move damage:
 
@@ -302,6 +302,7 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 ### Highest **fire** (🔥) fast move damage:
 
+- **Reshiram (Shadow)** using _Fire Fang_ (92%)
 - **Chandelure (Shadow)** using _Incinerate_ (90%)
 - **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (88%)
 - **Darmanitan (Standard) (Shadow)** using _Incinerate_ (88%)
@@ -310,7 +311,6 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Ho-Oh (Shadow)** using _Incinerate_ (80%)
 - **Entei (Shadow)** using _Fire Fang_ (79%)
 - **Heatran (Shadow)** using _Fire Spin_ (77%)
-- **Moltres (Shadow)** using _Fire Spin_ (77%)
 
 ### Highest **flying** (🕊️) fast move damage:
 
