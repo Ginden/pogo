@@ -2,7 +2,7 @@
 
 - **Excluded tags**: none
 - **Exclude unreleased**: true
-- **Date generated**: 2026-06-24
+- **Date generated**: 2026-07-01
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -39,8 +39,8 @@
 - **Gallade (Mega)** using _Charm_ (83%)
 - **Darmanitan (Galarian)** using _Ice Fang_ (81%)
 - **Granbull (Shadow)** using _Charm_ (80%)
+- **Haxorus (Shadow)** using _Dragon Tail_ (79%)
 - **Baxcalibur** using _Ice Fang_ (79%)
-- **Mewtwo (Mega Y)** using _Confusion_ (125%)
 
 # Anti-Electric ⚡
 
@@ -255,6 +255,7 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 ### Highest **dragon** (🐉) fast move damage:
 
 - **Rayquaza (Mega)** using _Dragon Tail_ (69%)
+- **Haxorus (Shadow)** using _Dragon Tail_ (63%)
 - **Palkia (Shadow)** using _Dragon Breath_ (62%)
 - **Garchomp (Mega)** using _Dragon Tail_ (62%)
 - **Palkia (Shadow)** using _Dragon Tail_ (62%)
@@ -262,7 +263,6 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Latios (Mega)** using _Dragon Breath_ (61%)
 - **Dialga (Shadow)** using _Dragon Breath_ (61%)
 - **Reshiram (Shadow)** using _Dragon Breath_ (61%)
-- **Latios (Shadow)** using _Dragon Breath_ (60%)
 
 ### Highest **electric** (⚡) fast move damage:
 
@@ -428,9 +428,9 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Archeops (Shadow)** using _Steel Wing_ (63%)
 - **Scizor (Shadow)** using _Bullet Punch_ (62%)
 - **Scizor (Mega)** using _Bullet Punch_ (60%)
+- **Skarmory (Mega)** using _Steel Wing_ (59%)
 - **Dragonite (Shadow)** using _Steel Wing_ (57%)
 - **Metagross** using _Bullet Punch_ (56%)
-- **Kyurem (White)** using _Steel Wing_ (55%)
 
 ### Highest **water** (💧) fast move damage:
 

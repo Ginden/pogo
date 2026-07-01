@@ -2,7 +2,7 @@
 
 - **Excluded tags**: mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-06-24
+- **Date generated**: 2026-07-01
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -27,8 +27,8 @@
 - **Blaziken (Shadow)** using _Counter_ (91%)
 - **Pinsir (Shadow)** using _Bug Bite_ (90%)
 - **Gardevoir (Shadow)** using _Charm_ (90%)
+- **Haxorus (Shadow)** using _Counter_ (89%)
 - **Machamp (Shadow)** using _Counter_ (89%)
-- **Mienshao** using _Force Palm_ (88%)
 
 # Anti-Dragon 🐉
 
@@ -36,11 +36,11 @@
 - **Gardevoir (Shadow)** using _Charm_ (93%)
 - **Darmanitan (Galarian)** using _Ice Fang_ (86%)
 - **Granbull (Shadow)** using _Charm_ (84%)
+- **Haxorus (Shadow)** using _Dragon Tail_ (83%)
 - **Baxcalibur** using _Ice Fang_ (83%)
 - **Palkia (Shadow)** using _Dragon Breath_ (82%)
 - **Palkia (Shadow)** using _Dragon Tail_ (82%)
 - **Salamence (Shadow)** using _Dragon Tail_ (81%)
-- **Dialga (Shadow)** using _Dragon Breath_ (80%)
 
 # Anti-Electric ⚡
 
@@ -155,12 +155,12 @@
 - **Conkeldurr (Shadow)** using _Force Palm_ (100%)
 - **Conkeldurr (Shadow)** using _Counter_ (92%)
 - **Blaziken (Shadow)** using _Counter_ (91%)
+- **Haxorus (Shadow)** using _Counter_ (89%)
 - **Machamp (Shadow)** using _Counter_ (89%)
 - **Mienshao** using _Force Palm_ (88%)
 - **Hariyama (Shadow)** using _Force Palm_ (87%)
 - **Alakazam (Shadow)** using _Counter_ (85%)
 - **Annihilape (Shadow)** using _Counter_ (84%)
-- **Marshadow** using _Counter_ (83%)
 
 # Anti-Poison 🐍
 
@@ -194,9 +194,9 @@
 - **Conkeldurr (Shadow)** using _Counter_ (81%)
 - **Blaziken (Shadow)** using _Counter_ (80%)
 - **Victreebel (Shadow)** using _Razor Leaf_ (79%)
+- **Haxorus (Shadow)** using _Counter_ (79%)
 - **Machamp (Shadow)** using _Counter_ (79%)
 - **Excadrill (Shadow)** using _Mud Slap_ (78%)
-- **Mienshao** using _Force Palm_ (78%)
 
 # Anti-Steel 🛡️
 
@@ -254,6 +254,7 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 ### Highest **dragon** (🐉) fast move damage:
 
+- **Haxorus (Shadow)** using _Dragon Tail_ (71%)
 - **Palkia (Shadow)** using _Dragon Breath_ (70%)
 - **Palkia (Shadow)** using _Dragon Tail_ (70%)
 - **Salamence (Shadow)** using _Dragon Tail_ (69%)
@@ -262,7 +263,6 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Latios (Shadow)** using _Dragon Breath_ (67%)
 - **Dragonite (Shadow)** using _Dragon Breath_ (66%)
 - **Dragonite (Shadow)** using _Dragon Tail_ (66%)
-- **Garchomp (Shadow)** using _Dragon Tail_ (65%)
 
 ### Highest **electric** (⚡) fast move damage:
 
@@ -293,12 +293,12 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Conkeldurr (Shadow)** using _Force Palm_ (88%)
 - **Conkeldurr (Shadow)** using _Counter_ (81%)
 - **Blaziken (Shadow)** using _Counter_ (80%)
+- **Haxorus (Shadow)** using _Counter_ (79%)
 - **Machamp (Shadow)** using _Counter_ (79%)
 - **Mienshao** using _Force Palm_ (78%)
 - **Hariyama (Shadow)** using _Force Palm_ (77%)
 - **Alakazam (Shadow)** using _Counter_ (75%)
 - **Annihilape (Shadow)** using _Counter_ (74%)
-- **Marshadow** using _Counter_ (74%)
 
 ### Highest **fire** (🔥) fast move damage:
 

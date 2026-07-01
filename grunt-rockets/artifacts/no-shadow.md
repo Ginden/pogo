@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-06-24
+- **Date generated**: 2026-07-01
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -63,8 +63,8 @@
 - **Mewtwo (Mega X)** using _Confusion_ (146%)
 - **Scizor (Mega)** using _Bullet Punch_ (90%)
 - **Eternatus** using _Poison Jab_ (90%)
+- **Skarmory (Mega)** using _Steel Wing_ (89%)
 - **Naganadel** using _Poison Jab_ (86%)
-- **Sneasler** using _Poison Jab_ (84%)
 
 # Anti-Fighting 💪
 
@@ -425,12 +425,12 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Lucario (Mega)** using _Bullet Punch_ (66%)
 - **Metagross (Mega)** using _Bullet Punch_ (64%)
 - **Scizor (Mega)** using _Bullet Punch_ (60%)
+- **Skarmory (Mega)** using _Steel Wing_ (59%)
 - **Metagross** using _Bullet Punch_ (56%)
 - **Kyurem (White)** using _Steel Wing_ (55%)
 - **Dragonite (Mega)** using _Steel Wing_ (54%)
 - **Tyranitar (Mega)** using _Iron Tail_ (53%)
 - **Aerodactyl (Mega)** using _Steel Wing_ (52%)
-- **Archeops** using _Steel Wing_ (52%)
 
 ### Highest **water** (💧) fast move damage:
 
