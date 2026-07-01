@@ -437,16 +437,13 @@
         {
           "filterType": "id",
           "values": [
-            "aegislash_shield",
             "araquanid",
             "bastiodon",
             "corviknight",
-            "doublade",
             "durant",
             "empoleon",
             "escavalier",
             "forretress",
-            "honedge",
             "klang",
             "mandibuzz",
             "mantine",
@@ -877,6 +874,7 @@
             "shaymin_land",
             "banette_mega",
             "giratina_altered",
+            "giratina_altered_shadow",
             "goodra",
             "sceptile_mega",
             "xurkitree"
@@ -981,6 +979,7 @@
             "bellibolt",
             "jellicent",
             "mewtwo_armored",
+            "mimikyu",
             "tinkaton",
             "zygarde_complete"
           ]
@@ -1349,6 +1348,7 @@
             "lileep",
             "linoone",
             "miltank",
+            "mimikyu",
             "naclstack",
             "ninetales_alolan",
             "oinkologne",
@@ -5116,6 +5116,24 @@
       "power": 5,
       "turns": 3,
       "type": "dark"
+    },
+    {
+      "abbreviation": "Sni",
+      "archetype": "Boost Spam",
+      "buffApplyChance": ".125",
+      "buffTarget": "opponent",
+      "buffs": [
+        2,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 35,
+      "energyGain": 0,
+      "moveId": "SNIPE_SHOT",
+      "name": "Snipe Shot",
+      "power": 65,
+      "turns": 1,
+      "type": "water"
     },
     {
       "abbreviation": "SoB",
@@ -35340,6 +35358,58 @@
       "speciesName": "Skarmory (Shadow)",
       "tags": [
         "shadow"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "steel",
+        "flying"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 273,
+        "def": 228,
+        "hp": 163
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "BRAVE_BIRD",
+        "FLASH_CANNON",
+        "SKY_ATTACK"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          14.5,
+          7,
+          14,
+          14
+        ],
+        "cp2500": [
+          24.5,
+          4,
+          14,
+          13
+        ],
+        "cp500": [
+          5,
+          15,
+          14,
+          13
+        ]
+      },
+      "dex": 227,
+      "fastMoves": [
+        "AIR_SLASH",
+        "STEEL_WING"
+      ],
+      "level25CP": 1267,
+      "released": true,
+      "searchPriority": 1,
+      "speciesId": "skarmory_mega",
+      "speciesName": "Skarmory (Mega)",
+      "tags": [
+        "shadoweligible",
+        "mega"
       ],
       "thirdMoveCost": 75000,
       "types": [
@@ -74866,9 +74936,74 @@
         "SCRATCH",
         "IRON_TAIL"
       ],
+      "level25CP": 787,
       "released": true,
       "speciesId": "axew",
       "speciesName": "Axew",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "dragon",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 154,
+        "def": 101,
+        "hp": 130
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRAGON_CLAW",
+        "AQUA_TAIL",
+        "DRAGON_PULSE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          49,
+          12,
+          14,
+          15
+        ],
+        "cp1500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          13.5,
+          7,
+          14,
+          15
+        ]
+      },
+      "dex": 610,
+      "family": {
+        "evolutions": [
+          "fraxure_shadow"
+        ],
+        "id": "FAMILY_AXEW"
+      },
+      "fastMoves": [
+        "SCRATCH",
+        "IRON_TAIL"
+      ],
+      "released": true,
+      "speciesId": "axew_shadow",
+      "speciesName": "Axew (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "dragon",
@@ -74925,9 +75060,75 @@
         "DRAGON_TAIL",
         "IRON_TAIL"
       ],
+      "level25CP": 1347,
       "released": true,
       "speciesId": "fraxure",
       "speciesName": "Fraxure",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "dragon",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 212,
+        "def": 123,
+        "hp": 165
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRAGON_CLAW",
+        "AQUA_TAIL",
+        "NIGHT_SLASH"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          25,
+          4,
+          14,
+          12
+        ],
+        "cp2500": [
+          50,
+          13,
+          15,
+          14
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          8.5,
+          4,
+          14,
+          8
+        ]
+      },
+      "dex": 611,
+      "family": {
+        "evolutions": [
+          "haxorus_shadow"
+        ],
+        "id": "FAMILY_AXEW",
+        "parent": "axew_shadow"
+      },
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "IRON_TAIL"
+      ],
+      "released": true,
+      "speciesId": "fraxure_shadow",
+      "speciesName": "Fraxure (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "dragon",
@@ -74980,10 +75181,73 @@
         "DRAGON_TAIL",
         "COUNTER"
       ],
+      "level25CP": 2247,
       "released": true,
       "searchPriority": 4,
       "speciesId": "haxorus",
       "speciesName": "Haxorus",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "dragon",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 284,
+        "def": 172,
+        "hp": 183
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRAGON_CLAW",
+        "SURF",
+        "NIGHT_SLASH",
+        "EARTHQUAKE",
+        "BREAKING_SWIPE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          15.5,
+          4,
+          9,
+          13
+        ],
+        "cp2500": [
+          25.5,
+          4,
+          13,
+          13
+        ],
+        "cp500": [
+          5.5,
+          4,
+          9,
+          7
+        ]
+      },
+      "dex": 612,
+      "eliteMoves": [
+        "BREAKING_SWIPE"
+      ],
+      "family": {
+        "id": "FAMILY_AXEW",
+        "parent": "fraxure_shadow"
+      },
+      "fastMoves": [
+        "DRAGON_TAIL",
+        "COUNTER"
+      ],
+      "released": true,
+      "searchPriority": 4,
+      "speciesId": "haxorus_shadow",
+      "speciesName": "Haxorus (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 75000,
       "types": [
         "dragon",
@@ -105306,8 +105570,11 @@
     "rookidee",
     "corvisquire",
     "corviknight",
-    "reshiram"
+    "reshiram",
+    "axew",
+    "fraxure",
+    "haxorus"
   ],
-  "timestamp": "2026-06-23 23:20:31",
+  "timestamp": "2026-06-28 03:14:49",
   "title": "Default"
 }
