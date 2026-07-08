@@ -964,6 +964,28 @@
           ]
         }
       ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "steel",
+            "dragon",
+            "fairy"
+          ]
+        }
+      ],
+      "name": "fantasy",
+      "title": "Fantasy Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
       "include": [],
       "name": "gobattleleague",
       "partySize": 3,
@@ -1143,6 +1165,29 @@
       "name": "premier",
       "partySize": 3,
       "title": "Premier Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "type",
+          "values": [
+            "dark",
+            "fairy",
+            "steel"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "include": [],
+      "name": "retro",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Retro Cup"
     },
     {
       "exclude": [
@@ -1429,6 +1474,32 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Summer Cup"
+    },
+    {
+      "cp": 2500,
+      "cup": "fantasy",
+      "meta": "fantasyultra",
+      "rules": [
+        "Pokémon must be at or below 2, 500 CP to enter.",
+        "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Fantasy Cup (Ultra League)"
+    },
+    {
+      "cp": 1500,
+      "cup": "retro",
+      "meta": "retro",
+      "rules": [
+        "Pokémon must be at or below 2, 500 CP to enter.",
+        "Dark-,  Steel-,  and Fairy-type Pokémon are not eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Retro Cup"
     },
     {
       "cp": 1500,
@@ -5121,7 +5192,7 @@
       "abbreviation": "Sni",
       "archetype": "Boost Spam",
       "buffApplyChance": ".125",
-      "buffTarget": "opponent",
+      "buffTarget": "self",
       "buffs": [
         2,
         0
@@ -92445,7 +92516,9 @@
       "chargedMoves": [
         "WATER_PULSE",
         "SURF",
-        "SHADOW_BALL"
+        "SHADOW_BALL",
+        "SNIPE_SHOT",
+        "HYDRO_CANNON"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -92468,6 +92541,9 @@
         ]
       },
       "dex": 818,
+      "eliteMoves": [
+        "HYDRO_CANNON"
+      ],
       "family": {
         "id": "FAMILY_SOBBLE",
         "parent": "drizzile"
@@ -105575,6 +105651,6 @@
     "fraxure",
     "haxorus"
   ],
-  "timestamp": "2026-06-28 03:14:49",
+  "timestamp": "2026-07-05 19:43:15",
   "title": "Default"
 }
