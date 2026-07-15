@@ -398,6 +398,69 @@
     {
       "exclude": [
         {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "dark",
+            "electric",
+            "ice",
+            "steel"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "corsola_galarian",
+            "rapidash_galarian",
+            "togetic"
+          ]
+        }
+      ],
+      "excludeLowPokemon": 1,
+      "include": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "dragon",
+            "flying",
+            "psychic"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "jellicent",
+            "marowak_alolan",
+            "marowak_alolan_shadow",
+            "primeape",
+            "primeape_shadow",
+            "seaking",
+            "togekiss",
+            "trevenant",
+            "trevenant_shadow"
+          ]
+        }
+      ],
+      "league": 1500,
+      "link": "https://devon.gg/",
+      "name": "chrysalis",
+      "overrides": [],
+      "title": "Chrysalis Cup - Devon World Championship 2026",
+      "useDefaultMovesets": 1
+    },
+    {
+      "exclude": [
+        {
           "filterType": "tag",
           "values": [
             "mega"
@@ -1463,19 +1526,6 @@
       "title": "Master Premier Cup"
     },
     {
-      "cp": 1500,
-      "cup": "summer",
-      "meta": "summer",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Normal-,  Fire-,  Water-,  Grass-,  Electric-,  and Bug-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Summer Cup"
-    },
-    {
       "cp": 2500,
       "cup": "fantasy",
       "meta": "fantasyultra",
@@ -1554,6 +1604,15 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Devon Bastille Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "chrysalis",
+      "meta": "chrysalis",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Devon Chrysalis Cup"
     },
     {
       "cp": 500,
@@ -105651,6 +105710,6 @@
     "fraxure",
     "haxorus"
   ],
-  "timestamp": "2026-07-05 19:43:15",
+  "timestamp": "2026-07-14 03:16:24",
   "title": "Default"
 }
