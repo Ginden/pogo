@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-07-15
+- **Date generated**: 2026-07-22
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -34,13 +34,13 @@
 
 - **Gardevoir (Mega)** using _Charm_ (100%)
 - **Kyurem (White)** using _Ice Fang_ (95%)
+- **Raichu (Mega Y)** using _Charm_ (86%)
 - **Rayquaza (Mega)** using _Dragon Tail_ (86%)
 - **Gallade (Mega)** using _Charm_ (83%)
 - **Darmanitan (Galarian)** using _Ice Fang_ (81%)
 - **Baxcalibur** using _Ice Fang_ (79%)
 - **Mewtwo (Mega Y)** using _Confusion_ (125%)
 - **Garchomp (Mega)** using _Dragon Tail_ (78%)
-- **Latios (Mega)** using _Dragon Breath_ (77%)
 
 # Anti-Electric ⚡
 
@@ -76,7 +76,7 @@
 - **Gardevoir (Mega)** using _Confusion_ (80%)
 - **Hoopa (Unbound)** using _Confusion_ (76%)
 - **Mewtwo** using _Confusion_ (74%)
-- **Pidgeot (Mega)** using _Gust_ (69%)
+- **Raichu (Mega Y)** using _Charm_ (69%)
 
 # Anti-Fire 🔥
 
@@ -94,13 +94,13 @@
 
 - **Diancie (Mega)** using _Rock Throw_ (100%)
 - **Kyurem (White)** using _Ice Fang_ (91%)
+- **Raichu (Mega Y)** using _Volt Switch_ (87%)
 - **Aerodactyl (Mega)** using _Rock Throw_ (86%)
 - **Manectric (Mega)** using _Thunder Fang_ (84%)
 - **Tyranitar (Mega)** using _Smack Down_ (83%)
 - **Rampardos** using _Smack Down_ (80%)
 - **Darmanitan (Galarian)** using _Ice Fang_ (78%)
 - **Thundurus (Therian)** using _Volt Switch_ (76%)
-- **Ampharos (Mega)** using _Volt Switch_ (76%)
 
 # Anti-Ghost 👻
 
@@ -214,13 +214,13 @@
 
 - **Kartana** using _Razor Leaf_ (100%)
 - **Victreebel (Mega)** using _Razor Leaf_ (83%)
+- **Raichu (Mega Y)** using _Volt Switch_ (81%)
 - **Manectric (Mega)** using _Thunder Fang_ (79%)
 - **Roserade** using _Razor Leaf_ (76%)
 - **Venusaur (Mega)** using _Razor Leaf_ (76%)
 - **Abomasnow (Mega)** using _Razor Leaf_ (75%)
 - **Rillaboom** using _Razor Leaf_ (75%)
 - **Thundurus (Therian)** using _Volt Switch_ (71%)
-- **Ampharos (Mega)** using _Volt Switch_ (71%)
 
 ---
 
@@ -266,27 +266,27 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 
 ### Highest **electric** (⚡) fast move damage:
 
+- **Raichu (Mega Y)** using _Volt Switch_ (72%)
 - **Manectric (Mega)** using _Thunder Fang_ (70%)
 - **Thundurus (Therian)** using _Volt Switch_ (63%)
 - **Ampharos (Mega)** using _Volt Switch_ (63%)
+- **Raichu (Mega X)** using _Volt Switch_ (60%)
 - **Vikavolt** using _Volt Switch_ (55%)
 - **Zeraora** using _Volt Switch_ (55%)
 - **Regieleki** using _Volt Switch_ (54%)
 - **Tapu Koko** using _Volt Switch_ (54%)
-- **Manectric** using _Thunder Fang_ (54%)
-- **Raikou** using _Volt Switch_ (52%)
 
 ### Highest **fairy** (🧚) fast move damage:
 
 - **Gardevoir (Mega)** using _Charm_ (80%)
+- **Raichu (Mega Y)** using _Charm_ (69%)
 - **Gallade (Mega)** using _Charm_ (66%)
 - **Latias (Mega)** using _Charm_ (59%)
 - **Gardevoir** using _Charm_ (59%)
 - **Hatterene** using _Charm_ (59%)
 - **Primarina** using _Charm_ (58%)
+- **Raichu (Mega X)** using _Charm_ (57%)
 - **Togekiss** using _Charm_ (56%)
-- **Granbull** using _Charm_ (53%)
-- **Sylveon** using _Charm_ (51%)
 
 ### Highest **fighting** (💪) fast move damage:
 
