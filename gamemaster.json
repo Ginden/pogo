@@ -1512,33 +1512,6 @@
       "title": "P!P Championship Series"
     },
     {
-      "cp": 10000,
-      "cup": "premier",
-      "hideRankings": true,
-      "meta": "premiermaster",
-      "rules": [
-        "No CP limit.",
-        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
-      ],
-      "showCup": true,
-      "showFormat": false,
-      "showMeta": true,
-      "title": "Master Premier Cup"
-    },
-    {
-      "cp": 2500,
-      "cup": "fantasy",
-      "meta": "fantasyultra",
-      "rules": [
-        "Pokémon must be at or below 2, 500 CP to enter.",
-        "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Fantasy Cup (Ultra League)"
-    },
-    {
       "cp": 1500,
       "cup": "retro",
       "meta": "retro",
@@ -1550,6 +1523,19 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Retro Cup"
+    },
+    {
+      "cp": 10000,
+      "cup": "premier",
+      "meta": "premiermaster",
+      "rules": [
+        "No CP limit.",
+        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Master Premier Cup"
     },
     {
       "cp": 1500,
@@ -2507,6 +2493,18 @@
       "power": 55,
       "turns": 1,
       "type": "electric"
+    },
+    {
+      "abbreviation": "Dve",
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "moveId": "DIVE",
+      "name": "Dive",
+      "power": 50,
+      "turns": 1,
+      "type": "water"
     },
     {
       "archetype": "Spam/Bait",
@@ -9951,6 +9949,130 @@
       "released": true,
       "speciesId": "raichu",
       "speciesName": "Raichu",
+      "thirdMoveCost": 10000,
+      "types": [
+        "electric",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 277,
+        "def": 203,
+        "hp": 155
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "BRICK_BREAK",
+        "THUNDER",
+        "THUNDER_PUNCH",
+        "WILD_CHARGE",
+        "SKULL_BASH",
+        "TRAILBLAZE",
+        "SURF"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          15.5,
+          5,
+          14,
+          15
+        ],
+        "cp2500": [
+          26,
+          5,
+          13,
+          14
+        ],
+        "cp500": [
+          5.5,
+          4,
+          9,
+          15
+        ]
+      },
+      "dex": 26,
+      "eliteMoves": [
+        "THUNDER"
+      ],
+      "family": {
+        "id": "FAMILY_PIKACHU",
+        "parent": "pikachu"
+      },
+      "fastMoves": [
+        "SPARK",
+        "THUNDER_SHOCK",
+        "VOLT_SWITCH",
+        "CHARM"
+      ],
+      "released": true,
+      "speciesId": "raichu_mega_x",
+      "speciesName": "Raichu (Mega X)",
+      "tags": [
+        "mega"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "electric",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 339,
+        "def": 157,
+        "hp": 155
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "BRICK_BREAK",
+        "THUNDER",
+        "THUNDER_PUNCH",
+        "WILD_CHARGE",
+        "SKULL_BASH",
+        "TRAILBLAZE",
+        "SURF"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          14.5,
+          4,
+          11,
+          15
+        ],
+        "cp2500": [
+          24,
+          5,
+          12,
+          15
+        ],
+        "cp500": [
+          5,
+          8,
+          15,
+          15
+        ]
+      },
+      "dex": 26,
+      "eliteMoves": [
+        "THUNDER"
+      ],
+      "family": {
+        "id": "FAMILY_PIKACHU",
+        "parent": "pikachu"
+      },
+      "fastMoves": [
+        "SPARK",
+        "THUNDER_SHOCK",
+        "VOLT_SWITCH",
+        "CHARM"
+      ],
+      "released": true,
+      "speciesId": "raichu_mega_y",
+      "speciesName": "Raichu (Mega Y)",
+      "tags": [
+        "mega"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "electric",
@@ -94210,9 +94332,10 @@
       },
       "buddyDistance": 3,
       "chargedMoves": [
-        "DRILL_PECK",
         "FLY",
-        "HYDRO_PUMP"
+        "HYDRO_PUMP",
+        "SURF",
+        "DIVE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -105710,6 +105833,6 @@
     "fraxure",
     "haxorus"
   ],
-  "timestamp": "2026-07-14 03:16:24",
+  "timestamp": "2026-07-21 01:32:55",
   "title": "Default"
 }
