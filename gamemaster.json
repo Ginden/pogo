@@ -1538,6 +1538,20 @@
       "title": "Master Premier Cup"
     },
     {
+      "cp": 10000,
+      "cup": "mega",
+      "hideRankings": true,
+      "meta": "mega",
+      "rules": [
+        "No CP limit.",
+        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
+      ],
+      "showCup": true,
+      "showFormat": false,
+      "showMeta": true,
+      "title": "Mega Master League"
+    },
+    {
       "cp": 1500,
       "cup": "copadiluvio",
       "meta": "copadiluvio",
@@ -93988,7 +94002,8 @@
         "parent": "boltund"
       },
       "fastMoves": [
-        "SMACK_DOWN"
+        "SMACK_DOWN",
+        "TACKLE"
       ],
       "released": true,
       "speciesId": "carkol",
@@ -105833,6 +105848,6 @@
     "fraxure",
     "haxorus"
   ],
-  "timestamp": "2026-07-21 01:32:55",
+  "timestamp": "2026-07-27 01:52:24",
   "title": "Default"
 }
