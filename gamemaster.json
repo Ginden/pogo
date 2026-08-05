@@ -1491,6 +1491,29 @@
       ],
       "name": "tsuki",
       "title": "Battle Frontier (Tsuki Cup)"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "fire",
+            "water",
+            "ice",
+            "rock"
+          ]
+        }
+      ],
+      "name": "weather",
+      "title": "Weather Cup"
     }
   ],
   "fastMoveArchetypes": [
@@ -1512,19 +1535,6 @@
       "title": "P!P Championship Series"
     },
     {
-      "cp": 1500,
-      "cup": "retro",
-      "meta": "retro",
-      "rules": [
-        "Pokémon must be at or below 2, 500 CP to enter.",
-        "Dark-,  Steel-,  and Fairy-type Pokémon are not eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Retro Cup"
-    },
-    {
       "cp": 10000,
       "cup": "premier",
       "meta": "premiermaster",
@@ -1536,6 +1546,19 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Master Premier Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "weather",
+      "meta": "weather",
+      "rules": [
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Fire-,  Water-,  Ice-,  and Rock-type Pokémon are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Weather Cup"
     },
     {
       "cp": 10000,
@@ -105848,6 +105871,6 @@
     "fraxure",
     "haxorus"
   ],
-  "timestamp": "2026-07-27 01:52:24",
+  "timestamp": "2026-07-30 21:39:36",
   "title": "Default"
 }
