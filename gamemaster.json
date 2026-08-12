@@ -1029,6 +1029,26 @@
       ],
       "include": [
         {
+          "filterType": "evolution",
+          "values": [
+            2
+          ]
+        }
+      ],
+      "name": "evolution",
+      "title": "Evolution Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        }
+      ],
+      "include": [
+        {
           "filterType": "type",
           "values": [
             "steel",
@@ -1251,6 +1271,35 @@
       "partySize": 3,
       "presetOnly": true,
       "title": "Retro Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "primarina"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "water",
+            "fighting",
+            "dark"
+          ]
+        }
+      ],
+      "name": "scroll",
+      "partySize": 3,
+      "title": "Scroll Cup"
     },
     {
       "exclude": [
@@ -1535,30 +1584,43 @@
       "title": "P!P Championship Series"
     },
     {
-      "cp": 10000,
-      "cup": "premier",
-      "meta": "premiermaster",
-      "rules": [
-        "No CP limit.",
-        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Master Premier Cup"
-    },
-    {
       "cp": 1500,
       "cup": "weather",
       "meta": "weather",
       "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Fire-,  Water-,  Ice-,  and Rock-type Pokémon are eligible."
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Fire-, Water-, Ice-, and Rock-type Pokémon are eligible."
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
       "title": "Weather Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "evolution",
+      "meta": "evolution",
+      "rules": [
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Pokémon that have evolved at least once and can evolve again will be eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Evolution Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "scroll",
+      "meta": "scroll",
+      "rules": [
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Water-, Fighting-, and Dark-type Pokémon are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Scroll Cup"
     },
     {
       "cp": 10000,
@@ -1567,12 +1629,26 @@
       "meta": "mega",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
+        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": false,
       "showMeta": true,
       "title": "Mega Master League"
+    },
+    {
+      "cp": 10000,
+      "cup": "premier",
+      "hideRankings": true,
+      "meta": "premiermaster",
+      "rules": [
+        "No CP limit.",
+        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
+      ],
+      "showCup": true,
+      "showFormat": false,
+      "showMeta": true,
+      "title": "Master Premier Cup"
     },
     {
       "cp": 1500,
@@ -1749,6 +1825,25 @@
       "energyGain": 0,
       "moveId": "ACID_SPRAY",
       "name": "Acid Spray",
+      "power": 20,
+      "turns": 1,
+      "type": "poison"
+    },
+    {
+      "abbreviation": "AS+",
+      "archetype": "Debuff Spam",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        0,
+        -2
+      ],
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "ACID_SPRAY_PLUS",
+      "name": "Acid Spray+",
       "power": 20,
       "turns": 1,
       "type": "poison"
@@ -2149,6 +2244,25 @@
       "moveId": "BRICK_BREAK",
       "name": "Brick Break",
       "power": 50,
+      "turns": 1,
+      "type": "fighting"
+    },
+    {
+      "abbreviation": "BkB+",
+      "archetype": "Debuff Spam",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        0,
+        -1
+      ],
+      "cooldown": 500,
+      "energy": 35,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "BRICK_BREAK_PLUS",
+      "name": "Brick Break+",
+      "power": 40,
       "turns": 1,
       "type": "fighting"
     },
@@ -2711,6 +2825,19 @@
       "type": "flying"
     },
     {
+      "abbreviation": "DrP+",
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 35,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "DRILL_PECK_PLUS",
+      "name": "Drill Peck+",
+      "power": 60,
+      "turns": 1,
+      "type": "flying"
+    },
+    {
       "archetype": "Spam/Bait",
       "cooldown": 500,
       "energy": 40,
@@ -2760,6 +2887,19 @@
       "moveId": "DYNAMIC_PUNCH",
       "name": "Dynamic Punch",
       "power": 90,
+      "turns": 1,
+      "type": "fighting"
+    },
+    {
+      "abbreviation": "DyP+",
+      "archetype": "Nuke",
+      "cooldown": 500,
+      "energy": 80,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "DYNAMIC_PUNCH_PLUS",
+      "name": "Dynamic Punch+",
+      "power": 130,
       "turns": 1,
       "type": "fighting"
     },
@@ -3171,6 +3311,19 @@
       "moveId": "FUTURE_SIGHT",
       "name": "Future Sight",
       "power": 110,
+      "turns": 1,
+      "type": "psychic"
+    },
+    {
+      "abbreviation": "FS+",
+      "archetype": "Nuke",
+      "cooldown": 500,
+      "energy": 80,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "FUTURE_SIGHT_PLUS",
+      "name": "Future Sight+",
+      "power": 130,
       "turns": 1,
       "type": "psychic"
     },
@@ -3899,6 +4052,25 @@
       "type": "water"
     },
     {
+      "abbreviation": "Li+",
+      "archetype": "Debuff Spam",
+      "buffApplyChance": "0.3",
+      "buffTarget": "opponent",
+      "buffs": [
+        0,
+        -1
+      ],
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "LIQUIDATION_PLUS",
+      "name": "Liquidation+",
+      "power": 55,
+      "turns": 1,
+      "type": "water"
+    },
+    {
       "archetype": "Fast Charge",
       "cooldown": 500,
       "energy": 0,
@@ -4241,6 +4413,24 @@
       "type": "fire"
     },
     {
+      "archetype": "Debuff Spam",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        -1,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "MYSTICAL_FIRE_PLUS",
+      "name": "Mystical Fire+",
+      "power": 50,
+      "turns": 1,
+      "type": "fire"
+    },
+    {
       "archetype": "Debuff",
       "buffApplyChance": "1",
       "buffTarget": "opponent",
@@ -4388,6 +4578,19 @@
       "type": "dragon"
     },
     {
+      "abbreviation": "O+",
+      "archetype": "General",
+      "cooldown": 500,
+      "energy": 50,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "OUTRAGE_PLUS",
+      "name": "Outrage+",
+      "power": 80,
+      "turns": 1,
+      "type": "dragon"
+    },
+    {
       "abbreviation": "Ov",
       "archetype": "Self-Debuff Nuke",
       "buffApplyChance": "1",
@@ -4460,17 +4663,6 @@
       "type": "grass"
     },
     {
-      "archetype": "High Energy",
-      "cooldown": 500,
-      "energy": 60,
-      "energyGain": 0,
-      "moveId": "PLAY_ROUGH",
-      "name": "Play Rough",
-      "power": 90,
-      "turns": 1,
-      "type": "fairy"
-    },
-    {
       "archetype": "Spam/Bait",
       "cooldown": 500,
       "energy": 35,
@@ -4480,6 +4672,17 @@
       "power": 60,
       "turns": 1,
       "type": "electric"
+    },
+    {
+      "archetype": "High Energy",
+      "cooldown": 500,
+      "energy": 60,
+      "energyGain": 0,
+      "moveId": "PLAY_ROUGH",
+      "name": "Play Rough",
+      "power": 90,
+      "turns": 1,
+      "type": "fairy"
     },
     {
       "archetype": "Debuff Spam",
@@ -4628,6 +4831,19 @@
       "moveId": "PSYBEAM",
       "name": "Psybeam",
       "power": 70,
+      "turns": 1,
+      "type": "psychic"
+    },
+    {
+      "abbreviation": "Psb+",
+      "archetype": "General",
+      "cooldown": 500,
+      "energy": 45,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "PSYBEAM_PLUS",
+      "name": "Psybeam+",
+      "power": 60,
       "turns": 1,
       "type": "psychic"
     },
@@ -5063,6 +5279,19 @@
       "moveId": "SEED_BOMB",
       "name": "Seed Bomb",
       "power": 55,
+      "turns": 1,
+      "type": "grass"
+    },
+    {
+      "abbreviation": "SeB+",
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "SEED_BOMB_PLUS",
+      "name": "Seed Bomb+",
+      "power": 60,
       "turns": 1,
       "type": "grass"
     },
@@ -5520,6 +5749,19 @@
       "type": "water"
     },
     {
+      "abbreviation": "S+",
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 35,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "SURF_PLUS",
+      "name": "Surf+",
+      "power": 55,
+      "turns": 1,
+      "type": "water"
+    },
+    {
       "abbreviation": "Sw",
       "archetype": "Spam/Bait",
       "cooldown": 500,
@@ -5857,6 +6099,25 @@
       "type": "electric"
     },
     {
+      "abbreviation": "VT+",
+      "archetype": "Self-Debuff Spam",
+      "buffApplyChance": "1",
+      "buffTarget": "self",
+      "buffs": [
+        0,
+        -1
+      ],
+      "cooldown": 500,
+      "energy": 35,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "VOLT_TACKLE_PLUS",
+      "name": "Volt Tackle+",
+      "power": 65,
+      "turns": 1,
+      "type": "electric"
+    },
+    {
       "archetype": "Self-Debuff Spam",
       "buffApplyChance": "1",
       "buffTarget": "self",
@@ -6085,6 +6346,25 @@
       "moveId": "ZAP_CANNON",
       "name": "Zap Cannon",
       "power": 150,
+      "turns": 1,
+      "type": "electric"
+    },
+    {
+      "abbreviation": "ZC+",
+      "archetype": "Debuff",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        -1,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 45,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "ZAP_CANNON_PLUS",
+      "name": "Zap Cannon+",
+      "power": 70,
       "turns": 1,
       "type": "electric"
     },
@@ -23676,6 +23956,91 @@
       "speciesName": "Starmie (Shadow)",
       "tags": [
         "shadow"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 276,
+        "def": 229,
+        "hp": 155
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "HYDRO_PUMP",
+        "ICE_BEAM",
+        "POWER_GEM",
+        "PSYBEAM",
+        "PSYCHIC",
+        "THUNDER",
+        "SURF",
+        "AQUA_JET"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          15,
+          4,
+          11,
+          12
+        ],
+        "cp2500": [
+          24.5,
+          5,
+          14,
+          15
+        ],
+        "cp500": [
+          5,
+          15,
+          15,
+          14
+        ]
+      },
+      "dex": 121,
+      "eliteMoves": [
+        "TACKLE"
+      ],
+      "family": {
+        "id": "FAMILY_STARYU",
+        "parent": "staryu"
+      },
+      "fastMoves": [
+        "HIDDEN_POWER_BUG",
+        "HIDDEN_POWER_DARK",
+        "HIDDEN_POWER_DRAGON",
+        "HIDDEN_POWER_ELECTRIC",
+        "HIDDEN_POWER_FIGHTING",
+        "HIDDEN_POWER_FIRE",
+        "HIDDEN_POWER_FLYING",
+        "HIDDEN_POWER_GHOST",
+        "HIDDEN_POWER_GRASS",
+        "HIDDEN_POWER_GROUND",
+        "HIDDEN_POWER_ICE",
+        "HIDDEN_POWER_POISON",
+        "HIDDEN_POWER_PSYCHIC",
+        "HIDDEN_POWER_ROCK",
+        "HIDDEN_POWER_STEEL",
+        "HIDDEN_POWER_WATER",
+        "QUICK_ATTACK",
+        "TACKLE",
+        "WATER_GUN",
+        "PSYWAVE"
+      ],
+      "legacyMoves": [
+        "QUICK_ATTACK"
+      ],
+      "level25CP": 1582,
+      "released": true,
+      "searchPriority": null,
+      "speciesId": "starmie_mega",
+      "speciesName": "Starmie (Mega)",
+      "tags": [
+        "shadoweligible",
+        "mega"
       ],
       "thirdMoveCost": 50000,
       "types": [
@@ -105871,6 +106236,6 @@
     "fraxure",
     "haxorus"
   ],
-  "timestamp": "2026-07-30 21:39:36",
+  "timestamp": "2026-08-10 00:03:32",
   "title": "Default"
 }
