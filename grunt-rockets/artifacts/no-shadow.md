@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-08-05
+- **Date generated**: 2026-08-12
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -380,9 +380,9 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Delphox** using _Scratch_ (48%)
 - **Ursaluna** using _Tackle_ (45%)
 - **Purugly** using _Scratch_ (44%)
+- **Starmie (Mega)** using _Tackle_ (43%)
 - **Bewear** using _Tackle_ (42%)
 - **Zorua (Hisuian)** using _Scratch_ (41%)
-- **Arboliva** using _Tackle_ (41%)
 
 ### Highest **poison** (🐍) fast move damage:
 
