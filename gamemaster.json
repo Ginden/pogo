@@ -1585,23 +1585,10 @@
     },
     {
       "cp": 1500,
-      "cup": "weather",
-      "meta": "weather",
-      "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Fire-, Water-, Ice-, and Rock-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Weather Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "evolution",
       "meta": "evolution",
       "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
+        "Pokémon must be at or below 1, 500 CP to enter.",
         "Only Pokémon that have evolved at least once and can evolve again will be eligible."
       ],
       "showCup": true,
@@ -1614,8 +1601,8 @@
       "cup": "scroll",
       "meta": "scroll",
       "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Water-, Fighting-, and Dark-type Pokémon are eligible."
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Water-,  Fighting-,  and Dark-type Pokémon are eligible."
       ],
       "showCup": true,
       "showFormat": true,
@@ -1629,7 +1616,7 @@
       "meta": "mega",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
+        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": false,
@@ -1643,7 +1630,7 @@
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
+        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": false,
@@ -79522,6 +79509,70 @@
     },
     {
       "baseStats": {
+        "atk": 242,
+        "def": 282,
+        "hp": 204
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "GYRO_BALL",
+        "ENERGY_BALL",
+        "SUPER_POWER",
+        "SOLAR_BEAM",
+        "FRENZY_PLANT",
+        "THUNDER_PUNCH"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          13.5,
+          4,
+          14,
+          12
+        ],
+        "cp2500": [
+          22.5,
+          4,
+          11,
+          14
+        ],
+        "cp500": [
+          4.5,
+          15,
+          15,
+          14
+        ]
+      },
+      "dex": 652,
+      "eliteMoves": [
+        "FRENZY_PLANT"
+      ],
+      "family": {
+        "id": "FAMILY_CHESPIN",
+        "parent": "quilladin"
+      },
+      "fastMoves": [
+        "LOW_KICK",
+        "SMACK_DOWN",
+        "VINE_WHIP"
+      ],
+      "level25CP": 1829,
+      "released": false,
+      "searchPriority": null,
+      "speciesId": "chesnaught_mega",
+      "speciesName": "Chesnaught (Mega)",
+      "tags": [
+        "starter",
+        "shadoweligible",
+        "mega"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "grass",
+        "fighting"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 201,
         "def": 204,
         "hp": 204
@@ -79875,6 +79926,70 @@
     },
     {
       "baseStats": {
+        "atk": 331,
+        "def": 235,
+        "hp": 181
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "PSYCHIC",
+        "FLAMETHROWER",
+        "FLAME_CHARGE",
+        "FIRE_BLAST",
+        "BLAST_BURN",
+        "MYSTICAL_FIRE",
+        "PSYSHOCK"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          11.5,
+          5,
+          14,
+          9
+        ],
+        "cp2500": [
+          19,
+          4,
+          11,
+          15
+        ],
+        "cp500": [
+          4,
+          14,
+          15,
+          15
+        ]
+      },
+      "dex": 655,
+      "eliteMoves": [
+        "BLAST_BURN"
+      ],
+      "family": {
+        "id": "FAMILY_FENNEKIN",
+        "parent": "braixen"
+      },
+      "fastMoves": [
+        "SCRATCH",
+        "FIRE_SPIN",
+        "ZEN_HEADBUTT"
+      ],
+      "level25CP": 1897,
+      "released": false,
+      "speciesId": "delphox_mega",
+      "speciesName": "Delphox (Mega)",
+      "tags": [
+        "starter",
+        "shadoweligible",
+        "mega"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "fire",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 230,
         "def": 189,
         "hp": 181
@@ -80218,6 +80333,69 @@
       "tags": [
         "starter",
         "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "water",
+        "dark"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 299,
+        "def": 180,
+        "hp": 176
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "NIGHT_SLASH",
+        "AERIAL_ACE",
+        "SURF",
+        "HYDRO_PUMP",
+        "HYDRO_CANNON"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          14.5,
+          4,
+          11,
+          15
+        ],
+        "cp2500": [
+          24,
+          5,
+          14,
+          14
+        ],
+        "cp500": [
+          5,
+          9,
+          15,
+          14
+        ]
+      },
+      "dex": 658,
+      "eliteMoves": [
+        "HYDRO_CANNON"
+      ],
+      "family": {
+        "id": "FAMILY_FROAKIE",
+        "parent": "frogadier"
+      },
+      "fastMoves": [
+        "FEINT_ATTACK",
+        "BUBBLE",
+        "WATER_SHURIKEN"
+      ],
+      "level25CP": 1627,
+      "released": false,
+      "searchPriority": null,
+      "speciesId": "greninja_mega",
+      "speciesName": "Greninja (Mega)",
+      "tags": [
+        "starter",
+        "shadoweligible",
+        "mega"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -93846,7 +94024,8 @@
       "buddyDistance": 1,
       "chargedMoves": [
         "NIGHT_SLASH",
-        "PLAY_ROUGH"
+        "PLAY_ROUGH",
+        "ICY_WIND"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -93869,6 +94048,9 @@
         ]
       },
       "dex": 828,
+      "eliteMoves": [
+        "ICY_WIND"
+      ],
       "family": {
         "id": "FAMILY_NICKIT",
         "parent": "nickit"
@@ -94818,7 +95000,7 @@
         "BITE",
         "PECK"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "arrokuda",
       "speciesName": "Arrokuda",
       "thirdMoveCost": 50000,
@@ -94869,9 +95051,12 @@
         "BITE",
         "PECK"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "barraskewda",
       "speciesName": "Barraskewda",
+      "tags": [
+        "include1500"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "water",
@@ -106236,6 +106421,6 @@
     "fraxure",
     "haxorus"
   ],
-  "timestamp": "2026-08-10 00:03:32",
+  "timestamp": "2026-08-18 07:03:52",
   "title": "Default"
 }
