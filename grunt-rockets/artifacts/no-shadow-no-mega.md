@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-08-12
+- **Date generated**: 2026-08-19
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -84,11 +84,11 @@
 - **Kyogre** using _Waterfall_ (92%)
 - **Glimmora** using _Rock Throw_ (92%)
 - **Terrakion** using _Smack Down_ (89%)
+- **Barraskewda** using _Waterfall_ (88%)
 - **Lycanroc (Dusk)** using _Rock Throw_ (88%)
 - **Excadrill** using _Mud Slap_ (87%)
 - **Urshifu (Rapid Strike)** using _Waterfall_ (87%)
 - **Lycanroc (Midday)** using _Rock Throw_ (87%)
-- **Tyranitar** using _Smack Down_ (86%)
 
 # Anti-Flying 🕊️
 
@@ -435,6 +435,7 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 ### Highest **water** (💧) fast move damage:
 
 - **Kyogre** using _Waterfall_ (69%)
+- **Barraskewda** using _Waterfall_ (66%)
 - **Urshifu (Rapid Strike)** using _Waterfall_ (65%)
 - **Sharpedo** using _Waterfall_ (62%)
 - **Gyarados** using _Waterfall_ (61%)
@@ -442,4 +443,3 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Crawdaunt** using _Waterfall_ (58%)
 - **Floatzel** using _Waterfall_ (57%)
 - **Kabutops** using _Waterfall_ (57%)
-- **Golisopod** using _Waterfall_ (56%)

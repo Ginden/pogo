@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-08-12
+- **Date generated**: 2026-08-19
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -438,8 +438,8 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Gyarados (Mega)** using _Waterfall_ (66%)
 - **Sharpedo (Mega)** using _Waterfall_ (65%)
 - **Kyogre** using _Waterfall_ (61%)
+- **Barraskewda** using _Waterfall_ (58%)
 - **Urshifu (Rapid Strike)** using _Waterfall_ (58%)
 - **Sharpedo** using _Waterfall_ (55%)
 - **Gyarados** using _Waterfall_ (54%)
 - **Primarina** using _Waterfall_ (53%)
-- **Swampert (Mega)** using _Water Gun_ (52%)

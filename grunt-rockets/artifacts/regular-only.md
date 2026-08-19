@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 - **Exclude unreleased**: true
-- **Date generated**: 2026-08-12
+- **Date generated**: 2026-08-19
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -82,13 +82,13 @@
 
 - **Rampardos** using _Smack Down_ (100%)
 - **Glimmora** using _Rock Throw_ (92%)
+- **Barraskewda** using _Waterfall_ (88%)
 - **Lycanroc (Dusk)** using _Rock Throw_ (88%)
 - **Excadrill** using _Mud Slap_ (87%)
 - **Lycanroc (Midday)** using _Rock Throw_ (87%)
 - **Tyranitar** using _Smack Down_ (86%)
 - **Tyrantrum** using _Rock Throw_ (85%)
 - **Mamoswine** using _Mud Slap_ (85%)
-- **Glimmora** using _Smack Down_ (84%)
 
 # Anti-Flying 🕊️
 
@@ -136,7 +136,7 @@
 - **Arboliva** using _Razor Leaf_ (91%)
 - **Leafeon** using _Razor Leaf_ (90%)
 - **Decidueye** using _Razor Leaf_ (87%)
-- **Victreebel** using _Razor Leaf_ (86%)
+- **Barraskewda** using _Waterfall_ (86%)
 
 # Anti-Ice ❄️
 
@@ -250,7 +250,7 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 - **Grimmsnarl** using _Sucker Punch_ (82%)
 - **Cacturne** using _Sucker Punch_ (80%)
 - **Gengar** using _Sucker Punch_ (78%)
-- **Polteageist** using _Sucker Punch_ (74%)
+- **Barraskewda** using _Bite_ (77%)
 
 ### Highest **dragon** (🐉) fast move damage:
 
@@ -434,6 +434,7 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 
 ### Highest **water** (💧) fast move damage:
 
+- **Barraskewda** using _Waterfall_ (85%)
 - **Sharpedo** using _Waterfall_ (80%)
 - **Gyarados** using _Waterfall_ (78%)
 - **Primarina** using _Waterfall_ (77%)
@@ -442,4 +443,3 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 - **Kabutops** using _Waterfall_ (73%)
 - **Golisopod** using _Waterfall_ (72%)
 - **Golisopod** using _Waterfall_ (72%)
-- **Samurott (Hisuian)** using _Waterfall_ (72%)

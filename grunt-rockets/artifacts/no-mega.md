@@ -2,7 +2,7 @@
 
 - **Excluded tags**: mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-08-12
+- **Date generated**: 2026-08-19
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -440,6 +440,6 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Crawdaunt (Shadow)** using _Waterfall_ (69%)
 - **Kyogre** using _Waterfall_ (69%)
 - **Kabutops (Shadow)** using _Waterfall_ (68%)
+- **Barraskewda** using _Waterfall_ (66%)
 - **Samurott (Shadow)** using _Waterfall_ (66%)
 - **Empoleon (Shadow)** using _Waterfall_ (65%)
-- **Urshifu (Rapid Strike)** using _Waterfall_ (65%)
