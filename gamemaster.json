@@ -1585,19 +1585,6 @@
     },
     {
       "cp": 1500,
-      "cup": "evolution",
-      "meta": "evolution",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Pokémon that have evolved at least once and can evolve again will be eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Evolution Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "scroll",
       "meta": "scroll",
       "rules": [
@@ -3404,6 +3391,55 @@
       "power": 90,
       "turns": 1,
       "type": "grass"
+    },
+    {
+      "archetype": "Debuff",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        0,
+        -1
+      ],
+      "category": "charged",
+      "cooldown": 500,
+      "damageMethod": "percentMaxHP",
+      "energy": 0,
+      "energyGain": 0,
+      "moveId": "GULP_MISSILE_ARROKUDA",
+      "name": "Gulp Missile (Arrokuda)",
+      "power": 15,
+      "tags": [
+        "instant",
+        "ignoresFaint",
+        "unlisted",
+        "uneditable"
+      ],
+      "turns": 1,
+      "type": "water"
+    },
+    {
+      "archetype": "Debuff",
+      "buffApplyChance": "1",
+      "buffTarget": "opponent",
+      "buffs": [
+        -2,
+        0
+      ],
+      "category": "charged",
+      "cooldown": 500,
+      "damageMethod": "percentMaxHP",
+      "energy": 0,
+      "energyGain": 0,
+      "moveId": "GULP_MISSILE_PIKACHU",
+      "name": "Gulp Missile (Pikachu)",
+      "power": 15,
+      "tags": [
+        "instant",
+        "ignoresFaint",
+        "uneditable"
+      ],
+      "turns": 1,
+      "type": "water"
     },
     {
       "archetype": "Nuke",
@@ -27770,6 +27806,9 @@
         "SHADOW_BALL",
         "HYPER_BEAM"
       ],
+      "extraChargedMoves": [
+        "DYNAMIC_PUNCH"
+      ],
       "fastMoves": [
         "CONFUSION",
         "PSYCHO_CUT",
@@ -27836,6 +27875,9 @@
         "PSYSTRIKE",
         "SHADOW_BALL",
         "HYPER_BEAM"
+      ],
+      "extraChargedMoves": [
+        "FUTURE_SIGHT"
       ],
       "fastMoves": [
         "CONFUSION",
@@ -94943,13 +94985,145 @@
         ]
       },
       "dex": 845,
+      "extraChargedMoves": [
+        "GULP_MISSILE_ARROKUDA",
+        "GULP_MISSILE_PIKACHU"
+      ],
       "fastMoves": [
         "PECK",
         "WATER_GUN"
       ],
-      "released": false,
+      "formChange": {
+        "alternativeFormId": "variable",
+        "moveIDs": [
+          "DIVE",
+          "SURF"
+        ],
+        "resetOnSwitch": true,
+        "trigger": "charged_move",
+        "type": "set"
+      },
+      "originalFormId": "cramorant",
+      "released": true,
+      "searchPriority": 4,
       "speciesId": "cramorant",
       "speciesName": "Cramorant",
+      "thirdMoveCost": 50000,
+      "types": [
+        "flying",
+        "water"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 173,
+        "def": 163,
+        "hp": 172
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "FLY",
+        "HYDRO_PUMP",
+        "SURF",
+        "DIVE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          26,
+          5,
+          15,
+          13
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          9,
+          4,
+          8,
+          11
+        ]
+      },
+      "dex": 845,
+      "extraChargedMoves": [
+        "GULP_MISSILE_ARROKUDA"
+      ],
+      "fastMoves": [
+        "PECK",
+        "WATER_GUN"
+      ],
+      "formChange": {
+        "alternativeFormId": "cramorant",
+        "moveId": "GULP_MISSILE_ARROKUDA",
+        "resetOnSwitch": true,
+        "trigger": "charged_move",
+        "type": "set"
+      },
+      "originalFormId": "cramorant",
+      "released": false,
+      "speciesId": "cramorant_gulping",
+      "speciesName": "Cramorant (Gulping)",
+      "thirdMoveCost": 50000,
+      "types": [
+        "flying",
+        "water"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 173,
+        "def": 163,
+        "hp": 172
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "FLY",
+        "HYDRO_PUMP",
+        "SURF",
+        "DIVE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          26,
+          5,
+          15,
+          13
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          9,
+          4,
+          8,
+          11
+        ]
+      },
+      "dex": 845,
+      "extraChargedMoves": [
+        "GULP_MISSILE_PIKACHU"
+      ],
+      "fastMoves": [
+        "PECK",
+        "WATER_GUN"
+      ],
+      "formChange": {
+        "alternativeFormId": "cramorant",
+        "moveId": "GULP_MISSILE_PIKACHU",
+        "resetOnSwitch": true,
+        "trigger": "charged_move",
+        "type": "set"
+      },
+      "originalFormId": "cramorant",
+      "released": false,
+      "speciesId": "cramorant_gorging",
+      "speciesName": "Cramorant (Gorging)",
       "thirdMoveCost": 50000,
       "types": [
         "flying",
@@ -95055,7 +95229,8 @@
       "speciesId": "barraskewda",
       "speciesName": "Barraskewda",
       "tags": [
-        "include1500"
+        "include1500",
+        "include2500"
       ],
       "thirdMoveCost": 50000,
       "types": [
@@ -106421,6 +106596,6 @@
     "fraxure",
     "haxorus"
   ],
-  "timestamp": "2026-08-18 07:03:52",
+  "timestamp": "2026-08-21 21:27:11",
   "title": "Default"
 }
