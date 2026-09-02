@@ -1166,7 +1166,21 @@
       "useDefaultMovesets": 1
     },
     {
-      "exclude": [],
+      "exclude": [
+        {
+          "filterType": "id",
+          "leagues": [
+            1500
+          ],
+          "values": [
+            "mewtwo_mega_x",
+            "mewtwo_mega_y",
+            "kyogre_primal",
+            "groudon_primal",
+            "rayquaza_mega"
+          ]
+        }
+      ],
       "include": [],
       "name": "mega",
       "title": "All Pokemon"
@@ -1585,28 +1599,40 @@
     },
     {
       "cp": 1500,
-      "cup": "scroll",
-      "meta": "scroll",
+      "cup": "mega",
+      "meta": "megagreat",
       "rules": [
         "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Water-,  Fighting-,  and Dark-type Pokémon are eligible."
+        "Mega Evolutions are eligible."
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Scroll Cup"
+      "title": "Mega Great League"
+    },
+    {
+      "cp": 2500,
+      "cup": "mega",
+      "meta": "megaultra",
+      "rules": [
+        "Pokémon must be at or below 2, 500 CP to enter.",
+        "Mega Evolutions are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Mega Ultra League"
     },
     {
       "cp": 10000,
       "cup": "mega",
-      "hideRankings": true,
       "meta": "mega",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
+        "Mega Evolutions are eligible."
       ],
       "showCup": true,
-      "showFormat": false,
+      "showFormat": true,
       "showMeta": true,
       "title": "Mega Master League"
     },
@@ -10335,6 +10361,9 @@
       "eliteMoves": [
         "THUNDER"
       ],
+      "extraChargedMoves": [
+        "VOLT_TACKLE_PLUS"
+      ],
       "family": {
         "id": "FAMILY_PIKACHU",
         "parent": "pikachu"
@@ -10349,7 +10378,8 @@
       "speciesId": "raichu_mega_x",
       "speciesName": "Raichu (Mega X)",
       "tags": [
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -10397,6 +10427,9 @@
       "eliteMoves": [
         "THUNDER"
       ],
+      "extraChargedMoves": [
+        "ZAP_CANNON_PLUS"
+      ],
       "family": {
         "id": "FAMILY_PIKACHU",
         "parent": "pikachu"
@@ -10411,7 +10444,8 @@
       "speciesId": "raichu_mega_y",
       "speciesName": "Raichu (Mega Y)",
       "tags": [
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -16670,6 +16704,9 @@
       "eliteMoves": [
         "MAGICAL_LEAF"
       ],
+      "extraChargedMoves": [
+        "ACID_SPRAY_PLUS"
+      ],
       "family": {
         "id": "FAMILY_BELLSPROUT",
         "parent": "weepinbell"
@@ -16685,7 +16722,8 @@
       "speciesName": "Victreebel (Mega)",
       "tags": [
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 50000,
       "types": [
@@ -21271,7 +21309,7 @@
       ],
       "level25CP": 1263,
       "released": true,
-      "searchPriority": 4,
+      "searchPriority": 2,
       "speciesId": "electrode",
       "speciesName": "Electrode",
       "tags": [
@@ -24027,6 +24065,9 @@
       "eliteMoves": [
         "TACKLE"
       ],
+      "extraChargedMoves": [
+        "LIQUIDATION_PLUS"
+      ],
       "family": {
         "id": "FAMILY_STARYU",
         "parent": "staryu"
@@ -24063,7 +24104,8 @@
       "speciesName": "Starmie (Mega)",
       "tags": [
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 50000,
       "types": [
@@ -27548,6 +27590,9 @@
         "DRACO_METEOR",
         "DRAGON_PULSE"
       ],
+      "extraChargedMoves": [
+        "OUTRAGE_PLUS"
+      ],
       "family": {
         "id": "FAMILY_DRATINI",
         "parent": "dragonair"
@@ -27563,7 +27608,8 @@
       "speciesName": "Dragonite (Mega)",
       "tags": [
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 75000,
       "types": [
@@ -27626,7 +27672,7 @@
         "dnite"
       ],
       "released": true,
-      "searchPriority": 4,
+      "searchPriority": 7,
       "speciesId": "dragonite_shadow",
       "speciesName": "Dragonite (Shadow)",
       "tags": [
@@ -27679,14 +27725,12 @@
       "eliteMoves": [
         "PSYSTRIKE",
         "SHADOW_BALL",
-        "HYPER_BEAM"
+        "HYPER_BEAM",
+        "COUNTER"
       ],
       "fastMoves": [
         "CONFUSION",
         "PSYCHO_CUT",
-        "COUNTER"
-      ],
-      "legacyMoves": [
         "COUNTER"
       ],
       "level25CP": 2641,
@@ -27807,7 +27851,7 @@
         "HYPER_BEAM"
       ],
       "extraChargedMoves": [
-        "DYNAMIC_PUNCH"
+        "DYNAMIC_PUNCH_PLUS"
       ],
       "fastMoves": [
         "CONFUSION",
@@ -27825,7 +27869,8 @@
       "tags": [
         "legendary",
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -27877,7 +27922,7 @@
         "HYPER_BEAM"
       ],
       "extraChargedMoves": [
-        "FUTURE_SIGHT"
+        "FUTURE_SIGHT_PLUS"
       ],
       "fastMoves": [
         "CONFUSION",
@@ -27890,12 +27935,14 @@
       "level25CP": 2641,
       "levelFloor": 15,
       "released": true,
+      "searchPriority": 4,
       "speciesId": "mewtwo_mega_y",
       "speciesName": "Mewtwo (Mega Y)",
       "tags": [
         "legendary",
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -36081,6 +36128,9 @@
         ]
       },
       "dex": 227,
+      "extraChargedMoves": [
+        "DRILL_PECK_PLUS"
+      ],
       "fastMoves": [
         "AIR_SLASH",
         "STEEL_WING"
@@ -36092,7 +36142,8 @@
       "speciesName": "Skarmory (Mega)",
       "tags": [
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 75000,
       "types": [
@@ -59599,7 +59650,7 @@
         "ICE_FANG"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 5,
       "speciesId": "drapion_shadow",
       "speciesName": "Drapion (Shadow)",
       "tags": [
@@ -79588,6 +79639,9 @@
       "eliteMoves": [
         "FRENZY_PLANT"
       ],
+      "extraChargedMoves": [
+        "SEED_BOMB_PLUS"
+      ],
       "family": {
         "id": "FAMILY_CHESPIN",
         "parent": "quilladin"
@@ -79598,14 +79652,15 @@
         "VINE_WHIP"
       ],
       "level25CP": 1829,
-      "released": false,
+      "released": true,
       "searchPriority": null,
       "speciesId": "chesnaught_mega",
       "speciesName": "Chesnaught (Mega)",
       "tags": [
         "starter",
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -80006,6 +80061,9 @@
       "eliteMoves": [
         "BLAST_BURN"
       ],
+      "extraChargedMoves": [
+        "MYSTICAL_FIRE_PLUS"
+      ],
       "family": {
         "id": "FAMILY_FENNEKIN",
         "parent": "braixen"
@@ -80016,13 +80074,14 @@
         "ZEN_HEADBUTT"
       ],
       "level25CP": 1897,
-      "released": false,
+      "released": true,
       "speciesId": "delphox_mega",
       "speciesName": "Delphox (Mega)",
       "tags": [
         "starter",
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -80420,6 +80479,9 @@
       "eliteMoves": [
         "HYDRO_CANNON"
       ],
+      "extraChargedMoves": [
+        "SURF_PLUS"
+      ],
       "family": {
         "id": "FAMILY_FROAKIE",
         "parent": "frogadier"
@@ -80430,14 +80492,15 @@
         "WATER_SHURIKEN"
       ],
       "level25CP": 1627,
-      "released": false,
+      "released": true,
       "searchPriority": null,
       "speciesId": "greninja_mega",
       "speciesName": "Greninja (Mega)",
       "tags": [
         "starter",
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -82646,6 +82709,9 @@
         ]
       },
       "dex": 687,
+      "extraChargedMoves": [
+        "PSYBEAM_PLUS"
+      ],
       "family": {
         "id": "FAMILY_INKAY",
         "parent": "inkay"
@@ -82661,7 +82727,8 @@
       "speciesName": "Malamar (Mega)",
       "tags": [
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 50000,
       "types": [
@@ -96674,6 +96741,9 @@
         ]
       },
       "dex": 870,
+      "extraChargedMoves": [
+        "BRICK_BREAK_PLUS"
+      ],
       "fastMoves": [
         "ROCK_SMASH",
         "COUNTER"
@@ -96682,7 +96752,8 @@
       "speciesId": "falinks_mega",
       "speciesName": "Falinks (Mega)",
       "tags": [
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 75000,
       "types": [
@@ -105984,6 +106055,7 @@
     "include2500",
     "legendary",
     "mega",
+    "supermega",
     "mythical",
     "paldean",
     "regional",
@@ -106596,6 +106668,6 @@
     "fraxure",
     "haxorus"
   ],
-  "timestamp": "2026-08-21 21:27:11",
+  "timestamp": "2026-09-01 18:36:39",
   "title": "Default"
 }
