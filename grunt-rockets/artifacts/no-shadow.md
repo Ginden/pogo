@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-08-26
+- **Date generated**: 2026-09-02
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -10,13 +10,13 @@
 
 - **Diancie (Mega)** using _Rock Throw_ (100%)
 - **Blacephalon** using _Incinerate_ (92%)
+- **Delphox (Mega)** using _Fire Spin_ (89%)
 - **Blaziken (Mega)** using _Fire Spin_ (88%)
 - **Aerodactyl (Mega)** using _Rock Throw_ (86%)
 - **Charizard (Mega Y)** using _Fire Spin_ (86%)
 - **Houndoom (Mega)** using _Fire Fang_ (85%)
 - **Tyranitar (Mega)** using _Smack Down_ (83%)
 - **Pidgeot (Mega)** using _Gust_ (83%)
-- **Rayquaza (Mega)** using _Air Slash_ (82%)
 
 # Anti-Dark 🌌
 
@@ -121,10 +121,10 @@
 - **Kyurem (White)** using _Ice Fang_ (98%)
 - **Pinsir (Mega)** using _Bug Bite_ (97%)
 - **Beedrill (Mega)** using _Bug Bite_ (96%)
+- **Delphox (Mega)** using _Fire Spin_ (96%)
 - **Blaziken (Mega)** using _Fire Spin_ (95%)
 - **Charizard (Mega Y)** using _Fire Spin_ (93%)
 - **Houndoom (Mega)** using _Fire Fang_ (92%)
-- **Pidgeot (Mega)** using _Gust_ (89%)
 
 # Anti-Ground 🏜️
 
@@ -208,7 +208,7 @@
 - **Blacephalon** using _Incinerate_ (80%)
 - **Lucario (Mega)** using _Counter_ (79%)
 - **Alakazam (Mega)** using _Counter_ (77%)
-- **Blaziken (Mega)** using _Fire Spin_ (76%)
+- **Delphox (Mega)** using _Fire Spin_ (77%)
 
 # Anti-Water 💧
 
@@ -303,6 +303,7 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 ### Highest **fire** (🔥) fast move damage:
 
 - **Blacephalon** using _Incinerate_ (77%)
+- **Delphox (Mega)** using _Fire Spin_ (74%)
 - **Blaziken (Mega)** using _Fire Spin_ (74%)
 - **Charizard (Mega Y)** using _Fire Spin_ (72%)
 - **Houndoom (Mega)** using _Fire Fang_ (71%)
@@ -310,7 +311,6 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Chandelure** using _Incinerate_ (67%)
 - **Darmanitan (Standard)** using _Fire Fang_ (65%)
 - **Darmanitan (Standard)** using _Incinerate_ (65%)
-- **Salamence (Mega)** using _Fire Fang_ (63%)
 
 ### Highest **flying** (🕊️) fast move damage:
 
@@ -374,6 +374,7 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 
 ### Highest **normal** (⚪) fast move damage:
 
+- **Delphox (Mega)** using _Scratch_ (67%)
 - **Diancie (Mega)** using _Tackle_ (52%)
 - **Ambipom** using _Scratch_ (51%)
 - **Rillaboom** using _Scratch_ (49%)
@@ -382,7 +383,6 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Purugly** using _Scratch_ (44%)
 - **Starmie (Mega)** using _Tackle_ (43%)
 - **Bewear** using _Tackle_ (42%)
-- **Zorua (Hisuian)** using _Scratch_ (41%)
 
 ### Highest **poison** (🐍) fast move damage:
 

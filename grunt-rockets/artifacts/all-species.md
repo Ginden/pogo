@@ -2,7 +2,7 @@
 
 - **Excluded tags**: none
 - **Exclude unreleased**: true
-- **Date generated**: 2026-08-26
+- **Date generated**: 2026-09-02
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -15,8 +15,8 @@
 - **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (93%)
 - **Darmanitan (Standard) (Shadow)** using _Incinerate_ (93%)
 - **Blacephalon** using _Incinerate_ (92%)
+- **Delphox (Mega)** using _Fire Spin_ (89%)
 - **Blaziken (Mega)** using _Fire Spin_ (88%)
-- **Chandelure (Shadow)** using _Fire Spin_ (88%)
 
 # Anti-Dark 🌌
 
@@ -307,10 +307,10 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (78%)
 - **Darmanitan (Standard) (Shadow)** using _Incinerate_ (78%)
 - **Blacephalon** using _Incinerate_ (77%)
+- **Delphox (Mega)** using _Fire Spin_ (74%)
 - **Blaziken (Mega)** using _Fire Spin_ (74%)
 - **Chandelure (Shadow)** using _Fire Spin_ (74%)
 - **Charizard (Mega Y)** using _Fire Spin_ (72%)
-- **Ho-Oh (Shadow)** using _Incinerate_ (71%)
 
 ### Highest **flying** (🕊️) fast move damage:
 
@@ -374,6 +374,7 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 
 ### Highest **normal** (⚪) fast move damage:
 
+- **Delphox (Mega)** using _Scratch_ (67%)
 - **Ambipom (Shadow)** using _Scratch_ (62%)
 - **Delphox (Shadow)** using _Scratch_ (57%)
 - **Ursaluna (Shadow)** using _Tackle_ (54%)
@@ -382,7 +383,6 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Ambipom** using _Scratch_ (51%)
 - **Bewear (Shadow)** using _Tackle_ (51%)
 - **Rillaboom** using _Scratch_ (49%)
-- **Vigoroth (Shadow)** using _Scratch_ (49%)
 
 ### Highest **poison** (🐍) fast move damage:
 
