@@ -2,7 +2,7 @@
 
 - **Excluded tags**: none
 - **Exclude unreleased**: true
-- **Date generated**: 2026-09-02
+- **Date generated**: 2026-09-09
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -104,15 +104,15 @@
 
 # Anti-Ghost 👻
 
-- **Blacephalon** using _Astonish_ (100%)
-- **Hydreigon (Shadow)** using _Bite_ (99%)
-- **Tyranitar (Mega)** using _Bite_ (98%)
-- **Tyranitar (Shadow)** using _Bite_ (97%)
-- **Sharpedo (Shadow)** using _Bite_ (94%)
-- **Gyarados (Mega)** using _Bite_ (93%)
-- **Sharpedo (Mega)** using _Bite_ (92%)
-- **Gengar (Mega)** using _Sucker Punch_ (92%)
-- **Salamence (Shadow)** using _Bite_ (89%)
+- **Darkrai (Shadow)** using _Sucker Punch_ (100%)
+- **Chandelure (Shadow)** using _Astonish_ (95%)
+- **Blacephalon** using _Astonish_ (92%)
+- **Gengar (Mega)** using _Sucker Punch_ (84%)
+- **Darkrai** using _Sucker Punch_ (83%)
+- **Chandelure** using _Astonish_ (79%)
+- **Haunter (Shadow)** using _Astonish_ (79%)
+- **Golurk (Shadow)** using _Astonish_ (79%)
+- **Cacturne (Shadow)** using _Sucker Punch_ (79%)
 
 # Anti-Grass 🌱
 
@@ -176,15 +176,15 @@
 
 # Anti-Psychic 🔮
 
-- **Pheromosa** using _Bug Bite_ (100%)
-- **Blacephalon** using _Astonish_ (100%)
-- **Hydreigon (Shadow)** using _Bite_ (98%)
-- **Tyranitar (Mega)** using _Bite_ (98%)
-- **Vikavolt (Shadow)** using _Bug Bite_ (97%)
-- **Pinsir (Mega)** using _Bug Bite_ (97%)
-- **Tyranitar (Shadow)** using _Bite_ (96%)
-- **Beedrill (Mega)** using _Bug Bite_ (96%)
-- **Sharpedo (Shadow)** using _Bite_ (94%)
+- **Darkrai (Shadow)** using _Sucker Punch_ (100%)
+- **Chandelure (Shadow)** using _Astonish_ (95%)
+- **Pheromosa** using _Bug Bite_ (92%)
+- **Blacephalon** using _Astonish_ (92%)
+- **Vikavolt (Shadow)** using _Bug Bite_ (90%)
+- **Pinsir (Mega)** using _Bug Bite_ (89%)
+- **Beedrill (Mega)** using _Bug Bite_ (88%)
+- **Pinsir (Shadow)** using _Bug Bite_ (84%)
+- **Gengar (Mega)** using _Sucker Punch_ (84%)
 
 # Anti-Rock 🪨
 
@@ -242,15 +242,15 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 
 ### Highest **dark** (🌌) fast move damage:
 
-- **Hydreigon (Shadow)** using _Bite_ (76%)
-- **Tyranitar (Mega)** using _Bite_ (76%)
-- **Tyranitar (Shadow)** using _Bite_ (75%)
-- **Sharpedo (Shadow)** using _Bite_ (72%)
-- **Gyarados (Mega)** using _Bite_ (72%)
-- **Sharpedo (Mega)** using _Bite_ (71%)
+- **Darkrai (Shadow)** using _Sucker Punch_ (84%)
 - **Gengar (Mega)** using _Sucker Punch_ (71%)
-- **Salamence (Shadow)** using _Bite_ (68%)
+- **Darkrai** using _Sucker Punch_ (70%)
 - **Cacturne (Shadow)** using _Sucker Punch_ (66%)
+- **Gengar (Shadow)** using _Sucker Punch_ (65%)
+- **Darkrai (Shadow)** using _Feint Attack_ (63%)
+- **Urshifu (Single Strike)** using _Sucker Punch_ (63%)
+- **Yveltal** using _Sucker Punch_ (62%)
+- **Grimmsnarl** using _Sucker Punch_ (57%)
 
 ### Highest **dragon** (🐉) fast move damage:
 
@@ -320,21 +320,21 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Yveltal** using _Gust_ (62%)
 - **Tornadus (Incarnate) (Shadow)** using _Air Slash_ (59%)
 - **Tornadus (Therian)** using _Gust_ (59%)
+- **Crobat (Shadow)** using _Gust_ (59%)
 - **Charizard (Mega Y)** using _Air Slash_ (59%)
 - **Staraptor** using _Gust_ (58%)
-- **Swanna (Shadow)** using _Gust_ (55%)
 
 ### Highest **ghost** (👻) fast move damage:
 
+- **Chandelure (Shadow)** using _Astonish_ (80%)
 - **Blacephalon** using _Astonish_ (77%)
+- **Chandelure** using _Astonish_ (67%)
 - **Haunter (Shadow)** using _Astonish_ (67%)
 - **Golurk (Shadow)** using _Astonish_ (66%)
 - **Dragapult** using _Astonish_ (66%)
 - **Thundurus (Incarnate) (Shadow)** using _Astonish_ (66%)
 - **Hoopa** using _Astonish_ (65%)
 - **Gengar (Mega)** using _Lick_ (64%)
-- **Gengar (Mega)** using _Shadow Claw_ (64%)
-- **Hoopa (Unbound)** using _Astonish_ (63%)
 
 ### Highest **grass** (🌱) fast move damage:
 
@@ -374,15 +374,15 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 
 ### Highest **normal** (⚪) fast move damage:
 
-- **Delphox (Mega)** using _Scratch_ (67%)
-- **Ambipom (Shadow)** using _Scratch_ (62%)
-- **Delphox (Shadow)** using _Scratch_ (57%)
-- **Ursaluna (Shadow)** using _Tackle_ (54%)
-- **Purugly (Shadow)** using _Scratch_ (52%)
-- **Diancie (Mega)** using _Tackle_ (52%)
-- **Ambipom** using _Scratch_ (51%)
-- **Bewear (Shadow)** using _Tackle_ (51%)
-- **Rillaboom** using _Scratch_ (49%)
+- **Pyroar** using _Take Down_ (64%)
+- **Cranidos (Shadow)** using _Take Down_ (64%)
+- **Volcanion** using _Take Down_ (61%)
+- **Stoutland** using _Take Down_ (60%)
+- **Sawsbuck** using _Take Down_ (58%)
+- **Bibarel (Shadow)** using _Take Down_ (58%)
+- **Gumshoos** using _Take Down_ (57%)
+- **Oinkologne** using _Take Down_ (55%)
+- **Tatsugiri (Curly)** using _Take Down_ (55%)
 
 ### Highest **poison** (🐍) fast move damage:
 

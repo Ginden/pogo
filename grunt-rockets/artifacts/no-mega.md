@@ -2,7 +2,7 @@
 
 - **Excluded tags**: mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-09-02
+- **Date generated**: 2026-09-09
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -104,15 +104,15 @@
 
 # Anti-Ghost 👻
 
-- **Blacephalon** using _Astonish_ (100%)
-- **Hydreigon (Shadow)** using _Bite_ (99%)
-- **Tyranitar (Shadow)** using _Bite_ (97%)
-- **Sharpedo (Shadow)** using _Bite_ (94%)
-- **Salamence (Shadow)** using _Bite_ (89%)
-- **Haunter (Shadow)** using _Astonish_ (87%)
-- **Golurk (Shadow)** using _Astonish_ (86%)
-- **Cacturne (Shadow)** using _Sucker Punch_ (86%)
-- **Tornadus (Incarnate) (Shadow)** using _Bite_ (85%)
+- **Darkrai (Shadow)** using _Sucker Punch_ (100%)
+- **Chandelure (Shadow)** using _Astonish_ (95%)
+- **Blacephalon** using _Astonish_ (92%)
+- **Darkrai** using _Sucker Punch_ (83%)
+- **Chandelure** using _Astonish_ (79%)
+- **Haunter (Shadow)** using _Astonish_ (79%)
+- **Golurk (Shadow)** using _Astonish_ (79%)
+- **Cacturne (Shadow)** using _Sucker Punch_ (79%)
+- **Dragapult** using _Astonish_ (78%)
 
 # Anti-Grass 🌱
 
@@ -176,15 +176,15 @@
 
 # Anti-Psychic 🔮
 
-- **Pheromosa** using _Bug Bite_ (100%)
-- **Blacephalon** using _Astonish_ (100%)
-- **Hydreigon (Shadow)** using _Bite_ (98%)
-- **Vikavolt (Shadow)** using _Bug Bite_ (97%)
-- **Tyranitar (Shadow)** using _Bite_ (96%)
-- **Sharpedo (Shadow)** using _Bite_ (94%)
-- **Pinsir (Shadow)** using _Bug Bite_ (92%)
-- **Salamence (Shadow)** using _Bite_ (88%)
-- **Escavalier (Shadow)** using _Bug Bite_ (86%)
+- **Darkrai (Shadow)** using _Sucker Punch_ (100%)
+- **Chandelure (Shadow)** using _Astonish_ (95%)
+- **Pheromosa** using _Bug Bite_ (92%)
+- **Blacephalon** using _Astonish_ (92%)
+- **Vikavolt (Shadow)** using _Bug Bite_ (90%)
+- **Pinsir (Shadow)** using _Bug Bite_ (84%)
+- **Darkrai** using _Sucker Punch_ (83%)
+- **Chandelure** using _Astonish_ (79%)
+- **Escavalier (Shadow)** using _Bug Bite_ (79%)
 
 # Anti-Rock 🪨
 
@@ -242,15 +242,15 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 ### Highest **dark** (🌌) fast move damage:
 
-- **Hydreigon (Shadow)** using _Bite_ (86%)
-- **Tyranitar (Shadow)** using _Bite_ (84%)
-- **Sharpedo (Shadow)** using _Bite_ (81%)
-- **Salamence (Shadow)** using _Bite_ (77%)
+- **Darkrai (Shadow)** using _Sucker Punch_ (95%)
+- **Darkrai** using _Sucker Punch_ (79%)
 - **Cacturne (Shadow)** using _Sucker Punch_ (74%)
-- **Tornadus (Incarnate) (Shadow)** using _Bite_ (74%)
 - **Gengar (Shadow)** using _Sucker Punch_ (73%)
-- **Hydreigon** using _Bite_ (71%)
 - **Darkrai (Shadow)** using _Feint Attack_ (71%)
+- **Urshifu (Single Strike)** using _Sucker Punch_ (71%)
+- **Yveltal** using _Sucker Punch_ (70%)
+- **Grimmsnarl** using _Sucker Punch_ (64%)
+- **Cacturne** using _Sucker Punch_ (62%)
 
 ### Highest **dragon** (🐉) fast move damage:
 
@@ -318,23 +318,23 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Yveltal** using _Gust_ (70%)
 - **Tornadus (Incarnate) (Shadow)** using _Air Slash_ (67%)
 - **Tornadus (Therian)** using _Gust_ (67%)
+- **Crobat (Shadow)** using _Gust_ (66%)
 - **Staraptor** using _Gust_ (65%)
 - **Swanna (Shadow)** using _Gust_ (62%)
 - **Honchkrow (Shadow)** using _Peck_ (61%)
 - **Archeops (Shadow)** using _Wing Attack_ (61%)
-- **Ho-Oh (Shadow)** using _Hidden Power (Flying)_ (60%)
 
 ### Highest **ghost** (👻) fast move damage:
 
+- **Chandelure (Shadow)** using _Astonish_ (90%)
 - **Blacephalon** using _Astonish_ (87%)
+- **Chandelure** using _Astonish_ (75%)
 - **Haunter (Shadow)** using _Astonish_ (75%)
 - **Golurk (Shadow)** using _Astonish_ (75%)
 - **Dragapult** using _Astonish_ (74%)
 - **Thundurus (Incarnate) (Shadow)** using _Astonish_ (74%)
 - **Hoopa** using _Astonish_ (73%)
 - **Hoopa (Unbound)** using _Astonish_ (71%)
-- **Cursola** using _Astonish_ (70%)
-- **Gholdengo** using _Astonish_ (70%)
 
 ### Highest **grass** (🌱) fast move damage:
 
@@ -374,15 +374,15 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 ### Highest **normal** (⚪) fast move damage:
 
-- **Ambipom (Shadow)** using _Scratch_ (69%)
-- **Delphox (Shadow)** using _Scratch_ (64%)
-- **Ursaluna (Shadow)** using _Tackle_ (61%)
-- **Purugly (Shadow)** using _Scratch_ (59%)
-- **Ambipom** using _Scratch_ (58%)
-- **Bewear (Shadow)** using _Tackle_ (57%)
-- **Rillaboom** using _Scratch_ (56%)
-- **Vigoroth (Shadow)** using _Scratch_ (55%)
-- **Darmanitan (Standard) (Shadow)** using _Tackle_ (55%)
+- **Pyroar** using _Take Down_ (72%)
+- **Cranidos (Shadow)** using _Take Down_ (72%)
+- **Volcanion** using _Take Down_ (68%)
+- **Stoutland** using _Take Down_ (68%)
+- **Sawsbuck** using _Take Down_ (65%)
+- **Bibarel (Shadow)** using _Take Down_ (65%)
+- **Gumshoos** using _Take Down_ (64%)
+- **Oinkologne** using _Take Down_ (62%)
+- **Tatsugiri (Curly)** using _Take Down_ (62%)
 
 ### Highest **poison** (🐍) fast move damage:
 

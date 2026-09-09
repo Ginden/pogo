@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 - **Exclude unreleased**: true
-- **Date generated**: 2026-09-02
+- **Date generated**: 2026-09-09
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -104,15 +104,15 @@
 
 # Anti-Ghost 👻
 
-- **Dragapult** using _Astonish_ (100%)
-- **Hydreigon** using _Bite_ (96%)
-- **Cursola** using _Astonish_ (95%)
-- **Gholdengo** using _Astonish_ (95%)
-- **Tyranitar** using _Bite_ (95%)
-- **Polteageist** using _Astonish_ (94%)
-- **Sharpedo** using _Bite_ (92%)
-- **Dhelmise** using _Astonish_ (88%)
-- **Salamence** using _Bite_ (87%)
+- **Chandelure** using _Astonish_ (100%)
+- **Dragapult** using _Astonish_ (98%)
+- **Cursola** using _Astonish_ (94%)
+- **Gholdengo** using _Astonish_ (93%)
+- **Polteageist** using _Astonish_ (92%)
+- **Dhelmise** using _Astonish_ (87%)
+- **Grimmsnarl** using _Sucker Punch_ (85%)
+- **Sinistcha** using _Astonish_ (84%)
+- **Haunter** using _Astonish_ (83%)
 
 # Anti-Grass 🌱
 
@@ -176,15 +176,15 @@
 
 # Anti-Psychic 🔮
 
-- **Dragapult** using _Astonish_ (100%)
-- **Volcarona** using _Bug Bite_ (99%)
-- **Hydreigon** using _Bite_ (96%)
-- **Vikavolt** using _Bug Bite_ (96%)
-- **Cursola** using _Astonish_ (95%)
-- **Gholdengo** using _Astonish_ (95%)
-- **Tyranitar** using _Bite_ (95%)
-- **Polteageist** using _Astonish_ (94%)
-- **Sharpedo** using _Bite_ (92%)
+- **Chandelure** using _Astonish_ (100%)
+- **Dragapult** using _Astonish_ (98%)
+- **Volcarona** using _Bug Bite_ (98%)
+- **Vikavolt** using _Bug Bite_ (94%)
+- **Cursola** using _Astonish_ (94%)
+- **Gholdengo** using _Astonish_ (93%)
+- **Polteageist** using _Astonish_ (92%)
+- **Pinsir** using _Bug Bite_ (88%)
+- **Dhelmise** using _Astonish_ (87%)
 
 # Anti-Rock 🪨
 
@@ -242,15 +242,15 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 
 ### Highest **dark** (🌌) fast move damage:
 
-- **Hydreigon** using _Bite_ (92%)
-- **Tyranitar** using _Bite_ (90%)
-- **Sharpedo** using _Bite_ (87%)
-- **Salamence** using _Bite_ (82%)
-- **Grimmsnarl** using _Bite_ (82%)
 - **Grimmsnarl** using _Sucker Punch_ (82%)
 - **Cacturne** using _Sucker Punch_ (80%)
 - **Gengar** using _Sucker Punch_ (78%)
-- **Barraskewda** using _Bite_ (77%)
+- **Polteageist** using _Sucker Punch_ (74%)
+- **Lokix** using _Sucker Punch_ (72%)
+- **Bombirdier** using _Sucker Punch_ (72%)
+- **Lycanroc (Dusk)** using _Sucker Punch_ (70%)
+- **Lycanroc (Midday)** using _Sucker Punch_ (69%)
+- **Weavile** using _Feint Attack_ (65%)
 
 ### Highest **dragon** (🐉) fast move damage:
 
@@ -315,17 +315,18 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 ### Highest **flying** (🕊️) fast move damage:
 
 - **Staraptor** using _Gust_ (84%)
+- **Crobat** using _Gust_ (71%)
 - **Swanna** using _Gust_ (67%)
 - **Honchkrow** using _Peck_ (65%)
 - **Archeops** using _Wing Attack_ (65%)
 - **Vivillon** using _Gust_ (65%)
 - **Braviary** using _Air Slash_ (63%)
+- **Flamigo** using _Peck_ (61%)
 - **Pidgeot** using _Gust_ (61%)
-- **Unfezant** using _Air Slash_ (61%)
-- **Togekiss** using _Peck_ (61%)
 
 ### Highest **ghost** (👻) fast move damage:
 
+- **Chandelure** using _Astonish_ (97%)
 - **Dragapult** using _Astonish_ (95%)
 - **Cursola** using _Astonish_ (91%)
 - **Gholdengo** using _Astonish_ (90%)
@@ -334,7 +335,6 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 - **Sinistcha** using _Astonish_ (81%)
 - **Haunter** using _Astonish_ (80%)
 - **Golurk** using _Astonish_ (80%)
-- **Decidueye** using _Astonish_ (76%)
 
 ### Highest **grass** (🌱) fast move damage:
 
@@ -374,15 +374,15 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 
 ### Highest **normal** (⚪) fast move damage:
 
-- **Ambipom** using _Scratch_ (74%)
-- **Rillaboom** using _Scratch_ (72%)
-- **Delphox** using _Scratch_ (69%)
-- **Ursaluna** using _Tackle_ (65%)
-- **Purugly** using _Scratch_ (63%)
-- **Bewear** using _Tackle_ (61%)
-- **Zorua (Hisuian)** using _Scratch_ (60%)
-- **Arboliva** using _Tackle_ (59%)
-- **Vigoroth** using _Scratch_ (59%)
+- **Pyroar** using _Take Down_ (93%)
+- **Stoutland** using _Take Down_ (87%)
+- **Sawsbuck** using _Take Down_ (84%)
+- **Gumshoos** using _Take Down_ (82%)
+- **Oinkologne** using _Take Down_ (79%)
+- **Tatsugiri (Curly)** using _Take Down_ (79%)
+- **Tatsugiri (Droopy)** using _Take Down_ (79%)
+- **Tatsugiri (Stretchy)** using _Take Down_ (79%)
+- **Passimian** using _Take Down_ (78%)
 
 ### Highest **poison** (🐍) fast move damage:
 

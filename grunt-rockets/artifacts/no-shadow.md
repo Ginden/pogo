@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-09-02
+- **Date generated**: 2026-09-09
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -15,8 +15,8 @@
 - **Aerodactyl (Mega)** using _Rock Throw_ (86%)
 - **Charizard (Mega Y)** using _Fire Spin_ (86%)
 - **Houndoom (Mega)** using _Fire Fang_ (85%)
+- **Houndoom (Mega)** using _Incinerate_ (85%)
 - **Tyranitar (Mega)** using _Smack Down_ (83%)
-- **Pidgeot (Mega)** using _Gust_ (83%)
 
 # Anti-Dark 🌌
 
@@ -105,14 +105,14 @@
 # Anti-Ghost 👻
 
 - **Blacephalon** using _Astonish_ (100%)
-- **Tyranitar (Mega)** using _Bite_ (98%)
-- **Gyarados (Mega)** using _Bite_ (93%)
-- **Sharpedo (Mega)** using _Bite_ (92%)
 - **Gengar (Mega)** using _Sucker Punch_ (92%)
+- **Darkrai** using _Sucker Punch_ (91%)
+- **Chandelure** using _Astonish_ (87%)
 - **Dragapult** using _Astonish_ (85%)
 - **Hoopa** using _Astonish_ (84%)
 - **Gengar (Mega)** using _Lick_ (83%)
 - **Gengar (Mega)** using _Shadow Claw_ (83%)
+- **Hoopa (Unbound)** using _Astonish_ (82%)
 
 # Anti-Grass 🌱
 
@@ -178,13 +178,13 @@
 
 - **Pheromosa** using _Bug Bite_ (100%)
 - **Blacephalon** using _Astonish_ (100%)
-- **Tyranitar (Mega)** using _Bite_ (98%)
 - **Pinsir (Mega)** using _Bug Bite_ (97%)
 - **Beedrill (Mega)** using _Bug Bite_ (96%)
-- **Gyarados (Mega)** using _Bite_ (93%)
-- **Sharpedo (Mega)** using _Bite_ (92%)
 - **Gengar (Mega)** using _Sucker Punch_ (92%)
+- **Darkrai** using _Sucker Punch_ (91%)
+- **Chandelure** using _Astonish_ (86%)
 - **Dragapult** using _Astonish_ (85%)
+- **Volcarona** using _Bug Bite_ (84%)
 
 # Anti-Rock 🪨
 
@@ -235,22 +235,22 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Beedrill (Mega)** using _Bug Bite_ (74%)
 - **Volcarona** using _Bug Bite_ (65%)
 - **Vikavolt** using _Bug Bite_ (63%)
+- **Beedrill (Mega)** using _Infestation_ (62%)
 - **Heracross (Mega)** using _Fury Cutter_ (61%)
 - **Heracross (Mega)** using _Struggle Bug_ (61%)
 - **Pinsir** using _Bug Bite_ (59%)
-- **Yanmega** using _Bug Bite_ (57%)
 
 ### Highest **dark** (🌌) fast move damage:
 
-- **Tyranitar (Mega)** using _Bite_ (76%)
-- **Gyarados (Mega)** using _Bite_ (72%)
-- **Sharpedo (Mega)** using _Bite_ (71%)
 - **Gengar (Mega)** using _Sucker Punch_ (71%)
-- **Hydreigon** using _Bite_ (63%)
-- **Salamence (Mega)** using _Bite_ (63%)
+- **Darkrai** using _Sucker Punch_ (70%)
 - **Urshifu (Single Strike)** using _Sucker Punch_ (63%)
-- **Tyranitar** using _Bite_ (62%)
 - **Yveltal** using _Sucker Punch_ (62%)
+- **Grimmsnarl** using _Sucker Punch_ (57%)
+- **Cacturne** using _Sucker Punch_ (55%)
+- **Greninja (Mega)** using _Feint Attack_ (55%)
+- **Marshadow** using _Sucker Punch_ (55%)
+- **Victreebel (Mega)** using _Sucker Punch_ (55%)
 
 ### Highest **dragon** (🐉) fast move damage:
 
@@ -307,10 +307,10 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Blaziken (Mega)** using _Fire Spin_ (74%)
 - **Charizard (Mega Y)** using _Fire Spin_ (72%)
 - **Houndoom (Mega)** using _Fire Fang_ (71%)
+- **Houndoom (Mega)** using _Incinerate_ (71%)
 - **Reshiram** using _Fire Fang_ (68%)
 - **Chandelure** using _Incinerate_ (67%)
 - **Darmanitan (Standard)** using _Fire Fang_ (65%)
-- **Darmanitan (Standard)** using _Incinerate_ (65%)
 
 ### Highest **flying** (🕊️) fast move damage:
 
@@ -327,6 +327,7 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 ### Highest **ghost** (👻) fast move damage:
 
 - **Blacephalon** using _Astonish_ (77%)
+- **Chandelure** using _Astonish_ (67%)
 - **Dragapult** using _Astonish_ (66%)
 - **Hoopa** using _Astonish_ (65%)
 - **Gengar (Mega)** using _Lick_ (64%)
@@ -334,7 +335,6 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Hoopa (Unbound)** using _Astonish_ (63%)
 - **Cursola** using _Astonish_ (63%)
 - **Gholdengo** using _Astonish_ (62%)
-- **Polteageist** using _Astonish_ (61%)
 
 ### Highest **grass** (🌱) fast move damage:
 
@@ -374,15 +374,15 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 
 ### Highest **normal** (⚪) fast move damage:
 
-- **Delphox (Mega)** using _Scratch_ (67%)
-- **Diancie (Mega)** using _Tackle_ (52%)
-- **Ambipom** using _Scratch_ (51%)
-- **Rillaboom** using _Scratch_ (49%)
-- **Delphox** using _Scratch_ (48%)
-- **Ursaluna** using _Tackle_ (45%)
-- **Purugly** using _Scratch_ (44%)
-- **Starmie (Mega)** using _Tackle_ (43%)
-- **Bewear** using _Tackle_ (42%)
+- **Pyroar** using _Take Down_ (64%)
+- **Volcanion** using _Take Down_ (61%)
+- **Stoutland** using _Take Down_ (60%)
+- **Sawsbuck** using _Take Down_ (58%)
+- **Gumshoos** using _Take Down_ (57%)
+- **Oinkologne** using _Take Down_ (55%)
+- **Tatsugiri (Curly)** using _Take Down_ (55%)
+- **Tatsugiri (Droopy)** using _Take Down_ (55%)
+- **Tatsugiri (Stretchy)** using _Take Down_ (55%)
 
 ### Highest **poison** (🐍) fast move damage:
 

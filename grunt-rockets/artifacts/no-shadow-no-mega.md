@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-09-02
+- **Date generated**: 2026-09-09
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -105,14 +105,14 @@
 # Anti-Ghost 👻
 
 - **Blacephalon** using _Astonish_ (100%)
+- **Darkrai** using _Sucker Punch_ (91%)
+- **Chandelure** using _Astonish_ (87%)
 - **Dragapult** using _Astonish_ (85%)
 - **Hoopa** using _Astonish_ (84%)
 - **Hoopa (Unbound)** using _Astonish_ (82%)
-- **Hydreigon** using _Bite_ (82%)
 - **Urshifu (Single Strike)** using _Sucker Punch_ (82%)
 - **Cursola** using _Astonish_ (81%)
 - **Gholdengo** using _Astonish_ (81%)
-- **Tyranitar** using _Bite_ (81%)
 
 # Anti-Grass 🌱
 
@@ -178,13 +178,13 @@
 
 - **Pheromosa** using _Bug Bite_ (100%)
 - **Blacephalon** using _Astonish_ (100%)
+- **Darkrai** using _Sucker Punch_ (91%)
+- **Chandelure** using _Astonish_ (86%)
 - **Dragapult** using _Astonish_ (85%)
 - **Volcarona** using _Bug Bite_ (84%)
 - **Hoopa** using _Astonish_ (83%)
 - **Hoopa (Unbound)** using _Astonish_ (82%)
-- **Hydreigon** using _Bite_ (82%)
 - **Vikavolt** using _Bug Bite_ (81%)
-- **Urshifu (Single Strike)** using _Sucker Punch_ (81%)
 
 # Anti-Rock 🪨
 
@@ -242,15 +242,15 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 ### Highest **dark** (🌌) fast move damage:
 
-- **Hydreigon** using _Bite_ (71%)
+- **Darkrai** using _Sucker Punch_ (79%)
 - **Urshifu (Single Strike)** using _Sucker Punch_ (71%)
-- **Tyranitar** using _Bite_ (70%)
 - **Yveltal** using _Sucker Punch_ (70%)
-- **Thundurus (Therian)** using _Bite_ (68%)
-- **Sharpedo** using _Bite_ (68%)
-- **Zarude** using _Bite_ (68%)
-- **Salamence** using _Bite_ (64%)
-- **Grimmsnarl** using _Bite_ (64%)
+- **Grimmsnarl** using _Sucker Punch_ (64%)
+- **Cacturne** using _Sucker Punch_ (62%)
+- **Marshadow** using _Sucker Punch_ (61%)
+- **Gengar** using _Sucker Punch_ (60%)
+- **Darkrai** using _Feint Attack_ (59%)
+- **Polteageist** using _Sucker Punch_ (58%)
 
 ### Highest **dragon** (🐉) fast move damage:
 
@@ -321,12 +321,13 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Zacian (Crowned Sword)** using _Air Slash_ (57%)
 - **Kartana** using _Air Slash_ (56%)
 - **Tornadus (Incarnate)** using _Air Slash_ (55%)
+- **Crobat** using _Gust_ (55%)
 - **Shaymin (Sky)** using _Hidden Power (Flying)_ (54%)
-- **Swanna** using _Gust_ (52%)
 
 ### Highest **ghost** (👻) fast move damage:
 
 - **Blacephalon** using _Astonish_ (87%)
+- **Chandelure** using _Astonish_ (75%)
 - **Dragapult** using _Astonish_ (74%)
 - **Hoopa** using _Astonish_ (73%)
 - **Hoopa (Unbound)** using _Astonish_ (71%)
@@ -334,7 +335,6 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Gholdengo** using _Astonish_ (70%)
 - **Polteageist** using _Astonish_ (69%)
 - **Dhelmise** using _Astonish_ (65%)
-- **Enamorus (Incarnate)** using _Astonish_ (65%)
 
 ### Highest **grass** (🌱) fast move damage:
 
@@ -374,15 +374,15 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 
 ### Highest **normal** (⚪) fast move damage:
 
-- **Ambipom** using _Scratch_ (58%)
-- **Rillaboom** using _Scratch_ (56%)
-- **Delphox** using _Scratch_ (54%)
-- **Ursaluna** using _Tackle_ (51%)
-- **Purugly** using _Scratch_ (49%)
-- **Bewear** using _Tackle_ (48%)
-- **Zorua (Hisuian)** using _Scratch_ (47%)
-- **Arboliva** using _Tackle_ (46%)
-- **Vigoroth** using _Scratch_ (46%)
+- **Pyroar** using _Take Down_ (72%)
+- **Volcanion** using _Take Down_ (68%)
+- **Stoutland** using _Take Down_ (68%)
+- **Sawsbuck** using _Take Down_ (65%)
+- **Gumshoos** using _Take Down_ (64%)
+- **Oinkologne** using _Take Down_ (62%)
+- **Tatsugiri (Curly)** using _Take Down_ (62%)
+- **Tatsugiri (Droopy)** using _Take Down_ (62%)
+- **Tatsugiri (Stretchy)** using _Take Down_ (62%)
 
 ### Highest **poison** (🐍) fast move damage:
 
