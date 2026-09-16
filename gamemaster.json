@@ -494,6 +494,133 @@
     {
       "exclude": [
         {
+          "filterType": "type",
+          "values": [
+            "dark",
+            "fairy",
+            "fire",
+            "steel"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "values": [
+            "legendary",
+            "mythical",
+            "ultrabeast"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "altaria",
+            "annihilape",
+            "araquanid",
+            "chansey",
+            "clodsire",
+            "corsola_galarian",
+            "dusclops",
+            "furret",
+            "jellicent",
+            "kingdra",
+            "medicham",
+            "oranguru",
+            "snorlax",
+            "wobbuffet",
+            "sableye_mega"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "bug",
+            "dark",
+            "dragon",
+            "electric",
+            "fairy",
+            "fighting",
+            "fire",
+            "flying",
+            "ghost",
+            "grass",
+            "ground",
+            "ice",
+            "normal",
+            "poison",
+            "psychic",
+            "rock",
+            "steel",
+            "water"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "dragonite_mega",
+            "gyarados_mega",
+            "raichu_mega_x",
+            "raichu_mega_y",
+            "scizor_mega",
+            "mawile_mega",
+            "greninja_mega",
+            "swampert_mega",
+            "abomasnow_mega",
+            "altaria_mega",
+            "latias_mega",
+            "chesnaught_mega",
+            "starmie_mega",
+            "victreebel_mega",
+            "venusaur_mega",
+            "steelix_mega",
+            "salamence_mega",
+            "gallade_mega",
+            "blaziken_mega",
+            "ampharos_mega",
+            "slowbro_mega",
+            "tyranitar_mega",
+            "lucario_mega",
+            "latios_mega",
+            "charizard_mega_x",
+            "charizard_mega_y",
+            "medicham_mega",
+            "skarmory_mega",
+            "heracross_mega",
+            "falinks_mega",
+            "garchomp_mega",
+            "pidgeot_mega",
+            "blastoise_mega",
+            "sceptile_mega",
+            "delphox_mega",
+            "glalie_mega",
+            "gengar_mega",
+            "aggron_mega",
+            "lopunny_mega",
+            "kangaskhan_mega",
+            "aerodactyl_mega",
+            "sharpedo_mega",
+            "pinsir_mega",
+            "beedrill_mega",
+            "absol_mega",
+            "alakazam_mega",
+            "diancie_mega",
+            "houndoom_mega",
+            "audino_mega",
+            "malamar_mega",
+            "manectric_mega",
+            "banette_mega",
+            "gardevoir_mega"
+          ]
+        }
+      ],
+      "link": "https://laic.gg/competitor_info/pokemon_go/",
+      "name": "laic2027",
+      "title": "LAIC 2027 Championship Series Cup"
+    },
+    {
+      "exclude": [
+        {
           "filterType": "id",
           "values": [
             "bellibolt",
@@ -788,6 +915,36 @@
       "showFormat": true,
       "showMeta": true,
       "title": "Willpower Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "retro",
+      "meta": "retro",
+      "rules": [
+        "Pokemon must be at or below 1, 500 CP to enter.",
+        "Dark-,  Steel-,  and Fairy-type Pokémon are not eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Retro Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "laic2027",
+      "meta": "laic2027",
+      "rules": [
+        "Pokemon must be at or below 1, 500 CP to enter.",
+        "Allowed Types: All besides those explicitly prohibited.",
+        "Allowed Categories: Shadow Pokemon,  Mega Evolution and Primal Reversion Pokemon. All Mega Evolution Pokémon are eligible even if they would otherwise be prohibited by a species,  typing,  or category.",
+        "Prohibited Types: Dark,  Fairy,  Fire,  Steel.",
+        "Prohibited Categories: Legendary,  Mythical,  Ultra Beasts.",
+        "Prohibited Pokemon: Altaria,  Annihilape,  Araquanid,  Chansey,  Clodsire,  Corsola (Galarian),  Dusclops,  Furret,  Jellicent,  Kingdra,  Medicham,  Oranguru,  Snorlax,  Wobbuffet,  Mega Sableye."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "LAIC 2027 Championship Series Cup"
     },
     {
       "cp": 10000,
@@ -1691,6 +1848,18 @@
       "type": "dark"
     },
     {
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "DARK_PULSE_PLUS",
+      "name": "Dark Pulse+",
+      "power": 60,
+      "turns": 1,
+      "type": "dark"
+    },
+    {
       "archetype": "Nuke",
       "cooldown": 500,
       "energy": 55,
@@ -2140,7 +2309,7 @@
       "energyGain": 0,
       "isMegaMove": true,
       "moveId": "FELL_STINGER_PLUS",
-      "name": "Fell Stinger",
+      "name": "Fell Stinger+",
       "power": 40,
       "turns": 1,
       "type": "bug"
@@ -35508,6 +35677,9 @@
         ]
       },
       "dex": 229,
+      "extraChargedMoves": [
+        "DARK_PULSE_PLUS"
+      ],
       "family": {
         "id": "FAMILY_HOUNDOUR",
         "parent": "houndour"
@@ -35523,7 +35695,8 @@
       "speciesName": "Houndoom (Mega)",
       "tags": [
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 50000,
       "types": [
@@ -90180,8 +90353,8 @@
       "defaultIVs": {
         "cp1500": [
           25,
-          5,
-          13,
+          4,
+          14,
           15
         ],
         "cp2500": [
@@ -105877,6 +106050,6 @@
     "fraxure",
     "haxorus"
   ],
-  "timestamp": "2026-09-09 01:44:57",
+  "timestamp": "2026-09-15 15:25:58",
   "title": "Default"
 }
