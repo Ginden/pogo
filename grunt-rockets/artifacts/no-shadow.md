@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-09-16
+- **Date generated**: 2026-09-23
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -316,13 +316,13 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 
 - **Pidgeot (Mega)** using _Gust_ (69%)
 - **Rayquaza (Mega)** using _Air Slash_ (69%)
+- **Staraptor (Mega)** using _Gust_ (68%)
 - **Yveltal** using _Gust_ (62%)
 - **Tornadus (Therian)** using _Gust_ (59%)
 - **Charizard (Mega Y)** using _Air Slash_ (59%)
 - **Staraptor** using _Gust_ (58%)
 - **Rayquaza** using _Air Slash_ (52%)
 - **Pidgeot (Mega)** using _Air Slash_ (52%)
-- **Zacian (Crowned Sword)** using _Air Slash_ (51%)
 
 ### Highest **ghost** (👻) fast move damage:
 
