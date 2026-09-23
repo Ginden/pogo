@@ -34,124 +34,26 @@
         {
           "filterType": "id",
           "values": [
-            "dragonite_mega",
-            "garchomp_mega",
-            "groudon_primal",
-            "gyarados_mega",
-            "heracross_mega",
-            "kyogre_primal",
-            "latias_mega",
-            "latios_mega",
-            "metagross_mega",
             "rayquaza_mega",
+            "groudon_primal",
+            "kyogre_primal",
+            "metagross_mega",
+            "heracross_mega",
+            "delphox_mega",
+            "dragonite_mega",
+            "tyranitar_mega",
             "salamence_mega",
-            "tyranitar_mega"
+            "garchomp_mega",
+            "mewtwo_mega_y",
+            "mewtwo_mega_x",
+            "gyarados_mega",
+            "greninja_mega",
+            "chesnaught_mega"
           ]
         }
       ],
       "include": [],
       "name": "battlefrontiermaster",
-      "restrictedPicks": 1,
-      "restrictedPokemon": [
-        "eternatus",
-        "palkia_origin",
-        "swampert_mega",
-        "zacian_crowned_sword",
-        "zamazenta_crowned_shield"
-      ],
-      "tierRules": {
-        "floor": 0,
-        "max": 11,
-        "tiers": [
-          {
-            "points": 5,
-            "pokemon": [
-              "eternatus",
-              "palkia_origin",
-              "swampert_mega",
-              "zacian_crowned_sword",
-              "zamazenta_crowned_shield"
-            ]
-          },
-          {
-            "points": 4,
-            "pokemon": [
-              "aggron_mega",
-              "charizard_mega_y",
-              "gallade_mega",
-              "gardevoir_mega",
-              "kyurem_black",
-              "kyurem_white",
-              "scizor_mega",
-              "zygarde_complete"
-            ]
-          },
-          {
-            "points": 3,
-            "pokemon": [
-              "blastoise_mega",
-              "blaziken_mega",
-              "dialga_origin",
-              "gengar_mega",
-              "groudon",
-              "kyogre",
-              "landorus_therian",
-              "lucario_mega",
-              "lunala",
-              "marshadow",
-              "meloetta_aria",
-              "metagross",
-              "steelix_mega",
-              "xerneas",
-              "yveltal"
-            ]
-          },
-          {
-            "points": 2,
-            "pokemon": [
-              "dialga",
-              "florges",
-              "giratina_origin",
-              "ho_oh",
-              "keldeo_ordinary",
-              "keldeo_resolute",
-              "lugia",
-              "mewtwo",
-              "necrozma_dawn_wings",
-              "necrozma_dusk_mane",
-              "palkia",
-              "primarina",
-              "reshiram",
-              "rhyperior",
-              "solgaleo",
-              "tyranitar",
-              "zekrom"
-            ]
-          },
-          {
-            "points": 1,
-            "pokemon": [
-              "charizard_mega_x",
-              "garchomp",
-              "giratina_altered",
-              "gyarados",
-              "heatran",
-              "kangaskhan_mega",
-              "kyurem",
-              "melmetal",
-              "moltres",
-              "moltres_galarian",
-              "slowbro_mega",
-              "tapu_lele",
-              "urshifu_rapid_strike",
-              "urshifu_single_strike",
-              "volcanion",
-              "zacian_hero",
-              "zarude"
-            ]
-          }
-        ]
-      },
       "title": "Battle Frontier (Master League)"
     },
     {
@@ -213,6 +115,83 @@
       "include": [],
       "name": "catch",
       "title": "Catch Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "type",
+          "values": []
+        },
+        {
+          "filterType": "move",
+          "values": []
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "crustle",
+            "forretress",
+            "greninja_mega",
+            "guzzlord",
+            "kingambit",
+            "mawile_mega",
+            "mimikyu",
+            "nidoqueen",
+            "tentacruel",
+            "tinkaton"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "bug",
+            "dark",
+            "fairy",
+            "ghost",
+            "poison"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "blaziken",
+            "blaziken_mega",
+            "blaziken_shadow",
+            "camerupt",
+            "camerupt_mega",
+            "camerupt_shadow",
+            "charizard",
+            "charizard_mega_x",
+            "charizard_mega_y",
+            "charizard_shadow",
+            "delphox",
+            "delphox_shadow",
+            "greedent",
+            "ninetales",
+            "ninetales_shadow",
+            "rapidash",
+            "rapidash_shadow",
+            "reshiram",
+            "reshiram_shadow",
+            "samurott",
+            "samurott_shadow",
+            "seaking",
+            "sandslash",
+            "sandslash_shadow",
+            "talonflame",
+            "talonflame_shadow",
+            "turtonator",
+            "typhlosion",
+            "typhlosion_shadow",
+            "ursaluna",
+            "ursaluna_shadow"
+          ]
+        }
+      ],
+      "name": "cauldron",
+      "title": "Cauldron Cup"
     },
     {
       "exclude": [
@@ -311,6 +290,24 @@
       "name": "classic",
       "partySize": 3,
       "title": "Classic"
+    },
+    {
+      "exclude": [],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "fire",
+            "water",
+            "grass",
+            "electric"
+          ]
+        }
+      ],
+      "name": "colormega",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Mega Color Cup"
     },
     {
       "exclude": [
@@ -490,6 +487,59 @@
       "presetOnly": true,
       "rankingAlias": "all",
       "title": "GO Battle League"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "shadow",
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "empoleon",
+            "corviknight",
+            "tinkaton",
+            "tinkatuff",
+            "mawile",
+            "mimikyu",
+            "cramorant",
+            "carbink",
+            "morpeko_full_belly"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "dark",
+            "fairy",
+            "flying",
+            "ice",
+            "normal",
+            "water"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "rillaboom",
+            "clodsire",
+            "dusclops",
+            "swalot"
+          ]
+        }
+      ],
+      "name": "gymbreakers",
+      "title": "Gymbreakers Invitational Season 7"
     },
     {
       "exclude": [
@@ -725,6 +775,69 @@
         {
           "filterType": "tag",
           "values": [
+            "shadow",
+            "mega"
+          ]
+        },
+        {
+          "filterType": "type",
+          "values": [
+            "dark",
+            "normal",
+            "rock",
+            "steel"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "annihilape",
+            "araquanid",
+            "armarouge",
+            "clodsire",
+            "corsola_galarian",
+            "dusclops",
+            "dusknoir",
+            "frillish",
+            "golett",
+            "golurk",
+            "jellicent",
+            "lapras",
+            "marowak_alolan",
+            "mimikyu",
+            "sealeo",
+            "spidops",
+            "toxapex",
+            "toxtricity",
+            "typhlosion_hisuian",
+            "walrein"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "bug",
+            "ghost",
+            "ice",
+            "poison",
+            "psychic"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": []
+        }
+      ],
+      "name": "spectral",
+      "title": "Spectral Cup"
+    },
+    {
+      "exclude": [
+        {
+          "filterType": "tag",
+          "values": [
             "legendary",
             "mythical",
             "mega",
@@ -904,20 +1017,6 @@
     },
     {
       "cp": 1500,
-      "cup": "willpower",
-      "meta": "willpower",
-      "rules": [
-        "Pokemon must be at or below 1, 500 CP to enter.",
-        "Only Fighting-,  Psychic-,  and Dark-type Pokémon are eligible.",
-        "The following Pokemon are not allowed: Gardevoir,  Zorua,  Zoroark."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Willpower Cup"
-    },
-    {
-      "cp": 1500,
       "cup": "retro",
       "meta": "retro",
       "rules": [
@@ -945,6 +1044,42 @@
       "showFormat": true,
       "showMeta": true,
       "title": "LAIC 2027 Championship Series Cup"
+    },
+    {
+      "cp": 1500,
+      "cup": "spectral",
+      "meta": "spectral",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Battle Frontier (Spectral)"
+    },
+    {
+      "cp": 2500,
+      "cup": "cauldron",
+      "meta": "cauldron",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Battle Frontier (Cauldron)"
+    },
+    {
+      "cp": 10000,
+      "cup": "battlefrontiermaster",
+      "meta": "battlefrontiermaster",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Battle Frontier (Master)"
+    },
+    {
+      "cp": 1500,
+      "cup": "gymbreakers",
+      "meta": "gymbreakers",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Gymbreakers Invitational Season 7"
     },
     {
       "cp": 10000,
@@ -1455,6 +1590,25 @@
       "moveId": "BRAVE_BIRD",
       "name": "Brave Bird",
       "power": 130,
+      "turns": 1,
+      "type": "flying"
+    },
+    {
+      "abbreviation": "BrB+",
+      "archetype": "Self-Debuff",
+      "buffApplyChance": "1",
+      "buffTarget": "self",
+      "buffs": [
+        0,
+        -3
+      ],
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "BRAVE_BIRD_PLUS",
+      "name": "Brave Bird+",
+      "power": 70,
       "turns": 1,
       "type": "flying"
     },
@@ -23318,7 +23472,6 @@
         "PSYWAVE"
       ],
       "released": true,
-      "searchPriority": 3,
       "speciesId": "starmie_shadow",
       "speciesName": "Starmie (Shadow)",
       "tags": [
@@ -43287,7 +43440,7 @@
         "SHADOW_CLAW"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 8,
       "speciesId": "sableye_shadow",
       "speciesName": "Sableye (Shadow)",
       "tags": [
@@ -53986,6 +54139,9 @@
       "eliteMoves": [
         "GUST"
       ],
+      "extraChargedMoves": [
+        "BRAVE_BIRD_PLUS"
+      ],
       "family": {
         "id": "FAMILY_STARLY",
         "parent": "staravia"
@@ -53997,7 +54153,7 @@
         "SAND_ATTACK"
       ],
       "level25CP": 1738,
-      "released": false,
+      "released": true,
       "speciesId": "staraptor_mega",
       "speciesName": "Staraptor (Mega)",
       "tags": [
@@ -92286,7 +92442,7 @@
         "THUNDER_SHOCK"
       ],
       "released": true,
-      "searchPriority": 7,
+      "searchPriority": 10,
       "speciesId": "melmetal",
       "speciesName": "Melmetal",
       "tags": [
@@ -106050,6 +106206,6 @@
     "fraxure",
     "haxorus"
   ],
-  "timestamp": "2026-09-15 15:25:58",
+  "timestamp": "2026-09-23 03:24:34",
   "title": "Default"
 }
