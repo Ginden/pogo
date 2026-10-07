@@ -25,6 +25,7 @@
           ]
         }
       ],
+      "excludeLowPokemon": true,
       "include": [],
       "name": "all",
       "title": "All Pokemon"
@@ -48,7 +49,15 @@
             "mewtwo_mega_x",
             "gyarados_mega",
             "greninja_mega",
-            "chesnaught_mega"
+            "chesnaught_mega",
+            "charizard_mega_y",
+            "swampert_mega",
+            "latios_mega",
+            "latias_mega",
+            "kyogre",
+            "xerneas",
+            "yveltal",
+            "palkia_origin"
           ]
         }
       ],
@@ -112,6 +121,7 @@
           ]
         }
       ],
+      "excludeLowPokemon": true,
       "include": [],
       "name": "catch",
       "title": "Catch Cup"
@@ -692,7 +702,8 @@
           "filterType": "id",
           "values": [
             "shuckle",
-            "smeargle"
+            "smeargle",
+            "meltan"
           ]
         }
       ],
@@ -724,6 +735,7 @@
           ]
         }
       ],
+      "excludeLowPokemon": true,
       "include": [],
       "name": "mega",
       "partySize": 3,
@@ -764,6 +776,7 @@
           ]
         }
       ],
+      "excludeLowPokemon": true,
       "include": [],
       "name": "retro",
       "partySize": 3,
@@ -776,7 +789,10 @@
           "filterType": "tag",
           "values": [
             "shadow",
-            "mega"
+            "mega",
+            "legendary",
+            "mythical",
+            "ultrabeast"
           ]
         },
         {
@@ -1305,17 +1321,17 @@
       "title": "Mega Color Cup"
     },
     {
-      "cp": 1500,
-      "cup": "retro",
-      "meta": "retro",
+      "cp": 500,
+      "cup": "little",
+      "meta": "little",
       "rules": [
-        "Pokemon must be at or below 1, 500 CP to enter.",
-        "Dark-,  Steel-,  and Fairy-type Pokémon are not eligible."
+        "Pokémon must be at or below 500 CP to enter.",
+        "Only Pokémon that are able to evolve and have not evolved even once are eligible."
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Retro Cup"
+      "title": "Little Cup"
     },
     {
       "cp": 1500,
@@ -10070,6 +10086,74 @@
     },
     {
       "baseStats": {
+        "atk": 201,
+        "def": 154,
+        "hp": 155
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "PSYCHIC",
+        "THUNDER_PUNCH",
+        "WILD_CHARGE",
+        "GRASS_KNOT",
+        "TRAILBLAZE",
+        "SURF",
+        "PSYSHOCK",
+        "VOLT_TACKLE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          24,
+          6,
+          14,
+          15
+        ],
+        "cp2500": [
+          49,
+          12,
+          12,
+          15
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          8.5,
+          4,
+          11,
+          5
+        ]
+      },
+      "dex": 26,
+      "family": {
+        "id": "FAMILY_PIKACHU",
+        "parent": "pikachu"
+      },
+      "fastMoves": [
+        "SPARK",
+        "VOLT_SWITCH",
+        "THUNDER_SHOCK"
+      ],
+      "nicknames": [
+        "achu"
+      ],
+      "released": true,
+      "speciesId": "raichu_alolan",
+      "speciesName": "Raichu (Alolan)",
+      "tags": [
+        "alolan"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "electric",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 277,
         "def": 203,
         "hp": 155
@@ -10200,74 +10284,6 @@
       "types": [
         "electric",
         "none"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 201,
-        "def": 154,
-        "hp": 155
-      },
-      "buddyDistance": 1,
-      "chargedMoves": [
-        "PSYCHIC",
-        "THUNDER_PUNCH",
-        "WILD_CHARGE",
-        "GRASS_KNOT",
-        "TRAILBLAZE",
-        "SURF",
-        "PSYSHOCK",
-        "VOLT_TACKLE"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          24,
-          6,
-          14,
-          15
-        ],
-        "cp2500": [
-          49,
-          12,
-          12,
-          15
-        ],
-        "cp2500l40": [
-          40,
-          15,
-          15,
-          15
-        ],
-        "cp500": [
-          8.5,
-          4,
-          11,
-          5
-        ]
-      },
-      "dex": 26,
-      "family": {
-        "id": "FAMILY_PIKACHU",
-        "parent": "pikachu"
-      },
-      "fastMoves": [
-        "SPARK",
-        "VOLT_SWITCH",
-        "THUNDER_SHOCK"
-      ],
-      "nicknames": [
-        "achu"
-      ],
-      "released": true,
-      "speciesId": "raichu_alolan",
-      "speciesName": "Raichu (Alolan)",
-      "tags": [
-        "alolan"
-      ],
-      "thirdMoveCost": 10000,
-      "types": [
-        "electric",
-        "psychic"
       ]
     },
     {
@@ -23699,90 +23715,6 @@
     },
     {
       "baseStats": {
-        "atk": 210,
-        "def": 184,
-        "hp": 155
-      },
-      "buddyDistance": 3,
-      "chargedMoves": [
-        "HYDRO_PUMP",
-        "ICE_BEAM",
-        "POWER_GEM",
-        "PSYBEAM",
-        "PSYCHIC",
-        "THUNDER",
-        "SURF",
-        "AQUA_JET"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          21.5,
-          5,
-          13,
-          13
-        ],
-        "cp2500": [
-          41.5,
-          4,
-          14,
-          15
-        ],
-        "cp2500l40": [
-          39,
-          12,
-          14,
-          14
-        ],
-        "cp500": [
-          7.5,
-          4,
-          10,
-          8
-        ]
-      },
-      "dex": 121,
-      "eliteMoves": [
-        "TACKLE"
-      ],
-      "family": {
-        "id": "FAMILY_STARYU",
-        "parent": "staryu_shadow"
-      },
-      "fastMoves": [
-        "HIDDEN_POWER_BUG",
-        "HIDDEN_POWER_DARK",
-        "HIDDEN_POWER_DRAGON",
-        "HIDDEN_POWER_ELECTRIC",
-        "HIDDEN_POWER_FIGHTING",
-        "HIDDEN_POWER_FIRE",
-        "HIDDEN_POWER_FLYING",
-        "HIDDEN_POWER_GHOST",
-        "HIDDEN_POWER_GRASS",
-        "HIDDEN_POWER_GROUND",
-        "HIDDEN_POWER_ICE",
-        "HIDDEN_POWER_POISON",
-        "HIDDEN_POWER_PSYCHIC",
-        "HIDDEN_POWER_ROCK",
-        "HIDDEN_POWER_STEEL",
-        "HIDDEN_POWER_WATER",
-        "TACKLE",
-        "WATER_GUN",
-        "PSYWAVE"
-      ],
-      "released": true,
-      "speciesId": "starmie_shadow",
-      "speciesName": "Starmie (Shadow)",
-      "tags": [
-        "shadow"
-      ],
-      "thirdMoveCost": 50000,
-      "types": [
-        "water",
-        "psychic"
-      ]
-    },
-    {
-      "baseStats": {
         "atk": 276,
         "def": 229,
         "hp": 155
@@ -23863,6 +23795,90 @@
         "shadoweligible",
         "mega",
         "supermega"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "water",
+        "psychic"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 210,
+        "def": 184,
+        "hp": 155
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "HYDRO_PUMP",
+        "ICE_BEAM",
+        "POWER_GEM",
+        "PSYBEAM",
+        "PSYCHIC",
+        "THUNDER",
+        "SURF",
+        "AQUA_JET"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          21.5,
+          5,
+          13,
+          13
+        ],
+        "cp2500": [
+          41.5,
+          4,
+          14,
+          15
+        ],
+        "cp2500l40": [
+          39,
+          12,
+          14,
+          14
+        ],
+        "cp500": [
+          7.5,
+          4,
+          10,
+          8
+        ]
+      },
+      "dex": 121,
+      "eliteMoves": [
+        "TACKLE"
+      ],
+      "family": {
+        "id": "FAMILY_STARYU",
+        "parent": "staryu_shadow"
+      },
+      "fastMoves": [
+        "HIDDEN_POWER_BUG",
+        "HIDDEN_POWER_DARK",
+        "HIDDEN_POWER_DRAGON",
+        "HIDDEN_POWER_ELECTRIC",
+        "HIDDEN_POWER_FIGHTING",
+        "HIDDEN_POWER_FIRE",
+        "HIDDEN_POWER_FLYING",
+        "HIDDEN_POWER_GHOST",
+        "HIDDEN_POWER_GRASS",
+        "HIDDEN_POWER_GROUND",
+        "HIDDEN_POWER_ICE",
+        "HIDDEN_POWER_POISON",
+        "HIDDEN_POWER_PSYCHIC",
+        "HIDDEN_POWER_ROCK",
+        "HIDDEN_POWER_STEEL",
+        "HIDDEN_POWER_WATER",
+        "TACKLE",
+        "WATER_GUN",
+        "PSYWAVE"
+      ],
+      "released": true,
+      "speciesId": "starmie_shadow",
+      "speciesName": "Starmie (Shadow)",
+      "tags": [
+        "shadow"
       ],
       "thirdMoveCost": 50000,
       "types": [
@@ -29915,63 +29931,6 @@
       ]
     },
     {
-      "aliasId": "lanturn",
-      "baseStats": {
-        "atk": 146,
-        "def": 137,
-        "hp": 268
-      },
-      "buddyDistance": 3,
-      "chargedMoves": [
-        "HYDRO_PUMP",
-        "THUNDER",
-        "THUNDERBOLT",
-        "SURF"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          27,
-          5,
-          15,
-          12
-        ],
-        "cp2500": [
-          50,
-          15,
-          15,
-          15
-        ],
-        "cp500": [
-          9,
-          5,
-          14,
-          15
-        ]
-      },
-      "dex": 171,
-      "family": {
-        "id": "FAMILY_CHINCHOU",
-        "parent": "chinchou"
-      },
-      "fastMoves": [
-        "CHARGE_BEAM",
-        "WATER_GUN",
-        "SPARK"
-      ],
-      "released": false,
-      "speciesId": "lanturnw",
-      "speciesName": "Lanturn",
-      "tags": [
-        "duplicate",
-        "duplicate1500"
-      ],
-      "thirdMoveCost": 50000,
-      "types": [
-        "water",
-        "electric"
-      ]
-    },
-    {
       "baseStats": {
         "atk": 77,
         "def": 53,
@@ -35819,56 +35778,6 @@
     },
     {
       "baseStats": {
-        "atk": 148,
-        "def": 226,
-        "hp": 163
-      },
-      "buddyDistance": 5,
-      "chargedMoves": [
-        "BRAVE_BIRD",
-        "FLASH_CANNON",
-        "SKY_ATTACK",
-        "DRILL_RUN"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          27,
-          4,
-          14,
-          12
-        ],
-        "cp2500": [
-          50,
-          15,
-          15,
-          15
-        ],
-        "cp500": [
-          9,
-          4,
-          12,
-          15
-        ]
-      },
-      "dex": 227,
-      "fastMoves": [
-        "AIR_SLASH",
-        "STEEL_WING"
-      ],
-      "released": true,
-      "speciesId": "skarmory_shadow",
-      "speciesName": "Skarmory (Shadow)",
-      "tags": [
-        "shadow"
-      ],
-      "thirdMoveCost": 75000,
-      "types": [
-        "steel",
-        "flying"
-      ]
-    },
-    {
-      "baseStats": {
         "atk": 273,
         "def": 228,
         "hp": 163
@@ -35917,6 +35826,56 @@
         "shadoweligible",
         "mega",
         "supermega"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "steel",
+        "flying"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 148,
+        "def": 226,
+        "hp": 163
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "BRAVE_BIRD",
+        "FLASH_CANNON",
+        "SKY_ATTACK",
+        "DRILL_RUN"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          27,
+          4,
+          14,
+          12
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          9,
+          4,
+          12,
+          15
+        ]
+      },
+      "dex": 227,
+      "fastMoves": [
+        "AIR_SLASH",
+        "STEEL_WING"
+      ],
+      "released": true,
+      "speciesId": "skarmory_shadow",
+      "speciesName": "Skarmory (Shadow)",
+      "tags": [
+        "shadow"
       ],
       "thirdMoveCost": 75000,
       "types": [
@@ -45878,7 +45837,7 @@
         "INCINERATE"
       ],
       "level25CP": 1323,
-      "released": false,
+      "released": true,
       "speciesId": "camerupt_mega",
       "speciesName": "Camerupt (Mega)",
       "tags": [
@@ -54343,65 +54302,6 @@
     },
     {
       "baseStats": {
-        "atk": 234,
-        "def": 140,
-        "hp": 198
-      },
-      "buddyDistance": 1,
-      "chargedMoves": [
-        "BRAVE_BIRD",
-        "CLOSE_COMBAT",
-        "HEAT_WAVE",
-        "FLY"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          19.5,
-          4,
-          14,
-          14
-        ],
-        "cp2500": [
-          34.5,
-          5,
-          15,
-          15
-        ],
-        "cp500": [
-          6.5,
-          11,
-          15,
-          14
-        ]
-      },
-      "dex": 398,
-      "eliteMoves": [
-        "GUST"
-      ],
-      "family": {
-        "id": "FAMILY_STARLY",
-        "parent": "staravia_shadow"
-      },
-      "fastMoves": [
-        "QUICK_ATTACK",
-        "WING_ATTACK",
-        "GUST",
-        "SAND_ATTACK"
-      ],
-      "released": true,
-      "speciesId": "staraptor_shadow",
-      "speciesName": "Staraptor (Shadow)",
-      "tags": [
-        "shadow"
-      ],
-      "thirdMoveCost": 10000,
-      "types": [
-        "normal",
-        "flying"
-      ]
-    },
-    {
-      "baseStats": {
         "atk": 278,
         "def": 207,
         "hp": 198
@@ -54462,6 +54362,65 @@
       "thirdMoveCost": 10000,
       "types": [
         "fighting",
+        "flying"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 234,
+        "def": 140,
+        "hp": 198
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "BRAVE_BIRD",
+        "CLOSE_COMBAT",
+        "HEAT_WAVE",
+        "FLY"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          19.5,
+          4,
+          14,
+          14
+        ],
+        "cp2500": [
+          34.5,
+          5,
+          15,
+          15
+        ],
+        "cp500": [
+          6.5,
+          11,
+          15,
+          14
+        ]
+      },
+      "dex": 398,
+      "eliteMoves": [
+        "GUST"
+      ],
+      "family": {
+        "id": "FAMILY_STARLY",
+        "parent": "staravia_shadow"
+      },
+      "fastMoves": [
+        "QUICK_ATTACK",
+        "WING_ATTACK",
+        "GUST",
+        "SAND_ATTACK"
+      ],
+      "released": true,
+      "speciesId": "staraptor_shadow",
+      "speciesName": "Staraptor (Shadow)",
+      "tags": [
+        "shadow"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "normal",
         "flying"
       ]
     },
@@ -78308,12 +78267,70 @@
         "DRAGON_BREATH",
         "CHARGE_BEAM"
       ],
+      "level25CP": 2551,
       "released": true,
       "searchPriority": 2,
       "speciesId": "zekrom",
       "speciesName": "Zekrom",
       "tags": [
-        "legendary"
+        "legendary",
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 100000,
+      "types": [
+        "dragon",
+        "electric"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 275,
+        "def": 211,
+        "hp": 205
+      },
+      "buddyDistance": 20,
+      "chargedMoves": [
+        "OUTRAGE",
+        "WILD_CHARGE",
+        "FLASH_CANNON",
+        "CRUNCH",
+        "FUSION_BOLT"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          13.5,
+          7,
+          11,
+          14
+        ],
+        "cp2500": [
+          22.5,
+          6,
+          14,
+          12
+        ],
+        "cp500": [
+          4.5,
+          14,
+          15,
+          12
+        ]
+      },
+      "dex": 644,
+      "eliteMoves": [
+        "FUSION_BOLT"
+      ],
+      "fastMoves": [
+        "DRAGON_BREATH",
+        "CHARGE_BEAM"
+      ],
+      "released": true,
+      "searchPriority": 2,
+      "speciesId": "zekrom_shadow",
+      "speciesName": "Zekrom (Shadow)",
+      "tags": [
+        "legendary",
+        "shadow"
       ],
       "thirdMoveCost": 100000,
       "types": [
@@ -81597,9 +81614,74 @@
         "LOW_KICK",
         "TACKLE"
       ],
+      "level25CP": 864,
       "released": true,
       "speciesId": "pancham",
       "speciesName": "Pancham",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "fighting",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 145,
+        "def": 107,
+        "hp": 167
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "LOW_SWEEP",
+        "CRUNCH",
+        "BODY_SLAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          47.5,
+          4,
+          13,
+          13
+        ],
+        "cp1500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          12.5,
+          6,
+          15,
+          13
+        ]
+      },
+      "dex": 674,
+      "family": {
+        "evolutions": [
+          "pangoro_shadow"
+        ],
+        "id": "FAMILY_PANCHAM"
+      },
+      "fastMoves": [
+        "LOW_KICK",
+        "TACKLE"
+      ],
+      "released": true,
+      "speciesId": "pancham_shadow",
+      "speciesName": "Pancham (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "fighting",
@@ -81650,10 +81732,71 @@
         "BULLET_PUNCH",
         "KARATE_CHOP"
       ],
+      "level25CP": 1790,
       "released": true,
       "searchPriority": 5,
       "speciesId": "pangoro",
       "speciesName": "Pangoro",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "fighting",
+        "dark"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 226,
+        "def": 146,
+        "hp": 216
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "CLOSE_COMBAT",
+        "NIGHT_SLASH",
+        "IRON_HEAD",
+        "ROCK_SLIDE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          19,
+          4,
+          15,
+          14
+        ],
+        "cp2500": [
+          33,
+          4,
+          15,
+          15
+        ],
+        "cp500": [
+          6.5,
+          6,
+          14,
+          14
+        ]
+      },
+      "dex": 675,
+      "family": {
+        "id": "FAMILY_PANCHAM",
+        "parent": "pancham_shadow"
+      },
+      "fastMoves": [
+        "LOW_KICK",
+        "SNARL",
+        "BULLET_PUNCH",
+        "KARATE_CHOP"
+      ],
+      "released": true,
+      "searchPriority": 5,
+      "speciesId": "pangoro_shadow",
+      "speciesName": "Pangoro (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "fighting",
@@ -83970,6 +84113,64 @@
     },
     {
       "baseStats": {
+        "atk": 153,
+        "def": 190,
+        "hp": 151
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRAGON_PULSE",
+        "SLUDGE_WAVE",
+        "WATER_PULSE",
+        "HEAVY_SLAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          29,
+          4,
+          14,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          10,
+          4,
+          8,
+          10
+        ]
+      },
+      "dex": 705,
+      "family": {
+        "evolutions": [
+          "goodra"
+        ],
+        "id": "FAMILY_GOOMY",
+        "parent": "goomy"
+      },
+      "fastMoves": [
+        "WATER_GUN",
+        "TACKLE"
+      ],
+      "released": false,
+      "searchPriority": 4,
+      "speciesId": "sliggoo_hisuian",
+      "speciesName": "Sliggoo (Hisuian)",
+      "tags": [
+        "hisuian"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "dragon",
+        "steel"
+      ]
+    },
+    {
+      "baseStats": {
         "atk": 220,
         "def": 242,
         "hp": 207
@@ -84023,6 +84224,62 @@
       "types": [
         "dragon",
         "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 211,
+        "def": 255,
+        "hp": 190
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "DRACO_METEOR",
+        "SLUDGE_WAVE",
+        "HYDRO_PUMP",
+        "HEAVY_SLAM"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          16.5,
+          5,
+          15,
+          15
+        ],
+        "cp2500": [
+          28,
+          4,
+          10,
+          14
+        ],
+        "cp500": [
+          6,
+          4,
+          8,
+          4
+        ]
+      },
+      "dex": 706,
+      "family": {
+        "id": "FAMILY_GOOMY",
+        "parent": "sliggoo"
+      },
+      "fastMoves": [
+        "WATER_GUN",
+        "DRAGON_TAIL",
+        "IRON_TAIL"
+      ],
+      "released": false,
+      "searchPriority": 6,
+      "speciesId": "goodra_hisuian",
+      "speciesName": "Goodra (Hisuian)",
+      "tags": [
+        "hisuian"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "dragon",
+        "steel"
       ]
     },
     {
@@ -88375,9 +88632,70 @@
         "FURY_CUTTER",
         "LEAFAGE"
       ],
+      "level25CP": 390,
       "released": true,
       "speciesId": "fomantis",
       "speciesName": "Fomantis",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "grass",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 100,
+        "def": 64,
+        "hp": 120
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "LEAF_BLADE",
+        "ENERGY_BALL",
+        "GRASS_KNOT",
+        "TRAILBLAZE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          26.5,
+          4,
+          14,
+          13
+        ]
+      },
+      "dex": 753,
+      "family": {
+        "evolutions": [
+          "lurantis_shadow"
+        ],
+        "id": "FAMILY_FOMANTIS"
+      },
+      "fastMoves": [
+        "RAZOR_LEAF",
+        "FURY_CUTTER",
+        "LEAFAGE"
+      ],
+      "released": true,
+      "speciesId": "fomantis_shadow",
+      "speciesName": "Fomantis (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "grass",
@@ -88434,9 +88752,75 @@
         "FURY_CUTTER",
         "LEAFAGE"
       ],
+      "level25CP": 1460,
       "released": true,
       "speciesId": "lurantis",
       "speciesName": "Lurantis",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "grass",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 192,
+        "def": 169,
+        "hp": 172
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "LEAF_BLADE",
+        "LEAF_STORM",
+        "SUPER_POWER",
+        "X_SCISSOR",
+        "TRAILBLAZE"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          23,
+          5,
+          15,
+          14
+        ],
+        "cp2500": [
+          48,
+          4,
+          15,
+          14
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          8,
+          4,
+          15,
+          7
+        ]
+      },
+      "dex": 754,
+      "family": {
+        "id": "FAMILY_FOMANTIS",
+        "parent": "fomantis_shadow"
+      },
+      "fastMoves": [
+        "RAZOR_LEAF",
+        "FURY_CUTTER",
+        "LEAFAGE"
+      ],
+      "released": true,
+      "speciesId": "lurantis_shadow",
+      "speciesName": "Lurantis (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "grass",
@@ -89330,9 +89714,71 @@
       "fastMoves": [
         "STRUGGLE_BUG"
       ],
+      "level25CP": 247,
       "released": true,
       "speciesId": "wimpod",
       "speciesName": "Wimpod",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "bug",
+        "water"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 67,
+        "def": 74,
+        "hp": 93
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "BUG_BUZZ"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          49,
+          6,
+          15,
+          15
+        ],
+        "cp500l40": [
+          40,
+          15,
+          14,
+          15
+        ]
+      },
+      "dex": 767,
+      "family": {
+        "evolutions": [
+          "golisopod_shadow"
+        ],
+        "id": "FAMILY_WIMPOD"
+      },
+      "fastMoves": [
+        "STRUGGLE_BUG"
+      ],
+      "released": true,
+      "speciesId": "wimpod_shadow",
+      "speciesName": "Wimpod (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "bug",
@@ -89377,6 +89823,68 @@
       "family": {
         "id": "FAMILY_WIMPOD",
         "parent": "wimpod"
+      },
+      "fastMoves": [
+        "FURY_CUTTER",
+        "METAL_CLAW",
+        "WATERFALL",
+        "SHADOW_CLAW"
+      ],
+      "level25CP": 1967,
+      "nicknames": [
+        "pod"
+      ],
+      "released": true,
+      "searchPriority": 6,
+      "speciesId": "golisopod",
+      "speciesName": "Golisopod",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 10000,
+      "types": [
+        "bug",
+        "water"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 218,
+        "def": 226,
+        "hp": 181
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "X_SCISSOR",
+        "AQUA_JET",
+        "AERIAL_ACE",
+        "LIQUIDATION",
+        "RAZOR_SHELL"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          17.5,
+          4,
+          15,
+          13
+        ],
+        "cp2500": [
+          29,
+          5,
+          13,
+          15
+        ],
+        "cp500": [
+          6,
+          6,
+          15,
+          14
+        ]
+      },
+      "dex": 768,
+      "family": {
+        "id": "FAMILY_WIMPOD",
+        "parent": "wimpod_shadow"
       },
       "fastMoves": [
         "FURY_CUTTER",
@@ -89389,65 +89897,10 @@
       ],
       "released": true,
       "searchPriority": 6,
-      "speciesId": "golisopod",
-      "speciesName": "Golisopod",
-      "thirdMoveCost": 10000,
-      "types": [
-        "bug",
-        "water"
-      ]
-    },
-    {
-      "baseStats": {
-        "atk": 218,
-        "def": 226,
-        "hp": 181
-      },
-      "buddyDistance": 1,
-      "chargedMoves": [
-        "X_SCISSOR",
-        "AQUA_JET",
-        "AERIAL_ACE",
-        "LIQUIDATION",
-        "RAZOR_SHELL"
-      ],
-      "defaultIVs": {
-        "cp1500": [
-          17.5,
-          4,
-          15,
-          13
-        ],
-        "cp2500": [
-          29,
-          5,
-          13,
-          15
-        ],
-        "cp500": [
-          6,
-          6,
-          15,
-          14
-        ]
-      },
-      "dex": 768,
-      "family": {
-        "id": "FAMILY_WIMPOD",
-        "parent": "wimpod"
-      },
-      "fastMoves": [
-        "FURY_CUTTER",
-        "METAL_CLAW",
-        "WATERFALL",
-        "SHADOW_CLAW"
-      ],
-      "released": true,
-      "speciesId": "golisopodsh",
-      "speciesName": "Golisopod",
+      "speciesId": "golisopod_shadow",
+      "speciesName": "Golisopod (Shadow)",
       "tags": [
-        "duplicate",
-        "duplicate1500"
+        "shadow"
       ],
       "thirdMoveCost": 10000,
       "types": [
@@ -89500,9 +89953,70 @@
         "MUD_SHOT",
         "SAND_ATTACK"
       ],
+      "level25CP": 702,
       "released": true,
       "speciesId": "sandygast",
       "speciesName": "Sandygast",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "ghost",
+        "ground"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 120,
+        "def": 118,
+        "hp": 146
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "SAND_TOMB",
+        "SHADOW_BALL",
+        "EARTH_POWER",
+        "SCORCHING_SANDS"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp2500": [
+          50,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          15.5,
+          5,
+          13,
+          14
+        ]
+      },
+      "dex": 769,
+      "family": {
+        "evolutions": [
+          "palossand_shadow"
+        ],
+        "id": "FAMILY_SANDYGAST"
+      },
+      "fastMoves": [
+        "ASTONISH",
+        "MUD_SHOT",
+        "SAND_ATTACK"
+      ],
+      "released": true,
+      "speciesId": "sandygast_shadow",
+      "speciesName": "Sandygast (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "ghost",
@@ -89558,9 +90072,74 @@
         "MUD_SHOT",
         "SAND_ATTACK"
       ],
+      "level25CP": 1490,
       "released": true,
       "speciesId": "palossand",
       "speciesName": "Palossand",
+      "tags": [
+        "shadoweligible"
+      ],
+      "thirdMoveCost": 50000,
+      "types": [
+        "ghost",
+        "ground"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 178,
+        "def": 178,
+        "hp": 198
+      },
+      "buddyDistance": 3,
+      "chargedMoves": [
+        "SAND_TOMB",
+        "SHADOW_BALL",
+        "EARTH_POWER",
+        "SCORCHING_SANDS"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          23,
+          4,
+          14,
+          12
+        ],
+        "cp2500": [
+          47,
+          4,
+          13,
+          15
+        ],
+        "cp2500l40": [
+          40,
+          15,
+          15,
+          15
+        ],
+        "cp500": [
+          8,
+          4,
+          10,
+          5
+        ]
+      },
+      "dex": 770,
+      "family": {
+        "id": "FAMILY_SANDYGAST",
+        "parent": "sandygast_shadow"
+      },
+      "fastMoves": [
+        "ASTONISH",
+        "MUD_SHOT",
+        "SAND_ATTACK"
+      ],
+      "released": true,
+      "speciesId": "palossand_shadow",
+      "speciesName": "Palossand (Shadow)",
+      "tags": [
+        "shadow"
+      ],
       "thirdMoveCost": 50000,
       "types": [
         "ghost",
@@ -94937,7 +95516,7 @@
       },
       "dex": 845,
       "extraChargedMoves": [
-        "GULP_MISSILE_ARROKUDA"
+        "GULP_MISSILE_PIKACHU"
       ],
       "fastMoves": [
         "PECK",
@@ -94945,15 +95524,15 @@
       ],
       "formChange": {
         "alternativeFormId": "cramorant",
-        "moveId": "GULP_MISSILE_ARROKUDA",
+        "moveId": "GULP_MISSILE_PIKACHU",
         "resetOnSwitch": true,
         "trigger": "charged_move",
         "type": "set"
       },
       "originalFormId": "cramorant",
       "released": false,
-      "speciesId": "cramorant_gulping",
-      "speciesName": "Cramorant (Gulping)",
+      "speciesId": "cramorant_gorging",
+      "speciesName": "Cramorant (Gorging)",
       "thirdMoveCost": 50000,
       "types": [
         "flying",
@@ -94995,7 +95574,7 @@
       },
       "dex": 845,
       "extraChargedMoves": [
-        "GULP_MISSILE_PIKACHU"
+        "GULP_MISSILE_ARROKUDA"
       ],
       "fastMoves": [
         "PECK",
@@ -95003,15 +95582,15 @@
       ],
       "formChange": {
         "alternativeFormId": "cramorant",
-        "moveId": "GULP_MISSILE_PIKACHU",
+        "moveId": "GULP_MISSILE_ARROKUDA",
         "resetOnSwitch": true,
         "trigger": "charged_move",
         "type": "set"
       },
       "originalFormId": "cramorant",
       "released": false,
-      "speciesId": "cramorant_gorging",
-      "speciesName": "Cramorant (Gorging)",
+      "speciesId": "cramorant_gulping",
+      "speciesName": "Cramorant (Gulping)",
       "thirdMoveCost": 50000,
       "types": [
         "flying",
@@ -106502,8 +107081,17 @@
     "reshiram",
     "axew",
     "fraxure",
-    "haxorus"
+    "haxorus",
+    "zekrom",
+    "sandygast",
+    "palossand",
+    "wimpod",
+    "golisopod",
+    "fomantis",
+    "lurantis",
+    "pancham",
+    "pangoro"
   ],
-  "timestamp": "2026-09-28 01:57:22",
+  "timestamp": "2026-10-04 00:17:21",
   "title": "Default"
 }
