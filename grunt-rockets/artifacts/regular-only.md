@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 - **Exclude unreleased**: true
-- **Date generated**: 2026-09-30
+- **Date generated**: 2026-10-07
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -442,4 +442,4 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 - **Floatzel** using _Waterfall_ (73%)
 - **Kabutops** using _Waterfall_ (73%)
 - **Golisopod** using _Waterfall_ (72%)
-- **Golisopod** using _Waterfall_ (72%)
+- **Samurott (Hisuian)** using _Waterfall_ (72%)

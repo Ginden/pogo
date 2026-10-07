@@ -2,7 +2,7 @@
 
 - **Excluded tags**: mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-09-30
+- **Date generated**: 2026-10-07
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -260,9 +260,9 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Salamence (Shadow)** using _Dragon Tail_ (69%)
 - **Dialga (Shadow)** using _Dragon Breath_ (69%)
 - **Reshiram (Shadow)** using _Dragon Breath_ (69%)
+- **Zekrom (Shadow)** using _Dragon Breath_ (69%)
 - **Latios (Shadow)** using _Dragon Breath_ (67%)
 - **Dragonite (Shadow)** using _Dragon Breath_ (66%)
-- **Dragonite (Shadow)** using _Dragon Tail_ (66%)
 
 ### Highest **electric** (⚡) fast move damage:
 
@@ -346,7 +346,7 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Shiftry (Shadow)** using _Razor Leaf_ (76%)
 - **Venusaur (Shadow)** using _Razor Leaf_ (76%)
 - **Rillaboom** using _Razor Leaf_ (75%)
-- **Tsareena** using _Razor Leaf_ (70%)
+- **Lurantis (Shadow)** using _Razor Leaf_ (73%)
 
 ### Highest **ground** (🏜️) fast move damage:
 
@@ -440,6 +440,6 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Crawdaunt (Shadow)** using _Waterfall_ (69%)
 - **Kyogre** using _Waterfall_ (69%)
 - **Kabutops (Shadow)** using _Waterfall_ (68%)
+- **Golisopod (Shadow)** using _Waterfall_ (67%)
 - **Barraskewda** using _Waterfall_ (66%)
 - **Samurott (Shadow)** using _Waterfall_ (66%)
-- **Empoleon (Shadow)** using _Waterfall_ (65%)
