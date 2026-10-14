@@ -54,10 +54,16 @@
             "swampert_mega",
             "latios_mega",
             "latias_mega",
+            "gallade_mega",
+            "gengar_mega",
             "kyogre",
             "xerneas",
             "yveltal",
-            "palkia_origin"
+            "palkia_origin",
+            "ursaluna",
+            "marshadow",
+            "lugia",
+            "kyurem_white"
           ]
         }
       ],
@@ -72025,15 +72031,20 @@
         ]
       },
       "dex": 571,
+      "eliteMoves": [
+        "SUCKER_PUNCH"
+      ],
       "family": {
         "id": "FAMILY_ZORUA",
         "parent": "zorua"
       },
       "fastMoves": [
         "SHADOW_CLAW",
-        "SNARL"
+        "SNARL",
+        "SUCKER_PUNCH"
       ],
       "released": true,
+      "searchPriority": 4,
       "speciesId": "zoroark",
       "speciesName": "Zoroark",
       "thirdMoveCost": 75000,
@@ -102038,7 +102049,7 @@
         "ASTONISH",
         "BULLET_SEED"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "bramblin",
       "speciesName": "Bramblin",
       "thirdMoveCost": 75000,
@@ -102094,7 +102105,7 @@
         "HEX",
         "BULLET_SEED"
       ],
-      "released": false,
+      "released": true,
       "speciesId": "brambleghast",
       "speciesName": "Brambleghast",
       "thirdMoveCost": 75000,
@@ -107092,6 +107103,6 @@
     "pancham",
     "pangoro"
   ],
-  "timestamp": "2026-10-04 00:17:21",
+  "timestamp": "2026-10-13 01:07:13",
   "title": "Default"
 }
