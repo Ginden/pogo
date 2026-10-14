@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 - **Exclude unreleased**: true
-- **Date generated**: 2026-10-07
+- **Date generated**: 2026-10-14
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -108,11 +108,11 @@
 - **Dragapult** using _Astonish_ (98%)
 - **Cursola** using _Astonish_ (94%)
 - **Gholdengo** using _Astonish_ (93%)
+- **Zoroark** using _Sucker Punch_ (93%)
 - **Polteageist** using _Astonish_ (92%)
 - **Dhelmise** using _Astonish_ (87%)
 - **Grimmsnarl** using _Sucker Punch_ (85%)
 - **Sinistcha** using _Astonish_ (84%)
-- **Haunter** using _Astonish_ (83%)
 
 # Anti-Grass 🌱
 
@@ -182,9 +182,9 @@
 - **Vikavolt** using _Bug Bite_ (94%)
 - **Cursola** using _Astonish_ (94%)
 - **Gholdengo** using _Astonish_ (93%)
+- **Zoroark** using _Sucker Punch_ (93%)
 - **Polteageist** using _Astonish_ (92%)
 - **Pinsir** using _Bug Bite_ (88%)
-- **Dhelmise** using _Astonish_ (87%)
 
 # Anti-Rock 🪨
 
@@ -242,6 +242,7 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 
 ### Highest **dark** (🌌) fast move damage:
 
+- **Zoroark** using _Sucker Punch_ (90%)
 - **Grimmsnarl** using _Sucker Punch_ (82%)
 - **Cacturne** using _Sucker Punch_ (80%)
 - **Gengar** using _Sucker Punch_ (78%)
@@ -250,7 +251,6 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 - **Bombirdier** using _Sucker Punch_ (72%)
 - **Lycanroc (Dusk)** using _Sucker Punch_ (70%)
 - **Lycanroc (Midday)** using _Sucker Punch_ (69%)
-- **Weavile** using _Feint Attack_ (65%)
 
 ### Highest **dragon** (🐉) fast move damage:
 

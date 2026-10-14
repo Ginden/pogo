@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow
 - **Exclude unreleased**: true
-- **Date generated**: 2026-10-07
+- **Date generated**: 2026-10-14
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -246,11 +246,11 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Darkrai** using _Sucker Punch_ (70%)
 - **Urshifu (Single Strike)** using _Sucker Punch_ (63%)
 - **Yveltal** using _Sucker Punch_ (62%)
+- **Zoroark** using _Sucker Punch_ (62%)
 - **Grimmsnarl** using _Sucker Punch_ (57%)
 - **Cacturne** using _Sucker Punch_ (55%)
 - **Greninja (Mega)** using _Feint Attack_ (55%)
 - **Marshadow** using _Sucker Punch_ (55%)
-- **Victreebel (Mega)** using _Sucker Punch_ (55%)
 
 ### Highest **dragon** (🐉) fast move damage:
 

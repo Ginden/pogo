@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega
 - **Exclude unreleased**: true
-- **Date generated**: 2026-10-07
+- **Date generated**: 2026-10-14
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -245,12 +245,12 @@ All Pokemon are normalized to neutral damage of Kartana using Razor Leaf
 - **Darkrai** using _Sucker Punch_ (79%)
 - **Urshifu (Single Strike)** using _Sucker Punch_ (71%)
 - **Yveltal** using _Sucker Punch_ (70%)
+- **Zoroark** using _Sucker Punch_ (70%)
 - **Grimmsnarl** using _Sucker Punch_ (64%)
 - **Cacturne** using _Sucker Punch_ (62%)
 - **Marshadow** using _Sucker Punch_ (61%)
 - **Gengar** using _Sucker Punch_ (60%)
 - **Darkrai** using _Feint Attack_ (59%)
-- **Polteageist** using _Sucker Punch_ (58%)
 
 ### Highest **dragon** (🐉) fast move damage:
 
