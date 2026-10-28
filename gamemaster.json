@@ -69,7 +69,12 @@
             "reshiram",
             "lunala",
             "zacian_crowned_sword",
-            "eternatus"
+            "eternatus",
+            "palkia",
+            "necrozma_dawn_wings",
+            "metagross",
+            "zamazenta_crowned_shield",
+            "zygarde_complete"
           ]
         }
       ],
@@ -477,6 +482,87 @@
     {
       "exclude": [
         {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "dark",
+            "fire",
+            "flying",
+            "poison",
+            "steel"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "name": "Tag",
+          "values": [
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "abomasnow",
+            "araquanid",
+            "carbink",
+            "clefable",
+            "corsola_galarian",
+            "dusclops",
+            "gourgeist_average",
+            "gourgeist_large",
+            "gourgeist_small",
+            "gourgeist_super",
+            "lanturn",
+            "mimikyu",
+            "ninetales_alolan",
+            "swadloon",
+            "wigglytuff"
+          ]
+        }
+      ],
+      "excludeLowPokemon": 1,
+      "include": [
+        {
+          "filterType": "type",
+          "name": "Type",
+          "values": [
+            "fairy",
+            "ghost",
+            "grass",
+            "water"
+          ]
+        },
+        {
+          "filterType": "id",
+          "name": "Species",
+          "values": [
+            "cetitan",
+            "dustox",
+            "flamigo",
+            "glalie",
+            "glalie_shadow",
+            "orbeetle",
+            "piloswine",
+            "piloswine_shadow",
+            "qwilfish",
+            "qwilfish_shadow",
+            "qwilfish_hisuian",
+            "venomoth",
+            "venomoth_shadow"
+          ]
+        }
+      ],
+      "league": 1500,
+      "link": "https://devon.gg/",
+      "name": "fable",
+      "overrides": [],
+      "title": "Fable Cup",
+      "useDefaultMovesets": 1
+    },
+    {
+      "exclude": [
+        {
           "filterType": "tag",
           "values": [
             "mega"
@@ -564,6 +650,25 @@
       ],
       "name": "gymbreakers",
       "title": "Gymbreakers Invitational Season 7"
+    },
+    {
+      "exclude": [],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "poison",
+            "ghost",
+            "bug",
+            "dark",
+            "fairy"
+          ]
+        }
+      ],
+      "name": "halloweenmega",
+      "partySize": 3,
+      "presetOnly": true,
+      "title": "Mega Halloween Cup"
     },
     {
       "exclude": [
@@ -1288,7 +1393,7 @@
       "cup": "mega",
       "meta": "megagreat",
       "rules": [
-        "Pokemon must be at or below 1, 500 CP to enter.",
+        "Pokemon must be at or below 1,500 CP to enter.",
         "Mega Evolutions are eligible."
       ],
       "showCup": true,
@@ -1301,7 +1406,7 @@
       "cup": "mega",
       "meta": "megaultra",
       "rules": [
-        "Pokemon must be at or below 2, 500 CP to enter.",
+        "Pokemon must be at or below 2,500 CP to enter.",
         "Mega Evolutions are eligible."
       ],
       "showCup": true,
@@ -1323,25 +1428,12 @@
       "title": "Mega Master League"
     },
     {
-      "cp": 500,
-      "cup": "little",
-      "meta": "little",
-      "rules": [
-        "Pokémon must be at or below 500 CP to enter.",
-        "Only Pokémon that are able to evolve and have not evolved even once are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Little Cup"
-    },
-    {
       "cp": 1500,
       "cup": "fantasy",
       "meta": "fantasy",
       "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Only Dragon-, Steel-, and Fairy-type Pokémon are eligible."
       ],
       "showCup": true,
       "showFormat": true,
@@ -1350,15 +1442,29 @@
     },
     {
       "cp": 1500,
+      "cup": "halloweenmega",
+      "meta": "halloweenmega",
+      "rules": [
+        "Pokémon must be at or below 1,500 CP to enter.",
+        "Mega-Evolved Pokémon are eligible.",
+        "Only Bug-, Poison-, Ghost-, Dark-, and Fairy-type Pokémon are eligible."
+      ],
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Mega Halloween Cup"
+    },
+    {
+      "cp": 1500,
       "cup": "laic2027",
       "meta": "laic2027",
       "rules": [
-        "Pokemon must be at or below 1, 500 CP to enter.",
+        "Pokemon must be at or below 1,500 CP to enter.",
         "Allowed Types: All besides those explicitly prohibited.",
-        "Allowed Categories: Shadow Pokemon,  Mega Evolution and Primal Reversion Pokemon. All Mega Evolution Pokémon are eligible even if they would otherwise be prohibited by a species,  typing,  or category.",
-        "Prohibited Types: Dark,  Fairy,  Fire,  Steel.",
-        "Prohibited Categories: Legendary,  Mythical,  Ultra Beasts.",
-        "Prohibited Pokemon: Altaria,  Annihilape,  Araquanid,  Chansey,  Clodsire,  Corsola (Galarian),  Dusclops,  Furret,  Jellicent,  Kingdra,  Medicham,  Oranguru,  Snorlax,  Wobbuffet,  Mega Sableye."
+        "Allowed Categories: Shadow Pokemon, Mega Evolution and Primal Reversion Pokemon. All Mega Evolution Pokémon are eligible even if they would otherwise be prohibited by a species, typing, or category.",
+        "Prohibited Types: Dark, Fairy, Fire, Steel.",
+        "Prohibited Categories: Legendary, Mythical, Ultra Beasts.",
+        "Prohibited Pokemon: Altaria, Annihilape, Araquanid, Chansey, Clodsire, Corsola (Galarian), Dusclops, Furret, Jellicent, Kingdra, Medicham, Oranguru, Snorlax, Wobbuffet, Mega Sableye."
       ],
       "showCup": true,
       "showFormat": true,
@@ -1403,6 +1509,15 @@
     },
     {
       "cp": 1500,
+      "cup": "fable",
+      "meta": "fable",
+      "showCup": true,
+      "showFormat": true,
+      "showMeta": true,
+      "title": "Devon Fable Cup"
+    },
+    {
+      "cp": 1500,
       "cup": "gymbreakers",
       "meta": "gymbreakers",
       "showCup": true,
@@ -1417,7 +1532,7 @@
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
+        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": false,
@@ -107129,6 +107244,6 @@
     "pancham",
     "pangoro"
   ],
-  "timestamp": "2026-10-21 03:50:13",
+  "timestamp": "2026-10-26 22:08:07",
   "title": "Default"
 }
