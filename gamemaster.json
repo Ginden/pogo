@@ -74,7 +74,11 @@
             "necrozma_dawn_wings",
             "metagross",
             "zamazenta_crowned_shield",
-            "zygarde_complete"
+            "zygarde_complete",
+            "dialga_origin",
+            "landorus_therian",
+            "keldeo_resolute",
+            "keldeo_ordinary"
           ]
         }
       ],
@@ -1393,7 +1397,7 @@
       "cup": "mega",
       "meta": "megagreat",
       "rules": [
-        "Pokemon must be at or below 1,500 CP to enter.",
+        "Pokemon must be at or below 1, 500 CP to enter.",
         "Mega Evolutions are eligible."
       ],
       "showCup": true,
@@ -1406,7 +1410,7 @@
       "cup": "mega",
       "meta": "megaultra",
       "rules": [
-        "Pokemon must be at or below 2,500 CP to enter.",
+        "Pokemon must be at or below 2, 500 CP to enter.",
         "Mega Evolutions are eligible."
       ],
       "showCup": true,
@@ -1432,8 +1436,8 @@
       "cup": "fantasy",
       "meta": "fantasy",
       "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
-        "Only Dragon-, Steel-, and Fairy-type Pokémon are eligible."
+        "Pokémon must be at or below 1, 500 CP to enter.",
+        "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."
       ],
       "showCup": true,
       "showFormat": true,
@@ -1445,9 +1449,9 @@
       "cup": "halloweenmega",
       "meta": "halloweenmega",
       "rules": [
-        "Pokémon must be at or below 1,500 CP to enter.",
+        "Pokémon must be at or below 1, 500 CP to enter.",
         "Mega-Evolved Pokémon are eligible.",
-        "Only Bug-, Poison-, Ghost-, Dark-, and Fairy-type Pokémon are eligible."
+        "Only Bug-,  Poison-,  Ghost-,  Dark-,  and Fairy-type Pokémon are eligible."
       ],
       "showCup": true,
       "showFormat": true,
@@ -1459,12 +1463,12 @@
       "cup": "laic2027",
       "meta": "laic2027",
       "rules": [
-        "Pokemon must be at or below 1,500 CP to enter.",
+        "Pokemon must be at or below 1, 500 CP to enter.",
         "Allowed Types: All besides those explicitly prohibited.",
-        "Allowed Categories: Shadow Pokemon, Mega Evolution and Primal Reversion Pokemon. All Mega Evolution Pokémon are eligible even if they would otherwise be prohibited by a species, typing, or category.",
-        "Prohibited Types: Dark, Fairy, Fire, Steel.",
-        "Prohibited Categories: Legendary, Mythical, Ultra Beasts.",
-        "Prohibited Pokemon: Altaria, Annihilape, Araquanid, Chansey, Clodsire, Corsola (Galarian), Dusclops, Furret, Jellicent, Kingdra, Medicham, Oranguru, Snorlax, Wobbuffet, Mega Sableye."
+        "Allowed Categories: Shadow Pokemon,  Mega Evolution and Primal Reversion Pokemon. All Mega Evolution Pokémon are eligible even if they would otherwise be prohibited by a species,  typing,  or category.",
+        "Prohibited Types: Dark,  Fairy,  Fire,  Steel.",
+        "Prohibited Categories: Legendary,  Mythical,  Ultra Beasts.",
+        "Prohibited Pokemon: Altaria,  Annihilape,  Araquanid,  Chansey,  Clodsire,  Corsola (Galarian),  Dusclops,  Furret,  Jellicent,  Kingdra,  Medicham,  Oranguru,  Snorlax,  Wobbuffet,  Mega Sableye."
       ],
       "showCup": true,
       "showFormat": true,
@@ -1532,7 +1536,7 @@
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
+        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": false,
@@ -3887,6 +3891,18 @@
       "type": "fighting"
     },
     {
+      "abbreviation": "KTC",
+      "archetype": "Spam/Bait",
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "moveId": "KOWTOW_CLEAVE",
+      "name": "Kowtow Cleave",
+      "power": 75,
+      "turns": 1,
+      "type": "dark"
+    },
+    {
       "archetype": "High Energy",
       "cooldown": 500,
       "energy": 55,
@@ -4393,6 +4409,19 @@
       "type": "ghost"
     },
     {
+      "abbreviation": "NSh+",
+      "archetype": "General",
+      "cooldown": 500,
+      "energy": 45,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "NIGHT_SHADE_PLUS",
+      "name": "Night Shade+",
+      "power": 55,
+      "turns": 1,
+      "type": "ghost"
+    },
+    {
       "archetype": "Boost Spam",
       "buffApplyChance": ".125",
       "buffTarget": "self",
@@ -4472,7 +4501,7 @@
       "type": "water"
     },
     {
-      "archetype": "Boost",
+      "archetype": "Boost Spam",
       "buffApplyChance": ".1",
       "buffTarget": "self",
       "buffs": [
@@ -4485,6 +4514,25 @@
       "moveId": "OMINOUS_WIND",
       "name": "Ominous Wind",
       "power": 45,
+      "turns": 1,
+      "type": "ghost"
+    },
+    {
+      "abbreviation": "OW+",
+      "archetype": "Boost",
+      "buffApplyChance": ".1",
+      "buffTarget": "self",
+      "buffs": [
+        1,
+        1
+      ],
+      "cooldown": 500,
+      "energy": 40,
+      "energyGain": 0,
+      "isMegaMove": true,
+      "moveId": "OMINOUS_WIND_PLUS",
+      "name": "Ominous Wind+",
+      "power": 50,
       "turns": 1,
       "type": "ghost"
     },
@@ -43763,6 +43811,9 @@
         ]
       },
       "dex": 302,
+      "extraChargedMoves": [
+        "NIGHT_SHADE_PLUS"
+      ],
       "fastMoves": [
         "FEINT_ATTACK",
         "SHADOW_CLAW"
@@ -43773,7 +43824,8 @@
       "speciesName": "Sableye (Mega)",
       "tags": [
         "shadoweligible",
-        "mega"
+        "mega",
+        "supermega"
       ],
       "thirdMoveCost": 75000,
       "types": [
@@ -75463,6 +75515,74 @@
       "speciesName": "Chandelure",
       "tags": [
         "shadoweligible"
+      ],
+      "thirdMoveCost": 75000,
+      "types": [
+        "ghost",
+        "fire"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 335,
+        "def": 227,
+        "hp": 155
+      },
+      "buddyDistance": 5,
+      "chargedMoves": [
+        "ENERGY_BALL",
+        "SHADOW_BALL",
+        "OVERHEAT",
+        "FLAME_CHARGE",
+        "POLTERGEIST"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          12.5,
+          4,
+          7,
+          13
+        ],
+        "cp2500": [
+          20.5,
+          4,
+          13,
+          14
+        ],
+        "cp500": [
+          4.5,
+          4,
+          9,
+          10
+        ]
+      },
+      "dex": 609,
+      "eliteMoves": [
+        "POLTERGEIST"
+      ],
+      "extraChargedMoves": [
+        "OMINOUS_WIND_PLUS"
+      ],
+      "family": {
+        "id": "FAMILY_LITWICK",
+        "parent": "lampent"
+      },
+      "fastMoves": [
+        "HEX",
+        "FIRE_SPIN",
+        "INCINERATE",
+        "ASTONISH"
+      ],
+      "level25CP": 2030,
+      "released": true,
+      "speciesId": "chandelure_mega",
+      "speciesName": "Chandelure (Mega)",
+      "tags": [
+        "shadoweligible",
+        "mega",
+        "supermega",
+        "include1500",
+        "include2500"
       ],
       "thirdMoveCost": 75000,
       "types": [
@@ -107244,6 +107364,6 @@
     "pancham",
     "pangoro"
   ],
-  "timestamp": "2026-10-26 22:08:07",
+  "timestamp": "2026-11-03 04:09:55",
   "title": "Default"
 }
