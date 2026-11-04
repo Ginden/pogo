@@ -2,21 +2,21 @@
 
 - **Excluded tags**: none
 - **Exclude unreleased**: true
-- **Date generated**: 2026-10-28
+- **Date generated**: 2026-11-04
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
 # Anti-Bug 🪲
 
 - **Diancie (Mega)** using _Rock Throw_ (100%)
+- **Chandelure (Mega)** using _Incinerate_ (98%)
 - **Reshiram (Shadow)** using _Fire Fang_ (97%)
 - **Chandelure (Shadow)** using _Incinerate_ (96%)
 - **Rampardos (Shadow)** using _Smack Down_ (96%)
 - **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (93%)
 - **Darmanitan (Standard) (Shadow)** using _Incinerate_ (93%)
 - **Blacephalon** using _Incinerate_ (92%)
-- **Delphox (Mega)** using _Fire Spin_ (89%)
-- **Blaziken (Mega)** using _Fire Spin_ (88%)
+- **Chandelure (Mega)** using _Fire Spin_ (90%)
 
 # Anti-Dark 🌌
 
@@ -105,6 +105,7 @@
 # Anti-Ghost 👻
 
 - **Darkrai (Shadow)** using _Sucker Punch_ (100%)
+- **Chandelure (Mega)** using _Astonish_ (97%)
 - **Chandelure (Shadow)** using _Astonish_ (95%)
 - **Blacephalon** using _Astonish_ (92%)
 - **Gengar (Mega)** using _Sucker Punch_ (84%)
@@ -112,19 +113,18 @@
 - **Chandelure** using _Astonish_ (79%)
 - **Haunter (Shadow)** using _Astonish_ (79%)
 - **Golurk (Shadow)** using _Astonish_ (79%)
-- **Cacturne (Shadow)** using _Sucker Punch_ (79%)
 
 # Anti-Grass 🌱
 
-- **Reshiram (Shadow)** using _Fire Fang_ (100%)
-- **Chandelure (Shadow)** using _Incinerate_ (99%)
-- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (96%)
-- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (96%)
+- **Chandelure (Mega)** using _Incinerate_ (100%)
+- **Reshiram (Shadow)** using _Fire Fang_ (99%)
+- **Chandelure (Shadow)** using _Incinerate_ (98%)
+- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (95%)
+- **Darmanitan (Standard) (Shadow)** using _Incinerate_ (95%)
 - **Pheromosa** using _Bug Bite_ (95%)
-- **Blacephalon** using _Incinerate_ (95%)
+- **Blacephalon** using _Incinerate_ (94%)
 - **Kyurem (White)** using _Ice Fang_ (93%)
-- **Vikavolt (Shadow)** using _Bug Bite_ (93%)
-- **Pinsir (Mega)** using _Bug Bite_ (92%)
+- **Vikavolt (Shadow)** using _Bug Bite_ (92%)
 
 # Anti-Ground 🏜️
 
@@ -144,11 +144,11 @@
 - **Diancie (Mega)** using _Rock Throw_ (86%)
 - **Mewtwo (Mega Y)** using _Counter_ (86%)
 - **Lucario (Mega)** using _Force Palm_ (85%)
+- **Chandelure (Mega)** using _Incinerate_ (85%)
 - **Heracross (Mega)** using _Counter_ (84%)
 - **Reshiram (Shadow)** using _Fire Fang_ (84%)
 - **Blaziken (Mega)** using _Counter_ (83%)
 - **Chandelure (Shadow)** using _Incinerate_ (83%)
-- **Rampardos (Shadow)** using _Smack Down_ (82%)
 
 # Anti-Normal ⚪
 
@@ -177,6 +177,7 @@
 # Anti-Psychic 🔮
 
 - **Darkrai (Shadow)** using _Sucker Punch_ (100%)
+- **Chandelure (Mega)** using _Astonish_ (97%)
 - **Chandelure (Shadow)** using _Astonish_ (95%)
 - **Pheromosa** using _Bug Bite_ (92%)
 - **Blacephalon** using _Astonish_ (92%)
@@ -184,7 +185,6 @@
 - **Pinsir (Mega)** using _Bug Bite_ (89%)
 - **Beedrill (Mega)** using _Bug Bite_ (88%)
 - **Pinsir (Shadow)** using _Bug Bite_ (84%)
-- **Gengar (Mega)** using _Sucker Punch_ (84%)
 
 # Anti-Rock 🪨
 
@@ -203,12 +203,12 @@
 - **Mewtwo (Mega X)** using _Counter_ (100%)
 - **Mewtwo (Mega Y)** using _Counter_ (86%)
 - **Lucario (Mega)** using _Force Palm_ (85%)
+- **Chandelure (Mega)** using _Incinerate_ (85%)
 - **Heracross (Mega)** using _Counter_ (84%)
 - **Reshiram (Shadow)** using _Fire Fang_ (84%)
 - **Blaziken (Mega)** using _Counter_ (83%)
 - **Chandelure (Shadow)** using _Incinerate_ (83%)
 - **Conkeldurr (Shadow)** using _Force Palm_ (81%)
-- **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (81%)
 
 # Anti-Water 💧
 
@@ -302,15 +302,15 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 
 ### Highest **fire** (🔥) fast move damage:
 
+- **Chandelure (Mega)** using _Incinerate_ (82%)
 - **Reshiram (Shadow)** using _Fire Fang_ (81%)
 - **Chandelure (Shadow)** using _Incinerate_ (80%)
 - **Darmanitan (Standard) (Shadow)** using _Fire Fang_ (78%)
 - **Darmanitan (Standard) (Shadow)** using _Incinerate_ (78%)
 - **Blacephalon** using _Incinerate_ (77%)
+- **Chandelure (Mega)** using _Fire Spin_ (75%)
 - **Delphox (Mega)** using _Fire Spin_ (74%)
 - **Blaziken (Mega)** using _Fire Spin_ (74%)
-- **Chandelure (Shadow)** using _Fire Spin_ (74%)
-- **Charizard (Mega Y)** using _Fire Spin_ (72%)
 
 ### Highest **flying** (🕊️) fast move damage:
 
@@ -326,6 +326,7 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 
 ### Highest **ghost** (👻) fast move damage:
 
+- **Chandelure (Mega)** using _Astonish_ (82%)
 - **Chandelure (Shadow)** using _Astonish_ (80%)
 - **Blacephalon** using _Astonish_ (77%)
 - **Chandelure** using _Astonish_ (67%)
@@ -334,7 +335,6 @@ All Pokemon are normalized to neutral damage of Mewtwo (Mega Y) using Confusion
 - **Dragapult** using _Astonish_ (66%)
 - **Thundurus (Incarnate) (Shadow)** using _Astonish_ (66%)
 - **Hoopa** using _Astonish_ (65%)
-- **Gengar (Mega)** using _Lick_ (64%)
 
 ### Highest **grass** (🌱) fast move damage:
 
