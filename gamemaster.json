@@ -806,6 +806,74 @@
     {
       "exclude": [
         {
+          "filterType": "type",
+          "values": [
+            "dark",
+            "fairy",
+            "fire",
+            "steel"
+          ]
+        },
+        {
+          "filterType": "tag",
+          "values": [
+            "legendary",
+            "mythical",
+            "ultrabeast",
+            "mega"
+          ]
+        },
+        {
+          "filterType": "id",
+          "values": [
+            "altaria",
+            "annihilape",
+            "araquanid",
+            "chansey",
+            "clodsire",
+            "corsola_galarian",
+            "dusclops",
+            "furret",
+            "jellicent",
+            "kingdra",
+            "medicham",
+            "oranguru",
+            "snorlax",
+            "wobbuffet"
+          ]
+        }
+      ],
+      "include": [
+        {
+          "filterType": "type",
+          "values": [
+            "bug",
+            "dark",
+            "dragon",
+            "electric",
+            "fairy",
+            "fighting",
+            "fire",
+            "flying",
+            "ghost",
+            "grass",
+            "ground",
+            "ice",
+            "normal",
+            "poison",
+            "psychic",
+            "rock",
+            "steel",
+            "water"
+          ]
+        }
+      ],
+      "name": "laic2027gbl",
+      "title": "LAIC 2027 Championship Series Cup (GBL)"
+    },
+    {
+      "exclude": [
+        {
           "filterType": "id",
           "values": [
             "bellibolt",
@@ -1433,30 +1501,19 @@
     },
     {
       "cp": 1500,
-      "cup": "fantasy",
-      "meta": "fantasy",
+      "cup": "laic2027gbl",
+      "meta": "laic2027gbl",
       "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."
+        "Pokemon must be at or below 1, 500 CP to enter.",
+        "Fire-,  Dark-,  Steel-,  and Fairy-type Pokémon are not eligible.",
+        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible.",
+        "Mega-Evolved Pokémon are not eligible for the GO Battle League version of this Cup. However,  Mega-Evolved Pokémon will be eligible for the Pokémon Latin America International Championships 2026 in-person competition.",
+        "Prohibited Pokemon: Altaria,  Annihilape,  Araquanid,  Chansey,  Clodsire,  Corsola (Galarian),  Dusclops,  Furret,  Jellicent,  Kingdra,  Medicham,  Oranguru,  Snorlax,  Wobbuffet,  Mega Sableye."
       ],
       "showCup": true,
       "showFormat": true,
       "showMeta": true,
-      "title": "Fantasy Cup"
-    },
-    {
-      "cp": 1500,
-      "cup": "halloweenmega",
-      "meta": "halloweenmega",
-      "rules": [
-        "Pokémon must be at or below 1, 500 CP to enter.",
-        "Mega-Evolved Pokémon are eligible.",
-        "Only Bug-,  Poison-,  Ghost-,  Dark-,  and Fairy-type Pokémon are eligible."
-      ],
-      "showCup": true,
-      "showFormat": true,
-      "showMeta": true,
-      "title": "Mega Halloween Cup"
+      "title": "LAIC 2027 Cup (GBL)"
     },
     {
       "cp": 1500,
@@ -107364,6 +107421,6 @@
     "pancham",
     "pangoro"
   ],
-  "timestamp": "2026-11-03 04:09:55",
+  "timestamp": "2026-11-09 18:40:51",
   "title": "Default"
 }
