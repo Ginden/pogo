@@ -795,7 +795,13 @@
             "malamar_mega",
             "manectric_mega",
             "banette_mega",
-            "gardevoir_mega"
+            "gardevoir_mega",
+            "mewtwo_mega_x",
+            "mewtwo_mega_y",
+            "rayquaza_mega",
+            "kyogre_primal",
+            "groudon_primal",
+            "metagross_mega"
           ]
         }
       ],
@@ -913,21 +919,7 @@
       "title": "Little Cup"
     },
     {
-      "exclude": [
-        {
-          "filterType": "id",
-          "leagues": [
-            1500
-          ],
-          "values": [
-            "mewtwo_mega_x",
-            "mewtwo_mega_y",
-            "kyogre_primal",
-            "groudon_primal",
-            "rayquaza_mega"
-          ]
-        }
-      ],
+      "exclude": [],
       "excludeLowPokemon": true,
       "include": [],
       "name": "mega",
@@ -1465,7 +1457,7 @@
       "cup": "mega",
       "meta": "megagreat",
       "rules": [
-        "Pokemon must be at or below 1, 500 CP to enter.",
+        "Pokemon must be at or below 1,500 CP to enter.",
         "Mega Evolutions are eligible."
       ],
       "showCup": true,
@@ -1478,7 +1470,7 @@
       "cup": "mega",
       "meta": "megaultra",
       "rules": [
-        "Pokemon must be at or below 2, 500 CP to enter.",
+        "Pokemon must be at or below 2,500 CP to enter.",
         "Mega Evolutions are eligible."
       ],
       "showCup": true,
@@ -1504,11 +1496,11 @@
       "cup": "laic2027gbl",
       "meta": "laic2027gbl",
       "rules": [
-        "Pokemon must be at or below 1, 500 CP to enter.",
-        "Fire-,  Dark-,  Steel-,  and Fairy-type Pokémon are not eligible.",
-        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible.",
-        "Mega-Evolved Pokémon are not eligible for the GO Battle League version of this Cup. However,  Mega-Evolved Pokémon will be eligible for the Pokémon Latin America International Championships 2026 in-person competition.",
-        "Prohibited Pokemon: Altaria,  Annihilape,  Araquanid,  Chansey,  Clodsire,  Corsola (Galarian),  Dusclops,  Furret,  Jellicent,  Kingdra,  Medicham,  Oranguru,  Snorlax,  Wobbuffet,  Mega Sableye."
+        "Pokemon must be at or below 1,500 CP to enter.",
+        "Fire-, Dark-, Steel-, and Fairy-type Pokémon are not eligible.",
+        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible.",
+        "Mega-Evolved Pokémon are not eligible for the GO Battle League version of this Cup. However, Mega-Evolved Pokémon will be eligible for the Pokémon Latin America International Championships 2026 in-person competition.",
+        "Prohibited Pokemon: Altaria, Annihilape, Araquanid, Chansey, Clodsire, Corsola (Galarian), Dusclops, Furret, Jellicent, Kingdra, Medicham, Oranguru, Snorlax, Wobbuffet, Mega Sableye."
       ],
       "showCup": true,
       "showFormat": true,
@@ -1520,12 +1512,12 @@
       "cup": "laic2027",
       "meta": "laic2027",
       "rules": [
-        "Pokemon must be at or below 1, 500 CP to enter.",
+        "Pokemon must be at or below 1,500 CP to enter.",
         "Allowed Types: All besides those explicitly prohibited.",
-        "Allowed Categories: Shadow Pokemon,  Mega Evolution and Primal Reversion Pokemon. All Mega Evolution Pokémon are eligible even if they would otherwise be prohibited by a species,  typing,  or category.",
-        "Prohibited Types: Dark,  Fairy,  Fire,  Steel.",
-        "Prohibited Categories: Legendary,  Mythical,  Ultra Beasts.",
-        "Prohibited Pokemon: Altaria,  Annihilape,  Araquanid,  Chansey,  Clodsire,  Corsola (Galarian),  Dusclops,  Furret,  Jellicent,  Kingdra,  Medicham,  Oranguru,  Snorlax,  Wobbuffet,  Mega Sableye."
+        "Allowed Categories: Shadow Pokemon, Mega Evolution and Primal Reversion Pokemon. All Mega Evolution Pokémon are eligible even if they would otherwise be prohibited by a species, typing, or category.",
+        "Prohibited Types: Dark, Fairy, Fire, Steel.",
+        "Prohibited Categories: Legendary, Mythical, Ultra Beasts.",
+        "Prohibited Pokemon: Altaria, Annihilape, Araquanid, Chansey, Clodsire, Corsola (Galarian), Dusclops, Furret, Jellicent, Kingdra, Medicham, Oranguru, Snorlax, Wobbuffet, Mega Sableye."
       ],
       "showCup": true,
       "showFormat": true,
@@ -1593,7 +1585,7 @@
       "meta": "premiermaster",
       "rules": [
         "No CP limit.",
-        "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."
+        "Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
       ],
       "showCup": true,
       "showFormat": false,
@@ -1666,8 +1658,6 @@
     "solgaleo",
     "lunala",
     "keldeo_ordinary",
-    "kyogre_primal",
-    "groudon_primal",
     "zygarde_complete",
     "enamorus_therian",
     "enamorus_incarnate",
@@ -4339,6 +4329,24 @@
       "type": "fairy"
     },
     {
+      "abbreviation": "M+",
+      "archetype": "Debuff",
+      "buffApplyChance": ".1",
+      "buffTarget": "opponent",
+      "buffs": [
+        -1,
+        0
+      ],
+      "cooldown": 500,
+      "energy": 50,
+      "energyGain": 0,
+      "moveId": "MOONBLAST_PLUS",
+      "name": "Moonblast+",
+      "power": 80,
+      "turns": 1,
+      "type": "fairy"
+    },
+    {
       "abbreviation": "MoG",
       "archetype": "Nuke",
       "cooldown": 500,
@@ -5565,6 +5573,18 @@
       "name": "Snipe Shot",
       "power": 65,
       "turns": 1,
+      "type": "water"
+    },
+    {
+      "abbreviation": "Sk",
+      "archetype": "Multipurpose",
+      "cooldown": 1000,
+      "energy": 0,
+      "energyGain": 8,
+      "moveId": "SOAK",
+      "name": "Soak",
+      "power": 6,
+      "turns": 2,
       "type": "water"
     },
     {
@@ -11899,6 +11919,73 @@
       "searchPriority": 3,
       "speciesId": "clefable",
       "speciesName": "Clefable",
+      "thirdMoveCost": 10000,
+      "types": [
+        "fairy",
+        "none"
+      ]
+    },
+    {
+      "baseStats": {
+        "atk": 253,
+        "def": 205,
+        "hp": 216
+      },
+      "buddyDistance": 1,
+      "chargedMoves": [
+        "DAZZLING_GLEAM",
+        "METEOR_MASH",
+        "MOONBLAST",
+        "PSYCHIC",
+        "SWIFT",
+        "DRAINING_KISS"
+      ],
+      "defaultIVs": {
+        "cp1500": [
+          14.5,
+          4,
+          15,
+          14
+        ],
+        "cp2500": [
+          24.5,
+          4,
+          13,
+          11
+        ],
+        "cp500": [
+          5,
+          11,
+          14,
+          15
+        ]
+      },
+      "dex": 36,
+      "eliteMoves": [
+        "POUND"
+      ],
+      "extraChargedMoves": [
+        "MOONBLAST_PLUS"
+      ],
+      "family": {
+        "id": "FAMILY_CLEFAIRY",
+        "parent": "clefairy"
+      },
+      "fastMoves": [
+        "CHARGE_BEAM",
+        "POUND",
+        "ZEN_HEADBUTT",
+        "CHARM",
+        "FAIRY_WIND"
+      ],
+      "released": false,
+      "searchPriority": 3,
+      "speciesId": "clefable_mega",
+      "speciesName": "Clefable (Mega)",
+      "tags": [
+        "mega",
+        "supermega"
+      ],
       "thirdMoveCost": 10000,
       "types": [
         "fairy",
@@ -60532,7 +60619,8 @@
         "FLASH_CANNON",
         "WILD_CHARGE",
         "ZAP_CANNON",
-        "MIRROR_SHOT"
+        "MIRROR_SHOT",
+        "MAGNET_BOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -60555,6 +60643,9 @@
         ]
       },
       "dex": 462,
+      "eliteMoves": [
+        "MAGNET_BOMB"
+      ],
       "family": {
         "id": "FAMILY_MAGNEMITE",
         "parent": "magneton"
@@ -60593,7 +60684,8 @@
         "FLASH_CANNON",
         "WILD_CHARGE",
         "ZAP_CANNON",
-        "MIRROR_SHOT"
+        "MIRROR_SHOT",
+        "MAGNET_BOMB"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -60616,6 +60708,9 @@
         ]
       },
       "dex": 462,
+      "eliteMoves": [
+        "MAGNET_BOMB"
+      ],
       "family": {
         "id": "FAMILY_MAGNEMITE",
         "parent": "magneton_shadow"
@@ -84468,7 +84563,7 @@
         "WATER_GUN",
         "TACKLE"
       ],
-      "released": false,
+      "released": true,
       "searchPriority": 4,
       "speciesId": "sliggoo_hisuian",
       "speciesName": "Sliggoo (Hisuian)",
@@ -84581,7 +84676,7 @@
         "DRAGON_TAIL",
         "IRON_TAIL"
       ],
-      "released": false,
+      "released": true,
       "searchPriority": 6,
       "speciesId": "goodra_hisuian",
       "speciesName": "Goodra (Hisuian)",
@@ -98037,6 +98132,14 @@
         "BITE",
         "THUNDER_SHOCK"
       ],
+      "formChange": {
+        "alternativeFormId": "morpeko_full_belly",
+        "defaultFormId": "morpeko_full_belly",
+        "moveId": "ANY",
+        "resetOnSwitch": true,
+        "trigger": "charged_move",
+        "type": "toggle"
+      },
       "originalFormId": "morpeko_full_belly",
       "released": false,
       "speciesId": "morpeko_hangry",
@@ -107421,6 +107524,6 @@
     "pancham",
     "pangoro"
   ],
-  "timestamp": "2026-11-09 18:40:51",
+  "timestamp": "2026-11-17 14:44:05",
   "title": "Default"
 }
