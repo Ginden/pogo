@@ -2,7 +2,7 @@
 
 - **Excluded tags**: shadow, mega, legendary, mythical, ultrabeast
 - **Exclude unreleased**: true
-- **Date generated**: 2026-11-11
+- **Date generated**: 2026-11-18
 - **Excluded Pokemon**: ditto, deoxys_attack
 - **Attack IV assumed**: 15
 
@@ -428,9 +428,9 @@ All Pokemon are normalized to neutral damage of Mienshao using Force Palm
 - **Scizor** using _Bullet Punch_ (74%)
 - **Dragonite** using _Steel Wing_ (69%)
 - **Empoleon** using _Steel Wing_ (67%)
+- **Goodra (Hisuian)** using _Iron Tail_ (64%)
 - **Tyranitar** using _Iron Tail_ (62%)
 - **Machamp** using _Bullet Punch_ (61%)
-- **Braviary** using _Steel Wing_ (61%)
 
 ### Highest **water** (💧) fast move damage:
 
