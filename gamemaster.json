@@ -4340,6 +4340,7 @@
       "cooldown": 500,
       "energy": 50,
       "energyGain": 0,
+      "isMegaMove": true,
       "moveId": "MOONBLAST_PLUS",
       "name": "Moonblast+",
       "power": 80,
@@ -11989,7 +11990,7 @@
       "thirdMoveCost": 10000,
       "types": [
         "fairy",
-        "none"
+        "flying"
       ]
     },
     {
@@ -104691,7 +104692,8 @@
         "IRON_HEAD",
         "X_SCISSOR",
         "FOCUS_BLAST",
-        "FOUL_PLAY"
+        "FOUL_PLAY",
+        "KOWTOW_CLEAVE"
       ],
       "defaultIVs": {
         "cp1500": [
@@ -104714,6 +104716,9 @@
         ]
       },
       "dex": 983,
+      "eliteMoves": [
+        "KOWTOW_CLEAVE"
+      ],
       "family": {
         "id": "FAMILY_PAWNIARD",
         "parent": "bisharp"
@@ -104723,6 +104728,9 @@
         "METAL_CLAW",
         "METAL_SOUND",
         "LOW_KICK"
+      ],
+      "nicknames": [
+        "gambit"
       ],
       "released": true,
       "searchPriority": 3,
@@ -107524,6 +107532,6 @@
     "pancham",
     "pangoro"
   ],
-  "timestamp": "2026-11-17 14:44:05",
+  "timestamp": "2026-11-24 16:56:51",
   "title": "Default"
 }
